@@ -1,0 +1,5 @@
+Frequency distribution:
+1	75
+2	25
+3	10
+4	36

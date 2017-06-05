@@ -1,0 +1,17 @@
+-d data/fna \
+-i 0.9 \
+-f F \
+-p 4 \
+-g null \
+-c usearch \
+-b tblastn \
+-l 0.7 \
+-m 0.85 \
+-n 75 \
+-t F \
+-k F \
+-s T \
+-e F \
+-x NULL \
+-z F
+temp data stored here if kept: /home/haruo/projects/mgsa/lsbsr/2017-06-05/tmp
