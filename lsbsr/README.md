@@ -7,6 +7,17 @@ Last Update: 2017-06-05
 
 # [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
 
+## Acknowledgements
+
+I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
+
+## References
+
+https://www.ncbi.nlm.nih.gov/pubmed/24749011
+PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
+The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
+Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
+
 ----------
 
 ## Project directory structures
@@ -313,20 +324,6 @@ Given a BSR matrix, a consensus file, and locus tags, such as those produced wit
 
 
 The new BSR matrix were not annotated by locus tags...
-
-----------
-
-# Acknowledgements
-I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
-
-----------
-
-# References
-
-https://www.ncbi.nlm.nih.gov/pubmed/24749011
-PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
-The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
-Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
 
 ----------
 
