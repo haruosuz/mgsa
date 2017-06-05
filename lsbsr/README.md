@@ -65,15 +65,15 @@ Download LS-BSR into your home directory using:
 
 1. Test the gene screen method with tblastn:
 
-    ls_bsr.py -d test_data/genomes -g test_data/genes/ecoli_markers.fasta
+        ls_bsr.py -d test_data/genomes -g test_data/genes/ecoli_markers.fasta
 
 2. Test the gene screen method with blastn:
 
-    ls_bsr.py -d test_data/genomes -g test_data/genes/ecoli_markers.fasta -b blastn
+        ls_bsr.py -d test_data/genomes -g test_data/genes/ecoli_markers.fasta -b blastn
 
 3. Test the de novo gene prediction method:
 
-    ls_bsr.py -d test_data/genomes -c usearch
+        ls_bsr.py -d test_data/genomes -c usearch
 
 ### Post-matrix scripts
 
@@ -291,6 +291,7 @@ This script extracts core genome regions from all genomes, aligns them, then con
 
     # Running the script
     extract_core_genome.py -d genomes -g consensus.fasta
+    extract_core_genome.py -d data/fna -g ${PREFIX}consensus.fasta
 
 This did not generate any output file...
 
@@ -304,6 +305,7 @@ Given a BSR matrix, a consensus file, and locus tags, such as those produced wit
     consensus.fasta
 
     # Running the script
+    annotate_matrix_by_locus_tags.py -b ${PREFIX}bsr_matrix.txt -c ${PREFIX}consensus.fasta -l data/gbk/NC_001735.fasta -t 80
 
     # Output files
     bsr_matrix_annotated.txt
