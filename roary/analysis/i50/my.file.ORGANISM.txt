@@ -1,0 +1,4 @@
+NC_001735.gbk: Enterobacter aerogenes
+NC_005088.gbk: Delftia acidovorans
+NC_007337.gbk: Ralstonia eutropha JMP134
+NC_008459.gbk: Bordetella pertussis

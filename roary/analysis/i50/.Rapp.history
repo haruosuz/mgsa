@@ -1,0 +1,925 @@
+mat
+dist(mat)
+hc <- hclust(dist(mat))#
+plot(hc)
+heatmap(mat)
+library(gplots)#
+#
+heatmap(mat, Colv=NA, col=greenred(10))
+?heatmap
+heatmap(mat, Colv=NA, col=greenred(10), scale="none")
+mat
+t(mat)
+cor(t(mat))
+1 - cor(t(mat))
+hc <- hclust(as.dist(1-cor(t(mat))))#
+plot(hc)
+heatmap(mat, Rowv=as.dendrogram(hc), Colv=NA, col=greenred(10))
+?hclust
+# 5個体について2変数(x1,x2)の値が格納された行列データを作成#
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+rownames(x) <- 1:5#
+#
+# データを散布図にプロット#
+plot(x)#
+#
+plot(x, type="n")#
+text(x, labels=rownames(x))#
+#
+# クラスターの結合方法#
+# dist()関数で個体間の非類似度（距離）測定 method = "euclidean", "manhattan", "binary", ...#
+dist(x)#
+d <- dist(x, method="manhattan") # マンハッタン距離（2点間の差の絶対値の総和）#
+#
+# hclust()関数で階層的クラスター分析 method = "single", "complete", "average" (UPGMA), ...#
+hclust(d)#
+hc <- hclust(d, method="single") # 最短距離法#
+#
+# グループの形成方法#
+plot(hc) # 樹形図（Cluster Dendrogram）
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)
+x
+plot(hclust(dist(x), "single"))
+https://github.com/haruosuz/DS4GD/blob/master/hclust.md#clustering#
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+plot(hclust(dist(x), "single"))
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+rownames(x) <- 1:5#
+#
+# データを散布図にプロット#
+plot(x)#
+#
+plot(x, type="n")#
+text(x, labels=rownames(x))#
+#
+# クラスターの結合方法#
+# dist()関数で個体間の非類似度（距離）測定 method = "euclidean", "manhattan", "binary", ...#
+dist(x)#
+d <- dist(x, method="manhattan") # マンハッタン距離（2点間の差の絶対値の総和）#
+#
+# hclust()関数で階層的クラスター分析 method = "single", "complete", "average" (UPGMA), ...#
+hclust(d)#
+hc <- hclust(d, method="single") # 最短距離法#
+#
+# グループの形成方法#
+plot(hc) # 樹形図（Cluster Dendrogram）
+x <- cbind(x1,x2)#
+plot(hclust(dist(x), "single"))
+plot(hclust(dist(x), method="single"))
+https://github.com/haruosuz/DS4GD/blob/master/hclust.md#clustering#
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+plot(hclust(dist(x, method="manhattan"), method="single"))
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="single")
+# https://github.com/haruosuz/DS4GD/blob/master/hclust.md#clustering#
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="single")#
+plot(hc)
+?plclust
+# https://github.com/haruosuz/DS4GD/blob/master/hclust.md#clustering#
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="single")#
+plot(hc, hang = -1)
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="single")#
+plot(hc, hang = -1)
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="average")#
+plot(hc, hang = -1)
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="average") # UPGMA#
+plot(hc, hang = -1)
+NAME="Pseudomonas"#
+	awk -F "\t" '$8 ~ /'"$NAME"'/ && $11=="latest" && $12 ~ /Complete Genome/ {print $8,$9}' $FILE | grep -i "phage"#
+	ftpdirpaths=($(grep -v "phage" $FILE | awk -F "\t" '$8 ~ /'"$NAME"'/ && $11=="latest" && $12 ~ /Complete Genome/ {print $20}'))
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="complete") #
+plot(hc, hang = -1)
+?hclust
+d
+x1 <- c(5,4,1,5,5)#
+x2 <- c(1,2,5,4,5)#
+x <- cbind(x1,x2)#
+d <- dist(x, method="manhattan")#
+d#
+hc <- hclust(d, method="complete") #
+plot(hc, hang = -1)
+plot(hc)
+?hclust
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# <Mori Building Co.,LTD.> # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("House", "Office", "Shop"), # "new" or "old" building#
+Location = c("MainRoom", "RestRoom", "Doorway"), # "indoor" or "outdoor"#
+Height = c("High", "Middle", "Low"), # surface.type = c("table", "seat", "floor") # "upper" or "lower", "horizontal" or "vertical", "man-made" or "natural" surface#
+People = c("Mr._X", "Ms._Y", "Dr._Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table.DoE.csv")#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+library(seqinr)#
+#
+# gzcat mitochondrion.1.1.genomic.fna.gz mitochondrion.2.1.genomic.fna.gz > mitochondrion.genomic.fna#
+myfile <- "~/projects/keio/students/hashimoto_karen/mitochondrion/mitochondrion.genomic.fna"#
+lna <- read.fasta(file = myfile, seqtype = c("DNA"))#
+#
+length(lna)#
+len <- sapply(lna, length); summary(len)#
+gcc <- sapply(lna, GC) * 100; summary(gcc)#
+annotation <- unlist(getAnnot(lna))#
+d.f <- data.frame(len, gcc, annotation)#
+#
+# Exporting Data#
+write.csv(d.f, file="~/Desktop/table.na.csv")#
+write.table(d.f, file="~/Desktop/table.na.txt", sep="\t", quote=FALSE, row.names=FALSE)
+sessionInfo()
+TODAY=2016/11/29; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+date +%Y/%m/%d#
+library(seqinr)
+TODAY=2016/11/29; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+?write.csv
+sessionInfo()
+filename <- "/Users/haruo/Desktop/Rtable_blast_identity.txt"#
+d <- read.delim(file = filename, header = TRUE, check.names = FALSE, stringsAsFactors = FALSE, comment.char = "#")
+d
+summary(d)
+summary(unlist(d))
+unlist(d)
+head(d)
+tail(d)
+summary(d)
+sort(d)
+head(d)
+str(d)
+head(d)
+summary(unlist(d[,-1]))
+head(sort(unlist(d[,-1])))
+tail(sort(unlist(d[,-1])))
+d == 4
+d[,-1] == 4
+apply(d[,-1] == 4, 2, sum)
+apply(d[,-1] == 4, 1, sum)
+summary(apply(d[,-1] == 4, 1, sum))
+summary(apply(d[,-1] == 4, 2, sum))
+apply(d[,-1] == 4, 2, sum)
+summary(apply(d[,-1] == 4, 2, sum))
+sort(apply(d[,-1] == 4, 2, sum))
+sort(unlist(d[,-1]))
+tail(sort(unlist(d[,-1])))
+d$oleB871
+d$`oleB871`
+d[,1:2]
+tail(d)
+library("DoE.base") #install.packages("DoE.base")#
+# <Mori Building Co.,LTD.> # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Area = c("A", "B", "C"), # "House", "Office", "Shop" # "new" or "old" building#
+Environment = c("Indoor", "Outdoor", "Natural"), # Location = c("MainRoom", "RestRoom", "Doorway"),#
+Height = c("High", "Middle", "Low"), # Surface.type = c("Horizontal-Upper", "Horizontal-Lower", "Vertical") # i.e. "indoor" man-made surface, "outdoor" man-made surface, and "natural" surface. # # Surface.type = c("table", "seat", "floor")#
+People = c("Mr._X", "Ms._Y", "Dr._Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table.DoE.csv")#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+library("DoE.base") #install.packages("DoE.base")#
+# <Mori Building Co.,LTD.> # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Area  = c("Indoor", "Outdoor", "Natural"), # c("A", "B", "C"), "House", "Office", "Shop" # "new" or "old" building # Location = c("MainRoom", "RestRoom", "Doorway"),#
+Height = c("High", "Middle", "Low"), # Surface.type = c("Horizontal-Upper", "Horizontal-Lower", "Vertical") # i.e. "indoor" man-made surface, "outdoor" man-made surface, and "natural" surface. # # Surface.type = c("table", "seat", "floor")#
+People = c("Mr._X", "Ms._Y", "Dr._Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table.DoE.csv")#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# <Mori Building Co.,LTD.> # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Area  = c("Indoor", "Outdoor", "Natural"), # c("A", "B", "C"), "House", "Office", "Shop" # "new" or "old" building # Location = c("MainRoom", "RestRoom", "Doorway"),#
+Height = c("High", "Middle", "Low"), # Surface.type = c("Horizontal-Upper", "Horizontal-Lower", "Vertical") # i.e. "indoor" man-made surface, "outdoor" man-made surface, and "natural" surface. # # Surface.type = c("table", "seat", "floor")#
+People = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table.DoE.csv")#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+27*3
+TODAY=2016/10/01; set.seed(TODAY); paste0(c2s(sample(aaa(), size=1)), TODAY, "s");
+library(seqinr)
+TODAY=2016/10/01; set.seed(TODAY); paste0(c2s(sample(aaa(), size=1)), TODAY, "s");
+paste0(c2s(sample(aaa(), size=1)), TODAY, "s");
+sample(aaa(), size=1)
+c2s(sample(aaa(), size=1))
+TODAY
+2016/12/08
+TODAY=2016/12/08; set.seed(TODAY); paste0(c2s(sample(aaa(), size=1)), TODAY, "s");
+set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "s");
+# Host#
+myfile <- "./eukaryotes.txt"#
+myfile <- "ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/eukaryotes.txt"#
+d <- read.delim(file = myfile, stringsAsFactors=FALSE, na.strings="-", check.names=TRUE)
+s
+d
+colnames(d)
+# Host#
+myfile <- "./eukaryotes.txt"#
+myfile <- "ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/eukaryotes.txt"#
+d <- read.delim(file = myfile, stringsAsFactors=FALSE, na.strings="-", check.names=FALSE)
+colnames(d)
+i <- "Size (Mb)"; summary(d[,i])#
+j <- "GC%"; summary(d[,j])
+d <- d[c(1,5:8,13)]
+colnames(d)
+# Host#
+myfile <- "./eukaryotes.txt"#
+myfile <- "ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/eukaryotes.txt"#
+d <- read.delim(file = myfile, stringsAsFactors=FALSE, na.strings="-", check.names=FALSE)#
+colnames(d)#
+d.host <- d[c(1,5:8,13)]#
+d.host <- na.omit(d.host)
+i <- "Size (Mb)"; summary(d.host[,i])#
+j <- "GC%"; summary(d.host[,j])
+# plot#
+i <- "Size (Mb)"; x <- d.host[,i]; summary(x)#
+j <- "GC%"; y <- d.host[,j]; summary(y)#
+lim <- range(x, y)
+lim
+plot(x, y, xlim=lim, ylim=lim, xlab=i, ylab=j)
+# plot#
+i <- "Size (Mb)"; x <- d.host[,i]; summary(x)#
+j <- "GC%"; y <- d.host[,j]; summary(y)#
+#lim <- range(x, y); xlim=lim, ylim=lim, #
+plot(x, y, xlab=i, ylab=j)
+# plot#
+i <- "Size (Mb)"; x <- d.host[,i]; summary(x)#
+j <- "GC%"; y <- d.host[,j]; summary(y)#
+#lim <- range(x, y); xlim=lim, ylim=lim, #
+plot(x, y, xlab=i, ylab=j, log="x")
+cor(x, y, method="pearson")#
+cor(x, y, method="spearman")
+x <- "Size (Mb)"; summary(d.host[,x])#
+y <- "GC%"; summary(d.host[,y])#
+hist(d.host[,x], xlab = x, main = "Histogram")#
+hist(d.host[,y], xlab = y, main = "Histogram")
+(mfcol=c(1,2), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)#
+hist(d.host[,x], xlab = x, main = "Histogram")#
+hist(d.host[,y], xlab = y, main = "Histogram")
+(mfcol=c(1,2), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)
+par(mfcol=c(1,2), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)#
+hist(d.host[,x], xlab = x, main = "Histogram")#
+hist(d.host[,y], xlab = y, main = "Histogram")
+par(mfcol=c(2,1), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)#
+hist(d.host[,x], xlab = x, main = "Histogram")#
+hist(d.host[,y], xlab = y, main = "Histogram")
+par(mfcol=c(1,2), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)#
+hist(d.host[,x], xlab = x, main = "Histogram")#
+hist(d.host[,y], xlab = y, main = "Histogram")
+hist(d.host[,y], xlab = y, breaks=seq(0,100,1), main = "Histogram")
+hist(d.host[,y], xlab = y, breaks=seq(0,100,2), main = "Histogram")
+hist(d.host[,y], xlab = y, breaks=seq(0,100,2), col="black", main = "Histogram")
+plot(d.host[,x], d.host[,y], xlab = x, ylab = y, log="x")#
+cor(x, y, method="pearson")#
+cor(x, y, method="spearman")
+plot(d.host[,x], d.host[,y], xlab = x, ylab = y, log="x")#
+cor(d.host[,x], d.host[,y], method="pearson")#
+cor(d.host[,x], d.host[,y], method="spearman")
+# plot#
+x <- "Size (Mb)"; summary(d.host[,x])#
+y <- "GC%"; summary(d.host[,y])#
+#
+plot(d.host[,x], d.host[,y], xlab = x, ylab = y, log="x")#
+cor(d.host[,x], d.host[,y], method="pearson")#
+cor(d.host[,x], d.host[,y], method="spearman")
+# hist#
+par(mfcol=c(1,2), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)#
+hist(d.host[,x], xlab = x, main = "Histogram")#
+hist(d.host[,y], xlab = y, main = "Histogram", breaks=seq(0,100,2), col="black")
+hist(d.host[,x], xlab = x, main = "Histogram", col="black", breaks=seq(min(d.host[,x]),max(d.host[,x]),10) )
+hist(d.host[,x], xlab = x, main = "Histogram", col="black", breaks=seq(min(d.host[,x]),max(d.host[,x]),1) )
+?hist
+t)#
+# plot#
+i <- "Size (Mb)"; x <- d.host[,i]; summary(x)#
+j <- "GC%"; y <- d.host[,j]; summary(y)#
+plot(x, y, xlab = i, ylab = j, log="x")#
+cor(x, y, method="pearson")#
+cor(x, y, method="spearman")
+library(MASS); truehist(x)
+par(mfcol=c(1,2), cex=1.2, oma = c(0, 0, 0.4, 0)) # c(bottom, left, top, right)#
+library(MASS); truehist(x)     #
+hist(y, xlab = j, main = "Histogram", col="black", breaks=seq(0,100,2) )
+# Host#
+myfile <- "ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/eukaryotes.txt"#
+#myfile <- "./eukaryotes.txt"#
+d <- read.delim(file = myfile, stringsAsFactors=FALSE, na.strings="-", check.names=FALSE)#
+colnames(d)#
+d.host <- d[c(1,5:8,13)]#
+d.host <- na.omit(d.host)
+colnames(d)
+# Host#
+myfile <- "ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/eukaryotes.txt"#
+#myfile <- "./eukaryotes.txt"#
+d <- read.delim(file = myfile, stringsAsFactors=FALSE, na.strings="-", check.names=FALSE)#
+colnames(d)#
+d.host <- d[c(1,5:8,13)]#
+d.host <- na.omit(d.host)#
+#
+# plot#
+i <- "Size (Mb)"; x <- d.host[,i]; summary(x)#
+j <- "GC%"; y <- d.host[,j]; summary(y)#
+plot(x, y, ylim=lim, xlab=i, ylab=j)#
+cor(x, y, method="pearson")#
+cor(x, y, method="spearman")
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("omega_12", "epsiron_22", "coop"),#
+Surface.type = c("table", "seat", "floor"),#
+People = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table.DoE.csv")#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+?matrix
+head(mx)
+cat("\n  This R script creates protein phylogenetic profiles, and identifies taxon-specific genes.\n\n")#
+#
+# Set Working Directory#
+#setwd("~/projects/amachi/2016-11-18/tblastn_RA2_Roseovarius")#
+#
+# List files in a directory#
+files <- list.files(path=".", pattern="tblastn-SAMD00059317_RA2_BDIY01_FF.faa-", full.names=TRUE)#
+#files <- files[-grep(pattern="tblastn-SAMD00059317_RA2_BDIY01_FF.faa-SAMD00059317_RA2_BDIY01_FF.fna.txt", x=files)]#
+#
+# Loading Data into R#
+ld <- lapply(files, read.delim, header = FALSE, comment.char = "#", col.names=c("query id", "subject id", "% identity", "alignment length", "mismatches", "gap opens", "q. start", "q. end", "s. start", "s. end", "evalue", "bit score"))#
+#
+# name each list item with the filename (sans full path)#
+#names(ld) <- basename(files)#
+names(ld) <- sub("tblastn-(.+)-(.+).txt", "\\2", basename(files))#
+#
+# Using do.call() and rbind to merge this data together#
+d.f <- do.call(rbind, ld) # d = Distance#
+#
+# extract the sample name and add these as columns in the dataframe#
+d.f$sample <- sub("(.+)\\.fna\\.[0-9]+", "\\1", rownames(d.f))#
+#
+# reshape data: reshape2::dcast turns long data into wide data.#
+library(reshape2)#
+mx <- dcast(d.f, query.id ~ sample, value.var = "evalue")
+11799*10
+63943 - 61467
+63943 - 61467 + 1
+63943 - 61467
+100 * 4401/4514
+148 / 4514
+100 * 148 / 4514
+100 * 1964/4401
+100 * 1964/4401#
+100 * 112/4401
+100 * 1964/4401#
+100 * 112/4401#
+100 * 53/4401#
+100 * 40/4401#
+100 * 38/4401#
+100 * 36/4401
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("lhr", "b1", "b2"),#
+Surface.type = c("floor", "table", "chair"),#
+People = c("1.Ito", "2.Sakuma", "3.Ishida") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table.DoE.csv")#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+?write.table
+write.csv(oatable, file="./table.DoE.csv", col.names = NA, row.names=TRUE)#
+write.table(oatable, file="./table.DoE.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("Omega11", "lhr", "k23"), # "omega_12", "epsiron_22", "coop"#
+Surface.type = c("floor", "table", "chair"), # "table", "seat", "floor"#
+People = c("1.Ito", "2.Sakuma", "3.Harada") ), # "male" or "female" # "Mr.X", "Ms.Y", "Dr.Z"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE.csv")#
+write.table(oatable, file="./table_DoE.txt", sep="\t", quote=FALSE, row.names=FALSE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("Omega11", "lhr", "k23"), # "omega_12", "epsiron_22", "coop"#
+Surface.type = c("floor", "table", "chair"), # "table", "seat", "floor"#
+People = c("1.Ito", "2.Sakuma", "3.Harada") ), # "male" or "female" # "Mr.X", "Ms.Y", "Dr.Z"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-09_sfc.csv")#
+write.table(oatable, file="./table_DoE_2016-12-09_sfc.txt", sep="\t", quote=FALSE, row.names=FALSE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("Omega11", "lhr", "k23"), # "omega_12", "epsiron_22", "coop"#
+Surface = c("floor", "table", "chair"), # "table", "seat", "floor"#
+Person = c("1.Ito", "2.Sakuma", "3.Harada") ), # "male" or "female" # "Mr.X", "Ms.Y", "Dr.Z"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-09_sfc.csv")#
+write.table(oatable, file="./table_DoE_2016-12-09_sfc.txt", sep="\t", quote=FALSE, row.names=FALSE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("lhr", "b1", "b2"),#
+Surface = c("floor", "table", "chair"),#
+Person = c("1.Ito", "2.Sakuma", "3.Ishida") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-17_mita.csv", col.names = NA, row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-17_mita.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+write.csv(oatable, file="./table_DoE_2016-12-17_mita.csv", col.names = NA, row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-17_mita.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+write.csv(oatable, file="./table_DoE_2016-12-09_sfc.csv", col.names = NA, row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-09_sfc.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+----------#
+三田サンプリング#
+https://docs.google.com/spreadsheets/d/1hg-9G2wVNo6QkC09cH5K3-OZ_YrRqrVGeSMykLOUe4c/edit#gid=311962387#
+#
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("lhr", "b1", "b2"),#
+Surface = c("floor", "table", "chair"),#
+Person = c("1.Ito", "2.Sakuma", "3.Ishida") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-17_mita.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-17_mita.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)#
+#
+----------#
+SFCサンプリング#
+https://docs.google.com/spreadsheets/d/1hg-9G2wVNo6QkC09cH5K3-OZ_YrRqrVGeSMykLOUe4c/edit#gid=1740512023#
+#
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("Omega11", "lhr", "k23"), # "omega_12", "epsiron_22", "coop"#
+Surface = c("floor", "table", "chair"), # "table", "seat", "floor"#
+Person = c("1.Ito", "2.Sakuma", "3.Harada") ), # "male" or "female" # "Mr.X", "Ms.Y", "Dr.Z"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-09_sfc.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-09_sfc.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+----------#
+# 三田サンプリング https://docs.google.com/spreadsheets/d/1hg-9G2wVNo6QkC09cH5K3-OZ_YrRqrVGeSMykLOUe4c/edit#gid=311962387#
+#
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("lhr", "b1", "b2"),#
+Surface = c("floor", "table", "chair"),#
+Person = c("1.Ito", "2.Sakuma", "3.Ishida") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-17_mita.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-17_mita.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)#
+#
+----------#
+# SFCサンプリング https://docs.google.com/spreadsheets/d/1hg-9G2wVNo6QkC09cH5K3-OZ_YrRqrVGeSMykLOUe4c/edit#gid=1740512023#
+#
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("Omega11", "lhr", "k23"), # "omega_12", "epsiron_22", "coop"#
+Surface = c("floor", "table", "chair"), # "table", "seat", "floor"#
+Person = c("1.Ito", "2.Sakuma", "3.Harada") ), # "male" or "female" # "Mr.X", "Ms.Y", "Dr.Z"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-09_sfc.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-09_sfc.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("lhr", "b1", "b2"),#
+Surface = c("floor", "table", "chair"),#
+Person = c("1.Ito", "2.Sakuma", "3.Ishida") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-17_mita.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-17_mita.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)#
+#
+----------#
+# SFCサンプリング https://docs.google.com/spreadsheets/d/1hg-9G2wVNo6QkC09cH5K3-OZ_YrRqrVGeSMykLOUe4c/edit#gid=1740512023#
+#
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("omega_11", "lhr", "k23"), # "omega_12", "epsiron_22", "coop"#
+Surface = c("floor", "table", "chair"), # "table", "seat", "floor"#
+Person = c("1.Ito", "2.Sakuma", "3.Harada") ), # "male" or "female" # "Mr.X", "Ms.Y", "Dr.Z"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-12-09_sfc.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-12-09_sfc.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+?plot
+468 * 3
+tolower
+tolower("HARADA MASAFUMI")
+library(seqinr)#
+words(2) # dinucleotides
+words(1)
+?words
+library(seqinr)#
+words(1) # mononucleotides#
+words(2) # dinucleotides#
+words(3) # trinucleotides#
+words(4) # tetranucleotides
+date +%Y/%m/%d#
+library(seqinr)
+date +%Y/%m/%d#
+library(seqinr)#
+#
+TODAY=2017/01; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "s");
+TODAY=2017/01; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY);
+TODAY=2017/01; set.seed(TODAY); paste0(c2s(sample(a(), size=2)), TODAY);
+TODAY=2017/01; set.seed(TODAY); paste0(c2s(sample(a(), size=6)), TODAY);
+sessionInfo()
+date +%Y/%m/%d#
+library(seqinr)
+TODAY=2016/08/16; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "!");
+library(seqinr)
+?dist.alignment
+?hclust
+sessionInfo()
+4/15
+TODAY=2016/08/16; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "!");#
+set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY))
+date +%Y/%m/%d#
+library(seqinr)
+TODAY=2016/08/16; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "!");#
+set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY))
+date +%Y/%m/%d#
+library(seqinr)
+波諏訪度 SIZE <- 10; TODAY <- 2016-07-10; set.seed(TODAY); paste0(c2s(sample(letters, size=SIZE)), TODAY);
+SIZE <- 10; TODAY <- 2016-07-10; set.seed(TODAY); paste0(c2s(sample(letters, size=SIZE)), TODAY);
+TODAY=2016/11/29; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+SIZE <- 10; TODAY <- 2016-07-10; set.seed(TODAY); paste0(c2s(sample(letters, size=SIZE)), TODAY);
+date +%Y/%m/%d#
+library(seqinr)
+TODAY=2016/08/16; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "!");#
+set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY)) # 波諏訪度 採点用
+TODAY=2016/08/16; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY))
+TODAY=2017/02/07; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), TODAY, "!");
+TODAY
+波諏訪度 TODAY=2017/02/07; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+TODAY=2017/02/07; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+date +%Y/%m/%d#
+library(seqinr)
+TODAY=2017/02/07; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("b1", "b2", "b3"),#
+Surface = c("floor", "table", "chair"),#
+Person = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2017-02-10_NursingHome.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_NursingHome.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("b1", "b2", "b3"),#
+Surface = c("High", "Middle", "Low"), # "floor", "table", "chair"#
+Person = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2017-02-10_NursingHome.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_NursingHome.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+examples(oa.design)
+oa.design
+?oa.design
+L4.2.3
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Room = c("R1", "R2", "R3"),#
+Surface = c("table", "chair", "floor"), # "High", "Middle", "Low"#
+Person = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2017-02-10_NursingHome.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_NursingHome.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+https://cran.r-project.org/web/packages/DoE.base/DoE.base.pdf#
+oatable <- oa.design(ID=L4.2.3, nlevels=2, factor.names=list(#
+RestRoom = c("R1", "R2"),#
+Surface = c("wall", "seat"),#
+Person = c("Mr.X", "Dr.Z") )#
+)#
+oatable#
+#
+write.csv(oatable, file="./table_DoE_2017-02-10_station.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_station.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+https://cran.r-project.org/web/packages/DoE.base/DoE.base.pdf#
+oatable <- oa.design(ID=L4.2.3, nlevels=2, factor.names=list(#
+RestRoom = c("R1", "R2"),#
+Surface = c("wall", "seat", "floor"),#
+Person = c("Mr.X", "Dr.Z") )#
+)#
+oatable
+https://cran.r-project.org/web/packages/DoE.base/DoE.base.pdf#
+oatable <- oa.design(ID=L4.2.3, nlevels=3, factor.names=list(#
+RestRoom = c("R1", "R2"),#
+Surface = c("wall", "seat", "floor"),#
+Person = c("Mr.X", "Dr.Z") )#
+)#
+oatable
+https://cran.r-project.org/web/packages/DoE.base/DoE.base.pdf#
+oatable <- oa.design(ID=L4.2.3, nlevels=2, factor.names=list(#
+RestRoom = c("R1", "R2"),#
+Surface = c("wall", "seat"),#
+Person = c("Mr.X", "Dr.Z") )#
+)#
+oatable
+# JR Yamanote Line http://www.japan-guide.com/e/e2370.html#
+# L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Station = c("Takadanobaba", "Shin-Okubo", "Shinjuku"),#
+Surface = c("wall", "seat", "floor"), # "High", "Middle", "Low"#
+Person = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2017-02-10_JR.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_JR.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+# JR Yamanote Line http://www.japan-guide.com/e/e2370.html#
+# L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Station = c("Takadanobaba", "Shin-Okubo", "Shinjuku"),#
+Surface = c("Wall", "Seat", "Floor"), # "High", "Middle", "Low"#
+Person = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2017-02-10_JR.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_JR.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+#
+L4.2.3#
+https://cran.r-project.org/web/packages/DoE.base/DoE.base.pdf#
+oatable <- oa.design(ID=L4.2.3, nlevels=2, factor.names=list(#
+RestRoom = c("R1", "R2"),#
+Surface = c("wall", "seat"),#
+Person = c("Mr.X", "Dr.Z") )#
+)#
+oatable#
+#
+# JR Yamanote Line http://www.japan-guide.com/e/e2370.html#
+# L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Station = c("Takadanobaba", "Shin-Okubo", "Shinjuku"),#
+Surface = c("Wall", "Seat", "Floor"), # "High", "Middle", "Low"#
+Person = c("Mr.X", "Ms.Y", "Dr.Z") ), # "male" or "female"#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2017-02-10_JR.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2017-02-10_JR.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+setwd("~/projects/mgsa/roary/2016-06-21") # i 50#
+#
+# Loading Data into R#
+  d.f <- read.csv('analysis/gene_presence_absence.csv', stringsAsFactors=FALSE, check.names=FALSE); dim(d.f)#
+#
+  # create groups: g.GCF g.BL4 g.BL5#
+  TF <- regexpr(pattern="GCF_00",     text=colnames(d.f)[15:ncol(d.f)]) > 0; sum(TF); g.GCF <- colnames(d.f)[15:ncol(d.f)][TF]#
+  TF <- regexpr(pattern="prokka_BL4", text=colnames(d.f)[15:ncol(d.f)]) > 0; sum(TF); g.BL4 <- colnames(d.f)[15:ncol(d.f)][TF]#
+  TF <- regexpr(pattern="prokka_BL5", text=colnames(d.f)[15:ncol(d.f)]) > 0; sum(TF); g.BL5 <- colnames(d.f)[15:ncol(d.f)][TF]#
+#
+  # Genes present in g.BL4 and absent in g.GCF#
+  TF <- apply(d.f[,g.BL4] != '', 1, sum) == length(g.BL4) & apply(d.f[,g.GCF] == '', 1, sum) == length(g.GCF); sum(TF);#
+  write.csv(d.f[TF, c(3,4,15:ncol(d.f))], file='gene_presence_BL4_absence_GCF.csv')#
+  write.csv(as.matrix(table(d.f$Annotation[TF])), file='table.gene_presence_BL4_absence_GCF.csv')#
+#
+  # Genes present in g.BL5 and absent in g.GCF#
+  TF <- apply(d.f[,g.BL5] != '', 1, sum) == length(g.BL5) & apply(d.f[,g.GCF] == '', 1, sum) == length(g.GCF); sum(TF);#
+  write.csv(d.f[TF, c(3,4,15:ncol(d.f))], file='gene_presence_BL5_absence_GCF.csv')#
+  write.csv(as.matrix(table(d.f$Annotation[TF])), file='table.gene_presence_BL5_absence_GCF.csv')#
+#
+# Print R version and packages#
+sessionInfo()
+date +%Y/%m/%d#
+library(seqinr)
+TODAY=2017/02/07; set.seed(TODAY); paste0(c2s(sample(aaa(), size=2)), round(TODAY,1), "!");
+# 駒場サンプリング https://docs.google.com/spreadsheets/d/1hg-9G2wVNo6QkC09cH5K3-OZ_YrRqrVGeSMykLOUe4c/edit#gid=1591626169#
+# R version 3.3.0#
+library("DoE.base") #install.packages("DoE.base")#
+# MetaKeiome # L9 orthogonal array (9 tests, 4 factors, 3 levels)#
+oatable <- oa.design(factor.names=list(#
+Building = c("lhr", "b1", "kmc"),#
+Surface = c("floor", "table", "chair"), #
+Person = c("1.", "2.", "3.") ),#
+seed=1, columns="min34"#
+)#
+oatable#
+write.csv(oatable, file="./table_DoE_2016-11-26_komaba.csv", row.names=TRUE)#
+write.table(oatable, file="./table_DoE_2016-11-26_komaba.txt", sep="\t", quote=FALSE, col.names = NA, row.names=TRUE)
+?write.csv
+271 %% 10
+nmbr=271; x=10:20; y=c(); for(i in x) y = c(y, nmbr %% i); z = cbind(x,y); z[order(y\#
+),]
+nmbr=271; x=10:20; y=c(); for(i in x) y = c(y, nmbr %% i); z = cbind(x,y); z[order(y),]
+setwd("/Users/haruo/projects/bias4/2017-02-16_uniref50"); filename <- "./analysis/blastp-all-uniref50-annotation.txt"#
+#
+OUTDIR <- paste0("./analysis/my_blast_uniref/")#
+system(paste0("mkdir -p ", OUTDIR))#
+#
+# Loading BLAST result#
+d <- read.delim(file = filename, header = TRUE, check.names = FALSE, stringsAsFactors = FALSE, comment.char = "#")#
+#
+# Genus2SubGroup#
+overview <- read.delim("ftp://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/overview.txt", stringsAsFactors=FALSE)#
+TF <- regexpr("^(uncultured|bacterium|candidate|endosymbiont|secondary)", overview[,1], perl=T) > 0; sum(TF); overview <- overview[!TF,] # endosymbiont of Acanthamoeba sp. [Alphaproteobacteria] # uncultured SAR86 cluster bacterium [Gammaproteobacteria]#
+overview[,1] <- gsub(overview[,1], pattern="Candidatus ", replacement="Candidatus.") # Candidatus Odyssella thessalonicensis#
+Genus <- as.vector(apply(as.matrix(overview[,1]), MARGIN=c(1,2), function(x) unlist(strsplit(x," "))[1]))#
+overview <- cbind(overview, Genus)#
+Genus2SubGroup <- unique(overview[,c("Genus","SubGroup")])#
+#
+# Taxonomy#
+prefixes <- c(".")#
+prefixes <- c("BL411", "BL412", "BL421", "BL422", "BL431", "BL432", "BL511", "BL512", "BL521", "BL522", "BL531", "BL532") # watabe#
+prefixes <- c("Br6_", "C21_", "HK1_", "RA2_", "KGO5_", "PSCT_") # amachi#
+prefixes <- c("MPCS_") # dora.hideo#
+prefixes <- c("pIE1115p", "GBAA_", "Z_", "ST520_", "BCEP1808_", "BBUJD1_", "D763_") # plasmid#
+prefixes <- c("R751p", "pUO1_", "REUT_RS3", "ST520_p") # IncP#
+cat(prefixes)#
+count <- prfx <- c()#
+for(prefix in prefixes){ # prefix <- "MPCS_"#
+TF <- regexpr(prefix, d$`query id`) > 0; sum(TF); subject <- d$subject[TF]; if(!sum(TF)) next#
+prfx <- c(prfx, prefix)#
+system(paste0("mkdir -p ",OUTDIR,prefix))#
+#write.table(d[TF,], file=paste0(OUTDIR,prefix,"/",basename(filename)), sep="\t", quote=FALSE, row.names=FALSE)#
+#write.table(unique(d[TF,c("query id","subject id","query","subject")]), file=paste0(OUTDIR,prefix,"/blast-query-subject.txt"), sep="\t", quote=FALSE, row.names=FALSE)#
+count <- rbind(count, c(length(d[TF,1]), length(unique(d[TF,1])), length(unique(d[TF,2]))) )#
+#
+# http://stat.biopapyrus.net/r/regex.html#
+m <- regexpr("Tax=.* RepID", subject)#
+organism <- substr(subject, m + nchar("Tax="), m + attr(m, "match.length") - 1 - nchar(" RepID"))#
+organism <- gsub(organism, pattern="Candidatus ", replacement="Candidatus.") # Candidatus Odyssella thessalonicensis#
+organism <- gsub(organism, pattern="endosymbiont of", replacement="endosymbiont.of") # endosymbiont of Acanthamoeba sp.#
+#species <- apply(as.matrix(organism), MARGIN=c(1,2), function(x) paste(unlist(strsplit(x, split=" "))[1:2], collapse=" ") )#
+species <- apply(as.matrix(organism), MARGIN=c(1,2), function(x) gsub(paste(unlist(strsplit(x, split=" "))[1:2], collapse=" "), pattern=" NA", replacement="") )#
+genus <- apply(as.matrix(organism), MARGIN=c(1,2), function(x) unlist(strsplit(x, split=" "))[1] )#
+#
+SubGroup <- apply(as.matrix(genus), MARGIN=c(1,2), function(x){ TF <- Genus2SubGroup[,1] == x; ifelse(sum(TF) > 0, Genus2SubGroup[TF, 2], "Not Assigned") } )#
+#
+# #
+d.f <- data.frame(organism, species, genus, SubGroup, subject, stringsAsFactors=FALSE)#
+write.csv(d.f, paste0(OUTDIR,prefix,"/table.csv"), quote=TRUE, row.names=TRUE)#
+#
+pdf(paste0(OUTDIR,prefix,"/pie.pdf"), pointsize=10, width=8, height=4)#
+for(category in c("organism", "species", "genus", "SubGroup")){#
+taxon <- d.f[,category]#
+number <- sort(table(taxon), decreasing=TRUE)#
+write.csv(as.matrix(number), paste0(OUTDIR,prefix,"/table.",category,".csv"), quote=TRUE, row.names=TRUE)#
+#
+TF <- taxon %in% names(number)[1:10]; sum(TF); taxon[!TF] <- "Others"; number <- sort(table(taxon), decreasing=TRUE)#
+percent <- round(number/sum(number)*100,1)#
+labels <- paste0(names(number), " [", percent, "%]")#
+labels <- paste0(percent, "% ", names(number))#
+labels <- paste0(number, " (", percent, "%) ", names(number))#
+par(mfcol=c(1,1), cex=1.0, font = 3, mgp=c(2.5, 0.5, 0), mar=c(0, 0, 1, 0)) # mar = c(bottom, left, top, right)#
+pie(number, labels=labels, col=rainbow(length(labels)), main=category)#
+}#
+dev.off()
+}
+rownames(count) <- prfx#
+colnames(count) <- c("HSPs","Hits","Unique records")#
+write.csv(count, paste0(OUTDIR,"/table.blast.csv"), quote=TRUE, row.names=TRUE)#
+#
+# Print R version and packages#
+sessionInfo()
+setwd("~/projects/mgsa/roary/2016-06-21") # i 50#
+#
+# Loading Data into R#
+d.f <- read.csv('analysis/gene_presence_absence.csv', stringsAsFactors=FALSE, check.names=FALSE)#
+colnames(d.f)[15:ncol(d.f)]
+setwd("/Users/haruo/projects/mgsa/roary/analysis/i50")#
+#
+# Loading Data into R#
+d.f <- read.csv("gene_presence_absence.csv", stringsAsFactors=FALSE, check.names=FALSE)
+head(d.f)
+colnames(d.f)[15:ncol(d.f)]
+d.f[15:ncol(d.f)]
+head(d.f[,15:ncol(d.f)], 2)
+head(d.f[,15:ncol(d.f)], 2)#
+tail(d.f[,15:ncol(d.f)], 2)
+x <- "R751p07.p01.CDS"; unlist(strsplit(x,"\\."))[1]
+apply(as.matrix(d.f[,15:ncol(d.f)]), MARGIN=c(1,2), function(x){ y <- unlist(strsplit(x,"\\."))[1]; ifelse(is.na(y), "", y); } )
+head(d.f[,15:ncol(d.f)], 2)
+head(d.f[,15:ncol(d.f)], 2)#
+tail(d.f[,15:ncol(d.f)], 2)
+head(d.f[,15:ncol(d.f)], 2); tail(d.f[,15:ncol(d.f)], 2)#
+#x <- "R751p07.p01.CDS"; unlist(strsplit(x,"\\."))[1]
+d.f[,15:ncol(d.f)] <- apply(as.matrix(d.f[,15:ncol(d.f)]), MARGIN=c(1,2), function(x){ y <- unlist(strsplit(x,"\\."))[1]; ifelse(is.na(y), "", y); } )
+d.f[,15:ncol(d.f)]
+mode(d.f[,15:ncol(d.f)])
+typeof(d.f[,15:ncol(d.f)])
+unlist(d.f[,15:ncol(d.f)])
+typeof(d.f[,15:ncol(d.f)])
+(d.f[,15:ncol(d.f)])
+typeof(d.f[,15:ncol(d.f)])
+d.f[,15:ncol(d.f)]
+unlist(d.f[,15:ncol(d.f)])
+unlist(d.f[,15:ncol(d.f)])
+names( unlist(d.f[,15:ncol(d.f)]))
+unlist(d.f[,15:ncol(d.f)])
+head( unlist(d.f[,15:ncol(d.f)]))
+unlist(d.f[,15:ncol(d.f)])
+unique(unlist(d.f[,15:ncol(d.f)]))
+sort(unique(unlist(d.f[,15:ncol(d.f)])))
+write(sort(unique(unlist(d.f[,15:ncol(d.f)]))), "~/locus_tag.txt")
+colnames(d.f)[15:ncol(d.f)]
+colnames(d.f)[15:ncol(d.f)]; head(d.f[,15:ncol(d.f)], 2); tail(d.f[,15:ncol(d.f)], 2)
+cat("\n# This R script manipulates Roary output (gene_presence_absence.csv).\n\n")#
+#
+# Set Working Directory#
+#setwd("/Users/haruo/projects/mgsa/roary/analysis/i50")#
+#
+# Loading Data into R#
+d.f <- read.csv("gene_presence_absence.csv", stringsAsFactors=FALSE, check.names=FALSE)#
+colnames(d.f)[15:ncol(d.f)]; head(d.f[,15:ncol(d.f)], 2); tail(d.f[,15:ncol(d.f)], 2)#
+#x <- "R751p07.p01.CDS"; unlist(strsplit(x,"\\."))[1]#
+d.f[,15:ncol(d.f)] <- apply(as.matrix(d.f[,15:ncol(d.f)]), MARGIN=c(1,2), function(x){ y <- unlist(strsplit(x,"\\."))[1]; ifelse(is.na(y), "", y); } )#
+write(sort(unique(unlist(d.f[,15:ncol(d.f)]))), "~/locus_tag.txt")
