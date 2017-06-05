@@ -8,13 +8,11 @@ Last Update: 2017-06-05
 # LS-BSR Tutorial Project
 Project started 2017-06-05.
 
-[LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
-
-[Sahl JW et al. (2014) PeerJ. "The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes."](https://www.ncbi.nlm.nih.gov/pubmed/24749011)
-
 I have created shell scripts to perform all analyses in [LS_BSR_manual.pdf](https://github.com/jasonsahl/LS-BSR/blob/master/LS_BSR_manual.pdf)
 The Large Scale Blast Score Ratio (LS-BSR) pipeline
 Updated 12/13/2016
+
+![https://omictools.com/large-scale-blast-score-ratio-tool](https://omictools.com/upload/tool/image/la/large-scale-blast-score-ratio-1.jpg)
 
 ----------
 
@@ -323,11 +321,14 @@ The new BSR matrix were not annotated by locus tags...
 
 I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
 
+----------
+
 ## References
 
-https://www.ncbi.nlm.nih.gov/pubmed/24749011
-PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
-The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
-Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
+- [LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools](https://omictools.com/large-scale-blast-score-ratio-tool)
+- [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
+- [Sahl JW et al. (2014) PeerJ. "The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes."](https://www.ncbi.nlm.nih.gov/pubmed/24749011)
+
+----------
 
 
