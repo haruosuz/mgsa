@@ -1,9 +1,9 @@
-
 # Set Working Directory
 #setwd("~/projects/mgsa/roary/2016-06-07") # i 95
 #setwd("~/projects/mgsa/roary/2016-06-21") # i 50
 
 system("grep 'ORGANISM' data/*.gb*  | sort -u | sed 's#data/##' | sed 's/ ORGANISM  //' > my.file.ORGANISM.txt")
+#system("grep -i '/strain=' data/*.gb* | sort -u | sed 's#data/##; s# */strain=\"##; s#\"##g' > my.file.ORGANISM.txt")
 # data/*.{gbk,gbff} # grep 'plasmid=' data/*.gbk | awk '{print $1,$2}'
 annot <- read.delim("my.file.ORGANISM.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)[,1]
 
@@ -17,6 +17,9 @@ pdf("my.tree.pdf", pointsize=15, width=15, height=9)
 for(myfile in dir(path="analysis", pattern="\\.newick$", full.names=TRUE)){
  tre = read.tree(myfile)
  tre$tip.label = apply(as.matrix(tre$tip.label), MARGIN=c(1,2), function(x) annot[ grep(pattern=x, x=annot) ] )
+
+ #x <- tre$tip.label[1]; unlist(strsplit(annot[ grep(pattern=x, x=annot) ],":"))[2]
+ #tre$tip.label = apply(as.matrix(tre$tip.label), MARGIN=c(1,2), function(x) unlist(strsplit(annot[ grep(pattern=x, x=annot) ],":"))[2] )
 
  write.tree(tre, file=paste0(myfile,".tre"))
 
