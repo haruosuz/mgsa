@@ -2,8 +2,8 @@
 #setwd("~/projects/mgsa/roary/2016-06-07") # i 95
 #setwd("~/projects/mgsa/roary/2016-06-21") # i 50
 
-system("grep 'ORGANISM' data/*.gb*  | sort -u | sed 's#data/##' | sed 's/ ORGANISM  //' > my.file.ORGANISM.txt")
-#system("grep -i '/strain=' data/*.gb* | sort -u | sed 's#data/##; s# */strain=\"##; s#\"##g' > my.file.ORGANISM.txt")
+system("grep 'ORGANISM' data/*.gb* | sort -u | grep -v 'phage' | sed 's#data/##' | sed 's/ ORGANISM  //' > my.file.ORGANISM.txt")
+system("grep -i '/strain=' data/*.gb* | sort -u | sed 's#data/##; s# */strain=\"##; s#\"##g' > my.file.ORGANISM.txt")
 # data/*.{gbk,gbff} # grep 'plasmid=' data/*.gbk | awk '{print $1,$2}'
 annot <- read.delim("my.file.ORGANISM.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)[,1]
 
