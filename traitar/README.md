@@ -8,7 +8,13 @@ Last Update: 2017-06-30
 # Traitar Tutorial Project
 Project started 2017-06-30.
 
-[Traitar – the microbial trait analyzer](https://github.com/hzi-bifo/traitar)は、微生物のゲノム配列から表現型を予測するツール。タンパク質ファミリー（Pfam）の有無に基づいて、基質（炭素源・エネルギー源）利用能、酸素要求量、形態、抗生物質感受性、タンパク質分解、酵素活性に関連する[67の表現形質](https://github.com/hzi-bifo/traitar/blob/master/traits.tsv)を予測する。[GIDEON - Global Infectious Diseases and Epidemiology Network](https://www.gideononline.com)と[Bergey's Manual of Systematic Bacteriology](http://www.springer.com/series/4157)の表現型データを利用。
+[Traitar – the microbial trait analyzer](https://github.com/hzi-bifo/traitar)
+は、微生物のゲノム配列から表現型を予測するツール。タンパク質ファミリー（Pfam）の有無に基づいて、基質（炭素源・エネルギー源）利用能、酸素要求量、形態、抗生物質感受性、タンパク質分解、酵素活性に関連する
+[67の表現形質](https://github.com/hzi-bifo/traitar/blob/master/traits.tsv)
+を予測する。
+[GIDEON - Global Infectious Diseases and Epidemiology Network](https://www.gideononline.com), 
+[Bergey's Manual of Systematic Bacteriology](http://www.springer.com/series/4157)
+の表現型データを利用。
 
 ----------
 
@@ -55,7 +61,7 @@ traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), trai
 
 ## Acknowledgements
 
-I am grateful to Dr. Aaron Weimann for his advice on Traitar.
+I am grateful to Dr. [Aaron Weimann](https://twitter.com/aaron_weimann) for his advice on Traitar.
 
 ----------
 
