@@ -41,13 +41,9 @@ Project started 2017-06-30.
     $python -V # python --version
     Python 2.7.5
 
-traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), traitar printed the following message:
-
-    FATAL: No such option "--domtblout".
-
 ----------
 
-## [GitHub](https://github.com/hzi-bifo/traitar)
+## Steps
 
 ### [Installation](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md)
 
@@ -58,6 +54,13 @@ Install Traitar using:
 
 
 #### [Additional requirements](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements)
+
+traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), traitar printed the following message:
+
+    FATAL: No such option "--domtblout".
+
+traitar requires the Pfam 27.0 HMM models.
+download and extract the Pfam models using:
 
     path_to_Pfam_folder=$HOME/data/pfam/Pfam27.0
 
@@ -77,6 +80,7 @@ Install Traitar using:
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
     out_dir=$(date +%F)
     (time traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN) &) >& log.traitar.$(date +%F).txt
+
 
 ----------
 
