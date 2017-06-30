@@ -49,6 +49,19 @@ traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), trai
 
     git clone https://github.com/hzi-bifo/traitar
 
+### Installation
+
+Install Traitar using:
+
+    sudo pip install traitar
+    # Successfully installed traitar-1.1.2
+
+https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements
+
+    wget -b ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-A.hmm.gz
+    gunzip -c Pfam-A.hmm.gz > Pfam-A.hmm
+    sudo traitar pfam --local $path_to_Pfam_folder
+
 ### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
 
 サンプルデータでTraitarを実行する:  
@@ -56,6 +69,7 @@ traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), trai
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
     out_dir=$(date +%F)
     (time traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN) &) >& log.traitar.$(date +%F).txt
+
 
 ----------
 
@@ -69,7 +83,6 @@ I am grateful to Dr. [Aaron Weimann](https://twitter.com/aaron_weimann) for his 
 - [Traitar – the microbial trait analyzer](https://github.com/hzi-bifo/traitar)
   - 2017-02-06 Aaron Weimann [From genomes to phenotypes: Traitar, the microbial trait analyzer – microBEnet: the microbiology of the Built Environment network.](http://www.microbe.net/2017/02/06/from-genomes-to-phenotypes-traitar-the-microbial-trait-analyzer/)
   - [Weimann A et al. mSystems. 2016 Dec 27;1(6). "From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer."](https://www.ncbi.nlm.nih.gov/pubmed/28066816)
-
 
 http://tjo.hatenablog.com/entry/2015/03/03/190000
 RでL1 / L2正則化を実践する - 六本木で働くデータサイエンティストのブログ
