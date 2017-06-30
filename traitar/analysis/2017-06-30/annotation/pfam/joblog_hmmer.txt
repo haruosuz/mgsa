@@ -1,0 +1,3 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+2	:	1498810860.311	   451.412	0	0	0	0	hmmsearch --cpu 1 --cut_ga  --domtblout 2017-06-30/annotation/pfam/Listeria_grayi_DSM_20601_domtblout.dat  /home/haruo/data/pfam/Pfam27.0/Pfam-A.hmm > /dev/null /usr/lib/python2.7/site-packages/traitar/data/sample_data/525367.9.RefSeq.faa
+1	:	1498810860.308	   463.679	0	0	0	0	hmmsearch --cpu 1 --cut_ga  --domtblout 2017-06-30/annotation/pfam/Listeria_ivanovii_WSLC3009_domtblout.dat  /home/haruo/data/pfam/Pfam27.0/Pfam-A.hmm > /dev/null /usr/lib/python2.7/site-packages/traitar/data/sample_data/1457190.3.RefSeq.faa

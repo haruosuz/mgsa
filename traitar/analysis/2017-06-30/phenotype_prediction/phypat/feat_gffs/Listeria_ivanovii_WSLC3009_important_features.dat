@@ -1,0 +1,210 @@
+Phenotype	gene_id	acc	description	cor
+Acetate utilization	gi|583836804|AX25_00465|AX25_00465|	PF02274	Amidinotransferase	0.574
+Alkaline phosphatase	gi|583836867|AX25_00830|AX25_00830|	PF02872	5'-nucleotidase, C-terminal domain	0.589
+Alkaline phosphatase	gi|583838974|AX25_12400|AX25_12400|	PF02872	5'-nucleotidase, C-terminal domain	0.589
+Arginine dihydrolase	gi|583836804|AX25_00465|AX25_00465|	PF02274	Amidinotransferase	0.492
+Bacillus or coccobacillus	gi|583837876|AX25_06440|AX25_06440|	PF03880	DbpA RNA binding domain	0.522
+Bacillus or coccobacillus	gi|583838351|AX25_09030|AX25_09030|	PF08447	PAS fold	0.469
+Catalase	gi|583839483|AX25_14595|AX25_14595|	PF00199	Catalase	0.885
+Catalase	gi|583839484|AX25_14600|AX25_14600|	PF00199	Catalase	0.885
+Catalase	gi|583837437|AX25_04005|AX25_04005|	PF04264	YceI-like domain	0.769
+Catalase	gi|583838863|AX25_11740|AX25_11740|	PF01208	Uroporphyrinogen decarboxylase (URO-D)	0.759
+Catalase	gi|583837326|AX25_03395|AX25_03395|	PF04241	Protein of unknown function (DUF423)	0.652
+Catalase	gi|583838713|AX25_10905|AX25_10905|	PF04234	CopC domain	0.632
+Catalase	gi|583838708|AX25_10870|AX25_10870|	PF02628	Cytochrome oxidase assembly protein	0.609
+Catalase	gi|583838053|AX25_07360|AX25_07360|	PF02803	Thiolase, C-terminal domain	0.55
+Coagulase production	gi|583838908|AX25_11975|AX25_11975|	PF01883	Domain of unknown function DUF59	0.462
+Coagulase production	gi|583838528|AX25_09950|AX25_09950|	PF02742	Iron dependent repressor, metal binding and dimerisation domain	0.294
+D-Sorbitol	gi|583837195|AX25_02695|AX25_02695|	PF06923	Glucitol operon activator protein (GutM)	0.715
+Esculin hydrolysis	gi|583837255|AX25_03000|AX25_03000|	PF13345	Domain of unknown function (DUF4098)	0.554
+Esculin hydrolysis	gi|583839049|AX25_12835|AX25_12835|	PF13345	Domain of unknown function (DUF4098)	0.554
+Esculin hydrolysis	gi|583839050|AX25_12840|AX25_12840|	PF13345	Domain of unknown function (DUF4098)	0.554
+Esculin hydrolysis	gi|583837168|AX25_02560|AX25_02560|	PF06993	Protein of unknown function (DUF1304)	0.507
+Esculin hydrolysis	gi|583838644|AX25_10545|AX25_10545|	PF03306	Alpha-acetolactate decarboxylase	0.439
+Esculin hydrolysis	gi|583837656|AX25_05220|AX25_05220|	PF03932	CutC family	0.387
+Esculin hydrolysis	gi|583838250|AX25_08375|AX25_08375|	PF14310	Fibronectin type III-like domain	0.383
+Esculin hydrolysis	gi|583838380|AX25_09180|AX25_09180|	PF14310	Fibronectin type III-like domain	0.383
+Esculin hydrolysis	gi|583837050|AX25_01895|AX25_01895|	PF14526	Integron-associated effector binding protein	0.306
+Esculin hydrolysis	gi|583837122|AX25_02285|AX25_02285|	PF14526	Integron-associated effector binding protein	0.306
+Esculin hydrolysis	gi|583837547|AX25_04660|AX25_04660|	PF14526	Integron-associated effector binding protein	0.306
+Esculin hydrolysis	gi|583839015|AX25_12635|AX25_12635|	PF08840	BAAT / Acyl-CoA thioester hydrolase C terminal	0.306
+Esculin hydrolysis	gi|583837762|AX25_05820|AX25_05820|	PF10662	Ethanolamine utilisation - propanediol utilisation	0.298
+Esculin hydrolysis	gi|583838098|AX25_07590|AX25_07590|	PF10662	Ethanolamine utilisation - propanediol utilisation	0.298
+Esculin hydrolysis	gi|583838155|AX25_07890|AX25_07890|	PF06347	Bacterial SH3 domain	0.27
+Esculin hydrolysis	gi|583836843|AX25_00690|AX25_00690|	PF07885	Ion channel	0.219
+Esculin hydrolysis	gi|583838709|AX25_10875|AX25_10875|	PF07885	Ion channel	0.219
+Esculin hydrolysis	gi|583838558|AX25_10115|AX25_10115|	PF03435	Saccharopine dehydrogenase	0.057
+Facultative	gi|583837246|AX25_02955|AX25_02955|	PF01226	Formate/nitrite transporter	0.496
+Facultative	gi|583837548|AX25_04665|AX25_04665|	PF01226	Formate/nitrite transporter	0.496
+Facultative	gi|583838041|AX25_07275|AX25_07275|	PF02901	Pyruvate formate lyase	0.478
+Facultative	gi|583838568|AX25_10165|AX25_10165|	PF02901	Pyruvate formate lyase	0.478
+Facultative	gi|583838563|AX25_10140|AX25_10140|	PF07694	5TMR of 5TMR-LYT	0.453
+Facultative	gi|583837223|AX25_02840|AX25_02840|	PF04245	37-kD nucleoid-associated bacterial protein	0.426
+Facultative	gi|583838099|AX25_07595|AX25_07595|	PF08211	Cytidine and deoxycytidylate deaminase zinc-binding region	0.425
+Facultative	gi|583836845|AX25_00705|AX25_00705|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583836964|AX25_01415|AX25_01415|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583837427|AX25_03950|AX25_03950|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583837428|AX25_03955|AX25_03955|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583838372|AX25_09140|AX25_09140|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583838649|AX25_10570|AX25_10570|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583839265|AX25_14035|AX25_14035|	PF03610	PTS system fructose IIA component	0.422
+Facultative	gi|583838338|AX25_08965|AX25_08965|	PF04167	Protein of unknown function (DUF402)	0.407
+Facultative	gi|583838332|AX25_08815|AX25_08815|	PF08267	Cobalamin-independent synthase, N-terminal domain	0.274
+Glucose fermenter	gi|583837021|AX25_01705|AX25_01705|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583837143|AX25_02420|AX25_02420|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583837292|AX25_03220|AX25_03220|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583837428|AX25_03955|AX25_03955|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583837509|AX25_04450|AX25_04450|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583837554|AX25_04695|AX25_04695|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583838253|AX25_08390|AX25_08390|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583838372|AX25_09140|AX25_09140|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583838751|AX25_11125|AX25_11125|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583838794|AX25_11390|AX25_11390|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583839003|AX25_12550|AX25_12550|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583839215|AX25_13725|AX25_13725|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583839237|AX25_13855|AX25_13855|	PF00874	PRD domain	0.699
+Glucose fermenter	gi|583838766|AX25_11210|AX25_11210|	PF01238	Phosphomannose isomerase type I	0.697
+Glucose fermenter	gi|583836791|AX25_00400|AX25_00400|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583836881|AX25_00905|AX25_00905|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583836999|AX25_01590|AX25_01590|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583837323|AX25_03380|AX25_03380|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583837667|AX25_05275|AX25_05275|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583839142|AX25_13310|AX25_13310|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583839284|AX25_14180|AX25_14180|	PF05116	Sucrose-6F-phosphate phosphohydrolase	0.657
+Glucose fermenter	gi|583836782|AX25_00355|AX25_00355|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837022|AX25_01710|AX25_01710|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837279|AX25_03135|AX25_03135|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837394|AX25_03735|AX25_03735|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837655|AX25_05215|AX25_05215|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837673|AX25_05305|AX25_05305|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837746|AX25_05730|AX25_05730|	PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1	0.63
+Glucose fermenter	gi|583837150|AX25_02455|AX25_02455|	PF03611	PTS system sugar-specific permease component	0.626
+Glucose fermenter	gi|583838748|AX25_11110|AX25_11110|	PF03611	PTS system sugar-specific permease component	0.626
+Glucose fermenter	gi|583839212|AX25_13710|AX25_13710|	PF03611	PTS system sugar-specific permease component	0.626
+Glucose fermenter	gi|583839234|AX25_13840|AX25_13840|	PF03611	PTS system sugar-specific permease component	0.626
+Glucose fermenter	gi|583836845|AX25_00705|AX25_00705|	PF03830	PTS system sorbose subfamily IIB component	0.605
+Glucose fermenter	gi|583836961|AX25_01400|AX25_01400|	PF03830	PTS system sorbose subfamily IIB component	0.605
+Glucose fermenter	gi|583837426|AX25_03945|AX25_03945|	PF03830	PTS system sorbose subfamily IIB component	0.605
+Glucose fermenter	gi|583838654|AX25_10595|AX25_10595|	PF03830	PTS system sorbose subfamily IIB component	0.605
+Glucose fermenter	gi|583836780|AX25_00345|AX25_00345|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583836852|AX25_00740|AX25_00740|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583836990|AX25_01545|AX25_01545|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583836997|AX25_01580|AX25_01580|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583837020|AX25_01700|AX25_01700|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583837045|AX25_01870|AX25_01870|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583837225|AX25_02850|AX25_02850|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583837553|AX25_04690|AX25_04690|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583839283|AX25_14175|AX25_14175|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583839345|AX25_14510|AX25_14510|	PF00232	Glycosyl hydrolase family 1	0.603
+Glucose fermenter	gi|583838644|AX25_10545|AX25_10545|	PF03306	Alpha-acetolactate decarboxylase	0.545
+Gram positive	gi|583837565|AX25_04750|AX25_04750|	PF04203	Sortase family	0.938
+Gram positive	gi|583838832|AX25_11585|AX25_11585|	PF04203	Sortase family	0.938
+Gram positive	gi|583837105|AX25_02185|AX25_02185|	PF03816	Cell envelope-related transcriptional attenuator domain	0.907
+Gram positive	gi|583837664|AX25_05260|AX25_05260|	PF03816	Cell envelope-related transcriptional attenuator domain	0.907
+Gram positive	gi|583839081|AX25_13000|AX25_13000|	PF03816	Cell envelope-related transcriptional attenuator domain	0.907
+Gram positive	gi|583839279|AX25_14155|AX25_14155|	PF03816	Cell envelope-related transcriptional attenuator domain	0.907
+Gram positive	gi|583838680|AX25_10725|AX25_10725|	PF04472	Protein of unknown function (DUF552)	0.904
+Gram positive	gi|583836880|AX25_00900|AX25_00900|	PF13307	Helicase C-terminal domain	0.371
+Gram positive	gi|583837110|AX25_02210|AX25_02210|	PF13556	PucR C-terminal helix-turn-helix domain	0.371
+Gram positive	gi|583838550|AX25_10075|AX25_10075|	PF13307	Helicase C-terminal domain	0.371
+Gram positive	gi|583839317|AX25_14360|AX25_14360|	PF13556	PucR C-terminal helix-turn-helix domain	0.371
+Gram positive	gi|583837934|AX25_06730|AX25_06730|	PF03951	Glutamine synthetase, beta-Grasp domain	0.25
+Growth at 42°C	gi|583837017|AX25_01685|AX25_01685|	PF13483	Beta-lactamase superfamily domain	0.418
+Growth at 42°C	gi|583838211|AX25_08175|AX25_08175|	PF13483	Beta-lactamase superfamily domain	0.418
+Growth at 42°C	gi|583837717|AX25_05545|AX25_05545|	PF04464	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase	0.407
+Growth at 42°C	gi|583837721|AX25_05565|AX25_05565|	PF04464	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase	0.407
+Growth at 42°C	gi|583837722|AX25_05570|AX25_05570|	PF04464	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase	0.407
+Growth at 42°C	gi|583836804|AX25_00465|AX25_00465|	PF02274	Amidinotransferase	0.357
+Growth at 42°C	gi|583837762|AX25_05820|AX25_05820|	PF10662	Ethanolamine utilisation - propanediol utilisation	0.333
+Growth at 42°C	gi|583838098|AX25_07590|AX25_07590|	PF10662	Ethanolamine utilisation - propanediol utilisation	0.333
+Growth at 42°C	gi|583838896|AX25_11905|AX25_11905|	PF01865	Protein of unknown function DUF47	0.33
+Growth in 6.5% NaCl	gi|583837604|AX25_04955|AX25_04955|	PF13743	Thioredoxin	0.699
+Growth in 6.5% NaCl	gi|583838736|AX25_11025|AX25_11025|	PF03881	Fructosamine kinase	0.535
+Growth in KCN	gi|583837457|AX25_04130|AX25_04130|	PF03060	Nitronate monooxygenase	0.829
+Growth in KCN	gi|583838823|AX25_11535|AX25_11535|	PF03060	Nitronate monooxygenase	0.829
+Growth on ordinary blood agar	gi|583837575|AX25_04805|AX25_04805|	PF01451	Low molecular weight phosphotyrosine protein phosphatase	0.48
+Growth on ordinary blood agar	gi|583838881|AX25_11830|AX25_11830|	PF01451	Low molecular weight phosphotyrosine protein phosphatase	0.48
+Growth on ordinary blood agar	gi|583839103|AX25_13110|AX25_13110|	PF01451	Low molecular weight phosphotyrosine protein phosphatase	0.48
+Growth on ordinary blood agar	gi|583837416|AX25_03890|AX25_03890|	PF00781	Diacylglycerol kinase catalytic domain	0.405
+Growth on ordinary blood agar	gi|583838405|AX25_09305|AX25_09305|	PF00781	Diacylglycerol kinase catalytic domain	0.405
+Growth on ordinary blood agar	gi|583839123|AX25_13215|AX25_13215|	PF00781	Diacylglycerol kinase catalytic domain	0.405
+Growth on ordinary blood agar	gi|583836812|AX25_00505|AX25_00505|	PF04397	LytTr DNA-binding domain	0.396
+Growth on ordinary blood agar	gi|583837623|AX25_05050|AX25_05050|	PF04397	LytTr DNA-binding domain	0.396
+Growth on ordinary blood agar	gi|583839278|AX25_14130|AX25_14130|	PF02706	Chain length determinant protein	0.372
+Growth on ordinary blood agar	gi|583838801|AX25_11425|AX25_11425|	PF03601	Conserved hypothetical protein 698	0.366
+Growth on ordinary blood agar	gi|583836862|AX25_00800|AX25_00800|	PF06114	Domain of unknown function (DUF955)	0.332
+Growth on ordinary blood agar	gi|583838500|AX25_09810|AX25_09810|	PF01471	Putative peptidoglycan binding domain	0.323
+Lactose	gi|583837308|AX25_03305|AX25_03305|	PF13906	C-terminus of AA_permease	0.488
+Lactose	gi|583839032|AX25_12730|AX25_12730|	PF13906	C-terminus of AA_permease	0.488
+Lactose	gi|583839091|AX25_13050|AX25_13050|	PF00401	ATP synthase, Delta/Epsilon chain, long alpha-helix domain	0.387
+Lactose	gi|583837556|AX25_04705|AX25_04705|	PF03773	Predicted permease	0.359
+Lactose	gi|583837189|AX25_02665|AX25_02665|	PF09863	Uncharacterized protein conserved in bacteria (DUF2090)	0.163
+Malonate	gi|583838206|AX25_08150|AX25_08150|	PF06833	Malonate decarboxylase gamma subunit (MdcE)	0.749
+Maltose	gi|583836835|AX25_00640|AX25_00640|	PF07702	UTRA domain	0.374
+Maltose	gi|583837044|AX25_01865|AX25_01865|	PF07702	UTRA domain	0.374
+Maltose	gi|583837226|AX25_02855|AX25_02855|	PF07702	UTRA domain	0.374
+Maltose	gi|583837538|AX25_04605|AX25_04605|	PF07702	UTRA domain	0.374
+Maltose	gi|583837598|AX25_04925|AX25_04925|	PF07702	UTRA domain	0.374
+Maltose	gi|583837890|AX25_06510|AX25_06510|	PF07702	UTRA domain	0.374
+Maltose	gi|583838655|AX25_10600|AX25_10600|	PF07702	UTRA domain	0.374
+Maltose	gi|583838656|AX25_10605|AX25_10605|	PF07702	UTRA domain	0.374
+Maltose	gi|583839288|AX25_14200|AX25_14200|	PF07702	UTRA domain	0.374
+Maltose	gi|583838250|AX25_08375|AX25_08375|	PF01915	Glycosyl hydrolase family 3 C-terminal domain	0.323
+Maltose	gi|583838380|AX25_09180|AX25_09180|	PF01915	Glycosyl hydrolase family 3 C-terminal domain	0.323
+Maltose	gi|583836747|AX25_00175|AX25_00175|	PF03633	Glycosyl hydrolase family 65, C-terminal domain	0.321
+Maltose	gi|583838778|AX25_11270|AX25_11270|	PF03633	Glycosyl hydrolase family 65, C-terminal domain	0.321
+Maltose	gi|583836941|AX25_01215|AX25_01215|	PF11734	TilS substrate C-terminal domain	0.312
+Maltose	gi|583839121|AX25_13205|AX25_13205|	PF13439	Glycosyltransferase Family 4	0.298
+Maltose	gi|583839467|AX25_14095|AX25_14095|	PF13439	Glycosyltransferase Family 4	0.298
+Maltose	gi|583838045|AX25_07295|AX25_07295|	PF11188	Protein of unknown function (DUF2975)	0.293
+Maltose	gi|583838536|AX25_09990|AX25_09990|	PF02074	Carboxypeptidase Taq (M32) metallopeptidase	0.271
+Methyl red	gi|583837473|AX25_04220|AX25_04220|	PF06146	Phosphate-starvation-inducible E	0.825
+Methyl red	gi|583837944|AX25_06785|AX25_06785|	PF11922	Domain of unknown function (DUF3440)	0.7
+Methyl red	gi|583838924|AX25_12055|AX25_12055|	PF04227	Indigoidine synthase A like protein	0.665
+Methyl red	gi|583839211|AX25_13705|AX25_13705|	PF02126	Phosphotriesterase family	0.617
+Motile	gi|583837356|AX25_03545|AX25_03545|	PF02154	Flagellar motor switch protein FliM	0.832
+Salicin	gi|583837021|AX25_01705|AX25_01705|	PF03123	CAT RNA binding domain	0.585
+Salicin	gi|583839003|AX25_12550|AX25_12550|	PF03123	CAT RNA binding domain	0.585
+Salicin	gi|583836780|AX25_00345|AX25_00345|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583836852|AX25_00740|AX25_00740|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583836990|AX25_01545|AX25_01545|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583836997|AX25_01580|AX25_01580|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583837020|AX25_01700|AX25_01700|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583837045|AX25_01870|AX25_01870|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583837225|AX25_02850|AX25_02850|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583837553|AX25_04690|AX25_04690|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583839283|AX25_14175|AX25_14175|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583839345|AX25_14510|AX25_14510|	PF00232	Glycosyl hydrolase family 1	0.509
+Salicin	gi|583837292|AX25_03220|AX25_03220|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583837554|AX25_04695|AX25_04695|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583838253|AX25_08390|AX25_08390|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583838751|AX25_11125|AX25_11125|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583838794|AX25_11390|AX25_11390|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583838938|AX25_12125|AX25_12125|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583839215|AX25_13725|AX25_13725|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583839237|AX25_13855|AX25_13855|	PF05043	Mga helix-turn-helix domain	0.505
+Salicin	gi|583838783|AX25_11295|AX25_11295|	PF02903	Alpha amylase, N-terminal ig-like domain	0.466
+Starch hydrolysis	gi|583836857|AX25_00765|AX25_00765|	PF00041	Fibronectin type III domain	0.465
+Trehalose	gi|583837656|AX25_05220|AX25_05220|	PF03932	CutC family	0.548
+Trehalose	gi|583836845|AX25_00705|AX25_00705|	PF03830	PTS system sorbose subfamily IIB component	0.535
+Trehalose	gi|583836961|AX25_01400|AX25_01400|	PF03830	PTS system sorbose subfamily IIB component	0.535
+Trehalose	gi|583837426|AX25_03945|AX25_03945|	PF03830	PTS system sorbose subfamily IIB component	0.535
+Trehalose	gi|583838654|AX25_10595|AX25_10595|	PF03830	PTS system sorbose subfamily IIB component	0.535
+Trehalose	gi|583837654|AX25_05210|AX25_05210|	PF04069	Substrate binding domain of ABC-type glycine betaine transport system	0.523
+Trehalose	gi|583838061|AX25_07400|AX25_07400|	PF04069	Substrate binding domain of ABC-type glycine betaine transport system	0.523
+Trehalose	gi|583838065|AX25_07420|AX25_07420|	PF04069	Substrate binding domain of ABC-type glycine betaine transport system	0.523
+Trehalose	gi|583838210|AX25_08170|AX25_08170|	PF07085	DRTGG domain	0.487
+Trehalose	gi|583837122|AX25_02285|AX25_02285|	PF06445	GyrI-like small molecule binding domain	0.458
+Trehalose	gi|583837324|AX25_03385|AX25_03385|	PF12464	Maltose acetyltransferase	0.433
+Trehalose	gi|583837110|AX25_02210|AX25_02210|	PF13556	PucR C-terminal helix-turn-helix domain	0.428
+Trehalose	gi|583839317|AX25_14360|AX25_14360|	PF13556	PucR C-terminal helix-turn-helix domain	0.428
+Trehalose	gi|583839263|AX25_14025|AX25_14025|	PF02733	Dak1 domain	0.412
+Trehalose	gi|583838041|AX25_07275|AX25_07275|	PF02901	Pyruvate formate lyase	0.399
+Trehalose	gi|583838568|AX25_10165|AX25_10165|	PF02901	Pyruvate formate lyase	0.399
+Trehalose	gi|583837466|AX25_04185|AX25_04185|	PF06224	Winged helix DNA-binding domain	0.389
+Trehalose	gi|583839167|AX25_13480|AX25_13480|	PF06224	Winged helix DNA-binding domain	0.389
+Trehalose	gi|583838385|AX25_09205|AX25_09205|	PF04898	Glutamate synthase central domain	0.388
+Trehalose	gi|583837168|AX25_02560|AX25_02560|	PF06993	Protein of unknown function (DUF1304)	0.353
+Trehalose	gi|583837308|AX25_03305|AX25_03305|	PF13906	C-terminus of AA_permease	0.31
+Trehalose	gi|583839032|AX25_12730|AX25_12730|	PF13906	C-terminus of AA_permease	0.31
+Voges Proskauer	gi|583838644|AX25_10545|AX25_10545|	PF03306	Alpha-acetolactate decarboxylase	0.746
