@@ -8,6 +8,8 @@ Last Update: 2017-06-30
 # Traitar Tutorial Project
 Project started 2017-06-30.
 
+![](https://raw.githubusercontent.com/aweimann/traitar/master/traitar/data/sample_data/traitar_out/phenotype_prediction/heatmap_combined.png)
+
 ----------
 
 ## Project directory structures
@@ -42,6 +44,8 @@ traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), trai
 	git clone https://github.com/hzi-bifo/traitar
 
 ### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
+
+サンプルデータでTraitarを実行する:  
 
 	traitar_dir='/usr/lib/python2.7/site-packages/traitar'
 	out_dir=$(date +%F)
