@@ -20,19 +20,34 @@ Project started 2017-06-30.
 
 ## Run environments
 
+    $cat /etc/redhat-release
+    CentOS Linux release 7.2.1511 (Core)
+    $cat /proc/version
+    Linux version 3.10.0-327.13.1.el7.x86_64 (builder@kbuilder.dev.centos.org) (gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) ) #1 SMP Thu Mar 31 16:04:38 UTC 2016
+    $uname -a
+    Linux smith1 3.10.0-327.13.1.el7.x86_64 #1 SMP Thu Mar 31 16:04:38 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+    $perl -v | grep "version"
+    This is perl 5, version 16, subversion 3 (v5.16.3) built for x86_64-linux-thread-multi
+    $python -V # python --version
+    Python 2.7.5
 
 traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), traitar printed the following message:
 
+    FATAL: No such option "--domtblout".
 
 ----------
 
 ## Steps
 
+    git clone https://github.com/hzi-bifo/traitar
 
 ### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
 
 サンプルデータでTraitarを実行する:  
 
+    traitar_dir='/usr/lib/python2.7/site-packages/traitar'
+    out_dir=$(date +%F)
+    (time traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN) &) >& log.traitar.$(date +%F).txt
 
 ----------
 
