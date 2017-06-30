@@ -60,6 +60,8 @@ https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requiremen
 
     wget -b ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-A.hmm.gz
     gunzip -c Pfam-A.hmm.gz > Pfam-A.hmm
+
+    path_to_Pfam_folder=$HOME/data/pfam/Pfam27.0
     sudo traitar pfam --local $path_to_Pfam_folder
 
 ### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
@@ -69,7 +71,6 @@ https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requiremen
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
     out_dir=$(date +%F)
     (time traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN) &) >& log.traitar.$(date +%F).txt
-
 
 ----------
 
