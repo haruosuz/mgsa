@@ -8,8 +8,6 @@ Last Update: 2017-06-30
 # Traitar Tutorial Project
 Project started 2017-06-30.
 
-![](https://raw.githubusercontent.com/aweimann/traitar/master/traitar/data/sample_data/traitar_out/phenotype_prediction/heatmap_combined.png)
-
 ----------
 
 ## Project directory structures
@@ -52,5 +50,4 @@ I am grateful to Dr. Aaron Weimann for his advice on Traitar.
 微生物のゲノム配列から表現型を予測。基質（炭素エネルギー源）利用能、酸素要求量、形態、抗生物質感受性、タンパク質分解、酵素活性に関連する67の形質を予測。表現型に関連するタンパク質ファミリーを示唆。
 
 ----------
-
 
