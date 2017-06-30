@@ -10,8 +10,6 @@ Project started 2017-06-30.
 
 [Traitar – the microbial trait analyzer](https://github.com/hzi-bifo/traitar)は、微生物のゲノム配列から表現型を予測するツール。タンパク質ファミリー（Pfam）の有無に基づいて、基質（炭素源・エネルギー源）利用能、酸素要求量、形態、抗生物質感受性、タンパク質分解、酵素活性に関連する[67の表現形質](https://github.com/hzi-bifo/traitar/blob/master/traits.tsv)を予測する。[GIDEON - Global Infectious Diseases and Epidemiology Network](https://www.gideononline.com)と[Bergey's Manual of Systematic Bacteriology](http://www.springer.com/series/4157)の表現型データを利用。
 
-![](http://www.microbe.net/wp-content/uploads/2017/02/F5.large_.jpg)
-
 ----------
 
 ## Project directory structures
@@ -70,6 +68,7 @@ I am grateful to Dr. Aaron Weimann for his advice on Traitar.
 http://tjo.hatenablog.com/entry/2015/03/03/190000
 RでL1 / L2正則化を実践する - 六本木で働くデータサイエンティストのブログ
 
-
 ----------
+
+![](http://www.microbe.net/wp-content/uploads/2017/02/F5.large_.jpg)
 
