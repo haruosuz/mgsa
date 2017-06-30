@@ -58,10 +58,15 @@ Install Traitar using:
 
 https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements
 
-    wget -b ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-A.hmm.gz
-    gunzip -c Pfam-A.hmm.gz > Pfam-A.hmm
-
     path_to_Pfam_folder=$HOME/data/pfam/Pfam27.0
+
+    traitar pfam $path_to_Pfam_folder
+    traitar pfam --local $path_to_Pfam_folder
+    # IOError: [Errno 13] Permission denied: '/usr/lib/python2.7/site-packages/traitar/config.json'
+
+    #wget -b ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-A.hmm.gz
+    #gunzip -c Pfam-A.hmm.gz > Pfam-A.hmm
+
     sudo traitar pfam --local $path_to_Pfam_folder
 
 ### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
