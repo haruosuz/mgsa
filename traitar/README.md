@@ -8,6 +8,10 @@ Last Update: 2017-06-30
 # Traitar Tutorial Project
 Project started 2017-06-30.
 
+[Traitar – the microbial trait analyzer](https://github.com/hzi-bifo/traitar)
+
+微生物のゲノム配列から表現型を予測するツール。基質（炭素エネルギー源）利用能、酸素要求量、形態、抗生物質感受性、タンパク質分解、酵素活性に関連する[67の形質](https://github.com/hzi-bifo/traitar/blob/master/traits.tsv)を予測し、表現型に関連するタンパク質ファミリーを示す。
+
 ----------
 
 ## Project directory structures
@@ -58,11 +62,8 @@ I am grateful to Dr. Aaron Weimann for his advice on Traitar.
 ----------
 
 ## References
-
-[Traitar – the microbial trait analyzer](https://github.com/hzi-bifo/traitar)
 - 2017-02-06 Aaron Weimann [From genomes to phenotypes: Traitar, the microbial trait analyzer – microBEnet: the microbiology of the Built Environment network.](http://www.microbe.net/2017/02/06/from-genomes-to-phenotypes-traitar-the-microbial-trait-analyzer/)
 - [Weimann A et al. mSystems. 2016 Dec 27;1(6). "From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer."](https://www.ncbi.nlm.nih.gov/pubmed/28066816)
-微生物のゲノム配列から表現型を予測。基質（炭素エネルギー源）利用能、酸素要求量、形態、抗生物質感受性、タンパク質分解、酵素活性に関連する67の形質を予測。表現型に関連するタンパク質ファミリーを示唆。
 
 ----------
 
