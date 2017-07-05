@@ -43,16 +43,14 @@ Project started 2017-06-30.
 
 ----------
 
-## Steps
-
-### [Installation](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md)
+## [Installation](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md)
 
 Install Traitar using:
 
     sudo pip install traitar
     # Successfully installed traitar-1.1.2
 
-#### [Additional requirements](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements)
+### [Additional requirements](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements)
 
 traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), traitar printed the following message:
 
@@ -72,13 +70,30 @@ download and extract the Pfam models using:
 
     sudo traitar pfam --local $path_to_Pfam_folder
 
-### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
+## [Basic usage](https://github.com/hzi-bifo/traitar#basic-usage)
 
-サンプルデータでTraitarを実行する:  
+![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/workflow.png)
+
+### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
+サンプルデータでTraitarを実行する
 
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
     out_dir=$(date +%F)
     traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN)
+
+## [Results](https://github.com/hzi-bifo/traitar#results)
+結果
+
+    # Pfamアノテーション
+    ${out_dir}/annotation
+    # 表現型予測
+    ${out_dir}/phenotype_prediction
+    # 表現型とサンプルの階層的クラスタリング樹形図を示すヒートマップ
+    ${out_dir}/phenotype_prediction/heatmap_phypat.pdf
+    ${out_dir}/phenotype_prediction/heatmap_phypat+PGL.pdf
+    ${out_dir}/phenotype_prediction/heatmap_combined.pdf
+
+![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/traitar/data/sample_data/traitar_out/phenotype_prediction/heatmap_combined.png)
 
 ----------
 
@@ -98,13 +113,3 @@ http://tjo.hatenablog.com/entry/2015/03/03/190000
 RでL1 / L2正則化を実践する - 六本木で働くデータサイエンティストのブログ
 
 ----------
-
-https://www.ncbi.nlm.nih.gov/pubmed/28066816
-
-![](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=5192078_sys0061620720001.jpg)
-
-https://github.com/hzi-bifo/traitar
-
-![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/workflow.png)
-
-![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/traitar/data/sample_data/traitar_out/phenotype_prediction/heatmap_combined.png)
