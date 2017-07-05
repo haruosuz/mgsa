@@ -50,7 +50,7 @@ Install Traitar using:
     sudo pip install traitar
     # Successfully installed traitar-1.1.2
 
-### [Additional requirements](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements)
+#### [Additional requirements](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements)
 
 traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), traitar printed the following message:
 
@@ -72,9 +72,25 @@ download and extract the Pfam models using:
 
 ## [Basic usage](https://github.com/hzi-bifo/traitar#basic-usage)
 
+Traitarの標準ワークフロー
+
 ![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/workflow.png)
 
-### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
+`samples.txt`内のサンプルについて、`${in_dir}`のFASTA形式ファイルとして提供された塩基配列に対して、ProdigalでORF予測、HMMerでPfamアノテーション、67の表現形質を予測する:  
+
+    traitar phenotype ${in_dir} samples.txt from_nucleotides ${out_dir}
+
+[samples.txt](https://raw.githubusercontent.com/hzi-bifo/traitar/master/traitar/data/sample_data/samples.txt)
+
+    sample_file_name	sample_name	category
+    sample1_file_name	sample1_name	sample_category1
+    sample2_file_name	sample2_name	sample_category2
+
+ORF予測が既に行なわれている（Pfamアノテーションから開始する）場合:  
+
+    traitar phenotype ${in_dir} samples.txt from_genes ${out_dir}
+
+#### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
 サンプルデータでTraitarを実行する
 
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
