@@ -52,7 +52,6 @@ Install Traitar using:
     sudo pip install traitar
     # Successfully installed traitar-1.1.2
 
-
 #### [Additional requirements](https://github.com/hzi-bifo/traitar/blob/master/INSTALL.md#additional-requirements)
 
 traitar requires HMMER 3.1b2 (February 2015). Using HMMER 2.3.2 (Oct 2003), traitar printed the following message:
@@ -79,8 +78,7 @@ download and extract the Pfam models using:
 
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
     out_dir=$(date +%F)
-    (time traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN) &) >& log.traitar.$(date +%F).txt
-
+    traitar phenotype ${traitar_dir}/data/sample_data ${traitar_dir}/data/sample_data/samples.txt from_genes ${out_dir} -c $(getconf _NPROCESSORS_ONLN)
 
 ----------
 
@@ -101,5 +99,12 @@ RでL1 / L2正則化を実践する - 六本木で働くデータサイエンテ
 
 ----------
 
-![](http://www.microbe.net/wp-content/uploads/2017/02/F5.large_.jpg)
+https://www.ncbi.nlm.nih.gov/pubmed/28066816
 
+![](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=5192078_sys0061620720001.jpg)
+
+https://github.com/hzi-bifo/traitar
+
+![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/workflow.png)
+
+![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/traitar/data/sample_data/traitar_out/phenotype_prediction/heatmap_combined.png)
