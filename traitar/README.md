@@ -76,22 +76,16 @@ Traitarの標準ワークフロー
 
 ![](https://raw.githubusercontent.com/hzi-bifo/traitar/master/workflow.png)
 
-`samples.txt`内のサンプルについて、`${in_dir}`のFASTA形式ファイルとして提供された塩基配列に対して、ProdigalでORF予測、HMMerでPfamアノテーション、67の表現形質を予測する:  
+[`samples.txt`](https://raw.githubusercontent.com/hzi-bifo/traitar/master/traitar/data/sample_data/samples.txt)に記載されたサンプルの塩基配列（`${in_dir}`ディレクトリ内のFASTA形式ファイル）に対して、ProdigalでORF予測、HMMerでPfamアノテーション、67の形質を予測する:  
 
     traitar phenotype ${in_dir} samples.txt from_nucleotides ${out_dir}
-
-[samples.txt](https://raw.githubusercontent.com/hzi-bifo/traitar/master/traitar/data/sample_data/samples.txt)
-
-    sample_file_name	sample_name	category
-    sample1_file_name	sample1_name	sample_category1
-    sample2_file_name	sample2_name	sample_category2
 
 ORF予測が既に行なわれている（Pfamアノテーションから開始する）場合:  
 
     traitar phenotype ${in_dir} samples.txt from_genes ${out_dir}
 
 #### [Run Traitar with packaged sample data](https://github.com/hzi-bifo/traitar#run-traitar-with-packaged-sample-data)
-サンプルデータでTraitarを実行する
+[サンプルデータ](https://github.com/hzi-bifo/traitar/tree/master/traitar/data/sample_data)でTraitarを実行する
 
     traitar_dir='/usr/lib/python2.7/site-packages/traitar'
     out_dir=$(date +%F)
