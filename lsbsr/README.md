@@ -30,7 +30,6 @@ I have created shell scripts to perform all analyses in [LS_BSR_manual.pdf](http
 
     # Running the shell script
     (time bash run_lsbsr.sh &) >& log.txt
-	(time bash ./run_lsbsr.sh &) >& log.lsbsr.$(date +%F).txt
 
     # Use `tail -f` to constantly monitor files (use Control-C to stop)
     tail -f log.txt
@@ -56,19 +55,14 @@ Download LS-BSR into your home directory using:
     find $HOME/LS-BSR/tools -type f -name "*.py" | xargs ls -l
     find $HOME/LS-BSR/tools -type f -name "*.py" | xargs chmod +x
 
-	# neo:~/projects/mgsa/lsbsr/2017-06-05
 
     # export these: (either add to bashrc or type as is in the terminal)
     export PATH=$PATH:$HOME/LS-BSR
     export PATH=$PATH:$HOME/LS-BSR/tools
     export PYTHONPATH=$PYTHONPATH:$HOME/LS-BSR
-	export PATH=$PATH:/home/haruo/tools/LS-BSR
-	export PATH=$PATH:/home/haruo/tools/LS-BSR/tools
-	export PYTHONPATH=$PYTHONPATH:/home/haruo/tools/LS-BSR
 
 ### Test data – give LS-BSR a whirl on small datasets
 
-	find test_data
 
 1. Test the gene screen method with tblastn:
 
@@ -84,23 +78,16 @@ Download LS-BSR into your home directory using:
 
 ### Post-matrix scripts
 
-	# neo:~/projects/mgsa/lsbsr/2017-07-06
-	n_cores=$(getconf _NPROCESSORS_ONLN)
-	PREFIX="test"
 
-	echo; echo "# Run the de novo gene prediction method:"
-	ls_bsr.py -p "${n_cores}" -d data/fna -c usearch -x ${PREFIX}
 
 #### 10. invert_select_group.py
 Can be used in conjunction with the compare_BSR.py script. If you are comparing groups, you copy the IDs from group1 into a file, then uses the names.txt file to automatically create the group2 IDs.
 
     # Input files
     names.txt
-	cat ${PREFIX}_names.txt | sort | head -n 2 > group1.txt
 
     # Running the script
     invert_select_group.py group1.txt names.txt > group2.txt
-	invert_select_group.py group1.txt ${PREFIX}_names.txt > group2.txt
 
 #### 1. compare_BSR.py
 Looks for CDS differences between two user-defined populations.
@@ -108,12 +95,9 @@ Looks for CDS differences between two user-defined populations.
     # Input files
     consensus.fasta
     bsr_matrix.txt
-	cat ${PREFIX}_names.txt | sort | head -n 2 > group1.txt
-	cat ${PREFIX}_names.txt | sort | tail -n 2 > group2.txt
 
     # Running the script
     compare_BSR.py -1 group1.txt -2 group2.txt -f consensus.fasta -b bsr_matrix.txt
-	compare_BSR.py -1 group1.txt -2 group2.txt -f ${PREFIX}_consensus.fasta -b ${PREFIX}_bsr_matrix.txt
 
     # Output files
     group1_pruned.txt
@@ -131,7 +115,6 @@ Filters out the conserved regions of the pan-genome, if you are only interested 
 
     # Running the script
     filter_BSR_variome.py -b bsr_matrix.txt
-	filter_BSR_variome.py -b ${PREFIX}_bsr_matrix.txt
 
     # Output files
     variome_BSR_matrix
@@ -141,11 +124,9 @@ Can remove a column from a BSR matrix, in the case where a genome doesn’t belo
 
     # Input files
     bsr_matrix.txt
-	cat ${PREFIX}_names.txt | sort | tail -n 2 > to_remove.txt
 
     # Running the script
     filter_column_BSR.py -b bsr_matrix.txt -p pruned -g to_remove.txt
-	filter_column_BSR.py -b ${PREFIX}_bsr_matrix.txt -p pruned -g to_remove.txt
 
     # Output files
     pruned_genomes.matrix
@@ -158,7 +139,6 @@ Isolates CDSs only present in a single genome, using a user defined threshold fo
 
     # Running the script
     isolate_uniques_BSR.py -b bsr_matrix.txt -t 0.4
-	isolate_uniques_BSR.py -b ${PREFIX}_bsr_matrix.txt -t 0.4
 
     # Output files
     uniques_BSR_matrix
@@ -171,11 +151,6 @@ Calculates several popular pan-genome stats, based on the BSR matrix
 
     # Running the script
     pan_genome_stats.py -b bsr_matrix.txt
-	pan_genome_stats.py -b ${PREFIX}_bsr_matrix.txt -u 0.8 -l 0.4
-	# Standard output
-	# of conserved genes = 36
-	# of unique genes = 64
-	# of unique genes per genome = 16.0
 
     # Output files
     core_gene_ids.txt
@@ -192,8 +167,6 @@ Sub-selects a FASTA file based on a list of IDs. This can be used in conjunction
 
     # Running the script
     select_seqs_by_IDs.py -i in.fasta -d fasta_IDs.txt -o out.fasta
-	select_seqs_by_IDs.py -i ${PREFIX}_consensus.fasta -d core_gene_ids.txt -o core_gene.fasta
-	select_seqs_by_IDs.py -i ${PREFIX}_consensus.fasta -d unique_gene_ids.txt -o unique_gene.fasta
 
 #### 6. BSR_to_PANGP.py
 Converts a BSR matrix to something that can be easily visualized with PanGP (http://PanGP.big.ac.cn). CDSs that are above a given threshold are converted to a “1” and below that threshold are converted to a “-“.
@@ -203,7 +176,6 @@ Converts a BSR matrix to something that can be easily visualized with PanGP (htt
 
     # Running the script
     BSR_to_PANGP.py -b bsr_matrix.txt -l 0.8
-	BSR_to_PANGP.py -b ${PREFIX}_bsr_matrix.txt -l 0.8
 
     # Output files
     panGP_matrix.txt
@@ -216,7 +188,6 @@ For a given number of iterations, the script randomly samples genomes at various
 
     # Running the script
     BSR_to_gene_accumulation_scatter.py -b bsr_matrix.txt -u 0.8 -l 0.4 -n 10 -t all
-	BSR_to_gene_accumulation_scatter.py -b ${PREFIX}_bsr_matrix.txt -u 0.8 -l 0.4 -n 10 -t all -p out7
 
     # Output files
     *_accumulation_replicates.txt
@@ -249,9 +220,6 @@ This script splits a provided reference into fragments using a sliding window ap
     # Running the script
     slice_ref_genome.py -r reference.fasta -f 500 -s 200
     for file in `find . -maxdepth 1 -name "*.fasta"`; do name=$(echo $file | cut -f 2 -d "/"); slice_ref_genome.py -r $file; done
-	# non-overlapping windows
-	slice_ref_genome.py -r data/fna/NC_001735.fasta -f 1000 -s 1000
-	for file in `ls data/fna/*.fasta`; do slice_ref_genome.py -r $file -f 1000 -s 1000; done
 
     # Output files
     *_seqs_shredded.txt
@@ -265,7 +233,6 @@ If you have a file with annotated peptide sequences, it will transfer that annot
 
     # Running the script
     transfer_annotation.py -p NC_017633.pep -c consensus.fasta
-	transfer_annotation.py -p data/faa/NC_001735.pep -c ${PREFIX}_consensus.fasta -r 2 -t 80
 
     # Output files
     in_fasta_annotated.fasta
@@ -289,7 +256,6 @@ Given a GenBank file, this script will generate a multi-FASTA nucleotide file wi
 
     # Running the script
     extract_locus_tags.py test_data/NC_007779.gbk
-	find data/gbk -name "*.gbk" | xargs -I{} extract_locus_tags.py {}
 
     # Output files
     ./*.fasta
@@ -304,7 +270,6 @@ This script extracts core genome regions from all genomes, aligns them, then con
 
     # Running the script
     extract_core_genome.py -d genomes -g consensus.fasta
-	extract_core_genome.py -d data/fna -g ${PREFIX}_consensus.fasta
 
 This did not generate any output file...
 
@@ -320,7 +285,6 @@ Given a BSR matrix, a consensus file, and locus tags, such as those produced wit
 
     # Running the script
     annotate_matrix_by_locus_tags.py -b bsr_matrix.txt -c consensus.fasta -l test_data/NC_007779.fasta -p out
-	annotate_matrix_by_locus_tags.py -b ${PREFIX}_bsr_matrix.txt -c ${PREFIX}_consensus.fasta -l ./NC_001735.fasta -t 80 -p out16
 
     # Output files
     bsr_matrix_annotated.txt
