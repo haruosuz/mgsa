@@ -1,0 +1,898 @@
+
+# OS, version information
+CentOS release 6.4 (Final)
+Linux version 2.6.32-358.23.2.el6.x86_64 (mockbuild@c6b9.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-3) (GCC) ) #1 SMP Wed Oct 16 18:37:12 UTC 2013
+Linux bias4-login 2.6.32-358.23.2.el6.x86_64 #1 SMP Wed Oct 16 18:37:12 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+# Download example datasets as a zip file.
+--2017-08-19 22:09:53--  https://github.com/veg/hyphy-tutorials/blob/master/docs/selection/data/files.zip?raw=true
+Resolving github.com... 192.30.255.112, 192.30.255.113
+Connecting to github.com|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/veg/hyphy-tutorials/raw/master/docs/selection/data/files.zip [following]
+--2017-08-19 22:09:54--  https://github.com/veg/hyphy-tutorials/raw/master/docs/selection/data/files.zip
+Connecting to github.com|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/veg/hyphy-tutorials/master/docs/selection/data/files.zip [following]
+--2017-08-19 22:09:55--  https://raw.githubusercontent.com/veg/hyphy-tutorials/master/docs/selection/data/files.zip
+Resolving raw.githubusercontent.com... 151.101.72.133
+Connecting to raw.githubusercontent.com|151.101.72.133|:443... connected.
+WARNING: certificate common name “www.github.com” doesn’t match requested host name “raw.githubusercontent.com”.
+HTTP request sent, awaiting response... 200 OK
+Length: 48870 (48K) [application/zip]
+Saving to: “files.zip”
+
+     0K .......... .......... .......... .......... .......   100% 3.47M=0.01s
+
+2017-08-19 22:09:55 (3.47 MB/s) - “files.zip” saved [48870/48870]
+
+Archive:  files.zip
+  inflating: files/HIV.nex           
+  inflating: files/HIV.nwk           
+  inflating: files/HIV-relax.nwk     
+  inflating: files/HIV_RT.nex        
+  inflating: files/WestNileVirus_NS3.fas  
+  inflating: files/CVV_G.fas         
+  inflating: files/CVV_G_GARD.nex    
+
+# Run HYPHYMP
+
+[2J[H       /HYPHY 2.220170604beta(MP) for Linux on x86_64\       
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Basic Analyses
+	(2) Codon Selection Analyses
+	(3) Compartmentalization
+	(4) Data File Tools
+	(5) Miscellaneous
+	(6) Model Comparison
+	(7) Kernel Analysis Tools
+	(8) Molecular Clock
+	(9) Phylogeny Reconstruction
+	(10) Positive Selection
+	(11) Recombination
+	(12) Selection/Recombination
+	(13) Relative Rate
+	(14) Relative Ratio
+	(15) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):
+[2J[H ***************** FILES IN 'Positive Selection' ***************** 
+
+
+	(1) Use the random effects branch-site model (2010) to find lineages subject to episodic selection.
+	(2) Use the improved branch-site REL method of Yang and Nielsen (2005) to look for episodic selection in sequences.
+	(3) Test whether a branch (or branches) in the tree evolves under different dN and dS than the rest of the tree.
+	(4) Run the Branch-site Unrestricted Statistical Test for Episodic Diversification to test for evidence of episodic alignment-wide selective pressure
+	(5) Test whether sites in two populations are evolving under different selective pressures.
+	(6) Test whether sites in two populations are evolving under different selective pressures along internal tree branches.
+	(7) Test for positive selection using the approach of Nielsen and Yabg, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1.
+	(8) Test for positive selection using the approach of Nielsen and Yang, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1. Multiple subsets of one data set with shared dN/dS.
+	(9) Quickly test for positive selection using several approaches.
+	(10) Test whether selected branches are under relaxed or intensified selection against reference branches
+	(11) Use approximate likelihoods at a site to test for subtree specific selective pressure.
+	(12) Perform a random effects (D)irectional (E)volution on (P)rotein (S)equences test to identify sites which evolve directionally towards a given residue [MPI enabled].
+	(13) Test for Episodic Directional Selection on a set of labeled branches
+
+ Please select the file you want to use (or press ENTER to return to the list of analysis types):
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+
+ Please choose an option (or press q to cancel selection):
+
+			+-----------------------------------+
+			|Run the adaptive version of BS-REL?|
+			+-----------------------------------+
+
+
+	(1):[Yes] [Strongly recommended] Automatically decide on appropriate model complexity among branches
+	(2):[No] [Compatibility only] Sets the number of rate classes on each branch to 3 (as done with the 2011 version of BS-REL)
+
+ Please choose an option (or press q to cancel selection):
+
+			+------------------------------------------------+
+			|Allow branch-site variation in synonymous rates?|
+			+------------------------------------------------+
+
+
+	(1):[Yes] Both alpha and beta vary along branch-site combinations
+	(2):[No] [Default] Alpha varies from branch to branch, while omega varies among branch-site combinations
+
+ Please choose an option (or press q to cancel selection):
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/(null):
+
+A tree was found in the data file:
+((((((R20_239:0.001179071552709126,R20_245:0.003569393318767422):0.002373643652152119,R20_240:0.00354445225954759,R20_238:0,R20_242:0.007143686359514547):0.001169032517101171,R20_241:0.003555888002841892):0.001829250056707198,R20_243:0.006486065374683752):0.003845820830922537,R20_244:0.02113434306810657){TEST}:0.03269082780807394,D20_233:0.02550919363771013,(((D20_235:0,D20_236:0,D20_232:0):0.006433904687642939,(D20_234:0,D20_237:0):0.005843978498632621):0.01022675723558638,(D20_230:0.02979851732996924,D20_231:0.006905678660095517):0.02444611465196596):0.005946252173834307)
+
+Would you like to use it:(Y/N)?
+
+
+
+			+-----------------------+
+			|Which branches to test?|
+			+-----------------------+
+
+
+	(1):[None] Just fit the branch-site REL model
+	(2):[All] Test all branches
+	(3):[Internal] Test all internal branches
+	(4):[Leaves] Test all terminal branches
+	(5):[R20_239] Test branch 'R20_239'
+	(6):[R20_245] Test branch 'R20_245'
+	(7):[Node5] Test branch 'Node5'
+	(8):[R20_240] Test branch 'R20_240'
+	(9):[R20_238] Test branch 'R20_238'
+	(10):[R20_242] Test branch 'R20_242'
+	(11):[Node4] Test branch 'Node4'
+	(12):[R20_241] Test branch 'R20_241'
+	(13):[Node3] Test branch 'Node3'
+	(14):[R20_243] Test branch 'R20_243'
+	(15):[Node2] Test branch 'Node2'
+	(16):[R20_244] Test branch 'R20_244'
+	(17):[Node1] Test branch 'Node1'
+	(18):[D20_233] Test branch 'D20_233'
+	(19):[D20_235] Test branch 'D20_235'
+	(20):[D20_236] Test branch 'D20_236'
+	(21):[D20_232] Test branch 'D20_232'
+	(22):[Node17] Test branch 'Node17'
+	(23):[D20_234] Test branch 'D20_234'
+	(24):[D20_237] Test branch 'D20_237'
+	(25):[Node21] Test branch 'Node21'
+	(26):[Node16] Test branch 'Node16'
+	(27):[D20_230] Test branch 'D20_230'
+	(28):[D20_231] Test branch 'D20_231'
+	(29):[Node24] Test branch 'Node24'
+	(30):[Node15] Test branch 'Node15'
+
+ Please choose option 1, enter d to complete selection, enter q to cancel:
+	(1):[None] Just fit the branch-site REL model
+	(3):[Internal] Test all internal branches
+	(4):[Leaves] Test all terminal branches
+	(5):[R20_239] Test branch 'R20_239'
+	(6):[R20_245] Test branch 'R20_245'
+	(7):[Node5] Test branch 'Node5'
+	(8):[R20_240] Test branch 'R20_240'
+	(9):[R20_238] Test branch 'R20_238'
+	(10):[R20_242] Test branch 'R20_242'
+	(11):[Node4] Test branch 'Node4'
+	(12):[R20_241] Test branch 'R20_241'
+	(13):[Node3] Test branch 'Node3'
+	(14):[R20_243] Test branch 'R20_243'
+	(15):[Node2] Test branch 'Node2'
+	(16):[R20_244] Test branch 'R20_244'
+	(17):[Node1] Test branch 'Node1'
+	(18):[D20_233] Test branch 'D20_233'
+	(19):[D20_235] Test branch 'D20_235'
+	(20):[D20_236] Test branch 'D20_236'
+	(21):[D20_232] Test branch 'D20_232'
+	(22):[Node17] Test branch 'Node17'
+	(23):[D20_234] Test branch 'D20_234'
+	(24):[D20_237] Test branch 'D20_237'
+	(25):[Node21] Test branch 'Node21'
+	(26):[Node16] Test branch 'Node16'
+	(27):[D20_230] Test branch 'D20_230'
+	(28):[D20_231] Test branch 'D20_231'
+	(29):[Node24] Test branch 'Node24'
+	(30):[Node15] Test branch 'Node15'
+
+ Please choose option 2, enter d to complete selection, enter q to cancel:Selected the following branches for testing
+	R20_239
+	R20_245
+	Node2
+	R20_244
+	Node1
+	D20_233
+	D20_235
+	D20_236
+	D20_232
+	Node17
+	D20_234
+	D20_237
+	Node5
+	Node21
+	Node16
+	D20_230
+	D20_231
+	Node24
+	Node15
+	R20_240
+	R20_238
+	R20_242
+	Node4
+	R20_241
+	Node3
+	R20_243
+
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Save analysis results to:
+Check messages.log details of this run.
+[PHASE 0] Fitting the local MG94 (no site-to-site variation) to obtain initial parameter estimates
+
+Log L = -2069.673152589516 with 66 degrees of freedom. IC = 4273.293893815897
+
+Branch omega values
+
+	Count    = 26
+	Mean     = 5.01523765525855
+	Median   = 1.912384420327132
+	Variance = 20.26950889687443
+	Std.Dev  = 4.502167133378594
+	COV      = 0.8976976651660777
+	Sum      = 130.3961790367223
+	Sq. sum  = 1160.705549628666
+	Skewness = 0.8544345648740441
+	Kurtosis = 58.55546584892645
+	Min      = 0.1474905900365124
+	2.5%     = 0.1474905900365124
+	97.5%    = 10
+	Max      = 10
+
+[PHASE 1] Fitting Branch Site REL models to one branch at a time
+
+[PHASE 1] Branch Node1 log(L) = -2048.378, IC = 4234.824
+	2 rate classes
+	Node: mixtureTree.Node1
+	Length parameter = 0.01336336764016907
+	Class 1
+		omega = 0.740
+		weight = 0.927
+	Class 2
+		omega = 499.760
+		weight = 0.073
+
+[PHASE 1] Branch Node1 log(L) = -2048.430348703314, IC = 4239.05157243418
+	3 rate classes
+	Node: mixtureTree.Node1
+	Length parameter = 0.01856942991645602
+	Class 1
+		omega = 0.427
+		weight = 0.925
+	Class 2
+		omega = 0.000
+		weight = 0.000
+	Class 3
+		omega = 334.712
+		weight = 0.075
+
+[PHASE 1] Branch D20_230 log(L) = -2044.829, IC = 4231.849
+	2 rate classes
+	Node: mixtureTree.D20_230
+	Length parameter = 0.1066728114778418
+	Class 1
+		omega = 0.675
+		weight = 0.991
+	Class 2
+		omega = 9999.166
+		weight = 0.009
+
+[PHASE 1] Branch D20_230 log(L) = -2044.828920709929, IC = 4235.975812753927
+	3 rate classes
+	Node: mixtureTree.D20_230
+	Length parameter = 0.106590587787762
+	Class 1
+		omega = 0.676
+		weight = 0.991
+	Class 2
+		omega = 0.676
+		weight = 0.000
+	Class 3
+		omega = 9802.504
+		weight = 0.009
+
+[PHASE 1] Branch D20_233 log(L) = -2034.411, IC = 4215.140
+	2 rate classes
+	Node: mixtureTree.D20_233
+	Length parameter = 0.03518133541089621
+	Class 1
+		omega = 1.000
+		weight = 0.975
+	Class 2
+		omega = 926.103
+		weight = 0.025
+
+[PHASE 1] Branch D20_233 log(L) = -2034.411065375545, IC = 4219.270840215021
+	3 rate classes
+	Node: mixtureTree.D20_233
+	Length parameter = 0.03518178222842439
+	Class 1
+		omega = 1.000
+		weight = 0.963
+	Class 2
+		omega = 1.000
+		weight = 0.012
+	Class 3
+		omega = 926.144
+		weight = 0.025
+
+[PHASE 1] Branch Node24 log(L) = -2028.221, IC = 4206.891
+	2 rate classes
+	Node: mixtureTree.Node24
+	Length parameter = 0.04114322273334065
+	Class 1
+		omega = 0.218
+		weight = 0.951
+	Class 2
+		omega = 67.328
+		weight = 0.049
+
+[PHASE 1] Branch Node24 log(L) = -2028.2208949349, IC = 4211.024884109482
+	3 rate classes
+	Node: mixtureTree.Node24
+	Length parameter = 0.04144809426904954
+	Class 1
+		omega = 0.214
+		weight = 0.938
+	Class 2
+		omega = 1.000
+		weight = 0.014
+	Class 3
+		omega = 67.731
+		weight = 0.049
+
+[PHASE 1] Branch R20_244 log(L) = -2027.372, IC = 4209.327
+	2 rate classes
+	Node: mixtureTree.R20_244
+	Length parameter = 0.06954170667773635
+	Class 1
+		omega = 0.195
+		weight = 0.862
+	Class 2
+		omega = 6.378
+		weight = 0.138
+
+[PHASE 1] Branch Node16 log(L) = -2018.804, IC = 4192.191
+	2 rate classes
+	Node: mixtureTree.Node16
+	Length parameter = 0.004848646649094359
+	Class 1
+		omega = 1.000
+		weight = 0.988
+	Class 2
+		omega = 10000.000
+		weight = 0.012
+
+[PHASE 1] Branch Node16 log(L) = -2018.803715476874, IC = 4196.328561446129
+	3 rate classes
+	Node: mixtureTree.Node16
+	Length parameter = 0.004848398812044839
+	Class 1
+		omega = 1.000
+		weight = 0.988
+	Class 2
+		omega = 0.478
+		weight = 0.000
+	Class 3
+		omega = 10000.000
+		weight = 0.012
+
+[PHASE 1] Branch D20_231 log(L) = -2018.798, IC = 4196.318
+	2 rate classes
+	Node: mixtureTree.D20_231
+	Length parameter = 0.05308663497485754
+	Class 1
+		omega = 0.224
+		weight = 0.553
+	Class 2
+		omega = 0.464
+		weight = 0.447
+
+[PHASE 1] Branch R20_242 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.R20_242
+	Length parameter = 0.03464861421068494
+	Class 1
+		omega = 0.600
+		weight = 0.894
+	Class 2
+		omega = 0.508
+		weight = 0.106
+
+[PHASE 1] Branch Node17 log(L) = -2018.803, IC = 4196.327
+	2 rate classes
+	Node: mixtureTree.Node17
+	Length parameter = 0.02116932012560599
+	Class 1
+		omega = 0.958
+		weight = 0.815
+	Class 2
+		omega = 1.691
+		weight = 0.185
+
+[PHASE 1] Branch R20_243 log(L) = -2018.798, IC = 4196.318
+	2 rate classes
+	Node: mixtureTree.R20_243
+	Length parameter = 0.01727445235387053
+	Class 1
+		omega = 0.974
+		weight = 0.480
+	Class 2
+		omega = 1.725
+		weight = 0.520
+
+[PHASE 1] Branch Node15 log(L) = -2017.634, IC = 4193.989
+	2 rate classes
+	Node: mixtureTree.Node15
+	Length parameter = 0
+	Class 1
+		omega = 0.559
+		weight = 0.478
+	Class 2
+		omega = 0.665
+		weight = 0.522
+
+[PHASE 1] Branch Node21 log(L) = -2018.804, IC = 4196.330
+	2 rate classes
+	Node: mixtureTree.Node21
+	Length parameter = 0.01450751487914919
+	Class 1
+		omega = 0.729
+		weight = 0.479
+	Class 2
+		omega = 1.837
+		weight = 0.521
+
+[PHASE 1] Branch Node2 log(L) = -2018.818, IC = 4196.358
+	2 rate classes
+	Node: mixtureTree.Node2
+	Length parameter = 3.422958344032662e-05
+	Class 1
+		omega = 1.000
+		weight = 0.772
+	Class 2
+		omega = 2327.965
+		weight = 0.228
+
+[PHASE 1] Branch R20_241 log(L) = -2018.805, IC = 4196.330
+	2 rate classes
+	Node: mixtureTree.R20_241
+	Length parameter = 0.03441320252512051
+	Class 1
+		omega = 0.020
+		weight = 0.432
+	Class 2
+		omega = 0.245
+		weight = 0.568
+
+[PHASE 1] Branch R20_240 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.R20_240
+	Length parameter = 0.01722962194291308
+	Class 1
+		omega = 0.600
+		weight = 0.901
+	Class 2
+		omega = 0.491
+		weight = 0.099
+
+[PHASE 1] Branch R20_245 log(L) = -2018.832, IC = 4196.385
+	2 rate classes
+	Node: mixtureTree.R20_245
+	Length parameter = 9.267625817942205e-05
+	Class 1
+		omega = 1.000
+		weight = 0.826
+	Class 2
+		omega = 977.746
+		weight = 0.174
+
+[PHASE 1] Branch Node5 log(L) = -2018.805, IC = 4196.331
+	2 rate classes
+	Node: mixtureTree.Node5
+	Length parameter = 0.01725910225123771
+	Class 1
+		omega = 0.203
+		weight = 0.897
+	Class 2
+		omega = 1.075
+		weight = 0.103
+
+[PHASE 1] Branch Node3 log(L) = -2018.793, IC = 4196.308
+	2 rate classes
+	Node: mixtureTree.Node3
+	Length parameter = 7.586956538920621e-05
+	Class 1
+		omega = 1.000
+		weight = 0.809
+	Class 2
+		omega = 464.809
+		weight = 0.191
+
+[PHASE 1] Branch R20_239 log(L) = -2018.805, IC = 4196.331
+	2 rate classes
+	Node: mixtureTree.R20_239
+	Length parameter = 2.279805239412563e-05
+	Class 1
+		omega = 0.001
+		weight = 0.000
+	Class 2
+		omega = 222.635
+		weight = 1.000
+
+[PHASE 1] Branch Node4 log(L) = -2018.805, IC = 4196.331
+	2 rate classes
+	Node: mixtureTree.Node4
+	Length parameter = 2.119069811518936e-05
+	Class 1
+		omega = 0.001
+		weight = 0.000
+	Class 2
+		omega = 238.547
+		weight = 1.000
+
+[PHASE 1] Branch D20_232 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.D20_232
+	Length parameter = 0
+	Class 1
+		omega = 0.001
+		weight = 0.941
+	Class 2
+		omega = 0.230
+		weight = 0.059
+
+[PHASE 1] Branch R20_238 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.R20_238
+	Length parameter = 0
+	Class 1
+		omega = 0.001
+		weight = 0.941
+	Class 2
+		omega = 0.230
+		weight = 0.059
+
+[PHASE 1] Branch D20_234 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.D20_234
+	Length parameter = 0
+	Class 1
+		omega = 0.000
+		weight = 0.980
+	Class 2
+		omega = 0.250
+		weight = 0.020
+
+[PHASE 1] Branch D20_236 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.D20_236
+	Length parameter = 0
+	Class 1
+		omega = 0.001
+		weight = 0.941
+	Class 2
+		omega = 0.230
+		weight = 0.059
+
+[PHASE 1] Branch D20_235 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.D20_235
+	Length parameter = 0
+	Class 1
+		omega = 0.001
+		weight = 0.941
+	Class 2
+		omega = 0.230
+		weight = 0.059
+
+[PHASE 1] Branch D20_237 log(L) = -2018.804, IC = 4196.329
+	2 rate classes
+	Node: mixtureTree.D20_237
+	Length parameter = 0
+	Class 1
+		omega = 0.000
+		weight = 0.980
+	Class 2
+		omega = 0.250
+		weight = 0.020
+
+
+[INFERRED MODEL COMPLEXITY]
+	mixtureTree.R20_239 has 1 site rate classes
+	mixtureTree.R20_245 has 1 site rate classes
+	mixtureTree.Node5 has 1 site rate classes
+	mixtureTree.R20_240 has 1 site rate classes
+	mixtureTree.R20_238 has 1 site rate classes
+	mixtureTree.R20_242 has 1 site rate classes
+	mixtureTree.Node4 has 1 site rate classes
+	mixtureTree.R20_241 has 1 site rate classes
+	mixtureTree.Node3 has 1 site rate classes
+	mixtureTree.R20_243 has 1 site rate classes
+	mixtureTree.Node2 has 1 site rate classes
+	mixtureTree.R20_244 has 1 site rate classes
+	mixtureTree.Node1 has 2 site rate classes
+	mixtureTree.D20_233 has 2 site rate classes
+	mixtureTree.D20_235 has 1 site rate classes
+	mixtureTree.D20_236 has 1 site rate classes
+	mixtureTree.D20_232 has 1 site rate classes
+	mixtureTree.Node17 has 1 site rate classes
+	mixtureTree.D20_234 has 1 site rate classes
+	mixtureTree.D20_237 has 1 site rate classes
+	mixtureTree.Node21 has 1 site rate classes
+	mixtureTree.Node16 has 2 site rate classes
+	mixtureTree.D20_230 has 2 site rate classes
+	mixtureTree.D20_231 has 1 site rate classes
+	mixtureTree.Node24 has 2 site rate classes
+	mixtureTree.Node15 has 1 site rate classes
+
+
+[PHASE 2] Fitting the full LOCAL alternative model (no constraints)
+
+Log L = -2010.343598078027 with 76 degrees of freedom, IC = 4175.270290395737
+((((((R20_239:0.001180995549835039,R20_245:0.003568694159399467)Node5:0.002381586244224044,R20_240:0.003553209391423669,R20_238:0,R20_242:0.007167309439604228)Node4:0.00117366099342467,R20_241:0.003576028542277292)Node3:0.001538920797227174,R20_243:0.006773129861098189)Node2:0.004172010407993192,R20_244:0.02082977396851278)Node1:0.3262905979223623,D20_233:1.980236106698113,(((D20_235:0,D20_236:0,D20_232:0)Node17:0.006462282037727107,(D20_234:0,D20_237:0)Node21:0.005817800585352467)Node16:0.2575937878977802,(D20_230:1.754583494823359,D20_231:0.007824569610366365)Node24:0.02670188356760331)Node15:0)
+
+Node: mixtureTree.R20_239
+	Length parameter = 0
+	Class 1: omega =   Infinite, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.R20_239
+	Length parameter = 0.004678910588108436
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.3174707713414595
+
+Node: mixtureTree.R20_245
+	Length parameter = 0
+	Class 1: omega =   Infinite, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.R20_245
+	Length parameter = 0.0141812782549599
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.1669952130789905
+
+Node: mixtureTree.Node5
+	Length parameter = 0.01920242906599607
+	Class 1: omega =     0.3243, weight = 1.
+
+Node: mixtureTree.R20_240
+	Length parameter = 0.01913383865821395
+	Class 1: omega =     0.6496, weight = 1.
+
+Node: mixtureTree.R20_238
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+Node: mixtureTree.R20_242
+	Length parameter = 0.03849526101769049
+	Class 1: omega =     0.6522, weight = 1.
+
+Node: mixtureTree.Node4
+	Length parameter = 0
+	Class 1: omega =   Infinite, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.Node4
+	Length parameter = 0.004653037705998634
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.3174893550976862
+
+Node: mixtureTree.R20_241
+	Length parameter = 0.03827755533304267
+	Class 1: omega =     0.1629, weight = 1.
+
+Node: mixtureTree.Node3
+	Length parameter = 0
+	Class 1: omega =   Infinite, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.Node3
+	Length parameter = 0.005728838093483127
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.2904055388256033
+
+Node: mixtureTree.R20_243
+	Length parameter = 0.01930990953650233
+	Class 1: omega =     1.5202, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.R20_243
+	Length parameter = 0.02678263200760386
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.4166108075220371
+
+Node: mixtureTree.Node2
+	Length parameter = 0
+	Class 1: omega =   Infinite, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.Node2
+	Length parameter = 0.01600093048757919
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.1527744924523372
+
+Node: mixtureTree.R20_244
+	Length parameter = 0.07830631612665168
+	Class 1: omega =     1.0732, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.R20_244
+	Length parameter = 0.08266888205040075
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.5
+
+Node: mixtureTree.Node1
+	Length parameter = 0.02500147518867707
+	Class 1
+		omega = 1.000
+		weight = 0.933
+	Class 2
+		omega = 1012.625
+		weight = 0.067
+...Testing for selection at this branch
+
+Node: mixtureTree.Node1
+	Length parameter = 0.08665504209594115
+	Class 1
+		omega = 1.000
+		weight = 0.933
+	Class 2
+		omega = 1.000
+		weight = 0.067
+p-value = 8.01092525648528e-12
+
+Node: mixtureTree.D20_233
+	Length parameter = 0.04276174445671727
+	Class 1
+		omega = 1.000
+		weight = 0.976
+	Class 2
+		omega = 10000.000
+		weight = 0.024
+...Testing for selection at this branch
+
+Node: mixtureTree.D20_233
+	Length parameter = 0.08744915336183237
+	Class 1
+		omega = 1.000
+		weight = 0.894
+	Class 2
+		omega = 1.000
+		weight = 0.106
+p-value = 2.613429089437513e-05
+
+Node: mixtureTree.D20_235
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+Node: mixtureTree.D20_236
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+Node: mixtureTree.D20_232
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+Node: mixtureTree.Node17
+	Length parameter = 0.02264957681646824
+	Class 1: omega =     1.1750, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.Node17
+	Length parameter = 0.02572435316065706
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.4746891057972136
+
+Node: mixtureTree.D20_234
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+Node: mixtureTree.D20_237
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+Node: mixtureTree.Node21
+	Length parameter = 0.0174018674472241
+	Class 1: omega =     1.4335, weight = 1.
+...Testing for selection at this branch
+
+Node: mixtureTree.Node21
+	Length parameter = 0.02323750783582856
+	Class 1: omega =     1.0000, weight = 1.
+p-value = 0.4413535366992904
+
+Node: mixtureTree.Node16
+	Length parameter = 0.008571076561392913
+	Class 1
+		omega = 0.989
+		weight = 0.984
+	Class 2
+		omega = 10000.000
+		weight = 0.016
+...Testing for selection at this branch
+
+Node: mixtureTree.Node16
+	Length parameter = 0.03271160111823277
+	Class 1
+		omega = 1.000
+		weight = 0.899
+	Class 2
+		omega = 1.000
+		weight = 0.101
+p-value = 7.788268296005096e-06
+
+Node: mixtureTree.D20_230
+	Length parameter = 0.1101237138598202
+	Class 1
+		omega = 0.845
+		weight = 0.992
+	Class 2
+		omega = 10000.000
+		weight = 0.008
+...Testing for selection at this branch
+
+Node: mixtureTree.D20_230
+	Length parameter = 0.129192558573885
+	Class 1
+		omega = 0.788
+		weight = 0.952
+	Class 2
+		omega = 1.000
+		weight = 0.048
+p-value = 0.04176836627155323
+
+Node: mixtureTree.D20_231
+	Length parameter = 0.05901558683727114
+	Class 1: omega =     0.3695, weight = 1.
+
+Node: mixtureTree.Node24
+	Length parameter = 0.04612591291033455
+	Class 1
+		omega = 0.639
+		weight = 0.957
+	Class 2
+		omega = 49.563
+		weight = 0.043
+...Testing for selection at this branch
+
+Node: mixtureTree.Node24
+	Length parameter = 0.06694697262911914
+	Class 1
+		omega = 1.000
+		weight = 0.032
+	Class 2
+		omega = 1.000
+		weight = 0.968
+p-value = 0.07336347691124676
+
+Node: mixtureTree.Node15
+	Length parameter = 0
+	Class 1: omega =  Undefined, weight = 1.
+
+
+Summary of branches under episodic selection (26 were tested, of which 14 required optimizations) :
+	Node1 p = 2.162949819251025e-10
+	Node16 p = 0.0002024949756961325
+	D20_233 p = 0.0006533572723593783
+
+
+ === CPU TIME REPORT === 
+	MG94 model fit : 00:00:07
+	Rate class complexity analysis : 00:08:22
+	aBSREL model fit : 00:00:10
+	Individual branch selection testing : 00:01:34
+	Total time : 00:10:13
+[Sat Aug 19 22:20:08 JST 2017] ./run_hyphy_aBSREL.sh has been successfully completed.
+
+real	10m14.675s
+user	212m33.230s
+sys	0m16.557s

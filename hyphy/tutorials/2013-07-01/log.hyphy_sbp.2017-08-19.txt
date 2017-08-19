@@ -1,0 +1,337 @@
+
+# OS, version information
+CentOS release 6.4 (Final)
+Linux version 2.6.32-358.23.2.el6.x86_64 (mockbuild@c6b9.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-3) (GCC) ) #1 SMP Wed Oct 16 18:37:12 UTC 2013
+Linux bias4-login 2.6.32-358.23.2.el6.x86_64 #1 SMP Wed Oct 16 18:37:12 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+# Download data
+--2017-08-19 22:43:00--  http://www.hyphy.org/w/images/2/2e/HIV_pol_BC_08.fas
+Resolving www.hyphy.org... 129.32.209.139
+Connecting to www.hyphy.org|129.32.209.139|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8364 (8.2K) [text/plain]
+Saving to: “HIV_pol_BC_08.fas”
+
+     0K ........                                              100%  263M=0s
+
+2017-08-19 22:43:01 (263 MB/s) - “HIV_pol_BC_08.fas” saved [8364/8364]
+
+
+# Run HYPHYMP
+
+[2J[H       /HYPHY 2.220170604beta(MP) for Linux on x86_64\       
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Basic Analyses
+	(2) Codon Selection Analyses
+	(3) Compartmentalization
+	(4) Data File Tools
+	(5) Miscellaneous
+	(6) Model Comparison
+	(7) Kernel Analysis Tools
+	(8) Molecular Clock
+	(9) Phylogeny Reconstruction
+	(10) Positive Selection
+	(11) Recombination
+	(12) Selection/Recombination
+	(13) Relative Rate
+	(14) Relative Ratio
+	(15) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):
+[2J[H ***************** FILES IN 'Recombination' ***************** 
+
+
+	(1) Screen an alignment using GARD (requires an MPI environment).
+	(2) Process GARD results.
+	(3) A Likelihood Ratio Test to detect conflicting phylogenetic signal Huelsenbeck and Bull, 1996. [Contributed by Olivier Fedrigo].
+	(4) Search an alignment for a single breakpoint.
+	(5) Plot genetic distances (similarity) of one sequence against all others in an alignment, using a sliding window. Optionally, determine NJ-based clustering and bootstrap support in every window. This is a HyPhy adaptation of the excellent (but Windows only tool) SimPlot (and/or VarPlot) written by Stuart Ray (http://sray.med.som.jhmi.edu/SCRoftware/simplot/)
+
+ Please select the file you want to use (or press ENTER to return to the list of analysis types):
+
+			+---------+
+			|Data type|
+			+---------+
+
+
+	(1):[Nucleotide] Nucleotide data.
+	(2):[Codon] Codon (several available genetic codes).
+
+ Please choose an option (or press q to cancel selection):
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Locate a nucleotide data  file::
+There are 193 potential breakpoints.
+
+
+			+----------+
+			|KH Testing|
+			+----------+
+
+
+	(1):[Skip] Use only AIC to measure goodness of fit.
+	(2):[Run 1] Verify conflicting phylogenetic signal with KH resampling, swapping trees between partitions for the test
+	(3):[Run 2] Verify conflicting phylogenetic signal with KH resampling, using the joint tree as the null.
+
+ Please choose an option (or press q to cancel selection):
+
+               +--------------------------+
+               | Select a standard model. |
+               +--------------------------+
+
+
+
+	(CUSTOM):Custom 4x4 reversible model (defined as in 010023) with choice of several equilibrium frequencies options.
+	(F81):Felsenstein 81 (F81).Rate heterogeneity (and HM spatial correlation) optional.
+	(F84):Felsenstein 84. Rate heterogeneity (and HM spatial correlation) optional.
+	(F84P):Felsenstein 84, compatible with PHYLIP's dnaml version. User chooses ts/tv ratio. Rate heterogeneity (and HM spatial correlation) optional.
+	(GRM):General Reversible Model.Local or global parameters. Possible Rate heterogeneity (and HM spatial correlation).
+	(HKY85):Hasegawa et al.,1985. Local or global parameters. Possible Rate heterogeneity (and HM spatial correlation).
+	(JC69):Jukes-Cantor 1969. Rate heterogeneity (and HM spatial correlation) optional.
+	(K2P):Kimura 2 parameter (K2P).Local or global parameters. Possible Rate heterogeneity (and HM spatial correlation).
+	(K3ST):Kimura(1981) 3 substitution type model. Local or global parameters. Possible Rate heterogeneity (and HM spatial correlation).
+	(NRM):Non reversible model, constrained to have observed counts as its equilibrium frequencies. 11 parameters (8 rate parameteres + 3 frequency parameters).
+	(NRM+FREQS):Non reversible model, NOT constrained to have observed counts as its equilibrium frequencies. 11 parameters.
+	(TRN):Tamura and Nei 1993. Local or global parameters. Local or global parameters. Possible Rate heterogeneity (and HM spatial correlation).
+
+ Please type in the abbreviation for the model you want to use:
+
+			+-------------+
+			|Model Options|
+			+-------------+
+
+
+	(1):[Local] All model parameters are estimated independently for each branch.
+	(2):[Global] Model parameters are shared by all branches, branch lengths are estimated independently.
+	(3):[Global w/variation] Model parameters are shared by all branches, branch lengths come from a user-chosen distribution, whose parameters are estimated.
+	(4):[Global w/variation+HM] Model parameters are shared by all branches, branch lengths come from a user-chosen distribution, whose parameters is estimated; rates at adjacent sites are correlated via a simple Hidden Markov model with an autocorrelation parameter lambda.
+
+ Please choose an option (or press q to cancel selection):
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Save results to::
+Check messages.log details of this run.
+
+1). Single partition analysis
+Log Likelihood = -2593.35448046458;
+Shared Parameters:
+R=0.1417727271187809
+
+Tree givenTree=(((((B_FR_83_HXB2_LAI_IIIB_BRU_K03455:0.01158982500366791,B_TH_90_BK132_AY173951:0.0167865063393336)Node4:0.001433147626908579,B_US_98_1058_11_AY331295:0.0366908533964984)Node3:0.005841600897002007,B_NL_00_671_00T36_AY423387:0.02481947505419874)Node2:0.05456696145374075,08_BC_CN_97_97CNGX_6F_AY008715:0.01169872391231975)Node1:0.02512647151813075,((C_BR_92_BR025_D_U52953:0.02333359312315209,C_ET_86_ETH2220_U46016:0.03496677194239386)Node11:0.007682067762848459,C_ZA_04_SK164B1_AY772699:0.0311502426506982)Node10:0.004852057141257202,C_IN_95_95IN21068_AF067155:0.01305149478270621);
+
+ AIC  = 5218.708960929152
+
+c-AIC = 5219.324345544536
+
+ BIC  = 5404.421129172619
+2). Looking for a breakpoint...
+
+Breakpoint at position      5. dAIC =       -5.15 dAICc =      -6.81 dBIC =    -179.25null
+Breakpoint at position      8. dAIC =       -3.41 dAICc =      -5.08 dBIC =    -177.51null
+Breakpoint at position     11. dAIC =       -2.05 dAICc =      -3.72 dBIC =    -176.16null
+Breakpoint at position     17. dAIC =       22.50 dAICc =      20.83 dBIC =    -151.61null
+Breakpoint at position     33. dAIC =       21.61 dAICc =      19.94 dBIC =    -152.50null
+Breakpoint at position     35. dAIC =        5.98 dAICc =       4.31 dBIC =    -168.13null
+Breakpoint at position     53. dAIC =       24.42 dAICc =      22.75 dBIC =    -149.69null
+Breakpoint at position     59. dAIC =       27.76 dAICc =      26.09 dBIC =    -146.35null
+Breakpoint at position     62. dAIC =       18.26 dAICc =      16.59 dBIC =    -155.84null
+Breakpoint at position     73. dAIC =       17.08 dAICc =      15.41 dBIC =    -157.03null
+Breakpoint at position     77. dAIC =       18.34 dAICc =      16.68 dBIC =    -155.76null
+Breakpoint at position     78. dAIC =       18.59 dAICc =      16.92 dBIC =    -155.52null
+Breakpoint at position     86. dAIC =       26.87 dAICc =      25.20 dBIC =    -147.23null
+Breakpoint at position     89. dAIC =       23.10 dAICc =      21.44 dBIC =    -151.00null
+Breakpoint at position    102. dAIC =       21.24 dAICc =      19.57 dBIC =    -152.86null
+Breakpoint at position    103. dAIC =        5.48 dAICc =       3.82 dBIC =    -168.62null
+Breakpoint at position    106. dAIC =        5.79 dAICc =       4.12 dBIC =    -168.32null
+Breakpoint at position    114. dAIC =        9.58 dAICc =       7.91 dBIC =    -164.53null
+Breakpoint at position    115. dAIC =        9.80 dAICc =       8.13 dBIC =    -164.30null
+Breakpoint at position    116. dAIC =       17.35 dAICc =      15.68 dBIC =    -156.75null
+Breakpoint at position    119. dAIC =       19.24 dAICc =      17.57 dBIC =    -154.86null
+Breakpoint at position    120. dAIC =       17.88 dAICc =      16.21 dBIC =    -156.23null
+Breakpoint at position    125. dAIC =       18.74 dAICc =      17.07 dBIC =    -155.36null
+Breakpoint at position    126. dAIC =       17.63 dAICc =      15.96 dBIC =    -156.47null
+Breakpoint at position    127. dAIC =       17.30 dAICc =      15.64 dBIC =    -156.80null
+Breakpoint at position    134. dAIC =       23.74 dAICc =      22.07 dBIC =    -150.36null
+Breakpoint at position    141. dAIC =       33.47 dAICc =      31.81 dBIC =    -140.63null
+Breakpoint at position    145. dAIC =       33.23 dAICc =      31.56 dBIC =    -140.88null
+Breakpoint at position    149. dAIC =       34.08 dAICc =      32.41 dBIC =    -140.03null
+Breakpoint at position    158. dAIC =       31.39 dAICc =      29.72 dBIC =    -142.72null
+Breakpoint at position    161. dAIC =       31.40 dAICc =      29.74 dBIC =    -142.70null
+Breakpoint at position    167. dAIC =       32.23 dAICc =      30.56 dBIC =    -141.88null
+Breakpoint at position    170. dAIC =       38.63 dAICc =      36.96 dBIC =    -135.48null
+Breakpoint at position    173. dAIC =       39.55 dAICc =      37.88 dBIC =    -134.56null
+Breakpoint at position    177. dAIC =       39.05 dAICc =      37.38 dBIC =    -135.06null
+Breakpoint at position    182. dAIC =       40.43 dAICc =      38.77 dBIC =    -133.67null
+Breakpoint at position    185. dAIC =       40.40 dAICc =      38.73 dBIC =    -133.71null
+Breakpoint at position    190. dAIC =       39.50 dAICc =      37.83 dBIC =    -134.61null
+Breakpoint at position    191. dAIC =       39.65 dAICc =      37.98 dBIC =    -134.46null
+Breakpoint at position    194. dAIC =       45.54 dAICc =      43.87 dBIC =    -128.57null
+Breakpoint at position    197. dAIC =       46.18 dAICc =      44.52 dBIC =    -127.92null
+Breakpoint at position    203. dAIC =       45.62 dAICc =      43.95 dBIC =    -128.48null
+Breakpoint at position    205. dAIC =       45.93 dAICc =      44.26 dBIC =    -128.18null
+Breakpoint at position    209. dAIC =       46.73 dAICc =      45.06 dBIC =    -127.38null
+Breakpoint at position    218. dAIC =       46.69 dAICc =      45.02 dBIC =    -127.42null
+Breakpoint at position    230. dAIC =       47.32 dAICc =      45.65 dBIC =    -126.79null
+Breakpoint at position    233. dAIC =       47.25 dAICc =      45.58 dBIC =    -126.85null
+Breakpoint at position    239. dAIC =       48.45 dAICc =      46.78 dBIC =    -125.66null
+Breakpoint at position    245. dAIC =       54.28 dAICc =      52.62 dBIC =    -119.82null
+Breakpoint at position    247. dAIC =       55.30 dAICc =      53.63 dBIC =    -118.81null
+Breakpoint at position    252. dAIC =       54.94 dAICc =      53.27 dBIC =    -119.17null
+Breakpoint at position    257. dAIC =       62.01 dAICc =      60.34 dBIC =    -112.09null
+Breakpoint at position    260. dAIC =       63.21 dAICc =      61.54 dBIC =    -110.89null
+Breakpoint at position    278. dAIC =       60.58 dAICc =      58.91 dBIC =    -113.53null
+Breakpoint at position    287. dAIC =       57.67 dAICc =      56.00 dBIC =    -116.44null
+Breakpoint at position    290. dAIC =       58.08 dAICc =      56.41 dBIC =    -116.03null
+Breakpoint at position    293. dAIC =       57.92 dAICc =      56.25 dBIC =    -116.19null
+Breakpoint at position    299. dAIC =       53.02 dAICc =      51.35 dBIC =    -121.09null
+Breakpoint at position    317. dAIC =       47.49 dAICc =      45.82 dBIC =    -126.62null
+Breakpoint at position    320. dAIC =       45.03 dAICc =      43.36 dBIC =    -129.08null
+Breakpoint at position    323. dAIC =       46.07 dAICc =      44.40 dBIC =    -128.04null
+Breakpoint at position    326. dAIC =       44.70 dAICc =      43.03 dBIC =    -129.40null
+Breakpoint at position    329. dAIC =       44.63 dAICc =      42.96 dBIC =    -129.48null
+Breakpoint at position    335. dAIC =       32.96 dAICc =      31.29 dBIC =    -141.14null
+Breakpoint at position    347. dAIC =       34.26 dAICc =      32.59 dBIC =    -139.85null
+Breakpoint at position    353. dAIC =       34.29 dAICc =      32.62 dBIC =    -139.82null
+Breakpoint at position    356. dAIC =       35.39 dAICc =      33.72 dBIC =    -138.72null
+Breakpoint at position    357. dAIC =       35.61 dAICc =      33.94 dBIC =    -138.50null
+Breakpoint at position    360. dAIC =       29.97 dAICc =      28.30 dBIC =    -144.14null
+Breakpoint at position    363. dAIC =       23.43 dAICc =      21.76 dBIC =    -150.67null
+Breakpoint at position    364. dAIC =       23.72 dAICc =      22.05 dBIC =    -150.39null
+Breakpoint at position    367. dAIC =       23.46 dAICc =      21.79 dBIC =    -150.64null
+Breakpoint at position    368. dAIC =       22.78 dAICc =      21.11 dBIC =    -151.33null
+Breakpoint at position    371. dAIC =       22.64 dAICc =      20.97 dBIC =    -151.47null
+Breakpoint at position    374. dAIC =       22.66 dAICc =      20.99 dBIC =    -151.45null
+Breakpoint at position    377. dAIC =       12.09 dAICc =      10.42 dBIC =    -162.02null
+Breakpoint at position    389. dAIC =       -6.33 dAICc =      -8.00 dBIC =    -180.44null
+Breakpoint at position    398. dAIC =       -7.74 dAICc =      -9.41 dBIC =    -181.84null
+Breakpoint at position    402. dAIC =        7.80 dAICc =       6.13 dBIC =    -166.31null
+Breakpoint at position    403. dAIC =       10.06 dAICc =       8.39 dBIC =    -164.04null
+Breakpoint at position    410. dAIC =       11.18 dAICc =       9.51 dBIC =    -162.92null
+Breakpoint at position    413. dAIC =        7.34 dAICc =       5.67 dBIC =    -166.77null
+Breakpoint at position    428. dAIC =        4.85 dAICc =       3.19 dBIC =    -169.25null
+Breakpoint at position    434. dAIC =        3.64 dAICc =       1.97 dBIC =    -170.47null
+Breakpoint at position    437. dAIC =        1.34 dAICc =      -0.33 dBIC =    -172.77null
+Breakpoint at position    443. dAIC =        1.41 dAICc =      -0.25 dBIC =    -172.69null
+Breakpoint at position    446. dAIC =        4.49 dAICc =       2.82 dBIC =    -169.61null
+Breakpoint at position    452. dAIC =        2.63 dAICc =       0.96 dBIC =    -171.48null
+Breakpoint at position    455. dAIC =        2.63 dAICc =       0.96 dBIC =    -171.48null
+Breakpoint at position    471. dAIC =        3.29 dAICc =       1.62 dBIC =    -170.82null
+Breakpoint at position    482. dAIC =        2.89 dAICc =       1.22 dBIC =    -171.22null
+Breakpoint at position    483. dAIC =        3.49 dAICc =       1.82 dBIC =    -170.62null
+Breakpoint at position    484. dAIC =        2.18 dAICc =       0.52 dBIC =    -171.92null
+Breakpoint at position    488. dAIC =        1.60 dAICc =      -0.07 dBIC =    -172.51null
+Breakpoint at position    490. dAIC =        1.26 dAICc =      -0.40 dBIC =    -172.84null
+Breakpoint at position    492. dAIC =        1.36 dAICc =      -0.31 dBIC =    -172.75null
+Breakpoint at position    494. dAIC =        1.70 dAICc =       0.03 dBIC =    -172.41null
+Breakpoint at position    495. dAIC =        2.27 dAICc =       0.60 dBIC =    -171.84null
+Breakpoint at position    496. dAIC =        1.62 dAICc =      -0.04 dBIC =    -172.48null
+Breakpoint at position    509. dAIC =       -0.04 dAICc =      -1.71 dBIC =    -174.15null
+Breakpoint at position    515. dAIC =       -0.51 dAICc =      -2.18 dBIC =    -174.62null
+Breakpoint at position    516. dAIC =       -0.82 dAICc =      -2.49 dBIC =    -174.93null
+Breakpoint at position    517. dAIC =       -0.80 dAICc =      -2.47 dBIC =    -174.90null
+Breakpoint at position    518. dAIC =       -0.16 dAICc =      -1.83 dBIC =    -174.27null
+Breakpoint at position    519. dAIC =       -0.01 dAICc =      -1.68 dBIC =    -174.12null
+Breakpoint at position    520. dAIC =        0.92 dAICc =      -0.75 dBIC =    -173.18null
+Breakpoint at position    521. dAIC =        2.19 dAICc =       0.52 dBIC =    -171.92null
+Breakpoint at position    524. dAIC =        3.77 dAICc =       2.10 dBIC =    -170.34null
+Breakpoint at position    530. dAIC =       -8.36 dAICc =     -10.03 dBIC =    -182.47null
+Breakpoint at position    534. dAIC =       -8.81 dAICc =     -10.48 dBIC =    -182.91null
+Breakpoint at position    535. dAIC =       -8.50 dAICc =     -10.16 dBIC =    -182.60null
+Breakpoint at position    536. dAIC =      -11.91 dAICc =     -13.58 dBIC =    -186.02null
+Breakpoint at position    548. dAIC =      -11.34 dAICc =     -13.01 dBIC =    -185.45null
+Breakpoint at position    549. dAIC =      -11.05 dAICc =     -12.71 dBIC =    -185.15null
+Breakpoint at position    557. dAIC =      -11.92 dAICc =     -13.59 dBIC =    -186.03null
+Breakpoint at position    569. dAIC =      -11.53 dAICc =     -13.20 dBIC =    -185.63null
+Breakpoint at position    584. dAIC =      -12.15 dAICc =     -13.82 dBIC =    -186.26null
+Breakpoint at position    588. dAIC =       -7.38 dAICc =      -9.04 dBIC =    -181.48null
+Breakpoint at position    590. dAIC =       -6.67 dAICc =      -8.34 dBIC =    -180.78null
+Breakpoint at position    597. dAIC =       -5.18 dAICc =      -6.85 dBIC =    -179.28null
+Breakpoint at position    599. dAIC =       -3.74 dAICc =      -5.40 dBIC =    -177.84null
+Breakpoint at position    600. dAIC =       -1.93 dAICc =      -3.59 dBIC =    -176.03null
+Breakpoint at position    601. dAIC =       -0.87 dAICc =      -2.54 dBIC =    -174.98null
+Breakpoint at position    608. dAIC =       -0.88 dAICc =      -2.55 dBIC =    -174.99null
+Breakpoint at position    611. dAIC =        0.59 dAICc =      -1.07 dBIC =    -173.51null
+Breakpoint at position    612. dAIC =        1.68 dAICc =       0.02 dBIC =    -172.42null
+Breakpoint at position    614. dAIC =        0.67 dAICc =      -1.00 dBIC =    -173.43null
+Breakpoint at position    618. dAIC =       -0.03 dAICc =      -1.69 dBIC =    -174.13null
+Breakpoint at position    620. dAIC =        0.05 dAICc =      -1.62 dBIC =    -174.06null
+Breakpoint at position    624. dAIC =       -0.35 dAICc =      -2.01 dBIC =    -174.45null
+Breakpoint at position    626. dAIC =       11.43 dAICc =       9.76 dBIC =    -162.68null
+Breakpoint at position    629. dAIC =       17.80 dAICc =      16.13 dBIC =    -156.31null
+Breakpoint at position    631. dAIC =       19.65 dAICc =      17.99 dBIC =    -154.45null
+Breakpoint at position    635. dAIC =       19.18 dAICc =      17.51 dBIC =    -154.93null
+Breakpoint at position    639. dAIC =       18.50 dAICc =      16.83 dBIC =    -155.61null
+Breakpoint at position    641. dAIC =       18.03 dAICc =      16.36 dBIC =    -156.08null
+Breakpoint at position    642. dAIC =       17.47 dAICc =      15.80 dBIC =    -156.63null
+Breakpoint at position    643. dAIC =       17.30 dAICc =      15.63 dBIC =    -156.81null
+Breakpoint at position    647. dAIC =       17.02 dAICc =      15.35 dBIC =    -157.08null
+Breakpoint at position    653. dAIC =       14.91 dAICc =      13.24 dBIC =    -159.20null
+Breakpoint at position    656. dAIC =       13.74 dAICc =      12.08 dBIC =    -160.36null
+Breakpoint at position    659. dAIC =       13.59 dAICc =      11.92 dBIC =    -160.52null
+Breakpoint at position    674. dAIC =       24.01 dAICc =      22.34 dBIC =    -150.09null
+Breakpoint at position    680. dAIC =       22.56 dAICc =      20.89 dBIC =    -151.54null
+Breakpoint at position    692. dAIC =       12.95 dAICc =      11.29 dBIC =    -161.15null
+Breakpoint at position    701. dAIC =       15.33 dAICc =      13.66 dBIC =    -158.78null
+Breakpoint at position    710. dAIC =       13.86 dAICc =      12.19 dBIC =    -160.24null
+Breakpoint at position    725. dAIC =       12.04 dAICc =      10.37 dBIC =    -162.06null
+Breakpoint at position    732. dAIC =       10.99 dAICc =       9.32 dBIC =    -163.12null
+Breakpoint at position    733. dAIC =        9.99 dAICc =       8.32 dBIC =    -164.11null
+Breakpoint at position    740. dAIC =        8.91 dAICc =       7.24 dBIC =    -165.20null
+Breakpoint at position    743. dAIC =        8.29 dAICc =       6.63 dBIC =    -165.81null
+Breakpoint at position    746. dAIC =        7.43 dAICc =       5.76 dBIC =    -166.67null
+Breakpoint at position    749. dAIC =        6.88 dAICc =       5.21 dBIC =    -167.23null
+Breakpoint at position    750. dAIC =        6.45 dAICc =       4.78 dBIC =    -167.66null
+Breakpoint at position    751. dAIC =        6.07 dAICc =       4.40 dBIC =    -168.04null
+Breakpoint at position    756. dAIC =        6.18 dAICc =       4.51 dBIC =    -167.92null
+Breakpoint at position    758. dAIC =        5.52 dAICc =       3.85 dBIC =    -168.58null
+Breakpoint at position    767. dAIC =        5.29 dAICc =       3.62 dBIC =    -168.81null
+Breakpoint at position    773. dAIC =        8.08 dAICc =       6.41 dBIC =    -166.03null
+Breakpoint at position    785. dAIC =        8.14 dAICc =       6.47 dBIC =    -165.97null
+Breakpoint at position    789. dAIC =        8.64 dAICc =       6.97 dBIC =    -165.47null
+Breakpoint at position    791. dAIC =        8.12 dAICc =       6.45 dBIC =    -165.98null
+Breakpoint at position    794. dAIC =        7.93 dAICc =       6.26 dBIC =    -166.18null
+Breakpoint at position    812. dAIC =       10.79 dAICc =       9.13 dBIC =    -163.31null
+Breakpoint at position    813. dAIC =       10.44 dAICc =       8.77 dBIC =    -163.67null
+Breakpoint at position    818. dAIC =        5.12 dAICc =       3.46 dBIC =    -168.98null
+Breakpoint at position    821. dAIC =        6.46 dAICc =       4.79 dBIC =    -167.64null
+Breakpoint at position    822. dAIC =        5.79 dAICc =       4.12 dBIC =    -168.32null
+Breakpoint at position    829. dAIC =        4.74 dAICc =       3.07 dBIC =    -169.37null
+Breakpoint at position    830. dAIC =        6.26 dAICc =       4.59 dBIC =    -167.85null
+Breakpoint at position    833. dAIC =        4.50 dAICc =       2.84 dBIC =    -169.60null
+Breakpoint at position    834. dAIC =        0.42 dAICc =      -1.24 dBIC =    -173.68null
+Breakpoint at position    836. dAIC =       -9.17 dAICc =     -10.84 dBIC =    -183.28null
+Breakpoint at position    841. dAIC =       -5.25 dAICc =      -6.92 dBIC =    -179.36null
+Breakpoint at position    845. dAIC =       -3.83 dAICc =      -5.50 dBIC =    -177.93null
+Breakpoint at position    851. dAIC =       -4.71 dAICc =      -6.37 dBIC =    -178.81null
+Breakpoint at position    854. dAIC =       -5.18 dAICc =      -6.85 dBIC =    -179.29null
+Breakpoint at position    855. dAIC =       -9.60 dAICc =     -11.26 dBIC =    -183.70null
+Breakpoint at position    857. dAIC =      -11.25 dAICc =     -12.92 dBIC =    -185.36null
+Breakpoint at position    872. dAIC =       -9.04 dAICc =     -10.70 dBIC =    -183.14null
+Breakpoint at position    873. dAIC =       -7.87 dAICc =      -9.54 dBIC =    -181.98null
+Breakpoint at position    876. dAIC =       -8.86 dAICc =     -10.53 dBIC =    -182.97null
+Breakpoint at position    878. dAIC =       -7.82 dAICc =      -9.48 dBIC =    -181.92null
+Breakpoint at position    879. dAIC =       -6.30 dAICc =      -7.97 dBIC =    -180.40null
+Breakpoint at position    881. dAIC =       -5.18 dAICc =      -6.85 dBIC =    -179.28null
+Breakpoint at position    887. dAIC =       -3.06 dAICc =      -4.73 dBIC =    -177.16null
+Breakpoint at position    888. dAIC =       -7.00 dAICc =      -8.67 dBIC =    -181.11null
+Breakpoint at position    889. dAIC =       -7.51 dAICc =      -9.17 dBIC =    -181.61null
+Breakpoint at position    893. dAIC =       -9.35 dAICc =     -11.02 dBIC =    -183.46null
+Breakpoint at position    899. dAIC =      -17.88 dAICc =     -19.55 dBIC =    -191.98null
+Breakpoint at position    900. dAIC =      -35.68 dAICc =     -37.35 dBIC =    -209.79null
+AIC
+
+Best supported breakpoint is located at position 260
+AIC = 5155.498295106398 : an improvement of 63.21066582275398 AIC points
+
+AIC-c
+
+Best supported breakpoint is located at position 260
+AIC = 5157.781379111 : an improvement of 61.54296643353609 AIC points
+
+BIC
+
+There seems to be NO recombination in this alignment
+
+[Sat Aug 19 22:43:10 JST 2017] ./run_hyphy_sbp.sh has been successfully completed.
+
+real	0m9.941s
+user	0m17.159s
+sys	0m0.727s
