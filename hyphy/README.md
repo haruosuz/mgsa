@@ -70,6 +70,9 @@ Using HyPhy to Detect Selection - HyPhy - Hypothesis Testing using Phylogenies
     # Use MEME to find sites which have experienced episodic diversification.
     bash run_hyphy_meme.sh
 
+    # Use RELAX to compare selective pressures on different parts of the tree
+    bash run_hyphy_relax.sh
+
 ### 2013-07-01
 http://www.hyphy.org/w/index.php/HyPhy
 HyPhy tutorial
