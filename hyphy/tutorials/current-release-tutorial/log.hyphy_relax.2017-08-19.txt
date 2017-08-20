@@ -1,0 +1,186 @@
+
+# OS, version information
+CentOS release 6.4 (Final)
+Linux version 2.6.32-358.23.2.el6.x86_64 (mockbuild@c6b9.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-3) (GCC) ) #1 SMP Wed Oct 16 18:37:12 UTC 2013
+Linux bias4-login 2.6.32-358.23.2.el6.x86_64 #1 SMP Wed Oct 16 18:37:12 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+# Download example datasets as a zip file.
+--2017-08-19 23:53:07--  https://github.com/veg/hyphy-tutorials/blob/master/docs/selection/data/files.zip?raw=true
+Resolving github.com... 192.30.255.113, 192.30.255.112
+Connecting to github.com|192.30.255.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/veg/hyphy-tutorials/raw/master/docs/selection/data/files.zip [following]
+--2017-08-19 23:53:08--  https://github.com/veg/hyphy-tutorials/raw/master/docs/selection/data/files.zip
+Connecting to github.com|192.30.255.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/veg/hyphy-tutorials/master/docs/selection/data/files.zip [following]
+--2017-08-19 23:53:08--  https://raw.githubusercontent.com/veg/hyphy-tutorials/master/docs/selection/data/files.zip
+Resolving raw.githubusercontent.com... 151.101.72.133
+Connecting to raw.githubusercontent.com|151.101.72.133|:443... connected.
+WARNING: certificate common name “www.github.com” doesn’t match requested host name “raw.githubusercontent.com”.
+HTTP request sent, awaiting response... 200 OK
+Length: 48870 (48K) [application/zip]
+Saving to: “files.zip”
+
+     0K .......... .......... .......... .......... .......   100% 3.55M=0.01s
+
+2017-08-19 23:53:08 (3.55 MB/s) - “files.zip” saved [48870/48870]
+
+Archive:  files.zip
+  inflating: files/HIV.nex           
+  inflating: files/HIV.nwk           
+  inflating: files/HIV-relax.nwk     
+  inflating: files/HIV_RT.nex        
+  inflating: files/WestNileVirus_NS3.fas  
+  inflating: files/CVV_G.fas         
+  inflating: files/CVV_G_GARD.nex    
+
+# Run HYPHYMP
+
+[2J[H       /HYPHY 2.220170604beta(MP) for Linux on x86_64\       
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Basic Analyses
+	(2) Codon Selection Analyses
+	(3) Compartmentalization
+	(4) Data File Tools
+	(5) Miscellaneous
+	(6) Model Comparison
+	(7) Kernel Analysis Tools
+	(8) Molecular Clock
+	(9) Phylogeny Reconstruction
+	(10) Positive Selection
+	(11) Recombination
+	(12) Selection/Recombination
+	(13) Relative Rate
+	(14) Relative Ratio
+	(15) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):
+[2J[H ***************** FILES IN 'Positive Selection' ***************** 
+
+
+	(1) Use the random effects branch-site model (2010) to find lineages subject to episodic selection.
+	(2) Use the improved branch-site REL method of Yang and Nielsen (2005) to look for episodic selection in sequences.
+	(3) Test whether a branch (or branches) in the tree evolves under different dN and dS than the rest of the tree.
+	(4) Run the Branch-site Unrestricted Statistical Test for Episodic Diversification to test for evidence of episodic alignment-wide selective pressure
+	(5) Test whether sites in two populations are evolving under different selective pressures.
+	(6) Test whether sites in two populations are evolving under different selective pressures along internal tree branches.
+	(7) Test for positive selection using the approach of Nielsen and Yabg, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1.
+	(8) Test for positive selection using the approach of Nielsen and Yang, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1. Multiple subsets of one data set with shared dN/dS.
+	(9) Quickly test for positive selection using several approaches.
+	(10) Test whether selected branches are under relaxed or intensified selection against reference branches
+	(11) Use approximate likelihoods at a site to test for subtree specific selective pressure.
+	(12) Perform a random effects (D)irectional (E)volution on (P)rotein (S)equences test to identify sites which evolve directionally towards a given residue [MPI enabled].
+	(13) Test for Episodic Directional Selection on a set of labeled branches
+
+ Please select the file you want to use (or press ENTER to return to the list of analysis types):
+Analysis Description
+====================
+RELAX (a random effects test of selection relaxation) uses a random
+effects branch-site model framework to test whether a set of 'Test'
+branches evolves under relaxed selection relative to a set of
+'Reference' branches (R), as measured by the relaxation parameter (K).
+
+Requirements
+============
+in-frame codon alignment and a phylogenetic tree, with at least two
+groups of branches defined using the {} notation (one group can be
+defined as all unlabeled branches)
+
+Written by
+==========
+Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and the UCSD viral
+evolution group
+
+Contact Information
+===================
+spond@ucsd.edu
+
+Analysis Version
+================
+1.00
+
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+
+ Please choose an option (or press q to cancel selection):
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/lib2014/(null):[RELAX] Loaded an MSA with 16 sequences and 288 codons from '/home/haruo/projects/mgsa/hyphy/relax/files/HIV.nex' 
+
+
+A tree was found in the data file:
+((((((R20_239:0.001179071552709126,R20_245:0.003569393318767422):0.002373643652152119,R20_240:0.00354445225954759,R20_238:0,R20_242:0.007143686359514547):0.001169032517101171,R20_241:0.003555888002841892):0.001829250056707198,R20_243:0.006486065374683752):0.003845820830922537,R20_244:0.02113434306810657){TEST}:0.03269082780807394,D20_233:0.02550919363771013,(((D20_235:0,D20_236:0,D20_232:0):0.006433904687642939,(D20_234:0,D20_237:0):0.005843978498632621):0.01022675723558638,(D20_230:0.02979851732996924,D20_231:0.006905678660095517):0.02444611465196596):0.005946252173834307)
+
+Would you like to use it:(Y/N)?
+
+
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Please select a tree file for the data::
+
+			+----------------------------------------------------------------+
+			|Choose the set of branches to test for relaxed selection (T set)|
+			+----------------------------------------------------------------+
+
+
+	(1):[Unlabeled branches] Set of 1 unlabeled branches
+	(2):[Donor] Set Donor with 13 branches
+	(3):[Recipient] Set Recipient with 12 branches
+
+ Please choose an option (or press q to cancel selection):
+
+			+--------------------------------------------+
+			|Choose the set of reference branches (R set)|
+			+--------------------------------------------+
+
+
+	(1):[Unlabeled branches] Set of 1 unlabeled branches
+	(2):[Donor] Set Donor with 13 branches
+
+ Please choose an option (or press q to cancel selection):[RELAX] Selected 12 branches as the test set: Node2,Node3,Node4,Node5,R20_238,R20_239,R20_240,R20_241,R20_242,R20_243,R20_244,R20_245 
+
+
+			+-------------+
+			|Analysis type|
+			+-------------+
+
+
+	(1):[All] [Default] Fit descriptive models AND run the relax test (4 models)
+	(2):[Minimal] Run only the RELAX test (2 models)
+
+ Please choose an option (or press q to cancel selection):
+Check messages.log details of this run.
+[RELAX] Obtaining branch lengths under the GTR model 
+[RELAX] Log(L) = -2114.132336431558 
+[RELAX] Obtaining omega and branch length estimates under the partitioned MG94xGTR model 
+[RELAX] Log(L) = -2076.093752376074 
+[RELAX] Fitting the RELAX null model 
+[RELAX] Log(L) = -2031.206566165061 
+[RELAX] Fitting the RELAX alternative model 
+[RELAX] Log(L) = -2024.075558722235. Relaxation parameter K = 0.4375056861532465 
+[RELAX] Likelihood ratio test for relaxation on Test branches, p = 0.0001590422667016034 
+[Sat Aug 19 23:54:57 JST 2017] ./run_hyphy_relax.sh has been successfully completed.
+
+real	1m50.122s
+user	9m35.472s
+sys	0m4.191s

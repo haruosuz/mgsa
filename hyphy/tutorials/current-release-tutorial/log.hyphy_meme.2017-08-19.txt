@@ -1,0 +1,828 @@
+
+# OS, version information
+CentOS release 6.4 (Final)
+Linux version 2.6.32-358.23.2.el6.x86_64 (mockbuild@c6b9.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-3) (GCC) ) #1 SMP Wed Oct 16 18:37:12 UTC 2013
+Linux bias4-login 2.6.32-358.23.2.el6.x86_64 #1 SMP Wed Oct 16 18:37:12 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+# Download example datasets as a zip file.
+--2017-08-19 23:50:10--  https://github.com/veg/hyphy-tutorials/blob/master/docs/selection/data/files.zip?raw=true
+Resolving github.com... 192.30.255.112, 192.30.255.113
+Connecting to github.com|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/veg/hyphy-tutorials/raw/master/docs/selection/data/files.zip [following]
+--2017-08-19 23:50:11--  https://github.com/veg/hyphy-tutorials/raw/master/docs/selection/data/files.zip
+Connecting to github.com|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/veg/hyphy-tutorials/master/docs/selection/data/files.zip [following]
+--2017-08-19 23:50:12--  https://raw.githubusercontent.com/veg/hyphy-tutorials/master/docs/selection/data/files.zip
+Resolving raw.githubusercontent.com... 151.101.72.133
+Connecting to raw.githubusercontent.com|151.101.72.133|:443... connected.
+WARNING: certificate common name “www.github.com” doesn’t match requested host name “raw.githubusercontent.com”.
+HTTP request sent, awaiting response... 200 OK
+Length: 48870 (48K) [application/zip]
+Saving to: “files.zip”
+
+     0K .......... .......... .......... .......... .......   100% 3.58M=0.01s
+
+2017-08-19 23:50:12 (3.58 MB/s) - “files.zip” saved [48870/48870]
+
+Archive:  files.zip
+  inflating: files/HIV.nex           
+  inflating: files/HIV.nwk           
+  inflating: files/HIV-relax.nwk     
+  inflating: files/HIV_RT.nex        
+  inflating: files/WestNileVirus_NS3.fas  
+  inflating: files/CVV_G.fas         
+  inflating: files/CVV_G_GARD.nex    
+
+# Run HYPHYMP
+
+[2J[H       /HYPHY 2.220170604beta(MP) for Linux on x86_64\       
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Basic Analyses
+	(2) Codon Selection Analyses
+	(3) Compartmentalization
+	(4) Data File Tools
+	(5) Miscellaneous
+	(6) Model Comparison
+	(7) Kernel Analysis Tools
+	(8) Molecular Clock
+	(9) Phylogeny Reconstruction
+	(10) Positive Selection
+	(11) Recombination
+	(12) Selection/Recombination
+	(13) Relative Rate
+	(14) Relative Ratio
+	(15) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):
+[2J[H ***************** FILES IN 'Positive Selection' ***************** 
+
+
+	(1) Use the random effects branch-site model (2010) to find lineages subject to episodic selection.
+	(2) Use the improved branch-site REL method of Yang and Nielsen (2005) to look for episodic selection in sequences.
+	(3) Test whether a branch (or branches) in the tree evolves under different dN and dS than the rest of the tree.
+	(4) Run the Branch-site Unrestricted Statistical Test for Episodic Diversification to test for evidence of episodic alignment-wide selective pressure
+	(5) Test whether sites in two populations are evolving under different selective pressures.
+	(6) Test whether sites in two populations are evolving under different selective pressures along internal tree branches.
+	(7) Test for positive selection using the approach of Nielsen and Yabg, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1.
+	(8) Test for positive selection using the approach of Nielsen and Yang, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1. Multiple subsets of one data set with shared dN/dS.
+	(9) Quickly test for positive selection using several approaches.
+	(10) Test whether selected branches are under relaxed or intensified selection against reference branches
+	(11) Use approximate likelihoods at a site to test for subtree specific selective pressure.
+	(12) Perform a random effects (D)irectional (E)volution on (P)rotein (S)equences test to identify sites which evolve directionally towards a given residue [MPI enabled].
+	(13) Test for Episodic Directional Selection on a set of labeled branches
+
+ Please select the file you want to use (or press ENTER to return to the list of analysis types):
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+
+ Please choose an option (or press q to cancel selection):
+
+			+-----------+
+			|New/Restore|
+			+-----------+
+
+
+	(1):[New Analysis] Perform a new analysis.
+	(2):[Restore] Restore an earlier nucleotide fit
+
+ Please choose an option (or press q to cancel selection):
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Please specify a codon data file::
+
+			+-------------+
+			|Model Options|
+			+-------------+
+
+
+	(1):[Default] Use HKY85 and MG94xHKY85.
+	(2):[Custom] Use any reversible nucleotide model crossed with MG94.
+
+ Please choose an option (or press q to cancel selection):
+Please enter a 6 character model designation (e.g:010010 defines HKY85):
+
+A tree was found in the data file:
+((((((((((RABENSBURG_ISOLATE,(WNFCG,SPU116_89)),KUNCG),(ETHAN4766,(CHIN_01,EG101))),(((ITALY_1998_EQUINE,PAAN001),(RO97_50,VLG_4)),KN3829)),AST99),PAH001),IS_98),MEX03),NY99_FLAMINGO),HNY1999,NY99_EQHS)
+
+Would you like to use it:(Y/N)?
+
+
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Save nucleotide model fit to::
+
+			+----------------------------+
+			|dN/dS bias parameter options|
+			+----------------------------+
+
+
+	(1):[Neutral] dN/dS=1
+	(2):[User] Custom dN/dS value
+	(3):[Estimate] Estimate from data with branch corrections(slower).
+	(4):[Estimate + CI] Estimate dN/dS and a 95% confidence interval from data (slower).
+	(5):[Estimate dN/dS only] Estimate from data without branch corrections.
+
+ Please choose an option (or press q to cancel selection):
+
+			+-------------------------+
+			|Ancestor Counting Options|
+			+-------------------------+
+
+
+	(1):[Single Ancestor Counting] Use the most likely ancestor state
+	(2):[Weighted Ancestor Counting] Weigh the contributions of every possible ancestral state (slow)
+	(3):[Sample Ancestal States] Generate a sample of ancestral state reconstructions to assess single ancestor reliability
+	(4):[Process Sampled Ancestal States] Process a previously generated sample of ancestral state reconstructions to assess single ancestor reliability
+	(5):[One rate FEL] Fixed effects site-by-site likelihood estimation. dS is held constant across sites.
+	(6):[Two rate FEL] Fixed effects site-by-site likelihood estimation. dS adjusted across sites.
+	(7):[Rate Distribution] Obtain a site-specific distribution of dN and dS, under the assumption that E[dS] = 1. Also obtain an upper bound on rate-variation model likelihood scores.
+	(8):[Full site-by-site LRT] Each site has a separate dN AND branch lengths. Experimental and VERY slow.
+	(9):[Multirate FEL] Fixed effects site-by-site likelihood estimation, where non-synonymous rates are split into several classes
+	(10):[BGM co-evolution] Use a Bayesian graphical model fitted to site substitution patterns to detect co-evolving sites
+	(11):[MEME] Mixed effects model of evolution to search for evidence of episodic selection at indvidual sites [EXPERIMENTAL, March 2011]
+
+ Please choose an option (or press q to cancel selection):
+
+______________READ THE FOLLOWING DATA______________
+19 species:{RABENSBURG_ISOLATE,WNFCG,SPU116_89,KUNCG,ITALY_1998_EQUINE,PAAN001,KN3829,RO97_50,VLG_4,AST99,PAH001,MEX03,IS_98,HNY1999,NY99_EQHS,NY99_FLAMINGO,ETHAN4766,CHIN_01,EG101};
+Total Sites:1857;
+Distinct Sites:357
+
+Phase 1:Nucleotide Model (012345) Model Fit
+
+
+-7745.4755264397
+
+Phase 2:MG94x(012345) Model Fit
+
+
+
+Phase 3:Estimating dN/dS
+
+
+Nuc->codon scaling factor:3.091524277712773
+Raw scaling factor:3.091524277712773
+Tree scaling factor(S): 1
+
+Using dN/dS=0.02681168759745043
+Codon model:-6564.66009173942
+
+Phase 4: Ancestral State Reconstruction and Counting
+
+<<Significance level for Likelihood Ratio Tests (permissible range = [0,1], default value = 0.1)>>Save individual fit files to disk (CAUTION: will create 3x the number of sites files, [Y/N])
+[RETUNING BRANCH LENGTHS AND NUCLEOTIDE RATES UNDER THE CODON MODEL]
+IMPROVED Log(L) BY 141.7215840176023 POINTS
+| Codon:    1| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.24| LRT:   0.00| p:  1.00| Log(L): -6.13
+| Codon:    2| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.28| LRT:   0.00| p:  1.00| Log(L): -15.68
+| Codon:    3| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.86| LRT:   0.00| p:  1.00| Log(L): -7.94
+| Codon:    4| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.27| LRT:   0.00| p:  1.00| Log(L): -18.65
+| Codon:    5| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:    6| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:    7| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.95| LRT:   0.00| p:  1.00| Log(L): -12.49
+| Codon:    8| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -8.35
+| Codon:    9| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       1.47| LRT:   0.00| p:  1.00| Log(L): -10.68
+| Codon:   10| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.29| LRT:   0.00| p:  1.00| Log(L): -11.69
+| Codon:   11| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   12| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.03
+| Codon:   13| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   14| Beta1:       0.07| P(Beta1):  1.00| Beta2:       0.10| P(Beta2):  0.00| alpha:       1.51| LRT:   0.00| p:  1.00| Log(L): -10.17
+| Codon:   15| Beta1:       0.00| P(Beta1):  0.80| Beta2:       1.47| P(Beta2):  0.20| alpha:       8.86| LRT:   0.00| p:  1.00| Log(L): -16.26
+| Codon:   16| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.86| LRT:   0.00| p:  1.00| Log(L): -8.09
+| Codon:   17| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.37| LRT:   0.00| p:  1.00| Log(L): -5.46
+| Codon:   18| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.11| LRT:   0.00| p:  1.00| Log(L): -15.52
+| Codon:   19| Beta1:       1.00| P(Beta1):  0.00| Beta2:       0.08| P(Beta2):  1.00| alpha:       0.00| LRT:   0.89| p:  0.34| Log(L): -7.15
+| Codon:   20| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.38| LRT:   0.00| p:  1.00| Log(L): -10.33
+| Codon:   21| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.09| LRT:   0.00| p:  1.00| Log(L): -13.57
+| Codon:   22| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.50| LRT:   0.00| p:  1.00| Log(L): -13.26
+| Codon:   23| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -7.44
+| Codon:   24| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.48| LRT:   0.00| p:  1.00| Log(L): -6.30
+| Codon:   25| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.13| LRT:   0.00| p:  1.00| Log(L): -14.55
+| Codon:   26| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   27| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   28| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.26| LRT:   0.00| p:  1.00| Log(L): -9.13
+| Codon:   29| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.73| LRT:   0.00| p:  1.00| Log(L): -9.11
+| Codon:   30| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       2.10| LRT:   0.00| p:  1.00| Log(L): -14.41
+| Codon:   31| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.69| LRT:   0.00| p:  1.00| Log(L): -9.99
+| Codon:   32| Beta1:       0.00| P(Beta1):  0.91| Beta2:       0.00| P(Beta2):  0.09| alpha:       1.02| LRT:   0.00| p:  1.00| Log(L): -11.58
+| Codon:   33| Beta1:       0.09| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       0.96| LRT:   0.00| p:  1.00| Log(L): -12.37
+| Codon:   34| Beta1:       0.00| P(Beta1):  0.86| Beta2:       0.00| P(Beta2):  0.14| alpha:       0.88| LRT:   0.00| p:  1.00| Log(L): -7.57
+| Codon:   35| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   36| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -7.77
+| Codon:   37| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   38| Beta1:       0.05| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       1.78| LRT:   0.00| p:  1.00| Log(L): -11.21
+| Codon:   39| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -7.74
+| Codon:   40| Beta1:       0.00| P(Beta1):  0.76| Beta2:       0.00| P(Beta2):  0.24| alpha:       0.63| LRT:   0.00| p:  1.00| Log(L): -6.84
+| Codon:   41| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   42| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.56| LRT:   0.00| p:  1.00| Log(L): -8.13
+| Codon:   43| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.30
+| Codon:   44| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.63| LRT:   0.00| p:  1.00| Log(L): -18.57
+| Codon:   45| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.40| LRT:   0.00| p:  1.00| Log(L): -7.93
+| Codon:   46| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.25| LRT:   0.00| p:  1.00| Log(L): -13.63
+| Codon:   47| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   48| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.85| LRT:   0.00| p:  1.00| Log(L): -17.87
+| Codon:   49| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.83| LRT:   0.00| p:  1.00| Log(L): -10.70
+| Codon:   50| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   51| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       9.13| LRT:   0.00| p:  1.00| Log(L): -13.91
+| Codon:   52| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.56| LRT:   0.00| p:  1.00| Log(L): -9.03
+| Codon:   53| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -7.91
+| Codon:   54| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.23| LRT:   0.00| p:  1.00| Log(L): -8.43
+| Codon:   55| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.24| LRT:   0.00| p:  1.00| Log(L): -6.13
+| Codon:   56| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.18| LRT:   0.00| p:  1.00| Log(L): -6.44
+| Codon:   57| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.14| LRT:   0.00| p:  1.00| Log(L): -6.10
+| Codon:   58| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.07| LRT:   0.00| p:  1.00| Log(L): -13.47
+| Codon:   59| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   60| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.37| LRT:   0.00| p:  1.00| Log(L): -6.07
+| Codon:   61| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.31| LRT:   0.00| p:  1.00| Log(L): -11.88
+| Codon:   62| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       6.68| LRT:   0.00| p:  1.00| Log(L): -11.54
+| Codon:   63| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.44| LRT:   0.00| p:  1.00| Log(L): -7.83
+| Codon:   64| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -11.03
+| Codon:   65| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.22| LRT:   0.00| p:  1.00| Log(L): -8.71
+| Codon:   66| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.36| LRT:   0.00| p:  1.00| Log(L): -9.26
+| Codon:   67| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -8.21
+| Codon:   68| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.33| LRT:   0.00| p:  1.00| Log(L): -9.81
+| Codon:   69| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   70| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.92| LRT:   0.00| p:  1.00| Log(L): -13.37
+| Codon:   71| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       2.10| LRT:   0.00| p:  1.00| Log(L): -10.19
+| Codon:   72| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.62| LRT:   0.00| p:  1.00| Log(L): -7.68
+| Codon:   73| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.79| LRT:   0.00| p:  1.00| Log(L): -9.00
+| Codon:   74| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.62| LRT:   0.00| p:  1.00| Log(L): -8.51
+| Codon:   75| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.12| LRT:   0.00| p:  1.00| Log(L): -9.20
+| Codon:   76| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.21| LRT:   0.00| p:  1.00| Log(L): -8.05
+| Codon:   77| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.16| LRT:   0.00| p:  1.00| Log(L): -8.37
+| Codon:   78| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.02| LRT:   0.00| p:  1.00| Log(L): -10.19
+| Codon:   79| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -7.68
+| Codon:   80| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.32| LRT:   0.00| p:  1.00| Log(L): -9.80
+| Codon:   81| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.33| LRT:   0.00| p:  1.00| Log(L): -6.34
+| Codon:   82| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.28| LRT:   0.00| p:  1.00| Log(L): -11.67
+| Codon:   83| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   84| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -5.30
+| Codon:   85| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       1.09| LRT:   0.00| p:  1.00| Log(L): -10.93
+| Codon:   86| Beta1:       0.00| P(Beta1):  0.64| Beta2:       0.80| P(Beta2):  0.36| alpha:       0.69| LRT:   0.01| p:  0.93| Log(L): -11.24
+| Codon:   87| Beta1:       0.00| P(Beta1):  0.95| Beta2:      28.91| P(Beta2):  0.05| alpha:       1.51| LRT:   3.56| p:  0.06| Log(L): -16.97 *P
+| Codon:   88| Beta1:       0.09| P(Beta1):  0.00| Beta2:       0.12| P(Beta2):  1.00| alpha:       1.30| LRT:   0.00| p:  1.00| Log(L): -10.81
+| Codon:   89| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   90| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.82| LRT:   0.00| p:  1.00| Log(L): -11.03
+| Codon:   91| Beta1:       0.00| P(Beta1):  0.80| Beta2:       0.00| P(Beta2):  0.20| alpha:       1.04| LRT:   0.00| p:  1.00| Log(L): -10.08
+| Codon:   92| Beta1:       0.25| P(Beta1):  0.80| Beta2:       0.52| P(Beta2):  0.20| alpha:       2.10| LRT:   0.00| p:  1.00| Log(L): -15.06
+| Codon:   93| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   94| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.03
+| Codon:   95| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.91| LRT:   0.00| p:  1.00| Log(L): -7.50
+| Codon:   96| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.71| LRT:   0.00| p:  1.00| Log(L): -9.36
+| Codon:   97| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:   98| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.15| LRT:   0.00| p:  1.00| Log(L): -9.98
+| Codon:   99| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.06| LRT:   0.00| p:  1.00| Log(L): -10.04
+| Codon:  100| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.72| LRT:   0.00| p:  1.00| Log(L): -12.46
+| Codon:  101| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.66| LRT:   0.00| p:  1.00| Log(L): -5.46
+| Codon:  102| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       3.61| LRT:   0.00| p:  1.00| Log(L): -16.60
+| Codon:  103| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -10.05
+| Codon:  104| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.52
+| Codon:  105| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -7.13
+| Codon:  106| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.70| LRT:   0.00| p:  1.00| Log(L): -13.77
+| Codon:  107| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.25| LRT:   0.00| p:  1.00| Log(L): -9.78
+| Codon:  108| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.45| LRT:   0.00| p:  1.00| Log(L): -8.59
+| Codon:  109| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -7.39
+| Codon:  110| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.73
+| Codon:  111| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.10| LRT:   0.00| p:  1.00| Log(L): -12.08
+| Codon:  112| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.83| LRT:   0.00| p:  1.00| Log(L): -6.62
+| Codon:  113| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.42| LRT:   0.00| p:  1.00| Log(L): -9.94
+| Codon:  114| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.81| LRT:   0.00| p:  1.00| Log(L): -7.54
+| Codon:  115| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  116| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.44| LRT:   0.00| p:  1.00| Log(L): -10.53
+| Codon:  117| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.20| LRT:   0.00| p:  1.00| Log(L): -8.76
+| Codon:  118| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.29| LRT:   0.00| p:  1.00| Log(L): -7.15
+| Codon:  119| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.32| LRT:   0.00| p:  1.00| Log(L): -8.98
+| Codon:  120| Beta1:       0.45| P(Beta1):  0.00| Beta2:       0.10| P(Beta2):  1.00| alpha:       0.00| LRT:   0.42| p:  0.51| Log(L): -7.73
+| Codon:  121| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.75| LRT:   0.00| p:  1.00| Log(L): -8.37
+| Codon:  122| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.78| LRT:   0.00| p:  1.00| Log(L): -6.77
+| Codon:  123| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.54| LRT:   0.00| p:  1.00| Log(L): -13.23
+| Codon:  124| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  125| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.25| LRT:   0.00| p:  1.00| Log(L): -11.53
+| Codon:  126| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.99| LRT:   0.00| p:  1.00| Log(L): -12.78
+| Codon:  127| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.57| LRT:   0.00| p:  1.00| Log(L): -8.58
+| Codon:  128| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       5.69| LRT:   0.00| p:  1.00| Log(L): -20.04
+| Codon:  129| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -6.53
+| Codon:  130| Beta1:       0.24| P(Beta1):  0.46| Beta2:       0.09| P(Beta2):  0.54| alpha:       0.37| LRT:   0.00| p:  1.00| Log(L): -10.97
+| Codon:  131| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -8.30
+| Codon:  132| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -10.93
+| Codon:  133| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  134| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.75| LRT:   0.00| p:  1.00| Log(L): -7.62
+| Codon:  135| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.28| LRT:   0.00| p:  1.00| Log(L): -7.88
+| Codon:  136| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.22| LRT:   0.00| p:  1.00| Log(L): -6.39
+| Codon:  137| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.53| LRT:   0.00| p:  1.00| Log(L): -9.72
+| Codon:  138| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.85| LRT:   0.00| p:  1.00| Log(L): -17.36
+| Codon:  139| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.12| LRT:   0.00| p:  1.00| Log(L): -6.98
+| Codon:  140| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.77| LRT:   0.00| p:  1.00| Log(L): -10.77
+| Codon:  141| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  142| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  143| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.32| LRT:   0.00| p:  1.00| Log(L): -5.78
+| Codon:  144| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.26| LRT:   0.00| p:  1.00| Log(L): -7.99
+| Codon:  145| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.93| LRT:   0.00| p:  1.00| Log(L): -9.80
+| Codon:  146| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.30| LRT:   0.00| p:  1.00| Log(L): -5.75
+| Codon:  147| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.81| LRT:   0.00| p:  1.00| Log(L): -12.01
+| Codon:  148| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.33| LRT:   0.00| p:  1.00| Log(L): -6.46
+| Codon:  149| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.17| LRT:   0.00| p:  1.00| Log(L): -13.47
+| Codon:  150| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  151| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.70| LRT:   0.00| p:  1.00| Log(L): -8.36
+| Codon:  152| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.98| LRT:   0.00| p:  1.00| Log(L): -10.22
+| Codon:  153| Beta1:       0.00| P(Beta1):  1.00| Beta2:       0.00| P(Beta2):  0.00| alpha:       0.43| LRT:   0.00| p:  1.00| Log(L): -7.75
+| Codon:  154| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  155| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.15| LRT:   0.00| p:  1.00| Log(L): -6.74
+| Codon:  156| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  157| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -11.57
+| Codon:  158| Beta1:       0.09| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -10.60
+| Codon:  159| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -7.69
+| Codon:  160| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.14| LRT:   0.00| p:  1.00| Log(L): -13.73
+| Codon:  161| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.41| LRT:   0.00| p:  1.00| Log(L): -9.24
+| Codon:  162| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.70| LRT:   0.00| p:  1.00| Log(L): -6.19
+| Codon:  163| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  164| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.91| LRT:   0.00| p:  1.00| Log(L): -7.57
+| Codon:  165| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.12| LRT:   0.00| p:  1.00| Log(L): -7.20
+| Codon:  166| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  167| Beta1:       0.00| P(Beta1):  1.00| Beta2:       0.00| P(Beta2):  0.00| alpha:       2.00| LRT:   0.00| p:  1.00| Log(L): -7.24
+| Codon:  168| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.97| LRT:   0.00| p:  1.00| Log(L): -13.10
+| Codon:  169| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.30
+| Codon:  170| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       1.18| LRT:   0.00| p:  1.00| Log(L): -9.89
+| Codon:  171| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  172| Beta1:       0.21| P(Beta1):  1.00| Beta2:       0.11| P(Beta2):  0.00| alpha:       0.55| LRT:   0.00| p:  1.00| Log(L): -13.87
+| Codon:  173| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.38
+| Codon:  174| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.60| LRT:   0.00| p:  1.00| Log(L): -11.18
+| Codon:  175| Beta1:       0.26| P(Beta1):  1.00| Beta2:       0.28| P(Beta2):  0.00| alpha:       1.08| LRT:   0.00| p:  1.00| Log(L): -15.45
+| Codon:  176| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.49| LRT:   0.00| p:  1.00| Log(L): -10.72
+| Codon:  177| Beta1:       0.18| P(Beta1):  1.00| Beta2:       0.10| P(Beta2):  0.00| alpha:       0.57| LRT:   0.00| p:  1.00| Log(L): -12.80
+| Codon:  178| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.77| LRT:   0.00| p:  1.00| Log(L): -7.80
+| Codon:  179| Beta1:       0.00| P(Beta1):  0.80| Beta2:       0.00| P(Beta2):  0.20| alpha:       0.25| LRT:   0.00| p:  1.00| Log(L): -6.24
+| Codon:  180| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       7.29| LRT:   0.00| p:  1.00| Log(L): -11.37
+| Codon:  181| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.24| LRT:   0.00| p:  1.00| Log(L): -8.58
+| Codon:  182| Beta1:       0.16| P(Beta1):  0.00| Beta2:       0.11| P(Beta2):  1.00| alpha:       0.71| LRT:   0.00| p:  1.00| Log(L): -8.95
+| Codon:  183| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  184| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -10.73
+| Codon:  185| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.55| LRT:   0.00| p:  1.00| Log(L): -8.81
+| Codon:  186| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.44
+| Codon:  187| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -5.30
+| Codon:  188| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.77| LRT:   0.00| p:  1.00| Log(L): -8.95
+| Codon:  189| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  190| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.50| LRT:   0.00| p:  1.00| Log(L): -14.01
+| Codon:  191| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -12.37
+| Codon:  192| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.53| LRT:   0.00| p:  1.00| Log(L): -17.16
+| Codon:  193| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.98| LRT:   0.00| p:  1.00| Log(L): -9.06
+| Codon:  194| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.89| LRT:   0.00| p:  1.00| Log(L): -13.15
+| Codon:  195| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.03| LRT:   0.00| p:  1.00| Log(L): -10.51
+| Codon:  196| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.55| LRT:   0.00| p:  1.00| Log(L): -11.82
+| Codon:  197| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.12| LRT:   0.00| p:  1.00| Log(L): -12.24
+| Codon:  198| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.13| LRT:   0.00| p:  1.00| Log(L): -11.01
+| Codon:  199| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.97| LRT:   0.00| p:  1.00| Log(L): -11.05
+| Codon:  200| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.20| LRT:   0.00| p:  1.00| Log(L): -8.76
+| Codon:  201| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.13| LRT:   0.00| p:  1.00| Log(L): -11.49
+| Codon:  202| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.30| LRT:   0.00| p:  1.00| Log(L): -12.89
+| Codon:  203| Beta1:       0.99| P(Beta1):  0.00| Beta2:       0.12| P(Beta2):  1.00| alpha:       0.00| LRT:   0.62| p:  0.43| Log(L): -7.28
+| Codon:  204| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.76| LRT:   0.00| p:  1.00| Log(L): -12.61
+| Codon:  205| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.66| LRT:   0.00| p:  1.00| Log(L): -10.16
+| Codon:  206| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.53| LRT:   0.00| p:  1.00| Log(L): -8.47
+| Codon:  207| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       0.74| LRT:   0.00| p:  1.00| Log(L): -5.97
+| Codon:  208| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  209| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       1.34| LRT:   0.00| p:  1.00| Log(L): -11.95
+| Codon:  210| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.44
+| Codon:  211| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.71| LRT:   0.00| p:  1.00| Log(L): -8.58
+| Codon:  212| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.44| LRT:   0.00| p:  1.00| Log(L): -8.13
+| Codon:  213| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.15| LRT:   0.00| p:  1.00| Log(L): -6.74
+| Codon:  214| Beta1:       0.02| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       4.94| LRT:   0.00| p:  1.00| Log(L): -14.41
+| Codon:  215| Beta1:       0.09| P(Beta1):  1.00| Beta2:       0.11| P(Beta2):  0.00| alpha:       1.17| LRT:   0.00| p:  1.00| Log(L): -11.12
+| Codon:  216| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -8.06
+| Codon:  217| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       2.14| LRT:   0.00| p:  1.00| Log(L): -16.46
+| Codon:  218| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.57| LRT:   0.00| p:  1.00| Log(L): -9.15
+| Codon:  219| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.31| LRT:   0.00| p:  1.00| Log(L): -11.71
+| Codon:  220| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.44| LRT:   0.00| p:  1.00| Log(L): -8.14
+| Codon:  221| Beta1:       0.14| P(Beta1):  0.00| Beta2:       0.09| P(Beta2):  1.00| alpha:       0.67| LRT:   0.00| p:  1.00| Log(L): -10.45
+| Codon:  222| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.30| LRT:   0.00| p:  1.00| Log(L): -18.73
+| Codon:  223| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.27| LRT:   0.00| p:  1.00| Log(L): -9.05
+| Codon:  224| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -8.21
+| Codon:  225| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.58| LRT:   0.00| p:  1.00| Log(L): -15.39
+| Codon:  226| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  227| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.19| LRT:   0.00| p:  1.00| Log(L): -6.50
+| Codon:  228| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.66| LRT:   0.00| p:  1.00| Log(L): -11.34
+| Codon:  229| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       0.50| LRT:   0.00| p:  1.00| Log(L): -10.48
+| Codon:  230| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.74| LRT:   0.00| p:  1.00| Log(L): -10.90
+| Codon:  231| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  232| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  233| Beta1:       0.94| P(Beta1):  0.61| Beta2:       0.00| P(Beta2):  0.39| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -13.38
+| Codon:  234| Beta1:       0.17| P(Beta1):  1.00| Beta2:       0.11| P(Beta2):  0.00| alpha:       0.64| LRT:   0.00| p:  1.00| Log(L): -9.22
+| Codon:  235| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -11.93
+| Codon:  236| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.15| LRT:   0.00| p:  1.00| Log(L): -9.44
+| Codon:  237| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.53| LRT:   0.00| p:  1.00| Log(L): -14.10
+| Codon:  238| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.24| LRT:   0.00| p:  1.00| Log(L): -6.13
+| Codon:  239| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.66| LRT:   0.00| p:  1.00| Log(L): -14.57
+| Codon:  240| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       1.72| LRT:   0.00| p:  1.00| Log(L): -12.45
+| Codon:  241| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.27| LRT:   0.00| p:  1.00| Log(L): -10.09
+| Codon:  242| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.21| LRT:   0.00| p:  1.00| Log(L): -15.54
+| Codon:  243| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.90| LRT:   0.00| p:  1.00| Log(L): -12.72
+| Codon:  244| Beta1:       0.00| P(Beta1):  0.92| Beta2:      15.81| P(Beta2):  0.08| alpha:       4.81| LRT:   0.42| p:  0.52| Log(L): -17.29
+| Codon:  245| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.53| LRT:   0.00| p:  1.00| Log(L): -7.92
+| Codon:  246| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.09| LRT:   0.00| p:  1.00| Log(L): -12.31
+| Codon:  247| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.29| LRT:   0.00| p:  1.00| Log(L): -8.84
+| Codon:  248| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.55| LRT:   0.00| p:  1.00| Log(L): -7.00
+| Codon:  249| Beta1:       0.86| P(Beta1):  0.00| Beta2:       2.50| P(Beta2):  1.00| alpha:       0.00| LRT:   7.62| p:  0.01| Log(L): -33.85 *P
+| Codon:  250| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -6.03
+| Codon:  251| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.83| LRT:   0.00| p:  1.00| Log(L): -6.47
+| Codon:  252| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.44| LRT:   0.00| p:  1.00| Log(L): -9.92
+| Codon:  253| Beta1:       0.99| P(Beta1):  0.00| Beta2:       0.09| P(Beta2):  1.00| alpha:       0.00| LRT:   0.97| p:  0.32| Log(L): -7.94
+| Codon:  254| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  255| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -5.56
+| Codon:  256| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.71| LRT:   0.00| p:  1.00| Log(L): -8.43
+| Codon:  257| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.97| LRT:   0.00| p:  1.00| Log(L): -8.30
+| Codon:  258| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.88| LRT:   0.00| p:  1.00| Log(L): -9.00
+| Codon:  259| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.84| LRT:   0.00| p:  1.00| Log(L): -7.10
+| Codon:  260| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.16| LRT:   0.00| p:  1.00| Log(L): -5.87
+| Codon:  261| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  262| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.44| LRT:   0.00| p:  1.00| Log(L): -10.15
+| Codon:  263| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  264| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.37| LRT:   0.00| p:  1.00| Log(L): -15.09
+| Codon:  265| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.43| LRT:   0.00| p:  1.00| Log(L): -10.49
+| Codon:  266| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.25| LRT:   0.00| p:  1.00| Log(L): -12.15
+| Codon:  267| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.85| LRT:   0.00| p:  1.00| Log(L): -11.95
+| Codon:  268| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -7.23
+| Codon:  269| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.34| LRT:   0.00| p:  1.00| Log(L): -5.93
+| Codon:  270| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  271| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  272| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  273| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.43| LRT:   0.00| p:  1.00| Log(L): -8.83
+| Codon:  274| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -7.23
+| Codon:  275| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.41| LRT:   0.00| p:  1.00| Log(L): -6.36
+| Codon:  276| Beta1:       0.00| P(Beta1):  0.80| Beta2:       0.00| P(Beta2):  0.20| alpha:       0.91| LRT:   0.00| p:  1.00| Log(L): -7.72
+| Codon:  277| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       6.22| LRT:   0.00| p:  1.00| Log(L): -17.02
+| Codon:  278| Beta1:       0.00| P(Beta1):  0.84| Beta2:       0.00| P(Beta2):  0.16| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -6.67
+| Codon:  279| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  280| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.04| LRT:   0.00| p:  1.00| Log(L): -9.64
+| Codon:  281| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.46| LRT:   0.00| p:  1.00| Log(L): -17.48
+| Codon:  282| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:      12.83| LRT:   0.00| p:  1.00| Log(L): -15.31
+| Codon:  283| Beta1:       0.08| P(Beta1):  1.00| Beta2:       0.10| P(Beta2):  0.00| alpha:       1.29| LRT:   0.00| p:  1.00| Log(L): -18.21
+| Codon:  284| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  285| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.84| LRT:   0.00| p:  1.00| Log(L): -7.10
+| Codon:  286| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.65| LRT:   0.00| p:  1.00| Log(L): -11.36
+| Codon:  287| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.33| LRT:   0.00| p:  1.00| Log(L): -7.90
+| Codon:  288| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       1.95| LRT:   0.00| p:  1.00| Log(L): -10.88
+| Codon:  289| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.48| LRT:   0.00| p:  1.00| Log(L): -9.88
+| Codon:  290| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.62| LRT:   0.00| p:  1.00| Log(L): -7.89
+| Codon:  291| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.52| LRT:   0.00| p:  1.00| Log(L): -9.40
+| Codon:  292| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.63| LRT:   0.00| p:  1.00| Log(L): -11.94
+| Codon:  293| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.11| LRT:   0.00| p:  1.00| Log(L): -9.40
+| Codon:  294| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.45| LRT:   0.00| p:  1.00| Log(L): -11.39
+| Codon:  295| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.45| LRT:   0.00| p:  1.00| Log(L): -15.21
+| Codon:  296| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.45| LRT:   0.00| p:  1.00| Log(L): -14.31
+| Codon:  297| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.87| LRT:   0.00| p:  1.00| Log(L): -10.04
+| Codon:  298| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.86| LRT:   0.00| p:  1.00| Log(L): -10.30
+| Codon:  299| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.81| LRT:   0.00| p:  1.00| Log(L): -10.17
+| Codon:  300| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.54| LRT:   0.00| p:  1.00| Log(L): -11.33
+| Codon:  301| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       0.60| LRT:   0.00| p:  1.00| Log(L): -7.79
+| Codon:  302| Beta1:       0.00| P(Beta1):  0.68| Beta2:       0.45| P(Beta2):  0.32| alpha:       0.29| LRT:   0.02| p:  0.90| Log(L): -13.55
+| Codon:  303| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.53| LRT:   0.00| p:  1.00| Log(L): -9.17
+| Codon:  304| Beta1:       0.13| P(Beta1):  1.00| Beta2:       0.24| P(Beta2):  0.00| alpha:       1.85| LRT:   0.00| p:  1.00| Log(L): -16.05
+| Codon:  305| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.82| LRT:   0.00| p:  1.00| Log(L): -8.84
+| Codon:  306| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.38
+| Codon:  307| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       1.20| LRT:   0.00| p:  1.00| Log(L): -17.82
+| Codon:  308| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -7.66
+| Codon:  309| Beta1:       0.17| P(Beta1):  1.00| Beta2:       0.11| P(Beta2):  0.00| alpha:       0.67| LRT:   0.00| p:  1.00| Log(L): -9.12
+| Codon:  310| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.69| LRT:   0.00| p:  1.00| Log(L): -8.80
+| Codon:  311| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.25| LRT:   0.00| p:  1.00| Log(L): -12.36
+| Codon:  312| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.33| LRT:   0.00| p:  1.00| Log(L): -6.54
+| Codon:  313| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.12| LRT:   0.00| p:  1.00| Log(L): -6.98
+| Codon:  314| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.36| LRT:   0.00| p:  1.00| Log(L): -9.85
+| Codon:  315| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  316| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.02| LRT:   0.00| p:  1.00| Log(L): -13.67
+| Codon:  317| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.60| LRT:   0.00| p:  1.00| Log(L): -12.63
+| Codon:  318| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.50| LRT:   0.00| p:  1.00| Log(L): -11.75
+| Codon:  319| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.63| LRT:   0.00| p:  1.00| Log(L): -11.81
+| Codon:  320| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.57| LRT:   0.00| p:  1.00| Log(L): -13.71
+| Codon:  321| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.00| LRT:   0.00| p:  1.00| Log(L): -11.78
+| Codon:  322| Beta1:       0.03| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       3.00| LRT:   0.00| p:  1.00| Log(L): -19.09
+| Codon:  323| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -8.46
+| Codon:  324| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.48| LRT:   0.00| p:  1.00| Log(L): -9.29
+| Codon:  325| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.53| LRT:   0.00| p:  1.00| Log(L): -8.47
+| Codon:  326| Beta1:       0.00| P(Beta1):  0.80| Beta2:       0.00| P(Beta2):  0.20| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -7.77
+| Codon:  327| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.21| LRT:   0.00| p:  1.00| Log(L): -11.47
+| Codon:  328| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.77| LRT:   0.00| p:  1.00| Log(L): -8.25
+| Codon:  329| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.95| LRT:   0.00| p:  1.00| Log(L): -11.51
+| Codon:  330| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -5.56
+| Codon:  331| Beta1:       0.00| P(Beta1):  0.87| Beta2:       3.04| P(Beta2):  0.13| alpha:       0.40| LRT:   0.73| p:  0.39| Log(L): -14.65
+| Codon:  332| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.84| LRT:   0.00| p:  1.00| Log(L): -16.29
+| Codon:  333| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.22| LRT:   0.00| p:  1.00| Log(L): -12.72
+| Codon:  334| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.94| LRT:   0.00| p:  1.00| Log(L): -12.94
+| Codon:  335| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  336| Beta1:       0.05| P(Beta1):  0.00| Beta2:       0.20| P(Beta2):  1.00| alpha:       3.95| LRT:   0.00| p:  1.00| Log(L): -21.83
+| Codon:  337| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -6.08
+| Codon:  338| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.90| LRT:   0.00| p:  1.00| Log(L): -9.48
+| Codon:  339| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.02| LRT:   0.00| p:  1.00| Log(L): -6.54
+| Codon:  340| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  341| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.05| LRT:   0.00| p:  1.00| Log(L): -11.13
+| Codon:  342| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.01| LRT:   0.00| p:  1.00| Log(L): -8.70
+| Codon:  343| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.41| LRT:   0.00| p:  1.00| Log(L): -13.44
+| Codon:  344| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.19| LRT:   0.00| p:  1.00| Log(L): -13.29
+| Codon:  345| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  346| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  347| Beta1:       0.20| P(Beta1):  0.15| Beta2:       0.20| P(Beta2):  0.85| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -17.13
+| Codon:  348| Beta1:       0.00| P(Beta1):  0.80| Beta2:       0.00| P(Beta2):  0.20| alpha:       6.51| LRT:   0.00| p:  1.00| Log(L): -15.31
+| Codon:  349| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -7.68
+| Codon:  350| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       8.15| LRT:   0.00| p:  1.00| Log(L): -11.26
+| Codon:  351| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  352| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.55| LRT:   0.00| p:  1.00| Log(L): -10.28
+| Codon:  353| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -8.10
+| Codon:  354| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.30
+| Codon:  355| Beta1:       0.09| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -11.64
+| Codon:  356| Beta1:       0.06| P(Beta1):  0.93| Beta2:       6.99| P(Beta2):  0.07| alpha:       2.08| LRT:   0.17| p:  0.68| Log(L): -22.85
+| Codon:  357| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.40| LRT:   0.00| p:  1.00| Log(L): -6.31
+| Codon:  358| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.40| LRT:   0.00| p:  1.00| Log(L): -8.57
+| Codon:  359| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.97| LRT:   0.00| p:  1.00| Log(L): -7.58
+| Codon:  360| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.14| LRT:   0.00| p:  1.00| Log(L): -6.03
+| Codon:  361| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  362| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.94| LRT:   0.00| p:  1.00| Log(L): -10.70
+| Codon:  363| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.85| LRT:   0.00| p:  1.00| Log(L): -7.55
+| Codon:  364| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.98| LRT:   0.00| p:  1.00| Log(L): -12.10
+| Codon:  365| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.96| LRT:   0.00| p:  1.00| Log(L): -10.19
+| Codon:  366| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.78| LRT:   0.00| p:  1.00| Log(L): -14.43
+| Codon:  367| Beta1:       0.02| P(Beta1):  1.00| Beta2:       0.10| P(Beta2):  0.00| alpha:       4.28| LRT:   0.00| p:  1.00| Log(L): -13.42
+| Codon:  368| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  369| Beta1:       0.04| P(Beta1):  1.00| Beta2:       0.12| P(Beta2):  0.00| alpha:       3.25| LRT:   0.00| p:  1.00| Log(L): -14.32
+| Codon:  370| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  371| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.03
+| Codon:  372| Beta1:       0.06| P(Beta1):  0.53| Beta2:       0.07| P(Beta2):  0.47| alpha:       1.30| LRT:   0.00| p:  1.00| Log(L): -13.00
+| Codon:  373| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  374| Beta1:       0.13| P(Beta1):  1.00| Beta2:       0.11| P(Beta2):  0.00| alpha:       0.82| LRT:   0.00| p:  1.00| Log(L): -14.02
+| Codon:  375| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.20| LRT:   0.00| p:  1.00| Log(L): -10.66
+| Codon:  376| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.51| LRT:   0.00| p:  1.00| Log(L): -17.53
+| Codon:  377| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.19| LRT:   0.00| p:  1.00| Log(L): -9.54
+| Codon:  378| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.89| LRT:   0.00| p:  1.00| Log(L): -10.54
+| Codon:  379| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.07| LRT:   0.00| p:  1.00| Log(L): -12.18
+| Codon:  380| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.81| LRT:   0.00| p:  1.00| Log(L): -12.29
+| Codon:  381| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.79| LRT:   0.00| p:  1.00| Log(L): -8.65
+| Codon:  382| Beta1:       0.10| P(Beta1):  1.00| Beta2:       0.12| P(Beta2):  0.00| alpha:       1.17| LRT:   0.00| p:  1.00| Log(L): -10.92
+| Codon:  383| Beta1:       0.00| P(Beta1):  1.00| Beta2:       0.00| P(Beta2):  0.00| alpha:       2.77| LRT:   0.00| p:  1.00| Log(L): -13.30
+| Codon:  384| Beta1:       0.00| P(Beta1):  0.82| Beta2:       1.47| P(Beta2):  0.18| alpha:       0.18| LRT:   0.89| p:  0.34| Log(L): -10.80
+| Codon:  385| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       1.85| LRT:   0.00| p:  1.00| Log(L): -7.32
+| Codon:  386| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.69| LRT:   0.00| p:  1.00| Log(L): -17.14
+| Codon:  387| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  388| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -6.03
+| Codon:  389| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.18
+| Codon:  390| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -8.27
+| Codon:  391| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.36| LRT:   0.00| p:  1.00| Log(L): -10.52
+| Codon:  392| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.76| LRT:   0.00| p:  1.00| Log(L): -8.11
+| Codon:  393| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.51| LRT:   0.00| p:  1.00| Log(L): -9.00
+| Codon:  394| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  395| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.33| LRT:   0.00| p:  1.00| Log(L): -9.81
+| Codon:  396| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -8.21
+| Codon:  397| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.19| LRT:   0.00| p:  1.00| Log(L): -8.90
+| Codon:  398| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.46| LRT:   0.00| p:  1.00| Log(L): -12.30
+| Codon:  399| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  400| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.25| LRT:   0.00| p:  1.00| Log(L): -5.38
+| Codon:  401| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  402| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  403| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  404| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.39| LRT:   0.00| p:  1.00| Log(L): -8.78
+| Codon:  405| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -6.42
+| Codon:  406| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.89| LRT:   0.00| p:  1.00| Log(L): -10.77
+| Codon:  407| Beta1:       0.00| P(Beta1):  0.81| Beta2:       1.19| P(Beta2):  0.19| alpha:       0.41| LRT:   0.27| p:  0.60| Log(L): -11.80
+| Codon:  408| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.43| LRT:   0.00| p:  1.00| Log(L): -7.81
+| Codon:  409| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.24| LRT:   0.00| p:  1.00| Log(L): -6.18
+| Codon:  410| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -6.53
+| Codon:  411| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.70| LRT:   0.00| p:  1.00| Log(L): -6.19
+| Codon:  412| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.26| LRT:   0.00| p:  1.00| Log(L): -8.60
+| Codon:  413| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.82| LRT:   0.00| p:  1.00| Log(L): -6.63
+| Codon:  414| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  415| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.39| LRT:   0.00| p:  1.00| Log(L): -8.36
+| Codon:  416| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.01| LRT:   0.00| p:  1.00| Log(L): -13.04
+| Codon:  417| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.56| LRT:   0.00| p:  1.00| Log(L): -9.00
+| Codon:  418| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.93| LRT:   0.00| p:  1.00| Log(L): -11.81
+| Codon:  419| Beta1:       0.00| P(Beta1):  0.81| Beta2:       2.02| P(Beta2):  0.19| alpha:       0.00| LRT:   1.64| p:  0.20| Log(L): -11.36
+| Codon:  420| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.06| LRT:   0.00| p:  1.00| Log(L): -11.39
+| Codon:  421| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  422| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.97| LRT:   0.00| p:  1.00| Log(L): -13.64
+| Codon:  423| Beta1:       0.00| P(Beta1):  0.76| Beta2:       0.00| P(Beta2):  0.24| alpha:       0.63| LRT:   0.00| p:  1.00| Log(L): -6.84
+| Codon:  424| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.50| LRT:   0.00| p:  1.00| Log(L): -12.59
+| Codon:  425| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  426| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.36| LRT:   0.00| p:  1.00| Log(L): -9.24
+| Codon:  427| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.69| LRT:   0.00| p:  1.00| Log(L): -22.62
+| Codon:  428| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.52
+| Codon:  429| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.12| LRT:   0.00| p:  1.00| Log(L): -10.03
+| Codon:  430| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  431| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.29| LRT:   0.00| p:  1.00| Log(L): -9.45
+| Codon:  432| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.53| LRT:   0.00| p:  1.00| Log(L): -9.72
+| Codon:  433| Beta1:       0.17| P(Beta1):  1.00| Beta2:       0.08| P(Beta2):  0.00| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -10.76
+| Codon:  434| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  435| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.97| LRT:   0.00| p:  1.00| Log(L): -11.36
+| Codon:  436| Beta1:       0.00| P(Beta1):  0.82| Beta2:       1.70| P(Beta2):  0.18| alpha:       2.55| LRT:   0.00| p:  1.00| Log(L): -17.00
+| Codon:  437| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.02| LRT:   0.00| p:  1.00| Log(L): -11.68
+| Codon:  438| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.40| LRT:   0.00| p:  1.00| Log(L): -7.93
+| Codon:  439| Beta1:       0.07| P(Beta1):  1.00| Beta2:       0.12| P(Beta2):  0.00| alpha:       1.67| LRT:   0.00| p:  1.00| Log(L): -11.26
+| Codon:  440| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.39| LRT:   0.00| p:  1.00| Log(L): -8.36
+| Codon:  441| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       2.89| LRT:   0.00| p:  1.00| Log(L): -11.87
+| Codon:  442| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.23| LRT:   0.00| p:  1.00| Log(L): -13.23
+| Codon:  443| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -6.98
+| Codon:  444| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.56| LRT:   0.00| p:  1.00| Log(L): -9.80
+| Codon:  445| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.51| LRT:   0.00| p:  1.00| Log(L): -7.97
+| Codon:  446| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  447| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -8.21
+| Codon:  448| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.52| LRT:   0.00| p:  1.00| Log(L): -14.45
+| Codon:  449| Beta1:       0.00| P(Beta1):  0.86| Beta2:       0.00| P(Beta2):  0.14| alpha:       1.74| LRT:   0.00| p:  1.00| Log(L): -17.34
+| Codon:  450| Beta1:       0.08| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       1.11| LRT:   0.00| p:  1.00| Log(L): -11.72
+| Codon:  451| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       7.12| LRT:   0.00| p:  1.00| Log(L): -15.30
+| Codon:  452| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.29| LRT:   0.00| p:  1.00| Log(L): -10.99
+| Codon:  453| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -8.22
+| Codon:  454| Beta1:       0.00| P(Beta1):  0.74| Beta2:       0.00| P(Beta2):  0.26| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -6.35
+| Codon:  455| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.38| LRT:   0.00| p:  1.00| Log(L): -12.59
+| Codon:  456| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.22| LRT:   0.00| p:  1.00| Log(L): -6.31
+| Codon:  457| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.82| LRT:   0.00| p:  1.00| Log(L): -9.74
+| Codon:  458| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -8.44
+| Codon:  459| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.35| LRT:   0.00| p:  1.00| Log(L): -12.08
+| Codon:  460| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  461| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -10.98
+| Codon:  462| Beta1:       0.00| P(Beta1):  0.72| Beta2:       2.05| P(Beta2):  0.28| alpha:       2.12| LRT:   0.00| p:  1.00| Log(L): -20.03
+| Codon:  463| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.98| LRT:   0.00| p:  1.00| Log(L): -11.04
+| Codon:  464| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.17| LRT:   0.00| p:  1.00| Log(L): -10.24
+| Codon:  465| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -5.66
+| Codon:  466| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.19| LRT:   0.00| p:  1.00| Log(L): -12.55
+| Codon:  467| Beta1:       0.10| P(Beta1):  1.00| Beta2:       0.08| P(Beta2):  0.00| alpha:       0.86| LRT:   0.00| p:  1.00| Log(L): -12.92
+| Codon:  468| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  469| Beta1:       0.00| P(Beta1):  0.78| Beta2:       1.05| P(Beta2):  0.22| alpha:       0.14| LRT:   0.68| p:  0.41| Log(L): -10.23
+| Codon:  470| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -10.70
+| Codon:  471| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -5.42
+| Codon:  472| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.03
+| Codon:  473| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.37| LRT:   0.00| p:  1.00| Log(L): -6.15
+| Codon:  474| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.44| LRT:   0.00| p:  1.00| Log(L): -9.59
+| Codon:  475| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.98| LRT:   0.00| p:  1.00| Log(L): -10.07
+| Codon:  476| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.00| LRT:   0.00| p:  1.00| Log(L): -11.96
+| Codon:  477| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  478| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  479| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.84| LRT:   0.00| p:  1.00| Log(L): -7.40
+| Codon:  480| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -5.56
+| Codon:  481| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.22| LRT:   0.00| p:  1.00| Log(L): -8.89
+| Codon:  482| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -6.98
+| Codon:  483| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.42| LRT:   0.00| p:  1.00| Log(L): -8.46
+| Codon:  484| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.91| LRT:   0.00| p:  1.00| Log(L): -8.48
+| Codon:  485| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  486| Beta1:       0.00| P(Beta1):  0.85| Beta2:       1.71| P(Beta2):  0.15| alpha:       0.98| LRT:   0.09| p:  0.77| Log(L): -14.46
+| Codon:  487| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.44| LRT:   0.00| p:  1.00| Log(L): -8.14
+| Codon:  488| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.88| LRT:   0.00| p:  1.00| Log(L): -7.58
+| Codon:  489| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  490| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.97| LRT:   0.00| p:  1.00| Log(L): -11.33
+| Codon:  491| Beta1:       0.00| P(Beta1):  0.97| Beta2:       0.00| P(Beta2):  0.03| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.03
+| Codon:  492| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -7.77
+| Codon:  493| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -12.42
+| Codon:  494| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  495| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  496| Beta1:       0.00| P(Beta1):  0.95| Beta2:      59.70| P(Beta2):  0.05| alpha:       1.06| LRT:   3.11| p:  0.08| Log(L): -18.30 *P
+| Codon:  497| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.00| LRT:   0.00| p:  1.00| Log(L): -6.53
+| Codon:  498| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  499| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  500| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  501| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  502| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.33| LRT:   0.00| p:  1.00| Log(L): -6.95
+| Codon:  503| Beta1:       0.00| P(Beta1):  0.93| Beta2:      14.87| P(Beta2):  0.07| alpha:       4.27| LRT:   0.42| p:  0.51| Log(L): -18.80
+| Codon:  504| Beta1:       0.00| P(Beta1):  0.92| Beta2:       0.00| P(Beta2):  0.08| alpha:       0.52| LRT:   0.00| p:  1.00| Log(L): -7.86
+| Codon:  505| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.04| LRT:   0.00| p:  1.00| Log(L): -13.59
+| Codon:  506| Beta1:       0.03| P(Beta1):  0.90| Beta2:       0.10| P(Beta2):  0.10| alpha:       2.54| LRT:   0.00| p:  1.00| Log(L): -15.74
+| Codon:  507| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.35| LRT:   0.00| p:  1.00| Log(L): -10.40
+| Codon:  508| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  509| Beta1:       0.05| P(Beta1):  0.00| Beta2:       0.09| P(Beta2):  1.00| alpha:       1.77| LRT:   0.00| p:  1.00| Log(L): -16.74
+| Codon:  510| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.27| LRT:   0.00| p:  1.00| Log(L): -13.81
+| Codon:  511| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.66| LRT:   0.00| p:  1.00| Log(L): -6.16
+| Codon:  512| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.40| LRT:   0.00| p:  1.00| Log(L): -8.54
+| Codon:  513| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  514| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.83| LRT:   0.00| p:  1.00| Log(L): -12.86
+| Codon:  515| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.82| LRT:   0.00| p:  1.00| Log(L): -9.04
+| Codon:  516| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  517| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.83| LRT:   0.00| p:  1.00| Log(L): -9.97
+| Codon:  518| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       5.57| LRT:   0.00| p:  1.00| Log(L): -11.48
+| Codon:  519| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -7.60
+| Codon:  520| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  521| Beta1:       0.00| P(Beta1):  0.96| Beta2:      96.93| P(Beta2):  0.04| alpha:       0.89| LRT:   3.69| p:  0.05| Log(L): -14.43 *P
+| Codon:  522| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.87| LRT:   0.00| p:  1.00| Log(L): -11.00
+| Codon:  523| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.07| LRT:   0.00| p:  1.00| Log(L): -8.76
+| Codon:  524| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.25| LRT:   0.00| p:  1.00| Log(L): -5.93
+| Codon:  525| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.47| LRT:   0.00| p:  1.00| Log(L): -12.01
+| Codon:  526| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -8.44
+| Codon:  527| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.31| LRT:   0.00| p:  1.00| Log(L): -6.03
+| Codon:  528| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.33| LRT:   0.00| p:  1.00| Log(L): -6.62
+| Codon:  529| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.39| LRT:   0.00| p:  1.00| Log(L): -9.50
+| Codon:  530| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.74| LRT:   0.00| p:  1.00| Log(L): -5.27
+| Codon:  531| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:      11.10| LRT:   0.00| p:  1.00| Log(L): -19.94
+| Codon:  532| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.44
+| Codon:  533| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  534| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.20| LRT:   0.00| p:  1.00| Log(L): -10.59
+| Codon:  535| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.19| LRT:   0.00| p:  1.00| Log(L): -9.51
+| Codon:  536| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  537| Beta1:       0.01| P(Beta1):  0.00| Beta2:       0.11| P(Beta2):  1.00| alpha:      12.46| LRT:   0.00| p:  1.00| Log(L): -26.86
+| Codon:  538| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.19| LRT:   0.00| p:  1.00| Log(L): -7.08
+| Codon:  539| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.70| LRT:   0.00| p:  1.00| Log(L): -8.09
+| Codon:  540| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.56| LRT:   0.00| p:  1.00| Log(L): -8.34
+| Codon:  541| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -7.96
+| Codon:  542| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.86| LRT:   0.00| p:  1.00| Log(L): -6.89
+| Codon:  543| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.11| LRT:   0.00| p:  1.00| Log(L): -10.95
+| Codon:  544| Beta1:       0.00| P(Beta1):  0.87| Beta2:       0.00| P(Beta2):  0.13| alpha:       0.29| LRT:   0.00| p:  1.00| Log(L): -7.70
+| Codon:  545| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.16| LRT:   0.00| p:  1.00| Log(L): -14.03
+| Codon:  546| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  547| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.86| LRT:   0.00| p:  1.00| Log(L): -14.03
+| Codon:  548| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  549| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.38| LRT:   0.00| p:  1.00| Log(L): -10.58
+| Codon:  550| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.74| LRT:   0.00| p:  1.00| Log(L): -5.42
+| Codon:  551| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.81| LRT:   0.00| p:  1.00| Log(L): -12.26
+| Codon:  552| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.22| LRT:   0.00| p:  1.00| Log(L): -10.93
+| Codon:  553| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.53| LRT:   0.00| p:  1.00| Log(L): -8.64
+| Codon:  554| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.32| LRT:   0.00| p:  1.00| Log(L): -8.28
+| Codon:  555| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.29| LRT:   0.00| p:  1.00| Log(L): -8.31
+| Codon:  556| Beta1:       0.08| P(Beta1):  0.41| Beta2:       0.10| P(Beta2):  0.59| alpha:       1.28| LRT:   0.00| p:  1.00| Log(L): -15.98
+| Codon:  557| Beta1:       0.00| P(Beta1):  0.96| Beta2:     131.84| P(Beta2):  0.04| alpha:       0.29| LRT:   5.43| p:  0.02| Log(L): -13.95 *P
+| Codon:  558| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.01| LRT:   0.00| p:  1.00| Log(L): -7.44
+| Codon:  559| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -7.68
+| Codon:  560| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       2.41| LRT:   0.00| p:  1.00| Log(L): -9.36
+| Codon:  561| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  562| Beta1:       0.07| P(Beta1):  0.34| Beta2:       0.11| P(Beta2):  0.66| alpha:       1.68| LRT:   0.00| p:  1.00| Log(L): -13.16
+| Codon:  563| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  564| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       7.41| LRT:   0.00| p:  1.00| Log(L): -12.58
+| Codon:  565| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -6.42
+| Codon:  566| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.20| LRT:   0.00| p:  1.00| Log(L): -5.42
+| Codon:  567| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.58| LRT:   0.00| p:  1.00| Log(L): -13.22
+| Codon:  568| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.14| LRT:   0.00| p:  1.00| Log(L): -6.80
+| Codon:  569| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.02| LRT:   0.00| p:  1.00| Log(L): -8.58
+| Codon:  570| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -7.66
+| Codon:  571| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.38| LRT:   0.00| p:  1.00| Log(L): -9.81
+| Codon:  572| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.85| LRT:   0.00| p:  1.00| Log(L): -10.92
+| Codon:  573| Beta1:       0.07| P(Beta1):  1.00| Beta2:       0.08| P(Beta2):  0.00| alpha:       1.16| LRT:   0.00| p:  1.00| Log(L): -14.85
+| Codon:  574| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       3.87| LRT:   0.00| p:  1.00| Log(L): -17.94
+| Codon:  575| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.42| LRT:   0.00| p:  1.00| Log(L): -5.15
+| Codon:  576| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  577| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  578| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.99| LRT:   0.00| p:  1.00| Log(L): -7.13
+| Codon:  579| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.00| LRT:   0.00| p:  1.00| Log(L): -10.74
+| Codon:  580| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.85| LRT:   0.00| p:  1.00| Log(L): -7.55
+| Codon:  581| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  582| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.46| LRT:   0.00| p:  1.00| Log(L): -7.39
+| Codon:  583| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.29| LRT:   0.00| p:  1.00| Log(L): -10.29
+| Codon:  584| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.11| LRT:   0.00| p:  1.00| Log(L): -11.45
+| Codon:  585| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.49| LRT:   0.00| p:  1.00| Log(L): -5.18
+| Codon:  586| Beta1:       0.18| P(Beta1):  1.00| Beta2:       0.11| P(Beta2):  0.00| alpha:       0.62| LRT:   0.00| p:  1.00| Log(L): -14.01
+| Codon:  587| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  588| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.66| LRT:   0.00| p:  1.00| Log(L): -5.46
+| Codon:  589| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.15| LRT:   0.00| p:  1.00| Log(L): -10.47
+| Codon:  590| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  591| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.22| LRT:   0.00| p:  1.00| Log(L): -6.49
+| Codon:  592| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.43| LRT:   0.00| p:  1.00| Log(L): -9.41
+| Codon:  593| Beta1:       0.00| P(Beta1):  0.96| Beta2:       0.00| P(Beta2):  0.04| alpha:       0.48| LRT:   0.00| p:  1.00| Log(L): -6.30
+| Codon:  594| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       9.16| LRT:   0.00| p:  1.00| Log(L): -18.39
+| Codon:  595| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.15| LRT:   0.00| p:  1.00| Log(L): -10.51
+| Codon:  596| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  597| Beta1:       0.00| P(Beta1):  0.69| Beta2:       0.61| P(Beta2):  0.31| alpha:       0.36| LRT:   0.09| p:  0.76| Log(L): -12.76
+| Codon:  598| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.44| LRT:   0.00| p:  1.00| Log(L): -9.98
+| Codon:  599| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.68| LRT:   0.00| p:  1.00| Log(L): -9.92
+| Codon:  600| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.90| LRT:   0.00| p:  1.00| Log(L): -8.18
+| Codon:  601| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.82| LRT:   0.00| p:  1.00| Log(L): -12.56
+| Codon:  602| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  603| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.51| LRT:   0.00| p:  1.00| Log(L): -9.55
+| Codon:  604| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.51| LRT:   0.00| p:  1.00| Log(L): -10.28
+| Codon:  605| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.93| LRT:   0.00| p:  1.00| Log(L): -13.21
+| Codon:  606| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -6.08
+| Codon:  607| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       1.51| LRT:   0.00| p:  1.00| Log(L): -9.12
+| Codon:  608| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       4.11| LRT:   0.00| p:  1.00| Log(L): -20.46
+| Codon:  609| Beta1:       0.00| P(Beta1):  0.95| Beta2:       0.00| P(Beta2):  0.05| alpha:       2.00| LRT:   0.00| p:  1.00| Log(L): -6.53
+| Codon:  610| Beta1:       0.00| P(Beta1):  0.88| Beta2:       3.53| P(Beta2):  0.12| alpha:       1.67| LRT:   0.10| p:  0.75| Log(L): -15.72
+| Codon:  611| Beta1:       0.00| P(Beta1):  0.00| Beta2:       0.00| P(Beta2):  1.00| alpha:       0.00| LRT:   0.00| p:  1.00| Log(L):  0.00
+| Codon:  612| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.65| LRT:   0.00| p:  1.00| Log(L): -5.52
+| Codon:  613| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.32| LRT:   0.00| p:  1.00| Log(L): -5.63
+| Codon:  614| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.01| LRT:   0.00| p:  1.00| Log(L): -10.96
+| Codon:  615| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       3.20| LRT:   0.00| p:  1.00| Log(L): -14.71
+| Codon:  616| Beta1:       0.03| P(Beta1):  1.00| Beta2:       0.09| P(Beta2):  0.00| alpha:       3.02| LRT:   0.00| p:  1.00| Log(L): -16.91
+| Codon:  617| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.25| LRT:   0.00| p:  1.00| Log(L): -12.19
+| Codon:  618| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       2.74| LRT:   0.00| p:  1.00| Log(L): -9.19
+| Codon:  619| Beta1:       0.00| P(Beta1):  0.93| Beta2:       0.00| P(Beta2):  0.07| alpha:       0.75| LRT:   0.00| p:  1.00| Log(L): -10.14
+
+
+Wall-clock run-time (seconds): 1548
+Process time on the master node: 9132.960000000001
+MPI nodes used: 0
+
+Wall-clock time per site (seconds): 3.041257367387034
+
+/home/haruo/bin/hyphy/lib/hyphy/TemplateBatchFiles/Save site-by-site LRT results to::
+Check messages.log details of this run.
+[Sun Aug 20 00:16:01 JST 2017] ./run_hyphy_meme.sh has been successfully completed.
+
+real	25m51.250s
+user	150m54.071s
+sys	1m24.269s
