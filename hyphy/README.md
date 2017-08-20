@@ -13,6 +13,9 @@ I have created shell scripts for automating analyses in HyPhy tutorials.
 
 ![https://twitter.com/hyphy_software](https://pbs.twimg.com/media/C-7GKl4XYAAXeHu.jpg:small)
 
+http://www.hyphy.org
+HyPhy - Hypothesis Testing using Phylogenies
+
 ----------
 
 ## Project directory structures
@@ -46,7 +49,7 @@ Latest Release (3.8.2) downloaded on 2017-06-04 from <https://cmake.org/download
 
 ## Tutorials
 
-### current
+### current-release-tutorial
 http://www.hyphy.org/tutorials/current-release-tutorial/
 Using HyPhy to Detect Selection - HyPhy - Hypothesis Testing using Phylogenies
 
@@ -71,6 +74,8 @@ Using HyPhy to Detect Selection - HyPhy - Hypothesis Testing using Phylogenies
 http://www.hyphy.org/w/index.php/HyPhy
 HyPhy tutorial
 
+This page was last modified on 1 July 2013, at 23:29.
+
 [Using Single Breakpoint Recombination (SBP)](http://www.hyphy.org/w/index.php/HyPhy#Using_Single_Breakpoint_Recombination_.28SBP.29)
 
     bash run_hyphy_sbp.sh
@@ -79,18 +84,41 @@ HyPhy tutorial
 
 ## Acknowledgements
 
-I am grateful to Drs. Sergei Pond and Steven Weaver for their advice on HyPhy.
+I am grateful to Drs. Steven Weaver and Sergei Pond for their advice on HyPhy.
 
 ----------
 
 ## References
 
-### HyPhy
+### Official
 
 http://www.hyphy.org
 HyPhy - Hypothesis Testing using Phylogenies
 
-### Unclassified
+http://www.hyphy.org/w/index.php/Main_Page
+This page was last modified on 21 April 2017, at 22:46.
+
+http://www.hyphy.org/w/index.php/User_Guides
+http://www.hyphy.org/pubs/Methods2011.pdf
+
+### Weblog
+
+https://omictools.com/hypothesis-testing-using-phylogenies-tool
+HyPhy (Hypothesis testing using Phylogenies) | Phylogenetic inference - OMICtools
+
+http://maojf.blogspot.jp/2011/10/hyphy-hypothesis-testing-using.html
+evolving all we are
+
+https://www.biostars.org/p/17539/
+Recombination Breakpoint Detection
+
+Parsing HYPHY output
+https://www.bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeImport.html#parsing-hyphy-output
+2017-06-29
+https://bioconductor.org/packages/devel/bioc/vignettes/treeio/inst/doc/treeio.html#parsing-hyphy-output
+2017-04-24
+
+### Papers citing 
 
 https://www.ncbi.nlm.nih.gov/pubmed/22155358
 Infect Genet Evol. 2012 Mar;12(2):274-7. doi: 10.1016/j.meegid.2011.11.004. Epub 2011 Dec 3.
@@ -102,8 +130,28 @@ Infect Genet Evol. 2008 May;8(3):331-9.
 Positive selection in penicillin-binding proteins 1a, 2b, and 2x from Streptococcus pneumoniae and its correlation with amoxicillin resistance development.
 Stanhope MJ1, Lefébure T, Walsh SL, Becker JA, Lang P, Pavinski Bitar PD, Miller LA, Italia MJ, Amrine-Madsen H.
 
-----------
+### Japanese
 
 http://d.hatena.ne.jp/haruosuz/20071101
 HyPhy - Haruo Suzuki / Bioinformatics
+
+http://www.geocities.jp/ancientfishtree/HyPhy.html
+井上潤：HyPhy
+2007 年 7 月 20 日 改訂
+
+http://www.fish-evol.com/PAML.html
+井上 潤：PAML
+2014 年 3 月 17 日　改訂
+
+http://www.geocities.jp/ancientfishtree/dNdS_ji.html
+dN/dS 検定
+2016 年 7 月 23 日　井上 潤，米澤 隆弘
+
+http://ultrabem.com/other_topics/genetics/synonymous_substitutions.html
+同義置換と非同義置換: 計算方法，意味，論文での示し方
+other_topics/genetics/synonymous_substitutions
+7-1-2017 updated
+
+----------
+
 
