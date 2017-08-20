@@ -93,7 +93,7 @@ I am grateful to Drs. Steven Weaver and Sergei Pond for their advice on HyPhy.
 
 ## References
 
-### Official
+### HyPhy Official Site
 
 http://www.hyphy.org
 HyPhy - Hypothesis Testing using Phylogenies
@@ -104,7 +104,12 @@ This page was last modified on 21 April 2017, at 22:46.
 http://www.hyphy.org/w/index.php/User_Guides
 http://www.hyphy.org/pubs/Methods2011.pdf
 
-### Weblog
+https://www.youtube.com/watch?v=4gcQ6CCTRIY
+Introduction to HyPhy: Hypothesis testing using Phylogenies - YouTube
+Sergei Kosakovsky Pond, UCSD
+January 25, 2012
+
+### Unofficial sites
 
 https://omictools.com/hypothesis-testing-using-phylogenies-tool
 HyPhy (Hypothesis testing using Phylogenies) | Phylogenetic inference - OMICtools
@@ -120,18 +125,6 @@ https://www.bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeI
 2017-06-29
 https://bioconductor.org/packages/devel/bioc/vignettes/treeio/inst/doc/treeio.html#parsing-hyphy-output
 2017-04-24
-
-### Papers citing 
-
-https://www.ncbi.nlm.nih.gov/pubmed/22155358
-Infect Genet Evol. 2012 Mar;12(2):274-7. doi: 10.1016/j.meegid.2011.11.004. Epub 2011 Dec 3.
-Functional bias of positively selected genes in Streptococcus genomes.
-Suzuki H1, Stanhope MJ.
-
-https://www.ncbi.nlm.nih.gov/pubmed/18394970
-Infect Genet Evol. 2008 May;8(3):331-9.
-Positive selection in penicillin-binding proteins 1a, 2b, and 2x from Streptococcus pneumoniae and its correlation with amoxicillin resistance development.
-Stanhope MJ1, Lefébure T, Walsh SL, Becker JA, Lang P, Pavinski Bitar PD, Miller LA, Italia MJ, Amrine-Madsen H.
 
 ### Japanese
 
@@ -154,6 +147,18 @@ http://ultrabem.com/other_topics/genetics/synonymous_substitutions.html
 同義置換と非同義置換: 計算方法，意味，論文での示し方
 other_topics/genetics/synonymous_substitutions
 7-1-2017 updated
+
+### Papers citing HyPhy
+
+https://www.ncbi.nlm.nih.gov/pubmed/22155358
+Infect Genet Evol. 2012 Mar;12(2):274-7. doi: 10.1016/j.meegid.2011.11.004. Epub 2011 Dec 3.
+Functional bias of positively selected genes in Streptococcus genomes.
+Suzuki H1, Stanhope MJ.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18394970
+Infect Genet Evol. 2008 May;8(3):331-9.
+Positive selection in penicillin-binding proteins 1a, 2b, and 2x from Streptococcus pneumoniae and its correlation with amoxicillin resistance development.
+Stanhope MJ1, Lefébure T, Walsh SL, Becker JA, Lang P, Pavinski Bitar PD, Miller LA, Italia MJ, Amrine-Madsen H.
 
 ----------
 
