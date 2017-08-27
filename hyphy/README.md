@@ -13,7 +13,7 @@ I have created shell scripts for automating analyses in HyPhy tutorials.
 
 ![https://twitter.com/hyphy_software](https://pbs.twimg.com/media/C-7GKl4XYAAXeHu.jpg:small)
 
-http://www.hyphy.org
+http://hyphy.org
 HyPhy - Hypothesis Testing using Phylogenies
 
 ----------
@@ -50,7 +50,7 @@ Latest Release (3.8.2) downloaded on 2017-06-04 from <https://cmake.org/download
 ## Tutorials
 
 ### current-release-tutorial
-http://www.hyphy.org/tutorials/current-release-tutorial/
+http://hyphy.org/tutorials/current-release-tutorial/
 Using HyPhy to Detect Selection - HyPhy - Hypothesis Testing using Phylogenies
 
     # Estimate a single alignment-wide ω.
@@ -74,12 +74,12 @@ Using HyPhy to Detect Selection - HyPhy - Hypothesis Testing using Phylogenies
     bash run_hyphy_relax.sh
 
 ### 2013-07-01
-http://www.hyphy.org/w/index.php/HyPhy
+http://hyphy.org/w/index.php/HyPhy
 HyPhy tutorial
 
 This page was last modified on 1 July 2013, at 23:29.
 
-[Using Single Breakpoint Recombination (SBP)](http://www.hyphy.org/w/index.php/HyPhy#Using_Single_Breakpoint_Recombination_.28SBP.29)
+[Using Single Breakpoint Recombination (SBP)](http://hyphy.org/w/index.php/HyPhy#Using_Single_Breakpoint_Recombination_.28SBP.29)
 
     bash run_hyphy_sbp.sh
 
@@ -95,14 +95,17 @@ I am grateful to Drs. Steven Weaver and Sergei Pond for their advice on HyPhy.
 
 ### HyPhy Official Site
 
-http://www.hyphy.org
+http://hyphy.org
 HyPhy - Hypothesis Testing using Phylogenies
 
-http://www.hyphy.org/w/index.php/Main_Page
+http://hyphy.org/w/index.php/Main_Page
 This page was last modified on 21 April 2017, at 22:46.
 
-http://www.hyphy.org/w/index.php/User_Guides
-http://www.hyphy.org/pubs/Methods2011.pdf
+http://hyphy.org/w/index.php/DATA_FILE_PRINT_FORMAT
+DATA FILE PRINT FORMAT - HyPhy Wiki
+
+http://hyphy.org/w/index.php/User_Guides
+http://hyphy.org/pubs/Methods2011.pdf
 
 https://www.youtube.com/watch?v=4gcQ6CCTRIY
 Introduction to HyPhy: Hypothesis testing using Phylogenies - YouTube
@@ -150,8 +153,42 @@ other_topics/genetics/synonymous_substitutions
 
 ### Papers citing HyPhy
 
+BUSTED
+https://www.ncbi.nlm.nih.gov/pubmed/25701167
+Mol Biol Evol. 2015 May;32(5):1365-71. 
+Gene-wide identification of episodic selection.
+Murrell et al.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25697341
+Mol Biol Evol. 2015 May;32(5):1342-53. 
+Less is more: an adaptive branch-site random effects model for efficient detection of episodic diversifying selection.
+Smith et al.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25540451
+Mol Biol Evol. 2015 Mar;32(3):820-32. 
+RELAX: detecting relaxed selection in a phylogenetic framework.
+Wertheim et al.
+
+https://www.ncbi.nlm.nih.gov/pubmed/23420840
+Mol Biol Evol. 2013 May;30(5):1196-205. doi: 10.1093/molbev/mst030. Epub 2013 Feb 18.
+FUBAR: a fast, unconstrained bayesian approximation for inferring selection.
+Murrell et al.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/27588756
+PLoS Negl Trop Dis. 2016 Sep 2;10(9):e0004978.
+Nonstructural Proteins Are Preferential Positive Selection Targets in Zika Virus and Related Flaviviruses.
+http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004978
+BUSTED (branch-site unrestricted statistical test for episodic diversification) [25] is an alternative approach implemented in the HyPhy package [26] designed to describe episodic positive selection acting on specific branches in the phylogenetic tree at a proportion of sites. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/25942676
+PLoS Genet. 2015 May 5;11(5):e1005203.
+Overlapping Patterns of Rapid Evolution in the Nucleic Acid Sensors cGAS and OAS1 Suggest a Common Mechanism of Pathogen Antagonism and Escape.
+http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005203
+We further analyzed cGAS variants using the PARtitioning approach for Robust Inference of Selection (PARRIS) algorithm from the HyPhy package [45], which also accounts for recombination events in the dataset, as well as BUSTED, a related measure to detect gene wide evidence of positive selection [46].
+
 https://www.ncbi.nlm.nih.gov/pubmed/22155358
-Infect Genet Evol. 2012 Mar;12(2):274-7. doi: 10.1016/j.meegid.2011.11.004. Epub 2011 Dec 3.
+Infect Genet Evol. 2012 Mar;12(2):274-7. 
 Functional bias of positively selected genes in Streptococcus genomes.
 Suzuki H1, Stanhope MJ.
 
