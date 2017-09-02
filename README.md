@@ -1,7 +1,7 @@
 ----------
 
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-05-23
+Last Update: 2017-09-02
 
 ----------
 
@@ -34,24 +34,6 @@ Last Update: 2017-05-23
 ----------
 
 ## Updates
-
-----------
-
-### HyPhy
-http://www.hyphy.org
-HyPhy - Hypothesis Testing using Phylogenies
-
-http://www.hyphy.org/getting-started/
-
-http://www.hyphy.org/resources/
-
-http://www.geocities.jp/ancientfishtree/HyPhy.html
-井上潤：HyPhy
-2007 年 7 月 20 日 改訂
-
-
-
-
 
 ----------
 
@@ -100,26 +82,10 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 
 プロジェクト・ディレクトリを作成し移動する:  
 
-	# Creating directories
-	TODAY=$(date +%F)
-	mkdir -p ~/projects/$TODAY
-	cd ~/projects/$TODAY/
 
 データをダウンロードする:
 
-	# Downloading data
-	ACCESSIONs=(NC_001735 NC_005088) # IncP-1 plasmids R751 and pUO1
-	echo ${#ACCESSIONs[@]}
-	echo ${ACCESSIONs[@]}
-	for ACCESSION in ${ACCESSIONs[@]}; do
-	 curl -L "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=$ACCESSION&rettype=gbwithparts&retmode=text" > $ACCESSION.gbk
-	done
 
-	# Inspecting Data
-	ls -lh *.gbk
-	grep DEFINITION *.gbk
-	grep -c "     CDS             " *.gbk
-	grep "/product=" *.gbk
 
 #### 参考文献
 
@@ -169,7 +135,6 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 
 [ファイルを解凍する](http://scribble.washo3.com/linux/unzipで複数ファイルを一括解凍.html)
 
-	unzip '*.zip'
 
 ----------
 
@@ -200,22 +165,13 @@ HMMER + Pfam -> GO -> Gene Set Enrichment Analysis (GSEA)
 
 HMMER 3.1b2 (05 March 2015) downloaded on 2016-11-01 from <http://hmmer.org/download.html> using:
 
-	wget http://eddylab.org/software/hmmer3/3.1b2/hmmer-3.1b2-linux-intel-x86_64.tar.gz
-	tar xvzf hmmer-3.1b2-linux-intel-x86_64.tar.gz
-	cd hmmer-3.1b2-linux-intel-x86_64/
-	./configure
-	make
 
 #### Pfam
 
 Pfam 30.0 (June 2016, 16306 entries) downloaded on 2016-11-01 from FTP at <http://pfam.xfam.org> using:
 
-	wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam30.0/Pfam-A.hmm.dat.gz \
-	     ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam30.0/Pfam-A.hmm.gz
 
-	gunzip -c Pfam-A.hmm.gz > Pfam-A.hmm
 
-	hmmer-3.1b2-linux-intel-x86_64/src/hmmpress Pfam-A.hmm
 
 #### Data
 
@@ -229,19 +185,10 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 
 サーバに接続:  
 
-	# login to cacao and then to smith5
-	ssh cacao
-	ssh smith5
 
 スクリプト[`scripts/2016-11-02.tgz`](https://github.com/haruosuz/mgsa/raw/master/scripts/2016-11-02.tgz)を取得し実行する:  
 
-	# Downloading the scripts
-	wget https://github.com/haruosuz/mgsa/raw/master/scripts/2016-11-02.tgz
-	tar xvzf 2016-11-02.tgz
-	cd 2016-11-02/
 
-	# Running the script
-	(time bash 2016-11-02.sh &) >& log.2016-11-02.txt
 
 - スクリプト
  - `2016-11-02.sh`: 全ステップ実行スクリプト
@@ -572,6 +519,11 @@ Nat Rev Genet. 2017 Jan;18(1):41-50. doi: 10.1038/nrg.2016.132. Epub 2016 Nov 14
 Microbial genome-wide association studies: lessons from human GWAS.
 Power RA1, Parkhill J2, de Oliveira T1,2,3.
 
+https://www.ncbi.nlm.nih.gov/pubmed/27887642
+Genome Biol. 2016 Nov 25;17(1):238.
+Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
+Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
+
 https://www.ncbi.nlm.nih.gov/pubmed/27572652
 Nat Microbiol. 2016 Apr 26;1:16059. doi: 10.1038/nmicrobiol.2016.59.
 Bacterial genomics: Microbial GWAS coming of age.
@@ -626,7 +578,8 @@ http://crusade1096.web.fc2.com/katei.html
 http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
 バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
 
-日本乳酸菌学会誌Vol. 28 No. 1 3 ~ 11(2017)
+日本乳酸菌学会誌
+Vol. 28 No. 1 3 ~ 11(2017)
 http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
  Prokka は、CDS、rRNA、tRNA の 予 測 と い っ た 基 本的なアノテーションに加えて、CRISPR(Clustered regularly interspaced short palindromic repeats)32) や シグナルペプチドの検出機能を備えている。Prokka の高 速なアノテーションは、予測された CDS を複数の参照ア ミノ酸配列 DB に対して段階的に検索していくことで実 現されている。はじめに近縁種から得られた配列を中心 に構成されたより信頼できる参照 DB に対して BLAST 検索を行い、そこでヒットしなかった遺伝子はより包括 的な参照 DB を用いて検索される。そこでもヒットしな かった遺伝子については、最終的に隠れマルコフモデル を用いたモチーフ・ドメイン検索ソフト HMMER3 33)を 使って Pfam 34) や TIGRFAMs 35) などの DB に対して検 索を行う。
 
@@ -859,6 +812,23 @@ Next-generation systematics: An innovative approach to resolve the structure of 
 ----------
 
 ### Unclassified
+
+https://www.ncbi.nlm.nih.gov/pubmed/28321234
+Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
+A Review of Bioinformatics Tools for Bio-Prospecting from Metagenomic Sequence Data.
+Roumpeka DD1, Wallace RJ2, Escalettes F3, Fotheringham I3, Watson M1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26548914
+Nat Rev Microbiol. 2015 Dec;13(12):787-94. doi: 10.1038/nrmicro3565. Epub 2015 Nov 9.
+Twenty years of bacterial genome sequencing.
+Loman NJ1, Pallen MJ2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27471065
+Microb Biotechnol. 2016 Sep;9(5):681-6. doi: 10.1111/1751-7915.12389. Epub 2016 Jul 29.
+Microbial bioinformatics 2020.
+Pallen MJ1.
+
+
 - 2016-09-26 田辺晶史 [生態学のためのメタバーコーディングと DNA バーコーディング](https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf)
 
 - 2016-09-22 [Guideline to bioinformatics tools | Bits and Bugs](https://bitsandbugs.org/2016/09/22/guideline-to-bioinformatics-tools/)
@@ -881,17 +851,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/22047552
 BMC Genomics. 2011 Nov 2;12:542. doi: 10.1186/1471-2164-12-542.
 Insight into cross-talk between intra-amoebal pathogens.
 Gimenez G1, Bertelli C, Moliner C, Robert C, Raoult D, Fournier PE, Greub G.
-
-https://www.ncbi.nlm.nih.gov/pubmed/28321234
-Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
-A Review of Bioinformatics Tools for Bio-Prospecting from Metagenomic Sequence Data.
-Roumpeka DD1, Wallace RJ2, Escalettes F3, Fotheringham I3, Watson M1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27471065
-Microb Biotechnol. 2016 Sep;9(5):681-6. doi: 10.1111/1751-7915.12389. Epub 2016 Jul 29.
-Microbial bioinformatics 2020.
-Pallen MJ1.
-
 
 - https://www.ncbi.nlm.nih.gov/pubmed/12217498
 Trends Microbiol. 2002 Sep;10(9):393-5.
