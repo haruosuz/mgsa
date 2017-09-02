@@ -82,10 +82,26 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 
 プロジェクト・ディレクトリを作成し移動する:  
 
+	# Creating directories
+	TODAY=$(date +%F)
+	mkdir -p ~/projects/$TODAY
+	cd ~/projects/$TODAY/
 
 データをダウンロードする:
 
+	# Downloading data
+	ACCESSIONs=(NC_001735 NC_005088) # IncP-1 plasmids R751 and pUO1
+	echo ${#ACCESSIONs[@]}
+	echo ${ACCESSIONs[@]}
+	for ACCESSION in ${ACCESSIONs[@]}; do
+	 curl -L "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=$ACCESSION&rettype=gbwithparts&retmode=text" > $ACCESSION.gbk
+	done
 
+	# Inspecting Data
+	ls -lh *.gbk
+	grep DEFINITION *.gbk
+	grep -c "     CDS             " *.gbk
+	grep "/product=" *.gbk
 
 #### 参考文献
 
@@ -135,6 +151,7 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 
 [ファイルを解凍する](http://scribble.washo3.com/linux/unzipで複数ファイルを一括解凍.html)
 
+	unzip '*.zip'
 
 ----------
 
@@ -165,13 +182,22 @@ HMMER + Pfam -> GO -> Gene Set Enrichment Analysis (GSEA)
 
 HMMER 3.1b2 (05 March 2015) downloaded on 2016-11-01 from <http://hmmer.org/download.html> using:
 
+	wget http://eddylab.org/software/hmmer3/3.1b2/hmmer-3.1b2-linux-intel-x86_64.tar.gz
+	tar xvzf hmmer-3.1b2-linux-intel-x86_64.tar.gz
+	cd hmmer-3.1b2-linux-intel-x86_64/
+	./configure
+	make
 
 #### Pfam
 
 Pfam 30.0 (June 2016, 16306 entries) downloaded on 2016-11-01 from FTP at <http://pfam.xfam.org> using:
 
+	wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam30.0/Pfam-A.hmm.dat.gz \
+	     ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam30.0/Pfam-A.hmm.gz
 
+	gunzip -c Pfam-A.hmm.gz > Pfam-A.hmm
 
+	hmmer-3.1b2-linux-intel-x86_64/src/hmmpress Pfam-A.hmm
 
 #### Data
 
@@ -185,10 +211,19 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 
 サーバに接続:  
 
+	# login to cacao and then to smith5
+	ssh cacao
+	ssh smith5
 
 スクリプト[`scripts/2016-11-02.tgz`](https://github.com/haruosuz/mgsa/raw/master/scripts/2016-11-02.tgz)を取得し実行する:  
 
+	# Downloading the scripts
+	wget https://github.com/haruosuz/mgsa/raw/master/scripts/2016-11-02.tgz
+	tar xvzf 2016-11-02.tgz
+	cd 2016-11-02/
 
+	# Running the script
+	(time bash 2016-11-02.sh &) >& log.2016-11-02.txt
 
 - スクリプト
  - `2016-11-02.sh`: 全ステップ実行スクリプト
