@@ -2,10 +2,10 @@
 #setwd("~/projects/mgsa/roary/2016-06-07") # i 95
 #setwd("~/projects/mgsa/roary/2016-06-21") # i 50
 
-system("grep 'ORGANISM' data/*.gb* | sort -u | grep -v 'phage' | sed 's#data/##' | sed 's/ ORGANISM  //' > my.file.ORGANISM.txt")
-system("grep -i '/strain=' data/*.gb* | sort -u | sed 's#data/##; s# */strain=\"##; s#\"##g' > my.file.ORGANISM.txt")
-# data/*.{gbk,gbff} # grep 'plasmid=' data/*.gbk | awk '{print $1,$2}'
-annot <- read.delim("my.file.ORGANISM.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)[,1]
+system("find data -name '*.gbk' | xargs grep 'ORGANISM' | sort -u | grep -v 'phage' | sed 's/ ORGANISM  //; s#.*/##' | perl -pe 's/.gbk:/\t/;' > my.file.ORGANISM.txt")
+system("find data -name '*.gbk' | xargs grep '/strain=' | sort -u | sed 's# */strain=\"##; s#\"##g; s#.*/##' | perl -pe 's/.gbk:/\t/;' > my.file.strain.txt")
+system("join -1 1 -2 1 -t "$(printf '\011')" my.file.ORGANISM.txt my.file.strain.txt > my.file.name.txt")
+annot <- read.delim("my.file.name.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)[,1]
 
 # Loading package ape
 #install.packages("ape")
