@@ -1,11 +1,11 @@
 # Set Working Directory
 #setwd("~/projects/mgsa/roary/2016-06-07") # i 95
 #setwd("~/projects/mgsa/roary/2016-06-21") # i 50
+setwd("~/projects/jc923/nckuh21/2017-09-17")
 
-system("find data -name '*.gbk' | xargs grep 'ORGANISM' | sort -u | grep -v 'phage' | sed 's/ ORGANISM  //; s#.*/##' | perl -pe 's/.gbk:/\t/;' > my.file.ORGANISM.txt")
-system("find data -name '*.gbk' | xargs grep '/strain=' | sort -u | sed 's# */strain=\"##; s#\"##g; s#.*/##' | perl -pe 's/.gbk:/\t/;' > my.file.strain.txt")
-system("join -1 1 -2 1 -t "$(printf '\011')" my.file.ORGANISM.txt my.file.strain.txt > my.file.name.txt")
-annot <- read.delim("my.file.name.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)[,1]
+system("find data -name '*.gbk' | xargs grep 'ORGANISM' | sort -u | grep -v 'phage' | sed 's/ ORGANISM  //; s#.*/##' | perl -pe 's/.gbk:/.gbk\t/;' > my.file.ORGANISM.txt; find data -name '*.gbk' | xargs grep '/strain=' | sort -u | sed 's# */strain=\"##; s#\"##g; s#.*/##' | perl -pe 's/.gbk:/.gbk\t/;' > my.file.strain.txt; join -1 1 -2 1 -a 1 -t "$(printf '\011')" my.file.ORGANISM.txt my.file.strain.txt > my.file.name.txt")
+
+annot <- read.delim("my.file.name.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)
 
 # Loading package ape
 #install.packages("ape")
@@ -16,7 +16,9 @@ pdf("my.tree.pdf", pointsize=15, width=15, height=9)
 
 for(myfile in dir(path="analysis", pattern="\\.newick$", full.names=TRUE)){
  tre = read.tree(myfile)
- tre$tip.label = apply(as.matrix(tre$tip.label), MARGIN=c(1,2), function(x) annot[ grep(pattern=x, x=annot) ] )
+
+ #x <- tre$tip.label[2]; TF <- regexpr(pattern=x, text=annot[,1]) > 0; sum(TF); annot[TF,3]
+ tre$tip.label <- apply(as.matrix(tre$tip.label), MARGIN=c(1,2), function(x) paste0(annot[regexpr(x, annot[,1]) > 0, c(1,2,3)], collapse=" ") )
 
  #x <- tre$tip.label[1]; unlist(strsplit(annot[ grep(pattern=x, x=annot) ],":"))[2]
  #tre$tip.label = apply(as.matrix(tre$tip.label), MARGIN=c(1,2), function(x) unlist(strsplit(annot[ grep(pattern=x, x=annot) ],":"))[2] )
