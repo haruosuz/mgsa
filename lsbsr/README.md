@@ -312,12 +312,17 @@ I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
 
 ## References
 
-- [LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools](https://omictools.com/large-scale-blast-score-ratio-tool)
-- [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
-- [Sahl JW et al. (2014) PeerJ. "The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes."](https://www.ncbi.nlm.nih.gov/pubmed/24749011)
+### [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
+
+https://www.ncbi.nlm.nih.gov/pubmed/24749011
+PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
+The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
+Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
+
+https://omictools.com/large-scale-blast-score-ratio-tool
+LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools
 
 ### BLAST score ratio (BSR)
-
 http://bsr.igs.umaryland.edu
 The Blast Score Ratio Analysis Tool
 
@@ -331,9 +336,61 @@ A. BLAST score ratio analysis (BSR) calculation demonstrating how the two coordi
 
 ### Unclassified
 
+https://sanger-pathogens.github.io/Roary/
+What are the alternatives to Roary?
+
+https://holtlab.net/2016/01/17/microbial-genomics-methods/
+For pan genome analysis, Velvet and SPAdes were the most popular tools for bacterial genome assembly, with Prokka and Prodigal for gene annotation, and LS-BSR and related approaches being commonly used to cluster orthologous groups of genes.
+
+https://www2.e-kenkyu.com/jsme2016-abstract/554
+http://www.microbial-ecology.jp/meeting/JSME2016/pdf/P-245.pdf
+プラスミドを持つ宿主のfitness（適応度）を増加させる原因因子の同定
+
+https://www.ncbi.nlm.nih.gov/pubmed/27458211
+Antimicrob Agents Chemother. 2016 Sep 23;60(10):5933-41. doi: 10.1128/AAC.00477-16. Print 2016 Oct.
+Use of Comparative Genomics To Characterize the Diversity of Acinetobacter baumannii Surveillance Isolates in a Health Care Institution.
+Wallace L1, Daugherty SC2, Nagaraj S2, Johnson JK3, Harris AD4, Rasko DA5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038335/
+
+LS-BSR.
+Large-scale BLAST score ratio (LS-BSR) analysis was performed as described previously (42). Briefly, the LS-BSR pipeline includes the program Prodigal (49), which was used to predict all coding sequences from query genomes. Coding sequences were then dereplicated using USEARCH (50) and clustered, and one representative sequence from the cluster, known as a centroid, was used to generate the BSR values. One could consider the centroid sequences as the complete collection of nonredundant coding sequences in this collection of genomes. All unique coding sequences were then translated with BioPython, and a reference bit score was calculated based on a TBLASTN alignment. Each query sequence was aligned against each genome and a query bit score was generated. Dividing the query bit score by the reference bit score then generated the final BSR values. Centroids considered exclusive to a group had a BSR value of ≥0.8 in genomes in the target group and ≤0.4 in all genomes in the nontarget group. Core centroids all had BSR values of ≥0.8 in all genomes analyzed. Centroids considered unique in one genome had a BSR value of ≥0.8 in a single genome. The matrix of BSR values was visualized using Multiple Experiment Viewer (MeV) (51), and the Interactive Tree of Life project (52) was used to generate a heatmap for the comparison of the virulence genes.
+
+In order to determine centroids present in greater frequency among phylogenetic or clinical groups, centroids within groups were counted and a matrix of these values was generated. The R program was used to examine the values using Fisher's exact test (53). The output included P values for each of the centroid frequencies within the specific groupings. A P value threshold of ≤0.001 was considered significant for all comparisons.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27618184
+PLoS Genet. 2016 Sep 12;12(9):e1006280. doi: 10.1371/journal.pgen.1006280. eCollection 2016 Sep.
+Combined Analysis of Variation in Core, Accessory and Regulatory Genome Regions Provides a Super-Resolution View into the Evolution of Bacterial Populations.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5019451/
+
+We created a pan-genome matrix for the ST131 data set using LS-BSR (large scale—BLAST score ratio) [21] resulting in a matrix of 11,401 coding sequences, 2,722 of which were present in all isolates and considered as core genes. The remaining 8,679 genes were extracted from the pan-genome to create an accessory genome matrix for all 228 genomes. The genomes were then clustered based on their accessory gene content using the Bayesian clustering analysis tool K-Pax2 [22], resulting in 17 distinct clusters of isolates (Fig 2).
+
+A pan-genome of the ST131 data set was constructed using LS-BSR [21], and a matrix of accessory gene presence/absence for each genome constructed using the filter_BSR_variome.py tool. 
+
+To obtain a core CDS phylogeny, we used the extract_core_genome.py tool in LS-BSR on our pan-genome matrix to create a core CDS concatenated alignment. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/28348813
+Microb Genom. 2015 Aug 3;1(2):e000028. doi: 10.1099/mgen.0.000028. eCollection 2015 Aug.
+Redefining the differences in gene content between Yersinia pestis and Yersinia pseudotuberculosis using large-scale comparative genomics.
+Califf KJ1, Keim PS2, Wagner DM1, Sahl JW2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/
+http://mgen.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000028#tab2
+Each cluster representative, or the cluster centroid, was then aligned against each genome using either tblastn (Altschul et al., 1997) or blat (Kent, 2002) in conjunction with LS-BSR (Sahl et al., 2014); the different methods were used to examine the conservation of either nucleotide or peptide sequences. LS-BSR values can range from 0 (no alignment) to 1 (100 % identity). To identify correlations between coding region conservation and metadata (e.g. isolation location), LS-BSR values were first multiplied by 100 in order to convert all float values to integers and *snip*
+Pan-genome stats were calculated with the pan_genome_stats.py script in the LS-BSR repository (https://github.com/jasonsahl/LS-BSR/tree/master/tools).
+
+----------
+
+## Memorandum
+
+https://github.com/jasonsahl/LS-BSR/blob/master/LS_BSR_manual.pdf
+Command Line options
+
+-y intergenics: Include intergenic regions greater than 50nts in the analysis? Regions at the end of contigs will not be included. Choose from T or F, defaults to (F).
+
 https://www.ncbi.nlm.nih.gov/pubmed/20661434
+PLoS Genet. 2010 Jul 22;6(7):e1001027. doi: 10.1371/journal.pgen.1001027.
+Reconstruction of the core and extended regulons of global transcription factors.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908626/
-Each similarity score was normalized by dividing the bit score between two sequences by the maximum of the bit score of each sequence when scored against itself (norm_score(x,y) = bit_sore(x,y)/max(bit_score(x,x),bit_score(y,y))). 
+Each similarity score was normalized by dividing the bit score between two sequences by the maximum of the bit score of each sequence when scored against itself (norm_score(x,y) = bit_sore(x,y)/max(bit_score(x,x),bit_score(y,y))).
 
 ----------
 
