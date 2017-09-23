@@ -1,7 +1,7 @@
 ----------
 
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-09-02
+Last Update: 2017-09-13
 
 ----------
 
@@ -102,6 +102,27 @@ G-language Systemウェブサービス (チュートリアル[日本語](http://
 	grep DEFINITION *.gbk
 	grep -c "     CDS             " *.gbk
 	grep "/product=" *.gbk
+
+http://www.ige.tohoku.ac.jp/joho/gmProject/manualJP/CompareSequences.html
+Accessories -> CompareSequences
+左上「add empty panel」ボタンを押して出現したパネルの左上「file」ボタンを押し.gbkファイルを選んで「OK」ボタンを押す、を.gbkファイル毎に繰り返す。
+「compare & draw all」ボタンを押す。
+
+パネルの幅と描画サイズ
+gene名を表示させるために、右上の drawing rate (point / kb) ボックスの数値を変更してください。
+
+panel width (kd): 
+drawing rate (point / kb): 
+
+https://mt-rg.slack.com/archives/D0KCDMSB1/p1488368953763217
+GenomeMatcher -> Set Parametersで、左上・右側のプルダウンメニューの[color]を最下部の[directional]に変更
+
+https://mt-rg.slack.com/archives/D0KCDMSB1/p1488463346087837
+-1 と入力すれば配列を反転します
+
+保存
+「PDF (this window)」ボタン
+「save panels」ボタン
 
 #### 参考文献
 
@@ -621,6 +642,19 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
 http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
  ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
 
+### [DFAST](https://github.com/nigyta/dfast_core)
+DFAST - DDBJ Fast Annotation and Submission Tool
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
+谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
+
+DFAST を用いたゲノムアノテーション
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
+次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
+ウェブ資料
+
 ### [K-mer](https://en.wikipedia.org/wiki/K-mer)
 
 2017-06-27
@@ -783,6 +817,15 @@ Next-generation systematics: An innovative approach to resolve the structure of 
  - [Trimmomatic | アダプター配列除去](http://bi.biopapyrus.net/rnaseq/qc/trimmomatic.html)
 
 ### Genome assembly
+http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
+アセンブリ カテゴリーの記事一覧 - macでインフォマティクス
+
+- de Bruijn Graph
+  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
+  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
+  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
+  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
+  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
 - [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
   - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
   - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
@@ -792,11 +835,6 @@ Next-generation systematics: An innovative approach to resolve the structure of 
   - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
 - 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
 - [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
-- de Bruijn Graph
-  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
-  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
-  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
-  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
 
 ### BioPerl
 - 18/05/2015 [BioPerl をインストールして Perl モジュールを使ってみよう！ | Tools FoR](http://kiagorod.wp.xdomain.jp/2015.05.18.212/)
@@ -806,20 +844,18 @@ Next-generation systematics: An innovative approach to resolve the structure of 
 - 2013-01-28 [BioPerlのインストール(Mac OS X) - Masamichi_C2の日記](http://d.hatena.ne.jp/Masamichi_C2/20130128/1359362290)
 
 ### BLAST
+- BLAST® Command Line Applications User Manual - NCBI Bookshelf
+ - [Options for the command-line applications.](http://www.ncbi.nlm.nih.gov/books/NBK279675/)
+- [BLASTの使用方法全般](http://bio-info.biz/article/ato_blast_basic_usage.html)　インストール　BLASTデータベースの作り方　DELTA-BLASTの使い方　RPS-BLASTの使い方　MSAからのPSSM作成法
 - [Local BLAST の使い方〜導入・準備編（MacOSX版）〜 2011 - 統合TV (togotv)(2011-04-20)](http://togotv.dbcls.jp/20110420.html)
 - [Local BLAST の使い方〜検索実行・オプション編（MacOSX版）〜 2011 - 統合TV (togotv)(2011-06-08)](http://togotv.dbcls.jp/20110608.html)
 - [Local BLAST (togotv)(2011-02-25)](http://togotv.dbcls.jp/20110225.html)
-- [BLASTパッケージのインストール](http://bio-info.biz/tips/other_install_blast.html)
-- [BLASTデータベースの作り方について](http://bio-info.biz/tips/other_blast_db.html)
-- [井上 潤：Blast+](http://www.geocities.jp/ancientfishtree/BLASTplus_JI.html)
-- BLAST® Command Line Applications User Manual - NCBI Bookshelf
- - [Options for the command-line applications.](http://www.ncbi.nlm.nih.gov/books/NBK279675/)
+- 2013 年 7 月 10 日 [井上 潤：Blast+](http://www.geocities.jp/ancientfishtree/BLASTplus_JI.html)
 - [Building a BLAST database with local sequences](http://www.ncbi.nlm.nih.gov/books/NBK279688/)
- - [BLASTデータベースの作り方について](http://bio-info.biz/tips/other_blast_db.html)
- - [makeblastdb | blast検索用のデータベースを作成する方法](http://bi.biopapyrus.net/seq/blast/makeblastdb.html)
+  - 2017.06.03 [makeblastdb | BLAST ホモロジー検索用のデータベースの作成方法](https://bi.biopapyrus.jp/seq/blast/makeblastdb.html)
 - [Extracting data from BLAST databases with blastdbcmd](http://www.ncbi.nlm.nih.gov/books/NBK279689/)
- - [自家製BLAST用DBから必要な配列エントリ取得 | ぼうのブログ](http://bonohu.jp/blog/2014/08/08/yetanother-blastdbcmd/)
- - [Blasted Bioinformatics!?: My IDs not good enough for NCBI BLAST+](http://blastedbio.blogspot.com/2012/10/my-ids-not-good-enough-for-ncbi-blast.html)
+  -  2014/08/08 [自家製BLAST用DBから必要な配列エントリ取得 | ぼうのブログ](http://bonohu.jp/blog/2014/08/08/yetanother-blastdbcmd/)
+  - [Blasted Bioinformatics!?: My IDs not good enough for NCBI BLAST+](http://blastedbio.blogspot.com/2012/10/my-ids-not-good-enough-for-ncbi-blast.html)
 
 ### Swiss-Prot
 - [Swiss-Prot - Wikipedia](https://ja.wikipedia.org/wiki/Swiss-Prot)
@@ -843,10 +879,28 @@ Next-generation systematics: An innovative approach to resolve the structure of 
 
 ![https://en.wikipedia.org/wiki/Rarefaction_(ecology)](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sogin-Huber-CombinedRarefac.jpg/220px-Sogin-Huber-CombinedRarefac.jpg)
 
-
 ----------
 
 ### Unclassified
+
+https://holtlab.net
+Holt Lab | microbial genomics
+
+https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
+GENOMICS OF ATYPICAL ENTEROPATHOGENIC E. COLI
+
+https://holtlab.net/author/bacpathgenomics/
+kat | Holt Lab
+
+http://cse.naro.affrc.go.jp/minaka/ml/evolve-top.html
+EVOLVE：進化生物学メーリングリスト
+
+https://www.ncbi.nlm.nih.gov/pubmed/28673048
+Syst Biol. 2017 Jun 29. doi: 10.1093/sysbio/syx060. [Epub ahead of print]
+Taming the BEAST - A community teaching material resource for BEAST 2.
+
+http://www.genomesize.com/prokaryotes/
+Prokaryote Genome Size Database
 
 https://www.ncbi.nlm.nih.gov/pubmed/28321234
 Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
@@ -905,3 +959,8 @@ https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
 ----------
+
+
+----------
+
+
