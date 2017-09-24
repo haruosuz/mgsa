@@ -361,6 +361,11 @@ PLoS Genet. 2016 Sep 12;12(9):e1006280. doi: 10.1371/journal.pgen.1006280. eColl
 Combined Analysis of Variation in Core, Accessory and Regulatory Genome Regions Provides a Super-Resolution View into the Evolution of Bacterial Populations.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5019451/
 
+https://www.ncbi.nlm.nih.gov/pubmed/27571975
+Nat Microbiol. 2016 Jan 18;1:15014. doi: 10.1038/nmicrobiol.2015.14.
+Genomic diversity of EPEC associated with clinical presentations of differing severity.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5067155/
+
 https://www.ncbi.nlm.nih.gov/pubmed/28348813
 Microb Genom. 2015 Aug 3;1(2):e000028. doi: 10.1099/mgen.0.000028. eCollection 2015 Aug.
 Redefining the differences in gene content between Yersinia pestis and Yersinia pseudotuberculosis using large-scale comparative genomics.
