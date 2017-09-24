@@ -314,16 +314,6 @@ I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
 
 ## References
 
-### [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
-
-https://www.ncbi.nlm.nih.gov/pubmed/24749011
-PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
-The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
-Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
-
-https://omictools.com/large-scale-blast-score-ratio-tool
-LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools
-
 ### BLAST score ratio (BSR)
 http://bsr.igs.umaryland.edu
 The Blast Score Ratio Analysis Tool
@@ -336,10 +326,22 @@ Rasko DA1, Myers GS, Ravel J.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC545078/figure/F1/
 A. BLAST score ratio analysis (BSR) calculation demonstrating how the two coordinates for plotting in figures B and C are calculated. 
 
+### [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
+
+https://www.ncbi.nlm.nih.gov/pubmed/24749011
+PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
+The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
+Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976120/
+
+https://omictools.com/large-scale-blast-score-ratio-tool
+LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools
+
 ### Unclassified
 
 https://sanger-pathogens.github.io/Roary/
 What are the alternatives to Roary?
+: OrthoMCL, PanOCT, PanSeq, LS-BSR, FindMyFriends, MicroPan and PGAP.
 
 https://holtlab.net/2016/01/17/microbial-genomics-methods/
 For pan genome analysis, Velvet and SPAdes were the most popular tools for bacterial genome assembly, with Prokka and Prodigal for gene annotation, and LS-BSR and related approaches being commonly used to cluster orthologous groups of genes.
@@ -352,15 +354,19 @@ https://www.ncbi.nlm.nih.gov/pubmed/27458211
 Antimicrob Agents Chemother. 2016 Sep 23;60(10):5933-41. doi: 10.1128/AAC.00477-16. Print 2016 Oct.
 Use of Comparative Genomics To Characterize the Diversity of Acinetobacter baumannii Surveillance Isolates in a Health Care Institution.
 Wallace L1, Daugherty SC2, Nagaraj S2, Johnson JK3, Harris AD4, Rasko DA5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038335/
 
 https://www.ncbi.nlm.nih.gov/pubmed/27618184
 PLoS Genet. 2016 Sep 12;12(9):e1006280. doi: 10.1371/journal.pgen.1006280. eCollection 2016 Sep.
 Combined Analysis of Variation in Core, Accessory and Regulatory Genome Regions Provides a Super-Resolution View into the Evolution of Bacterial Populations.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5019451/
 
 https://www.ncbi.nlm.nih.gov/pubmed/28348813
 Microb Genom. 2015 Aug 3;1(2):e000028. doi: 10.1099/mgen.0.000028. eCollection 2015 Aug.
 Redefining the differences in gene content between Yersinia pestis and Yersinia pseudotuberculosis using large-scale comparative genomics.
 Califf KJ1, Keim PS2, Wagner DM1, Sahl JW2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/
+http://mgen.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000028#tab2
 
 ----------
 
