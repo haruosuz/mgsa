@@ -739,8 +739,14 @@ Genome Biol Evol. 2016 Oct 23;8(10):3140-3148.
 Pangenome and Phylogenomic Analysis of the Pathogenic Actinobacterium Rhodococcus equi.
 Anastasi E1, MacArthur I1, Scortti M1,2, Alvarez S1, Giguère S3, Vázquez-Boland JA4,2,5.
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5141411/
-Next-generation systematics: An innovative approach to resolve the structure of complex prokaryotic taxa
+https://www.ncbi.nlm.nih.gov/pubmed/27924912
+Sci Rep. 2016 Dec 7;6:38392. doi: 10.1038/srep38392.
+Next-generation systematics: An innovative approach to resolve the structure of complex prokaryotic taxa.
+Sangal V1, Goodfellow M2, Jones AL1, Schwalbe EC1, Blom J3, Hoskisson PA4, Sutcliffe IC1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27074033
+PLoS One. 2016 Apr 13;11(4):e0152887. doi: 10.1371/journal.pone.0152887. eCollection 2016.
+Plasmid Profiles of Virulent Rhodococcus equi Strains Isolated from Infected Foals in Poland.
 
 #### Escherichia coli
 - 大腸菌 [Comparative genomics of recent Shiga toxin-producing Escherichia coli O104:H4: short-term evolution of an emerging pathogen. MBio. 2013 Jan 22](http://www.ncbi.nlm.nih.gov/pubmed/23341549)
