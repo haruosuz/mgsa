@@ -1,10 +1,8 @@
 # Set Working Directory
 #setwd("~/projects/mgsa/roary/2016-06-07") # i 95
 #setwd("~/projects/mgsa/roary/2016-06-21") # i 50
-setwd("~/projects/jc923/nckuh21/2017-09-17")
 
-#system("find data -name '*.gbk' | xargs grep 'ORGANISM' | sort -u | grep -v 'phage' | sed 's/ ORGANISM  //; s#.*/##' | perl -pe 's/.gbk:/.gbk\t/;' > my.file.ORGANISM.txt; find data -name '*.gbk' | xargs grep '/strain=' | sort -u | sed 's# */strain=\"##; s#\"##g; s#.*/##' | perl -pe 's/.gbk:/.gbk\t/;' > my.file.strain.txt; join -1 1 -2 1 -a 1 -t "$(printf '\011')" my.file.ORGANISM.txt my.file.strain.txt > my.file.name.txt")
-
+system("find data/gbk -name '*.gbk' | xargs grep 'ORGANISM' | sort -u | grep -v 'phage' | sed 's/ ORGANISM  //; s#.*/##' | perl -pe 's/.gbk:/.gbk\t/;' > my.file.name.txt")
 annot <- read.delim("my.file.name.txt", header = FALSE, quote = "", stringsAsFactors = FALSE)
 annot <- apply(annot[,1:2], 1, paste0, collapse=" ")
 
