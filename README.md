@@ -719,14 +719,26 @@ kpLogo: k-mer probability logo
  - Beginner's guide to comparative bacterial genome analysis using next-generation sequence data. Microb Inform Exp. 2013. http://www.ncbi.nlm.nih.gov/pubmed/23575213
 - CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes | BMC Genomics | http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-65
 
+
+### Research papers on comparative bacterial genomics
+細菌ゲノム比較に関する論文
+
+#### Mycobacterium
+2017年9月15日
+https://www.tohoku.ac.jp/japanese/2017/09/press20170915-03.html
+http://www.amed.go.jp/news/release_20170915-02.html
+肺MAC症原因菌が進化する仕組みを解明
+https://www.ncbi.nlm.nih.gov/pubmed/28957464
+Genome Biol Evol. 2017 Sep 1;9(9):2403-2417. doi: 10.1093/gbe/evx183.
+Population Structure and Local Adaptation of MAC Lung Disease Agent Mycobacterium avium subsp. hominissuis.
+Yano H1,2, Iwamoto T3, Nishiuchi Y4, Nakajima C5,6, Starkova DA7, Mokrousov I7, Narvskaya O7, Yoshida S8, Arikawa K3, Nakanishi N3, Osaki K9, Nakagawa I10, Ato M11, Suzuki Y5,6, Maruyama F10.
+https://academic.oup.com/gbe/article/4107938/
+
 - 結核菌 [Whole-genome sequencing and social-network analysis of a tuberculosis outbreak. N Engl J Med. 2011 Feb 24](http://www.ncbi.nlm.nih.gov/pubmed/21345102)
  - [結核の集団感染の全ゲノム配列決定とソーシャルネットワーク解析による検討 ｜ 日本語アブストラクト ｜ The New England Journal of Medicine（日本国内版）](http://www.nejm.jp/abstract/vol364.p730)
  - [次世代 分子疫学技術/情報　と　その周辺 - 感染症診療の原則](http://blog.goo.ne.jp/idconsult/e/6bc7fda02403371fb2b77a26bc03d003)
   - 例えばカナダBCの結核のアウトブレイク。記述疫学によるSocial Networkの絵は大変複雑になりましたが、菌の全ゲノム情報を元に分類すると、きれいに2つのクラスターがみえました。
  - [不法コカイン使用と結核流行 : 内科開業医のお勉強日記](http://intmed.exblog.jp/12182822/)
-
-### Research papers on comparative bacterial genomics
-細菌ゲノム比較に関する論文
 
 #### Rhodococcus
 https://www.ncbi.nlm.nih.gov/pubmed/28369330
@@ -747,6 +759,16 @@ Sangal V1, Goodfellow M2, Jones AL1, Schwalbe EC1, Blom J3, Hoskisson PA4, Sutcl
 https://www.ncbi.nlm.nih.gov/pubmed/27074033
 PLoS One. 2016 Apr 13;11(4):e0152887. doi: 10.1371/journal.pone.0152887. eCollection 2016.
 Plasmid Profiles of Virulent Rhodococcus equi Strains Isolated from Infected Foals in Poland.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25237311
+Front Plant Sci. 2014 Aug 19;5:406. doi: 10.3389/fpls.2014.00406. eCollection 2014.
+Use of whole genome sequences to develop a molecular phylogenetic framework for Rhodococcus fascians and the Rhodococcus genus.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18179219
+J Am Chem Soc. 2008 Jan 30;130(4):1126-7. doi: 10.1021/ja077821p. Epub 2008 Jan 8.
+Rhodostreptomycins, antibiotics biosynthesized following horizontal gene transfer from Streptomyces padanus to Rhodococcus fascians.
+Kurosawa K1, Ghiviriga I, Sambandan TG, Lessard PA, Barbara JE, Rha C, Sinskey AJ.
+
 
 #### Escherichia coli
 - 大腸菌 [Comparative genomics of recent Shiga toxin-producing Escherichia coli O104:H4: short-term evolution of an emerging pathogen. MBio. 2013 Jan 22](http://www.ncbi.nlm.nih.gov/pubmed/23341549)
