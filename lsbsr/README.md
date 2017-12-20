@@ -1,7 +1,5 @@
-----------
-
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-07-26
+Last Update: 2017-12-21
 
 ----------
 
@@ -314,17 +312,9 @@ I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
 
 ## References
 
-### BLAST score ratio (BSR)
-http://bsr.igs.umaryland.edu
-The Blast Score Ratio Analysis Tool
-
-https://www.ncbi.nlm.nih.gov/pubmed/15634352
-BMC Bioinformatics. 2005 Jan 5;6:2.
-Visualization of comparative genomic analyses by BLAST score ratio.
-Rasko DA1, Myers GS, Ravel J.
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC545078/figure/F1/
-A. BLAST score ratio analysis (BSR) calculation demonstrating how the two coordinates for plotting in figures B and C are calculated. 
+27 Oct 2017
+https://twitter.com/jason_sahl/status/924029119871905793
+Jason Sahl on Twitter: "Some recent thoughts on LS-BSR/Roary comparisons. Feedback/thoughts welcome: https://t.co/Q9MbJfnmqY"
 
 ### [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
 
@@ -336,6 +326,18 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976120/
 
 https://omictools.com/large-scale-blast-score-ratio-tool
 LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools
+
+### BLAST score ratio (BSR)
+http://bsr.igs.umaryland.edu
+The Blast Score Ratio Analysis Tool
+
+https://www.ncbi.nlm.nih.gov/pubmed/15634352
+BMC Bioinformatics. 2005 Jan 5;6:2.
+Visualization of comparative genomic analyses by BLAST score ratio.
+Rasko DA1, Myers GS, Ravel J.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC545078/figure/F1/
+A. BLAST score ratio analysis (BSR) calculation demonstrating how the two coordinates for plotting in figures B and C are calculated. 
 
 ### Unclassified
 
@@ -366,12 +368,22 @@ Nat Microbiol. 2016 Jan 18;1:15014. doi: 10.1038/nmicrobiol.2015.14.
 Genomic diversity of EPEC associated with clinical presentations of differing severity.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5067155/
 
+https://www.ncbi.nlm.nih.gov/pubmed/26462752
+Sci Rep. 2015 Oct 14;5:15188. doi: 10.1038/srep15188.
+Phylogenetic and genomic diversity in isolates from the globally distributed Acinetobacter baumannii ST25 lineage.
+Sahl JW1,2, Del Franco M3, Pournaras S4, Colman RE1, Karah N5, Dijkshoorn L6, Zarrilli R3.
+
 https://www.ncbi.nlm.nih.gov/pubmed/28348813
 Microb Genom. 2015 Aug 3;1(2):e000028. doi: 10.1099/mgen.0.000028. eCollection 2015 Aug.
 Redefining the differences in gene content between Yersinia pestis and Yersinia pseudotuberculosis using large-scale comparative genomics.
 Califf KJ1, Keim PS2, Wagner DM1, Sahl JW2.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/
 http://mgen.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000028#tab2
+
+https://www.ncbi.nlm.nih.gov/pubmed/25852665
+Front Microbiol. 2015 Mar 24;6:204. doi: 10.3389/fmicb.2015.00204. eCollection 2015.
+Insights into the environmental reservoir of pathogenic Vibrio parahaemolyticus using comparative genomics.
+Hazen TH1, Lafon PC2, Garrett NM2, Lowe TM3, Silberger DJ3, Rowe LA4, Frace M4, Parsons MB2, Bopp CA2, Rasko DA5, Sobecky PA3.
 
 ----------
 
