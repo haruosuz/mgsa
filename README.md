@@ -943,6 +943,35 @@ Isolates Browser - Pathogen Detection - NCBI
 ----------
 
 
+## bacterial genome annotation
+細菌ゲノムのアノテーション
+
+https://github.com/nigyta/dfast_core
+https://www.ncbi.nlm.nih.gov/pubmed/29106469
+Bioinformatics. 2017 Nov 2. doi: 10.1093/bioinformatics/btx713. [Epub ahead of print]
+DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication.
+Tanizawa Y1, Fujisawa T1, Nakamura Y1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26283419
+BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
+BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
+Kalkatawi M1, Alam I2, Bajic VB3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/24203705
+Nucleic Acids Res. 2014 Jan;42(Database issue):D617-24. doi: 10.1093/nar/gkt1078. Epub 2013 Nov 6.
+MetaRef: a pan-genomic database for comparative and community microbial genomics.
+Huang K1, Brady A, Mahurkar A, White O, Gevers D, Huttenhower C, Segata N.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964974/
+Consensus functional annotation of MetaRef families
+- However, we observed that functional annotation of individual members within a family were, at times, inconsistent, often stemming from the fact that individual genomes were annotated by different methods at different times, with varying criteria and terminology.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22408191
+Brief Bioinform. 2013 Jan;14(1):1-12. doi: 10.1093/bib/bbs007. Epub 2012 Mar 9.
+The automatic annotation of bacterial genomes.
+Richardson EJ1, Watson M.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
+Inconsistent annotation
+
 ----------
 
 
