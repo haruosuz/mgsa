@@ -591,48 +591,6 @@ Curr Opin Microbiol. 2015 Feb;23:148-54. doi: 10.1016/j.mib.2014.11.016. Epub 20
 Ten years of pan-genome analyses.
 Vernikos G1, Medini D2, Riley DR3, Tettelin H4.
 
-### Annotation
-https://twitter.com/search?q=%23annotathon
-#annotathon - Twitter Search
-
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-### [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml)
- - [Invoking Prokka](https://github.com/tseemann/prokka#invoking-prokka)
-- FEB 6, 2017 [BINF 6203: Bacterial genome annotation with prokka | Genome Intelligence](http://genomeintelligence.org/?p=1212)
- - [Genome annotation and Pangenome analysis](https://github.com/microgenomics/tutorials/blob/master/pangenome.md)
-  - [Annotating genomes](https://github.com/microgenomics/tutorials/blob/master/pangenome.md#annotating-genomes)
- - [Annotating the assembly using the PROKKA pipeline — Metagenomics Workshop SciLifeLab 1.0 documentation](http://metagenomics-workshop.readthedocs.io/en/latest/functional-annotation/prokka.html)
- - [Annotating a bacterial genome with Prokka — 2013-caltechworkshop 0.1 documentation](http://2013-caltech-workshop.readthedocs.org/en/latest/prokka-annotation.html)
-
-http://crusade1096.web.fc2.com/katei.html
-メタアセンブル後に遺伝子予測を行います。バクテリアの遺伝子予測で紹介したprokkaやGeneMarkは，メタゲノム用にも使用できます。実行時間に大きく差があり，数によってはprokkaの場合だと数日かかる実行時間が，MetaGeneMarkを使用すれば，数分で完了することが可能です。
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
-バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
-
-日本乳酸菌学会誌
-Vol. 28 No. 1 3 ~ 11(2017)
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
- Prokka は、CDS、rRNA、tRNA の 予 測 と い っ た 基 本的なアノテーションに加えて、CRISPR(Clustered regularly interspaced short palindromic repeats)32) や シグナルペプチドの検出機能を備えている。Prokka の高 速なアノテーションは、予測された CDS を複数の参照ア ミノ酸配列 DB に対して段階的に検索していくことで実 現されている。はじめに近縁種から得られた配列を中心 に構成されたより信頼できる参照 DB に対して BLAST 検索を行い、そこでヒットしなかった遺伝子はより包括 的な参照 DB を用いて検索される。そこでもヒットしな かった遺伝子については、最終的に隠れマルコフモデル を用いたモチーフ・ドメイン検索ソフト HMMER3 33)を 使って Pfam 34) や TIGRFAMs 35) などの DB に対して検 索を行う。
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
- ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
-
-### [DFAST](https://github.com/nigyta/dfast_core)
-DFAST - DDBJ Fast Annotation and Submission Tool
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
-次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
-谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
-
-DFAST を用いたゲノムアノテーション
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
-次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
-ウェブ資料
-
 ### [K-mer](https://en.wikipedia.org/wiki/K-mer)
 
 https://www.ncbi.nlm.nih.gov/pubmed/29036588
@@ -973,5 +931,59 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
 Inconsistent annotation
 
 ----------
+
+### Annotation
+https://twitter.com/search?q=%23annotathon
+#annotathon - Twitter Search
+
+https://twitter.com/chalkless/status/931390702595878912
+Nakazato T. on Twitter: "アノテーションの際に用いるツールなどのリストアップをしてみています。興味のある方はご自由に書き込みください。質問も歓迎 https://t.co/MagBjfy0y4 #annotathon"
+
+https://docs.google.com/spreadsheets/d/1eFFSILjN1OqMitzJVMwJYomwZGZ4N1QRK8mesXWuaQI/edit#gid=0
+MiGAP
+DFAST
+Prokka
+
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+### [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml)
+ - [Invoking Prokka](https://github.com/tseemann/prokka#invoking-prokka)
+- FEB 6, 2017 [BINF 6203: Bacterial genome annotation with prokka | Genome Intelligence](http://genomeintelligence.org/?p=1212)
+ - [Genome annotation and Pangenome analysis](https://github.com/microgenomics/tutorials/blob/master/pangenome.md)
+  - [Annotating genomes](https://github.com/microgenomics/tutorials/blob/master/pangenome.md#annotating-genomes)
+ - [Annotating the assembly using the PROKKA pipeline — Metagenomics Workshop SciLifeLab 1.0 documentation](http://metagenomics-workshop.readthedocs.io/en/latest/functional-annotation/prokka.html)
+ - [Annotating a bacterial genome with Prokka — 2013-caltechworkshop 0.1 documentation](http://2013-caltech-workshop.readthedocs.org/en/latest/prokka-annotation.html)
+
+http://crusade1096.web.fc2.com/katei.html
+メタアセンブル後に遺伝子予測を行います。バクテリアの遺伝子予測で紹介したprokkaやGeneMarkは，メタゲノム用にも使用できます。実行時間に大きく差があり，数によってはprokkaの場合だと数日かかる実行時間が，MetaGeneMarkを使用すれば，数分で完了することが可能です。
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
+バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
+
+日本乳酸菌学会誌
+Vol. 28 No. 1 3 ~ 11(2017)
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+ Prokka は、CDS、rRNA、tRNA の 予 測 と い っ た 基 本的なアノテーションに加えて、CRISPR(Clustered regularly interspaced short palindromic repeats)32) や シグナルペプチドの検出機能を備えている。Prokka の高 速なアノテーションは、予測された CDS を複数の参照ア ミノ酸配列 DB に対して段階的に検索していくことで実 現されている。はじめに近縁種から得られた配列を中心 に構成されたより信頼できる参照 DB に対して BLAST 検索を行い、そこでヒットしなかった遺伝子はより包括 的な参照 DB を用いて検索される。そこでもヒットしな かった遺伝子については、最終的に隠れマルコフモデル を用いたモチーフ・ドメイン検索ソフト HMMER3 33)を 使って Pfam 34) や TIGRFAMs 35) などの DB に対して検 索を行う。
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
+ ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
+
+### [DFAST](https://github.com/nigyta/dfast_core)
+DFAST - DDBJ Fast Annotation and Submission Tool
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
+谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
+
+DFAST を用いたゲノムアノテーション
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
+次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
+ウェブ資料
+
+----------
+
+
 
 
