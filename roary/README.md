@@ -1,5 +1,3 @@
-----------
-
 Haruo Suzuki (haruo[at]g-language[dot]org)  
 Last Update: 2016-12-29
 
@@ -322,7 +320,7 @@ Tab delimited files are created for visualizing with R (Sup. Fig. 14-17).
 
 -----
 
-[Roary](http://sanger-pathogens.github.io/Roary)を実行し、FastTreeを用いて、遺伝子の有/無(1/0)に基づく樹形図 (accessory_binary_genes.fa.newick) と、コア遺伝子アライメントに基づく系統樹 (core_gene_alignment.newick) を作成した。Rスクリプト`scripts/my_roary_tree.R`を用いて、treeのノードのラベルにORGANISM名を付ける:  
+Roaryを実行し、FastTreeを用いて、遺伝子の有/無(1/0)に基づく樹形図 (accessory_binary_genes.fa.newick) と、コア遺伝子アライメントに基づく系統樹 (core_gene_alignment.newick) を作成した。Rスクリプト`scripts/my_roary_tree.R`を用いて、treeのノードのラベルにORGANISM名を付ける:  
 
     # Downloading the R script
     curl -O https://raw.githubusercontent.com/haruosuz/mgsa/master/roary/scripts/my_roary_tree.R
@@ -495,3 +493,19 @@ Sup. Table 1. Output files File
   - [X11 Forwarding - なんなんなん行く？](https://sites.google.com/site/teyasn001/ubuntu-12-10/sshniyorux11zhuan-song)
 
 ----------
+
+https://sanger-pathogens.github.io/Roary/
+
+         -i        minimum percentage identity for blastp [95]
+
+The core is a lot smaller than I expected?
+
+The species could be too diverse, in which case you should lower the blastp percentage identity (-i 90). Just be aware that you can get anything to cluster with anything else if you set this value low enough, but the results will be complete rubbish. If you are setting this below 70%, then you're doing something wrong.
+
+blastp percentage identity (-i) を 70% 未満にセットしない。
+
+----------
+
+
+
+
