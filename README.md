@@ -16,23 +16,26 @@ Last Update: 2018-01-27
 
 ## Updates
 
+
+### harvest
+
+http://harvest.readthedocs.org
+http://harvest.readthedocs.io/en/latest/content/parsnp/tutorial.html
+https://harvest.readthedocs.io/en/v1.0/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25410596
+Genome Biol. 2014;15(11):524.
+The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
+
+http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
+数百から数千のバクテリアゲノムの同時比較を行うHarvest - macでインフォマティクス
+
+https://www.cbcb.umd.edu/software/harvest
+Harvest | CBCB
+
 ----------
 
 ### 2018
-
-https://github.com/yuifu/ajacs68
-NGSデータから新たな知識を導出するためのデータ解析リテラシー
-AJACS68 (AJACS浜松) https://events.biosciencedbc.jp/training/ajacs68 January 17, 2018
-尾崎 遼 Haruka Ozaki haruka.ozaki@riken.jp | http://yuifu.github.io | @yuifu
-
-2018年01月10日
-https://qiita.com/yuifu/items/f8a87658724c3c83900f
-GIGGLEでゲノム区間を検索する - Qiita
-
-https://twitter.com/TaromaedaMaedat/status/950963827843112960
-Taro Maeda umiushi on Twitter: "ゲノム間比較の話し。mummerはドットプロット図が不評だったのでlastzを使って、AliTVで図にする形になりそう。https://t.co/ie739fEfmd"
-ゲノム間比較の話し。mummerはドットプロット図が不評だったのでlastzを使って、AliTVで図にする形になりそう。https://alitvteam.github.io/AliTV/d3/AliTV.html 12:33 AM - 10 Jan 2018
-
 
 ### 2017
 
@@ -599,6 +602,72 @@ BLASTBasic Local Alignment Search Tool
 
 
 ----------
+### Metagenomics
+
+https://www.ncbi.nlm.nih.gov/pubmed/28321234
+Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
+A Review of Bioinformatics Tools for Bio-Prospecting from Metagenomic Sequence Data.
+Roumpeka DD1, Wallace RJ2, Escalettes F3, Fotheringham I3, Watson M1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25983555
+Bioinform Biol Insights. 2015 May 5;9:75-88. doi: 10.4137/BBI.S12462. eCollection 2015.
+Metagenomics: tools and insights for analyzing next-generation sequencing data derived from biodiversity studies.
+Oulas A1, Pavloudi C2, Polymenakou P1, Pavlopoulos GA3, Papanikolaou N3, Kotoulas G1, Arvanitidis C1, Iliopoulos I3.
+
+http://clark.cs.ucr.edu
+CLARK :: Fast and accurate classification method for metagenomic/genomic sequences
+
+https://www.ncbi.nlm.nih.gov/pubmed/27540266
+Bioinformatics. 2016 Dec 15;32(24):3823-3825. Epub 2016 Aug 18.
+Higher classification sensitivity of short metagenomic reads with CLARK-S.
+Ounit R1, Lonardi S1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25879410
+BMC Genomics. 2015 Mar 25;16:236. doi: 10.1186/s12864-015-1419-2.
+CLARK: fast and accurate classification of metagenomic and genomic sequences using discriminative k-mers.
+Ounit R1, Wanamaker S2, Close TJ3, Lonardi S4.
+
+- [Kraken](http://ccb.jhu.edu/software/kraken/)
+ - 論文 [Wood DE, Salzberg SL. Genome Biol. 2014 "Kraken: ultrafast metagenomic sequence classification using exact alignments."]()
+
+- [Kaiju: Fast and sensitive taxonomic classification for metagenomics](http://kaiju.binf.ku.dk)
+ - 論文 [Menzel P et al. Nat Commun. 2016 "Fast and sensitive taxonomic classification for metagenomics with Kaiju."](https://www.ncbi.nlm.nih.gov/pubmed/27071849)
+  - We compared the performance of Kaiju with the two k-mer-based programs Kraken and Clark, which performed best in speed and accuracy in a recent benchmark study18. https://www.ncbi.nlm.nih.gov/pubmed/26778510
+
+### Metagenomic Assembly
+
+https://omictools.com/metagenomic-assembly-category
+Assembly software tools | Metagenomic sequencing analysis - OMICtools
+
+https://www.ncbi.nlm.nih.gov/pubmed/28693474
+BMC Genomics. 2017 Jul 10;18(1):521. 
+Assembling metagenomes, one community at a time.
+
+https://twitter.com/StevenJRobbins/status/849484107797204997
+Three very recent papers comparing metagenome assembly tools:
+
+https://www.ncbi.nlm.nih.gov/pubmed/28099457
+PLoS One. 2017 Jan 18;12(1):e0169662.
+Comparing and Evaluating Metagenome Assembly Tools from a Microbiologist's Perspective - Not Only Size Matters!
+
+https://www.ncbi.nlm.nih.gov/pubmed/27698619
+Yale J Biol Med. 2016 Sep 30;89(3):353-362. eCollection 2016.
+Metagenomic Assembly: Overview, Challenges and Applications.
+Ghurye JS1, Cepeda-Espinoza V1, Pop M1.
+
+[MetAMOS](https://github.com/treangen/MetAMOS)
+https://www.ncbi.nlm.nih.gov/pubmed/23320958
+Genome Biol. 2013 Jan 15;14(1):R2. doi: 10.1186/gb-2013-14-1-r2.
+MetAMOS: a modular and open source metagenomic assembly and analysis pipeline.
+
+[MOCAT](http://www.bork.embl.de/mocat/)
+https://www.ncbi.nlm.nih.gov/pubmed/23082188
+PLoS One. 2012;7(10):e47656.
+MOCAT: a metagenomics assembly and gene prediction toolkit.
+
+----------
+
+
 
 
 
