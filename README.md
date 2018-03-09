@@ -218,13 +218,21 @@ kat | Holt Lab
 
 ### [K-mer](https://en.wikipedia.org/wiki/K-mer)
 
+https://twitter.com/kazumachack
+上坂一馬 (@kazumachack) | Twitter
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
+kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
+k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/archive/category/k-mer
+k-mer カテゴリーの記事一覧 - macでインフォマティクス
+
 https://www.ncbi.nlm.nih.gov/pubmed/29036588
 Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
 A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
-
-2017-06-27
-http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
-k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
 
 http://biorxiv.org/content/early/2016/10/19/081885
 Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
@@ -304,12 +312,16 @@ https://academic.oup.com/gbe/article/4107938/
   - 例えばカナダBCの結核のアウトブレイク。記述疫学によるSocial Networkの絵は大変複雑になりましたが、菌の全ゲノム情報を元に分類すると、きれいに2つのクラスターがみえました。
  - [不法コカイン使用と結核流行 : 内科開業医のお勉強日記](http://intmed.exblog.jp/12182822/)
 
-
-
 #### Escherichia coli
 - 大腸菌 [Comparative genomics of recent Shiga toxin-producing Escherichia coli O104:H4: short-term evolution of an emerging pathogen. MBio. 2013 Jan 22](http://www.ncbi.nlm.nih.gov/pubmed/23341549)
 - 大腸菌 [Genomic epidemiology of the Escherichia coli O104:H4 outbreaks in Europe, 2011. Proc Natl Acad Sci U S A. 2012 Feb](http://www.ncbi.nlm.nih.gov/pubmed/22315421)
 - 大腸菌 [Ogura Y et al. PNAS. 2009 Oct. "Comparative genomics reveal the mechanism of the parallel evolution of O157 and non-O157 enterohemorrhagic Escherichia coli."](http://www.ncbi.nlm.nih.gov/pubmed/19815525)
+
+2011
+https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_article/-char/ja/
+腸管出血性大腸菌と腸管病原性大腸菌のゲノム解読と病原性進化メカニズムの解明
+https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_pdf/-char/ja
+
 - [下毛類](https://ja.wikipedia.org/wiki/下毛類)Euplotesの共生細菌 [Polynucleobacter necessarius, a model for genome reduction in both free-living and symbiotic bacteria. Proc Natl Acad Sci U S A. 2013 Nov ](http://www.ncbi.nlm.nih.gov/pubmed/24167248)
 - サルモネラ [Evolutionary Genomics of Salmonella enterica Subspecies. MBio. 2013 Mar](http://www.ncbi.nlm.nih.gov/pubmed/23462113)
 - []()
@@ -370,8 +382,14 @@ https://academic.oup.com/gbe/article/4107938/
  - [Trimmomatic | アダプター配列除去](http://bi.biopapyrus.net/rnaseq/qc/trimmomatic.html)
 
 ### Genome assembly
+
 http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
-アセンブリ カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
+GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
+ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
 
 - de Bruijn Graph
   - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
@@ -666,6 +684,36 @@ PLoS One. 2012;7(10):e47656.
 MOCAT: a metagenomics assembly and gene prediction toolkit.
 
 ----------
+
+
+### GSEA
+
+http://array.cell-innovator.com/?p=1452
+Gene Set Enrichment Analysis (GSEA) – 遺伝子発現解析（マイクロアレイ解析, RNA-seq）
+
+### PAGE
+PAGE: Parametric Analysis of Gene Set Enrichment
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183189/
+BMC Bioinformatics. 2005; 6: 144.
+
+PAGEは正規分布（normal distribution）を仮定したパラメトリックなテストで、ノンパラメトリックテストのGSEAと比較して、計算が速く、検出感度が高い（統計的に有意な遺伝子が多い）。
+GOカテゴリの構成遺伝子数が最低10は必要。
+we set the minimal gene set size as 10
+
+https://www.t-kagaku.co.jp/seimeiken/top/xmlSupport.php?id=21004
+PAGE解析(Parametric Analysis of Gene set Enrichment)とは
+
+http://home.hiroshima-u.ac.jp/naka/wiki/wiki.cgi%3FGSEA_(Gene_Set_Enrichment_Analysis)%25A4%25CB%25A4%25C4%25A4%25A4%25A4%25C6
+GSEA_(Gene_Set_Enrichment_Analysis)について -
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
+解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
+
+
+----------
+
+
 
 
 
