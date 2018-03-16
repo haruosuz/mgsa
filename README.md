@@ -16,6 +16,9 @@ Last Update: 2018-01-27
 
 ## Updates
 
+https://www.biorxiv.org/content/early/2018/03/15/283101
+Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes | bioRxiv
+https://github.com/Abdo-Lab/Tychus
 
 ### harvest
 
