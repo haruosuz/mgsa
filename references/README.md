@@ -1,13 +1,28 @@
+Haruo Suzuki (haruo[at]g-language[dot]org)  
+Last Update: 2018-04-11
+
+----------
 
 # References
 
 ## Updates
 
-
 ----------
 
 ### Metagenomics
 メタゲノム
+
+https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
+2017年 NGSハンズオン講習会 8月31日
+メタゲノム解析
+森 宙史(HiroshiMori),Ph.D.
+
+代表的なメタゲノムデータベース
+MG-RAST
+EBI-Metagenomics
+
+http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
+メタゲノム解析ツール - macでインフォマティクス
 
 https://www.ncbi.nlm.nih.gov/pubmed/28321234
 Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
@@ -22,15 +37,6 @@ IMG/M (Markowitz et al., 2014)
 https://www.ebi.ac.uk/metagenomics/
 EBI metagenomics: archiving, analysis and integration of metagenomics data < EBI metagenomics < EMBL-EBI
 
-https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
-2017年 NGSハンズオン講習会 8月31日
-メタゲノム解析
-森 宙史(HiroshiMori),Ph.D.
-
-代表的なメタゲノムデータベース
-MG-RAST
-EBI-Metagenomics
-
 https://www.slideshare.net/DDBJslide/ddbjing30-43012395
 [DDBJing30] メタゲノム解析と微生物統合データベース
 講師：森 宙史
@@ -38,7 +44,6 @@ https://www.slideshare.net/DDBJslide/ddbjing30-43012395
 
 https://wg.biosciencedbc.jp/doku.php/ゲノム・メタゲノム情報を基盤とした微生物dbの統合
 ゲノム・メタゲノム情報を基盤とした微生物dbの統合.txt · 最終更新: 2011/12/27 09:54 +0900 (外部編集)
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/25983555
 Bioinform Biol Insights. 2015 May 5;9:75-88. doi: 10.4137/BBI.S12462. eCollection 2015.
