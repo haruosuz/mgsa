@@ -16,10 +16,50 @@ Last Update: 2018-01-27
 
 ## Updates
 
+----------
+
+MITのEric Almラボ。microbiomeデータのメタアナリシス
+
+https://twitter.com/cduvallet
+
+7:42 PM - 23 Apr 2018
+https://twitter.com/cduvallet/status/988563768765505536
+Claire Duvallet on Twitter: "Meaning to make a meta-analysis but blocked or bothered by batch effects? Use your controls as nulls: normalize features in cases relative to their distribution in control samples. Learn more at @PLOSCompBiol https://t.co/PHyVZoZlej Congrats @gibbological!! @ejalm"
+
+1:55 PM - 23 Apr 2018
+https://twitter.com/gibbological/status/988476547614105601
+Sean Gibbons on Twitter: "Befuddled by batch effects? Check out our simple, non-parametric solution for 16S case-control studies in @PLOSCompBiol https://t.co/grMDm7SIQl -- method available as a @qiime2 plugin thanks to @cduvallet"
+
+April 17, 2018
+https://cduvallet.github.io/posts/2018/04/microbiome-data
+An empirical analysis of microbiome data availability - Claire Duvallet
+
+19 January 2018
+https://onlinelibrary.wiley.com/doi/full/10.1111/1751-7915.13047
+Meta‐analysis generates and prioritizes hypotheses for translational microbiome research - Duvallet - 2018 - Microbial Biotechnology - Wiley Online Library
+Claire Duvallet
+
+05 December 2017
+https://www.nature.com/articles/s41467-017-01973-8
+Meta-analysis of gut microbiome studies identifies disease-specific and shared responses | Nature Communications
+Claire Duvallet, Sean M. Gibbons, Thomas Gurry, Rafael A. Irizarry & Eric J. Alm
+
+----------
+k-mer
+
+https://twitter.com/aphillippy/status/987312716451807233
+Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
+8:51 AM - 20 Apr 2018
+
+https://twitter.com/BioMickWatson/status/987217580648693760
+Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
+2:33 AM - 20 Apr 2018
+
+----------
+
 https://www.biorxiv.org/content/early/2018/03/15/283101
 Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes | bioRxiv
 https://github.com/Abdo-Lab/Tychus
-
 
 ----------
 
