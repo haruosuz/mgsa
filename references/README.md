@@ -304,6 +304,12 @@ https://academic.oup.com/gbe/article/4107938/
 - 大腸菌 [Genomic epidemiology of the Escherichia coli O104:H4 outbreaks in Europe, 2011. Proc Natl Acad Sci U S A. 2012 Feb](http://www.ncbi.nlm.nih.gov/pubmed/22315421)
 - 大腸菌 [Ogura Y et al. PNAS. 2009 Oct. "Comparative genomics reveal the mechanism of the parallel evolution of O157 and non-O157 enterohemorrhagic Escherichia coli."](http://www.ncbi.nlm.nih.gov/pubmed/19815525)
 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2764950/
+The gene contents of the 4 EHECs do not follow the phylogenetic relationships of the strains, and they share virulence genes for Shiga toxins and many other factors. 
+Fig. 3.
+4 EHECs は、系統的に近縁ではないが、遺伝子の有無は類似（病原遺伝子を共有）している。
+4 EHECs (O157, O26, O111, and O103) は、系統樹でクレードを形成しない (Fig. 3A) が、遺伝子の有無 (gene contents / gene repertoire) に基づくクラスター分析で得られたデンドログラムで単一クラスターを形成する (Fig. 3B).
+
 2011
 https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_article/-char/ja/
 腸管出血性大腸菌と腸管病原性大腸菌のゲノム解読と病原性進化メカニズムの解明
@@ -507,12 +513,6 @@ Isolates Browser - Pathogen Detection - NCBI
 ## bacterial genome annotation
 細菌ゲノムのアノテーション
 
-https://github.com/nigyta/dfast_core
-https://www.ncbi.nlm.nih.gov/pubmed/29106469
-Bioinformatics. 2017 Nov 2. doi: 10.1093/bioinformatics/btx713. [Epub ahead of print]
-DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication.
-Tanizawa Y1, Fujisawa T1, Nakamura Y1.
-
 https://www.ncbi.nlm.nih.gov/pubmed/26283419
 BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
 BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
@@ -534,6 +534,29 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
 Inconsistent annotation
 
 ----------
+
+### [DFAST](https://github.com/nigyta/dfast_core)
+DFAST - DDBJ Fast Annotation and Submission Tool
+
+http://togotv.dbcls.jp/20180318.html
+微生物ゲノムのキラーアノテーションパイプライン DFASTの紹介 @ Annotathon2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/29106469
+Bioinformatics. 2018 Mar 15;34(6):1037-1039. doi: 10.1093/bioinformatics/btx713.
+DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication.
+Tanizawa Y1, Fujisawa T1, Nakamura Y1.
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
+谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
+
+DFAST を用いたゲノムアノテーション
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
+次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
+ウェブ資料
+
+http://wiki.lifesciencedb.jp/mw/BH16.12/DFAST
 
 ### Annotation
 https://twitter.com/search?q=%23annotathon
@@ -571,20 +594,6 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
 
 http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
  ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
-
-### [DFAST](https://github.com/nigyta/dfast_core)
-DFAST - DDBJ Fast Annotation and Submission Tool
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
-次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
-谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
-
-DFAST を用いたゲノムアノテーション
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
-次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
-ウェブ資料
-
 
 ----------
 
@@ -630,6 +639,31 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
 
 
 ----------
+
+https://www.ncbi.nlm.nih.gov/pubmed/23575213
+Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
+Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
+Edwards DJ1, Holt KE.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29635296
+Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
+Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria.
+Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
+The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
+
+https://www.ncbi.nlm.nih.gov/pubmed/28705636
+J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
+A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
+Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
+https://www.sciencedirect.com/science/article/pii/S0168165617315225?via%3Dihub
+Review
+2.4. Roary
+
+
+----------
+
+
 
 
 
