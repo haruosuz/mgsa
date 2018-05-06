@@ -1,14 +1,398 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-04-11
+Last Update: 2018-05-05
 
 ----------
 
 # References
 
+## Table of Contents
+- [Updates](#updates)
+- [Tools](#tools)
+  - [harvest](#harvest)
+  - [BUSCO](#busco)
+  - [Tax4Fun](#tax4fun)
+  - [USEARCH](#usearch)
+- [GSEA](#gsea)
+- [Holt Lab](#holt-Lab)
+- [kadota](#kadota) 門田　幸二のホームページ
+- [kazumaxneo](#kazumaxneo) macでインフォマティクス
+- [k-mer](#k-mer)
+- [Metagenomics](#metagenomics)
+
+
+----------
+
 ## Updates
 
 ----------
 
+### 2018
+
+### 2017
+
+### 2016
+
+Published: 14 October 2016
+https://academic.oup.com/bib/article/19/1/23/2339783
+present and future of de novo whole-genome assembly | Briefings in Bioinformatics | Oxford Academic
+
+February 12, 2017
+http://genomeintelligence.org/?p=1157
+BINF 6203: Genome Comparison with Mauve – Genome Intelligence
+
+![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
+
+
+----------
+
+### qc
+- [クオリティコントロール | FASTQ | RNA-seq](http://bi.biopapyrus.net/rnaseq/qc/)
+ - [FastQC | FASTQのクオリティチェック](http://bi.biopapyrus.net/rnaseq/qc/fastqc.html)
+ - [Trimmomatic | アダプター配列除去](http://bi.biopapyrus.net/rnaseq/qc/trimmomatic.html)
+
+### assembly
+
+March 23 2018
+http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
+Bioinformatics Zen
+Automating the selection of genome assembly software
+
+http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
+
+- de Bruijn Graph
+  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
+  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
+  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
+  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
+  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
+- [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
+  - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
+  - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
+  - 2013-05-20 [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/blog/2013/05/20/spades-and-masurca-assemblers-performed-best-in-gage-b-evaluation/) SPAdes and MaSuRCA Assemblers Performed Best in GAGE-B Evaluation
+- SpadesとVelvetの比較 
+  - 2013-08-30 [The Genome Factory: How Spades differs from Velvet](http://thegenomefactory.blogspot.com/2013/08/how-spades-differs-from-velvet.html)
+  - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
+- 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
+- [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
+
+## annotation
+アノテーション
+
+https://twitter.com/search?q=%23annotathon
+#annotathon - Twitter Search
+
+https://twitter.com/chalkless/status/931390702595878912
+Nakazato T. on Twitter: "アノテーションの際に用いるツールなどのリストアップをしてみています。興味のある方はご自由に書き込みください。質問も歓迎 https://t.co/MagBjfy0y4 #annotathon"
+
+https://docs.google.com/spreadsheets/d/1eFFSILjN1OqMitzJVMwJYomwZGZ4N1QRK8mesXWuaQI/edit#gid=0
+MiGAP
+DFAST
+Prokka
+
+https://www.ncbi.nlm.nih.gov/pubmed/26283419
+BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
+BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
+Kalkatawi M1, Alam I2, Bajic VB3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/24203705
+Nucleic Acids Res. 2014 Jan;42(Database issue):D617-24. doi: 10.1093/nar/gkt1078. Epub 2013 Nov 6.
+MetaRef: a pan-genomic database for comparative and community microbial genomics.
+Huang K1, Brady A, Mahurkar A, White O, Gevers D, Huttenhower C, Segata N.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964974/
+Consensus functional annotation of MetaRef families
+- However, we observed that functional annotation of individual members within a family were, at times, inconsistent, often stemming from the fact that individual genomes were annotated by different methods at different times, with varying criteria and terminology.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22408191
+Brief Bioinform. 2013 Jan;14(1):1-12. doi: 10.1093/bib/bbs007. Epub 2012 Mar 9.
+The automatic annotation of bacterial genomes.
+Richardson EJ1, Watson M.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
+Inconsistent annotation
+
+----------
+### [DFAST](https://github.com/nigyta/dfast_core)
+DFAST - DDBJ Fast Annotation and Submission Tool
+
+http://togotv.dbcls.jp/20180318.html
+微生物ゲノムのキラーアノテーションパイプライン DFASTの紹介 @ Annotathon2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/29106469
+Bioinformatics. 2018 Mar 15;34(6):1037-1039. doi: 10.1093/bioinformatics/btx713.
+DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication.
+Tanizawa Y1, Fujisawa T1, Nakamura Y1.
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
+谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
+
+DFAST を用いたゲノムアノテーション
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
+次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
+ウェブ資料
+
+http://wiki.lifesciencedb.jp/mw/BH16.12/DFAST
+
+### [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml)
+ - [Invoking Prokka](https://github.com/tseemann/prokka#invoking-prokka)
+- FEB 6, 2017 [BINF 6203: Bacterial genome annotation with prokka | Genome Intelligence](http://genomeintelligence.org/?p=1212)
+ - [Genome annotation and Pangenome analysis](https://github.com/microgenomics/tutorials/blob/master/pangenome.md)
+  - [Annotating genomes](https://github.com/microgenomics/tutorials/blob/master/pangenome.md#annotating-genomes)
+ - [Annotating the assembly using the PROKKA pipeline — Metagenomics Workshop SciLifeLab 1.0 documentation](http://metagenomics-workshop.readthedocs.io/en/latest/functional-annotation/prokka.html)
+ - [Annotating a bacterial genome with Prokka — 2013-caltechworkshop 0.1 documentation](http://2013-caltech-workshop.readthedocs.org/en/latest/prokka-annotation.html)
+
+http://crusade1096.web.fc2.com/katei.html
+メタアセンブル後に遺伝子予測を行います。バクテリアの遺伝子予測で紹介したprokkaやGeneMarkは，メタゲノム用にも使用できます。実行時間に大きく差があり，数によってはprokkaの場合だと数日かかる実行時間が，MetaGeneMarkを使用すれば，数分で完了することが可能です。
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
+バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
+
+日本乳酸菌学会誌
+Vol. 28 No. 1 3 ~ 11(2017)
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+ Prokka は、CDS、rRNA、tRNA の 予 測 と い っ た 基 本的なアノテーションに加えて、CRISPR(Clustered regularly interspaced short palindromic repeats)32) や シグナルペプチドの検出機能を備えている。Prokka の高 速なアノテーションは、予測された CDS を複数の参照ア ミノ酸配列 DB に対して段階的に検索していくことで実 現されている。はじめに近縁種から得られた配列を中心 に構成されたより信頼できる参照 DB に対して BLAST 検索を行い、そこでヒットしなかった遺伝子はより包括 的な参照 DB を用いて検索される。そこでもヒットしな かった遺伝子については、最終的に隠れマルコフモデル を用いたモチーフ・ドメイン検索ソフト HMMER3 33)を 使って Pfam 34) や TIGRFAMs 35) などの DB に対して検 索を行う。
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
+ ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
+
+
+----------
+
+## GSEA
+
+http://array.cell-innovator.com/?p=1452
+Gene Set Enrichment Analysis (GSEA) – 遺伝子発現解析（マイクロアレイ解析, RNA-seq）
+
+### PAGE
+PAGE: Parametric Analysis of Gene Set Enrichment
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183189/
+BMC Bioinformatics. 2005; 6: 144.
+
+PAGEは正規分布（normal distribution）を仮定したパラメトリックなテストで、ノンパラメトリックテストのGSEAと比較して、計算が速く、検出感度が高い（統計的に有意な遺伝子が多い）。
+GOカテゴリの構成遺伝子数が最低10は必要。
+we set the minimal gene set size as 10
+
+https://www.t-kagaku.co.jp/seimeiken/top/xmlSupport.php?id=21004
+PAGE解析(Parametric Analysis of Gene set Enrichment)とは
+
+http://home.hiroshima-u.ac.jp/naka/wiki/wiki.cgi%3FGSEA_(Gene_Set_Enrichment_Analysis)%25A4%25CB%25A4%25C4%25A4%25A4%25A4%25C6
+GSEA_(Gene_Set_Enrichment_Analysis)について -
+
+http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
+解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
+
+
+----------
+
+## Holt Lab
+
+https://holtlab.net
+Holt Lab | microbial genomics
+
+https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
+Update to Comparative Bacterial Genomics tutorial | Holt Lab
+
+https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
+Genomics of atypical enteropathogenic E. coli | Holt Lab
+
+https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
+Tools for bacterial comparative genomics | Holt Lab
+
+https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
+Bacterial genomics tutorial | Holt Lab
+
+https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
+Bacterial genomics tutorial | BacPathGenomics
+
+https://www.ncbi.nlm.nih.gov/pubmed/23575213
+Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
+Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
+Edwards DJ1, Holt KE.
+
+----------
+
+## Tools
+- [phyloSkeleton: taxon selection, data retrieval and marker identification for phylogenomics. Bioinformatics. 2017 Jan 5.](https://www.ncbi.nlm.nih.gov/pubmed/28057682)
+
+### 細菌ゲノム比較ツール
+- [Pan-genome analysis software tools | Comparative genomics - OMICtools](https://omictools.com/pangenomics-category)
+- [BPGA - a Bacterial Pan Genome Analysis Pipeline](http://www.iicb.res.in/bpga/index.html)
+  - 論文 [BPGA- an ultra-fast pan-genome analysis pipeline. Sci Rep. 2016 Apr 13;6:24373.](http://www.ncbi.nlm.nih.gov/pubmed/27071527)
+    - [Table 2. Comparison of 7 pan-genome analysis tools (BPGA, Roary, PanGP, PGAP, PGAT, Panseq, ITEP)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829868/table/t2/)
+
+- [ITEP: Integrated Toolkit for Exploration of Pan-genomes | The Price Lab](https://price.systemsbiology.org/research/itep/)
+- CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes | BMC Genomics | http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-65
+
+----------
+### ASaiM
+https://www.biorxiv.org/content/early/2017/09/04/183970
+ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
+
+Published on Jul 9, 2015
+https://www.slideshare.net/bebatut/asaim-an-environment
+JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
+
+https://twitter.com/galaxyproject/status/794453380202725376
+Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
+
+----------
+### BUSCO
+
+https://www.ncbi.nlm.nih.gov/pubmed/29220515
+Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
+BUSCO applications from quality assessments to gene prediction and phylogenomics.
+
+2017-07-19
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+----------
+### harvest
+
+http://harvest.readthedocs.org
+http://harvest.readthedocs.io/en/latest/content/parsnp/tutorial.html
+https://harvest.readthedocs.io/en/v1.0/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25410596
+Genome Biol. 2014;15(11):524.
+The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
+
+http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
+数百から数千のバクテリアゲノムの同時比較を行うHarvest - macでインフォマティクス
+
+https://www.cbcb.umd.edu/software/harvest
+Harvest | CBCB
+
+----------
+### Tax4Fun
+
+2017/4/30
+http://ja.whotwi.com/windowmoon/tweets/user/tksmiki
+@tksmiki Tax4Funの論文でも同様の比較をやってますが、土壌がやたら良くて(謎)、ヒトも良いですが、哺乳類腸内細菌叢は少し悪化、高塩環境はちょいヤバゲという感じですね。やっぱり陸水海洋がないのですが。
+
+30 Apr 2017
+https://twitter.com/tksmiki/status/858803605435854848
+ヨーロッパの某湖一つでちょっと前にやったんですが、メタゲノムのうち、6-8割、5割しかTax4funとpapricaで予測できませんでした。かつ、時期の異なるサンプル間でメタゲノムは2-4割組成が違うのに、予測メタゲノム組成の違いは1割以下。今保留にしてます。
+
+http://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
+16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
+
+2017年02月26日(日)
+http://tweez.net/razumall/archive/7/
+同じ予測メタゲノム解析の論文でもPICRUStはNature biotechnologyでTax4FunはBioinformaticsだけど、Piphillinの掲載論文はPLoS One。目新しさがなくなったということなのか。インフォマの人たちIFにこだわらない印象はあるけど。
+
+2016-08-13
+http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
+バクテリアの群集組成(16S rRNA gene)から機能遺伝子の組成を予測したい（KEGGオーソログリストがほしい）。予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
+
+----------
+### [USEARCH](http://www.drive5.com/usearch/)
+- http://crusade1096.web.fc2.com/usearch.html
+- 2016-10-04 [USEARCHを用いたメタ16S解析パイプライン](https://rpubs.com/nishikosh/203465)
+- 2015-07-25 [USEARCHを使った16S rRNAアンプリコンシーケンス分析 - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/25/202628)
+- 2015-07-28 [USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/28/212629)
+- https://twitter.com/tyu_shi/status/28695306021 Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
+
+----------
+
+https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
+Hiromi Nishida
+ゲノム比較解析 - microbioinformatics
+
+http://crusade1096.web.fc2.com/katei.html
+半田佳宏
+NGSのためのバイオインフォマティクス Bioinformatics for NGS
+
+http://crusade1096.web.fc2.com/blast.html
+BLASTBasic Local Alignment Search Tool
+
+ [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
+
+----------
+## [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
+門田　幸二のホームページ
+#### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
+- [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
+ - [日本乳酸菌学会誌：次世代シーケンサーデータの解析手法](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#about_book_JSLAB)
+  - [第1回イントロダクション](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_1_kadota.pdf)
+  - [第2回GUI環境からコマンドライン環境へ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_2_kadota.pdf)
+  - [第3回Linux環境構築からNGSデータ取得まで](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_3_kadota.pdf)
+  - [第4回クオリティコントロールとプログラムのインストール](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_4_kadota.pdf)
+  - [第5回アセンブル、マッピング、そしてQC](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf)
+  - [第6回ゲノムアセンブリ](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_6_kadota.pdf)
+  - [第7回ロングリードアセンブリ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#book_JSLAB_7)
+
+- 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
+
+----------
+## kazumaxneo
+http://kazumaxneo.hatenablog.com
+macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
+GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
+ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
+
+----------
+## [K-mer](https://en.wikipedia.org/wiki/K-mer)
+
+https://twitter.com/kazumachack
+上坂一馬 (@kazumachack) | Twitter
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
+kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
+k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/archive/category/k-mer
+k-mer カテゴリーの記事一覧 - macでインフォマティクス
+
+https://www.ncbi.nlm.nih.gov/pubmed/29036588
+Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
+A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
+
+http://biorxiv.org/content/early/2016/10/19/081885
+Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
+- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
+- Read subsampling or removing low-abundant k-mers improved de novo assemblies
+
+2016.07.12版
+https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
+第1部:統計解析 ~ゲノム解析、塩基配列解析~
+
+2016.02.01版
+http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
+農学生命情報科学 特論I 第3回
+
+2015-01-01
+http://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
+k-mer countingに関するメモ - Qiita
+
+Jul 7th, 2013
+http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
+ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
+
+http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
+GenoFinisher homepage
+ShortReadMangerの機能
+<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
+<機能6>missing k-mer探索機能
+
+https://sites.google.com/site/kfuku52/misc/genomesize
+ゲノムサイズの推定法 - Kenji Fukushima's website
+4. k-mer distribution
+
+http://kplogo.wi.mit.edu/manual.html
+kpLogo: k-mer probability logo
+
+----------
 ### Metagenomics
 メタゲノム
 
@@ -101,183 +485,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/23082188
 PLoS One. 2012;7(10):e47656.
 MOCAT: a metagenomics assembly and gene prediction toolkit.
 
-----------
-
-### harvest
-
-http://harvest.readthedocs.org
-http://harvest.readthedocs.io/en/latest/content/parsnp/tutorial.html
-https://harvest.readthedocs.io/en/v1.0/
-
-https://www.ncbi.nlm.nih.gov/pubmed/25410596
-Genome Biol. 2014;15(11):524.
-The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
-
-http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
-数百から数千のバクテリアゲノムの同時比較を行うHarvest - macでインフォマティクス
-
-https://www.cbcb.umd.edu/software/harvest
-Harvest | CBCB
 
 ----------
-### BUSCO
-
-https://www.ncbi.nlm.nih.gov/pubmed/29220515
-Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
-BUSCO applications from quality assessments to gene prediction and phylogenomics.
-
-2017-07-19
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-----------
-### Tax4Fun
-
-2017/4/30
-http://ja.whotwi.com/windowmoon/tweets/user/tksmiki
-@tksmiki Tax4Funの論文でも同様の比較をやってますが、土壌がやたら良くて(謎)、ヒトも良いですが、哺乳類腸内細菌叢は少し悪化、高塩環境はちょいヤバゲという感じですね。やっぱり陸水海洋がないのですが。
-
-30 Apr 2017
-https://twitter.com/tksmiki/status/858803605435854848
-ヨーロッパの某湖一つでちょっと前にやったんですが、メタゲノムのうち、6-8割、5割しかTax4funとpapricaで予測できませんでした。かつ、時期の異なるサンプル間でメタゲノムは2-4割組成が違うのに、予測メタゲノム組成の違いは1割以下。今保留にしてます。
-
-http://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
-16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
-
-2017年02月26日(日)
-http://tweez.net/razumall/archive/7/
-同じ予測メタゲノム解析の論文でもPICRUStはNature biotechnologyでTax4FunはBioinformaticsだけど、Piphillinの掲載論文はPLoS One。目新しさがなくなったということなのか。インフォマの人たちIFにこだわらない印象はあるけど。
-
-2016-08-13
-http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
-バクテリアの群集組成(16S rRNA gene)から機能遺伝子の組成を予測したい（KEGGオーソログリストがほしい）。予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
-
-----------
-
-### ASaiM
-https://www.biorxiv.org/content/early/2017/09/04/183970
-ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
-
-Published on Jul 9, 2015
-https://www.slideshare.net/bebatut/asaim-an-environment
-JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
-
-
-https://twitter.com/galaxyproject/status/794453380202725376
-Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
-
-
-----------
-
-
-### 2016
-
-Published: 14 October 2016
-https://academic.oup.com/bib/article/19/1/23/2339783
-present and future of de novo whole-genome assembly | Briefings in Bioinformatics | Oxford Academic
-
-
-
-February 12, 2017
-http://genomeintelligence.org/?p=1157
-BINF 6203: Genome Comparison with Mauve – Genome Intelligence
-
-![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
-
-
-
-
-https://holtlab.net
-Holt Lab | microbial genomics
-
-https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
-Genomics of atypical enteropathogenic E. coli | Holt Lab
-
-https://holtlab.net/author/bacpathgenomics/
-kat | Holt Lab
-
-
-
-----------
-
-
-## References
-
-### [K-mer](https://en.wikipedia.org/wiki/K-mer)
-
-https://twitter.com/kazumachack
-上坂一馬 (@kazumachack) | Twitter
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
-kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
-k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/archive/category/k-mer
-k-mer カテゴリーの記事一覧 - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/29036588
-Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
-A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
-
-http://biorxiv.org/content/early/2016/10/19/081885
-Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
-- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
-- Read subsampling or removing low-abundant k-mers improved de novo assemblies
-
-2016.07.12版
-https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
-第1部:統計解析 ~ゲノム解析、塩基配列解析~
-
-2016.02.01版
-http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
-農学生命情報科学 特論I 第3回
-
-2015-01-01
-http://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
-k-mer countingに関するメモ - Qiita
-
-Jul 7th, 2013
-http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
-ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
-
-http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
-GenoFinisher homepage
-ShortReadMangerの機能
-<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
-<機能6>missing k-mer探索機能
-
-https://sites.google.com/site/kfuku52/misc/genomesize
-ゲノムサイズの推定法 - Kenji Fukushima's website
-4. k-mer distribution
-
-http://kplogo.wi.mit.edu/manual.html
-kpLogo: k-mer probability logo
-
-### Tools
-- [phyloSkeleton: taxon selection, data retrieval and marker identification for phylogenomics. Bioinformatics. 2017 Jan 5.](https://www.ncbi.nlm.nih.gov/pubmed/28057682)
-
-#### [USEARCH](http://www.drive5.com/usearch/)
-- http://crusade1096.web.fc2.com/usearch.html
-- 2016-10-04 [USEARCHを用いたメタ16S解析パイプライン](https://rpubs.com/nishikosh/203465)
-- 2015-07-25 [USEARCHを使った16S rRNAアンプリコンシーケンス分析 - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/25/202628)
-- 2015-07-28 [USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/28/212629)
-- https://twitter.com/tyu_shi/status/28695306021 Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
-
-#### 細菌ゲノム比較ツール
-- [Pan-genome analysis software tools | Comparative genomics - OMICtools](https://omictools.com/pangenomics-category)
-- [BPGA - a Bacterial Pan Genome Analysis Pipeline](http://www.iicb.res.in/bpga/index.html)
-  - 論文 [BPGA- an ultra-fast pan-genome analysis pipeline. Sci Rep. 2016 Apr 13;6:24373.](http://www.ncbi.nlm.nih.gov/pubmed/27071527)
-    - [Table 2. Comparison of 7 pan-genome analysis tools (BPGA, Roary, PanGP, PGAP, PGAT, Panseq, ITEP)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829868/table/t2/)
-
-- [ITEP: Integrated Toolkit for Exploration of Pan-genomes | The Price Lab](https://price.systemsbiology.org/research/itep/)
-- Tools for bacterial comparative genomics | Holt Lab http://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
- - Bacterial genomics tutorial | Holt Lab https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
- - Bacterial genomics tutorial | BacPathGenomics https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
- - Beginner's guide to comparative bacterial genome analysis using next-generation sequence data. Microb Inform Exp. 2013. http://www.ncbi.nlm.nih.gov/pubmed/23575213
-- CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes | BMC Genomics | http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-65
-
 
 ### Research papers on comparative bacterial genomics
 細菌ゲノム比較に関する論文
@@ -354,52 +563,6 @@ https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_pdf/-char/ja
 - [Genome Announcementsの評価 - 下っ端○○の日記 第4部 ～ダイヤモンドは砕けない～（仮）](http://d.hatena.ne.jp/Masarakki/20151005/p1)
 - ["Genome announcement"という雑誌ができるメリット - バイオ系研究室PC管理担当のメモ (id:hornistyf / @hornistyf)](http://d.hatena.ne.jp/hornistyf/20130216/1360991017)
 
-### [Kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
-門田　幸二のホームページ
-#### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
-- [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
- - [日本乳酸菌学会誌：次世代シーケンサーデータの解析手法](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#about_book_JSLAB)
-  - [第1回イントロダクション](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_1_kadota.pdf)
-  - [第2回GUI環境からコマンドライン環境へ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_2_kadota.pdf)
-  - [第3回Linux環境構築からNGSデータ取得まで](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_3_kadota.pdf)
-  - [第4回クオリティコントロールとプログラムのインストール](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_4_kadota.pdf)
-  - [第5回アセンブル、マッピング、そしてQC](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf)
-  - [第6回ゲノムアセンブリ](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_6_kadota.pdf)
-  - [第7回ロングリードアセンブリ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#book_JSLAB_7)
-
-- 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
-
-### qc
-- [クオリティコントロール | FASTQ | RNA-seq](http://bi.biopapyrus.net/rnaseq/qc/)
- - [FastQC | FASTQのクオリティチェック](http://bi.biopapyrus.net/rnaseq/qc/fastqc.html)
- - [Trimmomatic | アダプター配列除去](http://bi.biopapyrus.net/rnaseq/qc/trimmomatic.html)
-
-### Genome assembly
-
-http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
-GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
-ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
-
-- de Bruijn Graph
-  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
-  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
-  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
-  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
-  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
-- [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
-  - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
-  - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
-  - 2013-05-20 [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/blog/2013/05/20/spades-and-masurca-assemblers-performed-best-in-gage-b-evaluation/) SPAdes and MaSuRCA Assemblers Performed Best in GAGE-B Evaluation
-- SpadesとVelvetの比較 
-  - 2013-08-30 [The Genome Factory: How Spades differs from Velvet](http://thegenomefactory.blogspot.com/2013/08/how-spades-differs-from-velvet.html)
-  - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
-- 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
-- [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
-
 ### BioPerl
 - 18/05/2015 [BioPerl をインストールして Perl モジュールを使ってみよう！ | Tools FoR](http://kiagorod.wp.xdomain.jp/2015.05.18.212/)
 - 2015.04.26 [BioPerl | バイオ系なら知っておきたいBioPerlの利用方法,インストール法](http://bi.biopapyrus.net/perl/bioperl/)
@@ -447,7 +610,9 @@ http://pediatricsurgery.hatenadiary.jp/entry/%3Fp%3D213
 
 ![https://en.wikipedia.org/wiki/Rarefaction_(ecology)](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sogin-Huber-CombinedRarefac.jpg/220px-Sogin-Huber-CombinedRarefac.jpg)
 
+
 ----------
+
 
 ### Unclassified
 
@@ -508,142 +673,7 @@ https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
 ----------
-
-
-## bacterial genome annotation
-細菌ゲノムのアノテーション
-
-https://www.ncbi.nlm.nih.gov/pubmed/26283419
-BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
-BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
-Kalkatawi M1, Alam I2, Bajic VB3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/24203705
-Nucleic Acids Res. 2014 Jan;42(Database issue):D617-24. doi: 10.1093/nar/gkt1078. Epub 2013 Nov 6.
-MetaRef: a pan-genomic database for comparative and community microbial genomics.
-Huang K1, Brady A, Mahurkar A, White O, Gevers D, Huttenhower C, Segata N.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964974/
-Consensus functional annotation of MetaRef families
-- However, we observed that functional annotation of individual members within a family were, at times, inconsistent, often stemming from the fact that individual genomes were annotated by different methods at different times, with varying criteria and terminology.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22408191
-Brief Bioinform. 2013 Jan;14(1):1-12. doi: 10.1093/bib/bbs007. Epub 2012 Mar 9.
-The automatic annotation of bacterial genomes.
-Richardson EJ1, Watson M.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
-Inconsistent annotation
-
-----------
-
-### [DFAST](https://github.com/nigyta/dfast_core)
-DFAST - DDBJ Fast Annotation and Submission Tool
-
-http://togotv.dbcls.jp/20180318.html
-微生物ゲノムのキラーアノテーションパイプライン DFASTの紹介 @ Annotathon2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/29106469
-Bioinformatics. 2018 Mar 15;34(6):1037-1039. doi: 10.1093/bioinformatics/btx713.
-DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication.
-Tanizawa Y1, Fujisawa T1, Nakamura Y1.
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
-次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
-谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
-
-DFAST を用いたゲノムアノテーション
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
-次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
-ウェブ資料
-
-http://wiki.lifesciencedb.jp/mw/BH16.12/DFAST
-
-### Annotation
-https://twitter.com/search?q=%23annotathon
-#annotathon - Twitter Search
-
-https://twitter.com/chalkless/status/931390702595878912
-Nakazato T. on Twitter: "アノテーションの際に用いるツールなどのリストアップをしてみています。興味のある方はご自由に書き込みください。質問も歓迎 https://t.co/MagBjfy0y4 #annotathon"
-
-https://docs.google.com/spreadsheets/d/1eFFSILjN1OqMitzJVMwJYomwZGZ4N1QRK8mesXWuaQI/edit#gid=0
-MiGAP
-DFAST
-Prokka
-
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-### [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml)
- - [Invoking Prokka](https://github.com/tseemann/prokka#invoking-prokka)
-- FEB 6, 2017 [BINF 6203: Bacterial genome annotation with prokka | Genome Intelligence](http://genomeintelligence.org/?p=1212)
- - [Genome annotation and Pangenome analysis](https://github.com/microgenomics/tutorials/blob/master/pangenome.md)
-  - [Annotating genomes](https://github.com/microgenomics/tutorials/blob/master/pangenome.md#annotating-genomes)
- - [Annotating the assembly using the PROKKA pipeline — Metagenomics Workshop SciLifeLab 1.0 documentation](http://metagenomics-workshop.readthedocs.io/en/latest/functional-annotation/prokka.html)
- - [Annotating a bacterial genome with Prokka — 2013-caltechworkshop 0.1 documentation](http://2013-caltech-workshop.readthedocs.org/en/latest/prokka-annotation.html)
-
-http://crusade1096.web.fc2.com/katei.html
-メタアセンブル後に遺伝子予測を行います。バクテリアの遺伝子予測で紹介したprokkaやGeneMarkは，メタゲノム用にも使用できます。実行時間に大きく差があり，数によってはprokkaの場合だと数日かかる実行時間が，MetaGeneMarkを使用すれば，数分で完了することが可能です。
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
-バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
-
-日本乳酸菌学会誌
-Vol. 28 No. 1 3 ~ 11(2017)
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
- Prokka は、CDS、rRNA、tRNA の 予 測 と い っ た 基 本的なアノテーションに加えて、CRISPR(Clustered regularly interspaced short palindromic repeats)32) や シグナルペプチドの検出機能を備えている。Prokka の高 速なアノテーションは、予測された CDS を複数の参照ア ミノ酸配列 DB に対して段階的に検索していくことで実 現されている。はじめに近縁種から得られた配列を中心 に構成されたより信頼できる参照 DB に対して BLAST 検索を行い、そこでヒットしなかった遺伝子はより包括 的な参照 DB を用いて検索される。そこでもヒットしな かった遺伝子については、最終的に隠れマルコフモデル を用いたモチーフ・ドメイン検索ソフト HMMER3 33)を 使って Pfam 34) や TIGRFAMs 35) などの DB に対して検 索を行う。
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
- ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
-
-----------
-
-https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
-Hiromi Nishida
-ゲノム比較解析 - microbioinformatics
-
-http://crusade1096.web.fc2.com/katei.html
-半田佳宏
-NGSのためのバイオインフォマティクス Bioinformatics for NGS
-
-http://crusade1096.web.fc2.com/blast.html
-BLASTBasic Local Alignment Search Tool
-
- [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
-
-
-----------
-
-### GSEA
-
-http://array.cell-innovator.com/?p=1452
-Gene Set Enrichment Analysis (GSEA) – 遺伝子発現解析（マイクロアレイ解析, RNA-seq）
-
-### PAGE
-PAGE: Parametric Analysis of Gene Set Enrichment
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183189/
-BMC Bioinformatics. 2005; 6: 144.
-
-PAGEは正規分布（normal distribution）を仮定したパラメトリックなテストで、ノンパラメトリックテストのGSEAと比較して、計算が速く、検出感度が高い（統計的に有意な遺伝子が多い）。
-GOカテゴリの構成遺伝子数が最低10は必要。
-we set the minimal gene set size as 10
-
-https://www.t-kagaku.co.jp/seimeiken/top/xmlSupport.php?id=21004
-PAGE解析(Parametric Analysis of Gene set Enrichment)とは
-
-http://home.hiroshima-u.ac.jp/naka/wiki/wiki.cgi%3FGSEA_(Gene_Set_Enrichment_Analysis)%25A4%25CB%25A4%25C4%25A4%25A4%25A4%25C6
-GSEA_(Gene_Set_Enrichment_Analysis)について -
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
-解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
-
-
-----------
-
-https://www.ncbi.nlm.nih.gov/pubmed/23575213
-Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
-Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
-Edwards DJ1, Holt KE.
+"Roary"
 
 https://www.ncbi.nlm.nih.gov/pubmed/29635296
 Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
