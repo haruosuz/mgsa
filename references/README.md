@@ -69,8 +69,6 @@ Nucleic Acids Res. 2018 Jan 9;46(1):e5. doi: 10.1093/nar/gkx977.
 panX: pan-genome analysis and exploration.
 Ding W1, Baumdicker F2, Neher RA1,3.
 
-![](https://pbs.twimg.com/media/DQ2Qr0gWAAAvAYi.jpg)
-
 https://twitter.com/NatureMicrobiol/status/940566982742740992
 Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
 8:00 AM - 12 Dec 2017
