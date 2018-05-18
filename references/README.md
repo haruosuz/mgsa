@@ -7,6 +7,7 @@ Last Update: 2018-05-05
 
 ## Table of Contents
 - [Updates](#updates)
+- [reordering-contigs](#reordering-contigs)
 - [Tools](#tools)
   - [harvest](#harvest)
   - [BUSCO](#busco)
@@ -18,8 +19,6 @@ Last Update: 2018-05-05
 - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 - [k-mer](#k-mer)
 - [Metagenomics](#metagenomics)
-
-
 ----------
 
 ## Updates
@@ -42,6 +41,47 @@ BINF 6203: Genome Comparison with Mauve – Genome Intelligence
 
 ![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
 
+----------
+
+### reordering contigs
+
+近縁細菌のコンプリート(reference)ゲノムにマッチするように、ドラフト(draft)ゲノムのコンティグ群を並べ替える
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/06/092702
+Reference-assisted assembly　CSAR
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/05/235453
+複数のリファレンスを使い精度を上げたReference-assisted assembly　Multi-CAR
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/05/232317
+原核生物のReference-assisted assembly　CAR
+
+https://www.ncbi.nlm.nih.gov/pubmed/28968788
+Bioinformatics. 2018 Jan 1;34(1):109-111. doi: 10.1093/bioinformatics/btx543.
+CSAR: a contig scaffolding tool using algebraic rearrangements.
+Chen KT1, Liu CL1, Huang SH1, Shen HT1, Shieh YK1, Chiu HT2, Lu CL1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28155633
+BMC Bioinformatics. 2016 Dec 23;17(Suppl 17):469. doi: 10.1186/s12859-016-1328-7.
+Multi-CAR: a tool of contig scaffolding using multiple references.
+Chen KT1, Chen CJ1, Shen HT1, Liu CL1, Huang SH1, Lu CL2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25431302
+BMC Bioinformatics. 2014 Nov 28;15:381. doi: 10.1186/s12859-014-0381-3.
+CAR: contig assembly of prokaryotic draft genomes using rearrangements.
+Lu CL1, Chen KT2, Huang SY3, Chiu HT4.
+
+https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
+https://katholtlab.files.wordpress.com/2017/07/comparativegenomicstutorialv2.pdf
+1.4 Ordering contigs against a reference using Mauve
+
+http://darlinglab.org/mauve/user-guide/reordering.html
+Reordering contigs
+
+https://www.ncbi.nlm.nih.gov/pubmed/19515959
+Bioinformatics. 2009 Aug 15;25(16):2071-3. doi: 10.1093/bioinformatics/btp356. Epub 2009 Jun 10.
+Reordering contigs of draft genomes using the Mauve aligner.
+Rissman AI1, Mau B, Biehl BS, Darling AE, Glasner JD, Perna NT.
 
 ----------
 
