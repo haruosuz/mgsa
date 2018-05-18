@@ -7,6 +7,7 @@ Last Update: 2018-05-05
 
 ## Table of Contents
 - [Updates](#updates)
+- [pangenome](#pangenome)
 - [reordering-contigs](#reordering-contigs)
 - [Tools](#tools)
   - [harvest](#harvest)
@@ -27,10 +28,6 @@ Last Update: 2018-05-05
 
 ### 2018
 
-### 2017
-
-### 2016
-
 Published: 14 October 2016
 https://academic.oup.com/bib/article/19/1/23/2339783
 present and future of de novo whole-genome assembly | Briefings in Bioinformatics | Oxford Academic
@@ -40,6 +37,109 @@ http://genomeintelligence.org/?p=1157
 BINF 6203: Genome Comparison with Mauve – Genome Intelligence
 
 ![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
+
+----------
+"Roary"
+
+https://www.ncbi.nlm.nih.gov/pubmed/29635296
+Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
+Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria.
+Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
+The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
+
+https://www.ncbi.nlm.nih.gov/pubmed/28705636
+J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
+A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
+Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
+https://www.sciencedirect.com/science/article/pii/S0168165617315225?via%3Dihub
+Review
+2.4. Roary
+
+----------
+### pangenome
+
+https://www.ncbi.nlm.nih.gov/pubmed/27769991
+Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
+Computational pan-genomics: status, promises and challenges.
+Computational Pan-Genomics Consortium.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29077859
+Nucleic Acids Res. 2018 Jan 9;46(1):e5. doi: 10.1093/nar/gkx977.
+panX: pan-genome analysis and exploration.
+Ding W1, Baumdicker F2, Neher RA1,3.
+
+![](https://pbs.twimg.com/media/DQ2Qr0gWAAAvAYi.jpg)
+
+https://twitter.com/NatureMicrobiol/status/940566982742740992
+Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
+8:00 AM - 12 Dec 2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/28321969
+Environ Microbiol. 2017 Jul;19(7):2588-2603.
+The pangenome of the genus Clostridium.
+Udaondo Z1,2, Duque E1,2, Ramos JL1,2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28350002
+Nat Microbiol. 2017 Mar 28;2:17040. doi: 10.1038/nmicrobiol.2017.40.
+Why prokaryotes have pangenomes.
+McInerney JO1, McNally A2, O'Connell MJ3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29183286
+BMC Microbiol. 2017 Nov 28;17(1):222. doi: 10.1186/s12866-017-1132-1.
+First gene-ontology enrichment analysis based on bacterial coregenome variants: insights into adaptations of Salmonella serovars to mammalian- and avian-hosts.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706153/
+a pangenomic approach, 
+
+https://www.ncbi.nlm.nih.gov/pubmed/27855160
+PLoS Genet. 2016 Nov 17;12(11):e1006401. doi: 10.1371/journal.pgen.1006401. eCollection 2016 Nov.
+Transcription Factors Encoded on Core and Accessory Chromosomes of Fusarium oxysporum Induce Expression of Effector Genes.
+
+Several DNA binding sites are enriched on accessory chromosomes, and expression of FTF1, its core homolog FTF2 and SGE1 from a constitutive promoter can induce expression of effector genes. The DNA binding sites of only these three transcription factors are enriched among genes up-regulated during infection. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039349/
+Published online 2016 Sep 28. doi:  10.3389/fmicb.2016.01531
+Analysis of the Core Genome and Pan-Genome of Autotrophic Acetogenic Bacteria
+
+To decipher the 474 core genes of the 14 acetogenic bacteria, functionally grouped networks of enriched categories were generated for the biological interpretation of core genes using ClueGo version 2.2.4 (Saito et al., 2012), which is a widely used Cytoscape version 3.3.0 (Shannon et al., 2003) plugin.
+
+As a result, 95 GO terms were significantly enriched and categorized into 10 groups according to their kappa scores (Figure ​Figure3A3A). 
+
+Based on enrichment p-values, 27 GO terms and 8 KEGG pathways were enriched (Supplementary Table S3) and functionally categorized into 12 groups (Supplementary Figure S2).
+
+https://www.ncbi.nlm.nih.gov/pubmed/26032364
+J Microbiol Biotechnol. 2015 Oct;25(10):1599-605. doi: 10.4014/jmb.1504.04008.
+Comparative Genomics Reveals the Core and Accessory Genomes of Streptomyces Species.
+Kim JN1, Kim Y2, Jeong Y3, Roe JH2, Kim BG1, Cho BK3.
+
+Functional enrichment analysis showed that genes involved in transcription were most abundant in the Streptomyces pan-genome. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/27006628
+Curr Genomics. 2015 Aug;16(4):245-52. doi: 10.2174/1389202916666150423002311.
+Inside the Pan-genome - Methods and Software Overview.
+Guimarães LC1, Florczak-Wyspianska J2, de Jesus LB3, Viana MV3, Silva A2, Ramos RT2, Soares Sde C4, Soares Sde C4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26442149
+New Microbes New Infect. 2015 Jun 26;7:72-85. doi: 10.1016/j.nmni.2015.06.005. eCollection 2015 Sep.
+The bacterial pangenome as a new tool for analysing pathogenic bacteria.
+Rouli L1, Merhej V1, Fournier PE1, Raoult D1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25483351
+Curr Opin Microbiol. 2015 Feb;23:148-54. doi: 10.1016/j.mib.2014.11.016. Epub 2014 Dec 5.
+Ten years of pan-genome analyses.
+Vernikos G1, Medini D2, Riley DR3, Tettelin H4.
+
+http://kazumaxneo.hatenablog.com/entry/2017/12/09/014407
+バクテリアのPan genome解析ツール FRIPAN - macでインフォマティクス
+
+http://omics-club.blogspot.jp/2014/07/20140707.html
+Omics Club（オミックス・クラブ）: Quasispeciesとは
+Quasispeciesの拡張概念：Core GenomeとPan Genome
+
+http://gene-nex.com/service/pan-genome.html
+パンゲノム - 対象研究分野 - Gene Nex — 次世代シーケンス受託解析サービス「ジーンネックス」
+
+
 
 ----------
 
@@ -711,25 +811,6 @@ gbk2fna.pl -- Read Genbank to Nucleotide Fasta file.
 
 https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
-
-----------
-"Roary"
-
-https://www.ncbi.nlm.nih.gov/pubmed/29635296
-Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
-Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria.
-Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
-The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
-
-https://www.ncbi.nlm.nih.gov/pubmed/28705636
-J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
-A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
-Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
-https://www.sciencedirect.com/science/article/pii/S0168165617315225?via%3Dihub
-Review
-2.4. Roary
-
 
 ----------
 
