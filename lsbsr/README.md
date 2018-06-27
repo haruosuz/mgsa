@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-12-21
+Last Update: 2018-06-27
 
 ----------
 
@@ -316,17 +316,6 @@ I am grateful to Dr. Jason W. Sahl for his advice on LS-BSR.
 https://twitter.com/jason_sahl/status/924029119871905793
 Jason Sahl on Twitter: "Some recent thoughts on LS-BSR/Roary comparisons. Feedback/thoughts welcome: https://t.co/Q9MbJfnmqY"
 
-### [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
-
-https://www.ncbi.nlm.nih.gov/pubmed/24749011
-PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
-The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
-Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976120/
-
-https://omictools.com/large-scale-blast-score-ratio-tool
-LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools
-
 ### BLAST score ratio (BSR)
 http://bsr.igs.umaryland.edu
 The Blast Score Ratio Analysis Tool
@@ -338,6 +327,23 @@ Rasko DA1, Myers GS, Ravel J.
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC545078/figure/F1/
 A. BLAST score ratio analysis (BSR) calculation demonstrating how the two coordinates for plotting in figures B and C are calculated. 
+
+### [LS-BSR (Large Scale Blast Score Ratio)](https://github.com/jasonsahl/LS-BSR)
+
+https://omictools.com/large-scale-blast-score-ratio-tool
+LS-BSR (Large-Scale BLAST Score Ratio) | Pan-genome analysis - OMICtools
+
+https://www.ncbi.nlm.nih.gov/pubmed/24749011
+PeerJ. 2014 Apr 1;2:e332. doi: 10.7717/peerj.332. eCollection 2014.
+The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial genomes.
+Sahl JW1, Caporaso JG2, Rasko DA3, Keim P1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976120/
+Figure 2
+The distribution of virulence factors and phylogenomic markers associated with a core single nucleotide polymorphism (SNP) phylogeny.
+
+The conservation and distribution of all clade-specific markers was visualized by correlating the phylogeny with a heatmap of BSR values (Fig. 2).
+
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976120/figure/fig-2/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976120/bin/peerj-02-332-g002.jpg)
 
 ### Unclassified
 
@@ -372,13 +378,26 @@ https://www.ncbi.nlm.nih.gov/pubmed/26462752
 Sci Rep. 2015 Oct 14;5:15188. doi: 10.1038/srep15188.
 Phylogenetic and genomic diversity in isolates from the globally distributed Acinetobacter baumannii ST25 lineage.
 Sahl JW1,2, Del Franco M3, Pournaras S4, Colman RE1, Karah N5, Dijkshoorn L6, Zarrilli R3.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4604477/
+Figure 6
+The ST25 phylogeny associated with a heatmap of coding regions predicted from plasmids identified in A. baumannii genomes.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4604477/figure/f6/
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4604477/bin/srep15188-f6.jpg)
 
 https://www.ncbi.nlm.nih.gov/pubmed/28348813
 Microb Genom. 2015 Aug 3;1(2):e000028. doi: 10.1099/mgen.0.000028. eCollection 2015 Aug.
 Redefining the differences in gene content between Yersinia pestis and Yersinia pseudotuberculosis using large-scale comparative genomics.
 Califf KJ1, Keim PS2, Wagner DM1, Sahl JW2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/
 http://mgen.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000028#tab2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/
+Fig. 1.
+Loss of genes across Branch 2 genomes across the Y. pestis phylogeny. 
+
+Fig. 3.
+Variable distribution of previously characterized genes across the Y. pestis phylogeny (Table S3). 
+
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/figure/mgen000028-f01/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/bin/mgen-01-28-f001.jpg)
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/figure/mgen000028-f03/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5320571/bin/mgen-01-28-f003.jpg)
 
 https://www.ncbi.nlm.nih.gov/pubmed/25852665
 Front Microbiol. 2015 Mar 24;6:204. doi: 10.3389/fmicb.2015.00204. eCollection 2015.
