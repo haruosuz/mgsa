@@ -21,7 +21,7 @@ for(myfile in dir(path="analysis", pattern="\\.newick$", full.names=TRUE)){
  write.tree(tre, file=paste0(myfile,".tre"))
 
  par(mfcol=c(1,1), mgp=c(1.7, 0.5, 0), mar=c(1, 0.5, 1, 0.8), cex=0.9) # mar=c(bottom, left, top, right)
- #library(phangorn); tre <- midpoint(tre)
+ tre <- midpoint(tre)
  plot.phylo(ladderize(tre, right=FALSE), type="phylogram", use.edge.length=TRUE, show.node.label=TRUE, font=3)
  add.scale.bar(x=0.01, y=0.9)#, col=2)
  legend("topleft", legend=myfile, box.lty=0)
