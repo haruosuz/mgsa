@@ -14,8 +14,8 @@ if [ ! -e bp_genbank2gff3.pl ]; then wget https://raw.githubusercontent.com/biop
 perl bp_genbank2gff3.pl ./*.gbk; mv *.{gbk,gff} data/
 
 echo; echo '## Running Roary'
- roary -f ./analysis/ -e -n    -i 70 -v ./data/*.gff
-#roary -f ./analysis/ -e -n -z -i 70 -v ./data/*.gff
+ roary -f ./analysis/ -e -n    -i 90 -v ./data/*.gff
+#roary -f ./analysis/ -e -n -z -i 90 -v ./data/*.gff
 
 echo; echo '## Running FastTree for core genome phylogeny'
 FastTree -fastest -nt -gtr analysis/core_gene_alignment.aln > analysis/core_gene_alignment.newick
