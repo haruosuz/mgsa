@@ -1,16 +1,20 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-05-05
+Last Update: 2018-09
 
 ----------
 
 # References
 
 ## Table of Contents
+- [featuring](#featuring)
+- [fastGEAR](#fastgear)
+- [BAPS](#baps)
+- [harvest](#harvest)
 - [Updates](#updates)
 - [pangenome](#pangenome)
 - [reordering-contigs](#reordering-contigs)
 - [Tools](#tools)
-  - [harvest](#harvest)
+- [eggnog](#eggnog)
   - [BUSCO](#busco)
   - [Tax4Fun](#tax4fun)
   - [USEARCH](#usearch)
@@ -20,9 +24,102 @@ Last Update: 2018-05-05
 - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 - [k-mer](#k-mer)
 - [Metagenomics](#metagenomics)
-----------
 
+----------
+## featuring
+## fastGEAR
+https://users.ics.aalto.fi/~pemartti/fastGEAR/
+
+https://www.ncbi.nlm.nih.gov/pubmed/29291727
+BMC Genomics. 2018 Jan 2;19(1):2. doi: 10.1186/s12864-017-4249-6.
+Whole genome sequencing of the monomorphic pathogen Mycobacterium bovis reveals local differentiation of cattle clinical isolates.
+Lasserre M1, Fresia P2, Greif G1, Iraola G2, Castro-Ramos M3, Juambeltz A3, Nuñez Á3, Naya H2, Robello C4,5, Berná L6.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5748942/
+
+Phylogenetic reconstruction of 186 MTBC strains
+Recombination was inspected using fastGEAR [44]. 
+
+Variant calling and clustering
+We used SnpSift (v4.2) [68], a vcf-manipulation tool, to extract all the genes contained between the SNP-densest regions.
+
+Dec 7, 2017
+https://github.com/tseemann/snippy/issues/122
+VCF filtering: Pruning / thinnig · Issue #122 · tseemann/snippy
+
+We tend to use the core.full.aln and provide it to ClonalFrameML or gubbins or BratNextGen or FastGear to remove recombination in a more model-based manner. But it is much slower.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29202045
+mSphere. 2017 Nov 29;2(6). pii: e00511-17. doi: 10.1128/mSphere.00511-17. eCollection 2017 Nov-Dec.
+Adaptation in a Fibronectin Binding Autolysin of Staphylococcus saprophyticus.
+Mortimer TD1,2, Annis DS3, O'Neill MB1,4, Bohr LL1,2, Smith TM1,5, Poinar HN6,7,8,9, Mosher DF3, Pepperell CS1,5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5705806/
+Recombination analyses.
+To identify recombinant regions in the S. saprophyticus alignment, we used Gubbins v 2.1.0 (20). fastGEAR (42) was used with the recommended input specifications to identify recombination events between major lineages of S. saprophyticus.
+
+Site frequency spectrum.
+We used SNP-sites v 2.0.3 (97) to convert the alignment of S. saprophyticus isolates to a multisample variant call format (VCF).
+
+https://www.ncbi.nlm.nih.gov/pubmed/28957464
+Genome Biol Evol. 2017 Sep 1;9(9):2403-2417. doi: 10.1093/gbe/evx183.
+Population Structure and Local Adaptation of MAC Lung Disease Agent Mycobacterium avium subsp. hominissuis.
+Yano H1,2, Iwamoto T3, Nishiuchi Y4, Nakajima C5,6, Starkova DA7, Mokrousov I7, Narvskaya O7, Yoshida S8, Arikawa K3, Nakanishi N3, Osaki K9, Nakagawa I10, Ato M11, Suzuki Y5,6, Maruyama F10.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5622343/
+https://academic.oup.com/gbe/article/9/9/2403/4107938
+Chromosome recombination was inferred using fastGEAR software (Mostowy etal. 2017).
+
+https://www.ncbi.nlm.nih.gov/pubmed/28650958
+PLoS Genet. 2017 Jun 26;13(6):e1006855. doi: 10.1371/journal.pgen.1006855. eCollection 2017 Jun.
+Dynamics and impact of homologous recombination on the evolution of Legionella pneumophila.
+David S1,2, Sánchez-Busó L1, Harris SR1, Marttinen P3, Rusniok C4,5, Buchrieser C4,5, Harrison TG2, Parkhill J1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5507463/
+
+https://www.ncbi.nlm.nih.gov/pubmed/28199698
+Mol Biol Evol. 2017 May 1;34(5):1167-1182. doi: 10.1093/molbev/msx066.
+Efficient Inference of Recent and Ancestral Recombination within Bacterial Populations.
+Mostowy R1, Croucher NJ1, Andam CP2, Corander J3,4, Hanage WP2, Marttinen P5.
+We introduce a novel algorithm called fastGEAR which identifies lineages in diverse microbial alignments, and recombinations between them and from external origins.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
+(1) Identifying lineages: To identify lineages in a data set, we start by running a previously published clustering algorithm (Corander and Marttinen, 2006) included in the Bayesian Analysis of Population Structure (BAPS) software (Corander et al., 2003).
+
+https://mostowylab.com/2017/02/26/fastgear/
+fastGEAR: detecting mosaicism in bacterial genomes – Research of Rafal Mostowy
+
+## BAPS
+http://www.helsinki.fi/bsg/software/BAPS/
+
+https://www.ncbi.nlm.nih.gov/pubmed/23408797
+Mol Biol Evol. 2013 May;30(5):1224-8. doi: 10.1093/molbev/mst028. Epub 2013 Feb 13.
+Hierarchical and spatially explicit clustering of DNA sequences with BAPS software.
+Cheng L1, Connor TR, Sirén J, Aanensen DM, Corander J.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670731/
+This tool, hierBAPS, is freely available for research purposes at http://www.helsinki.fi/bsg/software/BAPS/
+
+https://www.ncbi.nlm.nih.gov/pubmed/12586722/
+Genetics. 2003 Jan;163(1):367-74.
+Bayesian analysis of genetic differentiation between populations.
+Corander J1, Waldmann P, Sillanpää MJ.
+
+----------
+## harvest
+
+- http://harvest.readthedocs.org
+- http://harvest.readthedocs.io/en/latest/content/parsnp/tutorial.html
+- https://harvest.readthedocs.io/en/v1.0/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25410596
+Genome Biol. 2014;15(11):524.
+The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
+
+http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
+数百から数千のバクテリアゲノムの同時比較を行うHarvest - macでインフォマティクス
+
+https://www.cbcb.umd.edu/software/harvest
+Harvest | CBCB
+
+
+----------
 ## Updates
+
 
 ----------
 
@@ -37,6 +134,86 @@ http://genomeintelligence.org/?p=1157
 BINF 6203: Genome Comparison with Mauve – Genome Intelligence
 
 ![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
+
+----------
+
+### 2018/03/22
+https://www.biorxiv.org/content/early/2018/03/22/286187
+Real-time analysis and visualization of pathogen sequence data
+
+Here, we review recent developments in real-time analysis of pathogen sequence data with a particular focus on visualization and integration of sequence and phenotypic data.
+
+panX
+
+### 2017/11/08
+https://www.biorxiv.org/content/early/2017/11/08/215988
+Panaconda: Application of pan-synteny graph models to genome content analysis 
+
+----------
+### BGDMdocker
+
+https://www.ncbi.nlm.nih.gov/pubmed/29204317
+PeerJ. 2017 Nov 30;5:e3948. doi: 10.7717/peerj.3948. eCollection 2017.
+BGDMdocker: a Docker workflow for data mining and visualization of bacterial pan-genomes and biosynthetic gene clusters.
+Cheng G1,2, Lu Q3, Ma L4, Zhang G4, Xu L5, Zhou Z1.
+
+https://peerj.com/articles/3948/
+
+The analytical workflow consisted of three toolkits: Prokka v1.11 (Seemann, 2014), panX (Ding, Baumdicker & Neher, 2017), and antiSMASH3.0 (Weber et al., 2015), for prokaryotic genome annotation, pan-genome analysis and visualization, and analysis of biosynthetic gene clusters, respectively.
+
+----------
+### PGAP-X
+https://www.ncbi.nlm.nih.gov/pubmed/29363431
+BMC Genomics. 2018 Jan 19;19(Suppl 1):36. doi: 10.1186/s12864-017-4337-7.
+PGAP-X: extension on pan-genome analysis pipeline.
+
+As a web server, panX provides an interactive interface to visualize various data, including pan-genome statistical charts, gene cluster table, alignment, comparative phylogenies, metadata table [28]. However, it does not provide information about genome structure, gene distribution on the genome, and genetic variation. 
+
+----------
+### panX
+
+http://pangenome.de
+
+https://www.ncbi.nlm.nih.gov/pubmed/29077859
+Nucleic Acids Res. 2018 Jan 9;46(1):e5. doi: 10.1093/nar/gkx977.
+panX: pan-genome analysis and exploration.
+Ding W1, Baumdicker F2, Neher RA1,3.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5758898/
+Tree building and ancestral reconstruction
+PanX extracts all variable positions from the nucleotide alignments of all single copy core genes (those gene clusters in which all strains are represented exactly once) to construct a core-genome SNP matrix.
+
+----------
+###  Tychus
+
+https://www.biorxiv.org/content/early/2018/03/16/283101
+Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
+
+Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
+
+https://github.com/Abdo-Lab/Tychus
+
+
+----------
+
+## eggnog
+EggNOG Database | Orthology predictions and functional annnotaion
+
+http://eggnogdb.embl.de/#/app/emapper
+
+https://twitter.com/yokadzaki/status/958651006702661632
+Yusuke Okazaki on Twitter: "eggNOG-mapper便利。"https://t.co/pWUltPTHld -i <input.fa> -o <outname> -m diamond --cpu <ncpu>"でアミノ酸FASTA投げたら全自動でアノテーションしてCOGカテゴリとKO番号まで出してくれる。こいつとpVOGを併せて使えば環境ウイルスメタゲノムでも40%弱のORFに一応アノテーションがついた"
+5:39 AM - 31 Jan 2018
+
+http://www.geocities.jp/ancientfishtree/phyMarker.html
+系統推定 - Jun Inoue
+
+巨大な配列データセットの機能アノテーションを行う eggNOG-Mapper の報告．スタンドアローンとオンライン・サービスがある．eggNOG データベースで，すでに推定されているオーソログクラスターと系統樹を用いることで，高速化．
+
+https://www.ncbi.nlm.nih.gov/pubmed/28460117
+Mol Biol Evol. 2017 Aug 1;34(8):2115-2122. doi: 10.1093/molbev/msx148.
+Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper.
+Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Mering C2,3, Bork P1,5,6,7.
+
 
 ----------
 "Roary"
@@ -63,11 +240,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/27769991
 Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
 Computational pan-genomics: status, promises and challenges.
 Computational Pan-Genomics Consortium.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29077859
-Nucleic Acids Res. 2018 Jan 9;46(1):e5. doi: 10.1093/nar/gkx977.
-panX: pan-genome analysis and exploration.
-Ding W1, Baumdicker F2, Neher RA1,3.
 
 https://twitter.com/NatureMicrobiol/status/940566982742740992
 Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
@@ -386,23 +558,6 @@ http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
 アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
 
 ----------
-### harvest
-
-http://harvest.readthedocs.org
-http://harvest.readthedocs.io/en/latest/content/parsnp/tutorial.html
-https://harvest.readthedocs.io/en/v1.0/
-
-https://www.ncbi.nlm.nih.gov/pubmed/25410596
-Genome Biol. 2014;15(11):524.
-The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
-
-http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
-数百から数千のバクテリアゲノムの同時比較を行うHarvest - macでインフォマティクス
-
-https://www.cbcb.umd.edu/software/harvest
-Harvest | CBCB
-
-----------
 ### Tax4Fun
 
 2017/4/30
@@ -533,6 +688,9 @@ kpLogo: k-mer probability logo
 ----------
 ### Metagenomics
 メタゲノム
+
+https://www.biorxiv.org/content/early/2018/05/18/326363
+Sunbeam: a pipeline for next-generation metagenomic sequencing experiments | bioRxiv
 
 https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
 2017年 NGSハンズオン講習会 8月31日
