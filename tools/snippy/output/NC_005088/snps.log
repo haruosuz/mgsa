@@ -1,0 +1,102 @@
+### cd /Users/haruo/Google_Drive/projects/mgsa/tools/snippy
+
+### /Users/haruo/miniconda2/bin/snippy --outdir NC_005088 --ctgs /Users/haruo/Google_Drive/projects/mgsa/tools/snippy/data/fna/NC_005088.fasta --ref ./data/gbk/NC_008459.gbk --cpus 4
+
+### samtools faidx reference/ref.fa
+
+
+### bwa index reference/ref.fa
+
+[bwa_index] Pack FASTA... 0.00 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.01 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.00 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index reference/ref.fa
+[main] Real time: 0.016 sec; CPU: 0.017 sec
+
+### mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa
+
+
+### mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz
+
+
+### snpEff build -c reference/snpeff.config -dataDir . -gff3 ref
+
+WARNING: All frames are zero! This seems rather odd, please check that 'frame' information in your 'genes' file is accurate.
+
+### (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa fake_reads.fq | samtools view -u -T reference/ref.fa -F 3844 -q 60 | samtools sort --reference reference/ref.fa > snps.bam)
+
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -v 2 -M -R @RG\tID:snps\tSM:snps -t 4 reference/ref.fa fake_reads.fq
+[main] Real time: 0.732 sec; CPU: 1.278 sec
+
+### samtools index snps.bam
+
+
+### samtools depth -aa -q 20 snps.bam | bgzip > snps.depth.gz
+
+
+### tabix -s 1 -b 2 -e 2 snps.depth.gz
+
+
+### fasta_generate_regions.py reference/ref.fa.fai 2626 > reference/ref.txt
+
+
+### freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf
+
+
+### /Users/haruo/miniconda2/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf
+
+Parsing: snps.raw.vcf
+Types: ins=12 complex=186 snp=601 del=11
+Passed 810/812 variants (99.75%)
+
+### snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf
+
+
+### bgzip -c snps.vcf > snps.vcf.gz
+
+
+### tabix -p vcf snps.vcf.gz
+
+
+### /Users/haruo/miniconda2/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab
+
+Loading reference: reference/ref.fa
+Loaded 1 sequences.
+Loading features: reference/ref.gff
+Parsing variants: snps.vcf
+Converted 810 SNPs to TAB format.
+
+### vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa
+
+Leading or trailing space in attr_key-attr_value pairs is discouraged:
+	[Description] [Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ]
+	INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+Leading or trailing space in attr_key-attr_value pairs is discouraged:
+	[Description] [Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected' ]
+	INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected' ">
+Leading or trailing space in attr_key-attr_value pairs is discouraged:
+	[Description] [Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected' ]
+	INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected' ">
+
+### /Users/haruo/miniconda2/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf
+
+Parsing: snps.filt.vcf
+Types: snp=601 complex=168
+Passed 769/810 variants (94.94%)
+
+### bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz
+
+
+### tabix -p vcf snps.filt.subs.vcf.gz
+
+
+### vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa
+
+
+### rm -f 'fake_reads.fq'
+

@@ -1,0 +1,6 @@
+DateTime	2018-09-15T16:51:10
+ReadFiles	fake_reads.fq
+Reference	/Users/haruo/Google_Drive/projects/mgsa/tools/snippy/data/gbk/NC_008459.gbk
+ReferenceSize	42027
+Software	snippy 3.2-dev
+VariantTotal	0

@@ -1,0 +1,876 @@
+CHROM	POS	TYPE	REF	ALT	EVIDENCE	FTYPE	STRAND	NT_POS	AA_POS	EFFECT	LOCUS_TAG	GENE	PRODUCT
+NC_008459	50	snp	A	G	G:31 A:0								
+NC_008459	102	snp	T	C	C:35 T:0								
+NC_008459	120	ins	ATC	ATTC	ATTC:37 ATC:0								
+NC_008459	129	complex	GCCCC	GG	GG:37 GCCCC:0								
+NC_008459	144	del	GCCTCCCTCG	GCTCCCTCG	GCTCCCTCG:39 GCCTCCCTCG:0								
+NC_008459	172	snp	T	G	G:41 T:0								
+NC_008459	263	snp	T	C	C:47 T:0	CDS	-	597/654	199/217	synonymous_variant c.597A>G p.Gln199Gln	ST520_p02	kfrC	KfrC
+NC_008459	297	snp	G	A	A:20 G:0	CDS	-	563/654	188/217	missense_variant c.563C>T p.Thr188Met	ST520_p02	kfrC	KfrC
+NC_008459	598	snp	G	T	T:20 G:0	CDS	-	262/654	88/217	synonymous_variant c.262C>A p.Arg88Arg	ST520_p02	kfrC	KfrC
+NC_008459	610	del	GCT	GT	GT:20 GCT:0	CDS	-	249/654	83/217	frameshift_variant c.249delG p.Glu83fs	ST520_p02	kfrC	KfrC
+NC_008459	627	ins	TTG	TCTG	TCTG:20 TTG:0	CDS	-	232/654	78/217	frameshift_variant c.232_233insG p.Lys78fs	ST520_p02	kfrC	KfrC
+NC_008459	769	complex	TGGT	CGGC	CGGC:20 TGGT:0	CDS	-	91/654	30/217	missense_variant c.88_91delACCAinsGCCG p.ThrThr30AlaAla	ST520_p02	kfrC	KfrC
+NC_008459	797	snp	A	G	G:20 A:0	CDS	-	63/654	21/217	synonymous_variant c.63T>C p.Val21Val	ST520_p02	kfrC	KfrC
+NC_008459	836	snp	A	G	G:20 A:0	CDS	-	24/654	8/217	synonymous_variant c.24T>C p.Gly8Gly	ST520_p02	kfrC	KfrC
+NC_008459	917	snp	A	G	G:20 A:0	CDS	-	319/348	107/115	missense_variant c.319T>C p.Ser107Pro	ST520_p03	kfrB	KfrB
+NC_008459	1032	snp	A	G	G:20 A:0	CDS	-	204/348	68/115	synonymous_variant c.204T>C p.Ile68Ile	ST520_p03	kfrB	KfrB
+NC_008459	1082	snp	A	G	G:20 A:0	CDS	-	154/348	52/115	missense_variant c.154T>C p.Tyr52His	ST520_p03	kfrB	KfrB
+NC_008459	1089	snp	T	C	C:20 T:0	CDS	-	147/348	49/115	synonymous_variant c.147A>G p.Lys49Lys	ST520_p03	kfrB	KfrB
+NC_008459	1197	complex	AATCCGC	GATGCGT	GATGCGT:20 AATCCGC:0	CDS	-	39/348	11/115	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle	ST520_p03	kfrB	KfrB
+NC_008459	1229	snp	C	G	G:20 C:0	CDS	-	7/348	3/115	missense_variant c.7G>C p.Glu3Gln	ST520_p03	kfrB	KfrB
+NC_008459	1264	complex	TC	CA	CA:14 TC:0								
+NC_008459	1270	complex	GTATGT	GGTGATGG	GGTGATGG:14 GTATGT:0								
+NC_008459	1283	complex	TC	AT	AT:14 TC:0								
+NC_008459	1296	snp	A	T	T:17 A:0								
+NC_008459	1301	snp	G	C	C:17 G:0								
+NC_008459	1341	complex	TGCGGGCCGGAA	AGCGGCCGGGT	AGCGGCCGGGT:15 TGCGGGCCGGAA:0								
+NC_008459	1373	complex	TAGGTA	CAGGGTA	CAGGGTA:11 TAGGTA:0								
+NC_008459	1381	complex	GTTAG	TTTAA	TTTAA:11 GTTAG:0								
+NC_008459	1390	complex	TATCAC	AACCAA	AACCAA:11 TATCAC:0								
+NC_008459	1446	snp	C	T	T:13 C:0	CDS	-	828/870	276/289	synonymous_variant c.828G>A p.Gln276Gln	ST520_p04	kfrA	KfrA
+NC_008459	1460	snp	A	T	T:14 A:0	CDS	-	814/870	272/289	missense_variant c.814T>A p.Ser272Thr	ST520_p04	kfrA	KfrA
+NC_008459	1476	snp	T	C	C:15 T:0	CDS	-	798/870	266/289	synonymous_variant c.798A>G p.Arg266Arg	ST520_p04	kfrA	KfrA
+NC_008459	1485	complex	CAGTG	AAGCC	AAGCC:15 CAGTG:0	CDS	-	789/870	262/289	missense_variant c.785_789delCACTGinsGGCTT p.AlaLeu262GlyLeu	ST520_p04	kfrA	KfrA
+NC_008459	1503	snp	C	G	G:17 C:0	CDS	-	771/870	257/289	synonymous_variant c.771G>C p.Arg257Arg	ST520_p04	kfrA	KfrA
+NC_008459	1515	snp	G	A	A:16 G:0	CDS	-	759/870	253/289	synonymous_variant c.759C>T p.Ala253Ala	ST520_p04	kfrA	KfrA
+NC_008459	1608	snp	G	A	A:20 G:0	CDS	-	666/870	222/289	synonymous_variant c.666C>T p.Arg222Arg	ST520_p04	kfrA	KfrA
+NC_008459	1644	snp	T	A	A:20 T:0	CDS	-	630/870	210/289	synonymous_variant c.630A>T p.Arg210Arg	ST520_p04	kfrA	KfrA
+NC_008459	1662	snp	C	G	G:20 C:0	CDS	-	612/870	204/289	synonymous_variant c.612G>C p.Leu204Leu	ST520_p04	kfrA	KfrA
+NC_008459	1671	snp	G	C	C:20 G:0	CDS	-	603/870	201/289	synonymous_variant c.603C>G p.Arg201Arg	ST520_p04	kfrA	KfrA
+NC_008459	1695	complex	ACTCGTCGC	GCTGGCCGT	GCTGGCCGT:18 ACTCGTCGC:0	CDS	-	579/870	191/289	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer	ST520_p04	kfrA	KfrA
+NC_008459	1708	snp	T	C	C:20 T:0	CDS	-	566/870	189/289	missense_variant c.566A>G p.Lys189Arg	ST520_p04	kfrA	KfrA
+NC_008459	1731	complex	GA	TG	TG:18 GA:0	CDS	-	543/870	181/289	missense_variant c.542_543delTCinsCA p.Val181Ala	ST520_p04	kfrA	KfrA
+NC_008459	1749	snp	C	T	T:20 C:0	CDS	-	525/870	175/289	synonymous_variant c.525G>A p.Glu175Glu	ST520_p04	kfrA	KfrA
+NC_008459	1755	complex	GTGCGCA	ATGGGCG	ATGGGCG:18 GTGCGCA:0	CDS	-	519/870	171/289	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis	ST520_p04	kfrA	KfrA
+NC_008459	1794	snp	C	G	G:20 C:0	CDS	-	480/870	160/289	synonymous_variant c.480G>C p.Ala160Ala	ST520_p04	kfrA	KfrA
+NC_008459	1803	snp	G	C	C:20 G:0	CDS	-	471/870	157/289	synonymous_variant c.471C>G p.Thr157Thr	ST520_p04	kfrA	KfrA
+NC_008459	1812	snp	A	G	G:20 A:0	CDS	-	462/870	154/289	synonymous_variant c.462T>C p.Arg154Arg	ST520_p04	kfrA	KfrA
+NC_008459	1821	complex	AGCG	GGTC	GGTC:18 AGCG:0	CDS	-	453/870	150/289	missense_variant c.450_453delCGCTinsGACC p.AlaAla150AlaThr	ST520_p04	kfrA	KfrA
+NC_008459	1837	snp	G	C	C:20 G:0	CDS	-	437/870	146/289	missense_variant c.437C>G p.Ala146Gly	ST520_p04	kfrA	KfrA
+NC_008459	1848	complex	TTCCA	GTCGG	GTCGG:18 TTCCA:0	CDS	-	426/870	141/289	missense_variant c.422_426delTGGAAinsCCGAC p.ValGlu141AlaAsp	ST520_p04	kfrA	KfrA
+NC_008459	1863	complex	CGT	GGC	GGC:20 CGT:0	CDS	-	411/870	137/289	missense_variant c.409_411delACGinsGCC p.Thr137Ala	ST520_p04	kfrA	KfrA
+NC_008459	1875	complex	TG	GA	GA:18 TG:0	CDS	-	399/870	133/289	missense_variant c.398_399delCAinsTC p.Ala133Val	ST520_p04	kfrA	KfrA
+NC_008459	1886	snp	A	G	G:20 A:0	CDS	-	388/870	130/289	synonymous_variant c.388T>C p.Leu130Leu	ST520_p04	kfrA	KfrA
+NC_008459	1895	complex	TA	CG	CG:20 TA:0	CDS	-	379/870	126/289	missense_variant c.378_379delTAinsCG p.ArgIle126ArgVal	ST520_p04	kfrA	KfrA
+NC_008459	1950	complex	CTCTTGA	TTCCTGG	TTCCTGG:16 CTCTTGA:0	CDS	-	324/870	106/289	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu	ST520_p04	kfrA	KfrA
+NC_008459	1962	complex	CGCCTCT	TGCTTCC	TGCTTCC:16 CGCCTCT:0	CDS	-	312/870	102/289	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla	ST520_p04	kfrA	KfrA
+NC_008459	1977	snp	A	G	G:18 A:0	CDS	-	297/870	99/289	synonymous_variant c.297T>C p.Arg99Arg	ST520_p04	kfrA	KfrA
+NC_008459	1983	snp	C	G	G:20 C:0	CDS	-	291/870	97/289	synonymous_variant c.291G>C p.Ala97Ala	ST520_p04	kfrA	KfrA
+NC_008459	1992	snp	G	C	C:20 G:0	CDS	-	282/870	94/289	synonymous_variant c.282C>G p.Ala94Ala	ST520_p04	kfrA	KfrA
+NC_008459	2010	snp	G	C	C:20 G:0	CDS	-	264/870	88/289	synonymous_variant c.264C>G p.Leu88Leu	ST520_p04	kfrA	KfrA
+NC_008459	2109	snp	C	G	G:20 C:0	CDS	-	165/870	55/289	synonymous_variant c.165G>C p.Ala55Ala	ST520_p04	kfrA	KfrA
+NC_008459	2114	snp	T	C	C:20 T:0	CDS	-	160/870	54/289	missense_variant c.160A>G p.Thr54Ala	ST520_p04	kfrA	KfrA
+NC_008459	2130	complex	CGCC	TGCG	TGCG:18 CGCC:0	CDS	-	144/870	47/289	synonymous_variant c.141_144delGGCGinsCGCA p.ArgAla47ArgAla	ST520_p04	kfrA	KfrA
+NC_008459	2139	complex	TTCA	CTCG	CTCG:18 TTCA:0	CDS	-	135/870	44/289	synonymous_variant c.132_135delTGAAinsCGAG p.AsnGlu44AsnGlu	ST520_p04	kfrA	KfrA
+NC_008459	2160	snp	C	G	G:20 C:0	CDS	-	114/870	38/289	synonymous_variant c.114G>C p.Thr38Thr	ST520_p04	kfrA	KfrA
+NC_008459	2185	snp	A	T	T:20 A:0	CDS	-	89/870	30/289	missense_variant c.89T>A p.Leu30Gln	ST520_p04	kfrA	KfrA
+NC_008459	2190	snp	A	G	G:20 A:0	CDS	-	84/870	28/289	synonymous_variant c.84T>C p.Arg28Arg	ST520_p04	kfrA	KfrA
+NC_008459	2232	snp	C	T	T:20 C:0	CDS	-	42/870	14/289	synonymous_variant c.42G>A p.Glu14Glu	ST520_p04	kfrA	KfrA
+NC_008459	2259	snp	T	C	C:20 T:0	CDS	-	15/870	5/289	synonymous_variant c.15A>G p.Lys5Lys	ST520_p04	kfrA	KfrA
+NC_008459	2264	snp	T	A	A:20 T:0	CDS	-	10/870	4/289	missense_variant c.10A>T p.Thr4Ser	ST520_p04	kfrA	KfrA
+NC_008459	2276	del	CGGGGCCT	CGGGCCT	CGGGCCT:18 CGGGGCCT:0								
+NC_008459	2289	complex	CGGCC	GGCCG	GGCCG:19 CGGCC:0								
+NC_008459	2300	snp	G	T	T:19 G:0								
+NC_008459	2335	complex	GG	TA	TA:20 GG:0								
+NC_008459	2351	snp	G	C	C:20 G:0								
+NC_008459	2356	ins	CTTTTTTAG	CTTTTTTTAG	CTTTTTTTAG:19 CTTTTTTAG:0								
+NC_008459	2366	snp	C	G	G:20 C:0								
+NC_008459	2373	snp	G	A	A:20 G:0								
+NC_008459	2381	snp	G	A	A:20 G:0								
+NC_008459	2410	complex	TTGGGGTGGTC	ATGGGTGGGGGTCGGTGGTC	ATGGGTGGGGGTCGGTGGTC:14 TTGGGGTGGTC:0								
+NC_008459	2426	del	TGGCC	TGCC	TGCC:14 TGGCC:0								
+NC_008459	2437	complex	AGTGCGGTC	TGGGCGT	TGGGCGT:14 AGTGCGGTC:0								
+NC_008459	2519	snp	C	T	T:20 C:0	CDS	-	978/1050	326/349	synonymous_variant c.978G>A p.Lys326Lys	ST520_p01	korB	KorB
+NC_008459	2537	snp	T	C	C:20 T:0	CDS	-	960/1050	320/349	synonymous_variant c.960A>G p.Glu320Glu	ST520_p01	korB	KorB
+NC_008459	2549	snp	T	C	C:20 T:0	CDS	-	948/1050	316/349	synonymous_variant c.948A>G p.Arg316Arg	ST520_p01	korB	KorB
+NC_008459	2570	snp	C	T	T:20 C:0	CDS	-	927/1050	309/349	synonymous_variant c.927G>A p.Ala309Ala	ST520_p01	korB	KorB
+NC_008459	2597	snp	G	T	T:20 G:0	CDS	-	900/1050	300/349	synonymous_variant c.900C>A p.Ile300Ile	ST520_p01	korB	KorB
+NC_008459	2624	complex	ATCAGG	GTCGGC	GTCGGC:18 ATCAGG:0	CDS	-	873/1050	290/349	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp	ST520_p01	korB	KorB
+NC_008459	2638	snp	C	G	G:20 C:0	CDS	-	859/1050	287/349	missense_variant c.859G>C p.Ala287Pro	ST520_p01	korB	KorB
+NC_008459	2666	snp	T	C	C:20 T:0	CDS	-	831/1050	277/349	synonymous_variant c.831A>G p.Gln277Gln	ST520_p01	korB	KorB
+NC_008459	2672	complex	GCCT	CCCC	CCCC:18 GCCT:0	CDS	-	825/1050	274/349	synonymous_variant c.822_825delAGGCinsGGGG p.GlnGly274GlnGly	ST520_p01	korB	KorB
+NC_008459	2684	snp	A	G	G:20 A:0	CDS	-	813/1050	271/349	synonymous_variant c.813T>C p.Asp271Asp	ST520_p01	korB	KorB
+NC_008459	2693	snp	T	C	C:20 T:0	CDS	-	804/1050	268/349	synonymous_variant c.804A>G p.Glu268Glu	ST520_p01	korB	KorB
+NC_008459	2726	snp	C	G	G:19 C:0	CDS	-	771/1050	257/349	synonymous_variant c.771G>C p.Thr257Thr	ST520_p01	korB	KorB
+NC_008459	2732	complex	CGGGTCG	GGGATCA	GGGATCA:19 CGGGTCG:0	CDS	-	765/1050	253/349	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro	ST520_p01	korB	KorB
+NC_008459	2750	complex	CTCGCGG	GTCGTGA	GTCGTGA:18 CTCGCGG:0	CDS	-	747/1050	247/349	missense_variant c.741_747delCCGCGAGinsTCACGAC p.SerArgGlu247SerHisAsp	ST520_p01	korB	KorB
+NC_008459	2792	snp	G	C	C:20 G:0	CDS	-	705/1050	235/349	synonymous_variant c.705C>G p.Val235Val	ST520_p01	korB	KorB
+NC_008459	2817	complex	GTA	CTG	CTG:19 GTA:0	CDS	-	680/1050	226/349	missense_variant c.678_680delTACinsCAG p.AspThr226AspSer	ST520_p01	korB	KorB
+NC_008459	2825	snp	C	G	G:20 C:0	CDS	-	672/1050	224/349	synonymous_variant c.672G>C p.Ala224Ala	ST520_p01	korB	KorB
+NC_008459	2837	snp	A	G	G:20 A:0	CDS	-	660/1050	220/349	synonymous_variant c.660T>C p.Ala220Ala	ST520_p01	korB	KorB
+NC_008459	2846	snp	T	G	G:20 T:0	CDS	-	651/1050	217/349	missense_variant c.651A>C p.Glu217Asp	ST520_p01	korB	KorB
+NC_008459	2864	snp	C	G	G:20 C:0	CDS	-	633/1050	211/349	synonymous_variant c.633G>C p.Ala211Ala	ST520_p01	korB	KorB
+NC_008459	2888	snp	G	A	A:20 G:0	CDS	-	609/1050	203/349	synonymous_variant c.609C>T p.Thr203Thr	ST520_p01	korB	KorB
+NC_008459	2894	snp	A	G	G:20 A:0	CDS	-	603/1050	201/349	synonymous_variant c.603T>C p.Asp201Asp	ST520_p01	korB	KorB
+NC_008459	2905	snp	T	G	G:20 T:0	CDS	-	592/1050	198/349	synonymous_variant c.592A>C p.Arg198Arg	ST520_p01	korB	KorB
+NC_008459	2912	snp	G	A	A:20 G:0	CDS	-	585/1050	195/349	synonymous_variant c.585C>T p.Asn195Asn	ST520_p01	korB	KorB
+NC_008459	2927	snp	G	A	A:20 G:0	CDS	-	570/1050	190/349	synonymous_variant c.570C>T p.Ile190Ile	ST520_p01	korB	KorB
+NC_008459	2936	snp	C	G	G:20 C:0	CDS	-	561/1050	187/349	synonymous_variant c.561G>C p.Pro187Pro	ST520_p01	korB	KorB
+NC_008459	2941	complex	GGTCA	AGTCC	AGTCC:20 GGTCA:0	CDS	-	556/1050	184/349	synonymous_variant c.552_556delTGACCinsGGACT p.LeuAspLeu184LeuAspLeu	ST520_p01	korB	KorB
+NC_008459	2950	complex	ACGTC	GCGTG	GCGTG:20 ACGTC:0	CDS	-	547/1050	181/349	synonymous_variant c.543_547delGACGTinsCACGC p.ValThrLeu181ValThrLeu	ST520_p01	korB	KorB
+NC_008459	3047	snp	A	G	G:20 A:0	CDS	-	450/1050	150/349	synonymous_variant c.450T>C p.Ala150Ala	ST520_p01	korB	KorB
+NC_008459	3056	snp	G	A	A:20 G:0	CDS	-	441/1050	147/349	synonymous_variant c.441C>T p.Arg147Arg	ST520_p01	korB	KorB
+NC_008459	3061	snp	G	C	C:20 G:0	CDS	-	436/1050	146/349	missense_variant c.436C>G p.Pro146Ala	ST520_p01	korB	KorB
+NC_008459	3071	snp	A	G	G:20 A:0	CDS	-	426/1050	142/349	synonymous_variant c.426T>C p.Asn142Asn	ST520_p01	korB	KorB
+NC_008459	3147	complex	CCG	TGC	TGC:18 CCG:0	CDS	-	350/1050	116/349	missense_variant c.348_350delCGGinsGCA p.AlaGly116AlaHis	ST520_p01	korB	KorB
+NC_008459	3170	snp	A	G	G:20 A:0	CDS	-	327/1050	109/349	synonymous_variant c.327T>C p.Arg109Arg	ST520_p01	korB	KorB
+NC_008459	3179	snp	C	G	G:20 C:0	CDS	-	318/1050	106/349	synonymous_variant c.318G>C p.Gly106Gly	ST520_p01	korB	KorB
+NC_008459	3200	complex	GCCAGGCA	CCCCGGTG	CCCCGGTG:18 GCCAGGCA:0	CDS	-	297/1050	97/349	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly	ST520_p01	korB	KorB
+NC_008459	3215	snp	G	A	A:20 G:0	CDS	-	282/1050	94/349	synonymous_variant c.282C>T p.Asn94Asn	ST520_p01	korB	KorB
+NC_008459	3260	snp	C	G	G:20 C:0	CDS	-	237/1050	79/349	synonymous_variant c.237G>C p.Thr79Thr	ST520_p01	korB	KorB
+NC_008459	3287	snp	T	C	C:20 T:0	CDS	-	210/1050	70/349	synonymous_variant c.210A>G p.Pro70Pro	ST520_p01	korB	KorB
+NC_008459	3308	complex	CTTG	GGCC	GGCC:16 CTTG:0	CDS	-	189/1050	62/349	missense_variant c.186_189delCAAGinsGGCC p.ThrLys62ThrAla	ST520_p01	korB	KorB
+NC_008459	3317	snp	A	C	C:16 A:0	CDS	-	180/1050	60/349	synonymous_variant c.180T>G p.Pro60Pro	ST520_p01	korB	KorB
+NC_008459	3325	complex	TC	GT	GT:16 TC:0	CDS	-	172/1050	57/349	missense_variant c.171_172delGAinsAC p.ProAsn57ProHis	ST520_p01	korB	KorB
+NC_008459	3359	snp	T	C	C:20 T:0	CDS	-	138/1050	46/349	synonymous_variant c.138A>G p.Gln46Gln	ST520_p01	korB	KorB
+NC_008459	3365	snp	T	G	G:20 T:0	CDS	-	132/1050	44/349	synonymous_variant c.132A>C p.Gly44Gly	ST520_p01	korB	KorB
+NC_008459	3406	snp	A	G	G:20 A:0	CDS	-	91/1050	31/349	synonymous_variant c.91T>C p.Leu31Leu	ST520_p01	korB	KorB
+NC_008459	3458	snp	C	G	G:20 C:0	CDS	-	39/1050	13/349	missense_variant c.39G>C p.Glu13Asp	ST520_p01	korB	KorB
+NC_008459	3538	snp	C	A	A:20 C:0	CDS	-	720/765	240/254	synonymous_variant c.720G>T p.Arg240Arg	ST520_p07	incC2	IncC2
+NC_008459	3559	snp	G	C	C:20 G:0	CDS	-	699/765	233/254	synonymous_variant c.699C>G p.Arg233Arg	ST520_p07	incC2	IncC2
+NC_008459	3565	snp	T	G	G:20 T:0	CDS	-	693/765	231/254	synonymous_variant c.693A>C p.Ala231Ala	ST520_p07	incC2	IncC2
+NC_008459	3586	snp	T	C	C:20 T:0	CDS	-	672/765	224/254	synonymous_variant c.672A>G p.Val224Val	ST520_p07	incC2	IncC2
+NC_008459	3631	snp	T	G	G:20 T:0	CDS	-	627/765	209/254	synonymous_variant c.627A>C p.Gly209Gly	ST520_p07	incC2	IncC2
+NC_008459	3651	snp	C	T	T:20 C:0	CDS	-	607/765	203/254	missense_variant c.607G>A p.Val203Ile	ST520_p07	incC2	IncC2
+NC_008459	3656	snp	C	T	T:20 C:0	CDS	-	602/765	201/254	missense_variant c.602G>A p.Arg201Gln	ST520_p07	incC2	IncC2
+NC_008459	3706	snp	T	C	C:20 T:0	CDS	-	552/765	184/254	synonymous_variant c.552A>G p.Arg184Arg	ST520_p07	incC2	IncC2
+NC_008459	3850	complex	GGC	CGT	CGT:19 GGC:0	CDS	-	408/765	136/254	missense_variant c.406_408delGCCinsACG p.Ala136Thr	ST520_p07	incC2	IncC2
+NC_008459	3883	snp	A	G	G:20 A:0	CDS	-	375/765	125/254	synonymous_variant c.375T>C p.Ser125Ser	ST520_p07	incC2	IncC2
+NC_008459	3892	snp	T	C	C:20 T:0	CDS	-	366/765	122/254	synonymous_variant c.366A>G p.Thr122Thr	ST520_p07	incC2	IncC2
+NC_008459	3907	snp	T	C	C:20 T:0	CDS	-	351/765	117/254	synonymous_variant c.351A>G p.Val117Val	ST520_p07	incC2	IncC2
+NC_008459	3925	snp	G	C	C:20 G:0	CDS	-	333/765	111/254	synonymous_variant c.333C>G p.Leu111Leu	ST520_p07	incC2	IncC2
+NC_008459	3967	snp	C	A	A:20 C:0	CDS	-	291/765	97/254	synonymous_variant c.291G>T p.Leu97Leu	ST520_p07	incC2	IncC2
+NC_008459	3994	complex	AC	GT	GT:18 AC:0	CDS	-	264/765	88/254	missense_variant c.263_264delGTinsAC p.Ser88Asn	ST520_p07	incC2	IncC2
+NC_008459	4003	snp	G	T	T:20 G:0	CDS	-	255/765	85/254	synonymous_variant c.255C>A p.Ala85Ala	ST520_p07	incC2	IncC2
+NC_008459	4014	complex	AT	GC	GC:19 AT:0	CDS	-	244/765	81/254	synonymous_variant c.243_244delATinsGC p.AlaLeu81AlaLeu	ST520_p07	incC2	IncC2
+NC_008459	4023	snp	C	T	T:19 C:0	CDS	-	235/765	79/254	missense_variant c.235G>A p.Gly79Ser	ST520_p07	incC2	IncC2
+NC_008459	4028	snp	T	C	C:20 T:0	CDS	-	230/765	77/254	missense_variant c.230A>G p.Asp77Gly	ST520_p07	incC2	IncC2
+NC_008459	4048	complex	GTG	ATA	ATA:18 GTG:0	CDS	-	210/765	70/254	missense_variant c.208_210delCACinsTAT p.His70Tyr	ST520_p07	incC2	IncC2
+NC_008459	4056	complex	AGTCG	GGTCA	GGTCA:19 AGTCG:0	CDS	-	202/765	66/254	synonymous_variant c.198_202delCGACTinsTGACC p.AspAspLeu66AspAspLeu	ST520_p07	incC2	IncC2
+NC_008459	4102	snp	C	T	T:20 C:0	CDS	-	156/765	52/254	synonymous_variant c.156G>A p.Gln52Gln	ST520_p07	incC2	IncC2
+NC_008459	4116	snp	A	G	G:20 A:0	CDS	-	142/765	48/254	synonymous_variant c.142T>C p.Leu48Leu	ST520_p07	incC2	IncC2
+NC_008459	4126	snp	G	T	T:20 G:0	CDS	-	132/765	44/254	synonymous_variant c.132C>A p.Ala44Ala	ST520_p07	incC2	IncC2
+NC_008459	4141	snp	A	G	G:20 A:0	CDS	-	117/765	39/254	synonymous_variant c.117T>C p.Asp39Asp	ST520_p07	incC2	IncC2
+NC_008459	4189	snp	C	T	T:20 C:0	CDS	-	69/765	23/254	synonymous_variant c.69G>A p.Ala23Ala	ST520_p07	incC2	IncC2
+NC_008459	4219	snp	C	T	T:20 C:0	CDS	-	39/765	13/254	synonymous_variant c.39G>A p.Gln13Gln	ST520_p07	incC2	IncC2
+NC_008459	4249	snp	A	T	T:20 A:0	CDS	-	9/765	3/254	synonymous_variant c.9T>A p.Thr3Thr	ST520_p07	incC2	IncC2
+NC_008459	4258	snp	C	G	G:20 C:0	CDS	-	299/300	100/99	stop_lost&splice_region_variant c.299G>C p.Ter100Serext*?	ST520_p08	korA	KorA
+NC_008459	4341	snp	C	T	T:20 C:0	CDS	-	229/1077	77/358	missense_variant c.229G>A p.Gly77Ser	ST520_p08	korA	KorA
+NC_008459	4350	snp	C	G	G:20 C:0	CDS	-	220/1077	74/358	missense_variant c.220G>C p.Val74Leu	ST520_p08	korA	KorA
+NC_008459	4371	snp	C	T	T:20 C:0	CDS	-	199/1077	67/358	missense_variant c.199G>A p.Gly67Arg	ST520_p08	korA	KorA
+NC_008459	4377	complex	CGT	TGC	TGC:20 CGT:0	CDS	-	193/1077	64/358	missense_variant c.191_193delACGinsGCA p.AspGly64GlySer	ST520_p08	korA	KorA
+NC_008459	4398	snp	T	C	C:20 T:0	CDS	-	172/1077	58/358	missense_variant c.172A>G p.Ser58Gly	ST520_p08	korA	KorA
+NC_008459	4407	snp	T	C	C:20 T:0	CDS	-	163/1077	55/358	missense_variant c.163A>G p.Ser55Gly	ST520_p08	korA	KorA
+NC_008459	4421	snp	A	G	G:20 A:0	CDS	-	149/1077	50/358	missense_variant c.149T>C p.Val50Ala	ST520_p08	korA	KorA
+NC_008459	4431	snp	C	A	A:20 C:0	CDS	-	139/1077	47/358	missense_variant c.139G>T p.Val47Phe	ST520_p08	korA	KorA
+NC_008459	4437	complex	GAAT	AAAC	AAAC:20 GAAT:0	CDS	-	133/1077	44/358	missense_variant c.130_133delATTCinsGTTT p.IleArg44ValCys	ST520_p08	korA	KorA
+NC_008459	4452	complex	ACGC	CCGG	CCGG:20 ACGC:0	CDS	-	118/1077	39/358	missense_variant c.115_118delGCGTinsCCGG p.AlaSer39ProAla	ST520_p08	korA	KorA
+NC_008459	4473	complex	ACGT	GCGC	GCGC:18 ACGT:0	CDS	-	97/1077	32/358	missense_variant c.94_97delACGTinsGCGC p.ThrTrp32AlaArg	ST520_p08	korA	KorA
+NC_008459	4488	snp	A	G	G:20 A:0	CDS	-	82/1077	28/358	missense_variant c.82T>C p.Tyr28His	ST520_p08	korA	KorA
+NC_008459	4523	snp	C	T	T:20 C:0	CDS	-	47/1077	16/358	missense_variant c.47G>A p.Gly16Asp	ST520_p08	korA	KorA
+NC_008459	4596	complex	GAAA	AAAT	AAAT:18 GAAA:0								
+NC_008459	4647	complex	GGCCAC	GAAGCC	GAAGCC:16 GGCCAC:0								
+NC_008459	5013	snp	C	G	G:12 C:0	CDS	-	63/390	21/129	synonymous_variant c.63G>C p.Ser21Ser	ST520_p09	kleE	KleE
+NC_008459	5027	complex	CTCTA	CCTC	CCTC:12 CTCTA:0	CDS	-	48/390	15/129	frameshift_variant&missense_variant c.45_48delTAGAinsGAG p.Cys15fs	ST520_p09	kleE	KleE
+NC_008459	5036	complex	TGC	CGG	CGG:12 TGC:0	CDS	-	40/390	13/129	missense_variant c.38_40delGCAinsCCG p.SerThr13ThrAla	ST520_p09	kleE	KleE
+NC_008459	5044	ins	TTTGA	TGTTGA	TGTTGA:13 TTTGA:0	CDS	-	31/390	11/129	frameshift_variant c.31_32insC p.Asn11fs	ST520_p09	kleE	KleE
+NC_008459	5056	snp	T	A	A:14 T:0	CDS	-	20/390	7/129	missense_variant c.20A>T p.Asn7Ile	ST520_p09	kleE	KleE
+NC_008459	5079	complex	GAT	TAC	TAC:16 GAT:0								
+NC_008459	5095	del	CAAGG	CAGG	CAGG:18 CAAGG:0								
+NC_008459	5539	complex	TTC	TATT	TATT:11 TTC:0								
+NC_008459	5561	complex	ACACGGCCA	ATGCCTAGCA	ATGCCTAGCA:11 ACACGGCCA:0								
+NC_008459	5584	snp	A	G	G:15 A:0								
+NC_008459	5588	ins	CTTCC	CTTTCC	CTTTCC:15 CTTCC:0								
+NC_008459	5605	snp	G	C	C:17 G:0	CDS	-	252/258	84/85	missense_variant c.252C>G p.Asp84Glu	ST520_p06	korC	KorC
+NC_008459	5618	complex	GA	AG	AG:17 GA:0	CDS	-	239/258	80/85	missense_variant c.238_239delTCinsCT p.Ser80Leu	ST520_p06	korC	KorC
+NC_008459	5662	snp	G	A	A:20 G:0	CDS	-	195/258	65/85	synonymous_variant c.195C>T p.Pro65Pro	ST520_p06	korC	KorC
+NC_008459	5689	complex	ACGGCGA	TCGCCGG	TCGCCGG:20 ACGGCGA:0	CDS	-	168/258	54/85	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg	ST520_p06	korC	KorC
+NC_008459	5716	complex	ACCAAGCCCG	GCCGAGGCCC	GCCGAGGCCC:18 ACCAAGCCCG:0	CDS	-	141/258	44/85	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly	ST520_p06	korC	KorC
+NC_008459	5740	snp	C	T	T:20 C:0	CDS	-	117/258	39/85	synonymous_variant c.117G>A p.Lys39Lys	ST520_p06	korC	KorC
+NC_008459	5754	complex	AA	GG	GG:19 AA:0	CDS	-	103/258	34/85	missense_variant c.102_103delTTinsCC p.GlyPhe34GlyLeu	ST520_p06	korC	KorC
+NC_008459	5764	snp	C	G	G:20 C:0	CDS	-	93/258	31/85	synonymous_variant c.93G>C p.Arg31Arg	ST520_p06	korC	KorC
+NC_008459	5773	complex	TTCA	CTCG	CTCG:18 TTCA:0	CDS	-	84/258	27/85	synonymous_variant c.81_84delTGAAinsCGAG p.ArgGlu27ArgGlu	ST520_p06	korC	KorC
+NC_008459	5792	snp	G	C	C:20 G:0	CDS	-	65/258	22/85	missense_variant c.65C>G p.Thr22Ser	ST520_p06	korC	KorC
+NC_008459	5800	snp	T	C	C:20 T:0	CDS	-	57/258	19/85	synonymous_variant c.57A>G p.Ala19Ala	ST520_p06	korC	KorC
+NC_008459	5808	snp	T	G	G:20 T:0	CDS	-	49/258	17/85	synonymous_variant c.49A>C p.Arg17Arg	ST520_p06	korC	KorC
+NC_008459	5818	snp	T	C	C:20 T:0	CDS	-	39/258	13/85	synonymous_variant c.39A>G p.Lys13Lys	ST520_p06	korC	KorC
+NC_008459	5862	snp	C	T	T:16 C:0								
+NC_008459	5871	snp	C	G	G:16 C:0								
+NC_008459	5876	snp	T	C	C:15 T:0								
+NC_008459	5931	snp	G	A	A:16 G:0								
+NC_008459	5955	snp	G	T	T:18 G:0								
+NC_008459	5995	snp	C	T	T:20 C:0								
+NC_008459	6000	snp	A	G	G:20 A:0								
+NC_008459	6036	snp	C	T	T:20 C:0								
+NC_008459	6042	snp	C	T	T:20 C:0								
+NC_008459	6061	snp	T	A	A:20 T:0								
+NC_008459	6068	complex	TA	CG	CG:18 TA:0								
+NC_008459	6085	snp	T	C	C:18 T:0								
+NC_008459	6111	complex	CG	TT	TT:15 CG:0								
+NC_008459	6119	ins	CCCCGGCA	CGCCCGGCA	CGCCCGGCA:14 CCCCGGCA:0								
+NC_008459	6137	snp	C	T	T:14 C:0								
+NC_008459	6144	snp	G	A	A:13 G:0								
+NC_008459	6152	complex	GC	AG	AG:12 GC:0								
+NC_008459	6160	complex	CCTGCTCGCC	CCTTGCA	CCTTGCA:10 CCTGCTCGCC:0								
+NC_008459	6186	snp	A	G	G:10 A:0	CDS	-	774/786	258/261	synonymous_variant c.774T>C p.His258His	ST520_p11	klcB	KlcB
+NC_008459	6246	snp	G	C	C:18 G:0	CDS	-	714/786	238/261	synonymous_variant c.714C>G p.Arg238Arg	ST520_p11	klcB	KlcB
+NC_008459	6273	snp	G	C	C:20 G:0	CDS	-	687/786	229/261	synonymous_variant c.687C>G p.Leu229Leu	ST520_p11	klcB	KlcB
+NC_008459	6306	snp	A	G	G:20 A:0	CDS	-	654/786	218/261	synonymous_variant c.654T>C p.Ile218Ile	ST520_p11	klcB	KlcB
+NC_008459	6315	complex	CGTCA	GGTCG	GGTCG:20 CGTCA:0	CDS	-	645/786	214/261	missense_variant c.641_645delTGACGinsCGACC p.ValThr214AlaThr	ST520_p11	klcB	KlcB
+NC_008459	6343	snp	T	A	A:20 T:0	CDS	-	617/786	206/261	missense_variant c.617A>T p.Glu206Val	ST520_p11	klcB	KlcB
+NC_008459	6360	complex	GCCA	ATCG	ATCG:18 GCCA:0	CDS	-	600/786	199/261	missense_variant c.597_600delTGGCinsCGAT p.ProGly199ProAsp	ST520_p11	klcB	KlcB
+NC_008459	6373	snp	T	G	G:20 T:0	CDS	-	587/786	196/261	missense_variant c.587A>C p.Asp196Ala	ST520_p11	klcB	KlcB
+NC_008459	6378	snp	C	G	G:20 C:0	CDS	-	582/786	194/261	synonymous_variant c.582G>C p.Ala194Ala	ST520_p11	klcB	KlcB
+NC_008459	6383	snp	G	A	A:20 G:0	CDS	-	577/786	193/261	synonymous_variant c.577C>T p.Leu193Leu	ST520_p11	klcB	KlcB
+NC_008459	6397	snp	C	T	T:20 C:0	CDS	-	563/786	188/261	missense_variant c.563G>A p.Ser188Asn	ST520_p11	klcB	KlcB
+NC_008459	6410	snp	G	A	A:20 G:0	CDS	-	550/786	184/261	synonymous_variant c.550C>T p.Leu184Leu	ST520_p11	klcB	KlcB
+NC_008459	6426	snp	T	C	C:20 T:0	CDS	-	534/786	178/261	synonymous_variant c.534A>G p.Glu178Glu	ST520_p11	klcB	KlcB
+NC_008459	6443	complex	CCAT	TCAG	TCAG:20 CCAT:0	CDS	-	517/786	172/261	missense_variant c.514_517delATGGinsCTGA p.MetAla172LeuThr	ST520_p11	klcB	KlcB
+NC_008459	6460	snp	G	A	A:20 G:0	CDS	-	500/786	167/261	missense_variant c.500C>T p.Ala167Val	ST520_p11	klcB	KlcB
+NC_008459	6487	snp	A	G	G:20 A:0	CDS	-	473/786	158/261	missense_variant c.473T>C p.Val158Ala	ST520_p11	klcB	KlcB
+NC_008459	6501	snp	C	T	T:20 C:0	CDS	-	459/786	153/261	synonymous_variant c.459G>A p.Ser153Ser	ST520_p11	klcB	KlcB
+NC_008459	6533	snp	G	T	T:20 G:0	CDS	-	427/786	143/261	synonymous_variant c.427C>A p.Arg143Arg	ST520_p11	klcB	KlcB
+NC_008459	6543	complex	GAT	AAC	AAC:20 GAT:0	CDS	-	417/786	139/261	missense_variant c.415_417delATCinsGTT p.Ile139Val	ST520_p11	klcB	KlcB
+NC_008459	6558	complex	GAAGTGA	AAAATGC	AAAATGC:18 GAAGTGA:0	CDS	-	402/786	132/261	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe	ST520_p11	klcB	KlcB
+NC_008459	6582	complex	GTAG	ATAA	ATAA:18 GTAG:0	CDS	-	378/786	125/261	synonymous_variant c.375_378delCTACinsTTAT p.GlyTyr125GlyTyr	ST520_p11	klcB	KlcB
+NC_008459	6612	complex	TACA	CACG	CACG:20 TACA:0	CDS	-	348/786	115/261	synonymous_variant c.345_348delTGTAinsCGTG p.AspVal115AspVal	ST520_p11	klcB	KlcB
+NC_008459	6660	complex	AACCTCGCCT	CACGTCCCCC	CACGTCCCCC:18 AACCTCGCCT:0	CDS	-	300/786	97/261	missense_variant c.291_300delAGGCGAGGTTinsGGGGGACGTG p.ProGlyGluVal97ProGlyAspVal	ST520_p11	klcB	KlcB
+NC_008459	6678	snp	C	A	A:20 C:0	CDS	-	282/786	94/261	synonymous_variant c.282G>T p.Ala94Ala	ST520_p11	klcB	KlcB
+NC_008459	6700	snp	T	C	C:20 T:0	CDS	-	260/786	87/261	missense_variant c.260A>G p.His87Arg	ST520_p11	klcB	KlcB
+NC_008459	6735	snp	A	G	G:20 A:0	CDS	-	225/786	75/261	synonymous_variant c.225T>C p.Asn75Asn	ST520_p11	klcB	KlcB
+NC_008459	6787	snp	T	A	A:20 T:0	CDS	-	173/786	58/261	missense_variant c.173A>T p.Gln58Leu	ST520_p11	klcB	KlcB
+NC_008459	6801	snp	G	C	C:20 G:0	CDS	-	159/786	53/261	synonymous_variant c.159C>G p.Gly53Gly	ST520_p11	klcB	KlcB
+NC_008459	6810	snp	A	G	G:20 A:0	CDS	-	150/786	50/261	synonymous_variant c.150T>C p.Arg50Arg	ST520_p11	klcB	KlcB
+NC_008459	6846	snp	C	A	A:20 C:0	CDS	-	114/786	38/261	synonymous_variant c.114G>T p.Val38Val	ST520_p11	klcB	KlcB
+NC_008459	6861	snp	A	C	C:20 A:0	CDS	-	99/786	33/261	synonymous_variant c.99T>G p.Leu33Leu	ST520_p11	klcB	KlcB
+NC_008459	6884	snp	A	G	G:20 A:0	CDS	-	76/786	26/261	synonymous_variant c.76T>C p.Leu26Leu	ST520_p11	klcB	KlcB
+NC_008459	6896	snp	A	G	G:20 A:0	CDS	-	64/786	22/261	synonymous_variant c.64T>C p.Leu22Leu	ST520_p11	klcB	KlcB
+NC_008459	6929	snp	C	T	T:20 C:0	CDS	-	31/786	11/261	missense_variant c.31G>A p.Ala11Thr	ST520_p11	klcB	KlcB
+NC_008459	6945	snp	C	T	T:20 C:0	CDS	-	15/786	5/261	synonymous_variant c.15G>A p.Thr5Thr	ST520_p11	klcB	KlcB
+NC_008459	6954	snp	T	C	C:20 T:0	CDS	-	6/786	2/261	synonymous_variant c.6A>G p.Ala2Ala	ST520_p11	klcB	KlcB
+NC_008459	6964	snp	G	T	T:20 G:0								
+NC_008459	6978	snp	C	T	T:20 C:0								
+NC_008459	6986	snp	T	C	C:20 T:0								
+NC_008459	6992	snp	A	G	G:20 A:0								
+NC_008459	6997	snp	A	G	G:20 A:0								
+NC_008459	7014	snp	A	G	G:20 A:0	CDS	-	426/429	142/142	synonymous_variant c.426T>C p.Asp142Asp	ST520_p12	klcA	KlcA
+NC_008459	7035	snp	G	A	A:20 G:0	CDS	-	405/429	135/142	synonymous_variant c.405C>T p.Ala135Ala	ST520_p12	klcA	KlcA
+NC_008459	7047	snp	A	G	G:20 A:0	CDS	-	393/429	131/142	synonymous_variant c.393T>C p.His131His	ST520_p12	klcA	KlcA
+NC_008459	7065	snp	A	G	G:20 A:0	CDS	-	375/429	125/142	synonymous_variant c.375T>C p.Arg125Arg	ST520_p12	klcA	KlcA
+NC_008459	7111	snp	T	C	C:20 T:0	CDS	-	329/429	110/142	missense_variant c.329A>G p.Asp110Gly	ST520_p12	klcA	KlcA
+NC_008459	7122	snp	C	G	G:20 C:0	CDS	-	318/429	106/142	synonymous_variant c.318G>C p.Ala106Ala	ST520_p12	klcA	KlcA
+NC_008459	7152	snp	G	T	T:20 G:0	CDS	-	288/429	96/142	synonymous_variant c.288C>A p.Ala96Ala	ST520_p12	klcA	KlcA
+NC_008459	7182	snp	C	T	T:20 C:0	CDS	-	258/429	86/142	synonymous_variant c.258G>A p.Glu86Glu	ST520_p12	klcA	KlcA
+NC_008459	7188	snp	A	C	C:20 A:0	CDS	-	252/429	84/142	synonymous_variant c.252T>G p.Arg84Arg	ST520_p12	klcA	KlcA
+NC_008459	7197	snp	A	G	G:20 A:0	CDS	-	243/429	81/142	synonymous_variant c.243T>C p.Asn81Asn	ST520_p12	klcA	KlcA
+NC_008459	7205	complex	TC	CT	CT:18 TC:0	CDS	-	235/429	78/142	missense_variant c.234_235delGAinsAG p.ValAsn78ValAsp	ST520_p12	klcA	KlcA
+NC_008459	7221	complex	CCGCC	GCGCT	GCGCT:20 CCGCC:0	CDS	-	219/429	72/142	missense_variant c.215_219delGGCGGinsAGCGC p.GlyArg72GluArg	ST520_p12	klcA	KlcA
+NC_008459	7232	snp	A	G	G:20 A:0	CDS	-	208/429	70/142	synonymous_variant c.208T>C p.Leu70Leu	ST520_p12	klcA	KlcA
+NC_008459	7244	snp	T	G	G:20 T:0	CDS	-	196/429	66/142	missense_variant c.196A>C p.Met66Leu	ST520_p12	klcA	KlcA
+NC_008459	7266	complex	CGC	GGT	GGT:20 CGC:0	CDS	-	174/429	58/142	missense_variant c.172_174delGCGinsACC p.Ala58Thr	ST520_p12	klcA	KlcA
+NC_008459	7305	complex	AAGGCGA	GAGCCGG	GAGCCGG:18 AAGGCGA:0	CDS	-	135/429	43/142	synonymous_variant c.129_135delTCGCCTTinsCCGGCTC p.ArgArgLeu43ArgArgLeu	ST520_p12	klcA	KlcA
+NC_008459	7316	snp	T	G	G:19 T:0	CDS	-	124/429	42/142	missense_variant c.124A>C p.Met42Leu	ST520_p12	klcA	KlcA
+NC_008459	7329	snp	C	A	A:20 C:0	CDS	-	111/429	37/142	synonymous_variant c.111G>T p.Leu37Leu	ST520_p12	klcA	KlcA
+NC_008459	7356	snp	T	C	C:19 T:0	CDS	-	84/429	28/142	synonymous_variant c.84A>G p.Pro28Pro	ST520_p12	klcA	KlcA
+NC_008459	7371	complex	GGGAAG	AGGCAA	AGGCAA:17 GGGAAG:0	CDS	-	69/429	22/142	synonymous_variant c.64_69delCTTCCCinsTTGCCT p.LeuPro22LeuPro	ST520_p12	klcA	KlcA
+NC_008459	7392	snp	C	G	G:16 C:0	CDS	-	48/429	16/142	synonymous_variant c.48G>C p.Ala16Ala	ST520_p12	klcA	KlcA
+NC_008459	7425	snp	C	G	G:14 C:0	CDS	-	15/429	5/142	missense_variant c.15G>C p.Glu5Asp	ST520_p12	klcA	KlcA
+NC_008459	7430	snp	C	G	G:14 C:0	CDS	-	10/429	4/142	missense_variant c.10G>C p.Glu4Gln	ST520_p12	klcA	KlcA
+NC_008459	7442	complex	GACTTTCTCCG	GAACTCTCCG	GAACTCTCCG:10 GACTTTCTCCG:0								
+NC_008459	7456	snp	A	G	G:10 A:0								
+NC_008459	7469	complex	GA	AC	AC:10 GA:0								
+NC_008459	8321	snp	C	T	T:12 C:0								
+NC_008459	8326	snp	T	A	A:12 T:0								
+NC_008459	8342	ins	TGC	TGGC	TGGC:12 TGC:0								
+NC_008459	8368	snp	T	C	C:12 T:0								
+NC_008459	8380	snp	C	T	T:12 C:0								
+NC_008459	8455	snp	A	C	C:14 A:0								
+NC_008459	8493	ins	TGGGAT	TGGGGAT	TGGGGAT:17 TGGGAT:0								
+NC_008459	8511	complex	TGT	GCA	GCA:18 TGT:0								
+NC_008459	8531	snp	G	A	A:20 G:0								
+NC_008459	8542	snp	C	G	G:20 C:0								
+NC_008459	8547	snp	T	C	C:20 T:0								
+NC_008459	8558	snp	A	T	T:20 A:0								
+NC_008459	8574	snp	G	A	A:20 G:0								
+NC_008459	8592	snp	C	T	T:18 C:0								
+NC_008459	8602	ins	AAAAGGT	ATAAAGGT	ATAAAGGT:18 AAAAGGT:0								
+NC_008459	8611	complex	CCTTC	TGAAG	TGAAG:14 CCTTC:0								
+NC_008459	8619	del	TAAAAAGC	TAAAAGC	TAAAAGC:15 TAAAAAGC:0								
+NC_008459	8627	snp	A	C	C:18 A:0								
+NC_008459	8642	complex	AAAATCGCA	GAAAACGCG	GAAAACGCG:19 AAAATCGCA:0								
+NC_008459	8656	snp	C	G	G:20 C:0								
+NC_008459	8682	snp	A	C	C:20 A:0								
+NC_008459	8741	snp	C	T	T:20 C:0								
+NC_008459	8754	snp	T	A	A:20 T:0								
+NC_008459	8798	snp	C	T	T:20 C:0								
+NC_008459	8803	complex	TAG	CAA	CAA:20 TAG:0								
+NC_008459	8850	complex	TGCCG	AGCCC	AGCCC:20 TGCCG:0								
+NC_008459	8863	snp	G	A	A:20 G:0								
+NC_008459	8884	snp	G	T	T:20 G:0								
+NC_008459	8892	snp	A	G	G:19 A:0								
+NC_008459	8898	complex	GGG	AGC	AGC:19 GGG:0								
+NC_008459	8918	snp	A	G	G:20 A:0								
+NC_008459	8992	snp	G	A	A:20 G:0								
+NC_008459	9061	snp	G	A	A:14 G:0								
+NC_008459	9069	snp	G	A	A:16 G:0								
+NC_008459	9094	snp	C	T	T:18 C:0								
+NC_008459	9102	complex	AGGGCT	AGGCC	AGGCC:18 AGGGCT:0								
+NC_008459	9153	snp	A	C	C:20 A:0								
+NC_008459	9158	del	CGGGCGGCCGT	CCGGCCGT	CCGGCCGT:20 CGGGCGGCCGT:0								
+NC_008459	9183	snp	C	A	A:20 C:0								
+NC_008459	9188	snp	C	T	T:20 C:0								
+NC_008459	9213	snp	T	G	G:20 T:0								
+NC_008459	9218	snp	A	C	C:20 A:0								
+NC_008459	9242	snp	C	T	T:20 C:0								
+NC_008459	9300	del	GCGCC	GC	GC:19 GCGCC:0								
+NC_008459	9324	complex	TG	AC	AC:18 TG:0								
+NC_008459	9344	snp	T	G	G:20 T:0								
+NC_008459	9352	complex	CGGGAA	TGGATG	TGGATG:18 CGGGAA:0								
+NC_008459	9376	snp	A	G	G:20 A:0								
+NC_008459	9435	snp	A	G	G:20 A:0								
+NC_008459	9448	snp	C	G	G:20 C:0								
+NC_008459	9520	complex	CGGT	GGGC	GGGC:19 CGGT:0								
+NC_008459	9562	complex	TGCG	GGCA	GGCA:20 TGCG:0	CDS	-	1188/1224	395/407	synonymous_variant c.1185_1188delCGCAinsTGCC p.SerAla395SerAla	ST520_p15	trfA	TrfA
+NC_008459	9688	snp	A	C	C:20 A:0	CDS	-	1062/1224	354/407	synonymous_variant c.1062T>G p.Pro354Pro	ST520_p15	trfA	TrfA
+NC_008459	9720	complex	TCC	TGCG	TGCG:18 TCC:0	CDS	-	1029/1224	343/407	frameshift_variant&synonymous_variant c.1028_1029delGGinsCGC p.Arg343fs	ST520_p15	trfA	TrfA
+NC_008459	9726	ins	GCG	GTCG	GTCG:18 GCG:0	CDS	-	1023/1224	341/407	frameshift_variant c.1023_1024insA p.Arg342fs	ST520_p15	trfA	TrfA
+NC_008459	9731	ins	GTG	GTTG	GTTG:18 GTG:0	CDS	-	1017/1224	339/407	frameshift_variant c.1017_1018insA p.Thr340fs	ST520_p15	trfA	TrfA
+NC_008459	9826	snp	A	G	G:20 A:0	CDS	-	924/1224	308/407	synonymous_variant c.924T>C p.Arg308Arg	ST520_p15	trfA	TrfA
+NC_008459	9844	snp	A	G	G:20 A:0	CDS	-	906/1224	302/407	synonymous_variant c.906T>C p.Arg302Arg	ST520_p15	trfA	TrfA
+NC_008459	9886	snp	C	G	G:20 C:0	CDS	-	864/1224	288/407	synonymous_variant c.864G>C p.Leu288Leu	ST520_p15	trfA	TrfA
+NC_008459	9901	snp	C	T	T:20 C:0	CDS	-	849/1224	283/407	synonymous_variant c.849G>A p.Gln283Gln	ST520_p15	trfA	TrfA
+NC_008459	9956	complex	TTC	CTT	CTT:20 TTC:0	CDS	-	794/1224	264/407	missense_variant c.792_794delGAAinsAAG p.ThrLys264ThrArg	ST520_p15	trfA	TrfA
+NC_008459	9970	snp	G	A	A:20 G:0	CDS	-	780/1224	260/407	synonymous_variant c.780C>T p.Gly260Gly	ST520_p15	trfA	TrfA
+NC_008459	9979	snp	C	T	T:20 C:0	CDS	-	771/1224	257/407	synonymous_variant c.771G>A p.Ser257Ser	ST520_p15	trfA	TrfA
+NC_008459	10030	snp	G	T	T:20 G:0	CDS	-	720/1224	240/407	synonymous_variant c.720C>A p.Gly240Gly	ST520_p15	trfA	TrfA
+NC_008459	10044	complex	GT	CG	CG:18 GT:1	CDS	-	706/1224	235/407	missense_variant c.705_706delACinsCG p.LysArg235AsnGly	ST520_p15	trfA	TrfA
+NC_008459	10129	snp	C	T	T:20 C:0	CDS	-	621/1224	207/407	synonymous_variant c.621G>A p.Lys207Lys	ST520_p15	trfA	TrfA
+NC_008459	10167	snp	C	G	G:20 C:0	CDS	-	583/1224	195/407	missense_variant c.583G>C p.Ala195Pro	ST520_p15	trfA	TrfA
+NC_008459	10228	complex	CGCCCGCA	TGCCGCA	TGCCGCA:19 CGCCCGCA:0	CDS	-	522/1224	174/407	frameshift_variant&missense_variant c.515_522delTGCGGGCGinsTGCGGCA p.Ala174fs	ST520_p15	trfA	TrfA
+NC_008459	10245	ins	GCCAG	GTCCAG	GTCCAG:18 GCCAG:0	CDS	-	504/1224	168/407	frameshift_variant c.504_505insA p.Pro169fs	ST520_p15	trfA	TrfA
+NC_008459	10351	complex	GT	AC	AC:19 GT:0	CDS	-	399/1224	133/407	missense_variant c.398_399delACinsGT p.Asp133Gly	ST520_p15	trfA	TrfA
+NC_008459	10477	snp	C	A	A:20 C:0	CDS	-	273/1224	91/407	synonymous_variant c.273G>T p.Leu91Leu	ST520_p15	trfA	TrfA
+NC_008459	10525	snp	G	A	A:20 G:0	CDS	-	225/1224	75/407	synonymous_variant c.225C>T p.Ser75Ser	ST520_p15	trfA	TrfA
+NC_008459	10541	snp	G	A	A:20 G:0	CDS	-	209/1224	70/407	missense_variant c.209C>T p.Pro70Leu	ST520_p15	trfA	TrfA
+NC_008459	10555	snp	G	A	A:20 G:0	CDS	-	195/1224	65/407	synonymous_variant c.195C>T p.Ala65Ala	ST520_p15	trfA	TrfA
+NC_008459	10563	snp	T	C	C:20 T:0	CDS	-	187/1224	63/407	missense_variant c.187A>G p.Lys63Glu	ST520_p15	trfA	TrfA
+NC_008459	10575	complex	AG	CC	CC:19 AG:0	CDS	-	175/1224	58/407	missense_variant c.174_175delCTinsGG p.ThrSer58ThrAla	ST520_p15	trfA	TrfA
+NC_008459	10590	complex	TTAAC	CGAAG	CGAAG:18 TTAAC:0	CDS	-	160/1224	52/407	missense_variant c.156_160delGTTAAinsCTTCG p.LeuLeuLys52LeuPheGlu	ST520_p15	trfA	TrfA
+NC_008459	10615	complex	TGCCA	GGCCC	GGCCC:20 TGCCA:0	CDS	-	135/1224	44/407	missense_variant c.131_135delTGGCAinsGGGCC p.ValAla44GlyAla	ST520_p15	trfA	TrfA
+NC_008459	10624	snp	A	G	G:20 A:0	CDS	-	126/1224	42/407	synonymous_variant c.126T>C p.Ala42Ala	ST520_p15	trfA	TrfA
+NC_008459	10654	snp	A	G	G:20 A:0	CDS	-	96/1224	32/407	synonymous_variant c.96T>C p.Thr32Thr	ST520_p15	trfA	TrfA
+NC_008459	10672	snp	A	G	G:20 A:0	CDS	-	78/1224	26/407	synonymous_variant c.78T>C p.Thr26Thr	ST520_p15	trfA	TrfA
+NC_008459	10687	snp	A	G	G:20 A:0	CDS	-	63/1224	21/407	synonymous_variant c.63T>C p.Ser21Ser	ST520_p15	trfA	TrfA
+NC_008459	10693	snp	T	C	C:20 T:0	CDS	-	57/1224	19/407	synonymous_variant c.57A>G p.Gly19Gly	ST520_p15	trfA	TrfA
+NC_008459	10716	snp	G	T	T:20 G:0	CDS	-	34/1224	12/407	synonymous_variant c.34C>A p.Arg12Arg	ST520_p15	trfA	TrfA
+NC_008459	10737	del	CGTTGTTC	CGTTC	CGTTC:18 CGTTGTTC:0	CDS	-	9/1224	3/407	conservative_inframe_deletion c.7_9delAAC p.Asn3del	ST520_p15	trfA	TrfA
+NC_008459	10745	complex	GT	TG	TG:18 GT:0	CDS	-	5/1224	2/407	missense_variant c.4_5delACinsCA p.Thr2Gln	ST520_p15	trfA	TrfA
+NC_008459	10751	ins	TAT	TAAT	TAAT:19 TAT:0								
+NC_008459	10775	complex	GGTGC	GGCCGTGG	GGCCGTGG:14 GGTGC:0								
+NC_008459	10784	complex	CA	GC	GC:14 CA:0								
+NC_008459	10795	complex	TTGGCCGCCT	CTGGCCGCCGCCT	CTGGCCGCCGCCT:14 TTGGCCGCCT:0	CDS	-	336/339	112/112	synonymous_variant&conservative_inframe_insertion c.327_336delAGGCGGCCAAinsAGGCGGCGGCCAG p.Gly111dup	ST520_p32	ssb	Ssb
+NC_008459	10807	complex	TGCC	CGCT	CGCT:18 TGCC:0	CDS	-	324/339	107/112	synonymous_variant c.321_324delGGCAinsAGCG p.LysAla107LysAla	ST520_p32	ssb	Ssb
+NC_008459	10852	complex	ACCA	CCCG	CCCG:20 ACCA:0	CDS	-	279/339	92/112	synonymous_variant c.276_279delTGGTinsCGGG p.TyrGly92TyrGly	ST520_p32	ssb	Ssb
+NC_008459	10867	snp	A	G	G:20 A:0	CDS	-	264/339	88/112	synonymous_variant c.264T>C p.Gly88Gly	ST520_p32	ssb	Ssb
+NC_008459	10882	snp	T	C	C:20 T:0	CDS	-	249/339	83/112	synonymous_variant c.249A>G p.Lys83Lys	ST520_p32	ssb	Ssb
+NC_008459	10942	snp	A	C	C:20 A:0	CDS	-	189/339	63/112	synonymous_variant c.189T>G p.Ala63Ala	ST520_p32	ssb	Ssb
+NC_008459	11035	snp	G	A	A:20 G:0	CDS	-	96/339	32/112	synonymous_variant c.96C>T p.Ala32Ala	ST520_p32	ssb	Ssb
+NC_008459	11041	snp	A	G	G:20 A:0	CDS	-	90/339	30/112	synonymous_variant c.90T>C p.Asp30Asp	ST520_p32	ssb	Ssb
+NC_008459	11113	snp	A	G	G:20 A:0	CDS	-	18/339	6/112	synonymous_variant c.18T>C p.Phe6Phe	ST520_p32	ssb	Ssb
+NC_008459	11181	snp	T	C	C:20 T:0								
+NC_008459	11231	snp	G	A	A:20 G:0								
+NC_008459	11244	snp	T	A	A:20 T:0								
+NC_008459	11407	snp	G	A	A:20 G:0	CDS	+	110/309	37/102	missense_variant c.110G>A p.Arg37Gln	ST520_p31	trbA	TrbA
+NC_008459	11420	snp	G	T	T:20 G:0	CDS	+	123/309	41/102	synonymous_variant c.123G>T p.Thr41Thr	ST520_p31	trbA	TrbA
+NC_008459	11438	snp	C	T	T:20 C:0	CDS	+	141/309	47/102	synonymous_variant c.141C>T p.Leu47Leu	ST520_p31	trbA	TrbA
+NC_008459	11477	snp	A	G	G:20 A:0	CDS	+	180/309	60/102	synonymous_variant c.180A>G p.Leu60Leu	ST520_p31	trbA	TrbA
+NC_008459	11540	snp	C	A	A:20 C:0	CDS	+	243/309	81/102	synonymous_variant c.243C>A p.Pro81Pro	ST520_p31	trbA	TrbA
+NC_008459	11580	snp	G	A	A:20 G:0	CDS	+	283/309	95/102	missense_variant c.283G>A p.Ala95Thr	ST520_p31	trbA	TrbA
+NC_008459	11627	complex	GGGGG	AGGGA	AGGGA:20 GGGGG:0								
+NC_008459	11699	ins	ACCCCGGA	ACCCCCGGA	ACCCCCGGA:20 ACCCCGGA:0								
+NC_008459	11714	snp	C	T	T:20 C:0								
+NC_008459	11741	complex	ACGGC	AGG	AGG:18 ACGGC:0								
+NC_008459	11756	del	TGCG	TG	TG:20 TGCG:0								
+NC_008459	11780	complex	TCCA	CCCC	CCCC:20 TCCA:0								
+NC_008459	11793	snp	G	C	C:20 G:0								
+NC_008459	11806	del	CGGCC	CGCC	CGCC:18 CGGCC:0								
+NC_008459	11815	complex	GCGCGCTTCTGA	TCACCCTTGTGC	TCACCCTTGTGC:18 GCGCGCTTCTGA:0								
+NC_008459	11847	snp	A	C	C:20 A:0								
+NC_008459	11885	complex	TGCAACCAGAAAGCACGAC	CGAGACGC	CGAGACGC:14 TGCAACCAGAAAGCACGAC:0								
+NC_008459	11907	complex	CC	GG	GG:14 CC:0								
+NC_008459	11919	snp	C	A	A:18 C:0								
+NC_008459	12021	snp	T	C	C:20 T:0	CDS	+	96/963	32/320	synonymous_variant c.96T>C p.Asn32Asn	ST520_p30	trbB	TrbB
+NC_008459	12095	snp	C	A	A:20 C:0	CDS	+	170/963	57/320	missense_variant c.170C>A p.Thr57Lys	ST520_p30	trbB	TrbB
+NC_008459	12210	snp	G	T	T:20 G:0	CDS	+	285/963	95/320	synonymous_variant c.285G>T p.Leu95Leu	ST520_p30	trbB	TrbB
+NC_008459	12219	snp	C	T	T:20 C:0	CDS	+	294/963	98/320	synonymous_variant c.294C>T p.Ser98Ser	ST520_p30	trbB	TrbB
+NC_008459	12281	complex	CT	GC	GC:18 CT:0	CDS	+	356/963	119/320	missense_variant c.356_357delCTinsGC p.Ala119Gly	ST520_p30	trbB	TrbB
+NC_008459	12345	complex	AGCG	GGCA	GGCA:20 AGCG:0	CDS	+	420/963	140/320	synonymous_variant c.420_423delAGCGinsGGCA p.GluAla140GluAla	ST520_p30	trbB	TrbB
+NC_008459	12384	snp	C	T	T:20 C:0	CDS	+	459/963	153/320	synonymous_variant c.459C>T p.Leu153Leu	ST520_p30	trbB	TrbB
+NC_008459	12429	snp	A	G	G:20 A:0	CDS	+	504/963	168/320	synonymous_variant c.504A>G p.Ala168Ala	ST520_p30	trbB	TrbB
+NC_008459	12536	snp	C	G	G:20 C:0	CDS	+	611/963	204/320	missense_variant c.611C>G p.Thr204Ser	ST520_p30	trbB	TrbB
+NC_008459	12606	snp	C	T	T:20 C:0	CDS	+	681/963	227/320	synonymous_variant c.681C>T p.Gly227Gly	ST520_p30	trbB	TrbB
+NC_008459	12618	snp	C	T	T:20 C:0	CDS	+	693/963	231/320	synonymous_variant c.693C>T p.Gly231Gly	ST520_p30	trbB	TrbB
+NC_008459	12903	ins	CAT	CAAT	CAAT:19 CAT:0								
+NC_008459	13134	snp	G	C	C:20 G:0	CDS	+	231/465	77/154	synonymous_variant c.231G>C p.Leu77Leu	ST520_p29	trbC	TrbC
+NC_008459	13164	snp	C	G	G:20 C:0	CDS	+	261/465	87/154	missense_variant c.261C>G p.Phe87Leu	ST520_p29	trbC	TrbC
+NC_008459	13170	snp	A	G	G:20 A:0	CDS	+	267/465	89/154	synonymous_variant c.267A>G p.Thr89Thr	ST520_p29	trbC	TrbC
+NC_008459	13196	snp	C	G	G:20 C:0	CDS	+	293/465	98/154	missense_variant c.293C>G p.Ala98Gly	ST520_p29	trbC	TrbC
+NC_008459	13370	snp	C	T	T:20 C:0								
+NC_008459	13465	complex	CTGGC	TGTGG	TGTGG:18 CTGGC:0	CDS	+	94/312	32/103	missense_variant c.94_98delCTGGCinsTGTGG p.LeuAla32CysGly	ST520_p28	trbD	TrbD
+NC_008459	13539	snp	A	G	G:20 A:0	CDS	+	168/312	56/103	synonymous_variant c.168A>G p.Ala56Ala	ST520_p28	trbD	TrbD
+NC_008459	13695	complex	ACG	GCA	GCA:20 ACG:0	CDS	+	16/2559	6/852	missense_variant c.16_18delACGinsGCA p.Thr6Ala	ST520_p27	trbE	TrbE
+NC_008459	13834	snp	T	C	C:20 T:0	CDS	+	155/2559	52/852	missense_variant c.155T>C p.Val52Ala	ST520_p27	trbE	TrbE
+NC_008459	14065	snp	G	C	C:20 G:0	CDS	+	386/2559	129/852	missense_variant c.386G>C p.Cys129Ser	ST520_p27	trbE	TrbE
+NC_008459	14316	snp	C	G	G:20 C:0	CDS	+	637/2559	213/852	missense_variant c.637C>G p.Arg213Gly	ST520_p27	trbE	TrbE
+NC_008459	14441	complex	GGAC	CGAT	CGAT:20 GGAC:0	CDS	+	762/2559	254/852	synonymous_variant c.762_765delGGACinsCGAT p.LeuAsp254LeuAsp	ST520_p27	trbE	TrbE
+NC_008459	14450	snp	T	A	A:20 T:0	CDS	+	771/2559	257/852	synonymous_variant c.771T>A p.Val257Val	ST520_p27	trbE	TrbE
+NC_008459	14456	snp	T	C	C:20 T:0	CDS	+	777/2559	259/852	synonymous_variant c.777T>C p.Gly259Gly	ST520_p27	trbE	TrbE
+NC_008459	14474	complex	TGGGGTA	CGGCGTC	CGGCGTC:18 TGGGGTA:0	CDS	+	795/2559	265/852	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal	ST520_p27	trbE	TrbE
+NC_008459	14489	snp	A	G	G:20 A:0	CDS	+	810/2559	270/852	synonymous_variant c.810A>G p.Lys270Lys	ST520_p27	trbE	TrbE
+NC_008459	14495	snp	C	G	G:20 C:0	CDS	+	816/2559	272/852	synonymous_variant c.816C>G p.Gly272Gly	ST520_p27	trbE	TrbE
+NC_008459	14507	snp	T	C	C:20 T:0	CDS	+	828/2559	276/852	synonymous_variant c.828T>C p.Ile276Ile	ST520_p27	trbE	TrbE
+NC_008459	14528	snp	T	C	C:20 T:0	CDS	+	849/2559	283/852	synonymous_variant c.849T>C p.Gly283Gly	ST520_p27	trbE	TrbE
+NC_008459	14546	snp	C	G	G:20 C:0	CDS	+	867/2559	289/852	synonymous_variant c.867C>G p.Thr289Thr	ST520_p27	trbE	TrbE
+NC_008459	14553	complex	ATT	GTG	GTG:18 ATT:0	CDS	+	874/2559	292/852	missense_variant c.874_876delATTinsGTG p.Ile292Val	ST520_p27	trbE	TrbE
+NC_008459	14567	snp	A	G	G:20 A:0	CDS	+	888/2559	296/852	synonymous_variant c.888A>G p.Leu296Leu	ST520_p27	trbE	TrbE
+NC_008459	14573	snp	A	G	G:20 A:0	CDS	+	894/2559	298/852	synonymous_variant c.894A>G p.Glu298Glu	ST520_p27	trbE	TrbE
+NC_008459	14579	complex	TTGT	CAGC	CAGC:18 TTGT:0	CDS	+	900/2559	300/852	missense_variant c.900_903delTTGTinsCAGC p.ProCys300ProSer	ST520_p27	trbE	TrbE
+NC_008459	14588	snp	T	C	C:20 T:0	CDS	+	909/2559	303/852	synonymous_variant c.909T>C p.Tyr303Tyr	ST520_p27	trbE	TrbE
+NC_008459	14603	snp	G	C	C:20 G:0	CDS	+	924/2559	308/852	synonymous_variant c.924G>C p.Arg308Arg	ST520_p27	trbE	TrbE
+NC_008459	14630	snp	T	C	C:20 T:0	CDS	+	951/2559	317/852	synonymous_variant c.951T>C p.Ser317Ser	ST520_p27	trbE	TrbE
+NC_008459	14664	complex	CG	AA	AA:17 CG:0	CDS	+	985/2559	329/852	missense_variant c.985_986delCGinsAA p.Arg329Lys	ST520_p27	trbE	TrbE
+NC_008459	14673	snp	G	A	A:17 G:0	CDS	+	994/2559	332/852	missense_variant c.994G>A p.Val332Ile	ST520_p27	trbE	TrbE
+NC_008459	14684	snp	T	C	C:15 T:0	CDS	+	1005/2559	335/852	synonymous_variant c.1005T>C p.Phe335Phe	ST520_p27	trbE	TrbE
+NC_008459	14696	snp	T	G	G:15 T:0	CDS	+	1017/2559	339/852	synonymous_variant c.1017T>G p.Val339Val	ST520_p27	trbE	TrbE
+NC_008459	14705	complex	CAAC	GAAT	GAAT:13 CAAC:0	CDS	+	1026/2559	342/852	synonymous_variant c.1026_1029delCAACinsGAAT p.ThrAsn342ThrAsn	ST520_p27	trbE	TrbE
+NC_008459	14714	complex	CC	GT	GT:13 CC:0	CDS	+	1035/2559	345/852	missense_variant c.1035_1036delCCinsGT p.GlyPro345GlySer	ST520_p27	trbE	TrbE
+NC_008459	14729	snp	T	C	C:13 T:0	CDS	+	1050/2559	350/852	synonymous_variant c.1050T>C p.Asp350Asp	ST520_p27	trbE	TrbE
+NC_008459	14784	snp	C	T	T:10 C:0	CDS	+	1105/2559	369/852	synonymous_variant c.1105C>T p.Leu369Leu	ST520_p27	trbE	TrbE
+NC_008459	14789	complex	TGCA	GGCG	GGCG:10 TGCA:0	CDS	+	1110/2559	370/852	synonymous_variant c.1110_1113delTGCAinsGGCG p.ValAla370ValAla	ST520_p27	trbE	TrbE
+NC_008459	14801	snp	T	C	C:11 T:0	CDS	+	1122/2559	374/852	synonymous_variant c.1122T>C p.Tyr374Tyr	ST520_p27	trbE	TrbE
+NC_008459	14876	complex	AA	CG	CG:10 AA:0	CDS	+	1197/2559	399/852	missense_variant c.1197_1198delAAinsCG p.AlaIle399AlaVal	ST520_p27	trbE	TrbE
+NC_008459	14886	snp	T	C	C:12 T:0	CDS	+	1207/2559	403/852	synonymous_variant c.1207T>C p.Leu403Leu	ST520_p27	trbE	TrbE
+NC_008459	14895	snp	A	G	G:12 A:0	CDS	+	1216/2559	406/852	missense_variant c.1216A>G p.Thr406Ala	ST520_p27	trbE	TrbE
+NC_008459	14900	complex	TCGC	CCGT	CCGT:12 TCGC:0	CDS	+	1221/2559	407/852	synonymous_variant c.1221_1224delTCGCinsCCGT p.AlaArg407AlaArg	ST520_p27	trbE	TrbE
+NC_008459	14924	snp	A	C	C:14 A:0	CDS	+	1245/2559	415/852	synonymous_variant c.1245A>C p.Leu415Leu	ST520_p27	trbE	TrbE
+NC_008459	14930	snp	C	G	G:14 C:0	CDS	+	1251/2559	417/852	synonymous_variant c.1251C>G p.Ala417Ala	ST520_p27	trbE	TrbE
+NC_008459	14939	complex	AAGTC	CAGCT	CAGCT:16 AAGTC:0	CDS	+	1260/2559	420/852	synonymous_variant c.1260_1264delAAGTCinsCAGCT p.GlySerLeu420GlySerLeu	ST520_p27	trbE	TrbE
+NC_008459	14948	snp	G	C	C:16 G:0	CDS	+	1269/2559	423/852	synonymous_variant c.1269G>C p.Pro423Pro	ST520_p27	trbE	TrbE
+NC_008459	14960	snp	T	C	C:18 T:0	CDS	+	1281/2559	427/852	synonymous_variant c.1281T>C p.Val427Val	ST520_p27	trbE	TrbE
+NC_008459	15110	snp	T	G	G:20 T:0	CDS	+	1431/2559	477/852	synonymous_variant c.1431T>G p.Thr477Thr	ST520_p27	trbE	TrbE
+NC_008459	15152	snp	G	C	C:20 G:0	CDS	+	1473/2559	491/852	synonymous_variant c.1473G>C p.Thr491Thr	ST520_p27	trbE	TrbE
+NC_008459	15272	snp	G	A	A:20 G:0	CDS	+	1593/2559	531/852	synonymous_variant c.1593G>A p.Pro531Pro	ST520_p27	trbE	TrbE
+NC_008459	15559	snp	C	G	G:20 C:0	CDS	+	1880/2559	627/852	missense_variant c.1880C>G p.Ala627Gly	ST520_p27	trbE	TrbE
+NC_008459	15618	snp	A	G	G:20 A:0	CDS	+	1939/2559	647/852	missense_variant c.1939A>G p.Ser647Gly	ST520_p27	trbE	TrbE
+NC_008459	15748	snp	C	T	T:20 C:0	CDS	+	2069/2559	690/852	missense_variant c.2069C>T p.Ala690Val	ST520_p27	trbE	TrbE
+NC_008459	16022	snp	C	T	T:20 C:0	CDS	+	2343/2559	781/852	synonymous_variant c.2343C>T p.Thr781Thr	ST520_p27	trbE	TrbE
+NC_008459	16034	snp	A	G	G:20 A:0	CDS	+	2355/2559	785/852	synonymous_variant c.2355A>G p.Lys785Lys	ST520_p27	trbE	TrbE
+NC_008459	16198	snp	G	C	C:20 G:0	CDS	+	2519/2559	840/852	missense_variant c.2519G>C p.Gly840Ala	ST520_p27	trbE	TrbE
+NC_008459	16230	snp	G	A	A:20 G:0	CDS	+	2551/2559	851/852	missense_variant c.2551G>A p.Ala851Thr	ST520_p27	trbE	TrbE
+NC_008459	16400	snp	C	G	G:20 C:0	CDS	+	166/783	56/260	missense_variant c.166C>G p.Arg56Gly	ST520_p26	trbF	TrbF
+NC_008459	16567	snp	A	G	G:20 A:0	CDS	+	333/783	111/260	synonymous_variant c.333A>G p.Val111Val	ST520_p26	trbF	TrbF
+NC_008459	16683	snp	T	C	C:20 T:0	CDS	+	449/783	150/260	missense_variant c.449T>C p.Val150Ala	ST520_p26	trbF	TrbF
+NC_008459	16694	snp	C	T	T:20 C:0	CDS	+	460/783	154/260	missense_variant c.460C>T p.Leu154Phe	ST520_p26	trbF	TrbF
+NC_008459	16883	snp	A	G	G:20 A:0	CDS	+	649/783	217/260	missense_variant c.649A>G p.Ser217Gly	ST520_p26	trbF	TrbF
+NC_008459	17094	snp	C	T	T:20 C:0	CDS	+	81/921	27/306	synonymous_variant c.81C>T p.Ala27Ala	ST520_p25	trbG	TrbG
+NC_008459	17109	snp	C	G	G:20 C:0	CDS	+	96/921	32/306	synonymous_variant c.96C>G p.Gly32Gly	ST520_p25	trbG	TrbG
+NC_008459	17214	snp	C	G	G:20 C:0	CDS	+	201/921	67/306	synonymous_variant c.201C>G p.Thr67Thr	ST520_p25	trbG	TrbG
+NC_008459	17238	snp	A	G	G:20 A:0	CDS	+	225/921	75/306	synonymous_variant c.225A>G p.Ser75Ser	ST520_p25	trbG	TrbG
+NC_008459	17265	snp	C	T	T:20 C:0	CDS	+	252/921	84/306	synonymous_variant c.252C>T p.Gly84Gly	ST520_p25	trbG	TrbG
+NC_008459	17347	snp	C	A	A:20 C:0	CDS	+	334/921	112/306	missense_variant c.334C>A p.His112Asn	ST520_p25	trbG	TrbG
+NC_008459	17460	snp	G	A	A:20 G:0	CDS	+	447/921	149/306	synonymous_variant c.447G>A p.Leu149Leu	ST520_p25	trbG	TrbG
+NC_008459	17468	snp	C	T	T:20 C:0	CDS	+	455/921	152/306	missense_variant c.455C>T p.Thr152Ile	ST520_p25	trbG	TrbG
+NC_008459	17621	snp	C	T	T:20 C:0	CDS	+	608/921	203/306	missense_variant c.608C>T p.Ala203Val	ST520_p25	trbG	TrbG
+NC_008459	18057	snp	G	A	A:20 G:0	CDS	+	121/465	41/154	missense_variant c.121G>A p.Ala41Thr	ST520_p24	trbH	TrbH
+NC_008459	18082	snp	T	C	C:20 T:0	CDS	+	146/465	49/154	missense_variant c.146T>C p.Met49Thr	ST520_p24	trbH	TrbH
+NC_008459	18158	snp	G	T	T:20 G:0	CDS	+	222/465	74/154	missense_variant c.222G>T p.Lys74Asn	ST520_p24	trbH	TrbH
+NC_008459	18247	snp	T	C	C:20 T:0	CDS	+	311/465	104/154	missense_variant c.311T>C p.Leu104Ser	ST520_p24	trbH	TrbH
+NC_008459	18371	snp	C	G	G:20 C:0	CDS	+	435/465	145/154	synonymous_variant c.435C>G p.Ala145Ala	ST520_p24	trbH	TrbH
+NC_008459	18403	snp	A	G	G:20 A:0								
+NC_008459	18564	snp	A	G	G:20 A:0	CDS	+	159/1413	53/470	synonymous_variant c.159A>G p.Ala53Ala	ST520_p23	TrbI	trbI
+NC_008459	18579	snp	A	G	G:18 A:0	CDS	+	174/1413	58/470	synonymous_variant c.174A>G p.Ala58Ala	ST520_p23	TrbI	trbI
+NC_008459	18584	complex	TAGAA	CGGAC	CGGAC:16 TAGAA:0	CDS	+	179/1413	60/470	missense_variant c.179_183delTAGAAinsCGGAC p.ValGlu60AlaAsp	ST520_p23	TrbI	trbI
+NC_008459	18594	snp	G	C	C:18 G:0	CDS	+	189/1413	63/470	synonymous_variant c.189G>C p.Pro63Pro	ST520_p23	TrbI	trbI
+NC_008459	18603	complex	AGCA	GGCC	GGCC:18 AGCA:0	CDS	+	198/1413	66/470	synonymous_variant c.198_201delAGCAinsGGCC p.LysAla66LysAla	ST520_p23	TrbI	trbI
+NC_008459	18639	snp	G	A	A:20 G:0	CDS	+	234/1413	78/470	synonymous_variant c.234G>A p.Ala78Ala	ST520_p23	TrbI	trbI
+NC_008459	18652	snp	A	G	G:20 A:0	CDS	+	247/1413	83/470	missense_variant c.247A>G p.Ser83Gly	ST520_p23	TrbI	trbI
+NC_008459	18658	complex	CTA	TTG	TTG:18 CTA:0	CDS	+	253/1413	85/470	synonymous_variant c.253_255delCTAinsTTG p.Leu85Leu	ST520_p23	TrbI	trbI
+NC_008459	18666	snp	A	G	G:20 A:0	CDS	+	261/1413	87/470	synonymous_variant c.261A>G p.Glu87Glu	ST520_p23	TrbI	trbI
+NC_008459	18673	snp	C	A	A:20 C:0	CDS	+	268/1413	90/470	missense_variant c.268C>A p.Arg90Ser	ST520_p23	TrbI	trbI
+NC_008459	18682	snp	C	A	A:20 C:0	CDS	+	277/1413	93/470	missense_variant c.277C>A p.Gln93Lys	ST520_p23	TrbI	trbI
+NC_008459	18704	snp	A	G	G:20 A:0	CDS	+	299/1413	100/470	missense_variant c.299A>G p.Asp100Gly	ST520_p23	TrbI	trbI
+NC_008459	18717	snp	C	T	T:20 C:0	CDS	+	312/1413	104/470	synonymous_variant c.312C>T p.Ala104Ala	ST520_p23	TrbI	trbI
+NC_008459	18750	snp	C	A	A:20 C:0	CDS	+	345/1413	115/470	missense_variant c.345C>A p.Asp115Glu	ST520_p23	TrbI	trbI
+NC_008459	18760	complex	CTA	GCC	GCC:18 CTA:0	CDS	+	355/1413	119/470	missense_variant c.355_357delCTAinsGCC p.Leu119Ala	ST520_p23	TrbI	trbI
+NC_008459	18768	snp	A	G	G:20 A:0	CDS	+	363/1413	121/470	synonymous_variant c.363A>G p.Pro121Pro	ST520_p23	TrbI	trbI
+NC_008459	18878	snp	C	G	G:20 C:0	CDS	+	473/1413	158/470	missense_variant c.473C>G p.Ala158Gly	ST520_p23	TrbI	trbI
+NC_008459	18948	snp	G	A	A:20 G:0	CDS	+	543/1413	181/470	synonymous_variant c.543G>A p.Glu181Glu	ST520_p23	TrbI	trbI
+NC_008459	18984	snp	C	T	T:20 C:0	CDS	+	579/1413	193/470	synonymous_variant c.579C>T p.Ile193Ile	ST520_p23	TrbI	trbI
+NC_008459	19089	snp	C	T	T:20 C:0	CDS	+	684/1413	228/470	synonymous_variant c.684C>T p.Gly228Gly	ST520_p23	TrbI	trbI
+NC_008459	19135	complex	AGC	GGT	GGT:20 AGC:0	CDS	+	730/1413	244/470	missense_variant c.730_732delAGCinsGGT p.Ser244Gly	ST520_p23	TrbI	trbI
+NC_008459	19143	snp	C	G	G:20 C:0	CDS	+	738/1413	246/470	synonymous_variant c.738C>G p.Gly246Gly	ST520_p23	TrbI	trbI
+NC_008459	19170	snp	G	A	A:20 G:0	CDS	+	765/1413	255/470	synonymous_variant c.765G>A p.Gln255Gln	ST520_p23	TrbI	trbI
+NC_008459	19224	snp	G	A	A:20 G:0	CDS	+	819/1413	273/470	synonymous_variant c.819G>A p.Thr273Thr	ST520_p23	TrbI	trbI
+NC_008459	19326	snp	A	G	G:20 A:0	CDS	+	921/1413	307/470	synonymous_variant c.921A>G p.Val307Val	ST520_p23	TrbI	trbI
+NC_008459	19335	snp	G	A	A:20 G:0	CDS	+	930/1413	310/470	synonymous_variant c.930G>A p.Thr310Thr	ST520_p23	TrbI	trbI
+NC_008459	19350	snp	T	C	C:20 T:0	CDS	+	945/1413	315/470	synonymous_variant c.945T>C p.His315His	ST520_p23	TrbI	trbI
+NC_008459	19359	snp	T	C	C:20 T:0	CDS	+	954/1413	318/470	synonymous_variant c.954T>C p.Ile318Ile	ST520_p23	TrbI	trbI
+NC_008459	19368	snp	C	A	A:20 C:0	CDS	+	963/1413	321/470	synonymous_variant c.963C>A p.Gly321Gly	ST520_p23	TrbI	trbI
+NC_008459	19377	snp	T	C	C:20 T:0	CDS	+	972/1413	324/470	synonymous_variant c.972T>C p.Leu324Leu	ST520_p23	TrbI	trbI
+NC_008459	19386	snp	C	G	G:20 C:0	CDS	+	981/1413	327/470	synonymous_variant c.981C>G p.Ser327Ser	ST520_p23	TrbI	trbI
+NC_008459	19398	snp	T	C	C:20 T:0	CDS	+	993/1413	331/470	synonymous_variant c.993T>C p.Asp331Asp	ST520_p23	TrbI	trbI
+NC_008459	19413	complex	GGCC	AGCG	AGCG:20 GGCC:0	CDS	+	1008/1413	336/470	synonymous_variant c.1008_1011delGGCCinsAGCG p.GlnAla336GlnAla	ST520_p23	TrbI	trbI
+NC_008459	19437	snp	G	A	A:20 G:0	CDS	+	1032/1413	344/470	synonymous_variant c.1032G>A p.Gln344Gln	ST520_p23	TrbI	trbI
+NC_008459	19581	complex	GGCT	AGCA	AGCA:20 GGCT:0	CDS	+	1176/1413	392/470	synonymous_variant c.1176_1179delGGCTinsAGCA p.ThrAla392ThrAla	ST520_p23	TrbI	trbI
+NC_008459	19791	snp	A	C	C:20 A:0	CDS	+	1386/1413	462/470	synonymous_variant c.1386A>C p.Ser462Ser	ST520_p23	TrbI	trbI
+NC_008459	19919	snp	G	T	T:20 G:0	CDS	+	81/765	27/254	synonymous_variant c.81G>T p.Ala27Ala	ST520_p22	trbJ	TrbJ
+NC_008459	19988	snp	G	A	A:16 G:0	CDS	+	150/765	50/254	synonymous_variant c.150G>A p.Gln50Gln	ST520_p22	trbJ	TrbJ
+NC_008459	20603	complex	AGGA	AGGGG	AGGGG:19 AGGA:0	CDS	+			variant did not have ANN annotation	ST520_p22	trbJ	TrbJ
+NC_008459	20664	snp	C	T	T:20 C:0	CDS	+	52/228	18/75	synonymous_variant c.52C>T p.Leu18Leu	ST520_p21	trbK	TrbK
+NC_008459	20711	snp	G	A	A:20 G:0	CDS	+	99/228	33/75	synonymous_variant c.99G>A p.Glu33Glu	ST520_p21	trbK	TrbK
+NC_008459	20725	snp	A	G	G:20 A:0	CDS	+	113/228	38/75	missense_variant c.113A>G p.Asn38Ser	ST520_p21	trbK	TrbK
+NC_008459	20765	snp	G	C	C:20 G:0	CDS	+	153/228	51/75	synonymous_variant c.153G>C p.Gly51Gly	ST520_p21	trbK	TrbK
+NC_008459	20780	snp	C	T	T:20 C:0	CDS	+	168/228	56/75	synonymous_variant c.168C>T p.Phe56Phe	ST520_p21	trbK	TrbK
+NC_008459	20825	snp	A	G	G:20 A:0	CDS	+	213/228	71/75	synonymous_variant c.213A>G p.Pro71Pro	ST520_p21	trbK	TrbK
+NC_008459	20980	snp	T	A	A:20 T:0	CDS	+	130/1590	44/529	missense_variant c.130T>A p.Ser44Thr	ST520_p20	trbL	TrbL
+NC_008459	20985	snp	A	C	C:20 A:0	CDS	+	135/1590	45/529	synonymous_variant c.135A>C p.Ala45Ala	ST520_p20	trbL	TrbL
+NC_008459	21102	snp	G	C	C:20 G:0	CDS	+	252/1590	84/529	synonymous_variant c.252G>C p.Gly84Gly	ST520_p20	trbL	TrbL
+NC_008459	21243	snp	G	T	T:20 G:0	CDS	+	393/1590	131/529	synonymous_variant c.393G>T p.Ala131Ala	ST520_p20	trbL	TrbL
+NC_008459	21279	snp	A	G	G:20 A:0	CDS	+	429/1590	143/529	synonymous_variant c.429A>G p.Ala143Ala	ST520_p20	trbL	TrbL
+NC_008459	21363	snp	A	G	G:20 A:0	CDS	+	513/1590	171/529	synonymous_variant c.513A>G p.Leu171Leu	ST520_p20	trbL	TrbL
+NC_008459	21381	snp	T	C	C:20 T:0	CDS	+	531/1590	177/529	synonymous_variant c.531T>C p.Val177Val	ST520_p20	trbL	TrbL
+NC_008459	21387	complex	CAAC	GAAT	GAAT:20 CAAC:0	CDS	+	537/1590	179/529	synonymous_variant c.537_540delCAACinsGAAT p.ValAsn179ValAsn	ST520_p20	trbL	TrbL
+NC_008459	21456	snp	C	T	T:20 C:0	CDS	+	606/1590	202/529	synonymous_variant c.606C>T p.Gly202Gly	ST520_p20	trbL	TrbL
+NC_008459	21699	snp	T	G	G:20 T:0	CDS	+	849/1590	283/529	synonymous_variant c.849T>G p.Ala283Ala	ST520_p20	trbL	TrbL
+NC_008459	21705	snp	T	G	G:20 T:0	CDS	+	855/1590	285/529	synonymous_variant c.855T>G p.Val285Val	ST520_p20	trbL	TrbL
+NC_008459	21745	snp	C	T	T:20 C:0	CDS	+	895/1590	299/529	synonymous_variant c.895C>T p.Leu299Leu	ST520_p20	trbL	TrbL
+NC_008459	21777	snp	G	C	C:20 G:0	CDS	+	927/1590	309/529	synonymous_variant c.927G>C p.Ala309Ala	ST520_p20	trbL	TrbL
+NC_008459	21792	snp	T	C	C:20 T:0	CDS	+	942/1590	314/529	synonymous_variant c.942T>C p.Ala314Ala	ST520_p20	trbL	TrbL
+NC_008459	21825	snp	C	T	T:20 C:0	CDS	+	975/1590	325/529	synonymous_variant c.975C>T p.Gly325Gly	ST520_p20	trbL	TrbL
+NC_008459	21837	snp	T	C	C:20 T:0	CDS	+	987/1590	329/529	synonymous_variant c.987T>C p.Ala329Ala	ST520_p20	trbL	TrbL
+NC_008459	21846	snp	T	C	C:20 T:0	CDS	+	996/1590	332/529	synonymous_variant c.996T>C p.Ala332Ala	ST520_p20	trbL	TrbL
+NC_008459	21867	snp	A	G	G:20 A:0	CDS	+	1017/1590	339/529	synonymous_variant c.1017A>G p.Glu339Glu	ST520_p20	trbL	TrbL
+NC_008459	21932	complex	CA	CGGGC	CGGGC:18 CA:0	CDS	+	1083/1590	361/529	synonymous_variant&conservative_inframe_insertion c.1083delAinsGGGC p.Ala361dup	ST520_p20	trbL	TrbL
+NC_008459	21959	snp	A	G	G:20 A:0	CDS	+	1109/1590	370/529	missense_variant c.1109A>G p.Asn370Ser	ST520_p20	trbL	TrbL
+NC_008459	22014	snp	T	G	G:20 T:0	CDS	+	1164/1590	388/529	synonymous_variant c.1164T>G p.Ser388Ser	ST520_p20	trbL	TrbL
+NC_008459	22059	ins	GAAGG	GAAGGGCGGCGATAAGG	GAAGGGCGGCGATAAGG:13 GAAGG:1	CDS	+	1220/1590	407/529	disruptive_inframe_insertion c.1219_1220insATAAGGGCGGCG p.Gly406_Gly407insAspLysGlyGly	ST520_p20	trbL	TrbL
+NC_008459	22134	snp	A	C	C:16 A:0	CDS	+	1284/1590	428/529	missense_variant c.1284A>C p.Arg428Ser	ST520_p20	trbL	TrbL
+NC_008459	22147	snp	C	T	T:18 C:0	CDS	+	1297/1590	433/529	synonymous_variant c.1297C>T p.Leu433Leu	ST520_p20	trbL	TrbL
+NC_008459	22164	snp	C	A	A:18 C:0	CDS	+	1314/1590	438/529	synonymous_variant c.1314C>A p.Ala438Ala	ST520_p20	trbL	TrbL
+NC_008459	22170	snp	G	C	C:20 G:0	CDS	+	1320/1590	440/529	synonymous_variant c.1320G>C p.Ala440Ala	ST520_p20	trbL	TrbL
+NC_008459	22184	ins	GCG	GCCG	GCCG:20 GCG:0	CDS	+	1336/1590	446/529	frameshift_variant c.1335dupC p.Ala446fs	ST520_p20	trbL	TrbL
+NC_008459	22247	snp	G	A	A:20 G:0	CDS	+	1397/1590	466/529	missense_variant c.1397G>A p.Arg466Lys	ST520_p20	trbL	TrbL
+NC_008459	22268	complex	AGCC	CGCA	CGCA:19 AGCC:0	CDS	+	1418/1590	473/529	missense_variant c.1418_1421delAGCCinsCGCA p.GlnPro473ProGln	ST520_p20	trbL	TrbL
+NC_008459	22277	snp	A	G	G:20 A:0	CDS	+	1427/1590	476/529	missense_variant c.1427A>G p.Asn476Ser	ST520_p20	trbL	TrbL
+NC_008459	22289	snp	A	C	C:20 A:0	CDS	+	1439/1590	480/529	missense_variant c.1439A>C p.Lys480Thr	ST520_p20	trbL	TrbL
+NC_008459	22295	snp	C	T	T:20 C:0	CDS	+	1445/1590	482/529	missense_variant c.1445C>T p.Pro482Leu	ST520_p20	trbL	TrbL
+NC_008459	22397	snp	C	G	G:20 C:0	CDS	+	1547/1590	516/529	missense_variant c.1547C>G p.Ala516Gly	ST520_p20	trbL	TrbL
+NC_008459	22410	snp	G	C	C:20 G:0	CDS	+	1560/1590	520/529	synonymous_variant c.1560G>C p.Ala520Ala	ST520_p20	trbL	TrbL
+NC_008459	22522	complex	CGTCCTT	TGCCCTG	TGCCCTG:20 CGTCCTT:0	CDS	+	18/588	6/195	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu	ST520_p19	trbM	TrbM
+NC_008459	22543	snp	G	A	A:20 G:0	CDS	+	39/588	13/195	synonymous_variant c.39G>A p.Ala13Ala	ST520_p19	trbM	TrbM
+NC_008459	22660	snp	C	G	G:20 C:0	CDS	+	156/588	52/195	synonymous_variant c.156C>G p.Thr52Thr	ST520_p19	trbM	TrbM
+NC_008459	22702	snp	C	G	G:20 C:0	CDS	+	198/588	66/195	synonymous_variant c.198C>G p.Leu66Leu	ST520_p19	trbM	TrbM
+NC_008459	22756	snp	T	C	C:20 T:0	CDS	+	252/588	84/195	synonymous_variant c.252T>C p.Ser84Ser	ST520_p19	trbM	TrbM
+NC_008459	22774	snp	A	G	G:20 A:0	CDS	+	270/588	90/195	synonymous_variant c.270A>G p.Gln90Gln	ST520_p19	trbM	TrbM
+NC_008459	22987	snp	T	C	C:20 T:0	CDS	+	483/588	161/195	synonymous_variant c.483T>C p.Gly161Gly	ST520_p19	trbM	TrbM
+NC_008459	23024	snp	C	T	T:20 C:0	CDS	+	520/588	174/195	synonymous_variant c.520C>T p.Leu174Leu	ST520_p19	trbM	TrbM
+NC_008459	23111	snp	A	G	G:20 A:0	CDS	+	6/636	2/211	synonymous_variant c.6A>G p.Pro2Pro	ST520_p18	trbN	TrbN
+NC_008459	23225	snp	T	C	C:20 T:0	CDS	+	120/636	40/211	synonymous_variant c.120T>C p.Gly40Gly	ST520_p18	trbN	TrbN
+NC_008459	23231	snp	A	G	G:20 A:0	CDS	+	126/636	42/211	synonymous_variant c.126A>G p.Lys42Lys	ST520_p18	trbN	TrbN
+NC_008459	23569	snp	C	T	T:20 C:0	CDS	+	464/636	155/211	missense_variant c.464C>T p.Ser155Leu	ST520_p18	trbN	TrbN
+NC_008459	23581	snp	C	A	A:20 C:0	CDS	+	476/636	159/211	missense_variant c.476C>A p.Pro159Gln	ST520_p18	trbN	TrbN
+NC_008459	23618	snp	T	C	C:20 T:0	CDS	+	513/636	171/211	synonymous_variant c.513T>C p.Ala171Ala	ST520_p18	trbN	TrbN
+NC_008459	23679	snp	A	G	G:20 A:0	CDS	+	574/636	192/211	missense_variant c.574A>G p.Met192Val	ST520_p18	trbN	TrbN
+NC_008459	23742	complex	GCCGGCT	CCCCT	CCCCT:18 GCCGGCT:0								
+NC_008459	23756	snp	T	A	A:20 T:0								
+NC_008459	23802	snp	C	T	T:20 C:0	CDS	+	33/267	11/88	synonymous_variant c.33C>T p.Tyr11Tyr	ST520_p17	trbO	TrbO
+NC_008459	23853	snp	G	A	A:20 G:0	CDS	+	84/267	28/88	synonymous_variant c.84G>A p.Gly28Gly	ST520_p17	trbO	TrbO
+NC_008459	23976	snp	C	A	A:20 C:0	CDS	+	207/267	69/88	synonymous_variant c.207C>A p.Pro69Pro	ST520_p17	trbO	TrbO
+NC_008459	24217	complex	CG	GC	GC:18 CG:0	CDS	+	182/699	61/232	missense_variant c.182_183delCGinsGC p.Pro61Arg	ST520_p16	trbP	TrbP
+NC_008459	24462	snp	T	C	C:20 T:0	CDS	+	427/699	143/232	missense_variant c.427T>C p.Ser143Pro	ST520_p16	trbP	TrbP
+NC_008459	24524	snp	A	G	G:20 A:0	CDS	+	489/699	163/232	synonymous_variant c.489A>G p.Ala163Ala	ST520_p16	trbP	TrbP
+NC_008459	24743	snp	A	C	C:20 A:0								
+NC_008459	24793	snp	G	T	T:20 G:0	CDS	+	44/432	15/143	missense_variant c.44G>T p.Gly15Val	ST520_p14	upf30.5	Upf30.5
+NC_008459	24812	del	GGCCGCCGG	GGCCGG	GGCCGG:18 GGCCGCCGG:0	CDS	+	68/432	23/143	disruptive_inframe_deletion c.68_70delCCG p.Ala23del	ST520_p14	upf30.5	Upf30.5
+NC_008459	25061	snp	A	G	G:20 A:0	CDS	+	312/432	104/143	synonymous_variant c.312A>G p.Pro104Pro	ST520_p14	upf30.5	Upf30.5
+NC_008459	25243	complex	CT	GC	GC:18 CT:0								
+NC_008459	25249	snp	G	A	A:20 G:0								
+NC_008459	25254	snp	A	G	G:20 A:0								
+NC_008459	25299	complex	GA	TG	TG:19 GA:0								
+NC_008459	25368	snp	T	C	C:20 T:0	CDS	+	33/675	11/224	synonymous_variant c.33T>C p.Gly11Gly	ST520_p13	upf31.0	Upf31.0
+NC_008459	25426	snp	T	C	C:20 T:0	CDS	+	91/675	31/224	synonymous_variant c.91T>C p.Leu31Leu	ST520_p13	upf31.0	Upf31.0
+NC_008459	25437	snp	T	C	C:20 T:0	CDS	+	102/675	34/224	synonymous_variant c.102T>C p.Gly34Gly	ST520_p13	upf31.0	Upf31.0
+NC_008459	25458	snp	C	G	G:20 C:0	CDS	+	123/675	41/224	synonymous_variant c.123C>G p.Arg41Arg	ST520_p13	upf31.0	Upf31.0
+NC_008459	25474	snp	A	G	G:19 A:0	CDS	+	139/675	47/224	missense_variant c.139A>G p.Ile47Val	ST520_p13	upf31.0	Upf31.0
+NC_008459	25479	complex	TATTGACA	CATCGACG	CATCGACG:19 TATTGACA:0	CDS	+	144/675	48/224	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal	ST520_p13	upf31.0	Upf31.0
+NC_008459	25497	snp	A	G	G:20 A:0	CDS	+	162/675	54/224	synonymous_variant c.162A>G p.Glu54Glu	ST520_p13	upf31.0	Upf31.0
+NC_008459	25509	snp	T	C	C:20 T:0	CDS	+	174/675	58/224	synonymous_variant c.174T>C p.Val58Val	ST520_p13	upf31.0	Upf31.0
+NC_008459	25514	snp	G	A	A:20 G:0	CDS	+	179/675	60/224	missense_variant c.179G>A p.Arg60Gln	ST520_p13	upf31.0	Upf31.0
+NC_008459	25543	snp	T	C	C:20 T:0	CDS	+	208/675	70/224	missense_variant c.208T>C p.Tyr70His	ST520_p13	upf31.0	Upf31.0
+NC_008459	25562	complex	ATTGGT	CCTGGC	CCTGGC:18 ATTGGT:0	CDS	+	227/675	76/224	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu	ST520_p13	upf31.0	Upf31.0
+NC_008459	25605	snp	T	C	C:20 T:0	CDS	+	270/675	90/224	synonymous_variant c.270T>C p.Tyr90Tyr	ST520_p13	upf31.0	Upf31.0
+NC_008459	25632	snp	T	C	C:20 T:0	CDS	+	297/675	99/224	synonymous_variant c.297T>C p.Ser99Ser	ST520_p13	upf31.0	Upf31.0
+NC_008459	25650	snp	G	A	A:20 G:0	CDS	+	315/675	105/224	synonymous_variant c.315G>A p.Leu105Leu	ST520_p13	upf31.0	Upf31.0
+NC_008459	25657	snp	T	C	C:20 T:0	CDS	+	322/675	108/224	missense_variant c.322T>C p.Tyr108His	ST520_p13	upf31.0	Upf31.0
+NC_008459	25695	snp	T	C	C:20 T:0	CDS	+	360/675	120/224	synonymous_variant c.360T>C p.Asp120Asp	ST520_p13	upf31.0	Upf31.0
+NC_008459	25705	snp	C	G	G:20 C:0	CDS	+	370/675	124/224	missense_variant c.370C>G p.Arg124Gly	ST520_p13	upf31.0	Upf31.0
+NC_008459	27739	snp	G	C	C:17 G:0	CDS	-	4008/4545	1336/1514	synonymous_variant c.4008C>G p.Ser1336Ser	ST520_p36	traC	TraC
+NC_008459	27760	complex	TGCG	GGCC	GGCC:18 TGCG:0	CDS	-	3987/4545	1328/1514	synonymous_variant c.3984_3987delCGCAinsGGCC p.AlaAla1328AlaAla	ST520_p36	traC	TraC
+NC_008459	27769	complex	CGCA	GGCG	GGCG:18 CGCA:0	CDS	-	3978/4545	1325/1514	synonymous_variant c.3975_3978delTGCGinsCGCC p.AspAla1325AspAla	ST520_p36	traC	TraC
+NC_008459	27811	complex	GCT	CGA	CGA:20 GCT:0	CDS	-	3936/4545	1312/1514	synonymous_variant c.3934_3936delAGCinsTCG p.Ser1312Ser	ST520_p36	traC	TraC
+NC_008459	27832	snp	G	A	A:20 G:0	CDS	-	3915/4545	1305/1514	synonymous_variant c.3915C>T p.Thr1305Thr	ST520_p36	traC	TraC
+NC_008459	27853	snp	C	T	T:18 C:0	CDS	-	3894/4545	1298/1514	synonymous_variant c.3894G>A p.Gln1298Gln	ST520_p36	traC	TraC
+NC_008459	27865	snp	C	T	T:18 C:0	CDS	-	3882/4545	1294/1514	synonymous_variant c.3882G>A p.Gln1294Gln	ST520_p36	traC	TraC
+NC_008459	27874	snp	G	C	C:17 G:0	CDS	-	3873/4545	1291/1514	missense_variant c.3873C>G p.Asp1291Glu	ST520_p36	traC	TraC
+NC_008459	27889	snp	G	C	C:16 G:0	CDS	-	3858/4545	1286/1514	synonymous_variant c.3858C>G p.Pro1286Pro	ST520_p36	traC	TraC
+NC_008459	27901	snp	T	C	C:14 T:0	CDS	-	3846/4545	1282/1514	synonymous_variant c.3846A>G p.Lys1282Lys	ST520_p36	traC	TraC
+NC_008459	27910	snp	C	T	T:14 C:0	CDS	-	3837/4545	1279/1514	synonymous_variant c.3837G>A p.Glu1279Glu	ST520_p36	traC	TraC
+NC_008459	27922	complex	GAA	CAT	CAT:12 GAA:0	CDS	-	3825/4545	1275/1514	missense_variant c.3823_3825delTTCinsATG p.Phe1275Met	ST520_p36	traC	TraC
+NC_008459	27934	complex	GTGG	CTGC	CTGC:12 GTGG:0	CDS	-	3813/4545	1270/1514	missense_variant c.3810_3813delCCACinsGCAG p.AlaHis1270AlaGln	ST520_p36	traC	TraC
+NC_008459	27942	snp	C	G	G:12 C:0	CDS	-	3805/4545	1269/1514	missense_variant c.3805G>C p.Glu1269Gln	ST520_p36	traC	TraC
+NC_008459	27949	snp	C	T	T:11 C:0	CDS	-	3798/4545	1266/1514	synonymous_variant c.3798G>A p.Lys1266Lys	ST520_p36	traC	TraC
+NC_008459	27964	snp	C	G	G:10 C:0	CDS	-	3783/4545	1261/1514	synonymous_variant c.3783G>C p.Pro1261Pro	ST520_p36	traC	TraC
+NC_008459	30217	snp	C	G	G:20 C:0	CDS	-	1530/4545	510/1514	synonymous_variant c.1530G>C p.Ala510Ala	ST520_p36	traC	TraC
+NC_008459	30247	snp	G	A	A:20 G:0	CDS	-	1500/4545	500/1514	synonymous_variant c.1500C>T p.Asp500Asp	ST520_p36	traC	TraC
+NC_008459	30253	complex	AGCG	GGCC	GGCC:18 AGCG:0	CDS	-	1494/4545	497/1514	synonymous_variant c.1491_1494delCGCTinsGGCC p.AlaAla497AlaAla	ST520_p36	traC	TraC
+NC_008459	30268	snp	T	C	C:20 T:0	CDS	-	1479/4545	493/1514	synonymous_variant c.1479A>G p.Glu493Glu	ST520_p36	traC	TraC
+NC_008459	30289	complex	AA	CG	CG:20 AA:0	CDS	-	1458/4545	486/1514	missense_variant c.1457_1458delTTinsCG p.Val486Ala	ST520_p36	traC	TraC
+NC_008459	30301	snp	G	C	C:20 G:0	CDS	-	1446/4545	482/1514	synonymous_variant c.1446C>G p.Ser482Ser	ST520_p36	traC	TraC
+NC_008459	30307	snp	A	C	C:20 A:0	CDS	-	1440/4545	480/1514	synonymous_variant c.1440T>G p.Val480Val	ST520_p36	traC	TraC
+NC_008459	30316	snp	C	G	G:20 C:0	CDS	-	1431/4545	477/1514	synonymous_variant c.1431G>C p.Ala477Ala	ST520_p36	traC	TraC
+NC_008459	30337	snp	A	G	G:20 A:0	CDS	-	1410/4545	470/1514	synonymous_variant c.1410T>C p.Gly470Gly	ST520_p36	traC	TraC
+NC_008459	30352	snp	A	G	G:20 A:0	CDS	-	1395/4545	465/1514	synonymous_variant c.1395T>C p.Asp465Asp	ST520_p36	traC	TraC
+NC_008459	30360	snp	G	C	C:20 G:0	CDS	-	1387/4545	463/1514	missense_variant c.1387C>G p.Leu463Val	ST520_p36	traC	TraC
+NC_008459	30385	complex	TAGT	CAGC	CAGC:20 TAGT:0	CDS	-	1362/4545	453/1514	synonymous_variant c.1359_1362delACTAinsGCTG p.GluLeu453GluLeu	ST520_p36	traC	TraC
+NC_008459	30403	snp	A	C	C:20 A:0	CDS	-	1344/4545	448/1514	synonymous_variant c.1344T>G p.Gly448Gly	ST520_p36	traC	TraC
+NC_008459	30409	complex	ACTG	GCTC	GCTC:19 ACTG:0	CDS	-	1338/4545	445/1514	synonymous_variant c.1335_1338delCAGTinsGAGC p.GlySer445GlySer	ST520_p36	traC	TraC
+NC_008459	30429	snp	T	G	G:20 T:0	CDS	-	1318/4545	440/1514	missense_variant c.1318A>C p.Met440Leu	ST520_p36	traC	TraC
+NC_008459	30445	complex	GGACGGGTGCCCT	CGAAGCGTGGCCC	CGAAGCGTGGCCC:15 GGACGGGTGCCCT:0	CDS	-	1302/4545	430/1514	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer	ST520_p36	traC	TraC
+NC_008459	30467	complex	GCCAACTCA	CCCAGCTCG	CCCAGCTCG:17 GCCAACTCA:0	CDS	-	1280/4545	424/1514	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly	ST520_p36	traC	TraC
+NC_008459	30481	complex	GGCC	CGCG	CGCG:16 GGCC:0	CDS	-	1266/4545	421/1514	synonymous_variant c.1263_1266delGGCCinsCGCG p.ThrAla421ThrAla	ST520_p36	traC	TraC
+NC_008459	30490	snp	A	G	G:18 A:0	CDS	-	1257/4545	419/1514	synonymous_variant c.1257T>C p.Tyr419Tyr	ST520_p36	traC	TraC
+NC_008459	30504	complex	CA	AG	AG:16 CA:0	CDS	-	1243/4545	414/1514	missense_variant c.1242_1243delTGinsCT p.SerAla414SerSer	ST520_p36	traC	TraC
+NC_008459	30526	snp	T	C	C:18 T:0	CDS	-	1221/4545	407/1514	synonymous_variant c.1221A>G p.Pro407Pro	ST520_p36	traC	TraC
+NC_008459	30541	snp	A	G	G:18 A:0	CDS	-	1206/4545	402/1514	synonymous_variant c.1206T>C p.Asp402Asp	ST520_p36	traC	TraC
+NC_008459	30553	snp	C	G	G:18 C:0	CDS	-	1194/4545	398/1514	synonymous_variant c.1194G>C p.Arg398Arg	ST520_p36	traC	TraC
+NC_008459	30562	snp	A	C	C:17 A:0	CDS	-	1185/4545	395/1514	synonymous_variant c.1185T>G p.Ala395Ala	ST520_p36	traC	TraC
+NC_008459	30571	complex	TCCAGGC	ACCGGCG	ACCGGCG:14 TCCAGGC:0	CDS	-	1176/4545	390/1514	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly	ST520_p36	traC	TraC
+NC_008459	30583	snp	T	G	G:17 T:0	CDS	-	1164/4545	388/1514	synonymous_variant c.1164A>C p.Thr388Thr	ST520_p36	traC	TraC
+NC_008459	30590	snp	T	G	G:17 T:0	CDS	-	1157/4545	386/1514	missense_variant c.1157A>C p.Lys386Thr	ST520_p36	traC	TraC
+NC_008459	30601	complex	AGCA	GGCT	GGCT:17 AGCA:0	CDS	-	1146/4545	381/1514	missense_variant c.1143_1146delTGCTinsAGCC p.AsnAla381LysAla	ST520_p36	traC	TraC
+NC_008459	30610	snp	A	G	G:18 A:0	CDS	-	1137/4545	379/1514	synonymous_variant c.1137T>C p.Ile379Ile	ST520_p36	traC	TraC
+NC_008459	30622	snp	A	G	G:18 A:0	CDS	-	1125/4545	375/1514	synonymous_variant c.1125T>C p.Arg375Arg	ST520_p36	traC	TraC
+NC_008459	30634	snp	A	G	G:16 A:0	CDS	-	1113/4545	371/1514	synonymous_variant c.1113T>C p.Asn371Asn	ST520_p36	traC	TraC
+NC_008459	30640	snp	T	A	A:16 T:0	CDS	-	1107/4545	369/1514	synonymous_variant c.1107A>T p.Thr369Thr	ST520_p36	traC	TraC
+NC_008459	30653	complex	GGCGGGGTGAGT	TTCGGCTGGAGC	TTCGGCTGGAGC:14 GGCGGGGTGAGT:0	CDS	-	1094/4545	361/1514	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys	ST520_p36	traC	TraC
+NC_008459	30689	snp	G	C	C:20 G:0	CDS	-	1058/4545	353/1514	missense_variant c.1058C>G p.Ala353Gly	ST520_p36	traC	TraC
+NC_008459	30733	snp	A	G	G:18 A:0	CDS	-	1014/4545	338/1514	synonymous_variant c.1014T>C p.Val338Val	ST520_p36	traC	TraC
+NC_008459	30742	complex	TTTAACA	CTTGACC	CTTGACC:17 TTTAACA:0	CDS	-	1005/4545	333/1514	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys	ST520_p36	traC	TraC
+NC_008459	30754	snp	C	G	G:17 C:0	CDS	-	993/4545	331/1514	synonymous_variant c.993G>C p.Gly331Gly	ST520_p36	traC	TraC
+NC_008459	30760	snp	T	C	C:16 T:0	CDS	-	987/4545	329/1514	synonymous_variant c.987A>G p.Ala329Ala	ST520_p36	traC	TraC
+NC_008459	30766	snp	A	G	G:16 A:0	CDS	-	981/4545	327/1514	synonymous_variant c.981T>C p.Leu327Leu	ST520_p36	traC	TraC
+NC_008459	30782	snp	T	C	C:16 T:0	CDS	-	965/4545	322/1514	missense_variant c.965A>G p.Asn322Ser	ST520_p36	traC	TraC
+NC_008459	30792	complex	AT	GC	GC:16 AT:0	CDS	-	955/4545	318/1514	synonymous_variant c.954_955delATinsGC p.LysLeu318LysLeu	ST520_p36	traC	TraC
+NC_008459	30829	snp	T	C	C:16 T:0	CDS	-	918/4545	306/1514	synonymous_variant c.918A>G p.Pro306Pro	ST520_p36	traC	TraC
+NC_008459	30838	snp	C	T	T:14 C:0	CDS	-	909/4545	303/1514	synonymous_variant c.909G>A p.Lys303Lys	ST520_p36	traC	TraC
+NC_008459	30844	complex	ACCACG	GCCCTT	GCCCTT:10 ACCACG:0	CDS	-	903/4545	300/1514	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly	ST520_p36	traC	TraC
+NC_008459	30859	complex	AGCACCT	CGCGCCC	CGCGCCC:12 AGCACCT:0	CDS	-	888/4545	294/1514	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla	ST520_p36	traC	TraC
+NC_008459	30877	complex	TTGTTTA	CTGCTTG	CTGCTTG:14 TTGTTTA:0	CDS	-	870/4545	288/1514	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln	ST520_p36	traC	TraC
+NC_008459	30898	complex	TC	CG	CG:14 TC:0	CDS	-	849/4545	283/1514	missense_variant c.848_849delGAinsCG p.Gly283Ala	ST520_p36	traC	TraC
+NC_008459	30904	complex	ACTA	GCTG	GCTG:14 ACTA:0	CDS	-	843/4545	280/1514	synonymous_variant c.840_843delTAGTinsCAGC p.ArgSer280ArgSer	ST520_p36	traC	TraC
+NC_008459	30913	snp	T	C	C:16 T:0	CDS	-	834/4545	278/1514	synonymous_variant c.834A>G p.Gln278Gln	ST520_p36	traC	TraC
+NC_008459	30928	complex	AATA	GATG	GATG:14 AATA:0	CDS	-	819/4545	272/1514	synonymous_variant c.816_819delTATTinsCATC p.AlaIle272AlaIle	ST520_p36	traC	TraC
+NC_008459	30940	complex	ACCC	CCCT	CCCT:16 ACCC:0	CDS	-	807/4545	268/1514	synonymous_variant c.804_807delGGGTinsAGGG p.LysGly268LysGly	ST520_p36	traC	TraC
+NC_008459	30958	complex	AGTC	GGTG	GGTG:14 AGTC:0	CDS	-	789/4545	262/1514	synonymous_variant c.786_789delGACTinsCACC p.ThrThr262ThrThr	ST520_p36	traC	TraC
+NC_008459	30970	complex	GAAG	CATC	CATC:14 GAAG:0	CDS	-	777/4545	258/1514	missense_variant c.774_777delCTTCinsGATG p.ProPhe258ProMet	ST520_p36	traC	TraC
+NC_008459	30978	complex	AA	GG	GG:14 AA:0	CDS	-	769/4545	256/1514	synonymous_variant c.768_769delTTinsCC p.TyrLeu256TyrLeu	ST520_p36	traC	TraC
+NC_008459	30993	complex	GCCCT	CGCCC	CGCCC:18 GCCCT:0	CDS	-	754/4545	250/1514	missense_variant c.750_754delAGGGCinsGGGCG p.ProGlyGln250ProGlyGlu	ST520_p36	traC	TraC
+NC_008459	31269	snp	T	G	G:20 T:0	CDS	-	478/4545	160/1514	missense_variant c.478A>C p.Lys160Gln	ST520_p36	traC	TraC
+NC_008459	31445	snp	G	C	C:20 G:0	CDS	-	302/4545	101/1514	missense_variant c.302C>G p.Ala101Gly	ST520_p36	traC	TraC
+NC_008459	31512	snp	C	T	T:20 C:0	CDS	-	235/4545	79/1514	missense_variant c.235G>A p.Gly79Ser	ST520_p36	traC	TraC
+NC_008459	31546	snp	T	G	G:20 T:0	CDS	-	201/4545	67/1514	synonymous_variant c.201A>C p.Arg67Arg	ST520_p36	traC	TraC
+NC_008459	31558	snp	G	A	A:20 G:0	CDS	-	189/4545	63/1514	synonymous_variant c.189C>T p.Ala63Ala	ST520_p36	traC	TraC
+NC_008459	31751	snp	T	C	C:20 T:0	CDS	-	389/390	130/129	splice_region_variant&stop_retained_variant c.389A>G p.Ter130Ter	ST520_p37	traD	TraD
+NC_008459	31867	snp	G	T	T:20 G:0	CDS	-	273/390	91/129	missense_variant c.273C>A p.Asp91Glu	ST520_p37	traD	TraD
+NC_008459	32066	snp	G	T	T:20 G:0	CDS	-	74/390	25/129	missense_variant c.74C>A p.Ala25Asp	ST520_p37	traD	TraD
+NC_008459	32174	snp	G	T	T:20 G:0	CDS	-	2051/2064	684/687	missense_variant c.2051C>A p.Pro684Gln	ST520_p38	traE	TraE
+NC_008459	32444	snp	A	G	G:20 A:0	CDS	-	1781/2064	594/687	missense_variant c.1781T>C p.Val594Ala	ST520_p38	traE	TraE
+NC_008459	32713	snp	T	C	C:20 T:0	CDS	-	1512/2064	504/687	synonymous_variant c.1512A>G p.Leu504Leu	ST520_p38	traE	TraE
+NC_008459	32768	snp	A	G	G:20 A:0	CDS	-	1457/2064	486/687	missense_variant c.1457T>C p.Val486Ala	ST520_p38	traE	TraE
+NC_008459	32932	ins	GAT	GAAT	GAAT:18 GAT:0	CDS	-	1291/2064	431/687	frameshift_variant c.1291_1292insT p.Ala432fs	ST520_p38	traE	TraE
+NC_008459	32938	ins	GAC	GAAC	GAAC:18 GAC:0	CDS	-	1285/2064	429/687	frameshift_variant c.1285_1286insT p.Glu430fs	ST520_p38	traE	TraE
+NC_008459	33155	del	TCG	TG	TG:18 TCG:0	CDS	-	1069/2064	357/687	frameshift_variant c.1069delG p.Glu357fs	ST520_p38	traE	TraE
+NC_008459	33244	complex	CGAG	CAA	CAA:20 CGAG:0	CDS	-	980/2064	326/687	frameshift_variant&missense_variant c.978_980delCTCinsTT p.Ser327fs	ST520_p38	traE	TraE
+NC_008459	33268	snp	G	A	A:20 G:0	CDS	-	957/2064	319/687	synonymous_variant c.957C>T p.Leu319Leu	ST520_p38	traE	TraE
+NC_008459	33334	snp	A	G	G:20 A:0	CDS	-	891/2064	297/687	synonymous_variant c.891T>C p.Ile297Ile	ST520_p38	traE	TraE
+NC_008459	33346	snp	T	G	G:20 T:0	CDS	-	879/2064	293/687	synonymous_variant c.879A>C p.Ala293Ala	ST520_p38	traE	TraE
+NC_008459	33353	snp	A	G	G:20 A:0	CDS	-	872/2064	291/687	missense_variant c.872T>C p.Val291Ala	ST520_p38	traE	TraE
+NC_008459	33361	snp	T	C	C:20 T:0	CDS	-	864/2064	288/687	synonymous_variant c.864A>G p.Gln288Gln	ST520_p38	traE	TraE
+NC_008459	33474	snp	C	A	A:20 C:0	CDS	-	751/2064	251/687	missense_variant c.751G>T p.Asp251Tyr	ST520_p38	traE	TraE
+NC_008459	33496	snp	C	T	T:20 C:0	CDS	-	729/2064	243/687	synonymous_variant c.729G>A p.Ala243Ala	ST520_p38	traE	TraE
+NC_008459	33616	snp	T	C	C:20 T:0	CDS	-	609/2064	203/687	synonymous_variant c.609A>G p.Pro203Pro	ST520_p38	traE	TraE
+NC_008459	33904	snp	A	G	G:20 A:0	CDS	-	321/2064	107/687	synonymous_variant c.321T>C p.Ala107Ala	ST520_p38	traE	TraE
+NC_008459	34088	snp	A	T	T:20 A:0	CDS	-	137/2064	46/687	missense_variant c.137T>A p.Leu46Gln	ST520_p38	traE	TraE
+NC_008459	34254	snp	G	A	A:20 G:0	CDS	-	519/537	173/178	synonymous_variant c.519C>T p.Arg173Arg	ST520_p39	traF	TraF
+NC_008459	34305	snp	A	G	G:20 A:0	CDS	-	468/537	156/178	synonymous_variant c.468T>C p.Asp156Asp	ST520_p39	traF	TraF
+NC_008459	34369	snp	C	T	T:20 C:0	CDS	-	404/537	135/178	missense_variant c.404G>A p.Ser135Asn	ST520_p39	traF	TraF
+NC_008459	34377	snp	G	A	A:20 G:0	CDS	-	396/537	132/178	synonymous_variant c.396C>T p.Tyr132Tyr	ST520_p39	traF	TraF
+NC_008459	34395	snp	C	A	A:20 C:0	CDS	-	378/537	126/178	synonymous_variant c.378G>T p.Gly126Gly	ST520_p39	traF	TraF
+NC_008459	34473	snp	C	G	G:20 C:0	CDS	-	300/537	100/178	synonymous_variant c.300G>C p.Val100Val	ST520_p39	traF	TraF
+NC_008459	34483	snp	C	T	T:20 C:0	CDS	-	290/537	97/178	missense_variant c.290G>A p.Gly97Asp	ST520_p39	traF	TraF
+NC_008459	34557	snp	T	C	C:20 T:0	CDS	-	216/537	72/178	synonymous_variant c.216A>G p.Glu72Glu	ST520_p39	traF	TraF
+NC_008459	34569	snp	G	A	A:20 G:0	CDS	-	204/537	68/178	synonymous_variant c.204C>T p.Asp68Asp	ST520_p39	traF	TraF
+NC_008459	34709	snp	A	G	G:20 A:0	CDS	-	64/537	22/178	synonymous_variant c.64T>C p.Leu22Leu	ST520_p39	traF	TraF
+NC_008459	34719	snp	A	G	G:20 A:0	CDS	-	54/537	18/178	synonymous_variant c.54T>C p.Ala18Ala	ST520_p39	traF	TraF
+NC_008459	34735	snp	G	A	A:20 G:0	CDS	-	38/537	13/178	missense_variant c.38C>T p.Ala13Val	ST520_p39	traF	TraF
+NC_008459	34752	snp	G	A	A:20 G:0	CDS	-	21/537	7/178	synonymous_variant c.21C>T p.Arg7Arg	ST520_p39	traF	TraF
+NC_008459	34783	snp	G	C	C:20 G:0	CDS	-	1900/1914	634/637	missense_variant c.1900C>G p.Arg634Gly	ST520_p40	traG	TraG
+NC_008459	34796	snp	C	G	G:20 C:0	CDS	-	1887/1914	629/637	missense_variant c.1887G>C p.Glu629Asp	ST520_p40	traG	TraG
+NC_008459	34841	complex	GGGA	AGGG	AGGG:20 GGGA:0	CDS	-	1842/1914	613/637	synonymous_variant c.1839_1842delTCCCinsCCCT p.IlePro613IlePro	ST520_p40	traG	TraG
+NC_008459	34868	snp	C	T	T:20 C:0	CDS	-	1815/1914	605/637	synonymous_variant c.1815G>A p.Pro605Pro	ST520_p40	traG	TraG
+NC_008459	35069	snp	T	G	G:20 T:0	CDS	-	1614/1914	538/637	synonymous_variant c.1614A>C p.Arg538Arg	ST520_p40	traG	TraG
+NC_008459	35159	snp	A	G	G:20 A:0	CDS	-	1524/1914	508/637	synonymous_variant c.1524T>C p.Tyr508Tyr	ST520_p40	traG	TraG
+NC_008459	35202	snp	G	T	T:20 G:0	CDS	-	1481/1914	494/637	missense_variant c.1481C>A p.Pro494His	ST520_p40	traG	TraG
+NC_008459	35375	snp	A	C	C:20 A:0	CDS	-	1308/1914	436/637	synonymous_variant c.1308T>G p.Arg436Arg	ST520_p40	traG	TraG
+NC_008459	35462	snp	G	A	A:20 G:0	CDS	-	1221/1914	407/637	synonymous_variant c.1221C>T p.Asp407Asp	ST520_p40	traG	TraG
+NC_008459	35552	snp	C	G	G:20 C:0	CDS	-	1131/1914	377/637	synonymous_variant c.1131G>C p.Ala377Ala	ST520_p40	traG	TraG
+NC_008459	35624	snp	T	G	G:20 T:0	CDS	-	1059/1914	353/637	synonymous_variant c.1059A>C p.Pro353Pro	ST520_p40	traG	TraG
+NC_008459	35645	snp	T	G	G:20 T:0	CDS	-	1038/1914	346/637	synonymous_variant c.1038A>C p.Ala346Ala	ST520_p40	traG	TraG
+NC_008459	35780	snp	C	A	A:20 C:0	CDS	-	903/1914	301/637	missense_variant c.903G>T p.Glu301Asp	ST520_p40	traG	TraG
+NC_008459	35909	snp	G	A	A:20 G:0	CDS	-	774/1914	258/637	synonymous_variant c.774C>T p.Gly258Gly	ST520_p40	traG	TraG
+NC_008459	35915	snp	T	C	C:20 T:0	CDS	-	768/1914	256/637	synonymous_variant c.768A>G p.Glu256Glu	ST520_p40	traG	TraG
+NC_008459	36065	snp	A	G	G:18 A:0	CDS	-	618/1914	206/637	synonymous_variant c.618T>C p.Ile206Ile	ST520_p40	traG	TraG
+NC_008459	36073	complex	AGCTTGGCGACCAGGAAAGA	TGCTCGCGCCCCACGACAGC	TGCTCGCGCCCCACGACAGC:12 AGCTTGGCGACCAGGAAAGA:0	CDS	-	610/1914	197/637	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer	ST520_p40	traG	TraG
+NC_008459	36113	complex	AACA	GACG	GACG:18 AACA:0	CDS	-	570/1914	189/637	synonymous_variant c.567_570delTGTTinsCGTC p.GlyVal189GlyVal	ST520_p40	traG	TraG
+NC_008459	36122	snp	A	G	G:18 A:0	CDS	-	561/1914	187/637	synonymous_variant c.561T>C p.Gly187Gly	ST520_p40	traG	TraG
+NC_008459	36128	complex	CCGGGTA	GCGCGTG	GCGCGTG:18 CCGGGTA:0	CDS	-	555/1914	183/637	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg	ST520_p40	traG	TraG
+NC_008459	36140	snp	A	G	G:20 A:0	CDS	-	543/1914	181/637	synonymous_variant c.543T>C p.Tyr181Tyr	ST520_p40	traG	TraG
+NC_008459	36146	snp	A	C	C:20 A:0	CDS	-	537/1914	179/637	synonymous_variant c.537T>G p.Leu179Leu	ST520_p40	traG	TraG
+NC_008459	36180	snp	T	A	A:20 T:0	CDS	-	503/1914	168/637	missense_variant c.503A>T p.Tyr168Phe	ST520_p40	traG	TraG
+NC_008459	36227	snp	G	A	A:20 G:0	CDS	-	456/1914	152/637	synonymous_variant c.456C>T p.Ala152Ala	ST520_p40	traG	TraG
+NC_008459	36243	snp	C	T	T:20 C:0	CDS	-	440/1914	147/637	missense_variant c.440G>A p.Arg147Lys	ST520_p40	traG	TraG
+NC_008459	36265	snp	A	C	C:20 A:0	CDS	-	418/1914	140/637	missense_variant c.418T>G p.Phe140Val	ST520_p40	traG	TraG
+NC_008459	36278	snp	C	T	T:20 C:0	CDS	-	405/1914	135/637	synonymous_variant c.405G>A p.Pro135Pro	ST520_p40	traG	TraG
+NC_008459	36398	snp	C	G	G:20 C:0	CDS	-	285/1914	95/637	synonymous_variant c.285G>C p.Gly95Gly	ST520_p40	traG	TraG
+NC_008459	36575	snp	A	G	G:20 A:0	CDS	-	108/1914	36/637	synonymous_variant c.108T>C p.Leu36Leu	ST520_p40	traG	TraG
+NC_008459	36587	snp	G	C	C:20 G:0	CDS	-	96/1914	32/637	missense_variant c.96C>G p.Ile32Met	ST520_p40	traG	TraG
+NC_008459	36640	snp	C	T	T:20 C:0	CDS	-	43/1914	15/637	missense_variant c.43G>A p.Ala15Thr	ST520_p40	traG	TraG
+NC_008459	36697	snp	G	C	C:20 G:0	CDS	-	2220/2238	740/745	synonymous_variant c.2220C>G p.Ser740Ser	ST520_p41	traI	TraI
+NC_008459	36739	ins	GCCGA	GCGACCGA	GCGACCGA:20 GCCGA:0	CDS	-	2176/2238	726/745	conservative_inframe_insertion c.2176_2177insGTC p.Gly726_Asp727insArg	ST520_p41	traI	TraI
+NC_008459	36925	snp	C	T	T:20 C:0	CDS	-	1992/2238	664/745	synonymous_variant c.1992G>A p.Ala664Ala	ST520_p41	traI	TraI
+NC_008459	37007	snp	G	C	C:20 G:0	CDS	-	1910/2238	637/745	missense_variant c.1910C>G p.Ala637Gly	ST520_p42	traH	TraH
+NC_008459	37196	snp	T	G	G:20 T:0	CDS	-	1721/2238	574/745	missense_variant c.1721A>C p.Asn574Thr	ST520_p42	traH	TraH
+NC_008459	37209	snp	T	G	G:20 T:0	CDS	-	1708/2238	570/745	missense_variant c.1708A>C p.Ile570Leu	ST520_p42	traH	TraH
+NC_008459	37240	snp	T	G	G:20 T:0	CDS	-	134/393	45/130	missense_variant c.134A>C p.Gln45Pro	ST520_p42	traH	TraH
+NC_008459	37301	complex	AG	GC	GC:18 AG:0	CDS	-	1616/2238	539/745	missense_variant c.1615_1616delCTinsGC p.Leu539Ala	ST520_p42	traH	TraH
+NC_008459	37308	snp	A	G	G:20 A:0	CDS	-	1609/2238	537/745	missense_variant c.1609T>C p.Trp537Arg	ST520_p42	traH	TraH
+NC_008459	37507	snp	C	G	G:20 C:0	CDS	-	1410/2238	470/745	synonymous_variant c.1410G>C p.Arg470Arg	ST520_p41	traI	TraI
+NC_008459	37582	snp	A	C	C:20 A:0	CDS	-	1335/2238	445/745	synonymous_variant c.1335T>G p.Leu445Leu	ST520_p41	traI	TraI
+NC_008459	37591	snp	G	A	A:20 G:0	CDS	-	1326/2238	442/745	synonymous_variant c.1326C>T p.Gly442Gly	ST520_p41	traI	TraI
+NC_008459	37609	snp	A	G	G:20 A:0	CDS	-	1308/2238	436/745	synonymous_variant c.1308T>C p.Ser436Ser	ST520_p41	traI	TraI
+NC_008459	37666	snp	T	C	C:20 T:0	CDS	-	1251/2238	417/745	synonymous_variant c.1251A>G p.Ala417Ala	ST520_p41	traI	TraI
+NC_008459	37719	complex	CGGCTTT	CCTGGGCCGC	CCTGGGCCGC:14 CGGCTTT:0	CDS	-	1197/2238	398/745	missense_variant&conservative_inframe_insertion c.1192_1197delAAAGCCinsGCGGCCCAG p.Lys398_Ala399delinsAlaAlaGln	ST520_p41	traI	TraI
+NC_008459	37738	complex	TAGTGCC	CAGGGCG	CAGGGCG:16 TAGTGCC:0	CDS	-	1179/2238	391/745	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu	ST520_p41	traI	TraI
+NC_008459	37753	snp	T	G	G:16 T:0	CDS	-	1164/2238	388/745	missense_variant c.1164A>C p.Glu388Asp	ST520_p41	traI	TraI
+NC_008459	37758	complex	TGTT	CGCC	CGCC:16 TGTT:0	CDS	-	1159/2238	386/745	missense_variant c.1156_1159delAACAinsGGCG p.AsnThr386GlyAla	ST520_p41	traI	TraI
+NC_008459	37768	snp	G	C	C:18 G:0	CDS	-	1149/2238	383/745	missense_variant c.1149C>G p.His383Gln	ST520_p41	traI	TraI
+NC_008459	37774	snp	T	C	C:18 T:0	CDS	-	1143/2238	381/745	synonymous_variant c.1143A>G p.Glu381Glu	ST520_p41	traI	TraI
+NC_008459	37793	snp	A	G	G:20 A:0	CDS	-	1124/2238	375/745	missense_variant c.1124T>C p.Val375Ala	ST520_p41	traI	TraI
+NC_008459	37825	complex	CGCGGC	GGCCGT	GGCCGT:18 CGCGGC:0	CDS	-	1092/2238	363/745	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla	ST520_p41	traI	TraI
+NC_008459	37852	snp	A	G	G:20 A:0	CDS	-	1065/2238	355/745	synonymous_variant c.1065T>C p.Asn355Asn	ST520_p41	traI	TraI
+NC_008459	37858	snp	G	C	C:20 G:0	CDS	-	1059/2238	353/745	synonymous_variant c.1059C>G p.Ala353Ala	ST520_p41	traI	TraI
+NC_008459	37879	snp	C	G	G:20 C:0	CDS	-	1038/2238	346/745	synonymous_variant c.1038G>C p.Ala346Ala	ST520_p41	traI	TraI
+NC_008459	37888	snp	T	C	C:20 T:0	CDS	-	1029/2238	343/745	synonymous_variant c.1029A>G p.Ala343Ala	ST520_p41	traI	TraI
+NC_008459	37913	complex	GTCGT	TTCGC	TTCGC:20 GTCGT:0	CDS	-	1004/2238	334/745	missense_variant c.1000_1004delACGACinsGCGAA p.ThrThr334AlaAsn	ST520_p41	traI	TraI
+NC_008459	37930	snp	A	G	G:20 A:0	CDS	-	987/2238	329/745	synonymous_variant c.987T>C p.Val329Val	ST520_p41	traI	TraI
+NC_008459	37939	snp	T	A	A:20 T:0	CDS	-	978/2238	326/745	synonymous_variant c.978A>T p.Ile326Ile	ST520_p41	traI	TraI
+NC_008459	37945	snp	T	G	G:20 T:0	CDS	-	972/2238	324/745	synonymous_variant c.972A>C p.Ala324Ala	ST520_p41	traI	TraI
+NC_008459	37962	snp	G	T	T:20 G:0	CDS	-	955/2238	319/745	missense_variant c.955C>A p.His319Asn	ST520_p41	traI	TraI
+NC_008459	37968	snp	G	T	T:20 G:0	CDS	-	949/2238	317/745	synonymous_variant c.949C>A p.Arg317Arg	ST520_p41	traI	TraI
+NC_008459	37986	snp	A	G	G:20 A:0	CDS	-	931/2238	311/745	synonymous_variant c.931T>C p.Leu311Leu	ST520_p41	traI	TraI
+NC_008459	37992	snp	T	C	C:20 T:0	CDS	-	925/2238	309/745	missense_variant c.925A>G p.Asn309Asp	ST520_p41	traI	TraI
+NC_008459	38002	snp	A	C	C:20 A:0	CDS	-	915/2238	305/745	synonymous_variant c.915T>G p.Arg305Arg	ST520_p41	traI	TraI
+NC_008459	38023	complex	AC	GG	GG:18 AC:0	CDS	-	894/2238	298/745	missense_variant c.893_894delGTinsCC p.Gly298Ala	ST520_p41	traI	TraI
+NC_008459	38050	snp	G	C	C:20 G:0	CDS	-	867/2238	289/745	missense_variant c.867C>G p.Asp289Glu	ST520_p41	traI	TraI
+NC_008459	38057	snp	C	T	T:20 C:0	CDS	-	860/2238	287/745	missense_variant c.860G>A p.Arg287Lys	ST520_p41	traI	TraI
+NC_008459	38092	complex	CAAA	AAGG	AAGG:18 CAAA:0	CDS	-	825/2238	274/745	synonymous_variant c.822_825delTTTGinsCCTT p.ArgLeu274ArgLeu	ST520_p41	traI	TraI
+NC_008459	38137	complex	TGCT	CGCC	CGCC:20 TGCT:0	CDS	-	780/2238	259/745	synonymous_variant c.777_780delAGCAinsGGCG p.GlnAla259GlnAla	ST520_p41	traI	TraI
+NC_008459	38182	snp	T	C	C:20 T:0	CDS	-	735/2238	245/745	synonymous_variant c.735A>G p.Leu245Leu	ST520_p41	traI	TraI
+NC_008459	38192	snp	C	T	T:20 C:0	CDS	-	725/2238	242/745	missense_variant c.725G>A p.Arg242Lys	ST520_p41	traI	TraI
+NC_008459	38224	snp	G	C	C:18 G:0	CDS	-	693/2238	231/745	synonymous_variant c.693C>G p.Val231Val	ST520_p41	traI	TraI
+NC_008459	38233	snp	G	T	T:16 G:0	CDS	-	684/2238	228/745	synonymous_variant c.684C>A p.Gly228Gly	ST520_p41	traI	TraI
+NC_008459	38241	snp	T	C	C:16 T:0	CDS	-	676/2238	226/745	missense_variant c.676A>G p.Ser226Gly	ST520_p41	traI	TraI
+NC_008459	38250	snp	T	A	A:15 T:0	CDS	-	667/2238	223/745	missense_variant c.667A>T p.Ile223Phe	ST520_p41	traI	TraI
+NC_008459	38256	complex	AGCCG	GGCCA	GGCCA:13 AGCCG:0	CDS	-	661/2238	219/745	missense_variant c.657_661delCGGCTinsTGGCC p.AsnGlyPhe219AsnGlyLeu	ST520_p41	traI	TraI
+NC_008459	38266	complex	ACGGCT	GCGGAC	GCGGAC:13 ACGGCT:0	CDS	-	651/2238	216/745	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg	ST520_p41	traI	TraI
+NC_008459	38283	complex	GG	TT	TT:12 GG:0	CDS	-	634/2238	211/745	missense_variant c.633_634delCCinsAA p.GlyLeu211GlyMet	ST520_p41	traI	TraI
+NC_008459	38290	snp	T	G	G:12 T:0	CDS	-	627/2238	209/745	missense_variant c.627A>C p.Glu209Asp	ST520_p41	traI	TraI
+NC_008459	38311	snp	C	T	T:10 C:0	CDS	-	606/2238	202/745	synonymous_variant c.606G>A p.Glu202Glu	ST520_p41	traI	TraI
+NC_008459	38322	snp	T	A	A:10 T:0	CDS	-	595/2238	199/745	missense_variant c.595A>T p.Thr199Ser	ST520_p41	traI	TraI
+NC_008459	38577	complex	GA	TG	TG:16 GA:0	CDS	-	340/2238	113/745	missense_variant c.339_340delTCinsCA p.AspHis113AspAsn	ST520_p41	traI	TraI
+NC_008459	38593	snp	A	G	G:16 A:0	CDS	-	324/2238	108/745	synonymous_variant c.324T>C p.Val108Val	ST520_p41	traI	TraI
+NC_008459	38599	snp	G	A	A:16 G:0	CDS	-	318/2238	106/745	synonymous_variant c.318C>T p.Ser106Ser	ST520_p41	traI	TraI
+NC_008459	38605	snp	G	T	T:14 G:0	CDS	-	312/2238	104/745	synonymous_variant c.312C>A p.Arg104Arg	ST520_p41	traI	TraI
+NC_008459	38947	complex	AATC	GAAG	GAAG:14 AATC:0								
+NC_008459	38980	snp	A	C	C:18 A:0	CDS	-	346/375	116/124	missense_variant c.346T>G p.Ser116Ala	ST520_p43	traJ	TraJ
+NC_008459	38987	complex	AAG	GAT	GAT:18 AAG:0	CDS	-	339/375	113/124	missense_variant c.337_339delCTTinsATC p.Leu113Ile	ST520_p43	traJ	TraJ
+NC_008459	39011	snp	C	G	G:20 C:0	CDS	-	315/375	105/124	synonymous_variant c.315G>C p.Ala105Ala	ST520_p43	traJ	TraJ
+NC_008459	39020	complex	GCGACG	CCGGCC	CCGGCC:18 GCGACG:0	CDS	-	306/375	101/124	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg	ST520_p43	traJ	TraJ
+NC_008459	39035	snp	A	C	C:20 A:0	CDS	-	291/375	97/124	synonymous_variant c.291T>G p.Leu97Leu	ST520_p43	traJ	TraJ
+NC_008459	39065	snp	C	T	T:20 C:0	CDS	-	261/375	87/124	synonymous_variant c.261G>A p.Arg87Arg	ST520_p43	traJ	TraJ
+NC_008459	39148	complex	AG	GC	GC:18 AG:0	CDS	-	178/375	59/124	missense_variant c.177_178delCTinsGC p.HisTyr59GlnHis	ST520_p43	traJ	TraJ
+NC_008459	39172	snp	C	T	T:20 C:0	CDS	-	154/375	52/124	missense_variant c.154G>A p.Val52Ile	ST520_p43	traJ	TraJ
+NC_008459	39185	snp	C	G	G:20 C:0	CDS	-	141/375	47/124	synonymous_variant c.141G>C p.Gly47Gly	ST520_p43	traJ	TraJ
+NC_008459	39191	snp	A	G	G:20 A:0	CDS	-	135/375	45/124	synonymous_variant c.135T>C p.Asp45Asp	ST520_p43	traJ	TraJ
+NC_008459	39200	snp	G	A	A:20 G:0	CDS	-	126/375	42/124	synonymous_variant c.126C>T p.Tyr42Tyr	ST520_p43	traJ	TraJ
+NC_008459	39209	snp	G	C	C:20 G:0	CDS	-	117/375	39/124	synonymous_variant c.117C>G p.Val39Val	ST520_p43	traJ	TraJ
+NC_008459	39302	snp	C	G	G:20 C:0	CDS	-	24/375	8/124	missense_variant c.24G>C p.Gln8His	ST520_p43	traJ	TraJ
+NC_008459	39311	snp	C	T	T:20 C:0	CDS	-	15/375	5/124	synonymous_variant c.15G>A p.Glu5Glu	ST520_p43	traJ	TraJ
+NC_008459	39325	complex	TCGT	TGC	TGC:18 TCGT:0	CDS	-			variant did not have ANN annotation	ST520_p43	traJ	TraJ
+NC_008459	39334	del	CTCGTCGT	CTCGT	CTCGT:17 CTCGTCGT:0								
+NC_008459	39346	ins	CTG	CATG	CATG:19 CTG:0								
+NC_008459	39378	snp	A	G	G:20 A:0								
+NC_008459	39383	snp	C	A	A:20 C:0								
+NC_008459	39393	complex	TGCCA	CGCCC	CGCCC:20 TGCCA:0								
+NC_008459	39414	complex	GAAGC	ACAGT	ACAGT:20 GAAGC:0								
+NC_008459	39437	snp	T	C	C:20 T:0								
+NC_008459	39455	complex	GCC	ACA	ACA:18 GCC:0								
+NC_008459	39462	snp	T	C	C:18 T:0								
+NC_008459	39487	snp	G	A	A:20 G:0								
+NC_008459	39511	snp	C	T	T:20 C:0								
+NC_008459	39575	snp	T	C	C:20 T:0								
+NC_008459	39596	complex	GGCTG	CGCTA	CGCTA:20 GGCTG:0								
+NC_008459	39631	snp	G	A	A:20 G:0								
+NC_008459	39677	snp	C	T	T:20 C:0								
+NC_008459	39788	snp	T	G	G:20 T:0	CDS	+	87/402	29/133	synonymous_variant c.87T>G p.Ala29Ala	ST520_p44	traK	TraK
+NC_008459	39812	snp	G	T	T:20 G:0	CDS	+	111/402	37/133	synonymous_variant c.111G>T p.Val37Val	ST520_p44	traK	TraK
+NC_008459	39884	snp	T	C	C:20 T:0	CDS	+	183/402	61/133	synonymous_variant c.183T>C p.Arg61Arg	ST520_p44	traK	TraK
+NC_008459	39933	complex	CT	GC	GC:16 CT:0	CDS	+	232/402	78/133	missense_variant c.232_233delCTinsGC p.Leu78Ala	ST520_p44	traK	TraK
+NC_008459	39941	complex	CGCTGCTG	AGCTTCCC	AGCTTCCC:16 CGCTGCTG:0	CDS	+	240/402	80/133	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro	ST520_p44	traK	TraK
+NC_008459	39954	snp	G	C	C:19 G:0	CDS	+	253/402	85/133	missense_variant c.253G>C p.Ala85Pro	ST520_p44	traK	TraK
+NC_008459	39960	snp	T	G	G:20 T:0	CDS	+	259/402	87/133	missense_variant c.259T>G p.Ser87Ala	ST520_p44	traK	TraK
+NC_008459	39965	snp	G	T	T:20 G:0	CDS	+	264/402	88/133	synonymous_variant c.264G>T p.Thr88Thr	ST520_p44	traK	TraK
+NC_008459	39981	snp	G	C	C:20 G:0	CDS	+	280/402	94/133	missense_variant c.280G>C p.Ala94Pro	ST520_p44	traK	TraK
+NC_008459	40001	snp	T	G	G:20 T:0	CDS	+	300/402	100/133	missense_variant c.300T>G p.Asp100Glu	ST520_p44	traK	TraK
+NC_008459	40019	snp	A	G	G:20 A:0	CDS	+	318/402	106/133	synonymous_variant c.318A>G p.Pro106Pro	ST520_p44	traK	TraK
+NC_008459	40027	snp	T	A	A:20 T:0	CDS	+	326/402	109/133	missense_variant c.326T>A p.Val109Glu	ST520_p44	traK	TraK
+NC_008459	40031	del	CCCTA	CA	CA:18 CCCTA:0	CDS	+	331/402	111/133	conservative_inframe_deletion c.331_333delCCT p.Pro111del	ST520_p44	traK	TraK
+NC_008459	40043	complex	TCCG	GCCA	GCCA:20 TCCG:0	CDS	+	342/402	114/133	missense_variant c.342_345delTCCGinsGCCA p.AspPro114GluPro	ST520_p44	traK	TraK
+NC_008459	40061	snp	G	C	C:20 G:0	CDS	+	360/402	120/133	synonymous_variant c.360G>C p.Gly120Gly	ST520_p44	traK	TraK
+NC_008459	40073	snp	C	T	T:20 C:0	CDS	+	372/402	124/133	synonymous_variant c.372C>T p.Asp124Asp	ST520_p44	traK	TraK
+NC_008459	40108	snp	A	G	G:20 A:0	CDS	+	6/726	2/241	synonymous_variant c.6A>G p.Ala2Ala	ST520_p45	traL	TraL
+NC_008459	40228	snp	C	G	G:20 C:0	CDS	+	126/726	42/241	synonymous_variant c.126C>G p.Val42Val	ST520_p45	traL	TraL
+NC_008459	40258	snp	G	C	C:20 G:0	CDS	+	156/726	52/241	synonymous_variant c.156G>C p.Leu52Leu	ST520_p45	traL	TraL
+NC_008459	40294	snp	G	C	C:20 G:0	CDS	+	192/726	64/241	missense_variant c.192G>C p.Glu64Asp	ST520_p45	traL	TraL
+NC_008459	40309	snp	C	T	T:20 C:0	CDS	+	207/726	69/241	synonymous_variant c.207C>T p.Asn69Asn	ST520_p45	traL	TraL
+NC_008459	40465	snp	T	C	C:20 T:0	CDS	+	363/726	121/241	synonymous_variant c.363T>C p.Val121Val	ST520_p45	traL	TraL
+NC_008459	40543	snp	T	G	G:20 T:0	CDS	+	441/726	147/241	synonymous_variant c.441T>G p.Leu147Leu	ST520_p45	traL	TraL
+NC_008459	40549	snp	A	G	G:20 A:0	CDS	+	447/726	149/241	synonymous_variant c.447A>G p.Val149Val	ST520_p45	traL	TraL
+NC_008459	40591	snp	G	C	C:20 G:0	CDS	+	489/726	163/241	synonymous_variant c.489G>C p.Gly163Gly	ST520_p45	traL	TraL
+NC_008459	40624	snp	T	C	C:20 T:0	CDS	+	522/726	174/241	synonymous_variant c.522T>C p.Ala174Ala	ST520_p45	traL	TraL
+NC_008459	40636	snp	C	T	T:20 C:0	CDS	+	534/726	178/241	synonymous_variant c.534C>T p.Arg178Arg	ST520_p45	traL	TraL
+NC_008459	40642	snp	G	C	C:20 G:0	CDS	+	540/726	180/241	synonymous_variant c.540G>C p.Ser180Ser	ST520_p45	traL	TraL
+NC_008459	40980	snp	A	C	C:20 A:0	CDS	+	153/441	51/146	missense_variant c.153A>C p.Glu51Asp	ST520_p46	traM	TraM
+NC_008459	41111	snp	G	C	C:45 G:0	CDS	+	284/441	95/146	missense_variant c.284G>C p.Gly95Ala	ST520_p46	traM	TraM
+NC_008459	41143	snp	A	G	G:43 A:0	CDS	+	316/441	106/146	missense_variant c.316A>G p.Ile106Val	ST520_p46	traM	TraM

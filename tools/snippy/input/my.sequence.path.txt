@@ -1,0 +1,4 @@
+data/fna/NC_005088.fasta
+data/fna/NC_001735.fasta
+data/fna/NC_008459.fasta
+data/fna/NC_007337.fasta

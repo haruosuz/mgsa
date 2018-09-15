@@ -1,0 +1,1698 @@
+CHR	POS	Reference	NC_001735	NC_005088	NC_007337	NC_008459	LOCUS_TAG	GENE	PRODUCT	EFFECT
+NC_008459	50	A	G	G	G	A				
+NC_008459	102	T	C	T	T	T				
+NC_008459	122	C	C	T	T	C				
+NC_008459	123	C	C	C	C	C				
+NC_008459	124	C	C	C	C	C				
+NC_008459	125	G	G	A	A	G				
+NC_008459	172	T	G	G	G	T				
+NC_008459	263	T	C	C	C	T	ST520_p02	kfrC	KfrC	synonymous_variant c.597A>G p.Gln199Gln
+NC_008459	297	G	A	A	A	G	ST520_p02	kfrC	KfrC	missense_variant c.563C>T p.Thr188Met
+NC_008459	563	G	G	A	A	G	ST520_p02	kfrC	KfrC	synonymous_variant c.297C>T p.Arg99Arg
+NC_008459	598	G	T	T	T	G	ST520_p02	kfrC	KfrC	synonymous_variant c.262C>A p.Arg88Arg
+NC_008459	769	T	C	C	C	T	ST520_p02	kfrC	KfrC	missense_variant c.88_91delACCAinsGCCG p.ThrThr30AlaAla
+NC_008459	770	G	G	G	G	G	ST520_p02	kfrC	KfrC	missense_variant c.88_91delACCAinsGCCG p.ThrThr30AlaAla
+NC_008459	771	G	G	G	G	G	ST520_p02	kfrC	KfrC	missense_variant c.88_91delACCAinsGCCG p.ThrThr30AlaAla
+NC_008459	772	T	C	C	C	T	ST520_p02	kfrC	KfrC	missense_variant c.88_91delACCAinsGCCG p.ThrThr30AlaAla
+NC_008459	797	A	G	G	G	A	ST520_p02	kfrC	KfrC	synonymous_variant c.63T>C p.Val21Val
+NC_008459	836	A	G	G	G	A	ST520_p02	kfrC	KfrC	synonymous_variant c.24T>C p.Gly8Gly
+NC_008459	917	A	G	G	G	A	ST520_p03	kfrB	KfrB	missense_variant c.319T>C p.Ser107Pro
+NC_008459	1032	A	G	G	G	A	ST520_p03	kfrB	KfrB	synonymous_variant c.204T>C p.Ile68Ile
+NC_008459	1082	A	G	G	G	A	ST520_p03	kfrB	KfrB	missense_variant c.154T>C p.Tyr52His
+NC_008459	1089	T	C	C	C	T	ST520_p03	kfrB	KfrB	synonymous_variant c.147A>G p.Lys49Lys
+NC_008459	1197	A	G	G	G	A	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1198	A	A	A	A	A	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1199	T	T	T	T	T	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1200	C	G	G	G	C	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1201	C	C	C	C	C	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1202	G	G	G	G	G	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1203	C	T	T	T	C	ST520_p03	kfrB	KfrB	synonymous_variant c.33_39delGCGGATTinsACGCATC p.GlnArgIle11GlnArgIle
+NC_008459	1229	C	G	C	C	C	ST520_p03	kfrB	KfrB	missense_variant c.7G>C p.Glu3Gln
+NC_008459	1258	G	G	A	A	G				
+NC_008459	1264	T	C	C	C	T				
+NC_008459	1265	C	A	A	A	C				
+NC_008459	1283	T	A	A	A	T				
+NC_008459	1284	C	T	T	T	C				
+NC_008459	1296	A	T	T	T	A				
+NC_008459	1301	G	C	C	C	G				
+NC_008459	1381	G	T	T	T	G				
+NC_008459	1382	T	T	T	T	T				
+NC_008459	1383	T	T	T	T	T				
+NC_008459	1384	A	A	A	A	A				
+NC_008459	1385	G	A	A	A	G				
+NC_008459	1390	T	A	A	A	T				
+NC_008459	1391	A	A	A	A	A				
+NC_008459	1392	T	C	C	C	T				
+NC_008459	1393	C	C	C	C	C				
+NC_008459	1394	A	A	A	A	A				
+NC_008459	1395	C	A	A	A	C				
+NC_008459	1446	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.828G>A p.Gln276Gln
+NC_008459	1460	A	T	T	T	A	ST520_p04	kfrA	KfrA	missense_variant c.814T>A p.Ser272Thr
+NC_008459	1476	T	C	C	C	T	ST520_p04	kfrA	KfrA	synonymous_variant c.798A>G p.Arg266Arg
+NC_008459	1485	C	A	A	A	C	ST520_p04	kfrA	KfrA	missense_variant c.785_789delCACTGinsGGCTT p.AlaLeu262GlyLeu
+NC_008459	1486	A	A	A	A	A	ST520_p04	kfrA	KfrA	missense_variant c.785_789delCACTGinsGGCTT p.AlaLeu262GlyLeu
+NC_008459	1487	G	G	G	G	G	ST520_p04	kfrA	KfrA	missense_variant c.785_789delCACTGinsGGCTT p.AlaLeu262GlyLeu
+NC_008459	1488	T	C	C	C	T	ST520_p04	kfrA	KfrA	missense_variant c.785_789delCACTGinsGGCTT p.AlaLeu262GlyLeu
+NC_008459	1489	G	C	C	C	G	ST520_p04	kfrA	KfrA	missense_variant c.785_789delCACTGinsGGCTT p.AlaLeu262GlyLeu
+NC_008459	1503	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.771G>C p.Arg257Arg
+NC_008459	1515	G	A	A	A	G	ST520_p04	kfrA	KfrA	synonymous_variant c.759C>T p.Ala253Ala
+NC_008459	1608	G	A	A	A	G	ST520_p04	kfrA	KfrA	synonymous_variant c.666C>T p.Arg222Arg
+NC_008459	1644	T	A	A	A	T	ST520_p04	kfrA	KfrA	synonymous_variant c.630A>T p.Arg210Arg
+NC_008459	1662	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.612G>C p.Leu204Leu
+NC_008459	1671	G	C	C	C	G	ST520_p04	kfrA	KfrA	synonymous_variant c.603C>G p.Arg201Arg
+NC_008459	1695	A	G	G	G	A	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1696	C	C	C	C	C	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1697	T	T	T	T	T	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1698	C	G	G	G	C	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1699	G	G	G	G	G	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1700	T	C	C	C	T	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1701	C	C	C	C	C	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1702	G	G	G	G	G	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1703	C	T	T	T	C	ST520_p04	kfrA	KfrA	missense_variant c.571_579delGCGACGAGTinsACGGCCAGC p.AlaThrSer191ThrAlaSer
+NC_008459	1708	T	C	C	C	T	ST520_p04	kfrA	KfrA	missense_variant c.566A>G p.Lys189Arg
+NC_008459	1731	G	T	T	T	G	ST520_p04	kfrA	KfrA	missense_variant c.542_543delTCinsCA p.Val181Ala
+NC_008459	1732	A	G	G	G	A	ST520_p04	kfrA	KfrA	missense_variant c.542_543delTCinsCA p.Val181Ala
+NC_008459	1749	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.525G>A p.Glu175Glu
+NC_008459	1755	G	A	A	A	G	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1756	T	T	T	T	T	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1757	G	G	G	G	G	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1758	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1759	G	G	G	G	G	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1760	C	C	C	C	C	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1761	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.513_519delTGCGCACinsCGCCCAT p.HisAlaHis171HisAlaHis
+NC_008459	1794	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.480G>C p.Ala160Ala
+NC_008459	1803	G	C	C	C	G	ST520_p04	kfrA	KfrA	synonymous_variant c.471C>G p.Thr157Thr
+NC_008459	1812	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.462T>C p.Arg154Arg
+NC_008459	1821	A	G	G	G	A	ST520_p04	kfrA	KfrA	missense_variant c.450_453delCGCTinsGACC p.AlaAla150AlaThr
+NC_008459	1822	G	G	G	G	G	ST520_p04	kfrA	KfrA	missense_variant c.450_453delCGCTinsGACC p.AlaAla150AlaThr
+NC_008459	1823	C	T	T	T	C	ST520_p04	kfrA	KfrA	missense_variant c.450_453delCGCTinsGACC p.AlaAla150AlaThr
+NC_008459	1824	G	C	C	C	G	ST520_p04	kfrA	KfrA	missense_variant c.450_453delCGCTinsGACC p.AlaAla150AlaThr
+NC_008459	1837	G	C	C	C	G	ST520_p04	kfrA	KfrA	missense_variant c.437C>G p.Ala146Gly
+NC_008459	1848	T	G	G	G	T	ST520_p04	kfrA	KfrA	missense_variant c.422_426delTGGAAinsCCGAC p.ValGlu141AlaAsp
+NC_008459	1849	T	T	T	T	T	ST520_p04	kfrA	KfrA	missense_variant c.422_426delTGGAAinsCCGAC p.ValGlu141AlaAsp
+NC_008459	1850	C	C	C	C	C	ST520_p04	kfrA	KfrA	missense_variant c.422_426delTGGAAinsCCGAC p.ValGlu141AlaAsp
+NC_008459	1851	C	G	G	G	C	ST520_p04	kfrA	KfrA	missense_variant c.422_426delTGGAAinsCCGAC p.ValGlu141AlaAsp
+NC_008459	1852	A	G	G	G	A	ST520_p04	kfrA	KfrA	missense_variant c.422_426delTGGAAinsCCGAC p.ValGlu141AlaAsp
+NC_008459	1863	C	G	G	G	C	ST520_p04	kfrA	KfrA	missense_variant c.409_411delACGinsGCC p.Thr137Ala
+NC_008459	1864	G	G	G	G	G	ST520_p04	kfrA	KfrA	missense_variant c.409_411delACGinsGCC p.Thr137Ala
+NC_008459	1865	T	C	C	C	T	ST520_p04	kfrA	KfrA	missense_variant c.409_411delACGinsGCC p.Thr137Ala
+NC_008459	1875	T	G	G	G	T	ST520_p04	kfrA	KfrA	missense_variant c.398_399delCAinsTC p.Ala133Val
+NC_008459	1876	G	A	A	A	G	ST520_p04	kfrA	KfrA	missense_variant c.398_399delCAinsTC p.Ala133Val
+NC_008459	1886	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.388T>C p.Leu130Leu
+NC_008459	1895	T	C	T	T	T	ST520_p04	kfrA	KfrA	missense_variant c.378_379delTAinsCG p.ArgIle126ArgVal
+NC_008459	1896	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.378T>C p.Arg126Arg
+NC_008459	1950	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1951	T	T	T	T	T	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1952	C	C	C	C	C	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1953	T	C	C	C	T	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1954	T	T	T	T	T	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1955	G	G	G	G	G	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1956	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.318_324delTCAAGAGinsCCAGGAA p.ArgGlnGlu106ArgGlnGlu
+NC_008459	1962	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1963	G	G	G	G	G	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1964	C	C	C	C	C	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1965	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1966	T	T	T	T	T	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1967	C	C	C	C	C	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1968	T	C	C	C	T	ST520_p04	kfrA	KfrA	synonymous_variant c.306_312delAGAGGCGinsGGAAGCA p.ThrGluAla102ThrGluAla
+NC_008459	1977	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.297T>C p.Arg99Arg
+NC_008459	1983	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.291G>C p.Ala97Ala
+NC_008459	1992	G	C	C	C	G	ST520_p04	kfrA	KfrA	synonymous_variant c.282C>G p.Ala94Ala
+NC_008459	2010	G	C	C	C	G	ST520_p04	kfrA	KfrA	synonymous_variant c.264C>G p.Leu88Leu
+NC_008459	2076	G	G	A	A	G	ST520_p04	kfrA	KfrA	synonymous_variant c.198C>T p.Thr66Thr
+NC_008459	2109	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.165G>C p.Ala55Ala
+NC_008459	2114	T	C	C	C	T	ST520_p04	kfrA	KfrA	missense_variant c.160A>G p.Thr54Ala
+NC_008459	2130	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.141_144delGGCGinsCGCA p.ArgAla47ArgAla
+NC_008459	2131	G	G	G	G	G	ST520_p04	kfrA	KfrA	synonymous_variant c.141_144delGGCGinsCGCA p.ArgAla47ArgAla
+NC_008459	2132	C	C	C	C	C	ST520_p04	kfrA	KfrA	synonymous_variant c.141_144delGGCGinsCGCA p.ArgAla47ArgAla
+NC_008459	2133	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.141_144delGGCGinsCGCA p.ArgAla47ArgAla
+NC_008459	2139	T	C	C	C	T	ST520_p04	kfrA	KfrA	synonymous_variant c.132_135delTGAAinsCGAG p.AsnGlu44AsnGlu
+NC_008459	2140	T	T	T	T	T	ST520_p04	kfrA	KfrA	synonymous_variant c.132_135delTGAAinsCGAG p.AsnGlu44AsnGlu
+NC_008459	2141	C	C	C	C	C	ST520_p04	kfrA	KfrA	synonymous_variant c.132_135delTGAAinsCGAG p.AsnGlu44AsnGlu
+NC_008459	2142	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.132_135delTGAAinsCGAG p.AsnGlu44AsnGlu
+NC_008459	2160	C	G	G	G	C	ST520_p04	kfrA	KfrA	synonymous_variant c.114G>C p.Thr38Thr
+NC_008459	2185	A	T	T	T	A	ST520_p04	kfrA	KfrA	missense_variant c.89T>A p.Leu30Gln
+NC_008459	2190	A	G	G	G	A	ST520_p04	kfrA	KfrA	synonymous_variant c.84T>C p.Arg28Arg
+NC_008459	2232	C	T	T	T	C	ST520_p04	kfrA	KfrA	synonymous_variant c.42G>A p.Glu14Glu
+NC_008459	2259	T	C	C	C	T	ST520_p04	kfrA	KfrA	synonymous_variant c.15A>G p.Lys5Lys
+NC_008459	2264	T	A	A	A	T	ST520_p04	kfrA	KfrA	missense_variant c.10A>T p.Thr4Ser
+NC_008459	2289	C	G	G	G	C				
+NC_008459	2290	G	G	G	G	G				
+NC_008459	2291	G	C	C	C	G				
+NC_008459	2292	C	C	C	C	C				
+NC_008459	2293	C	G	G	G	C				
+NC_008459	2300	G	T	T	T	G				
+NC_008459	2312	T	T	T	A	T				
+NC_008459	2335	G	T	T	T	G				
+NC_008459	2336	G	A	A	A	G				
+NC_008459	2351	G	C	C	C	G				
+NC_008459	2366	C	G	G	G	C				
+NC_008459	2373	G	A	A	A	G				
+NC_008459	2381	G	A	.	.	G				
+NC_008459	2519	C	T	T	T	C	ST520_p01	korB	KorB	synonymous_variant c.978G>A p.Lys326Lys
+NC_008459	2537	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.960A>G p.Glu320Glu
+NC_008459	2549	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.948A>G p.Arg316Arg
+NC_008459	2570	C	T	T	T	C	ST520_p01	korB	KorB	synonymous_variant c.927G>A p.Ala309Ala
+NC_008459	2597	G	T	G	G	G	ST520_p01	korB	KorB	synonymous_variant c.900C>A p.Ile300Ile
+NC_008459	2624	A	G	G	G	A	ST520_p01	korB	KorB	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp
+NC_008459	2625	T	T	T	T	T	ST520_p01	korB	KorB	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp
+NC_008459	2626	C	C	C	C	C	ST520_p01	korB	KorB	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp
+NC_008459	2627	A	G	G	G	A	ST520_p01	korB	KorB	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp
+NC_008459	2628	G	G	G	G	G	ST520_p01	korB	KorB	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp
+NC_008459	2629	G	C	C	C	G	ST520_p01	korB	KorB	missense_variant c.868_873delCCTGATinsGCCGAC p.ProAsp290AlaAsp
+NC_008459	2638	C	G	G	G	C	ST520_p01	korB	KorB	missense_variant c.859G>C p.Ala287Pro
+NC_008459	2666	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.831A>G p.Gln277Gln
+NC_008459	2672	G	C	C	C	G	ST520_p01	korB	KorB	synonymous_variant c.822_825delAGGCinsGGGG p.GlnGly274GlnGly
+NC_008459	2673	C	C	C	C	C	ST520_p01	korB	KorB	synonymous_variant c.822_825delAGGCinsGGGG p.GlnGly274GlnGly
+NC_008459	2674	C	C	C	C	C	ST520_p01	korB	KorB	synonymous_variant c.822_825delAGGCinsGGGG p.GlnGly274GlnGly
+NC_008459	2675	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.822_825delAGGCinsGGGG p.GlnGly274GlnGly
+NC_008459	2684	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.813T>C p.Asp271Asp
+NC_008459	2693	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.804A>G p.Glu268Glu
+NC_008459	2726	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.771G>C p.Thr257Thr
+NC_008459	2732	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2733	G	G	G	G	G	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2734	G	G	G	G	G	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2735	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2736	T	T	T	T	T	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2737	C	C	C	C	C	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2738	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.759_765delCGACCCGinsTGATCCC p.ArgAspPro253ArgAspPro
+NC_008459	2750	C	G	C	C	C	ST520_p01	korB	KorB	missense_variant c.741_747delCCGCGAGinsTCACGAC p.SerArgGlu247SerHisAsp
+NC_008459	2751	T	T	T	T	T	ST520_p01	korB	KorB	missense_variant c.741_747delCCGCGAGinsTCACGAC p.SerArgGlu247SerHisAsp
+NC_008459	2752	C	C	C	C	C	ST520_p01	korB	KorB	missense_variant c.741_747delCCGCGAGinsTCACGAC p.SerArgGlu247SerHisAsp
+NC_008459	2753	G	G	G	G	G	ST520_p01	korB	KorB	missense_variant c.741_747delCCGCGAGinsTCACGAC p.SerArgGlu247SerHisAsp
+NC_008459	2754	C	T	T	T	C	ST520_p01	korB	KorB	missense_variant c.741_743delCCGinsTCA p.SerArg247SerHis
+NC_008459	2755	G	G	G	G	G	ST520_p01	korB	KorB	missense_variant c.741_743delCCGinsTCA p.SerArg247SerHis
+NC_008459	2756	G	A	A	A	G	ST520_p01	korB	KorB	missense_variant c.741_743delCCGinsTCA p.SerArg247SerHis
+NC_008459	2792	G	C	C	C	G	ST520_p01	korB	KorB	synonymous_variant c.705C>G p.Val235Val
+NC_008459	2817	G	C	C	C	G	ST520_p01	korB	KorB	missense_variant c.678_680delTACinsCAG p.AspThr226AspSer
+NC_008459	2818	T	T	T	T	T	ST520_p01	korB	KorB	missense_variant c.678_680delTACinsCAG p.AspThr226AspSer
+NC_008459	2819	A	G	G	G	A	ST520_p01	korB	KorB	missense_variant c.678_680delTACinsCAG p.AspThr226AspSer
+NC_008459	2825	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.672G>C p.Ala224Ala
+NC_008459	2837	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.660T>C p.Ala220Ala
+NC_008459	2846	T	G	G	G	T	ST520_p01	korB	KorB	missense_variant c.651A>C p.Glu217Asp
+NC_008459	2864	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.633G>C p.Ala211Ala
+NC_008459	2888	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.609C>T p.Thr203Thr
+NC_008459	2894	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.603T>C p.Asp201Asp
+NC_008459	2905	T	G	G	G	T	ST520_p01	korB	KorB	synonymous_variant c.592A>C p.Arg198Arg
+NC_008459	2912	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.585C>T p.Asn195Asn
+NC_008459	2927	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.570C>T p.Ile190Ile
+NC_008459	2936	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.561G>C p.Pro187Pro
+NC_008459	2941	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.552_556delTGACCinsGGACT p.LeuAspLeu184LeuAspLeu
+NC_008459	2942	G	G	G	G	G	ST520_p01	korB	KorB	synonymous_variant c.552_556delTGACCinsGGACT p.LeuAspLeu184LeuAspLeu
+NC_008459	2943	T	T	T	T	T	ST520_p01	korB	KorB	synonymous_variant c.552_556delTGACCinsGGACT p.LeuAspLeu184LeuAspLeu
+NC_008459	2944	C	C	C	C	C	ST520_p01	korB	KorB	synonymous_variant c.552_556delTGACCinsGGACT p.LeuAspLeu184LeuAspLeu
+NC_008459	2945	A	C	C	C	A	ST520_p01	korB	KorB	synonymous_variant c.552_556delTGACCinsGGACT p.LeuAspLeu184LeuAspLeu
+NC_008459	2950	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.543_547delGACGTinsCACGC p.ValThrLeu181ValThrLeu
+NC_008459	2951	C	C	C	C	C	ST520_p01	korB	KorB	synonymous_variant c.543_547delGACGTinsCACGC p.ValThrLeu181ValThrLeu
+NC_008459	2952	G	G	G	G	G	ST520_p01	korB	KorB	synonymous_variant c.543_547delGACGTinsCACGC p.ValThrLeu181ValThrLeu
+NC_008459	2953	T	T	T	T	T	ST520_p01	korB	KorB	synonymous_variant c.543_547delGACGTinsCACGC p.ValThrLeu181ValThrLeu
+NC_008459	2954	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.543_547delGACGTinsCACGC p.ValThrLeu181ValThrLeu
+NC_008459	3041	G	G	A	G	G	ST520_p01	korB	KorB	synonymous_variant c.456C>T p.Phe152Phe
+NC_008459	3047	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.450T>C p.Ala150Ala
+NC_008459	3056	G	A	A	A	G	ST520_p01	korB	KorB	synonymous_variant c.441C>T p.Arg147Arg
+NC_008459	3061	G	C	C	C	G	ST520_p01	korB	KorB	missense_variant c.436C>G p.Pro146Ala
+NC_008459	3071	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.426T>C p.Asn142Asn
+NC_008459	3147	C	T	T	T	C	ST520_p01	korB	KorB	missense_variant c.348_350delCGGinsGCA p.AlaGly116AlaHis
+NC_008459	3148	C	G	G	G	C	ST520_p01	korB	KorB	missense_variant c.348_350delCGGinsGCA p.AlaGly116AlaHis
+NC_008459	3149	G	C	C	C	G	ST520_p01	korB	KorB	missense_variant c.348_350delCGGinsGCA p.AlaGly116AlaHis
+NC_008459	3170	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.327T>C p.Arg109Arg
+NC_008459	3179	C	G	G	G	C	ST520_p01	korB	KorB	synonymous_variant c.318G>C p.Gly106Gly
+NC_008459	3200	G	C	C	C	G	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3201	C	C	C	C	C	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3202	C	C	C	C	C	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3203	A	C	C	C	A	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3204	G	G	G	G	G	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3205	G	G	G	G	G	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3206	C	T	T	T	C	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3207	A	G	G	G	A	ST520_p01	korB	KorB	missense_variant c.290_297delTGCCTGGCinsCACCGGGG p.ValProGly97AlaProGly
+NC_008459	3215	G	A	G	G	G	ST520_p01	korB	KorB	synonymous_variant c.282C>T p.Asn94Asn
+NC_008459	3260	C	G	C	C	C	ST520_p01	korB	KorB	synonymous_variant c.237G>C p.Thr79Thr
+NC_008459	3287	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.210A>G p.Pro70Pro
+NC_008459	3308	C	G	G	G	C	ST520_p01	korB	KorB	missense_variant c.186_189delCAAGinsGGCC p.ThrLys62ThrAla
+NC_008459	3309	T	G	G	G	T	ST520_p01	korB	KorB	missense_variant c.186_189delCAAGinsGGCC p.ThrLys62ThrAla
+NC_008459	3310	T	C	C	C	T	ST520_p01	korB	KorB	missense_variant c.186_189delCAAGinsGGCC p.ThrLys62ThrAla
+NC_008459	3311	G	C	C	C	G	ST520_p01	korB	KorB	missense_variant c.186_189delCAAGinsGGCC p.ThrLys62ThrAla
+NC_008459	3317	A	C	C	C	A	ST520_p01	korB	KorB	synonymous_variant c.180T>G p.Pro60Pro
+NC_008459	3325	T	G	G	G	T	ST520_p01	korB	KorB	missense_variant c.172A>C p.Asn58His
+NC_008459	3326	C	T	C	C	C	ST520_p01	korB	KorB	missense_variant c.171_172delGAinsAC p.ProAsn57ProHis
+NC_008459	3359	T	C	C	C	T	ST520_p01	korB	KorB	synonymous_variant c.138A>G p.Gln46Gln
+NC_008459	3365	T	G	G	G	T	ST520_p01	korB	KorB	synonymous_variant c.132A>C p.Gly44Gly
+NC_008459	3406	A	G	G	G	A	ST520_p01	korB	KorB	synonymous_variant c.91T>C p.Leu31Leu
+NC_008459	3458	C	G	G	G	C	ST520_p01	korB	KorB	missense_variant c.39G>C p.Glu13Asp
+NC_008459	3538	C	A	A	A	C	ST520_p07	incC2	IncC2	synonymous_variant c.720G>T p.Arg240Arg
+NC_008459	3559	G	C	C	C	G	ST520_p07	incC2	IncC2	synonymous_variant c.699C>G p.Arg233Arg
+NC_008459	3565	T	G	G	G	T	ST520_p07	incC2	IncC2	synonymous_variant c.693A>C p.Ala231Ala
+NC_008459	3586	T	C	C	C	T	ST520_p07	incC2	IncC2	synonymous_variant c.672A>G p.Val224Val
+NC_008459	3631	T	G	G	G	T	ST520_p07	incC2	IncC2	synonymous_variant c.627A>C p.Gly209Gly
+NC_008459	3651	C	T	T	T	C	ST520_p07	incC2	IncC2	missense_variant c.607G>A p.Val203Ile
+NC_008459	3656	C	T	T	T	C	ST520_p07	incC2	IncC2	missense_variant c.602G>A p.Arg201Gln
+NC_008459	3706	T	C	C	C	T	ST520_p07	incC2	IncC2	synonymous_variant c.552A>G p.Arg184Arg
+NC_008459	3850	G	C	C	C	G	ST520_p07	incC2	IncC2	missense_variant c.406_408delGCCinsACG p.Ala136Thr
+NC_008459	3851	G	G	G	G	G	ST520_p07	incC2	IncC2	missense_variant c.406_408delGCCinsACG p.Ala136Thr
+NC_008459	3852	C	T	T	T	C	ST520_p07	incC2	IncC2	missense_variant c.406_408delGCCinsACG p.Ala136Thr
+NC_008459	3883	A	G	G	G	A	ST520_p07	incC2	IncC2	synonymous_variant c.375T>C p.Ser125Ser
+NC_008459	3892	T	C	C	C	T	ST520_p07	incC2	IncC2	synonymous_variant c.366A>G p.Thr122Thr
+NC_008459	3907	T	C	C	C	T	ST520_p07	incC2	IncC2	synonymous_variant c.351A>G p.Val117Val
+NC_008459	3925	G	C	C	C	G	ST520_p07	incC2	IncC2	synonymous_variant c.333C>G p.Leu111Leu
+NC_008459	3967	C	A	A	A	C	ST520_p07	incC2	IncC2	synonymous_variant c.291G>T p.Leu97Leu
+NC_008459	3994	A	G	G	G	A	ST520_p07	incC2	IncC2	missense_variant c.263_264delGTinsAC p.Ser88Asn
+NC_008459	3995	C	T	T	T	C	ST520_p07	incC2	IncC2	missense_variant c.263_264delGTinsAC p.Ser88Asn
+NC_008459	4003	G	T	T	T	G	ST520_p07	incC2	IncC2	synonymous_variant c.255C>A p.Ala85Ala
+NC_008459	4014	A	G	G	.	A	ST520_p07	incC2	IncC2	synonymous_variant c.243_244delATinsGC p.AlaLeu81AlaLeu
+NC_008459	4015	T	C	C	.	T	ST520_p07	incC2	IncC2	synonymous_variant c.243_244delATinsGC p.AlaLeu81AlaLeu
+NC_008459	4023	C	T	T	.	C	ST520_p07	incC2	IncC2	missense_variant c.235G>A p.Gly79Ser
+NC_008459	4028	T	C	C	.	T	ST520_p07	incC2	IncC2	missense_variant c.230A>G p.Asp77Gly
+NC_008459	4048	G	A	A	.	G	ST520_p07	incC2	IncC2	missense_variant c.208_210delCACinsTAT p.His70Tyr
+NC_008459	4049	T	T	T	.	T	ST520_p07	incC2	IncC2	missense_variant c.208_210delCACinsTAT p.His70Tyr
+NC_008459	4050	G	A	A	.	G	ST520_p07	incC2	IncC2	missense_variant c.208_210delCACinsTAT p.His70Tyr
+NC_008459	4056	A	G	G	.	A	ST520_p07	incC2	IncC2	synonymous_variant c.198_202delCGACTinsTGACC p.AspAspLeu66AspAspLeu
+NC_008459	4057	G	G	G	.	G	ST520_p07	incC2	IncC2	synonymous_variant c.198_202delCGACTinsTGACC p.AspAspLeu66AspAspLeu
+NC_008459	4058	T	T	T	.	T	ST520_p07	incC2	IncC2	synonymous_variant c.198_202delCGACTinsTGACC p.AspAspLeu66AspAspLeu
+NC_008459	4059	C	C	C	.	C	ST520_p07	incC2	IncC2	synonymous_variant c.198_202delCGACTinsTGACC p.AspAspLeu66AspAspLeu
+NC_008459	4060	G	A	A	.	G	ST520_p07	incC2	IncC2	synonymous_variant c.198_202delCGACTinsTGACC p.AspAspLeu66AspAspLeu
+NC_008459	4102	C	T	T	.	C	ST520_p07	incC2	IncC2	synonymous_variant c.156G>A p.Gln52Gln
+NC_008459	4116	A	G	G	.	A	ST520_p07	incC2	IncC2	synonymous_variant c.142T>C p.Leu48Leu
+NC_008459	4126	G	T	T	.	G	ST520_p07	incC2	IncC2	synonymous_variant c.132C>A p.Ala44Ala
+NC_008459	4141	A	G	G	G	A	ST520_p07	incC2	IncC2	synonymous_variant c.117T>C p.Asp39Asp
+NC_008459	4156	G	G	G	T	G	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4157	G	G	G	G	G	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4158	C	C	C	C	C	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4159	C	C	C	A	C	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4160	A	A	A	A	A	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4161	C	C	C	C	C	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4162	G	G	G	C	G	ST520_p07	incC2	IncC2	synonymous_variant c.96_102delCGTGGCCinsGGTTGCA p.ArgValAla32ArgValAla
+NC_008459	4178	A	A	A	T	A	ST520_p07	incC2	IncC2	missense_variant c.80T>A p.Leu27Gln
+NC_008459	4189	C	T	T	C	C	ST520_p07	incC2	IncC2	synonymous_variant c.69G>A p.Ala23Ala
+NC_008459	4204	G	G	G	T	G	ST520_p07	incC2	IncC2	synonymous_variant c.54C>A p.Ala18Ala
+NC_008459	4219	C	T	T	T	C	ST520_p07	incC2	IncC2	synonymous_variant c.39G>A p.Gln13Gln
+NC_008459	4228	C	C	C	T	C	ST520_p07	incC2	IncC2	synonymous_variant c.30G>A p.Lys10Lys
+NC_008459	4249	A	T	T	T	A	ST520_p07	incC2	IncC2	synonymous_variant c.9T>A p.Thr3Thr
+NC_008459	4258	C	G	G	G	C	ST520_p08	korA	KorA	stop_lost&splice_region_variant c.297_299delGTGinsCTC p.LysTer99AsnSerext*?
+NC_008459	4259	A	A	A	A	A	ST520_p08	korA	KorA	stop_lost&splice_region_variant c.297_299delGTGinsCTC p.LysTer99AsnSerext*?
+NC_008459	4260	C	C	C	G	C	ST520_p08	korA	KorA	stop_lost&splice_region_variant c.297_299delGTGinsCTC p.LysTer99AsnSerext*?
+NC_008459	4287	T	T	T	G	T	ST520_p08	korA	KorA	synonymous_variant c.283A>C p.Arg95Arg
+NC_008459	4296	C	C	C	A	C	ST520_p08	korA	KorA	missense_variant c.272_274delAAGinsCGT p.GluVal91AlaLeu
+NC_008459	4297	T	T	T	C	T	ST520_p08	korA	KorA	missense_variant c.272_274delAAGinsCGT p.GluVal91AlaLeu
+NC_008459	4298	T	T	T	G	T	ST520_p08	korA	KorA	missense_variant c.272_274delAAGinsCGT p.GluVal91AlaLeu
+NC_008459	4341	C	T	T	C	C	ST520_p08	korA	KorA	missense_variant c.229G>A p.Gly77Ser
+NC_008459	4350	C	G	G	G	C	ST520_p08	korA	KorA	missense_variant c.220G>C p.Val74Leu
+NC_008459	4355	C	C	C	G	C	ST520_p08	korA	KorA	missense_variant c.214_215delCGinsGC p.Arg72Ala
+NC_008459	4356	G	G	G	C	G	ST520_p08	korA	KorA	missense_variant c.214_215delCGinsGC p.Arg72Ala
+NC_008459	4363	T	T	T	A	T	ST520_p08	korA	KorA	missense_variant c.206_207delCAinsGT p.Thr69Ser
+NC_008459	4364	G	G	G	C	G	ST520_p08	korA	KorA	missense_variant c.206_207delCAinsGT p.Thr69Ser
+NC_008459	4371	C	T	T	C	C	ST520_p08	korA	KorA	missense_variant c.199G>A p.Gly67Arg
+NC_008459	4374	T	T	T	C	T	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4375	G	G	G	A	G	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4376	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4377	C	T	T	T	C	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4378	G	G	G	G	G	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4379	T	C	C	C	T	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4380	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4381	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4382	A	A	A	A	A	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4383	T	T	T	C	T	ST520_p08	korA	KorA	missense_variant c.187_196delATGGACGGCAinsGTGGGCAGTG p.MetAspGlySer63ValGlySerGly
+NC_008459	4389	A	A	A	G	A	ST520_p08	korA	KorA	missense_variant c.181T>C p.Ser61Pro
+NC_008459	4398	T	C	C	T	T	ST520_p08	korA	KorA	missense_variant c.172A>G p.Ser58Gly
+NC_008459	4404	C	C	C	T	C	ST520_p08	korA	KorA	missense_variant c.163_166delAGTGinsGGTA p.SerVal55GlyIle
+NC_008459	4405	A	A	A	A	A	ST520_p08	korA	KorA	missense_variant c.163_166delAGTGinsGGTA p.SerVal55GlyIle
+NC_008459	4406	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.163_166delAGTGinsGGTA p.SerVal55GlyIle
+NC_008459	4407	T	C	C	C	T	ST520_p08	korA	KorA	missense_variant c.163_166delAGTGinsGGTA p.SerVal55GlyIle
+NC_008459	4421	A	G	G	G	A	ST520_p08	korA	KorA	missense_variant c.149T>C p.Val50Ala
+NC_008459	4431	C	A	A	G	C	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4432	G	G	G	G	G	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4433	T	T	T	C	T	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4434	G	G	G	C	G	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4435	A	A	A	A	A	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4436	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4437	G	A	A	A	G	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4438	A	A	A	A	A	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4439	A	A	A	A	A	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4440	T	C	C	C	T	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4441	T	T	T	T	T	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4442	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4443	C	C	C	G	C	ST520_p08	korA	KorA	missense_variant c.127_139delGGAATTCGTCACGinsCGAGTTTGTGGCC p.GlyIleArgHisVal43ArgValCysGlyLeu
+NC_008459	4452	A	C	C	C	A	ST520_p08	korA	KorA	missense_variant c.115_118delGCGTinsAAGG p.AlaSer39LysAla
+NC_008459	4453	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.115_118delGCGTinsAAGG p.AlaSer39LysAla
+NC_008459	4454	G	G	G	T	G	ST520_p08	korA	KorA	missense_variant c.115_118delGCGTinsAAGG p.AlaSer39LysAla
+NC_008459	4455	C	G	G	T	C	ST520_p08	korA	KorA	missense_variant c.115_118delGCGTinsAAGG p.AlaSer39LysAla
+NC_008459	4473	A	G	G	G	A	ST520_p08	korA	KorA	missense_variant c.94_97delACGTinsGCGC p.ThrTrp32AlaArg
+NC_008459	4474	C	C	C	C	C	ST520_p08	korA	KorA	missense_variant c.94_97delACGTinsGCGC p.ThrTrp32AlaArg
+NC_008459	4475	G	G	G	G	G	ST520_p08	korA	KorA	missense_variant c.94_97delACGTinsGCGC p.ThrTrp32AlaArg
+NC_008459	4476	T	C	C	C	T	ST520_p08	korA	KorA	missense_variant c.94_97delACGTinsGCGC p.ThrTrp32AlaArg
+NC_008459	4488	A	G	G	G	A	ST520_p08	korA	KorA	missense_variant c.82T>C p.Tyr28His
+NC_008459	4494	C	C	C	T	C	ST520_p08	korA	KorA	missense_variant c.76G>A p.Ala26Thr
+NC_008459	4509	C	C	C	G	C	ST520_p08	korA	KorA	missense_variant c.61G>C p.Ala21Pro
+NC_008459	4518	G	G	G	C	G	ST520_p08	korA	KorA	missense_variant c.52C>G p.His18Asp
+NC_008459	4523	C	T	T	C	C	ST520_p08	korA	KorA	missense_variant c.47G>A p.Gly16Asp
+NC_008459	4560	T	T	T	G	T	ST520_p05	incC1	IncC1	missense_variant c.8_10delCAAinsTTC p.AlaIle3ValLeu
+NC_008459	4561	T	T	T	A	T	ST520_p05	incC1	IncC1	missense_variant c.8_10delCAAinsTTC p.AlaIle3ValLeu
+NC_008459	4562	G	G	G	A	G	ST520_p05	incC1	IncC1	missense_variant c.8_10delCAAinsTTC p.AlaIle3ValLeu
+NC_008459	4596	G	A	A	A	G				
+NC_008459	4597	A	A	A	A	A				
+NC_008459	4598	A	A	A	A	A				
+NC_008459	4599	A	T	T	A	A				
+NC_008459	4619	T	T	C	C	T				
+NC_008459	4642	C	C	C	T	C				
+NC_008459	4643	A	A	A	C	A				
+NC_008459	4644	T	T	T	G	T				
+NC_008459	4645	G	G	G	C	G				
+NC_008459	4646	C	C	C	C	C				
+NC_008459	4647	G	G	G	G	G				
+NC_008459	4648	G	A	A	C	G				
+NC_008459	4649	C	A	A	C	C				
+NC_008459	4650	C	G	G	C	C				
+NC_008459	4651	A	C	C	G	A				
+NC_008459	4652	C	C	C	C	C				
+NC_008459	5006	C	C	C	T	C	ST520_p09	kleE	KleE	missense_variant c.70G>A p.Val24Ile
+NC_008459	5013	C	G	G	G	C	ST520_p09	kleE	KleE	synonymous_variant c.63G>C p.Ser21Ser
+NC_008459	5019	G	G	G	A	G	ST520_p09	kleE	KleE	synonymous_variant c.57C>T p.Ala19Ala
+NC_008459	5036	T	C	C	C	T	ST520_p09	kleE	KleE	missense_variant c.40A>G p.Thr14Ala
+NC_008459	5037	G	G	G	G	G	ST520_p09	kleE	KleE	missense_variant c.38_40delGCAinsCCG p.SerThr13ThrAla
+NC_008459	5038	C	G	G	C	C	ST520_p09	kleE	KleE	missense_variant c.38_40delGCAinsCCG p.SerThr13ThrAla
+NC_008459	5056	T	A	A	G	T	ST520_p09	kleE	KleE	missense_variant c.20A>C p.Asn7Thr
+NC_008459	5079	G	T	T	T	G				
+NC_008459	5080	A	A	A	A	A				
+NC_008459	5081	T	C	C	C	T				
+NC_008459	5525	T	.	C	.	T				
+NC_008459	5584	A	G	G	.	A				
+NC_008459	5605	G	C	C	.	G	ST520_p06	korC	KorC	missense_variant c.252C>G p.Asp84Glu
+NC_008459	5618	G	A	A	.	G	ST520_p06	korC	KorC	missense_variant c.238_239delTCinsCT p.Ser80Leu
+NC_008459	5619	A	G	G	.	A	ST520_p06	korC	KorC	missense_variant c.238_239delTCinsCT p.Ser80Leu
+NC_008459	5662	G	A	A	.	G	ST520_p06	korC	KorC	synonymous_variant c.195C>T p.Pro65Pro
+NC_008459	5689	A	T	T	.	A	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5690	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5691	G	G	G	.	G	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5692	G	C	C	.	G	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5693	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5694	G	G	G	.	G	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5695	A	G	G	.	A	ST520_p06	korC	KorC	synonymous_variant c.162_168delTCGCCGTinsCCGGCGA p.IleArgArg54IleArgArg
+NC_008459	5716	A	G	G	.	A	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5717	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5718	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5719	A	G	G	.	A	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5720	A	A	A	.	A	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5721	G	G	G	.	G	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5722	C	G	G	.	C	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5723	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5724	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5725	G	C	C	.	G	ST520_p06	korC	KorC	synonymous_variant c.132_141delCGGGCTTGGTinsGGGCCTCGGC p.LeuGlyLeuGly44LeuGlyLeuGly
+NC_008459	5740	C	T	T	.	C	ST520_p06	korC	KorC	synonymous_variant c.117G>A p.Lys39Lys
+NC_008459	5754	A	G	G	.	A	ST520_p06	korC	KorC	missense_variant c.102_103delTTinsCC p.GlyPhe34GlyLeu
+NC_008459	5755	A	G	G	.	A	ST520_p06	korC	KorC	missense_variant c.102_103delTTinsCC p.GlyPhe34GlyLeu
+NC_008459	5764	C	G	G	.	C	ST520_p06	korC	KorC	synonymous_variant c.93G>C p.Arg31Arg
+NC_008459	5773	T	C	C	.	T	ST520_p06	korC	KorC	synonymous_variant c.81_84delTGAAinsCGAG p.ArgGlu27ArgGlu
+NC_008459	5774	T	T	T	.	T	ST520_p06	korC	KorC	synonymous_variant c.81_84delTGAAinsCGAG p.ArgGlu27ArgGlu
+NC_008459	5775	C	C	C	.	C	ST520_p06	korC	KorC	synonymous_variant c.81_84delTGAAinsCGAG p.ArgGlu27ArgGlu
+NC_008459	5776	A	G	G	.	A	ST520_p06	korC	KorC	synonymous_variant c.81_84delTGAAinsCGAG p.ArgGlu27ArgGlu
+NC_008459	5792	G	C	C	.	G	ST520_p06	korC	KorC	missense_variant c.65C>G p.Thr22Ser
+NC_008459	5800	T	C	C	.	T	ST520_p06	korC	KorC	synonymous_variant c.57A>G p.Ala19Ala
+NC_008459	5808	T	G	G	.	T	ST520_p06	korC	KorC	synonymous_variant c.49A>C p.Arg17Arg
+NC_008459	5818	T	C	C	.	T	ST520_p06	korC	KorC	synonymous_variant c.39A>G p.Lys13Lys
+NC_008459	5862	C	T	T	.	C				
+NC_008459	5871	C	G	G	.	C				
+NC_008459	5876	T	C	C	.	T				
+NC_008459	5913	T	T	T	C	T				
+NC_008459	5914	G	G	G	G	G				
+NC_008459	5915	T	T	T	T	T				
+NC_008459	5916	C	C	C	T	C				
+NC_008459	5924	G	G	G	T	G				
+NC_008459	5931	G	A	A	G	G				
+NC_008459	5955	G	T	T	G	G				
+NC_008459	5978	C	C	C	T	C				
+NC_008459	5991	C	C	C	G	C				
+NC_008459	5992	T	T	T	T	T				
+NC_008459	5993	C	C	C	A	C				
+NC_008459	5994	C	C	C	G	C				
+NC_008459	5995	C	T	T	C	C				
+NC_008459	5996	T	T	T	G	T				
+NC_008459	5997	G	G	G	G	G				
+NC_008459	5998	G	G	G	T	G				
+NC_008459	5999	C	C	C	C	C				
+NC_008459	6000	A	G	G	G	A				
+NC_008459	6001	A	A	A	A	A				
+NC_008459	6002	A	A	A	A	A				
+NC_008459	6003	C	C	C	A	C				
+NC_008459	6009	A	A	A	G	A				
+NC_008459	6010	T	T	T	T	T				
+NC_008459	6011	G	G	G	G	G				
+NC_008459	6012	G	G	G	A	G				
+NC_008459	6036	C	T	T	C	C				
+NC_008459	6042	C	T	T	.	C				
+NC_008459	6052	G	G	G	T	G				
+NC_008459	6061	T	A	A	A	T				
+NC_008459	6068	T	C	C	C	T				
+NC_008459	6069	A	G	G	G	A				
+NC_008459	6079	G	G	G	C	G				
+NC_008459	6085	T	C	T	.	T				
+NC_008459	6111	C	T	T	.	C				
+NC_008459	6112	G	T	T	.	G				
+NC_008459	6137	C	T	T	.	C				
+NC_008459	6144	G	A	A	.	G				
+NC_008459	6152	G	A	A	.	G				
+NC_008459	6153	C	G	G	.	C				
+NC_008459	6186	A	G	G	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.774T>C p.His258His
+NC_008459	6196	T	.	G	.	T	ST520_p11	klcB	KlcB	missense_variant c.764A>C p.Glu255Ala
+NC_008459	6246	G	C	C	.	G	ST520_p11	klcB	KlcB	synonymous_variant c.714C>G p.Arg238Arg
+NC_008459	6273	G	C	C	.	G	ST520_p11	klcB	KlcB	synonymous_variant c.687C>G p.Leu229Leu
+NC_008459	6306	A	G	G	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.654T>C p.Ile218Ile
+NC_008459	6315	C	G	G	.	C	ST520_p11	klcB	KlcB	missense_variant c.641_645delTGACGinsCGACC p.ValThr214AlaThr
+NC_008459	6316	G	G	G	.	G	ST520_p11	klcB	KlcB	missense_variant c.641_645delTGACGinsCGACC p.ValThr214AlaThr
+NC_008459	6317	T	T	T	.	T	ST520_p11	klcB	KlcB	missense_variant c.641_645delTGACGinsCGACC p.ValThr214AlaThr
+NC_008459	6318	C	C	C	.	C	ST520_p11	klcB	KlcB	missense_variant c.641_645delTGACGinsCGACC p.ValThr214AlaThr
+NC_008459	6319	A	G	G	.	A	ST520_p11	klcB	KlcB	missense_variant c.641_645delTGACGinsCGACC p.ValThr214AlaThr
+NC_008459	6343	T	A	A	.	T	ST520_p11	klcB	KlcB	missense_variant c.617A>T p.Glu206Val
+NC_008459	6360	G	A	A	.	G	ST520_p11	klcB	KlcB	missense_variant c.597_600delTGGCinsCGAT p.ProGly199ProAsp
+NC_008459	6361	C	T	T	.	C	ST520_p11	klcB	KlcB	missense_variant c.597_600delTGGCinsCGAT p.ProGly199ProAsp
+NC_008459	6362	C	C	C	.	C	ST520_p11	klcB	KlcB	missense_variant c.597_600delTGGCinsCGAT p.ProGly199ProAsp
+NC_008459	6363	A	G	G	.	A	ST520_p11	klcB	KlcB	missense_variant c.597_600delTGGCinsCGAT p.ProGly199ProAsp
+NC_008459	6373	T	G	G	.	T	ST520_p11	klcB	KlcB	missense_variant c.587A>C p.Asp196Ala
+NC_008459	6378	C	G	G	.	C	ST520_p11	klcB	KlcB	synonymous_variant c.582G>C p.Ala194Ala
+NC_008459	6383	G	A	A	G	G	ST520_p11	klcB	KlcB	synonymous_variant c.577C>T p.Leu193Leu
+NC_008459	6397	C	T	T	C	C	ST520_p11	klcB	KlcB	missense_variant c.563G>A p.Ser188Asn
+NC_008459	6407	T	T	T	C	T	ST520_p11	klcB	KlcB	missense_variant c.550_553delCTGAinsATGG p.LeuIle184MetVal
+NC_008459	6408	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.550_553delCTGAinsATGG p.LeuIle184MetVal
+NC_008459	6409	A	A	A	A	A	ST520_p11	klcB	KlcB	missense_variant c.550_553delCTGAinsATGG p.LeuIle184MetVal
+NC_008459	6410	G	A	A	T	G	ST520_p11	klcB	KlcB	missense_variant c.550_553delCTGAinsATGG p.LeuIle184MetVal
+NC_008459	6417	C	C	C	G	C	ST520_p11	klcB	KlcB	synonymous_variant c.543G>C p.Arg181Arg
+NC_008459	6426	T	C	C	C	T	ST520_p11	klcB	KlcB	synonymous_variant c.534A>G p.Glu178Glu
+NC_008459	6432	C	C	C	T	C	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6433	A	A	A	C	A	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6434	G	G	G	G	G	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6435	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6436	A	A	A	T	A	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6437	T	T	T	G	T	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6438	G	G	G	C	G	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6439	G	G	G	G	G	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6440	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6441	C	C	C	A	C	ST520_p11	klcB	KlcB	missense_variant c.519_528delGGCCATGCTGinsTGCGCAGCGA p.AlaAlaMetLeu173AlaAlaGlnArg
+NC_008459	6443	C	T	T	C	C	ST520_p11	klcB	KlcB	missense_variant c.514_517delATGGinsCTGA p.MetAla172LeuThr
+NC_008459	6444	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.514_517delATGGinsCTGA p.MetAla172LeuThr
+NC_008459	6445	A	A	A	A	A	ST520_p11	klcB	KlcB	missense_variant c.514_517delATGGinsCTGA p.MetAla172LeuThr
+NC_008459	6446	T	G	G	G	T	ST520_p11	klcB	KlcB	missense_variant c.514A>C p.Met172Leu
+NC_008459	6460	G	A	A	A	G	ST520_p11	klcB	KlcB	missense_variant c.500C>T p.Ala167Val
+NC_008459	6471	G	G	G	C	G	ST520_p11	klcB	KlcB	synonymous_variant c.489C>G p.Thr163Thr
+NC_008459	6484	C	C	C	T	C	ST520_p11	klcB	KlcB	missense_variant c.473_476delTGCGinsCGCA p.ValArg158AlaGln
+NC_008459	6485	G	G	G	G	G	ST520_p11	klcB	KlcB	missense_variant c.473_476delTGCGinsCGCA p.ValArg158AlaGln
+NC_008459	6486	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.473_476delTGCGinsCGCA p.ValArg158AlaGln
+NC_008459	6487	A	G	G	G	A	ST520_p11	klcB	KlcB	missense_variant c.473_476delTGCGinsCGCA p.ValArg158AlaGln
+NC_008459	6501	C	T	C	C	C	ST520_p11	klcB	KlcB	synonymous_variant c.459G>A p.Ser153Ser
+NC_008459	6507	A	A	A	G	A	ST520_p11	klcB	KlcB	synonymous_variant c.453T>C p.Tyr151Tyr
+NC_008459	6516	C	C	C	T	C	ST520_p11	klcB	KlcB	missense_variant c.441_444delGGCGinsCGAA p.SerAla147SerGlu
+NC_008459	6517	G	G	G	T	G	ST520_p11	klcB	KlcB	missense_variant c.441_444delGGCGinsCGAA p.SerAla147SerGlu
+NC_008459	6518	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.441_444delGGCGinsCGAA p.SerAla147SerGlu
+NC_008459	6519	C	C	C	G	C	ST520_p11	klcB	KlcB	missense_variant c.441_444delGGCGinsCGAA p.SerAla147SerGlu
+NC_008459	6533	G	T	T	T	G	ST520_p11	klcB	KlcB	synonymous_variant c.427C>A p.Arg143Arg
+NC_008459	6543	G	A	A	G	G	ST520_p11	klcB	KlcB	missense_variant c.415_417delATCinsGTT p.Ile139Val
+NC_008459	6544	A	A	A	A	A	ST520_p11	klcB	KlcB	missense_variant c.415_417delATCinsGTT p.Ile139Val
+NC_008459	6545	T	C	C	T	T	ST520_p11	klcB	KlcB	missense_variant c.415_417delATCinsGTT p.Ile139Val
+NC_008459	6546	C	C	C	G	C	ST520_p11	klcB	KlcB	missense_variant c.413_414delCGinsTC p.Ala138Val
+NC_008459	6547	G	G	G	A	G	ST520_p11	klcB	KlcB	missense_variant c.413_414delCGinsTC p.Ala138Val
+NC_008459	6558	G	A	A	G	G	ST520_p11	klcB	KlcB	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe
+NC_008459	6559	A	A	A	A	A	ST520_p11	klcB	KlcB	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe
+NC_008459	6560	A	A	A	A	A	ST520_p11	klcB	KlcB	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe
+NC_008459	6561	G	A	A	G	G	ST520_p11	klcB	KlcB	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe
+NC_008459	6562	T	T	T	T	T	ST520_p11	klcB	KlcB	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe
+NC_008459	6563	G	G	G	G	G	ST520_p11	klcB	KlcB	synonymous_variant c.396_402delTCACTTCinsGCATTTT p.AlaHisPhe132AlaHisPhe
+NC_008459	6564	A	C	C	G	A	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6565	G	G	G	G	G	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6566	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6567	G	G	G	A	G	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6568	T	T	T	C	T	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6569	T	T	T	C	T	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6570	G	G	G	C	G	ST520_p11	klcB	KlcB	missense_variant c.390_396delCAACGCTinsGGGTGCC p.LeuAsnAla130LeuGlyAla
+NC_008459	6582	G	A	A	G	G	ST520_p11	klcB	KlcB	synonymous_variant c.375_378delCTACinsTTAT p.GlyTyr125GlyTyr
+NC_008459	6583	T	T	T	T	T	ST520_p11	klcB	KlcB	synonymous_variant c.375_378delCTACinsTTAT p.GlyTyr125GlyTyr
+NC_008459	6584	A	A	A	A	A	ST520_p11	klcB	KlcB	synonymous_variant c.375_378delCTACinsTTAT p.GlyTyr125GlyTyr
+NC_008459	6585	G	A	A	G	G	ST520_p11	klcB	KlcB	synonymous_variant c.375_378delCTACinsTTAT p.GlyTyr125GlyTyr
+NC_008459	6612	T	C	C	C	T	ST520_p11	klcB	KlcB	missense_variant c.345_348delTGTAinsCATG p.AspVal115AspMet
+NC_008459	6613	A	A	A	A	A	ST520_p11	klcB	KlcB	missense_variant c.345_348delTGTAinsCATG p.AspVal115AspMet
+NC_008459	6614	C	C	C	T	C	ST520_p11	klcB	KlcB	missense_variant c.345_348delTGTAinsCATG p.AspVal115AspMet
+NC_008459	6615	A	G	G	G	A	ST520_p11	klcB	KlcB	missense_variant c.345_348delTGTAinsCATG p.AspVal115AspMet
+NC_008459	6621	C	C	C	A	C	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6622	G	G	G	T	G	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6623	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6624	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6625	A	A	A	G	A	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6626	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6627	G	G	G	G	G	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6628	G	G	G	A	G	ST520_p11	klcB	KlcB	missense_variant c.332_339delCCGTGGCGinsTCGCGGAT p.AlaValAla111ValAlaAsp
+NC_008459	6660	A	C	C	C	A	ST520_p11	klcB	KlcB	missense_variant c.297_300delGGTTinsCGTG p.GluVal99AspVal
+NC_008459	6661	A	A	A	A	A	ST520_p11	klcB	KlcB	missense_variant c.297_300delGGTTinsCGTG p.GluVal99AspVal
+NC_008459	6662	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.297_300delGGTTinsCGTG p.GluVal99AspVal
+NC_008459	6663	C	G	G	G	C	ST520_p11	klcB	KlcB	missense_variant c.297_300delGGTTinsCGTG p.GluVal99AspVal
+NC_008459	6664	T	T	T	T	T	ST520_p11	klcB	KlcB	missense_variant c.291_300delAGGCGAGGTTinsGGGGGACGTG p.ProGlyGluVal97ProGlyAspVal
+NC_008459	6665	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.291_300delAGGCGAGGTTinsGGGGGACGTG p.ProGlyGluVal97ProGlyAspVal
+NC_008459	6666	G	C	C	G	G	ST520_p11	klcB	KlcB	missense_variant c.291_300delAGGCGAGGTTinsGGGGGACGTG p.ProGlyGluVal97ProGlyAspVal
+NC_008459	6667	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.291_300delAGGCGAGGTTinsGGGGGACGTG p.ProGlyGluVal97ProGlyAspVal
+NC_008459	6668	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.291_300delAGGCGAGGTTinsGGGGGACGTG p.ProGlyGluVal97ProGlyAspVal
+NC_008459	6669	T	C	C	A	T	ST520_p11	klcB	KlcB	synonymous_variant c.291A>T p.Pro97Pro
+NC_008459	6678	C	A	A	C	C	ST520_p11	klcB	KlcB	synonymous_variant c.282G>T p.Ala94Ala
+NC_008459	6687	C	C	C	G	C	ST520_p11	klcB	KlcB	synonymous_variant c.273G>C p.Arg91Arg
+NC_008459	6699	G	G	G	C	G	ST520_p11	klcB	KlcB	missense_variant c.261C>G p.His87Gln
+NC_008459	6700	T	C	C	T	T	ST520_p11	klcB	KlcB	missense_variant c.260A>G p.His87Arg
+NC_008459	6707	C	C	C	G	C	ST520_p11	klcB	KlcB	missense_variant c.249_253delGGCCGinsCGCGC p.GluAlaAla83AspAlaPro
+NC_008459	6708	G	G	G	C	G	ST520_p11	klcB	KlcB	missense_variant c.249_253delGGCCGinsCGCGC p.GluAlaAla83AspAlaPro
+NC_008459	6709	G	G	G	G	G	ST520_p11	klcB	KlcB	missense_variant c.249_253delGGCCGinsCGCGC p.GluAlaAla83AspAlaPro
+NC_008459	6710	C	C	C	C	C	ST520_p11	klcB	KlcB	missense_variant c.249_253delGGCCGinsCGCGC p.GluAlaAla83AspAlaPro
+NC_008459	6711	C	C	C	G	C	ST520_p11	klcB	KlcB	missense_variant c.249_253delGGCCGinsCGCGC p.GluAlaAla83AspAlaPro
+NC_008459	6716	C	C	C	G	C	ST520_p11	klcB	KlcB	missense_variant c.244G>C p.Asp82His
+NC_008459	6735	A	G	G	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.225T>C p.Asn75Asn
+NC_008459	6787	T	A	A	.	T	ST520_p11	klcB	KlcB	missense_variant c.173A>T p.Gln58Leu
+NC_008459	6801	G	C	C	.	G	ST520_p11	klcB	KlcB	synonymous_variant c.159C>G p.Gly53Gly
+NC_008459	6810	A	G	G	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.150T>C p.Arg50Arg
+NC_008459	6846	C	A	A	.	C	ST520_p11	klcB	KlcB	synonymous_variant c.114G>T p.Val38Val
+NC_008459	6861	A	C	C	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.99T>G p.Leu33Leu
+NC_008459	6884	A	G	G	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.76T>C p.Leu26Leu
+NC_008459	6896	A	G	G	.	A	ST520_p11	klcB	KlcB	synonymous_variant c.64T>C p.Leu22Leu
+NC_008459	6929	C	T	C	.	C	ST520_p11	klcB	KlcB	missense_variant c.31G>A p.Ala11Thr
+NC_008459	6945	C	T	T	.	C	ST520_p11	klcB	KlcB	synonymous_variant c.15G>A p.Thr5Thr
+NC_008459	6954	T	C	C	.	T	ST520_p11	klcB	KlcB	synonymous_variant c.6A>G p.Ala2Ala
+NC_008459	6964	G	T	T	.	G				
+NC_008459	6978	C	T	T	.	C				
+NC_008459	6986	T	C	C	C	T				
+NC_008459	6992	A	G	G	A	A				
+NC_008459	6997	A	G	G	G	A				
+NC_008459	7014	A	G	G	G	A	ST520_p12	klcA	KlcA	synonymous_variant c.426T>C p.Asp142Asp
+NC_008459	7035	G	A	A	G	G	ST520_p12	klcA	KlcA	synonymous_variant c.405C>T p.Ala135Ala
+NC_008459	7038	G	G	G	C	G	ST520_p12	klcA	KlcA	synonymous_variant c.402C>G p.Ala134Ala
+NC_008459	7046	G	G	G	C	G	ST520_p12	klcA	KlcA	missense_variant c.393_394delTCinsCG p.HisPro131HisAla
+NC_008459	7047	A	G	G	G	A	ST520_p12	klcA	KlcA	missense_variant c.393_394delTCinsCG p.HisPro131HisAla
+NC_008459	7052	C	C	C	T	C	ST520_p12	klcA	KlcA	missense_variant c.384_388delGGCCGinsAGCCA p.AlaAlaGly128AlaAlaSer
+NC_008459	7053	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.384_388delGGCCGinsAGCCA p.AlaAlaGly128AlaAlaSer
+NC_008459	7054	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.384_388delGGCCGinsAGCCA p.AlaAlaGly128AlaAlaSer
+NC_008459	7055	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.384_388delGGCCGinsAGCCA p.AlaAlaGly128AlaAlaSer
+NC_008459	7056	C	C	C	T	C	ST520_p12	klcA	KlcA	missense_variant c.384_388delGGCCGinsAGCCA p.AlaAlaGly128AlaAlaSer
+NC_008459	7065	A	G	G	G	A	ST520_p12	klcA	KlcA	synonymous_variant c.375T>C p.Arg125Arg
+NC_008459	7095	G	G	G	A	G	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7096	T	T	C	T	T	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7097	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7098	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7099	G	G	G	C	G	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7100	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7101	C	C	C	G	C	ST520_p12	klcA	KlcA	missense_variant c.339_345delGGCCGACinsCGGCGAT p.AlaAlaAsp113AlaGlyAsp
+NC_008459	7111	T	C	C	T	T	ST520_p12	klcA	KlcA	missense_variant c.329A>G p.Asp110Gly
+NC_008459	7117	A	A	A	G	A	ST520_p12	klcA	KlcA	missense_variant c.318_323delGGAGATinsCGAGGC p.AlaGluIle106AlaGluAla
+NC_008459	7118	T	T	T	C	T	ST520_p12	klcA	KlcA	missense_variant c.318_323delGGAGATinsCGAGGC p.AlaGluIle106AlaGluAla
+NC_008459	7119	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.318_323delGGAGATinsCGAGGC p.AlaGluIle106AlaGluAla
+NC_008459	7120	T	T	T	T	T	ST520_p12	klcA	KlcA	missense_variant c.318_323delGGAGATinsCGAGGC p.AlaGluIle106AlaGluAla
+NC_008459	7121	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.318_323delGGAGATinsCGAGGC p.AlaGluIle106AlaGluAla
+NC_008459	7122	C	G	G	G	C	ST520_p12	klcA	KlcA	missense_variant c.318_323delGGAGATinsCGAGGC p.AlaGluIle106AlaGluAla
+NC_008459	7134	G	G	G	A	G	ST520_p12	klcA	KlcA	synonymous_variant c.303_306delCGGCinsGGGT p.LeuGly101LeuGly
+NC_008459	7135	C	C	C	C	C	ST520_p12	klcA	KlcA	synonymous_variant c.303_306delCGGCinsGGGT p.LeuGly101LeuGly
+NC_008459	7136	C	C	C	C	C	ST520_p12	klcA	KlcA	synonymous_variant c.303_306delCGGCinsGGGT p.LeuGly101LeuGly
+NC_008459	7137	G	G	G	C	G	ST520_p12	klcA	KlcA	synonymous_variant c.303_306delCGGCinsGGGT p.LeuGly101LeuGly
+NC_008459	7152	G	T	T	T	G	ST520_p12	klcA	KlcA	synonymous_variant c.288C>A p.Ala96Ala
+NC_008459	7181	G	G	G	A	G	ST520_p12	klcA	KlcA	synonymous_variant c.259C>T p.Leu87Leu
+NC_008459	7182	C	T	T	C	C	ST520_p12	klcA	KlcA	synonymous_variant c.258G>A p.Glu86Glu
+NC_008459	7188	A	C	C	T	A	ST520_p12	klcA	KlcA	synonymous_variant c.252T>A p.Arg84Arg
+NC_008459	7197	A	G	G	G	A	ST520_p12	klcA	KlcA	synonymous_variant c.243T>C p.Asn81Asn
+NC_008459	7205	T	C	C	C	T	ST520_p12	klcA	KlcA	missense_variant c.235A>G p.Asn79Asp
+NC_008459	7206	C	T	T	C	C	ST520_p12	klcA	KlcA	missense_variant c.234_235delGAinsAG p.ValAsn78ValAsp
+NC_008459	7221	C	G	G	G	C	ST520_p12	klcA	KlcA	missense_variant c.215_219delGGCGGinsACCGC p.GlyArg72AspArg
+NC_008459	7222	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.215_219delGGCGGinsACCGC p.GlyArg72AspArg
+NC_008459	7223	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.215_219delGGCGGinsACCGC p.GlyArg72AspArg
+NC_008459	7224	C	C	C	G	C	ST520_p12	klcA	KlcA	missense_variant c.215_219delGGCGGinsACCGC p.GlyArg72AspArg
+NC_008459	7225	C	T	T	T	C	ST520_p12	klcA	KlcA	missense_variant c.215_219delGGCGGinsACCGC p.GlyArg72AspArg
+NC_008459	7232	A	G	G	G	A	ST520_p12	klcA	KlcA	synonymous_variant c.208T>C p.Leu70Leu
+NC_008459	7244	T	G	G	T	T	ST520_p12	klcA	KlcA	missense_variant c.196A>C p.Met66Leu
+NC_008459	7248	G	G	G	A	G	ST520_p12	klcA	KlcA	synonymous_variant c.192C>T p.Phe64Phe
+NC_008459	7265	G	G	G	A	G	ST520_p12	klcA	KlcA	missense_variant c.172_175delGCGCinsACCT p.AlaLeu58ThrLeu
+NC_008459	7266	C	G	G	G	C	ST520_p12	klcA	KlcA	missense_variant c.172_175delGCGCinsACCT p.AlaLeu58ThrLeu
+NC_008459	7267	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.172_175delGCGCinsACCT p.AlaLeu58ThrLeu
+NC_008459	7268	C	T	T	T	C	ST520_p12	klcA	KlcA	missense_variant c.172_175delGCGCinsACCT p.AlaLeu58ThrLeu
+NC_008459	7291	T	T	T	C	T	ST520_p12	klcA	KlcA	missense_variant c.149A>G p.Asn50Ser
+NC_008459	7305	A	G	G	G	A	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7306	A	A	A	A	A	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7307	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7308	G	C	C	C	G	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7309	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7310	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7311	A	G	G	G	A	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7312	C	C	C	C	C	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7313	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7314	C	C	C	A	C	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7315	A	A	A	A	A	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7316	T	G	G	G	T	ST520_p12	klcA	KlcA	missense_variant c.124_135delATGCGTCGCCTTinsCTTCGCCGGCTC p.MetArgArgLeu42LeuArgArgLeu
+NC_008459	7323	G	G	G	A	G	ST520_p12	klcA	KlcA	synonymous_variant c.117C>T p.Tyr39Tyr
+NC_008459	7329	C	A	A	C	C	ST520_p12	klcA	KlcA	synonymous_variant c.111G>T p.Leu37Leu
+NC_008459	7353	G	G	G	A	G	ST520_p12	klcA	KlcA	synonymous_variant c.84_87delACGCinsGCGT p.ProArg28ProArg
+NC_008459	7354	C	C	C	C	C	ST520_p12	klcA	KlcA	synonymous_variant c.84_87delACGCinsGCGT p.ProArg28ProArg
+NC_008459	7355	G	G	G	G	G	ST520_p12	klcA	KlcA	synonymous_variant c.84_87delACGCinsGCGT p.ProArg28ProArg
+NC_008459	7356	T	C	C	C	T	ST520_p12	klcA	KlcA	synonymous_variant c.84_87delACGCinsGCGT p.ProArg28ProArg
+NC_008459	7370	T	T	T	C	T	ST520_p12	klcA	KlcA	missense_variant c.66_70delTCCCAinsGCCCG p.LeuProThr22LeuProAla
+NC_008459	7371	G	A	A	G	G	ST520_p12	klcA	KlcA	missense_variant c.66_70delTCCCAinsGCCCG p.LeuProThr22LeuProAla
+NC_008459	7372	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.66_70delTCCCAinsGCCCG p.LeuProThr22LeuProAla
+NC_008459	7373	G	G	G	G	G	ST520_p12	klcA	KlcA	missense_variant c.66_70delTCCCAinsGCCCG p.LeuProThr22LeuProAla
+NC_008459	7374	A	C	C	C	A	ST520_p12	klcA	KlcA	missense_variant c.66_70delTCCCAinsGCCCG p.LeuProThr22LeuProAla
+NC_008459	7375	A	A	A	A	A	ST520_p12	klcA	KlcA	synonymous_variant c.64_69delCTTCCCinsTTGCCT p.LeuPro22LeuPro
+NC_008459	7376	G	A	A	G	G	ST520_p12	klcA	KlcA	synonymous_variant c.64_69delCTTCCCinsTTGCCT p.LeuPro22LeuPro
+NC_008459	7392	C	G	G	G	C	ST520_p12	klcA	KlcA	synonymous_variant c.48G>C p.Ala16Ala
+NC_008459	7416	G	G	G	A	G	ST520_p12	klcA	KlcA	synonymous_variant c.24C>T p.Val8Val
+NC_008459	7425	C	G	G	C	C	ST520_p12	klcA	KlcA	missense_variant c.15G>C p.Glu5Asp
+NC_008459	7430	C	G	G	G	C	ST520_p12	klcA	KlcA	missense_variant c.10G>C p.Glu4Gln
+NC_008459	7456	A	G	G	G	A				
+NC_008459	7469	G	A	A	A	G				
+NC_008459	7470	A	C	C	A	A				
+NC_008459	7499	A	.	.	G	A				
+NC_008459	8321	C	T	T	.	C				
+NC_008459	8326	T	A	A	.	T				
+NC_008459	8368	T	C	C	.	T				
+NC_008459	8380	C	T	T	.	C				
+NC_008459	8453	A	A	A	G	A				
+NC_008459	8454	A	A	A	T	A				
+NC_008459	8455	A	C	C	A	A				
+NC_008459	8511	T	G	G	T	T				
+NC_008459	8512	G	C	C	T	G				
+NC_008459	8513	T	A	A	T	T				
+NC_008459	8531	G	A	A	G	G				
+NC_008459	8536	T	T	T	G	T				
+NC_008459	8542	C	G	C	C	C				
+NC_008459	8545	C	C	C	T	C				
+NC_008459	8546	A	A	A	A	A				
+NC_008459	8547	T	C	C	G	T				
+NC_008459	8557	G	G	G	T	G				
+NC_008459	8558	A	T	T	G	A				
+NC_008459	8565	C	C	C	T	C				
+NC_008459	8574	G	A	A	.	G				
+NC_008459	8579	C	C	G	.	C				
+NC_008459	8592	C	T	T	.	C				
+NC_008459	8611	C	T	T	.	C				
+NC_008459	8612	C	G	G	.	C				
+NC_008459	8613	T	A	A	.	T				
+NC_008459	8614	T	A	A	.	T				
+NC_008459	8615	C	G	G	.	C				
+NC_008459	8627	A	C	C	.	A				
+NC_008459	8642	A	G	G	.	A				
+NC_008459	8643	A	A	A	.	A				
+NC_008459	8644	A	A	A	.	A				
+NC_008459	8645	A	A	A	.	A				
+NC_008459	8646	T	A	A	.	T				
+NC_008459	8647	C	C	C	.	C				
+NC_008459	8648	G	G	G	.	G				
+NC_008459	8649	C	C	C	.	C				
+NC_008459	8650	A	G	G	.	A				
+NC_008459	8656	C	G	G	.	C				
+NC_008459	8682	A	C	C	.	A				
+NC_008459	8741	C	T	T	.	C				
+NC_008459	8754	T	A	A	.	T				
+NC_008459	8798	C	T	T	.	C				
+NC_008459	8803	T	C	C	.	T				
+NC_008459	8804	A	A	A	.	A				
+NC_008459	8805	G	A	A	.	G				
+NC_008459	8850	T	A	A	.	T				
+NC_008459	8851	G	G	G	.	G				
+NC_008459	8852	C	C	C	.	C				
+NC_008459	8853	C	C	C	.	C				
+NC_008459	8854	G	C	C	.	G				
+NC_008459	8863	G	A	A	.	G				
+NC_008459	8884	G	T	T	.	G				
+NC_008459	8892	A	G	G	.	A				
+NC_008459	8898	G	A	A	.	G				
+NC_008459	8899	G	G	G	.	G				
+NC_008459	8900	G	C	C	.	G				
+NC_008459	8918	A	G	G	.	A				
+NC_008459	8992	G	A	A	.	G				
+NC_008459	9024	C	.	G	.	C				
+NC_008459	9025	C	.	C	.	C				
+NC_008459	9026	C	.	C	.	C				
+NC_008459	9027	G	.	G	.	G				
+NC_008459	9028	G	.	A	.	G				
+NC_008459	9040	A	.	C	.	A				
+NC_008459	9061	G	A	.	.	G				
+NC_008459	9069	G	A	.	.	G				
+NC_008459	9094	C	T	T	.	C				
+NC_008459	9107	T	T	C	.	T				
+NC_008459	9153	A	C	C	.	A				
+NC_008459	9183	C	A	A	.	C				
+NC_008459	9188	C	T	T	.	C				
+NC_008459	9213	T	G	G	.	T				
+NC_008459	9218	A	C	C	.	A				
+NC_008459	9242	C	T	T	.	C				
+NC_008459	9320	C	C	T	.	C				
+NC_008459	9324	T	A	T	.	T				
+NC_008459	9325	G	C	G	.	G				
+NC_008459	9344	T	G	.	.	T				
+NC_008459	9352	C	T	.	.	C				
+NC_008459	9353	G	G	.	.	G				
+NC_008459	9354	G	G	.	.	G				
+NC_008459	9355	G	A	.	.	G				
+NC_008459	9356	A	T	.	.	A				
+NC_008459	9357	A	G	.	.	A				
+NC_008459	9376	A	G	G	.	A				
+NC_008459	9435	A	G	G	.	A				
+NC_008459	9448	C	G	G	.	C				
+NC_008459	9520	C	G	G	G	C				
+NC_008459	9521	G	G	G	G	G				
+NC_008459	9522	G	G	G	G	G				
+NC_008459	9523	T	C	C	C	T				
+NC_008459	9562	T	G	C	C	T	ST520_p15	trfA	TrfA	synonymous_variant c.1185_1188delCGCAinsTGCG p.SerAla395SerAla
+NC_008459	9563	G	G	G	G	G	ST520_p15	trfA	TrfA	synonymous_variant c.1185_1188delCGCAinsTGCG p.SerAla395SerAla
+NC_008459	9564	C	C	C	C	C	ST520_p15	trfA	TrfA	synonymous_variant c.1185_1188delCGCAinsTGCG p.SerAla395SerAla
+NC_008459	9565	G	A	A	A	G	ST520_p15	trfA	TrfA	synonymous_variant c.1185_1188delCGCAinsTGCG p.SerAla395SerAla
+NC_008459	9688	A	C	C	C	A	ST520_p15	trfA	TrfA	synonymous_variant c.1062T>G p.Pro354Pro
+NC_008459	9721	C	C	G	G	C	ST520_p15	trfA	TrfA	synonymous_variant c.1029G>C p.Arg343Arg
+NC_008459	9826	A	G	G	G	A	ST520_p15	trfA	TrfA	synonymous_variant c.924T>C p.Arg308Arg
+NC_008459	9844	A	G	G	G	A	ST520_p15	trfA	TrfA	synonymous_variant c.906T>C p.Arg302Arg
+NC_008459	9886	C	G	G	G	C	ST520_p15	trfA	TrfA	synonymous_variant c.864G>C p.Leu288Leu
+NC_008459	9901	C	T	T	T	C	ST520_p15	trfA	TrfA	synonymous_variant c.849G>A p.Gln283Gln
+NC_008459	9956	T	C	C	C	T	ST520_p15	trfA	TrfA	missense_variant c.792_794delGAAinsAAG p.ThrLys264ThrArg
+NC_008459	9957	T	T	T	T	T	ST520_p15	trfA	TrfA	missense_variant c.792_794delGAAinsAAG p.ThrLys264ThrArg
+NC_008459	9958	C	T	T	T	C	ST520_p15	trfA	TrfA	missense_variant c.792_794delGAAinsAAG p.ThrLys264ThrArg
+NC_008459	9970	G	A	A	A	G	ST520_p15	trfA	TrfA	synonymous_variant c.780C>T p.Gly260Gly
+NC_008459	9979	C	T	T	T	C	ST520_p15	trfA	TrfA	synonymous_variant c.771G>A p.Ser257Ser
+NC_008459	10030	G	T	T	T	G	ST520_p15	trfA	TrfA	synonymous_variant c.720C>A p.Gly240Gly
+NC_008459	10044	G	C	G	G	G	ST520_p15	trfA	TrfA	missense_variant c.705_706delACinsCG p.LysArg235AsnGly
+NC_008459	10045	T	G	C	C	T	ST520_p15	trfA	TrfA	synonymous_variant c.705A>G p.Lys235Lys
+NC_008459	10129	C	T	T	T	C	ST520_p15	trfA	TrfA	synonymous_variant c.621G>A p.Lys207Lys
+NC_008459	10167	C	G	C	C	C	ST520_p15	trfA	TrfA	missense_variant c.583G>C p.Ala195Pro
+NC_008459	10228	C	C	T	T	C	ST520_p15	trfA	TrfA	synonymous_variant c.522G>A p.Ala174Ala
+NC_008459	10351	G	A	A	A	G	ST520_p15	trfA	TrfA	missense_variant c.398_399delACinsGT p.Asp133Gly
+NC_008459	10352	T	C	C	C	T	ST520_p15	trfA	TrfA	missense_variant c.398_399delACinsGT p.Asp133Gly
+NC_008459	10477	C	A	A	A	C	ST520_p15	trfA	TrfA	synonymous_variant c.273G>T p.Leu91Leu
+NC_008459	10525	G	A	A	A	G	ST520_p15	trfA	TrfA	synonymous_variant c.225C>T p.Ser75Ser
+NC_008459	10541	G	A	A	A	G	ST520_p15	trfA	TrfA	missense_variant c.209C>T p.Pro70Leu
+NC_008459	10555	G	A	A	A	G	ST520_p15	trfA	TrfA	synonymous_variant c.195C>T p.Ala65Ala
+NC_008459	10563	T	C	C	C	T	ST520_p15	trfA	TrfA	missense_variant c.187A>G p.Lys63Glu
+NC_008459	10575	A	C	C	C	A	ST520_p15	trfA	TrfA	missense_variant c.174_175delCTinsGG p.ThrSer58ThrAla
+NC_008459	10576	G	C	C	C	G	ST520_p15	trfA	TrfA	missense_variant c.174_175delCTinsGG p.ThrSer58ThrAla
+NC_008459	10590	T	C	C	C	T	ST520_p15	trfA	TrfA	missense_variant c.156_160delGTTAAinsCTTCG p.LeuLeuLys52LeuPheGlu
+NC_008459	10591	T	G	G	G	T	ST520_p15	trfA	TrfA	missense_variant c.156_160delGTTAAinsCTTCG p.LeuLeuLys52LeuPheGlu
+NC_008459	10592	A	A	A	A	A	ST520_p15	trfA	TrfA	missense_variant c.156_160delGTTAAinsCTTCG p.LeuLeuLys52LeuPheGlu
+NC_008459	10593	A	A	A	A	A	ST520_p15	trfA	TrfA	missense_variant c.156_160delGTTAAinsCTTCG p.LeuLeuLys52LeuPheGlu
+NC_008459	10594	C	G	G	G	C	ST520_p15	trfA	TrfA	missense_variant c.156_160delGTTAAinsCTTCG p.LeuLeuLys52LeuPheGlu
+NC_008459	10615	T	G	G	G	T	ST520_p15	trfA	TrfA	missense_variant c.131_135delTGGCAinsGGGCC p.ValAla44GlyAla
+NC_008459	10616	G	G	G	G	G	ST520_p15	trfA	TrfA	missense_variant c.131_135delTGGCAinsGGGCC p.ValAla44GlyAla
+NC_008459	10617	C	C	C	C	C	ST520_p15	trfA	TrfA	missense_variant c.131_135delTGGCAinsGGGCC p.ValAla44GlyAla
+NC_008459	10618	C	C	C	C	C	ST520_p15	trfA	TrfA	missense_variant c.131_135delTGGCAinsGGGCC p.ValAla44GlyAla
+NC_008459	10619	A	C	C	C	A	ST520_p15	trfA	TrfA	missense_variant c.131_135delTGGCAinsGGGCC p.ValAla44GlyAla
+NC_008459	10624	A	G	G	G	A	ST520_p15	trfA	TrfA	synonymous_variant c.126T>C p.Ala42Ala
+NC_008459	10654	A	G	G	G	A	ST520_p15	trfA	TrfA	synonymous_variant c.96T>C p.Thr32Thr
+NC_008459	10672	A	G	G	G	A	ST520_p15	trfA	TrfA	synonymous_variant c.78T>C p.Thr26Thr
+NC_008459	10687	A	G	G	G	A	ST520_p15	trfA	TrfA	synonymous_variant c.63T>C p.Ser21Ser
+NC_008459	10693	T	C	C	C	T	ST520_p15	trfA	TrfA	synonymous_variant c.57A>G p.Gly19Gly
+NC_008459	10716	G	T	T	T	G	ST520_p15	trfA	TrfA	synonymous_variant c.34C>A p.Arg12Arg
+NC_008459	10745	G	T	T	T	G	ST520_p15	trfA	TrfA	missense_variant c.4_5delACinsCA p.Thr2Gln
+NC_008459	10746	T	G	G	G	T	ST520_p15	trfA	TrfA	missense_variant c.4_5delACinsCA p.Thr2Gln
+NC_008459	10784	C	G	G	G	C				
+NC_008459	10785	A	C	C	C	A				
+NC_008459	10807	T	C	C	C	T	ST520_p32	ssb	Ssb	synonymous_variant c.321_324delGGCAinsAGCG p.LysAla107LysAla
+NC_008459	10808	G	G	G	G	G	ST520_p32	ssb	Ssb	synonymous_variant c.321_324delGGCAinsAGCG p.LysAla107LysAla
+NC_008459	10809	C	C	C	C	C	ST520_p32	ssb	Ssb	synonymous_variant c.321_324delGGCAinsAGCG p.LysAla107LysAla
+NC_008459	10810	C	T	T	T	C	ST520_p32	ssb	Ssb	synonymous_variant c.321_324delGGCAinsAGCG p.LysAla107LysAla
+NC_008459	10852	A	C	C	G	A	ST520_p32	ssb	Ssb	synonymous_variant c.276_279delTGGTinsCGGC p.TyrGly92TyrGly
+NC_008459	10853	C	C	C	C	C	ST520_p32	ssb	Ssb	synonymous_variant c.276_279delTGGTinsCGGC p.TyrGly92TyrGly
+NC_008459	10854	C	C	C	C	C	ST520_p32	ssb	Ssb	synonymous_variant c.276_279delTGGTinsCGGC p.TyrGly92TyrGly
+NC_008459	10855	A	G	G	G	A	ST520_p32	ssb	Ssb	synonymous_variant c.276_279delTGGTinsCGGC p.TyrGly92TyrGly
+NC_008459	10867	A	G	G	G	A	ST520_p32	ssb	Ssb	synonymous_variant c.264T>C p.Gly88Gly
+NC_008459	10882	T	C	C	C	T	ST520_p32	ssb	Ssb	synonymous_variant c.249A>G p.Lys83Lys
+NC_008459	10942	A	C	C	C	A	ST520_p32	ssb	Ssb	synonymous_variant c.189T>G p.Ala63Ala
+NC_008459	11035	G	A	A	A	G	ST520_p32	ssb	Ssb	synonymous_variant c.96C>T p.Ala32Ala
+NC_008459	11041	A	G	G	G	A	ST520_p32	ssb	Ssb	synonymous_variant c.90T>C p.Asp30Asp
+NC_008459	11113	A	G	G	G	A	ST520_p32	ssb	Ssb	synonymous_variant c.18T>C p.Phe6Phe
+NC_008459	11181	T	C	C	C	T				
+NC_008459	11231	G	A	A	A	G				
+NC_008459	11244	T	A	T	T	T				
+NC_008459	11319	G	G	A	G	G	ST520_p31	trbA	TrbA	missense_variant c.22G>A p.Asp8Asn
+NC_008459	11407	G	A	A	A	G	ST520_p31	trbA	TrbA	missense_variant c.110G>A p.Arg37Gln
+NC_008459	11420	G	T	T	T	G	ST520_p31	trbA	TrbA	synonymous_variant c.123G>T p.Thr41Thr
+NC_008459	11438	C	T	T	T	C	ST520_p31	trbA	TrbA	synonymous_variant c.141C>T p.Leu47Leu
+NC_008459	11472	G	G	A	A	G	ST520_p31	trbA	TrbA	missense_variant c.175G>A p.Ala59Thr
+NC_008459	11477	A	G	G	G	A	ST520_p31	trbA	TrbA	synonymous_variant c.180A>G p.Leu60Leu
+NC_008459	11540	C	A	A	A	C	ST520_p31	trbA	TrbA	synonymous_variant c.243C>A p.Pro81Pro
+NC_008459	11580	G	A	A	A	G	ST520_p31	trbA	TrbA	missense_variant c.283G>A p.Ala95Thr
+NC_008459	11627	G	A	A	A	G				
+NC_008459	11628	G	G	G	G	G				
+NC_008459	11629	G	G	G	G	G				
+NC_008459	11630	G	G	G	G	G				
+NC_008459	11631	G	A	A	A	G				
+NC_008459	11714	C	T	T	T	C				
+NC_008459	11742	C	.	G	G	C				
+NC_008459	11780	T	C	C	C	T				
+NC_008459	11781	C	C	C	C	C				
+NC_008459	11782	C	C	C	C	C				
+NC_008459	11783	A	C	C	C	A				
+NC_008459	11793	G	C	C	C	G				
+NC_008459	11815	G	T	T	T	G				
+NC_008459	11816	C	C	C	C	C				
+NC_008459	11817	G	A	A	A	G				
+NC_008459	11818	C	C	C	C	C				
+NC_008459	11819	G	C	C	C	G				
+NC_008459	11820	C	C	C	C	C				
+NC_008459	11821	T	T	T	T	T				
+NC_008459	11822	T	T	T	T	T				
+NC_008459	11823	C	G	G	G	C				
+NC_008459	11824	T	T	T	T	T				
+NC_008459	11825	G	G	G	G	G				
+NC_008459	11826	A	C	C	C	A				
+NC_008459	11847	A	C	A	A	A				
+NC_008459	11856	A	A	G	G	A				
+NC_008459	11870	C	C	C	A	C				
+NC_008459	11907	C	G	G	G	C				
+NC_008459	11908	C	G	G	G	C				
+NC_008459	11919	C	A	A	A	C				
+NC_008459	12021	T	C	C	C	T	ST520_p30	trbB	TrbB	synonymous_variant c.96T>C p.Asn32Asn
+NC_008459	12095	C	A	A	A	C	ST520_p30	trbB	TrbB	missense_variant c.170C>A p.Thr57Lys
+NC_008459	12210	G	T	T	T	G	ST520_p30	trbB	TrbB	synonymous_variant c.285G>T p.Leu95Leu
+NC_008459	12219	C	T	T	T	C	ST520_p30	trbB	TrbB	synonymous_variant c.294C>T p.Ser98Ser
+NC_008459	12281	C	G	C	C	C	ST520_p30	trbB	TrbB	missense_variant c.356_357delCTinsGC p.Ala119Gly
+NC_008459	12282	T	C	C	C	T	ST520_p30	trbB	TrbB	synonymous_variant c.357T>C p.Ala119Ala
+NC_008459	12345	A	G	G	G	A	ST520_p30	trbB	TrbB	synonymous_variant c.420_423delAGCGinsGGCA p.GluAla140GluAla
+NC_008459	12346	G	G	G	G	G	ST520_p30	trbB	TrbB	synonymous_variant c.420_423delAGCGinsGGCA p.GluAla140GluAla
+NC_008459	12347	C	C	C	C	C	ST520_p30	trbB	TrbB	synonymous_variant c.420_423delAGCGinsGGCA p.GluAla140GluAla
+NC_008459	12348	G	A	A	A	G	ST520_p30	trbB	TrbB	synonymous_variant c.420_423delAGCGinsGGCA p.GluAla140GluAla
+NC_008459	12359	C	C	T	C	C	ST520_p30	trbB	TrbB	missense_variant c.434C>T p.Ala145Val
+NC_008459	12384	C	T	T	T	C	ST520_p30	trbB	TrbB	synonymous_variant c.459C>T p.Leu153Leu
+NC_008459	12429	A	G	G	G	A	ST520_p30	trbB	TrbB	synonymous_variant c.504A>G p.Ala168Ala
+NC_008459	12536	C	G	G	G	C	ST520_p30	trbB	TrbB	missense_variant c.611C>G p.Thr204Ser
+NC_008459	12606	C	T	C	C	C	ST520_p30	trbB	TrbB	synonymous_variant c.681C>T p.Gly227Gly
+NC_008459	12618	C	T	C	C	C	ST520_p30	trbB	TrbB	synonymous_variant c.693C>T p.Gly231Gly
+NC_008459	13134	G	C	G	G	G	ST520_p29	trbC	TrbC	synonymous_variant c.231G>C p.Leu77Leu
+NC_008459	13164	C	G	C	C	C	ST520_p29	trbC	TrbC	missense_variant c.261C>G p.Phe87Leu
+NC_008459	13170	A	G	G	G	A	ST520_p29	trbC	TrbC	synonymous_variant c.267A>G p.Thr89Thr
+NC_008459	13196	C	G	C	C	C	ST520_p29	trbC	TrbC	missense_variant c.293C>G p.Ala98Gly
+NC_008459	13370	C	T	T	T	C				
+NC_008459	13465	C	T	C	C	C	ST520_p28	trbD	TrbD	missense_variant c.94_98delCTGGCinsTGTGG p.LeuAla32CysGly
+NC_008459	13466	T	G	T	T	T	ST520_p28	trbD	TrbD	missense_variant c.94_98delCTGGCinsTGTGG p.LeuAla32CysGly
+NC_008459	13467	G	T	G	G	G	ST520_p28	trbD	TrbD	missense_variant c.94_98delCTGGCinsTGTGG p.LeuAla32CysGly
+NC_008459	13468	G	G	G	G	G	ST520_p28	trbD	TrbD	missense_variant c.94_98delCTGGCinsTGTGG p.LeuAla32CysGly
+NC_008459	13469	C	G	C	C	C	ST520_p28	trbD	TrbD	missense_variant c.94_98delCTGGCinsTGTGG p.LeuAla32CysGly
+NC_008459	13539	A	G	G	G	A	ST520_p28	trbD	TrbD	synonymous_variant c.168A>G p.Ala56Ala
+NC_008459	13695	A	G	G	G	A	ST520_p27	trbE	TrbE	missense_variant c.16_18delACGinsGCA p.Thr6Ala
+NC_008459	13696	C	C	C	C	C	ST520_p27	trbE	TrbE	missense_variant c.16_18delACGinsGCA p.Thr6Ala
+NC_008459	13697	G	A	A	A	G	ST520_p27	trbE	TrbE	missense_variant c.16_18delACGinsGCA p.Thr6Ala
+NC_008459	13834	T	C	T	T	T	ST520_p27	trbE	TrbE	missense_variant c.155T>C p.Val52Ala
+NC_008459	13898	G	G	T	T	G	ST520_p27	trbE	TrbE	synonymous_variant c.219G>T p.Gly73Gly
+NC_008459	14065	G	C	C	C	G	ST520_p27	trbE	TrbE	missense_variant c.386G>C p.Cys129Ser
+NC_008459	14316	C	G	C	C	C	ST520_p27	trbE	TrbE	missense_variant c.637C>G p.Arg213Gly
+NC_008459	14441	G	C	C	C	G	ST520_p27	trbE	TrbE	synonymous_variant c.762_765delGGACinsCGAT p.LeuAsp254LeuAsp
+NC_008459	14442	G	G	G	G	G	ST520_p27	trbE	TrbE	synonymous_variant c.762_765delGGACinsCGAT p.LeuAsp254LeuAsp
+NC_008459	14443	A	A	A	A	A	ST520_p27	trbE	TrbE	synonymous_variant c.762_765delGGACinsCGAT p.LeuAsp254LeuAsp
+NC_008459	14444	C	T	T	T	C	ST520_p27	trbE	TrbE	synonymous_variant c.762_765delGGACinsCGAT p.LeuAsp254LeuAsp
+NC_008459	14450	T	A	A	A	T	ST520_p27	trbE	TrbE	synonymous_variant c.771T>A p.Val257Val
+NC_008459	14456	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.777T>C p.Gly259Gly
+NC_008459	14474	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14475	G	G	G	G	G	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14476	G	G	G	G	G	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14477	G	C	C	C	G	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14478	G	G	G	G	G	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14479	T	T	T	T	T	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14480	A	C	C	C	A	ST520_p27	trbE	TrbE	synonymous_variant c.795_801delTGGGGTAinsCGGCGTC p.GlyGlyVal265GlyGlyVal
+NC_008459	14489	A	G	G	G	A	ST520_p27	trbE	TrbE	synonymous_variant c.810A>G p.Lys270Lys
+NC_008459	14495	C	G	G	G	C	ST520_p27	trbE	TrbE	synonymous_variant c.816C>G p.Gly272Gly
+NC_008459	14507	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.828T>C p.Ile276Ile
+NC_008459	14528	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.849T>C p.Gly283Gly
+NC_008459	14546	C	G	G	G	C	ST520_p27	trbE	TrbE	synonymous_variant c.867C>G p.Thr289Thr
+NC_008459	14553	A	G	G	G	A	ST520_p27	trbE	TrbE	missense_variant c.874_876delATTinsGTG p.Ile292Val
+NC_008459	14554	T	T	T	T	T	ST520_p27	trbE	TrbE	missense_variant c.874_876delATTinsGTG p.Ile292Val
+NC_008459	14555	T	G	G	G	T	ST520_p27	trbE	TrbE	missense_variant c.874_876delATTinsGTG p.Ile292Val
+NC_008459	14567	A	G	G	G	A	ST520_p27	trbE	TrbE	synonymous_variant c.888A>G p.Leu296Leu
+NC_008459	14573	A	G	G	G	A	ST520_p27	trbE	TrbE	synonymous_variant c.894A>G p.Glu298Glu
+NC_008459	14579	T	C	C	C	T	ST520_p27	trbE	TrbE	missense_variant c.900_903delTTGTinsCAGC p.ProCys300ProSer
+NC_008459	14580	T	A	A	A	T	ST520_p27	trbE	TrbE	missense_variant c.900_903delTTGTinsCAGC p.ProCys300ProSer
+NC_008459	14581	G	G	G	G	G	ST520_p27	trbE	TrbE	missense_variant c.900_903delTTGTinsCAGC p.ProCys300ProSer
+NC_008459	14582	T	C	C	C	T	ST520_p27	trbE	TrbE	missense_variant c.900_903delTTGTinsCAGC p.ProCys300ProSer
+NC_008459	14588	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.909T>C p.Tyr303Tyr
+NC_008459	14603	G	C	C	C	G	ST520_p27	trbE	TrbE	synonymous_variant c.924G>C p.Arg308Arg
+NC_008459	14630	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.951T>C p.Ser317Ser
+NC_008459	14664	C	A	A	A	C	ST520_p27	trbE	TrbE	missense_variant c.985_986delCGinsAA p.Arg329Lys
+NC_008459	14665	G	A	A	A	G	ST520_p27	trbE	TrbE	missense_variant c.985_986delCGinsAA p.Arg329Lys
+NC_008459	14673	G	A	A	A	G	ST520_p27	trbE	TrbE	missense_variant c.994G>A p.Val332Ile
+NC_008459	14684	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1005T>C p.Phe335Phe
+NC_008459	14696	T	G	G	G	T	ST520_p27	trbE	TrbE	synonymous_variant c.1017T>G p.Val339Val
+NC_008459	14705	C	G	G	G	C	ST520_p27	trbE	TrbE	synonymous_variant c.1026_1029delCAACinsGAAT p.ThrAsn342ThrAsn
+NC_008459	14706	A	A	A	A	A	ST520_p27	trbE	TrbE	synonymous_variant c.1026_1029delCAACinsGAAT p.ThrAsn342ThrAsn
+NC_008459	14707	A	A	A	A	A	ST520_p27	trbE	TrbE	synonymous_variant c.1026_1029delCAACinsGAAT p.ThrAsn342ThrAsn
+NC_008459	14708	C	T	T	T	C	ST520_p27	trbE	TrbE	synonymous_variant c.1026_1029delCAACinsGAAT p.ThrAsn342ThrAsn
+NC_008459	14714	C	G	C	C	C	ST520_p27	trbE	TrbE	missense_variant c.1035_1036delCCinsGT p.GlyPro345GlySer
+NC_008459	14715	C	T	T	T	C	ST520_p27	trbE	TrbE	missense_variant c.1036C>T p.Pro346Ser
+NC_008459	14729	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1050T>C p.Asp350Asp
+NC_008459	14784	C	T	.	.	C	ST520_p27	trbE	TrbE	synonymous_variant c.1105C>T p.Leu369Leu
+NC_008459	14789	T	G	.	.	T	ST520_p27	trbE	TrbE	synonymous_variant c.1110_1113delTGCAinsGGCG p.ValAla370ValAla
+NC_008459	14790	G	G	.	.	G	ST520_p27	trbE	TrbE	synonymous_variant c.1110_1113delTGCAinsGGCG p.ValAla370ValAla
+NC_008459	14791	C	C	.	.	C	ST520_p27	trbE	TrbE	synonymous_variant c.1110_1113delTGCAinsGGCG p.ValAla370ValAla
+NC_008459	14792	A	G	.	.	A	ST520_p27	trbE	TrbE	synonymous_variant c.1110_1113delTGCAinsGGCG p.ValAla370ValAla
+NC_008459	14801	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1122T>C p.Tyr374Tyr
+NC_008459	14813	G	G	A	A	G	ST520_p27	trbE	TrbE	synonymous_variant c.1134G>A p.Val378Val
+NC_008459	14876	A	C	C	C	A	ST520_p27	trbE	TrbE	missense_variant c.1197_1198delAAinsCG p.AlaIle399AlaVal
+NC_008459	14877	A	G	G	G	A	ST520_p27	trbE	TrbE	missense_variant c.1197_1198delAAinsCG p.AlaIle399AlaVal
+NC_008459	14886	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1207T>C p.Leu403Leu
+NC_008459	14895	A	G	G	G	A	ST520_p27	trbE	TrbE	missense_variant c.1216A>G p.Thr406Ala
+NC_008459	14900	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1221_1224delTCGCinsCCGT p.AlaArg407AlaArg
+NC_008459	14901	C	C	C	C	C	ST520_p27	trbE	TrbE	synonymous_variant c.1221_1224delTCGCinsCCGT p.AlaArg407AlaArg
+NC_008459	14902	G	G	G	G	G	ST520_p27	trbE	TrbE	synonymous_variant c.1221_1224delTCGCinsCCGT p.AlaArg407AlaArg
+NC_008459	14903	C	T	T	T	C	ST520_p27	trbE	TrbE	synonymous_variant c.1221_1224delTCGCinsCCGT p.AlaArg407AlaArg
+NC_008459	14924	A	C	C	C	A	ST520_p27	trbE	TrbE	synonymous_variant c.1245A>C p.Leu415Leu
+NC_008459	14930	C	G	G	G	C	ST520_p27	trbE	TrbE	synonymous_variant c.1251C>G p.Ala417Ala
+NC_008459	14939	A	C	C	C	A	ST520_p27	trbE	TrbE	synonymous_variant c.1260_1264delAAGTCinsCAGCT p.GlySerLeu420GlySerLeu
+NC_008459	14940	A	A	A	A	A	ST520_p27	trbE	TrbE	synonymous_variant c.1260_1264delAAGTCinsCAGCT p.GlySerLeu420GlySerLeu
+NC_008459	14941	G	G	G	G	G	ST520_p27	trbE	TrbE	synonymous_variant c.1260_1264delAAGTCinsCAGCT p.GlySerLeu420GlySerLeu
+NC_008459	14942	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1260_1264delAAGTCinsCAGCT p.GlySerLeu420GlySerLeu
+NC_008459	14943	C	T	T	T	C	ST520_p27	trbE	TrbE	synonymous_variant c.1260_1264delAAGTCinsCAGCT p.GlySerLeu420GlySerLeu
+NC_008459	14948	G	C	C	C	G	ST520_p27	trbE	TrbE	synonymous_variant c.1269G>C p.Pro423Pro
+NC_008459	14960	T	C	C	C	T	ST520_p27	trbE	TrbE	synonymous_variant c.1281T>C p.Val427Val
+NC_008459	15110	T	G	G	G	T	ST520_p27	trbE	TrbE	synonymous_variant c.1431T>G p.Thr477Thr
+NC_008459	15152	G	C	C	C	G	ST520_p27	trbE	TrbE	synonymous_variant c.1473G>C p.Thr491Thr
+NC_008459	15272	G	A	A	A	G	ST520_p27	trbE	TrbE	synonymous_variant c.1593G>A p.Pro531Pro
+NC_008459	15559	C	G	C	C	C	ST520_p27	trbE	TrbE	missense_variant c.1880C>G p.Ala627Gly
+NC_008459	15618	A	G	G	G	A	ST520_p27	trbE	TrbE	missense_variant c.1939A>G p.Ser647Gly
+NC_008459	15748	C	T	T	T	C	ST520_p27	trbE	TrbE	missense_variant c.2069C>T p.Ala690Val
+NC_008459	15938	C	C	T	T	C	ST520_p27	trbE	TrbE	synonymous_variant c.2259C>T p.Pro753Pro
+NC_008459	16022	C	T	T	T	C	ST520_p27	trbE	TrbE	synonymous_variant c.2343C>T p.Thr781Thr
+NC_008459	16034	A	G	G	G	A	ST520_p27	trbE	TrbE	synonymous_variant c.2355A>G p.Lys785Lys
+NC_008459	16198	G	C	G	G	G	ST520_p27	trbE	TrbE	missense_variant c.2519G>C p.Gly840Ala
+NC_008459	16230	G	A	G	G	G	ST520_p27	trbE	TrbE	missense_variant c.2551G>A p.Ala851Thr
+NC_008459	16400	C	G	G	G	C	ST520_p26	trbF	TrbF	missense_variant c.166_169delCGCGinsGGCA p.ArgGly56GlySer
+NC_008459	16401	G	G	G	G	G	ST520_p26	trbF	TrbF	missense_variant c.166_169delCGCGinsGGCA p.ArgGly56GlySer
+NC_008459	16402	C	C	C	C	C	ST520_p26	trbF	TrbF	missense_variant c.166_169delCGCGinsGGCA p.ArgGly56GlySer
+NC_008459	16403	G	G	G	A	G	ST520_p26	trbF	TrbF	missense_variant c.166_169delCGCGinsGGCA p.ArgGly56GlySer
+NC_008459	16438	C	C	A	A	C	ST520_p26	trbF	TrbF	synonymous_variant c.204C>A p.Ile68Ile
+NC_008459	16567	A	G	G	G	A	ST520_p26	trbF	TrbF	synonymous_variant c.333A>G p.Val111Val
+NC_008459	16683	T	C	C	C	T	ST520_p26	trbF	TrbF	missense_variant c.449T>C p.Val150Ala
+NC_008459	16694	C	T	C	C	C	ST520_p26	trbF	TrbF	missense_variant c.460C>T p.Leu154Phe
+NC_008459	16883	A	G	G	G	A	ST520_p26	trbF	TrbF	missense_variant c.649A>G p.Ser217Gly
+NC_008459	17094	C	T	T	T	C	ST520_p25	trbG	TrbG	synonymous_variant c.81C>T p.Ala27Ala
+NC_008459	17109	C	G	C	C	C	ST520_p25	trbG	TrbG	synonymous_variant c.96C>G p.Gly32Gly
+NC_008459	17214	C	G	C	C	C	ST520_p25	trbG	TrbG	synonymous_variant c.201C>G p.Thr67Thr
+NC_008459	17238	A	G	G	G	A	ST520_p25	trbG	TrbG	synonymous_variant c.225A>G p.Ser75Ser
+NC_008459	17265	C	T	C	C	C	ST520_p25	trbG	TrbG	synonymous_variant c.252C>T p.Gly84Gly
+NC_008459	17283	C	C	A	C	C	ST520_p25	trbG	TrbG	synonymous_variant c.270C>A p.Ile90Ile
+NC_008459	17347	C	A	A	A	C	ST520_p25	trbG	TrbG	missense_variant c.334C>A p.His112Asn
+NC_008459	17460	G	A	G	G	G	ST520_p25	trbG	TrbG	synonymous_variant c.447G>A p.Leu149Leu
+NC_008459	17468	C	T	C	C	C	ST520_p25	trbG	TrbG	missense_variant c.455C>T p.Thr152Ile
+NC_008459	17621	C	T	C	C	C	ST520_p25	trbG	TrbG	missense_variant c.608C>T p.Ala203Val
+NC_008459	17870	G	G	A	G	G	ST520_p25	trbG	TrbG	missense_variant c.857G>A p.Arg286His
+NC_008459	18057	G	A	A	A	G	ST520_p24	trbH	TrbH	missense_variant c.121G>A p.Ala41Thr
+NC_008459	18082	T	C	C	C	T	ST520_p24	trbH	TrbH	missense_variant c.146T>C p.Met49Thr
+NC_008459	18158	G	T	G	G	G	ST520_p24	trbH	TrbH	missense_variant c.222G>T p.Lys74Asn
+NC_008459	18247	T	C	C	C	T	ST520_p24	trbH	TrbH	missense_variant c.311T>C p.Leu104Ser
+NC_008459	18371	C	G	G	G	C	ST520_p24	trbH	TrbH	synonymous_variant c.435C>G p.Ala145Ala
+NC_008459	18403	A	G	G	G	A				
+NC_008459	18564	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.159A>G p.Ala53Ala
+NC_008459	18579	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.174A>G p.Ala58Ala
+NC_008459	18584	T	C	C	C	T	ST520_p23	TrbI	trbI	missense_variant c.179_183delTAGAAinsCGGAC p.ValGlu60AlaAsp
+NC_008459	18585	A	G	G	G	A	ST520_p23	TrbI	trbI	missense_variant c.179_183delTAGAAinsCGGAC p.ValGlu60AlaAsp
+NC_008459	18586	G	G	G	G	G	ST520_p23	TrbI	trbI	missense_variant c.179_183delTAGAAinsCGGAC p.ValGlu60AlaAsp
+NC_008459	18587	A	A	A	A	A	ST520_p23	TrbI	trbI	missense_variant c.179_183delTAGAAinsCGGAC p.ValGlu60AlaAsp
+NC_008459	18588	A	C	C	C	A	ST520_p23	TrbI	trbI	missense_variant c.179_183delTAGAAinsCGGAC p.ValGlu60AlaAsp
+NC_008459	18594	G	C	C	C	G	ST520_p23	TrbI	trbI	synonymous_variant c.189G>C p.Pro63Pro
+NC_008459	18603	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.198_201delAGCAinsGGCC p.LysAla66LysAla
+NC_008459	18604	G	G	G	G	G	ST520_p23	TrbI	trbI	synonymous_variant c.198_201delAGCAinsGGCC p.LysAla66LysAla
+NC_008459	18605	C	C	C	C	C	ST520_p23	TrbI	trbI	synonymous_variant c.198_201delAGCAinsGGCC p.LysAla66LysAla
+NC_008459	18606	A	C	C	C	A	ST520_p23	TrbI	trbI	synonymous_variant c.198_201delAGCAinsGGCC p.LysAla66LysAla
+NC_008459	18639	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.234G>A p.Ala78Ala
+NC_008459	18652	A	G	G	G	A	ST520_p23	TrbI	trbI	missense_variant c.247A>G p.Ser83Gly
+NC_008459	18658	C	T	T	T	C	ST520_p23	TrbI	trbI	synonymous_variant c.253_255delCTAinsTTG p.Leu85Leu
+NC_008459	18659	T	T	T	T	T	ST520_p23	TrbI	trbI	synonymous_variant c.253_255delCTAinsTTG p.Leu85Leu
+NC_008459	18660	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.253_255delCTAinsTTG p.Leu85Leu
+NC_008459	18666	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.261A>G p.Glu87Glu
+NC_008459	18673	C	A	A	A	C	ST520_p23	TrbI	trbI	missense_variant c.268C>A p.Arg90Ser
+NC_008459	18682	C	A	A	A	C	ST520_p23	TrbI	trbI	missense_variant c.277C>A p.Gln93Lys
+NC_008459	18704	A	G	G	G	A	ST520_p23	TrbI	trbI	missense_variant c.299A>G p.Asp100Gly
+NC_008459	18717	C	T	T	T	C	ST520_p23	TrbI	trbI	synonymous_variant c.312C>T p.Ala104Ala
+NC_008459	18750	C	A	C	C	C	ST520_p23	TrbI	trbI	missense_variant c.345C>A p.Asp115Glu
+NC_008459	18760	C	G	G	G	C	ST520_p23	TrbI	trbI	missense_variant c.355_357delCTAinsGCC p.Leu119Ala
+NC_008459	18761	T	C	C	C	T	ST520_p23	TrbI	trbI	missense_variant c.355_357delCTAinsGCC p.Leu119Ala
+NC_008459	18762	A	C	C	C	A	ST520_p23	TrbI	trbI	missense_variant c.355_357delCTAinsGCC p.Leu119Ala
+NC_008459	18768	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.363A>G p.Pro121Pro
+NC_008459	18878	C	G	C	C	C	ST520_p23	TrbI	trbI	missense_variant c.473C>G p.Ala158Gly
+NC_008459	18948	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.543G>A p.Glu181Glu
+NC_008459	18984	C	T	C	C	C	ST520_p23	TrbI	trbI	synonymous_variant c.579C>T p.Ile193Ile
+NC_008459	19089	C	T	C	C	C	ST520_p23	TrbI	trbI	synonymous_variant c.684C>T p.Gly228Gly
+NC_008459	19135	A	G	G	G	A	ST520_p23	TrbI	trbI	missense_variant c.730A>G p.Ser244Gly
+NC_008459	19136	G	G	G	G	G	ST520_p23	TrbI	trbI	missense_variant c.730_732delAGCinsGGT p.Ser244Gly
+NC_008459	19137	C	T	C	C	C	ST520_p23	TrbI	trbI	missense_variant c.730_732delAGCinsGGT p.Ser244Gly
+NC_008459	19143	C	G	G	G	C	ST520_p23	TrbI	trbI	synonymous_variant c.738C>G p.Gly246Gly
+NC_008459	19170	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.765G>A p.Gln255Gln
+NC_008459	19224	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.819G>A p.Thr273Thr
+NC_008459	19326	A	G	G	G	A	ST520_p23	TrbI	trbI	synonymous_variant c.921A>G p.Val307Val
+NC_008459	19335	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.930G>A p.Thr310Thr
+NC_008459	19350	T	C	C	C	T	ST520_p23	TrbI	trbI	synonymous_variant c.945T>C p.His315His
+NC_008459	19359	T	C	C	C	T	ST520_p23	TrbI	trbI	synonymous_variant c.954T>C p.Ile318Ile
+NC_008459	19368	C	A	A	A	C	ST520_p23	TrbI	trbI	synonymous_variant c.963C>A p.Gly321Gly
+NC_008459	19377	T	C	C	C	T	ST520_p23	TrbI	trbI	synonymous_variant c.972T>C p.Leu324Leu
+NC_008459	19386	C	G	G	G	C	ST520_p23	TrbI	trbI	synonymous_variant c.981C>G p.Ser327Ser
+NC_008459	19398	T	C	C	C	T	ST520_p23	TrbI	trbI	synonymous_variant c.993T>C p.Asp331Asp
+NC_008459	19413	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.1008_1011delGGCCinsAGCG p.GlnAla336GlnAla
+NC_008459	19414	G	G	G	G	G	ST520_p23	TrbI	trbI	synonymous_variant c.1008_1011delGGCCinsAGCG p.GlnAla336GlnAla
+NC_008459	19415	C	C	C	C	C	ST520_p23	TrbI	trbI	synonymous_variant c.1008_1011delGGCCinsAGCG p.GlnAla336GlnAla
+NC_008459	19416	C	G	G	G	C	ST520_p23	TrbI	trbI	synonymous_variant c.1008_1011delGGCCinsAGCG p.GlnAla336GlnAla
+NC_008459	19437	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.1032G>A p.Gln344Gln
+NC_008459	19581	G	A	A	A	G	ST520_p23	TrbI	trbI	synonymous_variant c.1176_1179delGGCTinsAGCA p.ThrAla392ThrAla
+NC_008459	19582	G	G	G	G	G	ST520_p23	TrbI	trbI	synonymous_variant c.1176_1179delGGCTinsAGCA p.ThrAla392ThrAla
+NC_008459	19583	C	C	C	C	C	ST520_p23	TrbI	trbI	synonymous_variant c.1176_1179delGGCTinsAGCA p.ThrAla392ThrAla
+NC_008459	19584	T	A	A	A	T	ST520_p23	TrbI	trbI	synonymous_variant c.1176_1179delGGCTinsAGCA p.ThrAla392ThrAla
+NC_008459	19791	A	C	C	C	A	ST520_p23	TrbI	trbI	synonymous_variant c.1386A>C p.Ser462Ser
+NC_008459	19919	G	T	T	T	G	ST520_p22	trbJ	TrbJ	synonymous_variant c.81G>T p.Ala27Ala
+NC_008459	19988	G	A	G	G	G	ST520_p22	trbJ	TrbJ	synonymous_variant c.150G>A p.Gln50Gln
+NC_008459	20402	G	.	A	A	G	ST520_p22	trbJ	TrbJ	synonymous_variant c.564G>A p.Gln188Gln
+NC_008459	20411	T	.	C	C	T	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20412	A	.	A	A	A	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20413	T	.	T	T	T	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20414	C	.	C	C	C	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20415	A	.	G	G	A	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20416	G	.	G	G	G	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20417	C	.	C	C	C	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20418	T	.	T	T	T	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20419	T	.	A	A	T	ST520_p22	trbJ	TrbJ	missense_variant c.573_581delTATCAGCTTinsCATCGGCTA p.AlaIleSerPhe191AlaIleGlyTyr
+NC_008459	20606	A	A	G	G	A				
+NC_008459	20664	C	T	T	T	C	ST520_p21	trbK	TrbK	synonymous_variant c.52C>T p.Leu18Leu
+NC_008459	20711	G	A	A	A	G	ST520_p21	trbK	TrbK	synonymous_variant c.99G>A p.Glu33Glu
+NC_008459	20725	A	G	A	A	A	ST520_p21	trbK	TrbK	missense_variant c.113A>G p.Asn38Ser
+NC_008459	20765	G	C	C	C	G	ST520_p21	trbK	TrbK	synonymous_variant c.153G>C p.Gly51Gly
+NC_008459	20780	C	T	T	T	C	ST520_p21	trbK	TrbK	synonymous_variant c.168C>T p.Phe56Phe
+NC_008459	20825	A	G	G	G	A	ST520_p21	trbK	TrbK	synonymous_variant c.213A>G p.Pro71Pro
+NC_008459	20980	T	A	G	G	T	ST520_p20	trbL	TrbL	missense_variant c.130T>G p.Ser44Ala
+NC_008459	20985	A	C	C	C	A	ST520_p20	trbL	TrbL	synonymous_variant c.135A>C p.Ala45Ala
+NC_008459	21102	G	C	C	C	G	ST520_p20	trbL	TrbL	synonymous_variant c.252G>C p.Gly84Gly
+NC_008459	21162	G	G	A	A	G	ST520_p20	trbL	TrbL	synonymous_variant c.312G>A p.Leu104Leu
+NC_008459	21243	G	T	T	T	G	ST520_p20	trbL	TrbL	synonymous_variant c.393G>T p.Ala131Ala
+NC_008459	21258	G	G	C	C	G	ST520_p20	trbL	TrbL	synonymous_variant c.408G>C p.Gly136Gly
+NC_008459	21279	A	G	G	G	A	ST520_p20	trbL	TrbL	synonymous_variant c.429A>G p.Ala143Ala
+NC_008459	21363	A	G	G	G	A	ST520_p20	trbL	TrbL	synonymous_variant c.513A>G p.Leu171Leu
+NC_008459	21381	T	C	C	C	T	ST520_p20	trbL	TrbL	synonymous_variant c.531T>C p.Val177Val
+NC_008459	21387	C	G	G	G	C	ST520_p20	trbL	TrbL	synonymous_variant c.537_540delCAACinsGAAT p.ValAsn179ValAsn
+NC_008459	21388	A	A	A	A	A	ST520_p20	trbL	TrbL	synonymous_variant c.537_540delCAACinsGAAT p.ValAsn179ValAsn
+NC_008459	21389	A	A	A	A	A	ST520_p20	trbL	TrbL	synonymous_variant c.537_540delCAACinsGAAT p.ValAsn179ValAsn
+NC_008459	21390	C	T	T	T	C	ST520_p20	trbL	TrbL	synonymous_variant c.537_540delCAACinsGAAT p.ValAsn179ValAsn
+NC_008459	21456	C	T	T	T	C	ST520_p20	trbL	TrbL	synonymous_variant c.606C>T p.Gly202Gly
+NC_008459	21699	T	G	G	G	T	ST520_p20	trbL	TrbL	synonymous_variant c.849T>G p.Ala283Ala
+NC_008459	21705	T	G	G	G	T	ST520_p20	trbL	TrbL	synonymous_variant c.855T>G p.Val285Val
+NC_008459	21738	C	C	T	T	C	ST520_p20	trbL	TrbL	synonymous_variant c.888C>T p.Gly296Gly
+NC_008459	21745	C	T	T	T	C	ST520_p20	trbL	TrbL	synonymous_variant c.895C>T p.Leu299Leu
+NC_008459	21777	G	C	C	C	G	ST520_p20	trbL	TrbL	synonymous_variant c.927G>C p.Ala309Ala
+NC_008459	21792	T	C	C	C	T	ST520_p20	trbL	TrbL	synonymous_variant c.942T>C p.Ala314Ala
+NC_008459	21825	C	T	T	T	C	ST520_p20	trbL	TrbL	synonymous_variant c.975C>T p.Gly325Gly
+NC_008459	21837	T	C	C	C	T	ST520_p20	trbL	TrbL	synonymous_variant c.987T>C p.Ala329Ala
+NC_008459	21846	T	C	C	C	T	ST520_p20	trbL	TrbL	synonymous_variant c.996T>C p.Ala332Ala
+NC_008459	21867	A	G	G	G	A	ST520_p20	trbL	TrbL	synonymous_variant c.1017A>G p.Glu339Glu
+NC_008459	21959	A	G	G	G	A	ST520_p20	trbL	TrbL	missense_variant c.1109A>G p.Asn370Ser
+NC_008459	22014	T	G	G	G	T	ST520_p20	trbL	TrbL	synonymous_variant c.1164T>G p.Ser388Ser
+NC_008459	22134	A	C	C	C	A	ST520_p20	trbL	TrbL	missense_variant c.1284A>C p.Arg428Ser
+NC_008459	22147	C	T	T	T	C	ST520_p20	trbL	TrbL	synonymous_variant c.1297C>T p.Leu433Leu
+NC_008459	22164	C	A	A	A	C	ST520_p20	trbL	TrbL	synonymous_variant c.1314C>A p.Ala438Ala
+NC_008459	22170	G	C	C	C	G	ST520_p20	trbL	TrbL	synonymous_variant c.1320G>C p.Ala440Ala
+NC_008459	22247	G	A	A	A	G	ST520_p20	trbL	TrbL	missense_variant c.1397G>A p.Arg466Lys
+NC_008459	22268	A	C	C	C	A	ST520_p20	trbL	TrbL	missense_variant c.1418_1421delAGCCinsCGCA p.GlnPro473ProGln
+NC_008459	22269	G	G	G	G	G	ST520_p20	trbL	TrbL	missense_variant c.1418_1421delAGCCinsCGCA p.GlnPro473ProGln
+NC_008459	22270	C	C	C	C	C	ST520_p20	trbL	TrbL	missense_variant c.1418_1421delAGCCinsCGCA p.GlnPro473ProGln
+NC_008459	22271	C	A	A	A	C	ST520_p20	trbL	TrbL	missense_variant c.1418_1421delAGCCinsCGCA p.GlnPro473ProGln
+NC_008459	22277	A	G	G	G	A	ST520_p20	trbL	TrbL	missense_variant c.1427A>G p.Asn476Ser
+NC_008459	22289	A	C	C	C	A	ST520_p20	trbL	TrbL	missense_variant c.1439A>C p.Lys480Thr
+NC_008459	22295	C	T	T	T	C	ST520_p20	trbL	TrbL	missense_variant c.1445C>T p.Pro482Leu
+NC_008459	22397	C	G	C	C	C	ST520_p20	trbL	TrbL	missense_variant c.1547C>G p.Ala516Gly
+NC_008459	22410	G	C	C	C	G	ST520_p20	trbL	TrbL	missense_variant c.1560_1562delGCCinsCCT p.AlaPro520AlaLeu
+NC_008459	22411	C	C	C	C	C	ST520_p20	trbL	TrbL	missense_variant c.1560_1562delGCCinsCCT p.AlaPro520AlaLeu
+NC_008459	22412	C	C	T	T	C	ST520_p20	trbL	TrbL	missense_variant c.1560_1562delGCCinsCCT p.AlaPro520AlaLeu
+NC_008459	22522	C	T	T	T	C	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22523	G	G	G	G	G	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22524	T	C	C	C	T	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22525	C	C	C	C	C	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22526	C	C	C	C	C	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22527	T	T	T	T	T	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22528	T	G	G	G	T	ST520_p19	trbM	TrbM	missense_variant c.18_24delCGTCCTTinsTGCCCTG p.PheValLeu6PheAlaLeu
+NC_008459	22543	G	A	A	A	G	ST520_p19	trbM	TrbM	synonymous_variant c.39G>A p.Ala13Ala
+NC_008459	22660	C	G	G	G	C	ST520_p19	trbM	TrbM	synonymous_variant c.156C>G p.Thr52Thr
+NC_008459	22702	C	G	G	G	C	ST520_p19	trbM	TrbM	synonymous_variant c.198C>G p.Leu66Leu
+NC_008459	22756	T	C	C	C	T	ST520_p19	trbM	TrbM	synonymous_variant c.252T>C p.Ser84Ser
+NC_008459	22774	A	G	G	G	A	ST520_p19	trbM	TrbM	synonymous_variant c.270A>G p.Gln90Gln
+NC_008459	22810	T	T	T	G	T	ST520_p19	trbM	TrbM	synonymous_variant c.306T>G p.Arg102Arg
+NC_008459	22987	T	C	C	C	T	ST520_p19	trbM	TrbM	synonymous_variant c.483T>C p.Gly161Gly
+NC_008459	23024	C	T	T	T	C	ST520_p19	trbM	TrbM	synonymous_variant c.520C>T p.Leu174Leu
+NC_008459	23111	A	G	G	G	A	ST520_p18	trbN	TrbN	synonymous_variant c.6A>G p.Pro2Pro
+NC_008459	23225	T	C	C	C	T	ST520_p18	trbN	TrbN	synonymous_variant c.120T>C p.Gly40Gly
+NC_008459	23231	A	G	G	G	A	ST520_p18	trbN	TrbN	synonymous_variant c.126A>G p.Lys42Lys
+NC_008459	23569	C	T	C	C	C	ST520_p18	trbN	TrbN	missense_variant c.464C>T p.Ser155Leu
+NC_008459	23581	C	A	A	A	C	ST520_p18	trbN	TrbN	missense_variant c.476C>A p.Pro159Gln
+NC_008459	23618	T	C	C	C	T	ST520_p18	trbN	TrbN	synonymous_variant c.513T>C p.Ala171Ala
+NC_008459	23679	A	G	G	G	A	ST520_p18	trbN	TrbN	missense_variant c.574A>G p.Met192Val
+NC_008459	23756	T	A	T	T	T				
+NC_008459	23802	C	T	C	C	C	ST520_p17	trbO	TrbO	synonymous_variant c.33C>T p.Tyr11Tyr
+NC_008459	23853	G	A	G	G	G	ST520_p17	trbO	TrbO	synonymous_variant c.84G>A p.Gly28Gly
+NC_008459	23976	C	A	A	A	C	ST520_p17	trbO	TrbO	synonymous_variant c.207C>A p.Pro69Pro
+NC_008459	24217	C	G	C	C	C	ST520_p16	trbP	TrbP	missense_variant c.182_183delCGinsGC p.Pro61Arg
+NC_008459	24218	G	C	G	G	G	ST520_p16	trbP	TrbP	missense_variant c.182_183delCGinsGC p.Pro61Arg
+NC_008459	24462	T	C	C	C	T	ST520_p16	trbP	TrbP	missense_variant c.427T>C p.Ser143Pro
+NC_008459	24524	A	G	G	G	A	ST520_p16	trbP	TrbP	synonymous_variant c.489A>G p.Ala163Ala
+NC_008459	24743	A	C	.	C	A				
+NC_008459	24793	G	T	.	T	G	ST520_p14	upf30.5	Upf30.5	missense_variant c.44G>T p.Gly15Val
+NC_008459	25061	A	G	.	G	A	ST520_p14	upf30.5	Upf30.5	synonymous_variant c.312A>G p.Pro104Pro
+NC_008459	25243	C	G	.	G	C				
+NC_008459	25244	T	C	.	C	T				
+NC_008459	25249	G	A	.	A	G				
+NC_008459	25254	A	G	.	G	A				
+NC_008459	25299	G	T	.	T	G				
+NC_008459	25300	A	G	.	G	A				
+NC_008459	25368	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.33T>C p.Gly11Gly
+NC_008459	25426	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.91T>C p.Leu31Leu
+NC_008459	25437	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.102T>C p.Gly34Gly
+NC_008459	25458	C	G	.	G	C	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.123C>G p.Arg41Arg
+NC_008459	25474	A	G	.	G	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.139A>G p.Ile47Val
+NC_008459	25479	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25480	A	A	.	A	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25481	T	T	.	T	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25482	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25483	G	G	.	G	G	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25484	A	A	.	A	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25485	C	C	.	C	C	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25486	A	G	.	G	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.144_151delTATTGACAinsCATCGACG p.GlyIleAspIle48GlyIleAspVal
+NC_008459	25497	A	G	.	G	A	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.162A>G p.Glu54Glu
+NC_008459	25509	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.174T>C p.Val58Val
+NC_008459	25514	G	A	.	A	G	ST520_p13	upf31.0	Upf31.0	missense_variant c.179G>A p.Arg60Gln
+NC_008459	25543	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.208T>C p.Tyr70His
+NC_008459	25562	A	C	.	C	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu
+NC_008459	25563	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu
+NC_008459	25564	T	T	.	T	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu
+NC_008459	25565	G	G	.	G	G	ST520_p13	upf31.0	Upf31.0	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu
+NC_008459	25566	G	G	.	G	G	ST520_p13	upf31.0	Upf31.0	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu
+NC_008459	25567	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.227_232delATTGGTinsCCTGGC p.AspTrpLeu76AlaTrpLeu
+NC_008459	25605	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.270T>C p.Tyr90Tyr
+NC_008459	25632	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.297T>C p.Ser99Ser
+NC_008459	25650	G	A	.	A	G	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.315G>A p.Leu105Leu
+NC_008459	25657	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	missense_variant c.322T>C p.Tyr108His
+NC_008459	25695	T	C	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.360T>C p.Asp120Asp
+NC_008459	25705	C	G	.	G	C	ST520_p13	upf31.0	Upf31.0	missense_variant c.370C>G p.Arg124Gly
+NC_008459	25851	A	.	.	G	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.516_520delAGCCAinsGGCCG p.ProAlaLys172ProAlaGlu
+NC_008459	25852	G	.	.	G	G	ST520_p13	upf31.0	Upf31.0	missense_variant c.516_520delAGCCAinsGGCCG p.ProAlaLys172ProAlaGlu
+NC_008459	25853	C	.	.	C	C	ST520_p13	upf31.0	Upf31.0	missense_variant c.516_520delAGCCAinsGGCCG p.ProAlaLys172ProAlaGlu
+NC_008459	25854	C	.	.	C	C	ST520_p13	upf31.0	Upf31.0	missense_variant c.516_520delAGCCAinsGGCCG p.ProAlaLys172ProAlaGlu
+NC_008459	25855	A	.	.	G	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.516_520delAGCCAinsGGCCG p.ProAlaLys172ProAlaGlu
+NC_008459	25867	T	.	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.532T>C p.Leu178Leu
+NC_008459	25890	T	.	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.555_558delTCGTinsCCGC p.PheArg185PheArg
+NC_008459	25891	C	.	.	C	C	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.555_558delTCGTinsCCGC p.PheArg185PheArg
+NC_008459	25892	G	.	.	G	G	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.555_558delTCGTinsCCGC p.PheArg185PheArg
+NC_008459	25893	T	.	.	C	T	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.555_558delTCGTinsCCGC p.PheArg185PheArg
+NC_008459	25938	A	.	.	G	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.603_604delAAinsGC p.LysIle201LysLeu
+NC_008459	25939	A	.	.	C	A	ST520_p13	upf31.0	Upf31.0	missense_variant c.603_604delAAinsGC p.LysIle201LysLeu
+NC_008459	25995	A	.	.	G	A	ST520_p13	upf31.0	Upf31.0	synonymous_variant c.660A>G p.Leu220Leu
+NC_008459	26061	A	.	.	T	A	ST520_p35	parA	ParA	missense_variant c.803T>A p.Val268Glu
+NC_008459	26357	A	.	.	G	A	ST520_p35	parA	ParA	synonymous_variant c.507T>C p.Gly169Gly
+NC_008459	26697	A	.	.	C	A	ST520_p35	parA	ParA	missense_variant c.167T>G p.Val56Gly
+NC_008459	26834	T	.	.	G	T	ST520_p35	parA	ParA	synonymous_variant c.30A>C p.Gly10Gly
+NC_008459	26845	G	.	.	A	G	ST520_p35	parA	ParA	missense_variant c.19C>T p.His7Tyr
+NC_008459	26890	G	.	.	C	G				
+NC_008459	26895	T	.	.	A	T				
+NC_008459	26896	T	.	.	G	T				
+NC_008459	26897	T	.	.	T	T				
+NC_008459	26898	G	.	.	G	G				
+NC_008459	26899	G	.	.	T	G				
+NC_008459	26900	C	.	.	C	C				
+NC_008459	26901	C	.	.	C	C				
+NC_008459	26902	C	.	.	G	C				
+NC_008459	26903	C	.	.	G	C				
+NC_008459	26923	G	.	.	A	G				
+NC_008459	26924	A	.	.	A	A				
+NC_008459	26925	A	.	.	A	A				
+NC_008459	26926	G	.	.	G	G				
+NC_008459	26927	T	.	.	G	T				
+NC_008459	26934	G	.	.	T	G				
+NC_008459	26935	C	.	.	G	C				
+NC_008459	26936	G	.	.	C	G				
+NC_008459	26941	C	.	.	T	C				
+NC_008459	26959	T	.	.	A	T				
+NC_008459	26960	T	.	.	T	T				
+NC_008459	26961	T	.	.	T	T				
+NC_008459	26962	G	.	.	G	G				
+NC_008459	26963	C	.	.	G	C				
+NC_008459	26964	C	.	.	C	C				
+NC_008459	26965	T	.	.	G	T				
+NC_008459	26995	T	.	.	C	T				
+NC_008459	27739	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.4008C>G p.Ser1336Ser
+NC_008459	27760	T	G	G	G	T	ST520_p36	traC	TraC	synonymous_variant c.3984_3987delCGCAinsGGCC p.AlaAla1328AlaAla
+NC_008459	27761	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.3984_3987delCGCAinsGGCC p.AlaAla1328AlaAla
+NC_008459	27762	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.3984_3987delCGCAinsGGCC p.AlaAla1328AlaAla
+NC_008459	27763	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.3984_3987delCGCAinsGGCC p.AlaAla1328AlaAla
+NC_008459	27769	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.3975_3978delTGCGinsCGCC p.AspAla1325AspAla
+NC_008459	27770	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.3975_3978delTGCGinsCGCC p.AspAla1325AspAla
+NC_008459	27771	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.3975_3978delTGCGinsCGCC p.AspAla1325AspAla
+NC_008459	27772	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.3975_3978delTGCGinsCGCC p.AspAla1325AspAla
+NC_008459	27811	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.3934_3936delAGCinsTCG p.Ser1312Ser
+NC_008459	27812	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.3934_3936delAGCinsTCG p.Ser1312Ser
+NC_008459	27813	T	A	A	A	T	ST520_p36	traC	TraC	synonymous_variant c.3934_3936delAGCinsTCG p.Ser1312Ser
+NC_008459	27832	G	A	A	A	G	ST520_p36	traC	TraC	synonymous_variant c.3915C>T p.Thr1305Thr
+NC_008459	27853	C	T	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.3894G>A p.Gln1298Gln
+NC_008459	27865	C	T	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.3882G>A p.Gln1294Gln
+NC_008459	27874	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.3873C>G p.Asp1291Glu
+NC_008459	27889	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.3858C>G p.Pro1286Pro
+NC_008459	27901	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.3846A>G p.Lys1282Lys
+NC_008459	27910	C	T	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.3837G>A p.Glu1279Glu
+NC_008459	27922	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.3823_3825delTTCinsATG p.Phe1275Met
+NC_008459	27923	A	A	A	A	A	ST520_p36	traC	TraC	missense_variant c.3823_3825delTTCinsATG p.Phe1275Met
+NC_008459	27924	A	T	T	T	A	ST520_p36	traC	TraC	missense_variant c.3823_3825delTTCinsATG p.Phe1275Met
+NC_008459	27934	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.3810_3813delCCACinsGCAG p.AlaHis1270AlaGln
+NC_008459	27935	T	T	T	T	T	ST520_p36	traC	TraC	missense_variant c.3810_3813delCCACinsGCAG p.AlaHis1270AlaGln
+NC_008459	27936	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.3810_3813delCCACinsGCAG p.AlaHis1270AlaGln
+NC_008459	27937	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.3810_3813delCCACinsGCAG p.AlaHis1270AlaGln
+NC_008459	27942	C	G	G	G	C	ST520_p36	traC	TraC	missense_variant c.3805G>C p.Glu1269Gln
+NC_008459	27949	C	T	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.3798G>A p.Lys1266Lys
+NC_008459	27964	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.3783G>C p.Pro1261Pro
+NC_008459	30217	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.1530G>C p.Ala510Ala
+NC_008459	30247	G	A	A	A	G	ST520_p36	traC	TraC	synonymous_variant c.1500C>T p.Asp500Asp
+NC_008459	30253	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1491_1494delCGCTinsGGCC p.AlaAla497AlaAla
+NC_008459	30254	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.1491_1494delCGCTinsGGCC p.AlaAla497AlaAla
+NC_008459	30255	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.1491_1494delCGCTinsGGCC p.AlaAla497AlaAla
+NC_008459	30256	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.1491_1494delCGCTinsGGCC p.AlaAla497AlaAla
+NC_008459	30268	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.1479A>G p.Glu493Glu
+NC_008459	30289	A	C	C	C	A	ST520_p36	traC	TraC	missense_variant c.1457_1458delTTinsCG p.Val486Ala
+NC_008459	30290	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.1457_1458delTTinsCG p.Val486Ala
+NC_008459	30301	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.1446C>G p.Ser482Ser
+NC_008459	30307	A	C	C	C	A	ST520_p36	traC	TraC	synonymous_variant c.1440T>G p.Val480Val
+NC_008459	30316	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.1431G>C p.Ala477Ala
+NC_008459	30337	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1410T>C p.Gly470Gly
+NC_008459	30352	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1395T>C p.Asp465Asp
+NC_008459	30360	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1387C>G p.Leu463Val
+NC_008459	30376	C	C	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.1371G>A p.Glu457Glu
+NC_008459	30385	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.1359_1362delACTAinsGCTG p.GluLeu453GluLeu
+NC_008459	30386	A	A	A	A	A	ST520_p36	traC	TraC	synonymous_variant c.1359_1362delACTAinsGCTG p.GluLeu453GluLeu
+NC_008459	30387	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.1359_1362delACTAinsGCTG p.GluLeu453GluLeu
+NC_008459	30388	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.1359_1362delACTAinsGCTG p.GluLeu453GluLeu
+NC_008459	30403	A	C	C	C	A	ST520_p36	traC	TraC	synonymous_variant c.1344T>G p.Gly448Gly
+NC_008459	30409	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1335_1338delCAGTinsGAGC p.GlySer445GlySer
+NC_008459	30410	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.1335_1338delCAGTinsGAGC p.GlySer445GlySer
+NC_008459	30411	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.1335_1338delCAGTinsGAGC p.GlySer445GlySer
+NC_008459	30412	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.1335_1338delCAGTinsGAGC p.GlySer445GlySer
+NC_008459	30429	T	G	G	G	T	ST520_p36	traC	TraC	missense_variant c.1318A>C p.Met440Leu
+NC_008459	30445	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30446	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30447	A	A	A	A	A	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30448	C	A	A	A	C	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30449	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30450	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30451	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30452	T	T	T	T	T	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30453	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30454	C	G	G	G	C	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30455	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30456	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30457	T	C	C	C	T	ST520_p36	traC	TraC	missense_variant c.1290_1302delAGGGCACCCGTCCinsGGGCCACGCTTCG p.ThrGlyHisProSer430ThrGlyHisAlaSer
+NC_008459	30467	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30468	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30469	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30470	A	A	A	A	A	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30471	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30472	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30473	T	T	T	T	T	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30474	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30475	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.1272_1280delTGAGTTGGCinsCGAGCTGGG p.HisGluLeuAla424HisGluLeuGly
+NC_008459	30481	G	C	C	C	G	ST520_p36	traC	TraC	synonymous_variant c.1263_1266delGGCCinsCGCG p.ThrAla421ThrAla
+NC_008459	30482	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.1263_1266delGGCCinsCGCG p.ThrAla421ThrAla
+NC_008459	30483	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.1263_1266delGGCCinsCGCG p.ThrAla421ThrAla
+NC_008459	30484	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.1263_1266delGGCCinsCGCG p.ThrAla421ThrAla
+NC_008459	30490	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1257T>C p.Tyr419Tyr
+NC_008459	30504	C	A	A	A	C	ST520_p36	traC	TraC	missense_variant c.1242_1243delTGinsCT p.SerAla414SerSer
+NC_008459	30505	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.1242_1243delTGinsCT p.SerAla414SerSer
+NC_008459	30526	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.1221A>G p.Pro407Pro
+NC_008459	30541	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1206T>C p.Asp402Asp
+NC_008459	30553	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.1194G>C p.Arg398Arg
+NC_008459	30562	A	C	C	C	A	ST520_p36	traC	TraC	synonymous_variant c.1185T>G p.Ala395Ala
+NC_008459	30571	T	A	A	A	T	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30572	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30573	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30574	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30575	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30576	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30577	C	G	G	G	C	ST520_p36	traC	TraC	missense_variant c.1170_1176delGCCTGGAinsCGCCGGT p.AlaProGly390AlaAlaGly
+NC_008459	30583	T	G	G	G	T	ST520_p36	traC	TraC	synonymous_variant c.1164A>C p.Thr388Thr
+NC_008459	30590	T	G	G	G	T	ST520_p36	traC	TraC	missense_variant c.1157A>C p.Lys386Thr
+NC_008459	30601	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.1143_1146delTGCTinsAGCC p.AsnAla381LysAla
+NC_008459	30602	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1143_1146delTGCTinsAGCC p.AsnAla381LysAla
+NC_008459	30603	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1143_1146delTGCTinsAGCC p.AsnAla381LysAla
+NC_008459	30604	A	T	T	T	A	ST520_p36	traC	TraC	missense_variant c.1143_1146delTGCTinsAGCC p.AsnAla381LysAla
+NC_008459	30610	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1137T>C p.Ile379Ile
+NC_008459	30622	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1125T>C p.Arg375Arg
+NC_008459	30634	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1113T>C p.Asn371Asn
+NC_008459	30640	T	A	A	A	T	ST520_p36	traC	TraC	synonymous_variant c.1107A>T p.Thr369Thr
+NC_008459	30653	G	T	T	T	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30654	G	T	T	T	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30655	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30656	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30657	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30658	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30659	G	T	T	T	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30660	T	G	G	G	T	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30661	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30662	A	A	A	A	A	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30663	G	G	G	G	G	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30664	T	C	C	C	T	ST520_p36	traC	TraC	missense_variant c.1083_1094delACTCACCCCGCCinsGCTCCAGCCGAA p.ProLeuThrProPro361ProLeuGlnProLys
+NC_008459	30689	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.1058C>G p.Ala353Gly
+NC_008459	30733	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.1014T>C p.Val338Val
+NC_008459	30742	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30743	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30744	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30745	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30746	A	A	A	A	A	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30747	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30748	A	C	C	C	A	ST520_p36	traC	TraC	synonymous_variant c.999_1005delTGTTAAAinsGGTCAAG p.ProValLys333ProValLys
+NC_008459	30754	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.993G>C p.Gly331Gly
+NC_008459	30760	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.987A>G p.Ala329Ala
+NC_008459	30766	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.981T>C p.Leu327Leu
+NC_008459	30782	T	C	C	C	T	ST520_p36	traC	TraC	missense_variant c.965A>G p.Asn322Ser
+NC_008459	30792	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.954_955delATinsGC p.LysLeu318LysLeu
+NC_008459	30793	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.954_955delATinsGC p.LysLeu318LysLeu
+NC_008459	30829	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.918A>G p.Pro306Pro
+NC_008459	30838	C	T	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.909G>A p.Lys303Lys
+NC_008459	30844	A	G	G	G	A	ST520_p36	traC	TraC	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly
+NC_008459	30845	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly
+NC_008459	30846	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly
+NC_008459	30847	A	C	C	C	A	ST520_p36	traC	TraC	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly
+NC_008459	30848	C	T	T	T	C	ST520_p36	traC	TraC	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly
+NC_008459	30849	G	T	T	T	G	ST520_p36	traC	TraC	missense_variant c.898_903delCGTGGTinsAAGGGC p.ArgGly300LysGly
+NC_008459	30859	A	C	C	C	A	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30860	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30861	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30862	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30863	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30864	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30865	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.882_888delAGGTGCTinsGGGCGCG p.ValGlyAla294ValGlyAla
+NC_008459	30877	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30878	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30879	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30880	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30881	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30882	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30883	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.864_870delTAAACAAinsCAAGCAG p.TyrLysGln288TyrLysGln
+NC_008459	30898	T	C	C	C	T	ST520_p36	traC	TraC	missense_variant c.848_849delGAinsCG p.Gly283Ala
+NC_008459	30899	C	G	G	G	C	ST520_p36	traC	TraC	missense_variant c.848_849delGAinsCG p.Gly283Ala
+NC_008459	30904	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.840_843delTAGTinsCAGC p.ArgSer280ArgSer
+NC_008459	30905	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.840_843delTAGTinsCAGC p.ArgSer280ArgSer
+NC_008459	30906	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.840_843delTAGTinsCAGC p.ArgSer280ArgSer
+NC_008459	30907	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.840_843delTAGTinsCAGC p.ArgSer280ArgSer
+NC_008459	30913	T	C	C	C	T	ST520_p36	traC	TraC	synonymous_variant c.834A>G p.Gln278Gln
+NC_008459	30928	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.816_819delTATTinsCATC p.AlaIle272AlaIle
+NC_008459	30929	A	A	A	A	A	ST520_p36	traC	TraC	synonymous_variant c.816_819delTATTinsCATC p.AlaIle272AlaIle
+NC_008459	30930	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.816_819delTATTinsCATC p.AlaIle272AlaIle
+NC_008459	30931	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.816_819delTATTinsCATC p.AlaIle272AlaIle
+NC_008459	30940	A	C	C	C	A	ST520_p36	traC	TraC	synonymous_variant c.804_807delGGGTinsAGGG p.LysGly268LysGly
+NC_008459	30941	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.804_807delGGGTinsAGGG p.LysGly268LysGly
+NC_008459	30942	C	C	C	C	C	ST520_p36	traC	TraC	synonymous_variant c.804_807delGGGTinsAGGG p.LysGly268LysGly
+NC_008459	30943	C	T	T	T	C	ST520_p36	traC	TraC	synonymous_variant c.804_807delGGGTinsAGGG p.LysGly268LysGly
+NC_008459	30958	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.786_789delGACTinsCACC p.ThrThr262ThrThr
+NC_008459	30959	G	G	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.786_789delGACTinsCACC p.ThrThr262ThrThr
+NC_008459	30960	T	T	T	T	T	ST520_p36	traC	TraC	synonymous_variant c.786_789delGACTinsCACC p.ThrThr262ThrThr
+NC_008459	30961	C	G	G	G	C	ST520_p36	traC	TraC	synonymous_variant c.786_789delGACTinsCACC p.ThrThr262ThrThr
+NC_008459	30970	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.774_777delCTTCinsGATG p.ProPhe258ProMet
+NC_008459	30971	A	A	A	A	A	ST520_p36	traC	TraC	missense_variant c.774_777delCTTCinsGATG p.ProPhe258ProMet
+NC_008459	30972	A	T	T	T	A	ST520_p36	traC	TraC	missense_variant c.774_777delCTTCinsGATG p.ProPhe258ProMet
+NC_008459	30973	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.774_777delCTTCinsGATG p.ProPhe258ProMet
+NC_008459	30978	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.768_769delTTinsCC p.TyrLeu256TyrLeu
+NC_008459	30979	A	G	G	G	A	ST520_p36	traC	TraC	synonymous_variant c.768_769delTTinsCC p.TyrLeu256TyrLeu
+NC_008459	30993	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.750_754delAGGGCinsGGGCG p.ProGlyGln250ProGlyGlu
+NC_008459	30994	C	G	G	G	C	ST520_p36	traC	TraC	missense_variant c.750_754delAGGGCinsGGGCG p.ProGlyGln250ProGlyGlu
+NC_008459	30995	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.750_754delAGGGCinsGGGCG p.ProGlyGln250ProGlyGlu
+NC_008459	30996	C	C	C	C	C	ST520_p36	traC	TraC	missense_variant c.750_754delAGGGCinsGGGCG p.ProGlyGln250ProGlyGlu
+NC_008459	30997	T	C	C	C	T	ST520_p36	traC	TraC	missense_variant c.750_754delAGGGCinsGGGCG p.ProGlyGln250ProGlyGlu
+NC_008459	31269	T	G	G	G	T	ST520_p36	traC	TraC	missense_variant c.478A>C p.Lys160Gln
+NC_008459	31445	G	C	C	C	G	ST520_p36	traC	TraC	missense_variant c.302C>G p.Ala101Gly
+NC_008459	31512	C	T	C	C	C	ST520_p36	traC	TraC	missense_variant c.235G>A p.Gly79Ser
+NC_008459	31546	T	G	G	G	T	ST520_p36	traC	TraC	synonymous_variant c.201A>C p.Arg67Arg
+NC_008459	31558	G	A	G	G	G	ST520_p36	traC	TraC	synonymous_variant c.189C>T p.Ala63Ala
+NC_008459	31699	G	G	A	G	G	ST520_p36	traC	TraC	synonymous_variant c.48C>T p.Val16Val
+NC_008459	31751	T	C	C	C	T	ST520_p37	traD	TraD	splice_region_variant&stop_retained_variant c.389A>G p.Ter130Ter
+NC_008459	31867	G	T	T	T	G	ST520_p37	traD	TraD	missense_variant c.273C>A p.Asp91Glu
+NC_008459	32066	G	T	T	T	G	ST520_p37	traD	TraD	missense_variant c.74C>A p.Ala25Asp
+NC_008459	32174	G	T	G	G	G	ST520_p38	traE	TraE	missense_variant c.2051C>A p.Pro684Gln
+NC_008459	32444	A	G	G	G	A	ST520_p38	traE	TraE	missense_variant c.1781T>C p.Val594Ala
+NC_008459	32617	G	G	A	A	G	ST520_p38	traE	TraE	synonymous_variant c.1608C>T p.Arg536Arg
+NC_008459	32713	T	C	C	C	T	ST520_p38	traE	TraE	synonymous_variant c.1512A>G p.Leu504Leu
+NC_008459	32768	A	G	G	G	A	ST520_p38	traE	TraE	missense_variant c.1457T>C p.Val486Ala
+NC_008459	33268	G	A	G	G	G	ST520_p38	traE	TraE	synonymous_variant c.957C>T p.Leu319Leu
+NC_008459	33334	A	G	A	A	A	ST520_p38	traE	TraE	synonymous_variant c.891T>C p.Ile297Ile
+NC_008459	33346	T	G	G	G	T	ST520_p38	traE	TraE	synonymous_variant c.879A>C p.Ala293Ala
+NC_008459	33353	A	G	G	G	A	ST520_p38	traE	TraE	missense_variant c.872T>C p.Val291Ala
+NC_008459	33361	T	C	C	C	T	ST520_p38	traE	TraE	synonymous_variant c.864A>G p.Gln288Gln
+NC_008459	33474	C	A	C	C	C	ST520_p38	traE	TraE	missense_variant c.751G>T p.Asp251Tyr
+NC_008459	33478	G	G	A	A	G	ST520_p38	traE	TraE	synonymous_variant c.747C>T p.Gly249Gly
+NC_008459	33496	C	T	C	C	C	ST520_p38	traE	TraE	synonymous_variant c.729G>A p.Ala243Ala
+NC_008459	33616	T	C	C	C	T	ST520_p38	traE	TraE	synonymous_variant c.609A>G p.Pro203Pro
+NC_008459	33904	A	G	G	G	A	ST520_p38	traE	TraE	synonymous_variant c.321T>C p.Ala107Ala
+NC_008459	34088	A	T	T	T	A	ST520_p38	traE	TraE	missense_variant c.137T>A p.Leu46Gln
+NC_008459	34254	G	A	A	A	G	ST520_p39	traF	TraF	synonymous_variant c.519C>T p.Arg173Arg
+NC_008459	34305	A	G	G	G	A	ST520_p39	traF	TraF	synonymous_variant c.468T>C p.Asp156Asp
+NC_008459	34369	C	T	T	T	C	ST520_p39	traF	TraF	missense_variant c.404G>A p.Ser135Asn
+NC_008459	34377	G	A	A	A	G	ST520_p39	traF	TraF	synonymous_variant c.396C>T p.Tyr132Tyr
+NC_008459	34395	C	A	A	A	C	ST520_p39	traF	TraF	synonymous_variant c.378G>T p.Gly126Gly
+NC_008459	34473	C	G	G	G	C	ST520_p39	traF	TraF	synonymous_variant c.300G>C p.Val100Val
+NC_008459	34483	C	T	T	T	C	ST520_p39	traF	TraF	missense_variant c.290G>A p.Gly97Asp
+NC_008459	34557	T	C	C	C	T	ST520_p39	traF	TraF	synonymous_variant c.216A>G p.Glu72Glu
+NC_008459	34569	G	A	A	A	G	ST520_p39	traF	TraF	synonymous_variant c.204C>T p.Asp68Asp
+NC_008459	34709	A	G	G	G	A	ST520_p39	traF	TraF	synonymous_variant c.64T>C p.Leu22Leu
+NC_008459	34719	A	G	G	G	A	ST520_p39	traF	TraF	synonymous_variant c.54T>C p.Ala18Ala
+NC_008459	34735	G	A	A	A	G	ST520_p39	traF	TraF	missense_variant c.38C>T p.Ala13Val
+NC_008459	34752	G	A	G	G	G	ST520_p39	traF	TraF	synonymous_variant c.21C>T p.Arg7Arg
+NC_008459	34783	G	C	C	C	G	ST520_p40	traG	TraG	missense_variant c.1900C>G p.Arg634Gly
+NC_008459	34796	C	G	C	C	C	ST520_p40	traG	TraG	missense_variant c.1887G>C p.Glu629Asp
+NC_008459	34841	G	A	A	A	G	ST520_p40	traG	TraG	synonymous_variant c.1839_1842delTCCCinsCCCT p.IlePro613IlePro
+NC_008459	34842	G	G	G	G	G	ST520_p40	traG	TraG	synonymous_variant c.1839_1842delTCCCinsCCCT p.IlePro613IlePro
+NC_008459	34843	G	G	G	G	G	ST520_p40	traG	TraG	synonymous_variant c.1839_1842delTCCCinsCCCT p.IlePro613IlePro
+NC_008459	34844	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.1839_1842delTCCCinsCCCT p.IlePro613IlePro
+NC_008459	34868	C	T	T	T	C	ST520_p40	traG	TraG	synonymous_variant c.1815G>A p.Pro605Pro
+NC_008459	35069	T	G	G	G	T	ST520_p40	traG	TraG	synonymous_variant c.1614A>C p.Arg538Arg
+NC_008459	35159	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.1524T>C p.Tyr508Tyr
+NC_008459	35202	G	T	T	T	G	ST520_p40	traG	TraG	missense_variant c.1481C>A p.Pro494His
+NC_008459	35210	G	G	A	G	G	ST520_p40	traG	TraG	synonymous_variant c.1473C>T p.Gly491Gly
+NC_008459	35375	A	C	C	C	A	ST520_p40	traG	TraG	synonymous_variant c.1308T>G p.Arg436Arg
+NC_008459	35462	G	A	A	A	G	ST520_p40	traG	TraG	synonymous_variant c.1221C>T p.Asp407Asp
+NC_008459	35480	G	G	G	A	G	ST520_p40	traG	TraG	synonymous_variant c.1203C>T p.Ile401Ile
+NC_008459	35552	C	G	G	G	C	ST520_p40	traG	TraG	synonymous_variant c.1131G>C p.Ala377Ala
+NC_008459	35624	T	G	G	G	T	ST520_p40	traG	TraG	synonymous_variant c.1059A>C p.Pro353Pro
+NC_008459	35645	T	G	G	G	T	ST520_p40	traG	TraG	synonymous_variant c.1038A>C p.Ala346Ala
+NC_008459	35780	C	A	A	A	C	ST520_p40	traG	TraG	missense_variant c.903G>T p.Glu301Asp
+NC_008459	35909	G	A	A	A	G	ST520_p40	traG	TraG	synonymous_variant c.774C>T p.Gly258Gly
+NC_008459	35915	T	C	C	C	T	ST520_p40	traG	TraG	synonymous_variant c.768A>G p.Glu256Glu
+NC_008459	36065	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.618T>C p.Ile206Ile
+NC_008459	36073	A	T	T	T	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36074	G	G	G	G	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36075	C	C	C	C	C	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36076	T	T	T	T	T	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36077	T	C	C	C	T	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36078	G	G	G	G	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36079	G	C	C	C	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36080	C	G	G	G	C	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36081	G	C	C	C	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36082	A	C	C	C	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36083	C	C	C	C	C	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36084	C	C	C	C	C	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36085	A	A	A	A	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36086	G	C	C	C	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36087	G	G	G	G	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36088	A	A	A	A	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36089	A	C	C	C	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36090	A	A	A	A	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36091	G	G	G	G	G	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36092	A	C	C	C	A	ST520_p40	traG	TraG	missense_variant c.591_610delTCTTTCCTGGTCGCCAAGCTinsGCTGTCGTGGGGCGCGAGCA p.LeuLeuSerTrpSerProSerCys197LeuLeuSerTrpGlyAlaSerSer
+NC_008459	36113	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.567_570delTGTTinsCGTC p.GlyVal189GlyVal
+NC_008459	36114	A	A	A	A	A	ST520_p40	traG	TraG	synonymous_variant c.567_570delTGTTinsCGTC p.GlyVal189GlyVal
+NC_008459	36115	C	C	C	C	C	ST520_p40	traG	TraG	synonymous_variant c.567_570delTGTTinsCGTC p.GlyVal189GlyVal
+NC_008459	36116	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.567_570delTGTTinsCGTC p.GlyVal189GlyVal
+NC_008459	36122	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.561T>C p.Gly187Gly
+NC_008459	36128	C	G	G	G	C	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36129	C	C	C	C	C	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36130	G	G	G	G	G	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36131	G	C	C	C	G	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36132	G	G	G	G	G	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36133	T	T	T	T	T	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36134	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.549_555delTACCCGGinsCACGCGC p.ProThrArg183ProThrArg
+NC_008459	36140	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.543T>C p.Tyr181Tyr
+NC_008459	36146	A	C	C	C	A	ST520_p40	traG	TraG	synonymous_variant c.537T>G p.Leu179Leu
+NC_008459	36180	T	A	A	A	T	ST520_p40	traG	TraG	missense_variant c.503A>T p.Tyr168Phe
+NC_008459	36227	G	A	A	A	G	ST520_p40	traG	TraG	synonymous_variant c.456C>T p.Ala152Ala
+NC_008459	36243	C	T	T	T	C	ST520_p40	traG	TraG	missense_variant c.440G>A p.Arg147Lys
+NC_008459	36265	A	C	C	C	A	ST520_p40	traG	TraG	missense_variant c.418T>G p.Phe140Val
+NC_008459	36278	C	T	T	T	C	ST520_p40	traG	TraG	synonymous_variant c.405G>A p.Pro135Pro
+NC_008459	36398	C	G	G	G	C	ST520_p40	traG	TraG	synonymous_variant c.285G>C p.Gly95Gly
+NC_008459	36575	A	G	G	G	A	ST520_p40	traG	TraG	synonymous_variant c.108T>C p.Leu36Leu
+NC_008459	36587	G	C	C	C	G	ST520_p40	traG	TraG	missense_variant c.96C>G p.Ile32Met
+NC_008459	36640	C	T	T	T	C	ST520_p40	traG	TraG	missense_variant c.43G>A p.Ala15Thr
+NC_008459	36697	G	C	C	C	G	ST520_p41	traI	TraI	synonymous_variant c.2220C>G p.Ser740Ser
+NC_008459	36925	C	T	T	T	C	ST520_p41	traI	TraI	synonymous_variant c.1992G>A p.Ala664Ala
+NC_008459	37007	G	C	C	C	G	ST520_p42	traH	TraH	missense_variant c.1910C>G p.Ala637Gly
+NC_008459	37095	C	C	T	C	C	ST520_p42	traH	TraH	missense_variant c.1822G>A p.Ala608Thr
+NC_008459	37196	T	G	G	G	T	ST520_p42	traH	TraH	missense_variant c.1721A>C p.Asn574Thr
+NC_008459	37209	T	G	G	G	T	ST520_p42	traH	TraH	missense_variant c.1708A>C p.Ile570Leu
+NC_008459	37240	T	G	G	G	T	ST520_p42	traH	TraH	missense_variant c.134A>C p.Gln45Pro
+NC_008459	37301	A	G	G	G	A	ST520_p42	traH	TraH	missense_variant c.1615_1616delCTinsGC p.Leu539Ala
+NC_008459	37302	G	C	C	C	G	ST520_p42	traH	TraH	missense_variant c.1615_1616delCTinsGC p.Leu539Ala
+NC_008459	37308	A	G	G	G	A	ST520_p42	traH	TraH	missense_variant c.1609T>C p.Trp537Arg
+NC_008459	37507	C	G	G	G	C	ST520_p41	traI	TraI	synonymous_variant c.1410G>C p.Arg470Arg
+NC_008459	37582	A	C	C	C	A	ST520_p41	traI	TraI	synonymous_variant c.1335T>G p.Leu445Leu
+NC_008459	37591	G	A	A	A	G	ST520_p41	traI	TraI	synonymous_variant c.1326C>T p.Gly442Gly
+NC_008459	37609	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.1308T>C p.Ser436Ser
+NC_008459	37666	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.1251A>G p.Ala417Ala
+NC_008459	37738	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37739	A	A	A	A	A	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37740	G	G	G	G	G	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37741	T	G	G	G	T	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37742	G	G	G	G	G	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37743	C	C	C	C	C	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37744	C	G	G	G	C	ST520_p41	traI	TraI	synonymous_variant c.1173_1179delGGCACTAinsCGCCCTG p.AlaAlaLeu391AlaAlaLeu
+NC_008459	37753	T	G	G	G	T	ST520_p41	traI	TraI	missense_variant c.1164A>C p.Glu388Asp
+NC_008459	37758	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.1156_1159delAACAinsGGCG p.AsnThr386GlyAla
+NC_008459	37759	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.1156_1159delAACAinsGGCG p.AsnThr386GlyAla
+NC_008459	37760	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.1156_1159delAACAinsGGCG p.AsnThr386GlyAla
+NC_008459	37761	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.1156_1159delAACAinsGGCG p.AsnThr386GlyAla
+NC_008459	37768	G	C	C	C	G	ST520_p41	traI	TraI	missense_variant c.1149C>G p.His383Gln
+NC_008459	37774	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.1143A>G p.Glu381Glu
+NC_008459	37793	A	G	G	G	A	ST520_p41	traI	TraI	missense_variant c.1124T>C p.Val375Ala
+NC_008459	37825	C	G	G	G	C	ST520_p41	traI	TraI	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla
+NC_008459	37826	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla
+NC_008459	37827	C	C	C	C	C	ST520_p41	traI	TraI	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla
+NC_008459	37828	G	C	C	C	G	ST520_p41	traI	TraI	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla
+NC_008459	37829	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla
+NC_008459	37830	C	T	T	T	C	ST520_p41	traI	TraI	missense_variant c.1087_1092delGCCGCGinsACGGCC p.AlaAla363ThrAla
+NC_008459	37852	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.1065T>C p.Asn355Asn
+NC_008459	37858	G	C	C	C	G	ST520_p41	traI	TraI	synonymous_variant c.1059C>G p.Ala353Ala
+NC_008459	37866	T	T	G	G	T	ST520_p41	traI	TraI	missense_variant c.1051A>C p.Ile351Leu
+NC_008459	37879	C	G	G	G	C	ST520_p41	traI	TraI	synonymous_variant c.1038G>C p.Ala346Ala
+NC_008459	37888	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.1029A>G p.Ala343Ala
+NC_008459	37913	G	T	T	T	G	ST520_p41	traI	TraI	missense_variant c.1000_1004delACGACinsGCGAA p.ThrThr334AlaAsn
+NC_008459	37914	T	T	T	T	T	ST520_p41	traI	TraI	missense_variant c.1000_1004delACGACinsGCGAA p.ThrThr334AlaAsn
+NC_008459	37915	C	C	C	C	C	ST520_p41	traI	TraI	missense_variant c.1000_1004delACGACinsGCGAA p.ThrThr334AlaAsn
+NC_008459	37916	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.1000_1004delACGACinsGCGAA p.ThrThr334AlaAsn
+NC_008459	37917	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.1000_1004delACGACinsGCGAA p.ThrThr334AlaAsn
+NC_008459	37930	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.987T>C p.Val329Val
+NC_008459	37939	T	A	A	A	T	ST520_p41	traI	TraI	synonymous_variant c.978A>T p.Ile326Ile
+NC_008459	37945	T	G	G	G	T	ST520_p41	traI	TraI	synonymous_variant c.972A>C p.Ala324Ala
+NC_008459	37962	G	T	T	T	G	ST520_p41	traI	TraI	missense_variant c.955C>A p.His319Asn
+NC_008459	37968	G	T	T	T	G	ST520_p41	traI	TraI	synonymous_variant c.949C>A p.Arg317Arg
+NC_008459	37986	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.931T>C p.Leu311Leu
+NC_008459	37992	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.925A>G p.Asn309Asp
+NC_008459	38002	A	C	C	C	A	ST520_p41	traI	TraI	synonymous_variant c.915T>G p.Arg305Arg
+NC_008459	38023	A	G	G	G	A	ST520_p41	traI	TraI	missense_variant c.893_894delGTinsCC p.Gly298Ala
+NC_008459	38024	C	G	G	G	C	ST520_p41	traI	TraI	missense_variant c.893_894delGTinsCC p.Gly298Ala
+NC_008459	38050	G	C	C	C	G	ST520_p41	traI	TraI	missense_variant c.867C>G p.Asp289Glu
+NC_008459	38057	C	T	T	T	C	ST520_p41	traI	TraI	missense_variant c.860G>A p.Arg287Lys
+NC_008459	38092	C	A	A	A	C	ST520_p41	traI	TraI	synonymous_variant c.822_825delTTTGinsCCTT p.ArgLeu274ArgLeu
+NC_008459	38093	A	A	A	A	A	ST520_p41	traI	TraI	synonymous_variant c.822_825delTTTGinsCCTT p.ArgLeu274ArgLeu
+NC_008459	38094	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.822_825delTTTGinsCCTT p.ArgLeu274ArgLeu
+NC_008459	38095	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.822_825delTTTGinsCCTT p.ArgLeu274ArgLeu
+NC_008459	38137	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.777_780delAGCAinsGGCG p.GlnAla259GlnAla
+NC_008459	38138	G	G	G	G	G	ST520_p41	traI	TraI	synonymous_variant c.777_780delAGCAinsGGCG p.GlnAla259GlnAla
+NC_008459	38139	C	C	C	C	C	ST520_p41	traI	TraI	synonymous_variant c.777_780delAGCAinsGGCG p.GlnAla259GlnAla
+NC_008459	38140	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.777_780delAGCAinsGGCG p.GlnAla259GlnAla
+NC_008459	38182	T	C	C	C	T	ST520_p41	traI	TraI	synonymous_variant c.735A>G p.Leu245Leu
+NC_008459	38192	C	T	T	T	C	ST520_p41	traI	TraI	missense_variant c.725G>A p.Arg242Lys
+NC_008459	38224	G	C	C	C	G	ST520_p41	traI	TraI	synonymous_variant c.693C>G p.Val231Val
+NC_008459	38233	G	T	T	T	G	ST520_p41	traI	TraI	synonymous_variant c.684C>A p.Gly228Gly
+NC_008459	38241	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.676A>G p.Ser226Gly
+NC_008459	38250	T	A	A	A	T	ST520_p41	traI	TraI	missense_variant c.667A>T p.Ile223Phe
+NC_008459	38256	A	G	G	G	A	ST520_p41	traI	TraI	missense_variant c.657_661delCGGCTinsTGGCC p.AsnGlyPhe219AsnGlyLeu
+NC_008459	38257	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.657_661delCGGCTinsTGGCC p.AsnGlyPhe219AsnGlyLeu
+NC_008459	38258	C	C	C	C	C	ST520_p41	traI	TraI	missense_variant c.657_661delCGGCTinsTGGCC p.AsnGlyPhe219AsnGlyLeu
+NC_008459	38259	C	C	C	C	C	ST520_p41	traI	TraI	missense_variant c.657_661delCGGCTinsTGGCC p.AsnGlyPhe219AsnGlyLeu
+NC_008459	38260	G	A	A	A	G	ST520_p41	traI	TraI	missense_variant c.657_661delCGGCTinsTGGCC p.AsnGlyPhe219AsnGlyLeu
+NC_008459	38266	A	G	G	G	A	ST520_p41	traI	TraI	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg
+NC_008459	38267	C	C	C	C	C	ST520_p41	traI	TraI	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg
+NC_008459	38268	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg
+NC_008459	38269	G	G	G	G	G	ST520_p41	traI	TraI	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg
+NC_008459	38270	C	A	A	A	C	ST520_p41	traI	TraI	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg
+NC_008459	38271	T	C	C	C	T	ST520_p41	traI	TraI	missense_variant c.646_651delAGCCGTinsGTCCGC p.SerArg216ValArg
+NC_008459	38283	G	T	T	T	G	ST520_p41	traI	TraI	missense_variant c.633_634delCCinsAA p.GlyLeu211GlyMet
+NC_008459	38284	G	T	T	T	G	ST520_p41	traI	TraI	missense_variant c.633_634delCCinsAA p.GlyLeu211GlyMet
+NC_008459	38290	T	G	G	G	T	ST520_p41	traI	TraI	missense_variant c.624_627delCGAAinsGGAC p.ArgGlu208ArgAsp
+NC_008459	38291	T	T	T	T	T	ST520_p41	traI	TraI	missense_variant c.624_627delCGAAinsGGAC p.ArgGlu208ArgAsp
+NC_008459	38292	C	C	C	C	C	ST520_p41	traI	TraI	missense_variant c.624_627delCGAAinsGGAC p.ArgGlu208ArgAsp
+NC_008459	38293	G	G	C	C	G	ST520_p41	traI	TraI	missense_variant c.624_627delCGAAinsGGAC p.ArgGlu208ArgAsp
+NC_008459	38311	C	T	T	T	C	ST520_p41	traI	TraI	synonymous_variant c.606G>A p.Glu202Glu
+NC_008459	38322	T	A	.	.	T	ST520_p41	traI	TraI	missense_variant c.595A>T p.Thr199Ser
+NC_008459	38577	G	T	T	T	G	ST520_p41	traI	TraI	missense_variant c.339_340delTCinsCA p.AspHis113AspAsn
+NC_008459	38578	A	G	G	G	A	ST520_p41	traI	TraI	missense_variant c.339_340delTCinsCA p.AspHis113AspAsn
+NC_008459	38593	A	G	G	G	A	ST520_p41	traI	TraI	synonymous_variant c.324T>C p.Val108Val
+NC_008459	38599	G	A	A	A	G	ST520_p41	traI	TraI	synonymous_variant c.318C>T p.Ser106Ser
+NC_008459	38605	G	T	T	T	G	ST520_p41	traI	TraI	synonymous_variant c.312C>A p.Arg104Arg
+NC_008459	38947	A	G	G	G	A				
+NC_008459	38948	A	A	A	A	A				
+NC_008459	38949	T	A	A	A	T				
+NC_008459	38950	C	G	G	G	C				
+NC_008459	38980	A	C	C	C	A	ST520_p43	traJ	TraJ	missense_variant c.346T>G p.Ser116Ala
+NC_008459	38987	A	G	G	G	A	ST520_p43	traJ	TraJ	missense_variant c.337_339delCTTinsATC p.Leu113Ile
+NC_008459	38988	A	A	A	A	A	ST520_p43	traJ	TraJ	missense_variant c.337_339delCTTinsATC p.Leu113Ile
+NC_008459	38989	G	T	T	T	G	ST520_p43	traJ	TraJ	missense_variant c.337_339delCTTinsATC p.Leu113Ile
+NC_008459	39011	C	G	G	G	C	ST520_p43	traJ	TraJ	synonymous_variant c.315G>C p.Ala105Ala
+NC_008459	39020	G	C	C	C	G	ST520_p43	traJ	TraJ	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg
+NC_008459	39021	C	C	C	C	C	ST520_p43	traJ	TraJ	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg
+NC_008459	39022	G	G	G	G	G	ST520_p43	traJ	TraJ	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg
+NC_008459	39023	A	G	G	G	A	ST520_p43	traJ	TraJ	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg
+NC_008459	39024	C	C	C	C	C	ST520_p43	traJ	TraJ	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg
+NC_008459	39025	G	C	C	C	G	ST520_p43	traJ	TraJ	missense_variant c.301_306delCGTCGCinsGGCCGG p.ArgArg101GlyArg
+NC_008459	39035	A	C	C	C	A	ST520_p43	traJ	TraJ	synonymous_variant c.291T>G p.Leu97Leu
+NC_008459	39065	C	T	T	T	C	ST520_p43	traJ	TraJ	synonymous_variant c.261G>A p.Arg87Arg
+NC_008459	39148	A	G	G	G	A	ST520_p43	traJ	TraJ	missense_variant c.177_178delCTinsGC p.HisTyr59GlnHis
+NC_008459	39149	G	C	C	C	G	ST520_p43	traJ	TraJ	missense_variant c.177_178delCTinsGC p.HisTyr59GlnHis
+NC_008459	39172	C	T	T	T	C	ST520_p43	traJ	TraJ	missense_variant c.154G>A p.Val52Ile
+NC_008459	39185	C	G	G	G	C	ST520_p43	traJ	TraJ	synonymous_variant c.141G>C p.Gly47Gly
+NC_008459	39191	A	G	G	G	A	ST520_p43	traJ	TraJ	synonymous_variant c.135T>C p.Asp45Asp
+NC_008459	39200	G	A	A	A	G	ST520_p43	traJ	TraJ	synonymous_variant c.126C>T p.Tyr42Tyr
+NC_008459	39209	G	C	C	C	G	ST520_p43	traJ	TraJ	synonymous_variant c.117C>G p.Val39Val
+NC_008459	39302	C	G	G	G	C	ST520_p43	traJ	TraJ	missense_variant c.24G>C p.Gln8His
+NC_008459	39311	C	T	T	T	C	ST520_p43	traJ	TraJ	synonymous_variant c.15G>A p.Glu5Glu
+NC_008459	39378	A	G	G	G	A				
+NC_008459	39383	C	A	A	A	C				
+NC_008459	39393	T	C	C	C	T				
+NC_008459	39394	G	G	G	G	G				
+NC_008459	39395	C	C	C	C	C				
+NC_008459	39396	C	C	C	C	C				
+NC_008459	39397	A	C	C	C	A				
+NC_008459	39414	G	A	A	A	G				
+NC_008459	39415	A	C	C	C	A				
+NC_008459	39416	A	A	A	A	A				
+NC_008459	39417	G	G	G	G	G				
+NC_008459	39418	C	T	T	T	C				
+NC_008459	39437	T	C	C	C	T				
+NC_008459	39455	G	A	A	A	G				
+NC_008459	39456	C	C	C	C	C				
+NC_008459	39457	C	A	A	A	C				
+NC_008459	39462	T	C	C	C	T				
+NC_008459	39487	G	A	A	A	G				
+NC_008459	39511	C	T	T	T	C				
+NC_008459	39573	C	C	A	A	C				
+NC_008459	39574	C	C	C	C	C				
+NC_008459	39575	T	C	C	C	T				
+NC_008459	39596	G	C	C	C	G				
+NC_008459	39597	G	G	G	G	G				
+NC_008459	39598	C	C	C	C	C				
+NC_008459	39599	T	T	T	T	T				
+NC_008459	39600	G	A	A	A	G				
+NC_008459	39631	G	A	A	A	G				
+NC_008459	39677	C	T	T	T	C				
+NC_008459	39788	T	G	G	G	T	ST520_p44	traK	TraK	synonymous_variant c.87T>G p.Ala29Ala
+NC_008459	39812	G	T	T	T	G	ST520_p44	traK	TraK	synonymous_variant c.111G>T p.Val37Val
+NC_008459	39884	T	C	C	C	T	ST520_p44	traK	TraK	synonymous_variant c.183T>C p.Arg61Arg
+NC_008459	39933	C	G	G	G	C	ST520_p44	traK	TraK	missense_variant c.232_233delCTinsGC p.Leu78Ala
+NC_008459	39934	T	C	C	C	T	ST520_p44	traK	TraK	missense_variant c.232_233delCTinsGC p.Leu78Ala
+NC_008459	39941	C	A	A	A	C	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39942	G	G	G	G	G	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39943	C	C	C	C	C	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39944	T	T	T	T	T	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39945	G	T	T	T	G	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39946	C	C	C	C	C	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39947	T	C	C	C	T	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39948	G	C	C	C	G	ST520_p44	traK	TraK	missense_variant c.240_247delCGCTGCTGinsAGCTTCCC p.ValAlaAlaAla80ValAlaSerPro
+NC_008459	39954	G	C	C	C	G	ST520_p44	traK	TraK	missense_variant c.253G>C p.Ala85Pro
+NC_008459	39960	T	G	G	G	T	ST520_p44	traK	TraK	missense_variant c.259T>G p.Ser87Ala
+NC_008459	39965	G	T	T	T	G	ST520_p44	traK	TraK	synonymous_variant c.264G>T p.Thr88Thr
+NC_008459	39981	G	C	C	C	G	ST520_p44	traK	TraK	missense_variant c.280G>C p.Ala94Pro
+NC_008459	40001	T	G	G	G	T	ST520_p44	traK	TraK	missense_variant c.300T>G p.Asp100Glu
+NC_008459	40019	A	G	G	G	A	ST520_p44	traK	TraK	synonymous_variant c.318A>G p.Pro106Pro
+NC_008459	40027	T	A	A	A	T	ST520_p44	traK	TraK	missense_variant c.326T>A p.Val109Glu
+NC_008459	40043	T	G	G	G	T	ST520_p44	traK	TraK	missense_variant c.342T>G p.Asp114Glu
+NC_008459	40044	C	C	C	C	C	ST520_p44	traK	TraK	missense_variant c.342_345delTCCGinsGCCA p.AspPro114GluPro
+NC_008459	40045	C	C	C	C	C	ST520_p44	traK	TraK	missense_variant c.342_345delTCCGinsGCCA p.AspPro114GluPro
+NC_008459	40046	G	A	G	G	G	ST520_p44	traK	TraK	missense_variant c.342_345delTCCGinsGCCA p.AspPro114GluPro
+NC_008459	40061	G	C	C	C	G	ST520_p44	traK	TraK	synonymous_variant c.360G>C p.Gly120Gly
+NC_008459	40073	C	T	T	T	C	ST520_p44	traK	TraK	synonymous_variant c.372C>T p.Asp124Asp
+NC_008459	40108	A	G	G	G	A	ST520_p45	traL	TraL	synonymous_variant c.6A>G p.Ala2Ala
+NC_008459	40228	C	G	G	G	C	ST520_p45	traL	TraL	synonymous_variant c.126C>G p.Val42Val
+NC_008459	40258	G	C	C	C	G	ST520_p45	traL	TraL	synonymous_variant c.156G>C p.Leu52Leu
+NC_008459	40294	G	C	G	G	G	ST520_p45	traL	TraL	missense_variant c.192G>C p.Glu64Asp
+NC_008459	40309	C	T	T	T	C	ST520_p45	traL	TraL	synonymous_variant c.207C>T p.Asn69Asn
+NC_008459	40465	T	C	C	C	T	ST520_p45	traL	TraL	synonymous_variant c.363T>C p.Val121Val
+NC_008459	40543	T	G	G	G	T	ST520_p45	traL	TraL	synonymous_variant c.441T>G p.Leu147Leu
+NC_008459	40549	A	G	G	G	A	ST520_p45	traL	TraL	synonymous_variant c.447A>G p.Val149Val
+NC_008459	40591	G	C	C	C	G	ST520_p45	traL	TraL	synonymous_variant c.489G>C p.Gly163Gly
+NC_008459	40622	G	G	A	A	G	ST520_p45	traL	TraL	missense_variant c.520_522delGCTinsACC p.Ala174Thr
+NC_008459	40623	C	C	C	C	C	ST520_p45	traL	TraL	missense_variant c.520_522delGCTinsACC p.Ala174Thr
+NC_008459	40624	T	C	C	C	T	ST520_p45	traL	TraL	missense_variant c.520_522delGCTinsACC p.Ala174Thr
+NC_008459	40636	C	T	T	T	C	ST520_p45	traL	TraL	synonymous_variant c.534C>T p.Arg178Arg
+NC_008459	40642	G	C	C	C	G	ST520_p45	traL	TraL	synonymous_variant c.540G>C p.Ser180Ser
+NC_008459	40980	A	C	C	C	A	ST520_p46	traM	TraM	missense_variant c.153A>C p.Glu51Asp
+NC_008459	41111	G	C	C	C	G	ST520_p46	traM	TraM	missense_variant c.284G>C p.Gly95Ala
+NC_008459	41143	A	G	G	G	A	ST520_p46	traM	TraM	missense_variant c.316A>G p.Ile106Val
