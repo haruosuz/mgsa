@@ -30,8 +30,8 @@ tail -f log.txt
 
 ```
 
-## Installation
-https://github.com/tseemann/snippy/blob/master/README.md#installation
+## [Installation](https://github.com/tseemann/snippy/blob/master/README.md#installation)
+インストール
 
 ### Conda
 ```
@@ -52,6 +52,7 @@ I am grateful to Dr. Torsten Seemann for his advice on Snippy.
 ----------
 
 ## references
+参考文献
 
 https://www.slideshare.net/torstenseemann/snippy-balti-bioinformatics-brum-uk-tue-5-may-2015
 Snippy - Rapid bacterial variant calling - UK - tue 5 may 2015
@@ -66,7 +67,19 @@ Any application which can generate a whole genome multi-FASTA alignment can be u
 https://github.com/sanger-pathogens/gubbins/issues/214
 snippy+ gubbins · Issue #214 · sanger-pathogens/gubbins
 
+### recombination
+組み換え
+
+https://github.com/tseemann/snippy/issues/197
+How does snippy deal with recombination events? · Issue #197 · tseemann/snippy
+
+https://github.com/tseemann/snippy/issues/95
+Extracting loci of SNPs after removal of recombined regions · Issue #95 · tseemann/snippy
+Gubbins
+
 ### cited
+被引用
+
 https://www.ncbi.nlm.nih.gov/pubmed/29309930
 Clin Microbiol Infect. 2018 Apr;24(4):350-354. doi: 10.1016/j.cmi.2017.12.016. Epub 2018 Jan 5.
 Whole genome sequencing options for bacterial strain typing and epidemiologic analysis based on single nucleotide polymorphism versus gene-by-gene-based approaches.
