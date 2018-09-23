@@ -24,7 +24,7 @@ perl bp_genbank2gff3.pl ./data/gbk/*.gbk; mv *.gff ./data/gff/
 
 echo; echo '## Running Roary'
 #roary ./data/gff/*.gff -f ./analysis/ -p $(getconf _NPROCESSORS_ONLN) -i 95 -cd 100 -v -e
- roary ./data/gff/*.gff -f ./analysis/ -p $(getconf _NPROCESSORS_ONLN) -i 95 -cd 100 -v -e -n -z
+ roary ./data/gff/*.gff -f ./analysis/ -p $(getconf _NPROCESSORS_ONLN) -i 90 -cd 100 -v -e -n -z
 
 echo; echo '## Running FastTree for core genome phylogeny'
 FastTree -fastest -nt -gtr analysis/core_gene_alignment.aln > analysis/core_gene_alignment.newick
