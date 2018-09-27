@@ -27,6 +27,25 @@ Last Update: 2018-09
 
 ----------
 ## featuring
+
+https://twitter.com/sjackman/status/1045005404227362817
+Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
+1:41 PM - 26 Sep 2018
+
+https://twitter.com/torstenseemann/status/1013354894730772480
+Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
+5:33 AM - 1 Jul 2018
+
+https://twitter.com/i/moments/1000738412117147648
+All metagenomes searched at once?
+
+https://twitter.com/merenbey/status/1001592427369648128
+A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
+6:33 PM - 29 May 2018
+
+----------
+
+
 ## fastGEAR
 https://users.ics.aalto.fi/~pemartti/fastGEAR/
 
@@ -109,13 +128,13 @@ Corander J1, Waldmann P, Sillanpää MJ.
 https://www.ncbi.nlm.nih.gov/pubmed/25410596
 Genome Biol. 2014;15(11):524.
 The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
+Treangen TJ, Ondov BD, Koren S, Phillippy AM.
 
 http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
 数百から数千のバクテリアゲノムの同時比較を行うHarvest - macでインフォマティクス
 
 https://www.cbcb.umd.edu/software/harvest
 Harvest | CBCB
-
 
 ----------
 ## Updates
