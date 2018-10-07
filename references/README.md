@@ -1,19 +1,19 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-09
+Last Update: 2018-10
 
 ----------
 
 # References
 
 ## Table of Contents
+- [updates](#updates)
 - [featuring](#featuring)
 - [fastGEAR](#fastgear)
 - [BAPS](#baps)
 - [harvest](#harvest)
-- [Updates](#updates)
 - [pangenome](#pangenome)
 - [reordering-contigs](#reordering-contigs)
-- [Tools](#tools)
+- [tools](#tools)
 - [eggnog](#eggnog)
   - [BUSCO](#busco)
   - [Tax4Fun](#tax4fun)
@@ -24,6 +24,11 @@ Last Update: 2018-09
 - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 - [k-mer](#k-mer)
 - [Metagenomics](#metagenomics)
+
+
+
+http://www.microbesonline.org/
+phylogenetic profile
 
 ----------
 ## featuring
@@ -42,6 +47,149 @@ All metagenomes searched at once?
 https://twitter.com/merenbey/status/1001592427369648128
 A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
 6:33 PM - 29 May 2018
+
+----------
+## updates
+
+### 2018
+
+https://www.ncbi.nlm.nih.gov/pubmed/30148503
+Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
+A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
+Parks DH1, Chuvochina M1, Waite DW1, Rinke C1, Skarshewski A1, Chaumeil PA1, Hugenholtz P1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30165579
+Bioinformatics. 2018 Aug 25. doi: 10.1093/bioinformatics/bty744. [Epub ahead of print]
+Large-Scale Comparative Analysis of Microbial Pan-genomes using PanOCT.
+Inman JM1, Sutton GG1, Beck E1, Brinkac LM1, Clarke TH1, Fouts DE1.
+Author information
+1
+J. Craig Venter Institute, Rockville, MD USA.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29915113
+Appl Environ Microbiol. 2018 Aug 17;84(17). pii: e00993-18. doi: 10.1128/AEM.00993-18. Print 2018 Sep 1.
+Comparative Genomics of the Genus Lactobacillus Reveals Robust Phylogroups That Provide the Basis for Reclassification.
+Salvetti E1,2, Harris HMB1,2, Felis GE3, O'Toole PW2,4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30006589
+Nat Commun. 2018 Jul 13;9(1):2703. doi: 10.1038/s41467-018-05114-7.
+Population genomics of hypervirulent Klebsiella pneumoniae clonal-group 23 reveals early emergence and rapid global dissemination.
+Lam MMC1, Wyres KL1, Duchêne S1, Wick RR1, Judd LM1, Gan YH2, Hoh CH2, Archuleta S3, Molton JS3, Kalimuddin S4, Koh TH5, Passet V6, Brisse S6, Holt KE7,8.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29718191
+FEMS Microbiol Ecol. 2018 Jul 1;94(7). doi: 10.1093/femsec/fiy079.
+MetaCompare: a computational pipeline for prioritizing environmental resistome risk.
+Oh M1, Pruden A2, Chen C3, Heath LS1, Xia K3, Zhang L1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29309930
+Clin Microbiol Infect. 2018 Apr;24(4):350-354. doi: 10.1016/j.cmi.2017.12.016. Epub 2018 Jan 5.
+Whole genome sequencing options for bacterial strain typing and epidemiologic analysis based on single nucleotide polymorphism versus gene-by-gene-based approaches.
+Schürch AC1, Arredondo-Alonso S1, Willems RJL1, Goering RV2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29177474
+Mol Biol Evol. 2018 Feb 1;35(2):486-503. doi: 10.1093/molbev/msx302.
+Evaluating Fast Maximum Likelihood-Based Phylogenetic Programs Using Empirical Phylogenomic Data Sets.
+Zhou X1,2, Shen XX3, Hittinger CT4, Rokas A3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29309933
+Clin Microbiol Infect. 2018 Apr;24(4):342-349. doi: 10.1016/j.cmi.2017.12.015. Epub 2018 Jan 5.
+A primer on microbial bioinformatics for nonbioinformaticians.
+Carriço JA1, Rossi M2, Moran-Gilad J3, Van Domselaar G4, Ramirez M5.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27471065
+Microb Biotechnol. 2016 Sep;9(5):681-6. doi: 10.1111/1751-7915.12389. Epub 2016 Jul 29.
+Microbial bioinformatics 2020.
+Pallen MJ1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/24567124
+Nutr Diabetes. 2014 Feb 24;4:e109. doi: 10.1038/nutd.2014.6.
+Comparative genomics analysis of Lactobacillus species associated with weight gain or weight protection.
+Drissi F1, Merhej V1, Angelakis E1, El Kaoutari A1, Carrière F2, Henrissat B3, Raoult D1.
+
+
+### 2017
+
+https://www.biorxiv.org/content/early/2017/11/08/215988
+Panaconda: Application of pan-synteny graph models to genome content analysis 
+
+February 12, 2017
+http://genomeintelligence.org/?p=1157
+BINF 6203: Genome Comparison with Mauve – Genome Intelligence
+
+![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
+
+### 2016
+
+https://www.ncbi.nlm.nih.gov/pubmed/27742661
+Brief Bioinform. 2018 Jan 1;19(1):23-40. doi: 10.1093/bib/bbw096.
+The present and future of de novo whole-genome assembly.
+Sohn JI, Nam JW.
+
+----------
+
+## Holt Lab
+
+https://holtlab.net
+Holt Lab | microbial genomics
+
+https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
+Update to Comparative Bacterial Genomics tutorial | Holt Lab
+
+https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
+Genomics of atypical enteropathogenic E. coli | Holt Lab
+
+We tried making the core genome tree in a few different ways, including mapping reads to a reference genome vs using Roary to generate core gene alignments from assemblies; with and without removing recombinant regions identified using ClonalFrameML. 
+
+![](https://katholtlab.files.wordpress.com/2016/01/aepec_tree_lee_subtypes1.png)
+
+https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
+Tools for bacterial comparative genomics | Holt Lab
+
+https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
+Bacterial genomics tutorial | Holt Lab
+
+https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
+Bacterial genomics tutorial | BacPathGenomics
+
+https://www.ncbi.nlm.nih.gov/pubmed/23575213
+Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
+Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
+Edwards DJ1, Holt KE.
+
+----------
+### PGAP-X
+https://www.ncbi.nlm.nih.gov/pubmed/29363431
+BMC Genomics. 2018 Jan 19;19(Suppl 1):36. doi: 10.1186/s12864-017-4337-7.
+PGAP-X: extension on pan-genome analysis pipeline.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5780747/
+
+As a web server, panX provides an interactive interface to visualize various data, including pan-genome statistical charts, gene cluster table, alignment, comparative phylogenies, metadata table [28]. However, it does not provide information about genome structure, gene distribution on the genome, and genetic variation. 
+
+----------
+### panX
+
+http://pangenome.de
+
+https://www.ncbi.nlm.nih.gov/pubmed/29077859
+Nucleic Acids Res. 2018 Jan 9;46(1):e5. doi: 10.1093/nar/gkx977.
+panX: pan-genome analysis and exploration.
+Ding W1, Baumdicker F2, Neher RA1,3.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5758898/
+Tree building and ancestral reconstruction
+PanX extracts all variable positions from the nucleotide alignments of all single copy core genes (those gene clusters in which all strains are represented exactly once) to construct a core-genome SNP matrix.
+
+https://www.biorxiv.org/content/early/2018/08/12/286187
+Real-time analysis and visualization of pathogen sequence data | bioRxiv
+Here, we review recent developments in real-time analysis of pathogen sequence data with a particular focus on visualization and integration of sequence and phenotypic data.
+
+panX
+
+https://www.ncbi.nlm.nih.gov/pubmed/29204317
+PeerJ. 2017 Nov 30;5:e3948. doi: 10.7717/peerj.3948. eCollection 2017.
+BGDMdocker: a Docker workflow for data mining and visualization of bacterial pan-genomes and biosynthetic gene clusters.
+Cheng G1,2, Lu Q3, Ma L4, Zhang G4, Xu L5, Zhou Z1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/29204317/
+The analytical workflow consisted of three toolkits: Prokka v1.11 (Seemann, 2014), panX (Ding, Baumdicker & Neher, 2017), and antiSMASH3.0 (Weber et al., 2015), for prokaryotic genome annotation, pan-genome analysis and visualization, and analysis of biosynthetic gene clusters, respectively.
 
 ----------
 
@@ -136,70 +284,83 @@ http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
 https://www.cbcb.umd.edu/software/harvest
 Harvest | CBCB
 
-----------
-## Updates
 
 
-----------
-
-### 2018
-
-Published: 14 October 2016
-https://academic.oup.com/bib/article/19/1/23/2339783
-present and future of de novo whole-genome assembly | Briefings in Bioinformatics | Oxford Academic
-
-February 12, 2017
-http://genomeintelligence.org/?p=1157
-BINF 6203: Genome Comparison with Mauve – Genome Intelligence
-
-![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
 
 ----------
 
-### 2018/03/22
-https://www.biorxiv.org/content/early/2018/03/22/286187
-Real-time analysis and visualization of pathogen sequence data
+## tools
+- [phyloSkeleton: taxon selection, data retrieval and marker identification for phylogenomics. Bioinformatics. 2017 Jan 5.](https://www.ncbi.nlm.nih.gov/pubmed/28057682)
 
-Here, we review recent developments in real-time analysis of pathogen sequence data with a particular focus on visualization and integration of sequence and phenotypic data.
+https://www.ncbi.nlm.nih.gov/pubmed/26561344
+PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eCollection 2015.
+COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
+Bose T1, Haque MM1, Reddy C1, Mande SS1.
+The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
 
-panX
 
-### 2017/11/08
-https://www.biorxiv.org/content/early/2017/11/08/215988
-Panaconda: Application of pan-synteny graph models to genome content analysis 
 
-----------
-### BGDMdocker
+### 細菌ゲノム比較ツール
+- [Pan-genome analysis software tools | Comparative genomics - OMICtools](https://omictools.com/pangenomics-category)
+- [BPGA - a Bacterial Pan Genome Analysis Pipeline](http://www.iicb.res.in/bpga/index.html)
+  - 論文 [BPGA- an ultra-fast pan-genome analysis pipeline. Sci Rep. 2016 Apr 13;6:24373.](http://www.ncbi.nlm.nih.gov/pubmed/27071527)
+    - [Table 2. Comparison of 7 pan-genome analysis tools (BPGA, Roary, PanGP, PGAP, PGAT, Panseq, ITEP)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829868/table/t2/)
 
-https://www.ncbi.nlm.nih.gov/pubmed/29204317
-PeerJ. 2017 Nov 30;5:e3948. doi: 10.7717/peerj.3948. eCollection 2017.
-BGDMdocker: a Docker workflow for data mining and visualization of bacterial pan-genomes and biosynthetic gene clusters.
-Cheng G1,2, Lu Q3, Ma L4, Zhang G4, Xu L5, Zhou Z1.
-
-https://peerj.com/articles/3948/
-
-The analytical workflow consisted of three toolkits: Prokka v1.11 (Seemann, 2014), panX (Ding, Baumdicker & Neher, 2017), and antiSMASH3.0 (Weber et al., 2015), for prokaryotic genome annotation, pan-genome analysis and visualization, and analysis of biosynthetic gene clusters, respectively.
+- [ITEP: Integrated Toolkit for Exploration of Pan-genomes | The Price Lab](https://price.systemsbiology.org/research/itep/)
+- CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes | BMC Genomics | http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-65
 
 ----------
-### PGAP-X
-https://www.ncbi.nlm.nih.gov/pubmed/29363431
-BMC Genomics. 2018 Jan 19;19(Suppl 1):36. doi: 10.1186/s12864-017-4337-7.
-PGAP-X: extension on pan-genome analysis pipeline.
+### ASaiM
+https://www.biorxiv.org/content/early/2017/09/04/183970
+ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
 
-As a web server, panX provides an interactive interface to visualize various data, including pan-genome statistical charts, gene cluster table, alignment, comparative phylogenies, metadata table [28]. However, it does not provide information about genome structure, gene distribution on the genome, and genetic variation. 
+Published on Jul 9, 2015
+https://www.slideshare.net/bebatut/asaim-an-environment
+JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
+
+https://twitter.com/galaxyproject/status/794453380202725376
+Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
 
 ----------
-### panX
+### BUSCO
 
-http://pangenome.de
+https://www.ncbi.nlm.nih.gov/pubmed/29220515
+Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
+BUSCO applications from quality assessments to gene prediction and phylogenomics.
 
-https://www.ncbi.nlm.nih.gov/pubmed/29077859
-Nucleic Acids Res. 2018 Jan 9;46(1):e5. doi: 10.1093/nar/gkx977.
-panX: pan-genome analysis and exploration.
-Ding W1, Baumdicker F2, Neher RA1,3.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5758898/
-Tree building and ancestral reconstruction
-PanX extracts all variable positions from the nucleotide alignments of all single copy core genes (those gene clusters in which all strains are represented exactly once) to construct a core-genome SNP matrix.
+2017-07-19
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+----------
+### Tax4Fun
+
+2017/4/30
+http://ja.whotwi.com/windowmoon/tweets/user/tksmiki
+@tksmiki Tax4Funの論文でも同様の比較をやってますが、土壌がやたら良くて(謎)、ヒトも良いですが、哺乳類腸内細菌叢は少し悪化、高塩環境はちょいヤバゲという感じですね。やっぱり陸水海洋がないのですが。
+
+30 Apr 2017
+https://twitter.com/tksmiki/status/858803605435854848
+ヨーロッパの某湖一つでちょっと前にやったんですが、メタゲノムのうち、6-8割、5割しかTax4funとpapricaで予測できませんでした。かつ、時期の異なるサンプル間でメタゲノムは2-4割組成が違うのに、予測メタゲノム組成の違いは1割以下。今保留にしてます。
+
+http://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
+16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
+
+2017年02月26日(日)
+http://tweez.net/razumall/archive/7/
+同じ予測メタゲノム解析の論文でもPICRUStはNature biotechnologyでTax4FunはBioinformaticsだけど、Piphillinの掲載論文はPLoS One。目新しさがなくなったということなのか。インフォマの人たちIFにこだわらない印象はあるけど。
+
+2016-08-13
+http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
+バクテリアの群集組成(16S rRNA gene)から機能遺伝子の組成を予測したい（KEGGオーソログリストがほしい）。予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
+
+----------
+### [USEARCH](http://www.drive5.com/usearch/)
+- http://crusade1096.web.fc2.com/usearch.html
+- 2016-10-04 [USEARCHを用いたメタ16S解析パイプライン](https://rpubs.com/nishikosh/203465)
+- 2015-07-25 [USEARCHを使った16S rRNAアンプリコンシーケンス分析 - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/25/202628)
+- 2015-07-28 [USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/28/212629)
+- https://twitter.com/tyu_shi/status/28695306021 Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
 
 ----------
 ###  Tychus
@@ -210,6 +371,7 @@ Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogen
 Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
 
 https://github.com/Abdo-Lab/Tychus
+
 
 
 ----------
@@ -235,7 +397,7 @@ Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Merin
 
 
 ----------
-"Roary"
+### pangenome
 
 https://www.ncbi.nlm.nih.gov/pubmed/29635296
 Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
@@ -243,17 +405,6 @@ Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in b
 Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
 The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
-
-https://www.ncbi.nlm.nih.gov/pubmed/28705636
-J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
-A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
-Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
-https://www.sciencedirect.com/science/article/pii/S0168165617315225?via%3Dihub
-Review
-2.4. Roary
-
-----------
-### pangenome
 
 https://www.ncbi.nlm.nih.gov/pubmed/27769991
 Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
@@ -511,101 +662,6 @@ GSEA_(Gene_Set_Enrichment_Analysis)について -
 http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
 解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
 
-
-----------
-
-## Holt Lab
-
-https://holtlab.net
-Holt Lab | microbial genomics
-
-https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
-Update to Comparative Bacterial Genomics tutorial | Holt Lab
-
-https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
-Genomics of atypical enteropathogenic E. coli | Holt Lab
-
-https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
-Tools for bacterial comparative genomics | Holt Lab
-
-https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
-Bacterial genomics tutorial | Holt Lab
-
-https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
-Bacterial genomics tutorial | BacPathGenomics
-
-https://www.ncbi.nlm.nih.gov/pubmed/23575213
-Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
-Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
-Edwards DJ1, Holt KE.
-
-----------
-
-## Tools
-- [phyloSkeleton: taxon selection, data retrieval and marker identification for phylogenomics. Bioinformatics. 2017 Jan 5.](https://www.ncbi.nlm.nih.gov/pubmed/28057682)
-
-### 細菌ゲノム比較ツール
-- [Pan-genome analysis software tools | Comparative genomics - OMICtools](https://omictools.com/pangenomics-category)
-- [BPGA - a Bacterial Pan Genome Analysis Pipeline](http://www.iicb.res.in/bpga/index.html)
-  - 論文 [BPGA- an ultra-fast pan-genome analysis pipeline. Sci Rep. 2016 Apr 13;6:24373.](http://www.ncbi.nlm.nih.gov/pubmed/27071527)
-    - [Table 2. Comparison of 7 pan-genome analysis tools (BPGA, Roary, PanGP, PGAP, PGAT, Panseq, ITEP)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829868/table/t2/)
-
-- [ITEP: Integrated Toolkit for Exploration of Pan-genomes | The Price Lab](https://price.systemsbiology.org/research/itep/)
-- CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes | BMC Genomics | http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-65
-
-----------
-### ASaiM
-https://www.biorxiv.org/content/early/2017/09/04/183970
-ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
-
-Published on Jul 9, 2015
-https://www.slideshare.net/bebatut/asaim-an-environment
-JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
-
-https://twitter.com/galaxyproject/status/794453380202725376
-Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
-
-----------
-### BUSCO
-
-https://www.ncbi.nlm.nih.gov/pubmed/29220515
-Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
-BUSCO applications from quality assessments to gene prediction and phylogenomics.
-
-2017-07-19
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-----------
-### Tax4Fun
-
-2017/4/30
-http://ja.whotwi.com/windowmoon/tweets/user/tksmiki
-@tksmiki Tax4Funの論文でも同様の比較をやってますが、土壌がやたら良くて(謎)、ヒトも良いですが、哺乳類腸内細菌叢は少し悪化、高塩環境はちょいヤバゲという感じですね。やっぱり陸水海洋がないのですが。
-
-30 Apr 2017
-https://twitter.com/tksmiki/status/858803605435854848
-ヨーロッパの某湖一つでちょっと前にやったんですが、メタゲノムのうち、6-8割、5割しかTax4funとpapricaで予測できませんでした。かつ、時期の異なるサンプル間でメタゲノムは2-4割組成が違うのに、予測メタゲノム組成の違いは1割以下。今保留にしてます。
-
-http://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
-16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
-
-2017年02月26日(日)
-http://tweez.net/razumall/archive/7/
-同じ予測メタゲノム解析の論文でもPICRUStはNature biotechnologyでTax4FunはBioinformaticsだけど、Piphillinの掲載論文はPLoS One。目新しさがなくなったということなのか。インフォマの人たちIFにこだわらない印象はあるけど。
-
-2016-08-13
-http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
-バクテリアの群集組成(16S rRNA gene)から機能遺伝子の組成を予測したい（KEGGオーソログリストがほしい）。予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
-
-----------
-### [USEARCH](http://www.drive5.com/usearch/)
-- http://crusade1096.web.fc2.com/usearch.html
-- 2016-10-04 [USEARCHを用いたメタ16S解析パイプライン](https://rpubs.com/nishikosh/203465)
-- 2015-07-25 [USEARCHを使った16S rRNAアンプリコンシーケンス分析 - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/25/202628)
-- 2015-07-28 [USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog](http://yokazaki.hatenablog.com/entry/2015/07/28/212629)
-- https://twitter.com/tyu_shi/status/28695306021 Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
-
 ----------
 
 https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
@@ -803,8 +859,51 @@ MOCAT: a metagenomics assembly and gene prediction toolkit.
 
 ----------
 
-### Research papers on comparative bacterial genomics
-細菌ゲノム比較に関する論文
+### comparative genomics
+ゲノム比較
+
+https://www.ncbi.nlm.nih.gov/pubmed/28705636
+J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
+A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
+Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
+https://www.sciencedirect.com/science/article/pii/S0168165617315225?via%3Dihub
+Review
+, for instance IMG/M (Chen et al., 2017), MicrobesOnline (Dehal et al., 2010), MBGD (Uchiyama et al., 2015), Roary (Page et al., 2015), EzBioCloud (Yoon et al., 2017) or OrtholugeDB (Whiteside et al., 2013).
+
+
+Gardnerella vaginalis：細菌性膣症（bacterial vaginosis: BV）に関与する細菌の一つ
+https://www.ncbi.nlm.nih.gov/pubmed/29632552
+Evol Appl. 2017 Nov 16;11(3):312-324. doi: 10.1111/eva.12555. eCollection 2018 Mar.
+Focusing the diversity of Gardnerella vaginalis through the lens of ecotypes.
+Cornejo OE1, Hickey RJ2,3,4, Suzuki H5, Forney LJ2,3.
+
+Our functional enrichment analysis suggests that some lineages of G. vaginalis may possess enhanced pathogenic capabilities, including genes involved in mucus degradation like sialidases, while others may be commensal strains, lacking many of these pathogenic capabilities. 
+
+Streptococcus属
+https://www.ncbi.nlm.nih.gov/pubmed/24625962
+Genome Biol Evol. 2014 Apr;6(4):741-53. doi: 10.1093/gbe/evu048.
+Phylogenomics and the dynamic genome evolution of the genus Streptococcus.
+Richards VP1, Palmer SR, Pavinski Bitar PD, Qin X, Weinstock GM, Highlander SK, Town CD, Burne RA, Stanhope MJ.
+
+Multiple gene ontology terms were significantly enriched for each group, and mapping terms onto the phylogeny showed that those corresponding to genes born on branches leading to the major groups represented approximately one-fifth of those enriched. 
+
+Lactobacillus属：膣から分離
+http://www.ncbi.nlm.nih.gov/pubmed/24488312
+J Bacteriol. 2014 Apr;196(7):1458-70.
+Comparative Functional Genomics of Lactobacillus spp. Reveals Possible Mechanisms for Specialization of Vaginal Lactobacilli to Their Environment.
+Mendes-Soares H, Suzuki H, Hickey RJ, Forney LJ.
+
+Lactobacillus属：体重増加に関連
+https://www.ncbi.nlm.nih.gov/pubmed/24567124
+Nutr Diabetes. 2014 Feb 24;4:e109. doi: 10.1038/nutd.2014.6.
+Comparative genomics analysis of Lactobacillus species associated with weight gain or weight protection.
+Drissi F1, Merhej V1, Angelakis E1, El Kaoutari A1, Carrière F2, Henrissat B3, Raoult D1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3940830/
+The functional distribution into gene families showed that the genes encoding the proteins involved in transcription (median±intraquartile range, 178±71 vs 118±9, P=0.28) and carbohydrate transport and metabolism (median±intraquartile range, 253±54 vs 158±17, P=0.16) were primarily identified in weight protection-associated Lactobacillus (Figure 3). In contrast, weight gain-associated Lactobacillus primarily contained genes involved in replication, recombination and repair (median±intraquartile range, 195±86 vs 106±13, P=0.12). In addition, a small number of genes involved in lipid transport and metabolism was observed in both groups (∼53 genes per genome; Figure 3).
+
+
+
+
 
 #### Mycobacterium
 2017年9月15日
@@ -849,7 +948,13 @@ https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_pdf/-char/ja
 - ブドウ球菌 [Comparative genomic analysis of the genus Staphylococcus including Staphylococcus aureus and its newly described sister species Staphylococcus simiae. BMC Genomics. 2012 Jan](http://www.ncbi.nlm.nih.gov/pubmed/22272658)
 - レンサ球菌 [Comparative genomic analysis of the Streptococcus dysgalactiae species group: gene content, molecular adaptation, and promoter evolution. Genome Biol Evol. 2011](http://www.ncbi.nlm.nih.gov/pubmed/21282711)
 
-- 2013 Feb [Comparative bacterial genomics: defining the minimal core genome.](https://www.ncbi.nlm.nih.gov/pubmed/23011009)
+
+https://www.ncbi.nlm.nih.gov/pubmed/23011009
+Antonie Van Leeuwenhoek. 2013 Feb;103(2):385-98. doi: 10.1007/s10482-012-9819-7. Epub 2012 Sep 26.
+Comparative bacterial genomics: defining the minimal core genome.
+Huang CH1, Hsiang T, Trevors JT.
+
+
 
 ### Illumina
 - [Illumina Sequencing by Synthesis (Now in 3D) - YouTube](https://www.youtube.com/watch?v=fCd6B5HRaZ8)
