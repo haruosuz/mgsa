@@ -53,6 +53,13 @@ A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, gene
 
 ### 2018
 
+https://twitter.com/torstenseemann/status/1051354968517619712
+Torsten Seemann on Twitter: ""A Unix one-liner to call bacterial variants" using @htslib - my first blog post in a long time! #bioinformatics https://t.co/GkLO4wspGd"
+2:12 AM - 14 Oct 2018
+
+https://thegenomefactory.blogspot.com/2018/10/a-unix-one-liner-to-call-bacterial.html
+The Genome Factory: A Unix one-liner to call bacterial variants
+
 https://www.ncbi.nlm.nih.gov/pubmed/30148503
 Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
 A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
@@ -164,6 +171,12 @@ PGAP-X: extension on pan-genome analysis pipeline.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5780747/
 
 As a web server, panX provides an interactive interface to visualize various data, including pan-genome statistical charts, gene cluster table, alignment, comparative phylogenies, metadata table [28]. However, it does not provide information about genome structure, gene distribution on the genome, and genetic variation. 
+
+https://pgapx.zhaopage.com/
+PGAP-X: Extension on pan-genome analysis pipeline
+
+http://pangenome.de/
+panX
 
 ----------
 ### panX
