@@ -410,93 +410,106 @@ Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Merin
 
 
 ----------
-### pangenome
 
-https://www.ncbi.nlm.nih.gov/pubmed/29635296
-Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
-Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria.
-Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
-The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
+https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
+Hiromi Nishida
+ゲノム比較解析 - microbioinformatics
 
-https://www.ncbi.nlm.nih.gov/pubmed/27769991
-Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
-Computational pan-genomics: status, promises and challenges.
-Computational Pan-Genomics Consortium.
+http://crusade1096.web.fc2.com/katei.html
+半田佳宏
+NGSのためのバイオインフォマティクス Bioinformatics for NGS
 
-https://twitter.com/NatureMicrobiol/status/940566982742740992
-Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
-8:00 AM - 12 Dec 2017
+http://crusade1096.web.fc2.com/blast.html
+BLASTBasic Local Alignment Search Tool
 
-https://www.ncbi.nlm.nih.gov/pubmed/28321969
-Environ Microbiol. 2017 Jul;19(7):2588-2603.
-The pangenome of the genus Clostridium.
-Udaondo Z1,2, Duque E1,2, Ramos JL1,2.
+ [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
 
-https://www.ncbi.nlm.nih.gov/pubmed/28350002
-Nat Microbiol. 2017 Mar 28;2:17040. doi: 10.1038/nmicrobiol.2017.40.
-Why prokaryotes have pangenomes.
-McInerney JO1, McNally A2, O'Connell MJ3.
+----------
+## [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
+門田　幸二のホームページ
+#### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
+- [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
+ - [日本乳酸菌学会誌：次世代シーケンサーデータの解析手法](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#about_book_JSLAB)
+  - [第1回イントロダクション](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_1_kadota.pdf)
+  - [第2回GUI環境からコマンドライン環境へ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_2_kadota.pdf)
+  - [第3回Linux環境構築からNGSデータ取得まで](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_3_kadota.pdf)
+  - [第4回クオリティコントロールとプログラムのインストール](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_4_kadota.pdf)
+  - [第5回アセンブル、マッピング、そしてQC](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf)
+  - [第6回ゲノムアセンブリ](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_6_kadota.pdf)
+  - [第7回ロングリードアセンブリ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#book_JSLAB_7)
 
-https://www.ncbi.nlm.nih.gov/pubmed/29183286
-BMC Microbiol. 2017 Nov 28;17(1):222. doi: 10.1186/s12866-017-1132-1.
-First gene-ontology enrichment analysis based on bacterial coregenome variants: insights into adaptations of Salmonella serovars to mammalian- and avian-hosts.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706153/
-a pangenomic approach, 
+- 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
 
-https://www.ncbi.nlm.nih.gov/pubmed/27855160
-PLoS Genet. 2016 Nov 17;12(11):e1006401. doi: 10.1371/journal.pgen.1006401. eCollection 2016 Nov.
-Transcription Factors Encoded on Core and Accessory Chromosomes of Fusarium oxysporum Induce Expression of Effector Genes.
+----------
+## kazumaxneo
+http://kazumaxneo.hatenablog.com
+macでインフォマティクス
 
-Several DNA binding sites are enriched on accessory chromosomes, and expression of FTF1, its core homolog FTF2 and SGE1 from a constitutive promoter can induce expression of effector genes. The DNA binding sites of only these three transcription factors are enriched among genes up-regulated during infection. 
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039349/
-Published online 2016 Sep 28. doi:  10.3389/fmicb.2016.01531
-Analysis of the Core Genome and Pan-Genome of Autotrophic Acetogenic Bacteria
-
-To decipher the 474 core genes of the 14 acetogenic bacteria, functionally grouped networks of enriched categories were generated for the biological interpretation of core genes using ClueGo version 2.2.4 (Saito et al., 2012), which is a widely used Cytoscape version 3.3.0 (Shannon et al., 2003) plugin.
-
-As a result, 95 GO terms were significantly enriched and categorized into 10 groups according to their kappa scores (Figure ​Figure3A3A). 
-
-Based on enrichment p-values, 27 GO terms and 8 KEGG pathways were enriched (Supplementary Table S3) and functionally categorized into 12 groups (Supplementary Figure S2).
-
-https://www.ncbi.nlm.nih.gov/pubmed/26032364
-J Microbiol Biotechnol. 2015 Oct;25(10):1599-605. doi: 10.4014/jmb.1504.04008.
-Comparative Genomics Reveals the Core and Accessory Genomes of Streptomyces Species.
-Kim JN1, Kim Y2, Jeong Y3, Roe JH2, Kim BG1, Cho BK3.
-
-Functional enrichment analysis showed that genes involved in transcription were most abundant in the Streptomyces pan-genome. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/27006628
-Curr Genomics. 2015 Aug;16(4):245-52. doi: 10.2174/1389202916666150423002311.
-Inside the Pan-genome - Methods and Software Overview.
-Guimarães LC1, Florczak-Wyspianska J2, de Jesus LB3, Viana MV3, Silva A2, Ramos RT2, Soares Sde C4, Soares Sde C4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26442149
-New Microbes New Infect. 2015 Jun 26;7:72-85. doi: 10.1016/j.nmni.2015.06.005. eCollection 2015 Sep.
-The bacterial pangenome as a new tool for analysing pathogenic bacteria.
-Rouli L1, Merhej V1, Fournier PE1, Raoult D1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25483351
-Curr Opin Microbiol. 2015 Feb;23:148-54. doi: 10.1016/j.mib.2014.11.016. Epub 2014 Dec 5.
-Ten years of pan-genome analyses.
-Vernikos G1, Medini D2, Riley DR3, Tettelin H4.
-
-http://kazumaxneo.hatenablog.com/entry/2017/12/09/014407
-バクテリアのPan genome解析ツール FRIPAN - macでインフォマティクス
-
-http://omics-club.blogspot.jp/2014/07/20140707.html
-Omics Club（オミックス・クラブ）: Quasispeciesとは
-Quasispeciesの拡張概念：Core GenomeとPan Genome
-
-http://gene-nex.com/service/pan-genome.html
-パンゲノム - 対象研究分野 - Gene Nex — 次世代シーケンス受託解析サービス「ジーンネックス」
+http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
+GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
 
 
 
 ----------
 
-### reordering contigs
+
+
+## qc
+- [クオリティコントロール | FASTQ | RNA-seq](http://bi.biopapyrus.net/rnaseq/qc/)
+ - [FastQC | FASTQのクオリティチェック](http://bi.biopapyrus.net/rnaseq/qc/fastqc.html)
+ - [Trimmomatic | アダプター配列除去](http://bi.biopapyrus.net/rnaseq/qc/trimmomatic.html)
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/21/111007
+ショートリードのアダプタートリミングツール Trim Galore - macでインフォマティクス
+
+## assembly
+
+http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
+
+March 23 2018
+http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
+Bioinformatics Zen
+Automating the selection of genome assembly software
+
+#### unicycler
+https://github.com/rrwick/Unicycler
+https://github.com/rrwick/Unicycler#limitations-of-short-reads
+
+https://www.ncbi.nlm.nih.gov/pubmed/28594827
+PLoS Comput Biol. 2017 Jun 8;13(6):e1005595. doi: 10.1371/journal.pcbi.1005595. eCollection 2017 Jun.
+Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads.
+Wick RR1, Judd LM1, Gorrie CL1, Holt KE1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5481147/
+Limitations
+
+http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
+ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
+
+https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html
+
+https://toolshed.g2.bx.psu.edu/repository/display_tool?repository_id=009c2bee22b4ded4&render_repository_actions_for=tool_shed&tool_config=%2Fsrv%2Ftoolshed%2Fmain%2Fvar%2Fdata%2Frepos%2F003%2Frepo_3386%2Funicycler.xml&changeset_revision=e9c1cdb9f9dc
+
+### de Bruijn Graph
+  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
+  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
+  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
+  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
+  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
+- [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
+  - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
+  - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
+  - 2013-05-20 [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/blog/2013/05/20/spades-and-masurca-assemblers-performed-best-in-gage-b-evaluation/) SPAdes and MaSuRCA Assemblers Performed Best in GAGE-B Evaluation
+- SpadesとVelvetの比較 
+  - 2013-08-30 [The Genome Factory: How Spades differs from Velvet](http://thegenomefactory.blogspot.com/2013/08/how-spades-differs-from-velvet.html)
+  - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
+- 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
+- [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
+
+
+## reordering contigs
 
 近縁細菌のコンプリート(reference)ゲノムにマッチするように、ドラフト(draft)ゲノムのコンティグ群を並べ替える
 
@@ -535,38 +548,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/19515959
 Bioinformatics. 2009 Aug 15;25(16):2071-3. doi: 10.1093/bioinformatics/btp356. Epub 2009 Jun 10.
 Reordering contigs of draft genomes using the Mauve aligner.
 Rissman AI1, Mau B, Biehl BS, Darling AE, Glasner JD, Perna NT.
-
-----------
-
-### qc
-- [クオリティコントロール | FASTQ | RNA-seq](http://bi.biopapyrus.net/rnaseq/qc/)
- - [FastQC | FASTQのクオリティチェック](http://bi.biopapyrus.net/rnaseq/qc/fastqc.html)
- - [Trimmomatic | アダプター配列除去](http://bi.biopapyrus.net/rnaseq/qc/trimmomatic.html)
-
-### assembly
-
-March 23 2018
-http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
-Bioinformatics Zen
-Automating the selection of genome assembly software
-
-http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
-
-- de Bruijn Graph
-  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
-  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
-  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
-  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
-  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
-- [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
-  - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
-  - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
-  - 2013-05-20 [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/blog/2013/05/20/spades-and-masurca-assemblers-performed-best-in-gage-b-evaluation/) SPAdes and MaSuRCA Assemblers Performed Best in GAGE-B Evaluation
-- SpadesとVelvetの比較 
-  - 2013-08-30 [The Genome Factory: How Spades differs from Velvet](http://thegenomefactory.blogspot.com/2013/08/how-spades-differs-from-velvet.html)
-  - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
-- 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
-- [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
 
 ## annotation
 アノテーション
@@ -650,6 +631,97 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
 
 
 ----------
+### pangenome
+
+https://www.ncbi.nlm.nih.gov/pubmed/29942087
+Sci Rep. 2018 Jun 25;8(1):9670. doi: 10.1038/s41598-018-27800-8.
+Pan4Draft: A Computational Tool to Improve the Accuracy of Pan-Genomic Analysis Using Draft Genomes.
+Veras A1, Araujo F1, Pinheiro K1, Guimarães L1, Azevedo V2, Soares S3, da Costa da Silva A1, Ramos R4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29635296
+Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
+Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria.
+Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
+The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
+
+https://www.ncbi.nlm.nih.gov/pubmed/27769991
+Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
+Computational pan-genomics: status, promises and challenges.
+Computational Pan-Genomics Consortium.
+
+https://twitter.com/NatureMicrobiol/status/940566982742740992
+Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
+8:00 AM - 12 Dec 2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/28321969
+Environ Microbiol. 2017 Jul;19(7):2588-2603.
+The pangenome of the genus Clostridium.
+Udaondo Z1,2, Duque E1,2, Ramos JL1,2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28350002
+Nat Microbiol. 2017 Mar 28;2:17040. doi: 10.1038/nmicrobiol.2017.40.
+Why prokaryotes have pangenomes.
+McInerney JO1, McNally A2, O'Connell MJ3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29183286
+BMC Microbiol. 2017 Nov 28;17(1):222. doi: 10.1186/s12866-017-1132-1.
+First gene-ontology enrichment analysis based on bacterial coregenome variants: insights into adaptations of Salmonella serovars to mammalian- and avian-hosts.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706153/
+a pangenomic approach, 
+
+https://www.ncbi.nlm.nih.gov/pubmed/27855160
+PLoS Genet. 2016 Nov 17;12(11):e1006401. doi: 10.1371/journal.pgen.1006401. eCollection 2016 Nov.
+Transcription Factors Encoded on Core and Accessory Chromosomes of Fusarium oxysporum Induce Expression of Effector Genes.
+
+Several DNA binding sites are enriched on accessory chromosomes, and expression of FTF1, its core homolog FTF2 and SGE1 from a constitutive promoter can induce expression of effector genes. The DNA binding sites of only these three transcription factors are enriched among genes up-regulated during infection. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039349/
+Published online 2016 Sep 28. doi:  10.3389/fmicb.2016.01531
+Analysis of the Core Genome and Pan-Genome of Autotrophic Acetogenic Bacteria
+
+To decipher the 474 core genes of the 14 acetogenic bacteria, functionally grouped networks of enriched categories were generated for the biological interpretation of core genes using ClueGo version 2.2.4 (Saito et al., 2012), which is a widely used Cytoscape version 3.3.0 (Shannon et al., 2003) plugin.
+
+As a result, 95 GO terms were significantly enriched and categorized into 10 groups according to their kappa scores (Figure ​Figure3A3A). 
+
+Based on enrichment p-values, 27 GO terms and 8 KEGG pathways were enriched (Supplementary Table S3) and functionally categorized into 12 groups (Supplementary Figure S2).
+
+https://www.ncbi.nlm.nih.gov/pubmed/26032364
+J Microbiol Biotechnol. 2015 Oct;25(10):1599-605. doi: 10.4014/jmb.1504.04008.
+Comparative Genomics Reveals the Core and Accessory Genomes of Streptomyces Species.
+Kim JN1, Kim Y2, Jeong Y3, Roe JH2, Kim BG1, Cho BK3.
+
+Functional enrichment analysis showed that genes involved in transcription were most abundant in the Streptomyces pan-genome. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/27006628
+Curr Genomics. 2015 Aug;16(4):245-52. doi: 10.2174/1389202916666150423002311.
+Inside the Pan-genome - Methods and Software Overview.
+Guimarães LC1, Florczak-Wyspianska J2, de Jesus LB3, Viana MV3, Silva A2, Ramos RT2, Soares Sde C4, Soares Sde C4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26442149
+New Microbes New Infect. 2015 Jun 26;7:72-85. doi: 10.1016/j.nmni.2015.06.005. eCollection 2015 Sep.
+The bacterial pangenome as a new tool for analysing pathogenic bacteria.
+Rouli L1, Merhej V1, Fournier PE1, Raoult D1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25483351
+Curr Opin Microbiol. 2015 Feb;23:148-54. doi: 10.1016/j.mib.2014.11.016. Epub 2014 Dec 5.
+Ten years of pan-genome analyses.
+Vernikos G1, Medini D2, Riley DR3, Tettelin H4.
+
+http://kazumaxneo.hatenablog.com/entry/2017/12/09/014407
+バクテリアのPan genome解析ツール FRIPAN - macでインフォマティクス
+
+http://omics-club.blogspot.jp/2014/07/20140707.html
+Omics Club（オミックス・クラブ）: Quasispeciesとは
+Quasispeciesの拡張概念：Core GenomeとPan Genome
+
+http://gene-nex.com/service/pan-genome.html
+パンゲノム - 対象研究分野 - Gene Nex — 次世代シーケンス受託解析サービス「ジーンネックス」
+
+
+
+
+----------
 
 ## GSEA
 
@@ -675,50 +747,6 @@ GSEA_(Gene_Set_Enrichment_Analysis)について -
 http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
 解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
 
-----------
-
-https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
-Hiromi Nishida
-ゲノム比較解析 - microbioinformatics
-
-http://crusade1096.web.fc2.com/katei.html
-半田佳宏
-NGSのためのバイオインフォマティクス Bioinformatics for NGS
-
-http://crusade1096.web.fc2.com/blast.html
-BLASTBasic Local Alignment Search Tool
-
- [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
-
-----------
-## [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
-門田　幸二のホームページ
-#### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
-- [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
- - [日本乳酸菌学会誌：次世代シーケンサーデータの解析手法](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#about_book_JSLAB)
-  - [第1回イントロダクション](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_1_kadota.pdf)
-  - [第2回GUI環境からコマンドライン環境へ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_2_kadota.pdf)
-  - [第3回Linux環境構築からNGSデータ取得まで](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_3_kadota.pdf)
-  - [第4回クオリティコントロールとプログラムのインストール](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_4_kadota.pdf)
-  - [第5回アセンブル、マッピング、そしてQC](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf)
-  - [第6回ゲノムアセンブリ](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_6_kadota.pdf)
-  - [第7回ロングリードアセンブリ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#book_JSLAB_7)
-
-- 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
-
-----------
-## kazumaxneo
-http://kazumaxneo.hatenablog.com
-macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
-GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
-ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
 
 ----------
 ## [K-mer](https://en.wikipedia.org/wiki/K-mer)
