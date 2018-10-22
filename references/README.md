@@ -20,12 +20,19 @@ Last Update: 2018-10
   - [USEARCH](#usearch)
 - [GSEA](#gsea)
 - [Holt Lab](#holt-Lab)
-- [kadota](#kadota) 門田　幸二のホームページ
-- [kazumaxneo](#kazumaxneo) macでインフォマティクス
+- [people](#people)
+  - [kadota](#kadota) 門田　幸二のホームページ
+  - [kazumaxneo](#kazumaxneo) macでインフォマティクス
+- [qc](#qc)
+- [assembly](#assembly)
+  - [unicycler](#unicycler)
+  - [de Bruijn Graph](#de-bruijn-graph)
+- [reordering contigs](#reordering-contigs)
+- [annotation](#annotation)
+  - [dfast](#dfast)
+  - [prokka](#prokka)
 - [k-mer](#k-mer)
-- [Metagenomics](#metagenomics)
-
-
+- [metagenomics](#metagenomics)
 
 http://www.microbesonline.org/
 phylogenetic profile
@@ -126,11 +133,6 @@ BINF 6203: Genome Comparison with Mauve – Genome Intelligence
 ![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
 
 ### 2016
-
-https://www.ncbi.nlm.nih.gov/pubmed/27742661
-Brief Bioinform. 2018 Jan 1;19(1):23-40. doi: 10.1093/bib/bbw096.
-The present and future of de novo whole-genome assembly.
-Sohn JI, Nam JW.
 
 ----------
 
@@ -410,7 +412,7 @@ Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Merin
 
 
 ----------
-
+## people
 https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
 Hiromi Nishida
 ゲノム比較解析 - microbioinformatics
@@ -425,7 +427,7 @@ BLASTBasic Local Alignment Search Tool
  [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
 
 ----------
-## [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
+### [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
 門田　幸二のホームページ
 #### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
 - [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
@@ -441,7 +443,7 @@ BLASTBasic Local Alignment Search Tool
 - 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
 
 ----------
-## kazumaxneo
+### kazumaxneo
 http://kazumaxneo.hatenablog.com
 macでインフォマティクス
 
@@ -473,6 +475,11 @@ March 23 2018
 http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
 Bioinformatics Zen
 Automating the selection of genome assembly software
+
+https://www.ncbi.nlm.nih.gov/pubmed/27742661
+Brief Bioinform. 2018 Jan 1;19(1):23-40. doi: 10.1093/bib/bbw096.
+The present and future of de novo whole-genome assembly.
+Sohn JI, Nam JW.
 
 #### unicycler
 https://github.com/rrwick/Unicycler
@@ -507,7 +514,6 @@ https://toolshed.g2.bx.psu.edu/repository/display_tool?repository_id=009c2bee22b
   - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
 - 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
 - [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
-
 
 ## reordering contigs
 
@@ -583,7 +589,6 @@ Richardson EJ1, Watson M.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
 Inconsistent annotation
 
-----------
 ### [DFAST](https://github.com/nigyta/dfast_core)
 DFAST - DDBJ Fast Annotation and Submission Tool
 
@@ -802,7 +807,7 @@ http://kplogo.wi.mit.edu/manual.html
 kpLogo: k-mer probability logo
 
 ----------
-### Metagenomics
+## metagenomics
 メタゲノム
 
 https://www.biorxiv.org/content/early/2018/05/18/326363
@@ -1074,9 +1079,7 @@ http://pediatricsurgery.hatenadiary.jp/entry/%3Fp%3D213
 
 ----------
 
-
-### Unclassified
-
+## Unclassified
 
 http://www.genomesize.com/prokaryotes/
 Prokaryote Genome Size Database
@@ -1134,12 +1137,5 @@ https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
 ----------
-
-
-
-
-
-
-
 
 
