@@ -476,12 +476,14 @@ http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-so
 Bioinformatics Zen
 Automating the selection of genome assembly software
 
+The assemblers compared in this analysis were ABySS [7], A5-miseq [8], GATB Minia [9], LightAssembler [10], MEGAHIT [11], Ray [13], Shovill, SPAdes [14], StriDe [15], BBTools Tadpole, Unicycler [16], and Velvet [17]. 
+
 https://www.ncbi.nlm.nih.gov/pubmed/27742661
 Brief Bioinform. 2018 Jan 1;19(1):23-40. doi: 10.1093/bib/bbw096.
 The present and future of de novo whole-genome assembly.
 Sohn JI, Nam JW.
 
-#### unicycler
+### unicycler
 https://github.com/rrwick/Unicycler
 https://github.com/rrwick/Unicycler#limitations-of-short-reads
 
