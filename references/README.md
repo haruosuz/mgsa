@@ -40,6 +40,10 @@ phylogenetic profile
 ----------
 ## featuring
 
+https://github.com/kblin/ncbi-genome-download
+kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
+
+
 https://twitter.com/sjackman/status/1045005404227362817
 Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
 1:41 PM - 26 Sep 2018
@@ -58,7 +62,39 @@ A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, gene
 ----------
 ## updates
 
+### 2019
+
+https://github.com/CAMI-challenge/CAMITAX
+CAMITAX: Taxon labels for microbial genomes
+https://www.biorxiv.org/content/10.1101/532473v1
+CAMITAX: Taxon labels for microbial genomes | bioRxiv
+
+https://twitter.com/joshdneufeld/status/1092486258419326976
+Josh Neufeld on Twitter: ""DNA sequences are just long series of letters. So why is it so hard to search through them?" @sarahzhang reports here https://t.co/QzSlfkbi6l, profiling BIGSI search https://t.co/IgKHcYpgGe, with comments from @jennifergardy. Primary literature here: https://t.co/vIHoE151eM"
+1:13 PM - 4 Feb 2019
+https://www.nature.com/articles/s41587-018-0010-1
+Ultrafast search of all deposited bacterial and viral genomic data | Nature Biotechnology
+Phelim Bradley, Henk C. den Bakker, Eduardo P. C. Rocha, Gil McVean & Zamin Iqbal 
+
+
+https://twitter.com/jongsanders/status/1090341613954568192
+Jon Sanders on Twitter: "Really stoked that the Calour paper is out! This is a really great tool for heatmap-driven exploration of microbiome data. It works *great* with ASVs from DADA2 or Deblur. https://t.co/JXsUtCd6KG I'm going to walk through just a bit of my own data from the paper! 1/"
+3:11 PM - 29 Jan 2019
+https://msystems.asm.org/content/4/1/e00269-18
+Calour: an Interactive Microbe-Centric Analysis Tool 
+
+
+
 ### 2018
+
+https://twitter.com/kazumachack/status/1074793968712376320
+上坂一馬 on Twitter: "SPAdesを使って、大きなk-merを使った時にアセンブリがどう変化するのか簡単にまとめました。GAGE-Bのコレラ菌のデータセットを使っています。 SPAdesとUnicyclerでlarge k-merを使う part2 (… https://t.co/DKQnSyZlgx"
+5:30 PM - 17 Dec 2018
+
+http://kazumaxneo.hatenablog.com/entry/2018/12/11/164359
+SPAdesとUnicyclerでlarge k-merを使えるようにビルドし直す part1 - macでインフォマティクス
+
+
 
 https://twitter.com/torstenseemann/status/1051354968517619712
 Torsten Seemann on Twitter: ""A Unix one-liner to call bacterial variants" using @htslib - my first blog post in a long time! #bioinformatics https://t.co/GkLO4wspGd"
@@ -314,7 +350,6 @@ Bose T1, Haque MM1, Reddy C1, Mande SS1.
 The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
 
 
-
 ### 細菌ゲノム比較ツール
 - [Pan-genome analysis software tools | Comparative genomics - OMICtools](https://omictools.com/pangenomics-category)
 - [BPGA - a Bacterial Pan Genome Analysis Pipeline](http://www.iicb.res.in/bpga/index.html)
@@ -470,6 +505,20 @@ http://kazumaxneo.hatenablog.com/entry/2017/06/21/111007
 ## assembly
 
 http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
+
+2018/01/19
+https://www.biostars.org/p/294053/
+Criteria for filtering contigs after spades assembly
+scripts that remove contigs having less than 500 pb and 2 fold coverage.
+
+https://microsizedmind.wordpress.com/2015/03/05/removing-small-low-coverage-contigs-from-a-spades-assembly/
+Removing small & low coverage contigs from a Spades assembly | The Microsized Mind
+
+https://github.com/rrwick/Unicycler
+  --depth_filter DEPTH_FILTER    Filter out contigs lower than this fraction of the chromosomal
+                                 depth, if doing so does not result in graph dead ends (default:
+                                 0.25)
+
 
 March 23 2018
 http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
@@ -638,6 +687,63 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
 
 
 ----------
+
+https://github.com/haruosuz/mgsa/blob/master/references/README.md#pangenome
+
+pangenome
+
+September 6, 2018
+https://phys.org/news/2018-09-pan-genome-antarctic-archaea.html
+Defining a pan-genome for Antarctic archaea
+
+SEPTEMBER 5, 2018
+https://jgi.doe.gov/defining-a-pan-genome-for-antarctic-archaea/
+Defining a Pan-Genome for Antarctic Archaea - DOE Joint Genome Institute
+
+https://twitter.com/msmjetten/status/884694940055416833
+Mike Jetten on Twitter: "#FEMS2017 @eugene_koonin open vs closed #pangenome in #bacteria & #archaea with core, shell, & cloud orfs… "
+4:44 AM - 11 Jul 2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/27864514
+Proc Natl Acad Sci U S A. 2016 Dec 6;113(49):E7937-E7946. Epub 2016 Nov 18.
+Proteomics and comparative genomics of Nitrososphaera viennensis reveal the core genome and adaptations of archaeal ammonia oxidizers.
+Kerou M1, Offre P1, Valledor L1, Abby SS1, Melcher M1, Nagler M1, Weckwerth W2, Schleper C3.
+
+https://twitter.com/bioinfobact/status/440791373537898496
+bioinfoproka on Twitter: "Ribosomal proteins : rigorous minimal & universal Core Genome #procaryotes #phylogeny http://t.co/TmgIxGmVoc #archaea http://t.co/LItv4B3pLG"
+5:10 AM - 4 Mar 2014
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/27006628
+Curr Genomics. 2015 Aug;16(4):245-52. doi: 10.2174/1389202916666150423002311.
+Inside the Pan-genome - Methods and Software Overview.
+Guimarães LC1, Florczak-Wyspianska J2, de Jesus LB3, Viana MV3, Silva A2, Ramos RT2, Soares Sde C4, Soares Sde C4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765519/
+Table 1
+Pan-genome studies.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765519/table/T1/
+
+https://www.ncbi.nlm.nih.gov/pubmed/26442149
+New Microbes New Infect. 2015 Jun 26;7:72-85. doi: 10.1016/j.nmni.2015.06.005. eCollection 2015 Sep.
+The bacterial pangenome as a new tool for analysing pathogenic bacteria.
+Rouli L1, Merhej V1, Fournier PE1, Raoult D1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4552756/
+Table 3
+Ratio core/pangenome of several bacterial species according to their life style
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4552756/table/tbl3/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25483351
+Curr Opin Microbiol. 2015 Feb;23:148-54. doi: 10.1016/j.mib.2014.11.016. Epub 2014 Dec 5.
+Ten years of pan-genome analyses.
+Vernikos G1, Medini D2, Riley DR3, Tettelin H4.
+https://www.sciencedirect.com/science/article/pii/S1369527414001830?via%3Dihub
+Table 1. Examples of the application of pan-genome approaches at different levels of phylogenetic resolution
+
+----------
+
+
+
+----------
 ### pangenome
 
 https://www.ncbi.nlm.nih.gov/pubmed/29942087
@@ -788,7 +894,7 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
 農学生命情報科学 特論I 第3回
 
 2015-01-01
-http://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
+https://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
 k-mer countingに関するメモ - Qiita
 
 Jul 7th, 2013
@@ -909,6 +1015,11 @@ MOCAT: a metagenomics assembly and gene prediction toolkit.
 
 ### comparative genomics
 ゲノム比較
+
+http://kazumaxneo.hatenablog.com/archive/category/ゲノム比較
+
+https://sites.google.com/site/scriptofbioinformatics/pei-lie-jie-xi-guan-xi/bi-jiaogenomu-iroiro
+比較ゲノム(いろいろ） - script of bioinformatics
 
 https://www.ncbi.nlm.nih.gov/pubmed/28705636
 J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
