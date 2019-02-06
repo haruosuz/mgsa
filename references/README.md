@@ -83,6 +83,10 @@ Jon Sanders on Twitter: "Really stoked that the Calour paper is out! This is a r
 https://msystems.asm.org/content/4/1/e00269-18
 Calour: an Interactive Microbe-Centric Analysis Tool 
 
+http://kazumaxneo.hatenablog.com/entry/2019/01/23/073000
+taxonomy ID、学名、系統情報など相互変換できるツール taxonkit - macでインフォマティクス
+https://www.biorxiv.org/content/10.1101/513523v1
+TaxonKit: a cross-platform and efficient NCBI taxonomy toolkit | bioRxiv
 
 
 ### 2018
