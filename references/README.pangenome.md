@@ -42,6 +42,14 @@ Mike Jetten on Twitter: "#FEMS2017 @eugene_koonin open vs closed #pangenome in #
 ![](https://pbs.twimg.com/media/DEcRUf_XsAAAfYP.jpg)
 ![](https://pbs.twimg.com/media/DEcRWEzXkAEwoRe.jpg)
 
+https://www.ncbi.nlm.nih.gov/pubmed/23241446
+Biol Direct. 2012 Dec 14;7:46. doi: 10.1186/1745-6150-7-46.
+Updated clusters of orthologous genes for Archaea: a complex ancestor of the Archaea and the byways of horizontal gene transfer.
+Wolf YI1, Makarova KS, Yutin N, Koonin EV.
+The updated version of the arCOG database incorporates 91% of the pangenome of 120 archaea (251,032 protein-coding genes altogether) into 10,335 arCOGs.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3534625/
+Indeed, analysis of the commonality distribution [37,38] for the new arCOG collection gives estimates for the size of the “core” (highly conserved) and the “shell” (moderately conserved) components of the archaeal pangenome that are almost unchanged since 2007 (current estimates of ~220 and ~2,200 vs. ~230 and ~2,200, respectively, for the 2007 arCOG set).
+
 https://www.ncbi.nlm.nih.gov/pubmed/27864514
 Proc Natl Acad Sci U S A. 2016 Dec 6;113(49):E7937-E7946. Epub 2016 Nov 18.
 Proteomics and comparative genomics of Nitrososphaera viennensis reveal the core genome and adaptations of archaeal ammonia oxidizers.
