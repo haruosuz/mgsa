@@ -121,6 +121,8 @@ Table 1
 Pan-genome studies.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765519/table/T1/
 
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765519/figure/F1/)
+
 https://www.ncbi.nlm.nih.gov/pubmed/26442149
 New Microbes New Infect. 2015 Jun 26;7:72-85. doi: 10.1016/j.nmni.2015.06.005. eCollection 2015 Sep.
 The bacterial pangenome as a new tool for analysing pathogenic bacteria.
@@ -157,6 +159,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/19168257
 Trends Genet. 2009 Mar;25(3):107-10. doi: 10.1016/j.tig.2008.12.004. Epub 2009 Jan 23.
 Estimating the size of the bacterial pan-genome.
 Lapierre P1, Gogarten JP.
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1369527414001830-gr1.jpg)
 
 https://www.ncbi.nlm.nih.gov/pubmed/24460813
 BMC Genomics. 2014 Jan 24;15:65. doi: 10.1186/1471-2164-15-65.
@@ -229,7 +233,6 @@ https://www.biorxiv.org/content/early/2018/08/12/286187
 Real-time analysis and visualization of pathogen sequence data | bioRxiv
 Here, we review recent developments in real-time analysis of pathogen sequence data with a particular focus on visualization and integration of sequence and phenotypic data.
 
-panX
 
 https://www.ncbi.nlm.nih.gov/pubmed/29204317
 PeerJ. 2017 Nov 30;5:e3948. doi: 10.7717/peerj.3948. eCollection 2017.
@@ -261,7 +264,9 @@ https://www.ncbi.nlm.nih.gov/pubmed/24387194
 BMC Genomics. 2014 Jan 3;15:8. doi: 10.1186/1471-2164-15-8.
 ITEP: an integrated toolkit for exploration of microbial pan-genomes.
 Benedict MN, Henriksen JR, Metcalf WW, Whitaker RJ, Price ND1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890548/
 
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890548/figure/F1/](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=3890548_1471-2164-15-8-1.jpg)
 
 ----------
 
