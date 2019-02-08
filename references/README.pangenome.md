@@ -2,8 +2,9 @@
 # pangenome
 
 ## Table of Contents
-- [updates](#updates)
+- [definition](#definition)
 - [featuring](#featuring)
+- [updates](#updates)
 - [japanese](#japanese) 日本語
 - [tools](#tools)
   - [PGAP-X](#tools)
@@ -24,7 +25,6 @@ Pangenome - Metagenomics
 Pangenome tools
 
 ## featuring
-
 
 September 6, 2018
 https://phys.org/news/2018-09-pan-genome-antarctic-archaea.html
@@ -144,13 +144,24 @@ Ten years of pan-genome analyses.
 Vernikos G1, Medini D2, Riley DR3, Tettelin H4.
 https://www.sciencedirect.com/science/article/pii/S1369527414001830?via%3Dihub
 Table 1. Examples of the application of pan-genome approaches at different levels of phylogenetic resolution
+```
+Level	Organism	Approacha	# genomes	Core size (# genes)	Year (reference)
+
+Class	Bacilli	IMGM	172	143	2012 [58•]
+
+Phylum	Chlamydiae	OG	19	560	2011 [59]
+
+Super kingdom	Eubacteria	Gene freq.	573	250	2009 [4••]
+```
+https://www.ncbi.nlm.nih.gov/pubmed/19168257
+Trends Genet. 2009 Mar;25(3):107-10. doi: 10.1016/j.tig.2008.12.004. Epub 2009 Jan 23.
+Estimating the size of the bacterial pan-genome.
+Lapierre P1, Gogarten JP.
 
 https://www.ncbi.nlm.nih.gov/pubmed/24460813
 BMC Genomics. 2014 Jan 24;15:65. doi: 10.1186/1471-2164-15-65.
 CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes.
 Rokicki J, Knox D, Dowell RD1, Copley SD.
-
-
 
 ----------
 ## japanese
@@ -170,7 +181,6 @@ http://kazumaxneo.hatenablog.com/entry/2017/12/09/014407
 
 http://kazumaxneo.hatenablog.com/entry/2018/09/08/194159
 パンゲノム解析ツール PGAP - macでインフォマティクス
-
 
 http://omics-club.blogspot.jp/2014/07/20140707.html
 Omics Club（オミックス・クラブ）: Quasispeciesとは
