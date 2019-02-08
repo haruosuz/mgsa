@@ -39,6 +39,9 @@ https://twitter.com/msmjetten/status/884694940055416833
 Mike Jetten on Twitter: "#FEMS2017 @eugene_koonin open vs closed #pangenome in #bacteria & #archaea with core, shell, & cloud orfs… "
 4:44 AM - 11 Jul 2017
 
+![](https://pbs.twimg.com/media/DEcRUf_XsAAAfYP.jpg)
+![](https://pbs.twimg.com/media/DEcRWEzXkAEwoRe.jpg)
+
 https://www.ncbi.nlm.nih.gov/pubmed/27864514
 Proc Natl Acad Sci U S A. 2016 Dec 6;113(49):E7937-E7946. Epub 2016 Nov 18.
 Proteomics and comparative genomics of Nitrososphaera viennensis reveal the core genome and adaptations of archaeal ammonia oxidizers.
