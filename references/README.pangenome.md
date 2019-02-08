@@ -5,6 +5,7 @@
 - [definition](#definition)
 - [featuring](#featuring)
 - [updates](#updates)
+- [organism](#organism) 生物
 - [japanese](#japanese) 日本語
 - [tools](#tools)
   - [PGAP-X](#tools)
@@ -52,6 +53,8 @@ bioinfoproka on Twitter: "Ribosomal proteins : rigorous minimal & universal Core
 
 ### 2019
 
+### 2018
+
 https://www.ncbi.nlm.nih.gov/pubmed/29942087
 Sci Rep. 2018 Jun 25;8(1):9670. doi: 10.1038/s41598-018-27800-8.
 Pan4Draft: A Computational Tool to Improve the Accuracy of Pan-Genomic Analysis Using Draft Genomes.
@@ -68,6 +71,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/27769991
 Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
 Computational pan-genomics: status, promises and challenges.
 Computational Pan-Genomics Consortium.
+
+### 2017
 
 https://twitter.com/NatureMicrobiol/status/940566982742740992
 Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
@@ -89,6 +94,8 @@ First gene-ontology enrichment analysis based on bacterial coregenome variants: 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706153/
 a pangenomic approach, 
 
+### 2016
+
 https://www.ncbi.nlm.nih.gov/pubmed/27855160
 PLoS Genet. 2016 Nov 17;12(11):e1006401. doi: 10.1371/journal.pgen.1006401. eCollection 2016 Nov.
 Transcription Factors Encoded on Core and Accessory Chromosomes of Fusarium oxysporum Induce Expression of Effector Genes.
@@ -104,6 +111,8 @@ To decipher the 474 core genes of the 14 acetogenic bacteria, functionally group
 As a result, 95 GO terms were significantly enriched and categorized into 10 groups according to their kappa scores (Figure ​Figure3A3A). 
 
 Based on enrichment p-values, 27 GO terms and 8 KEGG pathways were enriched (Supplementary Table S3) and functionally categorized into 12 groups (Supplementary Figure S2).
+
+### 2015
 
 https://www.ncbi.nlm.nih.gov/pubmed/26032364
 J Microbiol Biotechnol. 2015 Oct;25(10):1599-605. doi: 10.4014/jmb.1504.04008.
@@ -162,10 +171,38 @@ Lapierre P1, Gogarten JP.
 
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S1369527414001830-gr1.jpg)
 
+### 2014
+
 https://www.ncbi.nlm.nih.gov/pubmed/24460813
 BMC Genomics. 2014 Jan 24;15:65. doi: 10.1186/1471-2164-15-65.
 CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes.
 Rokicki J, Knox D, Dowell RD1, Copley SD.
+
+----------
+## organism
+
+### Rhodococcus equi
+
+https://www.ncbi.nlm.nih.gov/pubmed/27638249
+Genome Biol Evol. 2016 Oct 23;8(10):3140-3148.
+Pangenome and Phylogenomic Analysis of the Pathogenic Actinobacterium Rhodococcus equi.
+Anastasi E1, MacArthur I1, Scortti M1,2, Alvarez S1, Giguère S3, Vázquez-Boland JA4,2,5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5174736/
+
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5174736/figure/evw222-F2/?report=objectonly](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=5174736_evw222f2p.jpg)
+
+
+### Pseudomonas aeruginosa
+
+https://www.ncbi.nlm.nih.gov/pubmed/25961859
+PLoS One. 2015 May 11;10(5):e0126468. doi: 10.1371/journal.pone.0126468. eCollection 2015.
+What It Takes to Be a Pseudomonas aeruginosa? The Core Genome of the Opportunistic Pathogen Updated.
+Valot B1, Guyeux C2, Rolland JY3, Mazouzi K4, Bertrand X5, Hocquet D5.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25168460
+BMC Genomics. 2014 Aug 29;15:737. doi: 10.1186/1471-2164-15-737.
+Characterization of the core and accessory genomes of Pseudomonas aeruginosa using bioinformatic tools Spine and AGEnt.
+Ozer EA1, Allen JP, Hauser AR.
 
 ----------
 ## japanese
