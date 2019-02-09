@@ -5,7 +5,10 @@
 - [definition](#definition)
 - [featuring](#featuring)
 - [updates](#updates)
-- [organism](#organism) 生物
+- [organism](#organism)
+  - [archaea](#archaea)
+  - Rhodococcus equi
+  - Pseudomonas aeruginosa
 - [japanese](#japanese) 日本語
 - [tools](#tools)
   - [PGAP-X](#tools)
@@ -26,38 +29,6 @@ Pangenome - Metagenomics
 Pangenome tools
 
 ## featuring
-
-September 6, 2018
-https://phys.org/news/2018-09-pan-genome-antarctic-archaea.html
-Defining a pan-genome for Antarctic archaea
-
-SEPTEMBER 5, 2018
-https://jgi.doe.gov/defining-a-pan-genome-for-antarctic-archaea/
-Defining a Pan-Genome for Antarctic Archaea - DOE Joint Genome Institute
-
-https://twitter.com/msmjetten/status/884694940055416833
-Mike Jetten on Twitter: "#FEMS2017 @eugene_koonin open vs closed #pangenome in #bacteria & #archaea with core, shell, & cloud orfs… "
-4:44 AM - 11 Jul 2017
-
-![](https://pbs.twimg.com/media/DEcRUf_XsAAAfYP.jpg)
-![](https://pbs.twimg.com/media/DEcRWEzXkAEwoRe.jpg)
-
-https://www.ncbi.nlm.nih.gov/pubmed/23241446
-Biol Direct. 2012 Dec 14;7:46. doi: 10.1186/1745-6150-7-46.
-Updated clusters of orthologous genes for Archaea: a complex ancestor of the Archaea and the byways of horizontal gene transfer.
-Wolf YI1, Makarova KS, Yutin N, Koonin EV.
-The updated version of the arCOG database incorporates 91% of the pangenome of 120 archaea (251,032 protein-coding genes altogether) into 10,335 arCOGs.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3534625/
-Indeed, analysis of the commonality distribution [37,38] for the new arCOG collection gives estimates for the size of the “core” (highly conserved) and the “shell” (moderately conserved) components of the archaeal pangenome that are almost unchanged since 2007 (current estimates of ~220 and ~2,200 vs. ~230 and ~2,200, respectively, for the 2007 arCOG set).
-
-https://www.ncbi.nlm.nih.gov/pubmed/27864514
-Proc Natl Acad Sci U S A. 2016 Dec 6;113(49):E7937-E7946. Epub 2016 Nov 18.
-Proteomics and comparative genomics of Nitrososphaera viennensis reveal the core genome and adaptations of archaeal ammonia oxidizers.
-Kerou M1, Offre P1, Valledor L1, Abby SS1, Melcher M1, Nagler M1, Weckwerth W2, Schleper C3.
-
-https://twitter.com/bioinfobact/status/440791373537898496
-bioinfoproka on Twitter: "Ribosomal proteins : rigorous minimal & universal Core Genome #procaryotes #phylogeny http://t.co/TmgIxGmVoc #archaea http://t.co/LItv4B3pLG"
-5:10 AM - 4 Mar 2014
 
 ----------
 ## updates
@@ -187,6 +158,40 @@ Rokicki J, Knox D, Dowell RD1, Copley SD.
 
 ----------
 ## organism
+
+### archaea
+
+September 6, 2018
+https://phys.org/news/2018-09-pan-genome-antarctic-archaea.html
+Defining a pan-genome for Antarctic archaea
+
+SEPTEMBER 5, 2018
+https://jgi.doe.gov/defining-a-pan-genome-for-antarctic-archaea/
+Defining a Pan-Genome for Antarctic Archaea - DOE Joint Genome Institute
+
+https://twitter.com/msmjetten/status/884694940055416833
+Mike Jetten on Twitter: "#FEMS2017 @eugene_koonin open vs closed #pangenome in #bacteria & #archaea with core, shell, & cloud orfs… "
+4:44 AM - 11 Jul 2017
+
+![](https://pbs.twimg.com/media/DEcRUf_XsAAAfYP.jpg)
+![](https://pbs.twimg.com/media/DEcRWEzXkAEwoRe.jpg)
+
+https://www.ncbi.nlm.nih.gov/pubmed/23241446
+Biol Direct. 2012 Dec 14;7:46. doi: 10.1186/1745-6150-7-46.
+Updated clusters of orthologous genes for Archaea: a complex ancestor of the Archaea and the byways of horizontal gene transfer.
+Wolf YI1, Makarova KS, Yutin N, Koonin EV.
+The updated version of the arCOG database incorporates 91% of the pangenome of 120 archaea (251,032 protein-coding genes altogether) into 10,335 arCOGs.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3534625/
+Indeed, analysis of the commonality distribution [37,38] for the new arCOG collection gives estimates for the size of the “core” (highly conserved) and the “shell” (moderately conserved) components of the archaeal pangenome that are almost unchanged since 2007 (current estimates of ~220 and ~2,200 vs. ~230 and ~2,200, respectively, for the 2007 arCOG set).
+
+https://www.ncbi.nlm.nih.gov/pubmed/27864514
+Proc Natl Acad Sci U S A. 2016 Dec 6;113(49):E7937-E7946. Epub 2016 Nov 18.
+Proteomics and comparative genomics of Nitrososphaera viennensis reveal the core genome and adaptations of archaeal ammonia oxidizers.
+Kerou M1, Offre P1, Valledor L1, Abby SS1, Melcher M1, Nagler M1, Weckwerth W2, Schleper C3.
+
+https://twitter.com/bioinfobact/status/440791373537898496
+bioinfoproka on Twitter: "Ribosomal proteins : rigorous minimal & universal Core Genome #procaryotes #phylogeny http://t.co/TmgIxGmVoc #archaea http://t.co/LItv4B3pLG"
+5:10 AM - 4 Mar 2014
 
 ### Rhodococcus equi
 
