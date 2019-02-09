@@ -168,11 +168,7 @@ https://www.sciencedirect.com/science/article/pii/S1369527414001830?via%3Dihub
 Table 1. Examples of the application of pan-genome approaches at different levels of phylogenetic resolution
 ```
 Level	Organism	Approacha	# genomes	Core size (# genes)	Year (reference)
-
-Class	Bacilli	IMGM	172	143	2012 [58•]
-
-Phylum	Chlamydiae	OG	19	560	2011 [59]
-
+中略
 Super kingdom	Eubacteria	Gene freq.	573	250	2009 [4••]
 ```
 https://www.ncbi.nlm.nih.gov/pubmed/19168257
