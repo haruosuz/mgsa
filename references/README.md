@@ -32,12 +32,37 @@ Last Update: 2018-10
   - [prokka](#prokka)
 - [k-mer](#k-mer)
 - [metagenomics](#metagenomics)
+- [resistance](#resistance) 耐性
 
-http://www.microbesonline.org/
-phylogenetic profile
+----------
+## resistance
+耐性
+
+抗生物質耐性・病原性遺伝子予測
+https://github.com/tseemann/abricate
+ABRicate
+Mass screening of contigs for antimicrobial resistance or virulence genes. It comes bundled with multiple databases: Resfinder, CARD, ARG-ANNOT, NCBI BARRGD, NCBI, EcOH, PlasmidFinder, Ecoli_VF and VFDB.
+
+抗生物質耐性遺伝子および金属耐性遺伝子
+https://www.ncbi.nlm.nih.gov/pubmed/26441947
+Front Microbiol. 2015 Sep 24;6:1025. doi: 10.3389/fmicb.2015.01025. eCollection 2015.
+Exploring antibiotic resistance genes and metal resistance genes in plasmid metagenomes from wastewater treatment plants.
+Li AD1, Li LG1, Zhang T1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585309/
+MRGs annotation was conducted similarly by searching against MRDB (Cai et al., 2013; Li et al., 2014; Pal et al., 2014). 
+
+抗菌性殺生物剤・金属耐性遺伝子データベース
+http://bacmet.biomedicine.gu.se
+https://www.ncbi.nlm.nih.gov/pubmed/24304895
+Nucleic Acids Res. 2014 Jan;42(Database issue):D737-43. doi: 10.1093/nar/gkt1252. Epub 2013 Dec 3.
+BacMet: antibacterial biocide and metal resistance genes database.
+Pal C1, Bengtsson-Palme J, Rensing C, Kristiansson E, Larsson DG.
 
 ----------
 ## featuring
+
+http://www.microbesonline.org/
+phylogenetic profile
 
 https://github.com/kblin/ncbi-genome-download
 kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
@@ -58,7 +83,6 @@ https://twitter.com/merenbey/status/1001592427369648128
 A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
 6:33 PM - 29 May 2018
 
-
 ----------
 
 ## tools
@@ -69,8 +93,6 @@ PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eColle
 COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
 Bose T1, Haque MM1, Reddy C1, Mande SS1.
 The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
-
-
 
 ----------
 ## updates
