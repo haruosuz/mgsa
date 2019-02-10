@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-10
+Last Update: 2019-02-10
 
 ----------
 
@@ -37,6 +37,46 @@ Last Update: 2018-10
 ----------
 ## resistance
 耐性
+
+a cool map of AMRs in current cities and some public usage data:
+https://resistancemap.cddep.org/
+
+Also here is another great map from John Brownstein’s lab:
+https://resistanceopen.org/
+
+https://omictools.com/drug-resistance-category
+Drug resistance prediction bioinformatics tools | Drug design analysis - OMICtools
+
+https://www.ncbi.nlm.nih.gov/pubmed/30381421
+J Clin Microbiol. 2018 Oct 31. pii: JCM.01405-18. doi: 10.1128/JCM.01405-18. [Epub ahead of print]
+Genome-based prediction of bacterial antibiotic resistance.
+Su M1,2,3, Satola SW1,3,4, Read TD1,3,4.
+
+https://www.pediatricsurgery.site/entry/2018/11/05/142545
+Rで細菌に有効な抗菌薬を探せるようにSanfordの表からデータを整形する - Note of Pediatric Surgery
+
+https://www.ncbi.nlm.nih.gov/pubmed/30333483
+Nat Commun. 2018 Oct 17;9(1):4306. doi: 10.1038/s41467-018-06634-y.
+Machine learning and structural analysis of Mycobacterium tuberculosis pan-genome identifies genetic signatures of antibiotic resistance.
+Kavvas ES1, Catoiu E1, Mih N1,2, Yurkovich JT1,2, Seif Y1, Dillon N3,4, Heckmann D1, Anand A1, Yang L1, Nizet V3,4, Monk JM5, Palsson BO6,7,8.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30332990
+BMC Bioinformatics. 2018 Oct 17;19(1):383. doi: 10.1186/s12859-018-2403-z.
+Predicting bacterial resistance from whole-genome sequences using k-mers and stability selection.
+Mahé P1, Tournoud M2.
+
+https://f1000research.com/articles/6-1971/v1
+NastyBugs: A simple method for extracting antimicrobial resistance information from metagenomes - F1000Research
+
+http://kazumaxneo.hatenablog.com/entry/2018/07/19/142001
+メタゲノムから抗生物質耐性情報を検出する NastyBugs - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/07/03/094105
+点変異も考慮して抗生物質耐性遺伝子を検出する PointFinder - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/07/03/113439
+抗生物質耐性遺伝子や病原性遺伝子を素早く検索できる ABRicate - macでインフォマティクス
+
 
 抗生物質耐性・病原性遺伝子予測
 https://github.com/tseemann/abricate
