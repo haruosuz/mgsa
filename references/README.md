@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-02-10
+Last Update: 2019-02
 
 ----------
 
@@ -18,10 +18,6 @@ Last Update: 2019-02-10
   - [Tax4Fun](#tax4fun)
   - [USEARCH](#usearch)
 - [GSEA](#gsea)
-- [Holt Lab](#holt-Lab)
-- [people](#people)
-  - [kadota](#kadota) 門田　幸二のホームページ
-  - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 - [qc](#qc)
 - [assembly](#assembly)
   - [unicycler](#unicycler)
@@ -33,6 +29,205 @@ Last Update: 2019-02-10
 - [k-mer](#k-mer)
 - [metagenomics](#metagenomics)
 - [resistance](#resistance) 耐性
+- [people](#people)
+- [Holt Lab](#holt-Lab)
+  - [kadota](#kadota) 門田　幸二のホームページ
+  - [kazumaxneo](#kazumaxneo) macでインフォマティクス
+
+
+----------
+## database
+
+### LEA
+
+https://twitter.com/level3defless/status/1008994650957332481
+Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
+4:47 AM - 19 Jun 2018
+
+https://twitter.com/NIG_idenken/status/1008941881051398144
+国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
+1:17 AM - 19 Jun 2018
+
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
+環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
+
+### MetaMetaDB
+http://mmdb.aori.u-tokyo.ac.jp
+MetaMetaDB: To the Habitabilities of Microbes
+
+https://www.ncbi.nlm.nih.gov/pubmed/24475242
+PLoS One. 2014 Jan 27;9(1):e87126. doi: 10.1371/journal.pone.0087126. eCollection 2014.
+MetaMetaDB: a database and analytic system for investigating microbial habitability.
+Yang CC1, Iwasaki W1.
+
+27 Jan 2014
+https://twitter.com/iwasakiw/status/427965935094222849
+Wataru IWASAKI on Twitter: "MetaMetaDBは、様々な環境のメタゲノム（"メタ・メタゲノム"）をまとめ、微生物がどのような環境に生息できるかの指標（"Microbial Habitability"）を簡便に得られるようにしたデータベースです。URLは http://t.co/zfQ8d84v6k"
+
+https://www.jst.go.jp/kisoken/crest/research/nenpou/h25/JST_1111065_11103779_2013_YR.pdf
+遺伝子解析基盤技術グループは、これまでに世界中の様々な環境か ら得られたメタゲノムデータを収集した網羅的メタゲノムデータベース(MetaMetaDB) を開発し、海洋環境中に新たなグループの微生物が見つかった場合にその由来となった環 境を遺伝子情報から迅速に解析し、遺伝子情報に基づいた生態系評価を行うための基盤を 作った。
+
+### MicrobeDB
+http://microbedb.jp/MDB/
+
+http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
+MicrobeDB.jpポータル開発 - TogoWiki
+
+### PATRIC
+https://patricbrc.org
+
+PATRICBRC on Twitter: "New study by Junqueira examined microbiomes of blowflies and houseflies using the PATRIC metadata on habitat and potential disease associati… https://t.co/hoJoiSB6sK"
+https://www.nature.com/articles/s41598-017-16353-x
+The cross-validated set of 33 species identified in blowfly and housefly microbiomes were categorized according to the habitat from which they have been isolated and assigned to the potential disease association record of the Pathosystems Resource Integration Center (PATRIC)35. 
+
+https://patricbrc.org/view/Taxonomy/2#view_tab=genomes
+Bacteria::Taxonomy Genomes
+
+http://rd-alliance.github.io/metadata-directory/standards/genome-metadata.html
+Genome Metadata
+
+http://enews.patricbrc.org/faqs/2-genome-data-and-tools/genome-metadata-faqs/
+
+### NCBI
+https://www.ncbi.nlm.nih.gov/genome/167
+Escherichia coli
+
+	Escherichia coli str. K-12 substr. MG1655
+	Submitter: Univ. Wisconsin
+	Morphology: Gram:Negative, Shape:Bacilli, Motility:Yes
+	Environment: OxygenReq:Facultative, OptimumTemperature:37, TemperatureRange:Mesophilic, Habitat:HostAssociated
+
+### GOLD
+Genomes OnLine Database
+https://gold.jgi.doe.gov
+
+https://www.ncbi.nlm.nih.gov/pubmed/27794040
+Nucleic Acids Res. 2017 Jan 4;45(D1):D446-D456. doi: 10.1093/nar/gkw992. Epub 2016 Oct 27.
+Genomes OnLine Database (GOLD) v.6: data updates and feature enhancements.
+
+### 
+https://gatesopenresearch.org/articles/2-3/v1
+Gates Open Res 2018, 2:3 (doi: 10.12688/gatesopenres.12772.1)
+The Microbe Directory: An annotated, searchable inventory of microbes’ characteristics - Gates Open Research
+https://twitter.com/search?q=Microbe%20Directory
+metadata
+
+A Barberán 著 - ‎2017 
+http://msphere.asm.org/content/2/4/e00237-17
+Hiding in Plain Sight: Mining Bacterial Species Records for Phenotypic Trait Information | mSphere
+https://figshare.com/articles/International_Journal_of_Systematic_and_Evolutionary_Microbiology_IJSEM_phenotypic_database/4272392
+
+https://github.com/haruosuz/mgsa/tree/master/traitar
+https://www.ncbi.nlm.nih.gov/pubmed/28066816
+mSystems. 2016 Dec 27;1(6). pii: e00101-16. doi: 10.1128/mSystems.00101-16. eCollection 2016 Nov-Dec.
+From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer.
+Weimann A1, Mooren K2, Frank J3, Pope PB3, Bremges A4, McHardy AC1.
+Traitar provides phenotype classifiers to predict 67 traits related to the use of various substrates as carbon and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis, and enzymatic activities.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26013493
+J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
+Databases for Microbiologists.
+Zhulin IB1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25098325
+PLoS One. 2014 Aug 6;9(8):e103548. doi: 10.1371/journal.pone.0103548. eCollection 2014.
+MediaDB: a database of microbial growth conditions in defined media.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123892/
+The Growth_Data table links the tables describing an organism, medium, and literature source, and adds information about temperature, pH, growth rate, product secretion rates, and nutrient uptake rates (whenever reported in the literature source). MediaDB currently contains 765 growth conditions.
+https://mediadb.systemsbiology.net
+Defined Media Database
+https://mediadb.systemsbiology.net/defined_media/growthdata/
+Media database: GrowthData
+https://mediadb.systemsbiology.net/defined_media/growthdata/page/4
+    Escherichia coli BL21 on M9 0.24% pyruvate
+https://mediadb.systemsbiology.net/defined_media/growthdata/387/
+ Growth Rate: 	0.20776 (1/h)
+
+https://www.ncbi.nlm.nih.gov/pubmed/24152717
+ISME J. 2014 Jan;8(1):1-3. doi: 10.1038/ismej.2013.176. Epub 2013 Oct 24.
+MIxS-BE: a MIxS extension defining a minimum information standard for sequence data from the built environment.
+
+
+2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
+https://www.ncbi.nlm.nih.gov/pubmed/24214959
+Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
+BacDive--the Bacterial Diversity Metadatabase.
+Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
+
+https://bacdive.dsmz.de/
+BacDive | The Bacterial Diversity Metadatabase
+
+https://bacdive.dsmz.de/strain/17849
+https://bacdive.dsmz.de/strain/131145
+
+数十の大腸菌のゲノム配列データからゲノムスケールの代謝モデルを構築し、様々な培養条件での増殖を予測
+https://www.ncbi.nlm.nih.gov/pubmed/24277855
+Proc Natl Acad Sci U S A. 2013 Dec 10;110(50):20338-43. doi: 10.1073/pnas.1307797110. Epub 2013 Nov 25.
+Genome-scale metabolic reconstructions of multiple Escherichia coli strains highlight strain-specific adaptations to nutritional environments.
+Monk JM1, Charusanti P, Aziz RK, Lerman JA, Premyodhin N, Orth JD, Feist AM, Palsson BØ.
+
+212種類の培養条件で得られたコロニー形成細菌群集
+https://www.ncbi.nlm.nih.gov/pubmed/23033984
+Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
+Microbial culturomics: paradigm shift in the human gut microbiome study.
+Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
+
+----------
+### growth rate
+増殖速度
+
+https://twitter.com/mason_lab/status/987315842948960256
+Christopher Mason on Twitter: "Growth Rate Index (GRiD) measures bacterial growth rate from draft genomes and metagenomic bins at ultra-low sequencing coverage (> 0.2x) https://t.co/EhpVAES1QL from Julia Oh, Ph.D @jacksonlab"
+9:03 AM - 20 Apr 2018
+
+https://twitter.com/hornistyf/status/806723634165227520
+Y. Furuta on Twitter: "昨年先に出た似た話。こちらは完全ゲノム必要。／Growth dynamics of gut microbiota in health and disease inferred from single metagenomic... https://t.co/UtVM1E9S92"
+11:54 PM - 7 Dec 2016
+
+https://twitter.com/hornistyf/status/806723370062467072
+Y. Furuta on Twitter: "細菌叢中の各種の複製スピードをメタゲノムリードから推測する話。ドラフトゲノムでOK。／Measurement of bacterial replication rates in microbial communities https://t.co/ujR3TKUFnI"
+11:53 PM - 7 Dec 2016
+
+https://www.ncbi.nlm.nih.gov/pubmed/27819664
+Nat Biotechnol. 2016 Dec;34(12):1256-1263. doi: 10.1038/nbt.3704. Epub 2016 Nov 7.
+Measurement of bacterial replication rates in microbial communities.
+Brown CT1, Olm MR1, Thomas BC2, Banfield JF2,3,4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538567/
+iRep and bPTR software are maintained under github.com/christophertbrown/iRep (v1.10 used in this analysis: github.com/christophertbrown/iRep/releases/tag/v1.10; Supplementary Code).
+
+https://github.com/christophertbrown/iRep
+iRep is a method for determining replication rates for bacteria from single time point metagenomics sequencing and draft-quality genomes.
+
+https://github.com/banfieldlab/BanfieldLabProjects
+iRep - estimating bacteria replication rates based on population genome copy number variation
+
+https://www.ncbi.nlm.nih.gov/pubmed/26229116
+Science. 2015 Sep 4;349(6252):1101-1106. doi: 10.1126/science.aac4812. Epub 2015 Jul 30.
+Growth dynamics of gut microbiota in health and disease inferred from single metagenomic samples.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20308095
+Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias.
+Sharp PM1, Emery LR, Zeng K.
+- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/20090831
+PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics.
+Vieira-Silva S1, Rocha EP.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15479947
+Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
+Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
+Rocha EP1.
+- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
+- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+
+https://genome.cshlp.org/content/14/11/2279/suppl/DC1
+Supplemental Research Data
+https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
+Table A1- Data table with major results. 
+the growth rate class (μ). the optimal doubling time (1/μ).
 
 ----------
 ## resistance
@@ -256,40 +451,6 @@ BINF 6203: Genome Comparison with Mauve – Genome Intelligence
 ### 
 
 
-----------
-
-## Holt Lab
-
-https://holtlab.net
-Holt Lab | microbial genomics
-
-https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
-Update to Comparative Bacterial Genomics tutorial | Holt Lab
-
-https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
-Genomics of atypical enteropathogenic E. coli | Holt Lab
-
-We tried making the core genome tree in a few different ways, including mapping reads to a reference genome vs using Roary to generate core gene alignments from assemblies; with and without removing recombinant regions identified using ClonalFrameML. 
-
-![](https://katholtlab.files.wordpress.com/2016/01/aepec_tree_lee_subtypes1.png)
-
-https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
-Tools for bacterial comparative genomics | Holt Lab
-
-https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
-Bacterial genomics tutorial | Holt Lab
-
-https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
-Bacterial genomics tutorial | BacPathGenomics
-
-https://www.ncbi.nlm.nih.gov/pubmed/23575213
-Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
-Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
-Edwards DJ1, Holt KE.
-
-----------
-
-
 ## fastGEAR
 https://users.ics.aalto.fi/~pemartti/fastGEAR/
 
@@ -469,50 +630,6 @@ Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Merin
 
 
 ----------
-## people
-https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
-Hiromi Nishida
-ゲノム比較解析 - microbioinformatics
-
-http://crusade1096.web.fc2.com/katei.html
-半田佳宏
-NGSのためのバイオインフォマティクス Bioinformatics for NGS
-
-http://crusade1096.web.fc2.com/blast.html
-BLASTBasic Local Alignment Search Tool
-
- [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
-
-----------
-### [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
-門田　幸二のホームページ
-#### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
-- [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
- - [日本乳酸菌学会誌：次世代シーケンサーデータの解析手法](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#about_book_JSLAB)
-  - [第1回イントロダクション](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_1_kadota.pdf)
-  - [第2回GUI環境からコマンドライン環境へ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_2_kadota.pdf)
-  - [第3回Linux環境構築からNGSデータ取得まで](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_3_kadota.pdf)
-  - [第4回クオリティコントロールとプログラムのインストール](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_4_kadota.pdf)
-  - [第5回アセンブル、マッピング、そしてQC](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf)
-  - [第6回ゲノムアセンブリ](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_6_kadota.pdf)
-  - [第7回ロングリードアセンブリ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#book_JSLAB_7)
-
-- 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
-
-----------
-### kazumaxneo
-http://kazumaxneo.hatenablog.com
-macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
-GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
-
-
-
-----------
 
 
 
@@ -627,6 +744,21 @@ https://www.ncbi.nlm.nih.gov/pubmed/19515959
 Bioinformatics. 2009 Aug 15;25(16):2071-3. doi: 10.1093/bioinformatics/btp356. Epub 2009 Jun 10.
 Reordering contigs of draft genomes using the Mauve aligner.
 Rissman AI1, Mau B, Biehl BS, Darling AE, Glasner JD, Perna NT.
+
+----------
+
+https://en.wikipedia.org/wiki/Phyre
+Phyre and Phyre2 (Protein Homology/AnalogY Recognition Engine; pronounced as 'fire') are web-based services for protein structure prediction
+
+https://www.ncbi.nlm.nih.gov/pubmed/25950237
+Nat Protoc. 2015 Jun;10(6):845-58. doi: 10.1038/nprot.2015.053. Epub 2015 May 7.
+The Phyre2 web portal for protein modeling, prediction and analysis.
+Kelley LA1, Mezulis S1, Yates CM1, Wass MN1, Sternberg MJ1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5298202/
+ In collaboration with other groups we have applied Phyre2 to the annotation of a wide range of genomes4–6.
+
+----------
+
 
 ## annotation
 アノテーション
@@ -1124,5 +1256,104 @@ https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
 ----------
+
+
+
+
+
+----------
+## people
+
+----------
+
+
+https://sites.google.com/site/microbioinformatics/genomu-bi-jiao-jie-xi
+Hiromi Nishida
+ゲノム比較解析 - microbioinformatics
+
+http://crusade1096.web.fc2.com/katei.html
+半田佳宏
+NGSのためのバイオインフォマティクス Bioinformatics for NGS
+
+http://crusade1096.web.fc2.com/blast.html
+BLASTBasic Local Alignment Search Tool
+
+ [NGS Surfer's Wiki | コンバータ・パーサ](https://cell-innovation.nig.ac.jp/wiki/tiki-index.php?page=コンバータ・パーサ)
+
+----------
+### [kadota](http://www.iu.a.u-tokyo.ac.jp/~kadota/)
+門田　幸二のホームページ
+#### [(Rで)塩基配列解析](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html)
+- [参考資料 | 書籍、学会誌](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#reference_materials1)
+ - [日本乳酸菌学会誌：次世代シーケンサーデータの解析手法](http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#about_book_JSLAB)
+  - [第1回イントロダクション](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_1_kadota.pdf)
+  - [第2回GUI環境からコマンドライン環境へ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_2_kadota.pdf)
+  - [第3回Linux環境構築からNGSデータ取得まで](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/JSLAB_3_kadota.pdf)
+  - [第4回クオリティコントロールとプログラムのインストール](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_4_kadota.pdf)
+  - [第5回アセンブル、マッピング、そしてQC](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf)
+  - [第6回ゲノムアセンブリ](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_6_kadota.pdf)
+  - [第7回ロングリードアセンブリ](http://www.iu.a.u-tokyo.ac.jp/%7Ekadota/r_seq.html#book_JSLAB_7)
+
+- 第3部:NGS解析(中~上級) ~ Linux環境でのデータ解析:マッピング、トリミング、アセンブリ~ http://www.iu.a.u-tokyo.ac.jp/~kadota/bioinfo_ngs_sokushu_2016/3/20160802_kadota_20160731.pdf
+
+----------
+### kazumaxneo
+http://kazumaxneo.hatenablog.com
+macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
+GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
+
+----------
+### koji.yahara
+
+https://researchmap.jp/koji.yahara/
+矢原耕史
+
+https://www.ncbi.nlm.nih.gov/pubmed/30065291
+Sci Rep. 2018 Jul 31;8(1):11496. doi: 10.1038/s41598-018-29272-2.
+Investigation of recombination-intense viral groups and their genes in the Earth's virome.
+Meier-Kolthoff JP1, Uchiyama J2, Yahara H3, Paez-Espino D4, Yahara K5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068154/
+Because approximately 90% of such genes were initially annotated as hypothetical, we conducted iterative protein searches based on representing both query and database sequences by profile hidden Markov models31 using a UniProt database. We examined all hits with >99% probability of being true positives, and identified 89 notable genes in 24 viral groups (listed in Table S2).
+
+
+----------
+
+## Holt Lab
+
+https://holtlab.net
+Holt Lab | microbial genomics
+
+https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
+Update to Comparative Bacterial Genomics tutorial | Holt Lab
+
+https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
+Genomics of atypical enteropathogenic E. coli | Holt Lab
+
+We tried making the core genome tree in a few different ways, including mapping reads to a reference genome vs using Roary to generate core gene alignments from assemblies; with and without removing recombinant regions identified using ClonalFrameML. 
+
+![](https://katholtlab.files.wordpress.com/2016/01/aepec_tree_lee_subtypes1.png)
+
+https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
+Tools for bacterial comparative genomics | Holt Lab
+
+https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
+Bacterial genomics tutorial | Holt Lab
+
+https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
+Bacterial genomics tutorial | BacPathGenomics
+
+https://www.ncbi.nlm.nih.gov/pubmed/23575213
+Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
+Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
+Edwards DJ1, Holt KE.
+
+----------
+
+
 
 
