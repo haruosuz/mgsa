@@ -35,6 +35,22 @@ Pangenome tools
 
 ### 2019
 
+https://www.ncbi.nlm.nih.gov/pubmed/30714895
+Microb Genom. 2019 Feb 4. doi: 10.1099/mgen.0.000243. [Epub ahead of print]
+Pan-genome analyses of model fungal species.
+McCarthy CGP1,2, Fitzpatrick DA1,2.
+, we have investigated the pan-genomes of four model fungal species: Saccharomyces cerevisiae, Candida albicans, Cryptococcus neoformans var. grubii and Aspergillus fumigatus. 
+https://mgen.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000243#tab2
+Pan-genome analysis of fungal species
+Analysis of the pan-genomes of the four fungal species in our study was performed using the Perl software PanOCT [ 38 ].
+
+Bacillus cereus and Staphylococcus aureus
+https://www.microbe.net/2019/01/08/great-paper-on-space-station-microbes-and-how-they-are-not-all-waiting-to-kill-you/
+https://www.ncbi.nlm.nih.gov/pubmed/30637341
+mSystems. 2019 Jan 8;4(1). pii: e00281-18. doi: 10.1128/mSystems.00281-18. eCollection 2019 Jan-Feb.
+Pangenomic Approach To Understanding Microbial Adaptations within a Model Built Environment, the International Space Station, Relative to Human Hosts and Soil.
+Blaustein RA1, McFarland AG1, Ben Maamar S1, Lopez A2, Castro-Wallace S3, Hartmann EM1.
+
 ### 2018
 
 https://www.ncbi.nlm.nih.gov/pubmed/29942087
