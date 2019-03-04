@@ -34,6 +34,159 @@ Last Update: 2019-02
   - [kadota](#kadota) 門田　幸二のホームページ
   - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 
+----------
+
+総説
+https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
+New approaches for metagenome assembly with short reads | Briefings in Bioinformatics | Oxford Academic
+```
+In this review, we describe the challenges inherent in metagenomic assemblies and compare the different approaches taken by these novel assembly tools.
+
+Figure 1
+Two different approaches to genome assembly: (a)
+
+(Single) genome assembly
+The challenge of metagenomic assembly
+Unknown abundance and diversity
+Related species
+Memory and processing challenges
+Initial classification of reads
+Graph partitioning
+Read pair information
+Approaches taken by metagenomic assemblers
+
+Table 1
+Metagenomic assembly tools: key concepts and references to publications
+
+Assemblers adopting overlap strategies
+dBg-based assemblers
+Assembly pipelines
+Reference-guided assembly and contig binning
+Assessing assembly quality
+Conclusion
+```
+
+![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bib/PAP/10.1093_bib_bbz020/2/m_bbz020f1.png?Expires=1551724400&Signature=eW-f5nggqiGFicDj19UIhx9WVxfzqDe8Cn3tUcP5v9R1WK7HsoarGwZNupnwsOCHKZG13iUnI9bcHAriSfpFKLpZWUL9Gd5vdqPJIDzpSmV0urOuB-LwDLbkDCTglYBa0F9c0nEq88yTxpRgAAxeFn28KA6MNXtV8Rb~qOI7Ecri~SRnZ-5Zo42-oM523PssfYl0vAcdTR8SSQdkWDvKSqNMpfwxFG5SUtEcTDLvNXV1lxu60iQh4uxPEL3S2m4c8D2YJr~EkEXXUqB-P6k0S3~Zf33sPmcyJEOF84w2o~fe1R~AH2M1byWLMT16kONZCxO901LBORzchNhWY5HfMw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
+----------
+## updates
+
+### 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/30729287
+Appl Microbiol Biotechnol. 2019 Feb 7. doi: 10.1007/s00253-019-09648-8. [Epub ahead of print]
+GeM-Pro: a tool for genome functional mining and microbial profiling.
+
+https://github.com/CAMI-challenge/CAMITAX
+CAMITAX: Taxon labels for microbial genomes
+https://www.biorxiv.org/content/10.1101/532473v1
+CAMITAX: Taxon labels for microbial genomes | bioRxiv
+
+https://twitter.com/joshdneufeld/status/1092486258419326976
+Josh Neufeld on Twitter: ""DNA sequences are just long series of letters. So why is it so hard to search through them?" @sarahzhang reports here https://t.co/QzSlfkbi6l, profiling BIGSI search https://t.co/IgKHcYpgGe, with comments from @jennifergardy. Primary literature here: https://t.co/vIHoE151eM"
+1:13 PM - 4 Feb 2019
+https://www.nature.com/articles/s41587-018-0010-1
+Ultrafast search of all deposited bacterial and viral genomic data | Nature Biotechnology
+Phelim Bradley, Henk C. den Bakker, Eduardo P. C. Rocha, Gil McVean & Zamin Iqbal 
+
+
+https://twitter.com/jongsanders/status/1090341613954568192
+Jon Sanders on Twitter: "Really stoked that the Calour paper is out! This is a really great tool for heatmap-driven exploration of microbiome data. It works *great* with ASVs from DADA2 or Deblur. https://t.co/JXsUtCd6KG I'm going to walk through just a bit of my own data from the paper! 1/"
+3:11 PM - 29 Jan 2019
+https://msystems.asm.org/content/4/1/e00269-18
+Calour: an Interactive Microbe-Centric Analysis Tool 
+
+http://kazumaxneo.hatenablog.com/entry/2019/01/23/073000
+taxonomy ID、学名、系統情報など相互変換できるツール taxonkit - macでインフォマティクス
+https://www.biorxiv.org/content/10.1101/513523v1
+TaxonKit: a cross-platform and efficient NCBI taxonomy toolkit | bioRxiv
+
+
+### 2018
+
+https://twitter.com/kazumachack/status/1074793968712376320
+上坂一馬 on Twitter: "SPAdesを使って、大きなk-merを使った時にアセンブリがどう変化するのか簡単にまとめました。GAGE-Bのコレラ菌のデータセットを使っています。 SPAdesとUnicyclerでlarge k-merを使う part2 (… https://t.co/DKQnSyZlgx"
+5:30 PM - 17 Dec 2018
+
+http://kazumaxneo.hatenablog.com/entry/2018/12/11/164359
+SPAdesとUnicyclerでlarge k-merを使えるようにビルドし直す part1 - macでインフォマティクス
+
+
+
+https://twitter.com/torstenseemann/status/1051354968517619712
+Torsten Seemann on Twitter: ""A Unix one-liner to call bacterial variants" using @htslib - my first blog post in a long time! #bioinformatics https://t.co/GkLO4wspGd"
+2:12 AM - 14 Oct 2018
+
+https://thegenomefactory.blogspot.com/2018/10/a-unix-one-liner-to-call-bacterial.html
+The Genome Factory: A Unix one-liner to call bacterial variants
+
+https://www.ncbi.nlm.nih.gov/pubmed/30148503
+Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
+A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
+Parks DH1, Chuvochina M1, Waite DW1, Rinke C1, Skarshewski A1, Chaumeil PA1, Hugenholtz P1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30165579
+Bioinformatics. 2018 Aug 25. doi: 10.1093/bioinformatics/bty744. [Epub ahead of print]
+Large-Scale Comparative Analysis of Microbial Pan-genomes using PanOCT.
+Inman JM1, Sutton GG1, Beck E1, Brinkac LM1, Clarke TH1, Fouts DE1.
+Author information
+1
+J. Craig Venter Institute, Rockville, MD USA.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29915113
+Appl Environ Microbiol. 2018 Aug 17;84(17). pii: e00993-18. doi: 10.1128/AEM.00993-18. Print 2018 Sep 1.
+Comparative Genomics of the Genus Lactobacillus Reveals Robust Phylogroups That Provide the Basis for Reclassification.
+Salvetti E1,2, Harris HMB1,2, Felis GE3, O'Toole PW2,4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30006589
+Nat Commun. 2018 Jul 13;9(1):2703. doi: 10.1038/s41467-018-05114-7.
+Population genomics of hypervirulent Klebsiella pneumoniae clonal-group 23 reveals early emergence and rapid global dissemination.
+Lam MMC1, Wyres KL1, Duchêne S1, Wick RR1, Judd LM1, Gan YH2, Hoh CH2, Archuleta S3, Molton JS3, Kalimuddin S4, Koh TH5, Passet V6, Brisse S6, Holt KE7,8.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29718191
+FEMS Microbiol Ecol. 2018 Jul 1;94(7). doi: 10.1093/femsec/fiy079.
+MetaCompare: a computational pipeline for prioritizing environmental resistome risk.
+Oh M1, Pruden A2, Chen C3, Heath LS1, Xia K3, Zhang L1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29309930
+Clin Microbiol Infect. 2018 Apr;24(4):350-354. doi: 10.1016/j.cmi.2017.12.016. Epub 2018 Jan 5.
+Whole genome sequencing options for bacterial strain typing and epidemiologic analysis based on single nucleotide polymorphism versus gene-by-gene-based approaches.
+Schürch AC1, Arredondo-Alonso S1, Willems RJL1, Goering RV2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29177474
+Mol Biol Evol. 2018 Feb 1;35(2):486-503. doi: 10.1093/molbev/msx302.
+Evaluating Fast Maximum Likelihood-Based Phylogenetic Programs Using Empirical Phylogenomic Data Sets.
+Zhou X1,2, Shen XX3, Hittinger CT4, Rokas A3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29309933
+Clin Microbiol Infect. 2018 Apr;24(4):342-349. doi: 10.1016/j.cmi.2017.12.015. Epub 2018 Jan 5.
+A primer on microbial bioinformatics for nonbioinformaticians.
+Carriço JA1, Rossi M2, Moran-Gilad J3, Van Domselaar G4, Ramirez M5.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27471065
+Microb Biotechnol. 2016 Sep;9(5):681-6. doi: 10.1111/1751-7915.12389. Epub 2016 Jul 29.
+Microbial bioinformatics 2020.
+Pallen MJ1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/24567124
+Nutr Diabetes. 2014 Feb 24;4:e109. doi: 10.1038/nutd.2014.6.
+Comparative genomics analysis of Lactobacillus species associated with weight gain or weight protection.
+Drissi F1, Merhej V1, Angelakis E1, El Kaoutari A1, Carrière F2, Henrissat B3, Raoult D1.
+
+
+### 2017
+
+https://www.biorxiv.org/content/early/2017/11/08/215988
+Panaconda: Application of pan-synteny graph models to genome content analysis 
+
+February 12, 2017
+http://genomeintelligence.org/?p=1157
+BINF 6203: Genome Comparison with Mauve – Genome Intelligence
+
+![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
+
+### 2016
+
 
 ----------
 ## database
@@ -233,6 +386,11 @@ the growth rate class (μ). the optimal doubling time (1/μ).
 ## resistance
 耐性
 
+https://twitter.com/arpcard
+CARD Developers (@arpcard) | Twitter
+https://card.mcmaster.ca/
+The Comprehensive Antibiotic Resistance Database
+
 a cool map of AMRs in current cities and some public usage data:
 https://resistancemap.cddep.org/
 
@@ -321,6 +479,10 @@ A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, gene
 ----------
 
 ## tools
+
+http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
+QIIME2インストールの方法解説 | Rとバイオインフォマティクス
+
 - [phyloSkeleton: taxon selection, data retrieval and marker identification for phylogenomics. Bioinformatics. 2017 Jan 5.](https://www.ncbi.nlm.nih.gov/pubmed/28057682)
 
 https://www.ncbi.nlm.nih.gov/pubmed/26561344
@@ -328,122 +490,6 @@ PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eColle
 COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
 Bose T1, Haque MM1, Reddy C1, Mande SS1.
 The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
-
-----------
-## updates
-
-### 2019
-
-https://github.com/CAMI-challenge/CAMITAX
-CAMITAX: Taxon labels for microbial genomes
-https://www.biorxiv.org/content/10.1101/532473v1
-CAMITAX: Taxon labels for microbial genomes | bioRxiv
-
-https://twitter.com/joshdneufeld/status/1092486258419326976
-Josh Neufeld on Twitter: ""DNA sequences are just long series of letters. So why is it so hard to search through them?" @sarahzhang reports here https://t.co/QzSlfkbi6l, profiling BIGSI search https://t.co/IgKHcYpgGe, with comments from @jennifergardy. Primary literature here: https://t.co/vIHoE151eM"
-1:13 PM - 4 Feb 2019
-https://www.nature.com/articles/s41587-018-0010-1
-Ultrafast search of all deposited bacterial and viral genomic data | Nature Biotechnology
-Phelim Bradley, Henk C. den Bakker, Eduardo P. C. Rocha, Gil McVean & Zamin Iqbal 
-
-
-https://twitter.com/jongsanders/status/1090341613954568192
-Jon Sanders on Twitter: "Really stoked that the Calour paper is out! This is a really great tool for heatmap-driven exploration of microbiome data. It works *great* with ASVs from DADA2 or Deblur. https://t.co/JXsUtCd6KG I'm going to walk through just a bit of my own data from the paper! 1/"
-3:11 PM - 29 Jan 2019
-https://msystems.asm.org/content/4/1/e00269-18
-Calour: an Interactive Microbe-Centric Analysis Tool 
-
-http://kazumaxneo.hatenablog.com/entry/2019/01/23/073000
-taxonomy ID、学名、系統情報など相互変換できるツール taxonkit - macでインフォマティクス
-https://www.biorxiv.org/content/10.1101/513523v1
-TaxonKit: a cross-platform and efficient NCBI taxonomy toolkit | bioRxiv
-
-
-### 2018
-
-https://twitter.com/kazumachack/status/1074793968712376320
-上坂一馬 on Twitter: "SPAdesを使って、大きなk-merを使った時にアセンブリがどう変化するのか簡単にまとめました。GAGE-Bのコレラ菌のデータセットを使っています。 SPAdesとUnicyclerでlarge k-merを使う part2 (… https://t.co/DKQnSyZlgx"
-5:30 PM - 17 Dec 2018
-
-http://kazumaxneo.hatenablog.com/entry/2018/12/11/164359
-SPAdesとUnicyclerでlarge k-merを使えるようにビルドし直す part1 - macでインフォマティクス
-
-
-
-https://twitter.com/torstenseemann/status/1051354968517619712
-Torsten Seemann on Twitter: ""A Unix one-liner to call bacterial variants" using @htslib - my first blog post in a long time! #bioinformatics https://t.co/GkLO4wspGd"
-2:12 AM - 14 Oct 2018
-
-https://thegenomefactory.blogspot.com/2018/10/a-unix-one-liner-to-call-bacterial.html
-The Genome Factory: A Unix one-liner to call bacterial variants
-
-https://www.ncbi.nlm.nih.gov/pubmed/30148503
-Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
-Parks DH1, Chuvochina M1, Waite DW1, Rinke C1, Skarshewski A1, Chaumeil PA1, Hugenholtz P1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/30165579
-Bioinformatics. 2018 Aug 25. doi: 10.1093/bioinformatics/bty744. [Epub ahead of print]
-Large-Scale Comparative Analysis of Microbial Pan-genomes using PanOCT.
-Inman JM1, Sutton GG1, Beck E1, Brinkac LM1, Clarke TH1, Fouts DE1.
-Author information
-1
-J. Craig Venter Institute, Rockville, MD USA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29915113
-Appl Environ Microbiol. 2018 Aug 17;84(17). pii: e00993-18. doi: 10.1128/AEM.00993-18. Print 2018 Sep 1.
-Comparative Genomics of the Genus Lactobacillus Reveals Robust Phylogroups That Provide the Basis for Reclassification.
-Salvetti E1,2, Harris HMB1,2, Felis GE3, O'Toole PW2,4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/30006589
-Nat Commun. 2018 Jul 13;9(1):2703. doi: 10.1038/s41467-018-05114-7.
-Population genomics of hypervirulent Klebsiella pneumoniae clonal-group 23 reveals early emergence and rapid global dissemination.
-Lam MMC1, Wyres KL1, Duchêne S1, Wick RR1, Judd LM1, Gan YH2, Hoh CH2, Archuleta S3, Molton JS3, Kalimuddin S4, Koh TH5, Passet V6, Brisse S6, Holt KE7,8.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29718191
-FEMS Microbiol Ecol. 2018 Jul 1;94(7). doi: 10.1093/femsec/fiy079.
-MetaCompare: a computational pipeline for prioritizing environmental resistome risk.
-Oh M1, Pruden A2, Chen C3, Heath LS1, Xia K3, Zhang L1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29309930
-Clin Microbiol Infect. 2018 Apr;24(4):350-354. doi: 10.1016/j.cmi.2017.12.016. Epub 2018 Jan 5.
-Whole genome sequencing options for bacterial strain typing and epidemiologic analysis based on single nucleotide polymorphism versus gene-by-gene-based approaches.
-Schürch AC1, Arredondo-Alonso S1, Willems RJL1, Goering RV2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29177474
-Mol Biol Evol. 2018 Feb 1;35(2):486-503. doi: 10.1093/molbev/msx302.
-Evaluating Fast Maximum Likelihood-Based Phylogenetic Programs Using Empirical Phylogenomic Data Sets.
-Zhou X1,2, Shen XX3, Hittinger CT4, Rokas A3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29309933
-Clin Microbiol Infect. 2018 Apr;24(4):342-349. doi: 10.1016/j.cmi.2017.12.015. Epub 2018 Jan 5.
-A primer on microbial bioinformatics for nonbioinformaticians.
-Carriço JA1, Rossi M2, Moran-Gilad J3, Van Domselaar G4, Ramirez M5.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27471065
-Microb Biotechnol. 2016 Sep;9(5):681-6. doi: 10.1111/1751-7915.12389. Epub 2016 Jul 29.
-Microbial bioinformatics 2020.
-Pallen MJ1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/24567124
-Nutr Diabetes. 2014 Feb 24;4:e109. doi: 10.1038/nutd.2014.6.
-Comparative genomics analysis of Lactobacillus species associated with weight gain or weight protection.
-Drissi F1, Merhej V1, Angelakis E1, El Kaoutari A1, Carrière F2, Henrissat B3, Raoult D1.
-
-
-### 2017
-
-https://www.biorxiv.org/content/early/2017/11/08/215988
-Panaconda: Application of pan-synteny graph models to genome content analysis 
-
-February 12, 2017
-http://genomeintelligence.org/?p=1157
-BINF 6203: Genome Comparison with Mauve – Genome Intelligence
-
-![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
-
-### 2016
-
 
 
 
@@ -556,6 +602,8 @@ Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of 
 
 ----------
 ### BUSCO
+https://busco.ezlab.org/
+Bacteria Bacteria sets
 
 https://www.ncbi.nlm.nih.gov/pubmed/29220515
 Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
