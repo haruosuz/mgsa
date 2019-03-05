@@ -613,9 +613,48 @@ https://www.ncbi.nlm.nih.gov/pubmed/29220515
 Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
 BUSCO applications from quality assessments to gene prediction and phylogenomics.
 
+http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
+ゲノム工学実習	大学院科目
+【開講日程】 2018年度 秋学期 特定期間集中	【担当教員】 荒川　和晴
+アセンブリークオリティの検証
+アセンブリーのクオリティ確認はN50だけではだめで、ちゃんとゲノムとして全遺伝情報がカバーできているか、を確認する必要があります。このためにはCEGMAやBUSCOといった手法(http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640) を用います。これらのソフトウェアはインストールが面倒なのですが、理研が開発しているgVolanteというウェブサーバが非常に簡単に使えるようにしてくれています。https://gvolante.riken.jpBUSCOはv.1がバクテリアに対応しています。
+
+http://kazumaxneo.hatenablog.com/entry/2018/09/05/155855
+ラージゲノムにも対応したアセンブリ評価ツール QUAST-LG - macでインフォマティクス
+論文内では、最新のmummer4（紹介）やminimap2（紹介）によるcontigのアライメント、KMC3（紹介）によるk-mer評価を元にしたアセンブリ完全性の評価、BUSCO（紹介）によるハウスキーピング遺伝子のhit率に基づいたアセンブリ評価、などの詳細が書かれています。
+
+http://kazumaxneo.hatenablog.com/entry/2017/07/26/211528
+ゲノム情報はないが、モデル生物と近縁な生物のRNA seq 解析 - macでインフォマティクス
+２、buscoによるcore geneの探索。
+
+https://pacbiobrothers.blogspot.com/2017/07/
+2017年7月13日
+パックマンの挑戦　－　PacBioシークエンサー: 7月 2017
+gVolante でアセンブリを検証したくなるこれだけの理由！
+ゲノムアセンブリの論文を読んだことのある方は、BUSCOとかCEGMAとかいう解析で、「Completeが何%、Fragmentedが何%、だからこのアセンブリはまずまず良い」なんていう文章を読んだことがあるかもしれません。
+特に真核生物で、新しくゲノムを決めた、みたいな論文では必ずと言っていいほど。
+
+このような解析を、GUIで簡単に解析できるツールが gVolante（ジーボランチ）です。
+神戸理化学研究所の工樂さん、西村さん、原さんらの論文も、先日Publishされたそうです
+
 2017-07-19
 http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
 アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+https://pacbiobrothers.blogspot.com/2016/07/pacbio.html
+2016年7月6日
+パックマンの挑戦　－　PacBioシークエンサー: パイナップルドラフトゲノム　PacBioでアセンブリ
+しかし、残念ながら、CEGMAは昨年サービスを中止したらしいです。
+これからはBUSCO（Benchmarking Universal Single-Copy Orthologs)らしいです。
+
+11 of July, 2016
+http://cell-innovation.nig.ac.jp/wiki//tiki-index.php?page=BUSCOインストールログ
+BUSCOインストールログ
+
+March 2016
+http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20160313221003-D6FE3AF4AC97B309F7EF6B0B70F4E54C2EBB49CDD91586A8C5AA323F471D2D06.pdf
+「大量データと知見の架け橋」どのアセンブリを使うか？：分子系統学的観点に基づくアセンブリの評価
+遺伝子探索パイプラインの選択：CEGMAとBUSCOのどちらにするか?
 
 ----------
 ### Tax4Fun
