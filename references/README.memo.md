@@ -13,7 +13,7 @@ Last Update: 2019-03
 - [harvest](#harvest)
 - [reordering-contigs](#reordering-contigs)
 - [tools](#tools)
-- [eggnog](#eggnog)
+  - [eggnog](#eggnog)
   - [BUSCO](#busco)
   - [Tax4Fun](#tax4fun)
   - [USEARCH](#usearch)
@@ -300,6 +300,26 @@ https://www.ncbi.nlm.nih.gov/pubmed/24152717
 ISME J. 2014 Jan;8(1):1-3. doi: 10.1038/ismej.2013.176. Epub 2013 Oct 24.
 MIxS-BE: a MIxS extension defining a minimum information standard for sequence data from the built environment.
 
+数十の大腸菌のゲノム配列データからゲノムスケールの代謝モデルを構築し、様々な培養条件での増殖を予測
+https://www.ncbi.nlm.nih.gov/pubmed/24277855
+Proc Natl Acad Sci U S A. 2013 Dec 10;110(50):20338-43. doi: 10.1073/pnas.1307797110. Epub 2013 Nov 25.
+Genome-scale metabolic reconstructions of multiple Escherichia coli strains highlight strain-specific adaptations to nutritional environments.
+Monk JM1, Charusanti P, Aziz RK, Lerman JA, Premyodhin N, Orth JD, Feist AM, Palsson BØ.
+
+212種類の培養条件で得られたコロニー形成細菌群集
+https://www.ncbi.nlm.nih.gov/pubmed/23033984
+Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
+Microbial culturomics: paradigm shift in the human gut microbiome study.
+Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
+
+### BacDive
+
+https://twitter.com/BacDive
+BacDive (@BacDive) | Twitter
+
+https://twitter.com/BacDive/status/1103238138816839680
+BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
+
 
 2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
 https://www.ncbi.nlm.nih.gov/pubmed/24214959
@@ -312,18 +332,6 @@ BacDive | The Bacterial Diversity Metadatabase
 
 https://bacdive.dsmz.de/strain/17849
 https://bacdive.dsmz.de/strain/131145
-
-数十の大腸菌のゲノム配列データからゲノムスケールの代謝モデルを構築し、様々な培養条件での増殖を予測
-https://www.ncbi.nlm.nih.gov/pubmed/24277855
-Proc Natl Acad Sci U S A. 2013 Dec 10;110(50):20338-43. doi: 10.1073/pnas.1307797110. Epub 2013 Nov 25.
-Genome-scale metabolic reconstructions of multiple Escherichia coli strains highlight strain-specific adaptations to nutritional environments.
-Monk JM1, Charusanti P, Aziz RK, Lerman JA, Premyodhin N, Orth JD, Feist AM, Palsson BØ.
-
-212種類の培養条件で得られたコロニー形成細菌群集
-https://www.ncbi.nlm.nih.gov/pubmed/23033984
-Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
-Microbial culturomics: paradigm shift in the human gut microbiome study.
-Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
 
 ----------
 ### growth rate
@@ -1270,22 +1278,39 @@ Huang CH1, Hsiang T, Trevors JT.
 - [Biopython Tutorial and Cookbook | 10.1  Parsing Swiss-Prot files](http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc136)
 - [biopythonでswissprotのレコードをパースする - kozo-niのはてなダイアリー](http://d.hatena.ne.jp/kozo-ni/touch/20100129/1264757221)
 
-### [Rarefaction](https://en.wikipedia.org/wiki/Rarefaction_(ecology))
-
-2016-02-21
-http://pediatricsurgery.hatenadiary.jp/entry/%3Fp%3D213
-腸内細菌の論文が読める様になりたい臨床医へ ( 2 ) レアファクション解析 - Note of Pediatric Surgery
-
- - 2015.09.03 [希薄化曲線 | グラフの描き方](http://stat.biopapyrus.net/statistic/rarefaction-curve.html)
- - [plot - accumulation curve in R - Stack Overflow](http://stackoverflow.com/questions/21615628/accumulation-curve-in-r)
- - [Vegan: ecological diversity](https://cran.r-project.org/web/packages/vegan/vignettes/diversity-vegan.pdf)
- - [Gene accumulation curves in R | smoke&umami](http://smokeandumami.com/2010/01/21/gene-accumulation-curves-in-r/)
- - [自前でrarefactionカーブ in R](http://tullbergia.at.webry.info/201009/article_3.html)
- - [自前でrarefactionカーブ in R vol.2: マルチコア対応](http://tullbergia.at.webry.info/201111/article_1.html) [.](http://s.webry.info/sp/tullbergia.at.webry.info/201111/article_1.html)
- - [データ解析｜種多様性の測定｜希薄化曲線(rarefaction curves)｜上の計算を R で行うためのコード](http://www.lab2.toho-u.ac.jp/sci/bio/theoeco/wiki/index.php?plugin=attach&pcmd=open&file=jissyusyo_DA.pdf&refer=2013%CC%EE%B3%B0%C0%B8%C2%D6%B3%D8%BC%C2%BD%ACI)
+### [rarefaction](https://en.wikipedia.org/wiki/Rarefaction_(ecology))
 
 ![https://en.wikipedia.org/wiki/Rarefaction_(ecology)](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sogin-Huber-CombinedRarefac.jpg/220px-Sogin-Huber-CombinedRarefac.jpg)
 
+2018.08.20
+https://bi.biopapyrus.jp/rnaseq/exp/replicate-sequencing-depth.html
+replicate 数と sequencing depth | RNA-Seq 実験に最適な replicate 数と sequencing depth の決め方
+近似曲線（希薄化曲線）を描く
+
+2018.01.27
+https://stats.biopapyrus.jp/stats/rarefaction-curve.html
+希薄化曲線 | 多様性の解析などに利用する希薄化曲線
+
+2018/01/05 
+https://ultrabem.com/environment/ecology/species_richness.html
+種の豊富さと rarefaction curve: 生態学や腸内細菌叢の論文で頻出
+
+2016-02-21
+http://pedsurgery.wp.xdomain.jp/213
+腸内細菌の論文が読める様になりたい臨床医へ ( 2 ) レアファクション解析 – Site of Pediatric Surgery
+
+2016-02-21
+http://pedsurgery.wp.xdomain.jp/504
+腸内細菌の論文が読める様になりたい臨床医へ ( 1 ) 多様性 – Site of Pediatric Surgery
+
+2010/01/21
+http://smokeandumami.com/gene-accumulation-curves-in-r
+Gene accumulation curves in R – Smokeandumami
+
+- [Vegan: ecological diversity](https://cran.r-project.org/web/packages/vegan/vignettes/diversity-vegan.pdf)
+- [plot - accumulation curve in R - Stack Overflow](http://stackoverflow.com/questions/21615628/accumulation-curve-in-r)
+- [自前でrarefactionカーブ in R](http://tullbergia.at.webry.info/201009/article_3.html)
+- [自前でrarefactionカーブ in R vol.2: マルチコア対応](http://tullbergia.at.webry.info/201111/article_1.html) [.](http://s.webry.info/sp/tullbergia.at.webry.info/201111/article_1.html)
 
 ----------
 
