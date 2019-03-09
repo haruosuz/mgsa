@@ -35,6 +35,102 @@ Last Update: 2019-03
   - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 
 ----------
+## distribution
+遺伝子の系統分布
+
+https://twitter.com/search?q=%22phylogenetic%20distribution%22
+
+https://twitter.com/LAHug_/status/1059900649351987200
+Laura Hug on Twitter: "Want an addictive, informative, gene distribution experience? Check out AnnoTree, our new tool. Here's the distribution of reductive dehalogenases (my favorite) on the bacterial tree of life. https://t.co/ziywZa8UvC https://t.co/Z6vVQ6VtyN @ACDoxey… https://t.co/3nayeeYGVx"
+3:09 PM - 6 Nov 2018
+![](https://pbs.twimg.com/media/DrWF2tgUUAEejFi.jpg)
+
+プロテオロドプシン
+http://iwasakilab.bs.s.u-tokyo.ac.jp/iwasaki/publications.html
+Solar-panel and parasol strategies shape the proteorhodopsin distribution pattern in marine Flavobacteriia.
+The ISME Journal, 12, 1329-1343. (2018)
+
+ 2006年2月16日
+https://www.natureasia.com/ja-jp/nature/439/7078/nature04435
+海洋性の浮遊細菌と古細菌の間でのプロテオロドプシン遺伝子の水平伝播 | Nature | Nature Research
+プロテオロドプシンの全世界的な系統的分布
+
+ヒ素耐性遺伝子
+https://www.ncbi.nlm.nih.gov/pubmed/30405552
+Front Microbiol. 2018 Oct 23;9:2473. doi: 10.3389/fmicb.2018.02473. eCollection 2018.
+Distribution of Arsenic Resistance Genes in Prokaryotes.
+Ben Fekih I1, Zhang C1, Li YP1, Zhao Y2, Alwathnani HA3, Saquib Q4, Rensing C1,5, Cervantes C6.
+```
+Numerous ars operons, with a variety of genes and different combinations of them, populate the prokaryotic genomes, including their accessory plasmids, transposons, and genomic islands. 
+This review summarizes the presence, distribution, organization, and redundance of arsenic resistance genes in prokaryotes.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/
+Additional Arsenic Resistance Genes
+However, the arsenite transport pathway was unknown until an aquaglyceroporin, the glycerol facilitator GlpF, was discovered in E. coli as an “accidental” arsenite uptake transporter (Sanders et al., 1997; Rosen, 2002; Meng et al., 2004). 
+```
+
+Distribution of ars genes in arsenic-resistant prokaryotes. 
+
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/figure/F1/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/bin/fmicb-09-02473-g001.jpg)
+
+http://www.chem.utsunomiya-u.ac.jp/lab/bio/research_qs1.html
+研究テーマ（Quorum Sensing その1） -生物工学研究室-
+
+Quorum Sensingに関連する遺伝子 LuxI and LuxR 
+https://www.ncbi.nlm.nih.gov/pubmed/28765541
+Sci Rep. 2017 Aug 1;7(1):6969. doi: 10.1038/s41598-017-07241-5.
+In silico analyses of conservational, functional and phylogenetic distribution of the LuxI and LuxR homologs in Gram-positive bacteria.
+Rajput A1, Kumar M2.
+```
+Moreover, Phylogenetic analyses (LuxI, LuxR, LuxI + LuxR and 16s rRNA) revealed horizontal gene transfer events with significant statistical support among Gram-positive and Gram-negative bacteria.
+```
+
+外来遺伝子サイレンサー
+https://www.ncbi.nlm.nih.gov/pubmed/26247404
+Comput Biol Chem. 2015 Oct;58:167-72. doi: 10.1016/j.compbiolchem.2015.06.007. Epub 2015 Jul 23.
+Distribution of putative xenogeneic silencers in prokaryote genomes.
+Perez-Rueda E1, Ibarra JA2.
+xenogeneic silencers (XS) and belong to either the H-NS, Lsr2, MvaT or Rok families.
+
+セルラーゼ
+https://www.ncbi.nlm.nih.gov/pubmed/23263967
+Appl Environ Microbiol. 2013 Mar;79(5):1545-54. doi: 10.1128/AEM.03305-12. Epub 2012 Dec 21.
+Phylogenetic distribution of potential cellulases in bacteria.
+Berlemont R1, Martiny AC.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/
+
+Strain-specific glycoside hydrolase distribution in bacteria.
+
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg)
+
+
+----------
+## featuring
+
+http://www.microbesonline.org/
+phylogenetic profile
+
+https://github.com/kblin/ncbi-genome-download
+kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
+
+
+https://twitter.com/sjackman/status/1045005404227362817
+Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
+1:41 PM - 26 Sep 2018
+
+https://twitter.com/torstenseemann/status/1013354894730772480
+Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
+5:33 AM - 1 Jul 2018
+
+https://twitter.com/i/moments/1000738412117147648
+All metagenomes searched at once?
+
+https://twitter.com/merenbey/status/1001592427369648128
+A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
+6:33 PM - 29 May 2018
+
+
+
+----------
 
 総説
 https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
@@ -462,31 +558,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/24304895
 Nucleic Acids Res. 2014 Jan;42(Database issue):D737-43. doi: 10.1093/nar/gkt1252. Epub 2013 Dec 3.
 BacMet: antibacterial biocide and metal resistance genes database.
 Pal C1, Bengtsson-Palme J, Rensing C, Kristiansson E, Larsson DG.
-
-----------
-## featuring
-
-http://www.microbesonline.org/
-phylogenetic profile
-
-https://github.com/kblin/ncbi-genome-download
-kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
-
-
-https://twitter.com/sjackman/status/1045005404227362817
-Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
-1:41 PM - 26 Sep 2018
-
-https://twitter.com/torstenseemann/status/1013354894730772480
-Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
-5:33 AM - 1 Jul 2018
-
-https://twitter.com/i/moments/1000738412117147648
-All metagenomes searched at once?
-
-https://twitter.com/merenbey/status/1001592427369648128
-A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
-6:33 PM - 29 May 2018
 
 ----------
 
