@@ -1,3 +1,6 @@
+
+
+
 Haruo Suzuki (haruo[at]g-language[dot]org)  
 Last Update: 2019-03
 
@@ -514,9 +517,10 @@ the growth rate class (μ). the optimal doubling time (1/μ).
 
 ----------
 ## temperature
+温度
 
-https://ja.wikipedia.org/wiki/低温菌
-psychrophilic bacteria
+- https://ja.wikipedia.org/wiki/好熱菌 thermophile
+- https://ja.wikipedia.org/wiki/低温菌 psychrophile
 
 最適増殖温度の予測
 https://www.ncbi.nlm.nih.gov/pubmed/30689741
@@ -524,6 +528,14 @@ Bioinformatics. 2019 Jan 25. doi: 10.1093/bioinformatics/btz059. [Epub ahead of 
 Predicting the Optimal Growth Temperatures of Prokaryotes using only Genome Derived Features.
 Sauer DB1, Wang DN1.
 The accuracy can be further improved for specific taxonomic clades or by excluding psychrophiles. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/23024607
+Curr Genomics. 2012 Apr;13(2):153-62.
+Microbial lifestyle and genome signatures.
+Dutta C1, Paul S.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
+i) Microorganisms Thriving at High Temperatures
+Regression analyses of the sequence data for thermophilic, mesophilic (OGT = 20-50°C) and psychrophilic (OGT <20°C) bacteria revealed linear relationships between OGT and a combination of purine and pyrimidine dimer compositions, RR +YY – RY – YR, where R= A/G, Y = C/T), the correlation coefficient being 0.66 [144, 145]. 
 
 最大増殖速度の予測
 https://www.ncbi.nlm.nih.gov/pubmed/20090831
@@ -540,6 +552,7 @@ Synonymous codon usage and its potential link with optimal growth temperature in
 Lobry JR1, Necşulea A.
 We report the unusual clustering of an Archaeal psychrophile with the thermophilic and hyperthermophilic species on the synonymous codon usage factorial map; the other psychrophiles in our study cluster with the mesophilic species. 
 
+好熱菌と常温菌のコドン使用の違い
 https://www.ncbi.nlm.nih.gov/pubmed/12364606
 Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
 Synonymous codon usage is subject to selection in thermophilic bacteria.
