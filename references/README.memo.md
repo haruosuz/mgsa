@@ -502,7 +502,6 @@ Y. Furuta on Twitter: "細菌叢中の各種の複製スピードをメタゲノ
 https://twitter.com/svetlana_up/status/796298501554663424
 Svetlana U. Perović on Twitter: "Bacterial replication rates in microbial communities https://t.co/OOXB66bVgL [iRep calculates repl rates using genome-resolved metagenomics]… https://t.co/Ol4HyuGocx"
 5:28 AM - 9 Nov 2016
-![](https://pbs.twimg.com/media/Cw0FQEAXAAAgYV7.jpg)
 
 #### iRep
 
@@ -554,6 +553,20 @@ Supplemental Research Data
 https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
 Table A1- Data table with major results. 
 the growth rate class (μ). the optimal doubling time (1/μ).
+
+#### 199X
+
+https://www.jstage.jst.go.jp/browse/jssm/50/0/_contents/-char/ja
+土と微生物
+https://www.jstage.jst.go.jp/article/jssm/50/0/50_KJ00008103464/_article/-char/ja/
+土壌微生物のエコ・コレクションと進化・適応(共生・寄生微生物の進化と環境適応,シンポジウム)
+服部 勉
+1997 年 50 巻 p. 1-3
+
+https://www.jstage.jst.go.jp/article/kagakutoseibutsu1962/28/5/28_5_307/_article/-char/ja
+細菌コロニー形成曲線と低栄養細菌
+服部 勉
+1990 年 28 巻 5 号 p. 307-315
 
 ----------
 ## resistance
