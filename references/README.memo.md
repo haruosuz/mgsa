@@ -511,6 +511,10 @@ iRep is a method for determining replication rates for bacteria from single time
 https://github.com/banfieldlab/BanfieldLabProjects
 iRep - estimating bacteria replication rates based on population genome copy number variation
 
+2016年12月1日
+https://www.natureasia.com/ja-jp/nbt/34/12/nbt.3704
+微生物群集内の細菌の複製速度の測定
+
 https://www.ncbi.nlm.nih.gov/pubmed/27819664
 Nat Biotechnol. 2016 Dec;34(12):1256-1263. doi: 10.1038/nbt.3704. Epub 2016 Nov 7.
 Measurement of bacterial replication rates in microbial communities.
@@ -553,6 +557,7 @@ Supplemental Research Data
 https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
 Table A1- Data table with major results. 
 the growth rate class (μ). the optimal doubling time (1/μ).
+
 
 #### 199X
 
