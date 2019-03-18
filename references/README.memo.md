@@ -478,7 +478,7 @@ https://twitter.com/mason_lab/status/987315842948960256
 Christopher Mason on Twitter: "Growth Rate Index (GRiD) measures bacterial growth rate from draft genomes and metagenomic bins at ultra-low sequencing coverage (> 0.2x) https://t.co/EhpVAES1QL from Julia Oh, Ph.D @jacksonlab"
 9:03 AM - 20 Apr 2018
 
-#### 
+#### 2016
 
 https://twitter.com/hornistyf/status/806723634165227520
 Y. Furuta on Twitter: "昨年先に出た似た話。こちらは完全ゲノム必要。／Growth dynamics of gut microbiota in health and disease inferred from single metagenomic... https://t.co/UtVM1E9S92"
@@ -488,6 +488,14 @@ https://twitter.com/hornistyf/status/806723370062467072
 Y. Furuta on Twitter: "細菌叢中の各種の複製スピードをメタゲノムリードから推測する話。ドラフトゲノムでOK。／Measurement of bacterial replication rates in microbial communities https://t.co/ujR3TKUFnI"
 11:53 PM - 7 Dec 2016
 
+#### iRep
+
+https://github.com/christophertbrown/iRep
+iRep is a method for determining replication rates for bacteria from single time point metagenomics sequencing and draft-quality genomes.
+
+https://github.com/banfieldlab/BanfieldLabProjects
+iRep - estimating bacteria replication rates based on population genome copy number variation
+
 https://www.ncbi.nlm.nih.gov/pubmed/27819664
 Nat Biotechnol. 2016 Dec;34(12):1256-1263. doi: 10.1038/nbt.3704. Epub 2016 Nov 7.
 Measurement of bacterial replication rates in microbial communities.
@@ -495,11 +503,7 @@ Brown CT1, Olm MR1, Thomas BC2, Banfield JF2,3,4.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538567/
 iRep and bPTR software are maintained under github.com/christophertbrown/iRep (v1.10 used in this analysis: github.com/christophertbrown/iRep/releases/tag/v1.10; Supplementary Code).
 
-https://github.com/christophertbrown/iRep
-iRep is a method for determining replication rates for bacteria from single time point metagenomics sequencing and draft-quality genomes.
-
-https://github.com/banfieldlab/BanfieldLabProjects
-iRep - estimating bacteria replication rates based on population genome copy number variation
+#### 2015
 
 https://www.ncbi.nlm.nih.gov/pubmed/26229116
 Science. 2015 Sep 4;349(6252):1101-1106. doi: 10.1126/science.aac4812. Epub 2015 Jul 30.
