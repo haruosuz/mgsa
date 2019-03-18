@@ -519,6 +519,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/20090831
 PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
 The systemic imprint of growth and its uses in ecological (meta)genomics.
 Vieira-Silva S1, Rocha EP.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
+- The resulting ΔENC′ and S values were then subject to principal components analysis, of which the first component (Fa) was compared with the one obtained from the whole genome.
+- Codon usage bias is the best determinant of minimum generation time
+
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/bin/pgen.1000808.g003.jpg)
 
 https://www.ncbi.nlm.nih.gov/pubmed/15479947
 Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
