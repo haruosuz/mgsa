@@ -473,17 +473,23 @@ Elisabeth Bik on Twitter: "Metagenome – Inferred bacterial replication rates i
 ![](https://pbs.twimg.com/media/DyK8pSiVsAAdwDI.jpg)
 
 #### GRiD
+Growth Rate Index (GRiD) 
+（ドラフトを含む）参照ゲノムとメタゲノムから細菌増殖速度を測定
 
-https://twitter.com/strnr/status/1093467959182397440
-Stephen Turner on Twitter: "High throughput in situ metagenomic measurement of bacterial replication at ultra-low sequencing coverage https://t.co/ahZHseQwIA… https://t.co/bBbvOgfElw"
-6:14 AM - 7 Feb 2019
-![](https://pbs.twimg.com/media/DyzHUEUX0AAHJdS.jpg)
+https://github.com/ohlab/GRiD
+Growth Rate Index (GRiD) measures bacterial growth rate from reference genomes (including draft quality genomes) and metagenomic bins at ultra-low sequencing coverage (> 0.2x).
 
 https://www.ncbi.nlm.nih.gov/pubmed/30470746
 Nat Commun. 2018 Nov 23;9(1):4956. doi: 10.1038/s41467-018-07240-8.
 High throughput in situ metagenomic measurement of bacterial replication at ultra-low sequencing coverage.
 Emiola A1, Oh J2.
-Growth Rate InDex (GRiD)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251912/
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251912/bin/41467_2018_7240_Fig1_HTML.jpg)
+
+https://twitter.com/strnr/status/1093467959182397440
+Stephen Turner on Twitter: "High throughput in situ metagenomic measurement of bacterial replication at ultra-low sequencing coverage https://t.co/ahZHseQwIA… https://t.co/bBbvOgfElw"
+6:14 AM - 7 Feb 2019
+![](https://pbs.twimg.com/media/DyzHUEUX0AAHJdS.jpg)
 
 https://twitter.com/mason_lab/status/987315842948960256
 Christopher Mason on Twitter: "Growth Rate Index (GRiD) measures bacterial growth rate from draft genomes and metagenomic bins at ultra-low sequencing coverage (> 0.2x) https://t.co/EhpVAES1QL from Julia Oh, Ph.D @jacksonlab"
