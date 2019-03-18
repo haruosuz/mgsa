@@ -1,6 +1,3 @@
-
-
-
 Haruo Suzuki (haruo[at]g-language[dot]org)  
 Last Update: 2019-03
 
@@ -9,7 +6,6 @@ Last Update: 2019-03
 # mgsa_memo
 
 ## Table of Contents
-
 - [database](#database)
 - [updates](#updates)
 - [featuring](#featuring)
@@ -34,7 +30,6 @@ Last Update: 2019-03
 - [k-mer](#k-mer)
 - [metagenomics](#metagenomics)
 - [growth rate](#growth-rate) 増殖速度
-- [temperature](#temperature) 温度
 - [resistance](#resistance) 耐性
 - [people](#people)
   - [Holt Lab](#holt-Lab)
@@ -458,13 +453,32 @@ https://bacdive.dsmz.de/strain/131145
 ### growth rate
 増殖速度
 
+https://twitter.com/_biogeek/status/1098660591009357824
+Dr Ashish Malik on Twitter: "Two cool papers just out shedding light on "extremely" slow growing bacteria: Extreme slow growth as alternative strategy to survive deep starvation https://t.co/EzNmWhQZAF Quantifying population-specific growth in benthic communities under low oxygen https://t.co/x5g2rycDy9"
+2:07 PM - 21 Feb 2019
+
 非胞子形成状態の枯草菌が飢餓状態（純水中）で数カ月生存可能。様々なストレス（抗生物質）に耐性、定常期と異なるトランスクリプトーム・プロファイルを示す。倍加時間4日。一万倍希釈LB培地。低栄養増殖状態（oligotrophic growth state）と命名。
 https://www.nature.com/articles/s41467-019-08719-8
 Extreme slow growth as alternative strategy to survive deep starvation in bacteria | Nature Communications
 
+#### GRiD
+
+https://twitter.com/strnr/status/1093467959182397440
+Stephen Turner on Twitter: "High throughput in situ metagenomic measurement of bacterial replication at ultra-low sequencing coverage https://t.co/ahZHseQwIA… https://t.co/bBbvOgfElw"
+6:14 AM - 7 Feb 2019
+![](https://pbs.twimg.com/media/DyzHUEUX0AAHJdS.jpg)
+
+https://www.ncbi.nlm.nih.gov/pubmed/30470746
+Nat Commun. 2018 Nov 23;9(1):4956. doi: 10.1038/s41467-018-07240-8.
+High throughput in situ metagenomic measurement of bacterial replication at ultra-low sequencing coverage.
+Emiola A1, Oh J2.
+Growth Rate InDex (GRiD)
+
 https://twitter.com/mason_lab/status/987315842948960256
 Christopher Mason on Twitter: "Growth Rate Index (GRiD) measures bacterial growth rate from draft genomes and metagenomic bins at ultra-low sequencing coverage (> 0.2x) https://t.co/EhpVAES1QL from Julia Oh, Ph.D @jacksonlab"
 9:03 AM - 20 Apr 2018
+
+#### 
 
 https://twitter.com/hornistyf/status/806723634165227520
 Y. Furuta on Twitter: "昨年先に出た似た話。こちらは完全ゲノム必要。／Growth dynamics of gut microbiota in health and disease inferred from single metagenomic... https://t.co/UtVM1E9S92"
@@ -514,49 +528,6 @@ Supplemental Research Data
 https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
 Table A1- Data table with major results. 
 the growth rate class (μ). the optimal doubling time (1/μ).
-
-----------
-## temperature
-温度
-
-- https://ja.wikipedia.org/wiki/好熱菌 thermophile
-- https://ja.wikipedia.org/wiki/低温菌 psychrophile
-
-最適増殖温度の予測
-https://www.ncbi.nlm.nih.gov/pubmed/30689741
-Bioinformatics. 2019 Jan 25. doi: 10.1093/bioinformatics/btz059. [Epub ahead of print]
-Predicting the Optimal Growth Temperatures of Prokaryotes using only Genome Derived Features.
-Sauer DB1, Wang DN1.
-The accuracy can be further improved for specific taxonomic clades or by excluding psychrophiles. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/23024607
-Curr Genomics. 2012 Apr;13(2):153-62.
-Microbial lifestyle and genome signatures.
-Dutta C1, Paul S.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
-i) Microorganisms Thriving at High Temperatures
-Regression analyses of the sequence data for thermophilic, mesophilic (OGT = 20-50°C) and psychrophilic (OGT <20°C) bacteria revealed linear relationships between OGT and a combination of purine and pyrimidine dimer compositions, RR +YY – RY – YR, where R= A/G, Y = C/T), the correlation coefficient being 0.66 [144, 145]. 
-
-最大増殖速度の予測
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-Second, selection for these traits depends on optimal growth temperature: for similar generation times purifying selection is stronger in psychrophiles, intermediate in mesophiles, and lower in thermophiles. 
-
-最適増殖温度と同義コドン使用
-https://www.ncbi.nlm.nih.gov/pubmed/16989961
-Gene. 2006 Dec 30;385:128-36. Epub 2006 Aug 22.
-Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes.
-Lobry JR1, Necşulea A.
-We report the unusual clustering of an Archaeal psychrophile with the thermophilic and hyperthermophilic species on the synonymous codon usage factorial map; the other psychrophiles in our study cluster with the mesophilic species. 
-
-好熱菌と常温菌のコドン使用の違い
-https://www.ncbi.nlm.nih.gov/pubmed/12364606
-Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
-Synonymous codon usage is subject to selection in thermophilic bacteria.
-Lynn DJ1, Singer GA, Hickey DA.
 
 ----------
 ## resistance
