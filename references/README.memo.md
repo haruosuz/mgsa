@@ -453,6 +453,12 @@ https://bacdive.dsmz.de/strain/131145
 ### growth rate
 増殖速度
 
+#### 2019
+
+https://twitter.com/MattagenOlmics/status/1100465734046498816
+Matt Olm on Twitter: "(https://t.co/uHTZlq8Mf7), secondary metabolite gene clusters using antismash (https://t.co/nQrEixuomA), BoNTs using BoNTbase (https://t.co/QEOvEieBC3), and metabolisms using KEGG modules (https://t.co/7d6QwbVOQI). Growth rates of bacteria were calculated using iRep (5/7)"
+1:40 PM - 26 Feb 2019
+
 https://twitter.com/_biogeek/status/1098660591009357824
 Dr Ashish Malik on Twitter: "Two cool papers just out shedding light on "extremely" slow growing bacteria: Extreme slow growth as alternative strategy to survive deep starvation https://t.co/EzNmWhQZAF Quantifying population-specific growth in benthic communities under low oxygen https://t.co/x5g2rycDy9"
 2:07 PM - 21 Feb 2019
@@ -460,6 +466,11 @@ Dr Ashish Malik on Twitter: "Two cool papers just out shedding light on "extreme
 非胞子形成状態の枯草菌が飢餓状態（純水中）で数カ月生存可能。様々なストレス（抗生物質）に耐性、定常期と異なるトランスクリプトーム・プロファイルを示す。倍加時間4日。一万倍希釈LB培地。低栄養増殖状態（oligotrophic growth state）と命名。
 https://www.nature.com/articles/s41467-019-08719-8
 Extreme slow growth as alternative strategy to survive deep starvation in bacteria | Nature Communications
+
+https://twitter.com/MicrobiomDigest/status/1090641480144711681
+Elisabeth Bik on Twitter: "Metagenome – Inferred bacterial replication rates in cystic fibrosis airways https://t.co/9mBQ5cyllD Note: this sounds similar to the iRep algorithm developed by @BanfieldLab but paywalled, so not sure.… https://t.co/XIlg0NuO3O"
+11:02 AM - 30 Jan 2019
+![](https://pbs.twimg.com/media/DyK8pSiVsAAdwDI.jpg)
 
 #### GRiD
 
@@ -488,6 +499,11 @@ https://twitter.com/hornistyf/status/806723370062467072
 Y. Furuta on Twitter: "細菌叢中の各種の複製スピードをメタゲノムリードから推測する話。ドラフトゲノムでOK。／Measurement of bacterial replication rates in microbial communities https://t.co/ujR3TKUFnI"
 11:53 PM - 7 Dec 2016
 
+https://twitter.com/svetlana_up/status/796298501554663424
+Svetlana U. Perović on Twitter: "Bacterial replication rates in microbial communities https://t.co/OOXB66bVgL [iRep calculates repl rates using genome-resolved metagenomics]… https://t.co/Ol4HyuGocx"
+5:28 AM - 9 Nov 2016
+![](https://pbs.twimg.com/media/Cw0FQEAXAAAgYV7.jpg)
+
 #### iRep
 
 https://github.com/christophertbrown/iRep
@@ -502,6 +518,7 @@ Measurement of bacterial replication rates in microbial communities.
 Brown CT1, Olm MR1, Thomas BC2, Banfield JF2,3,4.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538567/
 iRep and bPTR software are maintained under github.com/christophertbrown/iRep (v1.10 used in this analysis: github.com/christophertbrown/iRep/releases/tag/v1.10; Supplementary Code).
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538567/bin/nihms884305f1.jpg)
 
 #### 2015
 
