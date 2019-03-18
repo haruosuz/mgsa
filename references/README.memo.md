@@ -514,6 +514,7 @@ iRep - estimating bacteria replication rates based on population genome copy num
 2016年12月1日
 https://www.natureasia.com/ja-jp/nbt/34/12/nbt.3704
 微生物群集内の細菌の複製速度の測定
+我々は、概要精度のゲノム塩基配列および単一時点のメタゲノム塩基配列解読を利用して微生物集団の複製速度を推測するiRepというアルゴリズムを開発した。このアルゴリズムは、単一の複製起点からの二方向のゲノム複製から得られる塩基配列解読カバー率の傾向に基づいて複製指数（iRep）を算出する。
 
 https://www.ncbi.nlm.nih.gov/pubmed/27819664
 Nat Biotechnol. 2016 Dec;34(12):1256-1263. doi: 10.1038/nbt.3704. Epub 2016 Nov 7.
