@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-03
+Last Update: 2019-04
 
 ----------
 
@@ -37,91 +37,76 @@ Last Update: 2019-03
   - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 - [Mash](#mash)
 - [USEARCH](#usearch)
+- [LEfSe](#lefse)
 
 ----------
+## LEfSe
+linear discriminant analysis (LDA) effect size (LEfSe) 
+線形判別分析（LDA）効果量（LEfSe）
 
-### usearch
+https://www.ncbi.nlm.nih.gov/pubmed/21702898
+Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
+Metagenomic biomarker discovery and explanation.
+Segata N1, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/
+LEfSe determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
+(a) Step 1, Kruskal–Wallis
+(b) Step 2, Wilcoxon (pairwise comparisons)
+(c) Step 3, build a LDA model, effect size
 
-http://www.drive5.com/usearch/
+LEfSeのステップ
 
-http://drive5.com/usearch/manual/uclust_algo.html
-Recommended identity ranges
-UCLUST is effective at identities of ~50% and above for proteins and ~75% and above for nucleotides. At lower identities, this type of method is questionable because (i) alignment quality degrades and (ii) homology cannot be reliably determined from an alignment.
+2018-04-05
+https://www.micenavi.jp/jss118/search/detail_program/id:93
+大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
 
-http://crusade1096.web.fc2.com/usearch.html
-usearchを用いてもQiimeっぽい解析をすることは可能です。
+http://www.frc.a.u-tokyo.ac.jp/wp-content/uploads/2018/04/JRAreport_web.pdf
+汚染試料と非汚染試料における構成細菌の違いを明らかにするために、Linear
+discriminant analysis (LDA) effect size (LEfSe) 解析[4]を行いました。LEfSe 解析では
+LDA スコアが大きいほど各試料群を特徴付けている細菌といえます。
 
-https://sites.google.com/site/noteofpaediatricsurgery/in-silico/meta16s/uclust
-UCLUST - Draft of Pediatric Surgery
-* 類似する配列をまとめてクラスタリングするアルゴリズム
-* Centroid sequenceを中心
-* 設定された閾値を半径として描かれる円の中に納まる配列を1つのグループとしてクラスタリングする
+2017-06-29
+https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-15K15774/15K15774seika.pdf
+さらに菌種レベルで両群に差異のある細菌を抽出するため、各 OTU の検出リード数に基づいて Linear Discriminant Analysis Effect Size (LEFSe) 解析を行った。
 
-https://lab0animalhh3.wiki.fc2.com/wiki/ドライ・バイオロジーのページ
-最終更新:2018-12-06 17:27:59
+27 April 2017
+http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
+LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
 
-2017-03-26
-https://ci.nii.ac.jp/naid/500001054480/
-CiNii 博士論文 - 環境中の微生物叢解析のための超高速な配列解析ツールの開発
-http://t2r2.star.titech.ac.jp/rrws/file/CTT100736121/ATD100000413/
-UCLUSTはデフォルトでは
-配列長でソートした順に配列をクラスタリングするが、より新しいバージョンの UCLUSTでは
-同じ配列がsizeアノテーション付きでまとめてある場合に配列の数が多い順でクラスタリング
-することもできる (http://drive5.com/usearch/manual/abundance_sort.html)。しかしUCLUSTで
-は 、 size ア ノ テ ー シ ョ ン を つ け る た め に 別 途 dereplication を 行 う 必 要 性 が あ る (http://www.drive5.com/usearch/manual/cluster_sizes.html,
-http://www.drive5.com/usearch/manual/cmd_fastx_ uniques.html)。
+https://www.pediatricsurgery.site/archive/category/菌叢解析
+菌叢解析
 
-https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
-メタゲノム解析(2017NGSハンズオン講習会-2017年8月31日)
-森 宙史
-Sequence clustering with species level
-by CD-HIT-EST or UCLUST, etc.
+2016-10-31
+LEfSeを実際にやってみる
 
-https://rpubs.com/nishikosh/203465
-https://rstudio-pubs-static.s3.amazonaws.com/203465_a3afff5a73b94f66bb0fd7112a6cbb67.html
-USEARCHを用いたメタ16S解析パイプライン
-S.Konishi
-2016年10月4日
+2016-10-31
+LEfSeをインストールする
 
-https://yokazaki.hatenablog.com/entry/2015/07/28/212629
-USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog
-http://yokazaki.hatenablog.com/entry/2015/07/25/202628
-USEARCHを使った16S rRNAアンプリコンシーケンス分析 - yokaのblog
+https://www.pediatricsurgery.site/entry/2016/10/31/214233
+LEfSeを実際にやってみる - Note of Pediatric Surgery
 
-2015
-https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_article/-char/ja/
-進化する次世代シーケンサーによる腸内細菌叢の解析
-https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_pdf
-QIIME（Quantitative Insights into Microbial
-Ecology, http://qiime.org/）（5）の assign_taxonomy.py
-のプログラムの uclust のアルゴリズムを用いた．
+https://www.pediatricsurgery.site/entry/2016/10/31/210537
+LEfSeをインストールする - Note of Pediatric Surgery
 
-https://twitter.com/tyu_shi/status/28695306021
-Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
-10:21 AM - 25 Oct 2010
-
-----------
-
-## tools
-
-http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
-QIIME2インストールの方法解説 | Rとバイオインフォマティクス
-
-### cognizer
-
-https://omictools.com/cognizer-tool
-This tool is not available anymore.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26561344
-PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eCollection 2015.
-COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
-Bose T1, Haque MM1, Reddy C1, Mande SS1.
-The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
+2013-03-29
+https://syodokukai.exblog.jp/18438512/
+Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
 
 ----------
 ## updates
 
 ### 2019
+
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638
+AnnoTree: visualization and exploration of a functionally annotated microbial tree of life | Nucleic Acids Research | Oxford Academic
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/30957837
+Bioinformatics. 2019 Apr 8. pii: btz220. doi: 10.1093/bioinformatics/btz220. [Epub ahead of print]
+TORMES: an automated pipeline for whole bacterial genome analysis.
+Quijada NM1,2, Rodríguez-Lázaro D2, Hernández M1,2.
+
 
 https://www.nature.com/articles/s41467-019-08844-4
 Microbial abundance, activity and population genomic profiling with mOTUs2 | Nature Communications
@@ -260,6 +245,86 @@ http://www.jsbi.org/iibmp2016/program_highlight/
 乳児期のビフィズス菌優占の腸内細菌群集を形成する鍵となる因子の解明
 Nat Commun. 2016, 7:11939. doi: 10.1038/ncomms11939.
 http://www.nature.com/articles/ncomms11939
+
+----------
+
+### usearch
+
+http://www.drive5.com/usearch/
+
+http://drive5.com/usearch/manual/uclust_algo.html
+Recommended identity ranges
+UCLUST is effective at identities of ~50% and above for proteins and ~75% and above for nucleotides. At lower identities, this type of method is questionable because (i) alignment quality degrades and (ii) homology cannot be reliably determined from an alignment.
+
+http://crusade1096.web.fc2.com/usearch.html
+usearchを用いてもQiimeっぽい解析をすることは可能です。
+
+https://sites.google.com/site/noteofpaediatricsurgery/in-silico/meta16s/uclust
+UCLUST - Draft of Pediatric Surgery
+* 類似する配列をまとめてクラスタリングするアルゴリズム
+* Centroid sequenceを中心
+* 設定された閾値を半径として描かれる円の中に納まる配列を1つのグループとしてクラスタリングする
+
+https://lab0animalhh3.wiki.fc2.com/wiki/ドライ・バイオロジーのページ
+最終更新:2018-12-06 17:27:59
+
+2017-03-26
+https://ci.nii.ac.jp/naid/500001054480/
+CiNii 博士論文 - 環境中の微生物叢解析のための超高速な配列解析ツールの開発
+http://t2r2.star.titech.ac.jp/rrws/file/CTT100736121/ATD100000413/
+UCLUSTはデフォルトでは
+配列長でソートした順に配列をクラスタリングするが、より新しいバージョンの UCLUSTでは
+同じ配列がsizeアノテーション付きでまとめてある場合に配列の数が多い順でクラスタリング
+することもできる (http://drive5.com/usearch/manual/abundance_sort.html)。しかしUCLUSTで
+は 、 size ア ノ テ ー シ ョ ン を つ け る た め に 別 途 dereplication を 行 う 必 要 性 が あ る (http://www.drive5.com/usearch/manual/cluster_sizes.html,
+http://www.drive5.com/usearch/manual/cmd_fastx_ uniques.html)。
+
+https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
+メタゲノム解析(2017NGSハンズオン講習会-2017年8月31日)
+森 宙史
+Sequence clustering with species level
+by CD-HIT-EST or UCLUST, etc.
+
+https://rpubs.com/nishikosh/203465
+https://rstudio-pubs-static.s3.amazonaws.com/203465_a3afff5a73b94f66bb0fd7112a6cbb67.html
+USEARCHを用いたメタ16S解析パイプライン
+S.Konishi
+2016年10月4日
+
+https://yokazaki.hatenablog.com/entry/2015/07/28/212629
+USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog
+http://yokazaki.hatenablog.com/entry/2015/07/25/202628
+USEARCHを使った16S rRNAアンプリコンシーケンス分析 - yokaのblog
+
+2015
+https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_article/-char/ja/
+進化する次世代シーケンサーによる腸内細菌叢の解析
+https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_pdf
+QIIME（Quantitative Insights into Microbial
+Ecology, http://qiime.org/）（5）の assign_taxonomy.py
+のプログラムの uclust のアルゴリズムを用いた．
+
+https://twitter.com/tyu_shi/status/28695306021
+Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
+10:21 AM - 25 Oct 2010
+
+----------
+
+## tools
+
+http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
+QIIME2インストールの方法解説 | Rとバイオインフォマティクス
+
+### cognizer
+
+https://omictools.com/cognizer-tool
+This tool is not available anymore.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26561344
+PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eCollection 2015.
+COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
+Bose T1, Haque MM1, Reddy C1, Mande SS1.
+The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
 
 ----------
 ## Mash
