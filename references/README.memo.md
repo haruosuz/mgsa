@@ -57,6 +57,16 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
 
 LEfSeのステップ
 
+https://twbattaglia.gitbooks.io/introduction-to-qiime/content/lefse.html
+LEfSe · An Introduction to QIIME 1.9.1
+
+LEfSe (Linear discriminant analysis effect size) is a tool developed by the Huttenhower group to find biomarkers between 2 or more groups using relative abundances.
+
+LEfSe uses a table of relative abundances which also includes sample identifiers and group meta data. 
+
+https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
+Differential abundance analysis with LEfSe
+
 2018-04-05
 https://www.micenavi.jp/jss118/search/detail_program/id:93
 大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
