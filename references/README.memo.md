@@ -395,7 +395,7 @@ https://www.natureasia.com/ja-jp/nature/439/7078/nature04435
 海洋性の浮遊細菌と古細菌の間でのプロテオロドプシン遺伝子の水平伝播 | Nature | Nature Research
 プロテオロドプシンの全世界的な系統的分布
 
-ヒ素耐性遺伝子
+原核生物におけるヒ素耐性遺伝子の分布
 https://www.ncbi.nlm.nih.gov/pubmed/30405552
 Front Microbiol. 2018 Oct 23;9:2473. doi: 10.3389/fmicb.2018.02473. eCollection 2018.
 Distribution of Arsenic Resistance Genes in Prokaryotes.
