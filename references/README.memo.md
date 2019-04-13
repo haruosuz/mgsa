@@ -6,9 +6,10 @@ Last Update: 2019-04
 # mgsa_memo
 
 ## Table of Contents
-- [database](#database)
-- [updates](#updates)
 - [featuring](#featuring)
+- [updates](#updates)
+- [database](#database)
+- [distribution](#distribution) 遺伝子の系統分布
 - [fastGEAR](#fastgear)
 - [BAPS](#baps)
 - [harvest](#harvest)
@@ -40,71 +41,19 @@ Last Update: 2019-04
 - [LEfSe](#lefse)
 
 ----------
-## LEfSe
-linear discriminant analysis (LDA) effect size (LEfSe) 
-線形判別分析（LDA）効果量（LEfSe）
-
-https://www.ncbi.nlm.nih.gov/pubmed/21702898
-Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
-Metagenomic biomarker discovery and explanation.
-Segata N1, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/
-LEfSe determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
-(a) Step 1, Kruskal–Wallis
-(b) Step 2, Wilcoxon (pairwise comparisons)
-(c) Step 3, build a LDA model, effect size
-
-LEfSeのステップ
-
-https://twbattaglia.gitbooks.io/introduction-to-qiime/content/lefse.html
-LEfSe · An Introduction to QIIME 1.9.1
-
-LEfSe (Linear discriminant analysis effect size) is a tool developed by the Huttenhower group to find biomarkers between 2 or more groups using relative abundances.
-
-LEfSe uses a table of relative abundances which also includes sample identifiers and group meta data. 
-
-https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
-Differential abundance analysis with LEfSe
-
-2018-04-05
-https://www.micenavi.jp/jss118/search/detail_program/id:93
-大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
-
-http://www.frc.a.u-tokyo.ac.jp/wp-content/uploads/2018/04/JRAreport_web.pdf
-汚染試料と非汚染試料における構成細菌の違いを明らかにするために、Linear
-discriminant analysis (LDA) effect size (LEfSe) 解析[4]を行いました。LEfSe 解析では
-LDA スコアが大きいほど各試料群を特徴付けている細菌といえます。
-
-2017-06-29
-https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-15K15774/15K15774seika.pdf
-さらに菌種レベルで両群に差異のある細菌を抽出するため、各 OTU の検出リード数に基づいて Linear Discriminant Analysis Effect Size (LEFSe) 解析を行った。
-
-27 April 2017
-http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
-LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
-
-https://www.pediatricsurgery.site/archive/category/菌叢解析
-菌叢解析
-
-2016-10-31
-LEfSeを実際にやってみる
-
-2016-10-31
-LEfSeをインストールする
-
-https://www.pediatricsurgery.site/entry/2016/10/31/214233
-LEfSeを実際にやってみる - Note of Pediatric Surgery
-
-https://www.pediatricsurgery.site/entry/2016/10/31/210537
-LEfSeをインストールする - Note of Pediatric Surgery
-
-2013-03-29
-https://syodokukai.exblog.jp/18438512/
-Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
 
 ----------
 ## updates
+
+
+### 2019-04-12
+
+https://twitter.com/strnr/status/1116714372091580423
+Stephen Turner on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/3LbId2vvnb code https://t.co/YxJsNSqzAF Data from https://t.co/0tbwD4jvZL… https://t.co/Gri74Eq0Zf"
+10:47 AM - 12 Apr 2019
+
+https://www.biorxiv.org/content/10.1101/607085v1
+DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes | bioRxiv
 
 ### 2019
 
@@ -336,6 +285,75 @@ COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
 Bose T1, Haque MM1, Reddy C1, Mande SS1.
 The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
 
+
+
+
+----------
+## LEfSe
+linear discriminant analysis (LDA) effect size (LEfSe) 
+線形判別分析（LDA）効果量（LEfSe）
+
+https://www.ncbi.nlm.nih.gov/pubmed/21702898
+Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
+Metagenomic biomarker discovery and explanation.
+Segata N1, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/
+LEfSe determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
+(a) Step 1, Kruskal–Wallis
+(b) Step 2, Wilcoxon (pairwise comparisons)
+(c) Step 3, build a LDA model, effect size
+
+LEfSeのステップ
+
+https://twbattaglia.gitbooks.io/introduction-to-qiime/content/lefse.html
+LEfSe · An Introduction to QIIME 1.9.1
+
+LEfSe (Linear discriminant analysis effect size) is a tool developed by the Huttenhower group to find biomarkers between 2 or more groups using relative abundances.
+
+LEfSe uses a table of relative abundances which also includes sample identifiers and group meta data. 
+
+https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
+Differential abundance analysis with LEfSe
+
+2018-04-05
+https://www.micenavi.jp/jss118/search/detail_program/id:93
+大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
+
+http://www.frc.a.u-tokyo.ac.jp/wp-content/uploads/2018/04/JRAreport_web.pdf
+汚染試料と非汚染試料における構成細菌の違いを明らかにするために、Linear
+discriminant analysis (LDA) effect size (LEfSe) 解析[4]を行いました。LEfSe 解析では
+LDA スコアが大きいほど各試料群を特徴付けている細菌といえます。
+
+2017-06-29
+https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-15K15774/15K15774seika.pdf
+さらに菌種レベルで両群に差異のある細菌を抽出するため、各 OTU の検出リード数に基づいて Linear Discriminant Analysis Effect Size (LEFSe) 解析を行った。
+
+27 April 2017
+http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
+LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
+
+https://www.pediatricsurgery.site/archive/category/菌叢解析
+菌叢解析
+
+2016-10-31
+LEfSeを実際にやってみる
+
+2016-10-31
+LEfSeをインストールする
+
+https://www.pediatricsurgery.site/entry/2016/10/31/214233
+LEfSeを実際にやってみる - Note of Pediatric Surgery
+
+https://www.pediatricsurgery.site/entry/2016/10/31/210537
+LEfSeをインストールする - Note of Pediatric Surgery
+
+2013-03-29
+https://syodokukai.exblog.jp/18438512/
+Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
+
+
+
 ----------
 ## Mash
 Mash: fast genome and metagenome distance estimation using MinHash
@@ -382,17 +400,16 @@ https://www.ncbi.nlm.nih.gov/pubmed/30405552
 Front Microbiol. 2018 Oct 23;9:2473. doi: 10.3389/fmicb.2018.02473. eCollection 2018.
 Distribution of Arsenic Resistance Genes in Prokaryotes.
 Ben Fekih I1, Zhang C1, Li YP1, Zhao Y2, Alwathnani HA3, Saquib Q4, Rensing C1,5, Cervantes C6.
-```
 Numerous ars operons, with a variety of genes and different combinations of them, populate the prokaryotic genomes, including their accessory plasmids, transposons, and genomic islands. 
 This review summarizes the presence, distribution, organization, and redundance of arsenic resistance genes in prokaryotes.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/
 Additional Arsenic Resistance Genes
 However, the arsenite transport pathway was unknown until an aquaglyceroporin, the glycerol facilitator GlpF, was discovered in E. coli as an “accidental” arsenite uptake transporter (Sanders et al., 1997; Rosen, 2002; Meng et al., 2004). 
-```
 
+FIGURE 1
 Distribution of ars genes in arsenic-resistant prokaryotes. 
-
-![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/figure/F1/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/bin/fmicb-09-02473-g001.jpg)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/figure/F1/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/bin/fmicb-09-02473-g001.jpg
 
 http://www.chem.utsunomiya-u.ac.jp/lab/bio/research_qs1.html
 研究テーマ（Quorum Sensing その1） -生物工学研究室-
