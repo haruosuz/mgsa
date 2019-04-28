@@ -42,6 +42,43 @@ Last Update: 2019-04
 
 ----------
 
+
+
+----------
+## featuring
+
+http://www.microbesonline.org/
+phylogenetic profile
+
+https://github.com/kblin/ncbi-genome-download
+kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
+
+
+https://twitter.com/sjackman/status/1045005404227362817
+Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
+1:41 PM - 26 Sep 2018
+
+https://twitter.com/torstenseemann/status/1013354894730772480
+Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
+5:33 AM - 1 Jul 2018
+
+https://twitter.com/i/moments/1000738412117147648
+All metagenomes searched at once?
+
+https://twitter.com/merenbey/status/1001592427369648128
+A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
+6:33 PM - 29 May 2018
+
+
+https://twitter.com/tylerbarnumphd/status/1010247842772815872
+Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the ~8,000 Uncultivated Bacteria and Archaea (UBA) genomes from @donovan_parks. It's the largest collection of genomes that you can't search for on BLAST or IMG. ~1,500 metagenomes. https://t.co/PgavpbmsQg Feedback welcome!"
+3:47 PM - 22 Jun 2018
+
+https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and-archaea-uba-genomes-for-important-genes/
+Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
+June 22, 2018
+
+
 ----------
 ## updates
 
@@ -56,10 +93,6 @@ https://www.biorxiv.org/content/10.1101/607085v1
 DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes | bioRxiv
 
 ### 2019
-
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638
-AnnoTree: visualization and exploration of a functionally annotated microbial tree of life | Nucleic Acids Research | Oxford Academic
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/30957837
 Bioinformatics. 2019 Apr 8. pii: btz220. doi: 10.1093/bioinformatics/btz220. [Epub ahead of print]
@@ -188,6 +221,13 @@ https://bitbucket.org/lionelguy/phyloskeleton/
 
 ### 2017
 
+
+https://twitter.com/thePeerJ/status/932675684543139845
+PeerJ - the journal on Twitter: "PBxplore: a tool to analyze local protein structure and deformability with Protein Blocks https://t.co/p86EiqUZst #bioinformatics https://t.co/fJ1DjbVwFL"
+1:23 PM - 20 Nov 2017
+
+![](https://pbs.twimg.com/media/DPGHl2cW0AYCa1a.jpg)
+
 https://www.biorxiv.org/content/early/2017/11/08/215988
 Panaconda: Application of pan-synteny graph models to genome content analysis 
 
@@ -197,6 +237,23 @@ BINF 6203: Genome Comparison with Mauve – Genome Intelligence
 
 ![http://genomeintelligence.org/?p=1157](http://genomeintelligence.org/wp-content/uploads/2015/03/Mauve3-1024x647.jpg)
 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/29114401
+Microb Genom. 2017 Jul 8;3(9):e000122. doi: 10.1099/mgen.0.000122. eCollection 2017 Sep.
+Aligner optimization increases accuracy and decreases compute times in multi-species sequence data.
+Robinson KM1, Hawkins AS1, Santana-Cruz I1, Adkins RS1, Shetty AC1, Nagaraj S1, Sadzewicz L1, Tallon LJ1, Rasko DA1,2, Fraser CM1,3, Mahurkar A1, Silva JC1,2, Dunning Hotopp JC1,2.
+
+
+
+
+https://twitter.com/marimiya_clc/status/822631074060767234
+:marimiya on Twitter: "これすごいな。SRAから400,000の微生物ゲノムのデータの一部をとってきて、Minhashしてるのか。トリミングとかその辺も考慮してるんだな。 https://t.co/Os6di00uYK"
+9:25 PM - 20 Jan 2017
+
+http://ivory.idyll.org/blog/2017-sourmash-sra-microbial-wgs.html
+Categorizing 400,000 microbial genome shotgun data sets from the SRA
+
 ### 2016
 
 http://www.jsbi.org/iibmp2016/program_highlight/
@@ -204,6 +261,63 @@ http://www.jsbi.org/iibmp2016/program_highlight/
 乳児期のビフィズス菌優占の腸内細菌群集を形成する鍵となる因子の解明
 Nat Commun. 2016, 7:11939. doi: 10.1038/ncomms11939.
 http://www.nature.com/articles/ncomms11939
+
+----------
+
+### cd-hit
+http://weizhongli-lab.org/cd-hit/
+
+http://crusade1096.web.fc2.com/cdhit.html
+CD-HIT
+Trinityでアセンブルすると，似たような配列があります。それをcd-hitで取り除きます。
+
+http://www.fish-evol.org/trinity_inoue.html
+Trinity - 井上 潤
+2018 年 11 月 2日
+2. CD-HIT
+
+http://kazumaxneo.hatenablog.com/entry/2017/08/03/191326
+シーケンスをクラスタリングする cd-hit - macでインフォマティクス
+
+http://sy41211.hatenablog.com/entry/2015/12/12/162232
+配列クラスタリングプログラムCD-HITの使い方 - バイオインフォマティクス初心者の日常
+
+https://bi.biopapyrus.jp/seq/alignment/software/cd-hit.html
+CD-HIT | 核酸およびアミノ酸配列のクラスタリング
+cd-hit-v4.6.4-2015-0603
+
+https://bio-info.biz/article/ato_cdhit_basic_usage.html
+CD-HITの使用方法全般
+cd-hit-v4.6.1-2012-08-27
+
+
+2017/08/31
+https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
+メタゲノム解析(2017NGSハンズオン講習会-2017年8月31日)
+(メタ16S解析)
+Sequence clustering with species level
+by CD-HIT-EST or UCLUST, etc.
+
+
+
+2011年02月15日
+https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102207170983177&rel=0
+最長共通部分列に基づくDNA配列の高速クラスタリング
+https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=71512&item_no=1&attribute_id=1&file_no=1
+広く利用されている既存の配列クラスタリングツールとして，Li らによる CD-HIT1)–3) がある.CD-HIT は近似的なクラスタリング手法を用いることによって比較的大量の配列 を高速に処理することができ，メタゲノムデータのアノテーションパイプライン中で用いら れたり4)，Uniprot や PDB といった公共データベースにおいて冗長な類似配列を列挙して 取り除くためにも使われている.しかし，1000 万本の配列のクラスタリングは数日かかる という具合に，次世代シーケンサーから得られた配列ほどの規模のデータをクラスタリング する場合，現実的な時間で処理するのは困難になってくるという問題がある.
+本研究では次世代シーケンサーから得られた DNA 配列をターゲットとし，最長共通部分 列 (Longest Common Subsequence, LCS) の性質を用いて類似配列ペアの高速フィルタリ ング手法「LCS filtering」を開発した.CD-HIT のクラスタリングアルゴリズムの一部 を改変しつつ LCS filtering を導入することで，精度を維持しながら DNA 配列クラスタリ ング処理の大幅な高速化を実現した.
+
+2011
+https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=107771&item_no=1
+次世代シーケンサーから得られたDNA配列の高速クラスタリングに関する研究
+
+広く利用されている既存の配列クラスタリングツール のひとつに CD-HIT [2] がある.CD-HIT は近似的なクラ スタリング手法を用いることによって比較的大量の配列 を高速に処理することができ，メタゲノムデータのアノ テーションパイプライン中で用いられたり，Uniprot や PDB といった公共データベースにおいて冗長配列を取り 除いてデータベースサイズを圧縮するのにも使われてい る.しかし，1000 万本の配列のクラスタリング処理には 数日かかるという具合に，次世代シーケンサーの出力配 列ほどの規模のデータをクラスタリングする場合，現実 的な時間で処理するのは困難になってくるという問題が ある.
+
+----------
+
+https://twitter.com/ErichMSchwarz/status/492444458613747712
+Erich M. Schwarz on Twitter: "kClust -- proteome clustering to ~25% identity, faster and/or more reliable than CD-HIT or UCLUST: http://t.co/VaH6bSKBZC"
+7:01 PM - 24 Jul 2014
 
 ----------
 
@@ -227,6 +341,11 @@ UCLUST - Draft of Pediatric Surgery
 https://lab0animalhh3.wiki.fc2.com/wiki/ドライ・バイオロジーのページ
 最終更新:2018-12-06 17:27:59
 
+https://www.pediatricsurgery.site/entry/2017/11/19/200241
+mothur開発者によるmothurとQIIMEの比較 - Note of Pediatric Surgery
+USEARCHから無料のVSEARCHに置き換えることに取り組んでいるらしい
+6. 再現性
+
 2017-03-26
 https://ci.nii.ac.jp/naid/500001054480/
 CiNii 博士論文 - 環境中の微生物叢解析のための超高速な配列解析ツールの開発
@@ -234,9 +353,10 @@ http://t2r2.star.titech.ac.jp/rrws/file/CTT100736121/ATD100000413/
 UCLUSTはデフォルトでは
 配列長でソートした順に配列をクラスタリングするが、より新しいバージョンの UCLUSTでは
 同じ配列がsizeアノテーション付きでまとめてある場合に配列の数が多い順でクラスタリング
-することもできる (http://drive5.com/usearch/manual/abundance_sort.html)。しかしUCLUSTで
+することもできる (http://drive5.com/usearch/manual/abundance_sort.html
+)。しかしUCLUSTで
 は 、 size ア ノ テ ー シ ョ ン を つ け る た め に 別 途 dereplication を 行 う 必 要 性 が あ る (http://www.drive5.com/usearch/manual/cluster_sizes.html,
-http://www.drive5.com/usearch/manual/cmd_fastx_ uniques.html)。
+http://www.drive5.com/usearch/manual/cmd_fastx_uniques.html)。
 
 https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
 メタゲノム解析(2017NGSハンズオン講習会-2017年8月31日)
@@ -249,6 +369,12 @@ https://rstudio-pubs-static.s3.amazonaws.com/203465_a3afff5a73b94f66bb0fd7112a6c
 USEARCHを用いたメタ16S解析パイプライン
 S.Konishi
 2016年10月4日
+
+https://twitter.com/pathogenomenick/status/766251676319752192
+Nick Loman on Twitter: "De novo clustering of long, noisy amplicon reads? Any experience? UCLUST or CD-HIT likely to work? #porecamp"
+8:33 AM - 18 Aug 2016
+
+
 
 https://yokazaki.hatenablog.com/entry/2015/07/28/212629
 USEARCHを使った16S rRNAアンプリコンシーケンス析② - yokaのblog
@@ -266,6 +392,9 @@ Ecology, http://qiime.org/）（5）の assign_taxonomy.py
 https://twitter.com/tyu_shi/status/28695306021
 Tyu_Shi on Twitter: "これがUSEARCH。こいつをクラスタの代表配列群相手に実行しているのがUCLUST。やたらと速いのは最初にwordの出現頻度計算してメモリにのせておいて、各配列ごとに上位8配列ぐらいとしかアライメント形成していないから。wordの共有数と相同性に相関があることが根拠らしい。"
 10:21 AM - 25 Oct 2010
+
+----------
+
 
 ----------
 
@@ -352,8 +481,6 @@ LEfSeをインストールする - Note of Pediatric Surgery
 https://syodokukai.exblog.jp/18438512/
 Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
 
-
-
 ----------
 ## Mash
 Mash: fast genome and metagenome distance estimation using MinHash
@@ -366,6 +493,25 @@ Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distanc
 
 http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
 MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+
+
+
+----------
+
+### annotree
+
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638
+AnnoTree: visualization and exploration of a functionally annotated microbial tree of life | Nucleic Acids Research | Oxford Academic
+
+https://twitter.com/strnr/status/1117782170645483520
+AnnoTree: visualization and exploration of a functionally annotated microbial tree of life
+Paper https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638 …
+App http://annotree.uwaterloo.ca/ 
+Code https://bitbucket.org/account/user/doxeylabcrew/projects/AN …
+Docs https://annotree-docs.readthedocs.io/en/latest/ 
+Data http://gtdb.ecogenomic.org/downloads 
+9:30 AM - 15 Apr 2019
+![](https://pbs.twimg.com/media/D4Mo9PSXoAEYnZ1.jpg)
 
 ----------
 ## distribution
@@ -440,69 +586,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/
 Strain-specific glycoside hydrolase distribution in bacteria.
 
 ![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg)
-
-
-----------
-## featuring
-
-http://www.microbesonline.org/
-phylogenetic profile
-
-https://github.com/kblin/ncbi-genome-download
-kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
-
-
-https://twitter.com/sjackman/status/1045005404227362817
-Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
-1:41 PM - 26 Sep 2018
-
-https://twitter.com/torstenseemann/status/1013354894730772480
-Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
-5:33 AM - 1 Jul 2018
-
-https://twitter.com/i/moments/1000738412117147648
-All metagenomes searched at once?
-
-https://twitter.com/merenbey/status/1001592427369648128
-A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
-6:33 PM - 29 May 2018
-
-
-
-----------
-
-総説
-https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
-New approaches for metagenome assembly with short reads | Briefings in Bioinformatics | Oxford Academic
-```
-In this review, we describe the challenges inherent in metagenomic assemblies and compare the different approaches taken by these novel assembly tools.
-
-Figure 1
-Two different approaches to genome assembly: (a)
-
-(Single) genome assembly
-The challenge of metagenomic assembly
-Unknown abundance and diversity
-Related species
-Memory and processing challenges
-Initial classification of reads
-Graph partitioning
-Read pair information
-Approaches taken by metagenomic assemblers
-
-Table 1
-Metagenomic assembly tools: key concepts and references to publications
-
-Assemblers adopting overlap strategies
-dBg-based assemblers
-Assembly pipelines
-Reference-guided assembly and contig binning
-Assessing assembly quality
-Conclusion
-```
-
-![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bib/PAP/10.1093_bib_bbz020/2/m_bbz020f1.png?Expires=1551724400&Signature=eW-f5nggqiGFicDj19UIhx9WVxfzqDe8Cn3tUcP5v9R1WK7HsoarGwZNupnwsOCHKZG13iUnI9bcHAriSfpFKLpZWUL9Gd5vdqPJIDzpSmV0urOuB-LwDLbkDCTglYBa0F9c0nEq88yTxpRgAAxeFn28KA6MNXtV8Rb~qOI7Ecri~SRnZ-5Zo42-oM523PssfYl0vAcdTR8SSQdkWDvKSqNMpfwxFG5SUtEcTDLvNXV1lxu60iQh4uxPEL3S2m4c8D2YJr~EkEXXUqB-P6k0S3~Zf33sPmcyJEOF84w2o~fe1R~AH2M1byWLMT16kONZCxO901LBORzchNhWY5HfMw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
-
 
 ----------
 ## database
@@ -1081,6 +1164,53 @@ https://www.ncbi.nlm.nih.gov/pubmed/28460117
 Mol Biol Evol. 2017 Aug 1;34(8):2115-2122. doi: 10.1093/molbev/msx148.
 Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper.
 Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Mering C2,3, Bork P1,5,6,7.
+
+
+
+
+
+
+
+----------
+
+
+
+
+----------
+## review
+
+総説
+https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz020/5363831
+New approaches for metagenome assembly with short reads | Briefings in Bioinformatics | Oxford Academic
+```
+In this review, we describe the challenges inherent in metagenomic assemblies and compare the different approaches taken by these novel assembly tools.
+
+Figure 1
+Two different approaches to genome assembly: (a)
+
+(Single) genome assembly
+The challenge of metagenomic assembly
+Unknown abundance and diversity
+Related species
+Memory and processing challenges
+Initial classification of reads
+Graph partitioning
+Read pair information
+Approaches taken by metagenomic assemblers
+
+Table 1
+Metagenomic assembly tools: key concepts and references to publications
+
+Assemblers adopting overlap strategies
+dBg-based assemblers
+Assembly pipelines
+Reference-guided assembly and contig binning
+Assessing assembly quality
+Conclusion
+```
+
+![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bib/PAP/10.1093_bib_bbz020/2/m_bbz020f1.png?Expires=1551724400&Signature=eW-f5nggqiGFicDj19UIhx9WVxfzqDe8Cn3tUcP5v9R1WK7HsoarGwZNupnwsOCHKZG13iUnI9bcHAriSfpFKLpZWUL9Gd5vdqPJIDzpSmV0urOuB-LwDLbkDCTglYBa0F9c0nEq88yTxpRgAAxeFn28KA6MNXtV8Rb~qOI7Ecri~SRnZ-5Zo42-oM523PssfYl0vAcdTR8SSQdkWDvKSqNMpfwxFG5SUtEcTDLvNXV1lxu60iQh4uxPEL3S2m4c8D2YJr~EkEXXUqB-P6k0S3~Zf33sPmcyJEOF84w2o~fe1R~AH2M1byWLMT16kONZCxO901LBORzchNhWY5HfMw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
 
 
 ----------
