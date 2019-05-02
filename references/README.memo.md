@@ -2021,6 +2021,26 @@ Lozupone C1, Knight R.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
 UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
 
+https://twitter.com/level3defless/status/890749455590342658
+Koichi Higashi on Twitter: "系統組成をアップロードして類似したサンプルを検索、比較するウェブサーバ。Earth mover's distance的な計算でweighted UniFracを高速に評価できるらしい。 https://t.co/K6RszvQpzR"
+9:43 PM - 27 Jul 2017
+
+https://twitter.com/windowmoon/status/783394541067829252
+働く窓月 on Twitter: "UniFracを計算しようとして、有根系統樹が必要なことにハマった。というか、ものすごい高次系統で根の位置が決められない…。Phylogenetic Community Dissimilarityなら無根でいいから、こっちにしよう。"
+3:53 PM - 4 Oct 2016
+
+https://twitter.com/windowmoon/status/411160508532658176
+働く窓月 on Twitter: "そう言えば、種生物でUniFrac使ってる発表(Q大のMTYKさんだったか?)があって、「細菌向けに開発されたものだから何か問題あるのかも」とか書いていたように記憶している。が、対象生物が細菌であることを前提とした方法ではないと思う。問題があるとすれば、系統樹だろう。"
+10:47 AM - 12 Dec 2013
+
+https://twitter.com/Tyu_Shi/status/411124035401949184
+Tyu_Shi on Twitter: "昨日からの発表を聴いていると、みんなUniFrac Distanceを万能の距離尺度と考えて使っているように感じられるが、あれはUniFrac Distanceを計算する系統樹が問題無いことを前提にしているのだから、その前提の確認無しに信頼しすぎるのはマズいよ。"
+8:23 AM - 12 Dec 2013
+
+https://twitter.com/yuifu/status/187741115720548352
+Haruka Ozaki on Twitter: "UniFracの元論文。細菌叢の配列集合間の距離を計算する手法。系統樹上で共有する枝長を使い、かつ、距離を定義したことが新しかったらしい。オルタナティブを作ろうとすると、優位性を示す方法がないことが課題。 http://t.co/nZudriEa #Everydayペーパー"
+11:19 PM - 4 Apr 2012
+
 ### diversity index
 多様性指数
 
