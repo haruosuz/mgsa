@@ -2003,19 +2003,33 @@ Isolates Browser - Pathogen Detection - NCBI
 ----------
 ## 2019-05-02
 
-
-
 統計的独立の問題。種間に系統関係があるならば、統計学的にみてデータ点は独立ではあり得ない。（三中信宏「生物系統学」334ページ）
 FIG.2.データ点が独立 FIG.3. データ点が非独立
 https://www.jstor.org/stable/2461605
 Joseph Felsenstein (1985)
 Phylogenies and the Comparative Method
+
 http://en.wikipedia.org/wiki/Phylogenetic_comparative_methods
+Phylogenetic comparative methods (PCMs) use information on the historical relationships of lineages (phylogenies) to test evolutionary hypotheses.
 
+https://www.ncbi.nlm.nih.gov/pubmed/16535456
+Problems in measuring bacterial diversity and a possible solution.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1388994/pdf/hw4299.pdf
+Simpson’s
+index, the Shannon index, and evenness indices give enough
+weighting to the relative abundances along with species richness but fail to take into account the taxonomic distances
+between species, individuals, or any other appropriate unit. An
+information-based index would treat a community of four different biotypes of coliforms identical to another community
+consisting of one species of coliforms, one of actinomycetes,
+one of myxobacteria, and one of archaebacteria, whereas we
+feel that the latter should be treated as more diverse. 
 
+### UniFrac
 UniFracは、距離計量 distance metric の要件を満たす。
+
 https://en.wikipedia.org/wiki/UniFrac
 This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
+
 https://www.ncbi.nlm.nih.gov/pubmed/20827291
 ISME J. 2011 Feb;5(2):169-72. doi: 10.1038/ismej.2010.133. Epub 2010 Sep 9.
 UniFrac: an effective distance metric for microbial community comparison.
@@ -2023,6 +2037,12 @@ Lozupone C1, Lladser ME, Knights D, Stombaugh J, Knight R.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105689/
 In this study, we present a mathematical proof that both weighted and unweighted UniFrac values have the formal requirements of a distance metric (Rudin, 1987): they are always non-negative, symmetric and satisfy the triangle inequality, and identical sequence sets have a value of 0 (Supplementary Methods). 
 
+https://www.ncbi.nlm.nih.gov/pubmed/16332807
+Appl Environ Microbiol. 2005 Dec;71(12):8228-35.
+UniFrac: a new phylogenetic method for comparing microbial communities.
+Lozupone C1, Knight R.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
+UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
 
 ----------
 
