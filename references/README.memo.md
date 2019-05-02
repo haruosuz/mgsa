@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-04
+Last Update: 2019-05
 
 ----------
 
@@ -2004,6 +2004,12 @@ https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html
 
 ----------
 
+https://github.com/haruosuz/microbe/blob/master/references/README.microbiome.md#meta-analysis
+
+Gibbons, Duvallet, Alm のメタアナリシス
+
+----------
+
 https://github.com/haruosuz/statistics/blob/master/README.md#distance
 
 ### UniFrac
@@ -2138,10 +2144,6 @@ http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
 MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
 
 ----------
-
-
-
-
 
 
 
