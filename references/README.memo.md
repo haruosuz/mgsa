@@ -2074,6 +2074,20 @@ LEfSe uses a table of relative abundances which also includes sample identifiers
 https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
 Differential abundance analysis with LEfSe
 
+https://doi.org/10.7875/togotv.2019.102
+2019-04-12 LEfSeを使って細菌叢(Microbiome)の群間比較解析とバイオマーカー探索を行う
+```
+ 見どころダイジェスト
+1. データセット細菌叢ファイルを用意する (0:23) 
+2. LEfSeのウェブサイト (0:45) 
+3. Galaxy版のLEfSeにデータをアップロードする (1:02) 
+4. LEfSe用にデータのフォーマットを行う (1:32) 
+5. Lefseによる群間比較解析を行う (2:05) 
+6. Lefseで発見されたバイオマーカー候補を表示する (2:35) 
+7. バイオマーカー候補をCladogram (分岐図)で表現する (3:23) 
+8. 一つの特徴量に絞ってその詳細を表示する (3:52) 
+```
+
 2018-04-05
 https://www.micenavi.jp/jss118/search/detail_program/id:93
 大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
