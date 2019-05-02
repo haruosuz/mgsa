@@ -2035,12 +2035,6 @@ UniFrac can be used to compare many samples simultaneously because it satisfies 
 ### diversity index
 多様性指数
 
-http://www.naro.affrc.go.jp/archive/niaes/magazine/083/mgzn08304.html
-論文の紹介： 生物多様性を進化系統学的な尺度で測る (情報：農業と環境 No.83 2007.3)
-系統樹（phylogenetic tree）に基づく「系統学的多様性（PD: phylogenetic diversity）」を提案
-
-旧来の種数ベースの生物多様度に代わる尺度として提唱されたのが系統学的多様度である。しかし、系統学的多様度それ自体に関して、いまなお理論的・概念的な論争が続いている （3）。系統学的多様性の尺度は、系統樹の樹形を考慮しつつ生物多様性の重みづけをしている。提唱者である Daniel P. Faith の定義では （1）、ある生物群の系統学的多様度とは、その生物群を系統樹上で結ぶ枝の長さの総和として求められる。このとき、枝の長さをどのようにして推定するのかという現実的問題がある（分子系統樹と形態系統樹では「枝」の意味は異なっているだろう）。
-
 https://www.ncbi.nlm.nih.gov/pubmed/21912589
 PLoS One. 2011;6(8):e23214. doi: 10.1371/journal.pone.0023214. Epub 2011 Aug 31.
 The phylogenetic diversity of metagenomes.
@@ -2049,10 +2043,21 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166145/
 Figure 3
 Taxonomic diversity and standardized phylogenetic diversity versus depth in environmental samples along an oceanic depth gradient at the HOT ALOHA site.
 
+http://www.naro.affrc.go.jp/archive/niaes/magazine/083/mgzn08304.html
+論文の紹介： 生物多様性を進化系統学的な尺度で測る (情報：農業と環境 No.83 2007.3)
+系統樹（phylogenetic tree）に基づく「系統学的多様性（PD: phylogenetic diversity）」を提案
+
+旧来の種数ベースの生物多様度に代わる尺度として提唱されたのが系統学的多様度である。しかし、系統学的多様度それ自体に関して、いまなお理論的・概念的な論争が続いている （3）。系統学的多様性の尺度は、系統樹の樹形を考慮しつつ生物多様性の重みづけをしている。提唱者である Daniel P. Faith の定義では （1）、ある生物群の系統学的多様度とは、その生物群を系統樹上で結ぶ枝の長さの総和として求められる。このとき、枝の長さをどのようにして推定するのかという現実的問題がある（分子系統樹と形態系統樹では「枝」の意味は異なっているだろう）。
+
+https://www.fifthdimension.jp/wiki.cgi?page=FrontPage&file=20100522BiometricsJapanPreprint%2Epdf&action=ATTACH
+[PDF]ベイジアン MCMC による生物間系統関係の推定法
+生物学における系統樹の必要性
+そもそも、これまでに「系統的に独立した生物」は確認 されていない。そのため、統計解析上の最も重要な仮定の一つである「サンプル間の独立 性」が生物では成立し得ないことは明白である。ここで、仮に 100 種のトカゲの体色を考 えてみる。草原と砂漠にそれぞれ 50 種生息し、草原に生息する種は緑色と褐色がそれぞ れ 40 種と 10 種、砂漠に生息する種は緑色と褐色がそれぞれ 20 種と 30 種だったとしよ う (表 3)。では、生息環境と体色に関連性はあるだろうか。系統関係を考慮しない研究者
+はサンプル間の非独立性には気付かず、Fisher の正確確率検定を用いてしまうかもしれな い。すると、p = 0.00008039 となり、生息環境と体色に関連性を見いだすことになるだ ろう。しかし、仮に表 3 のマス目の各種群が単系統であったならどうだろう。数えるべき は種数ではなく単系統群の数であり、各マス目の数値は 1 ということになる。以上のよう に、系統関係を考慮するかしないかで結論が大きく変化し得ることがわかるだろう。そこ で、系統関係=サンプル間の非依存性を考慮して統計解析を行うことでこのような問題を 解決しようとする手法があり、系統的独立比較法などと呼ばれている (Felsenstein, 1985; Grafen, 1989)。これが系統樹の第 2 の用途である。
+系統樹の第 3 の用途は、多様性の定量化である。生物多様性の重要性が叫ばれて久しい が、いまだに多様性は種・属・科などの分類群の数で定量化されている。しかしこれらの 分類群は人間が便宜的に設定したものであり、その数では十分に自然界の多様性を認識 できているとは言い難いと考えられる。これを、系統樹上での生物間のパスの長さの和= 系統的多様性で置き換えることで解決しようという研究が徐々に増えてきている (Faith, 1992; Forest et al., 2007)。
+
 https://github.com/haruosuz/microbe/blob/master/references/README.MoBE.md
-
 16SリボソームRNA遺伝子配列に基づく細菌の多様性レベルは属間で大きく異なった。
-
 https://www.ncbi.nlm.nih.gov/pubmed/30691394
 BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
 Comparative genomics of Bacteria commonly identified in the built environment.
@@ -2061,7 +2066,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
 The Dmean was also selected over the phylogenetic diversity index (PD) [64, 65] because it is less affected by the number of taxa (N) available in the LTP database, 
 
 https://github.com/haruosuz/plasmids/blob/master/references/README.suzuki.md
-
 プラスミド間の宿主域を比較するために、「細菌の種類」と「細菌間の距離」に基づいて宿主候補の多様性を測定した。先ず、「細菌の種類」（門・綱・目・科・属・種・株などの分類群の数）に基づいて各プラスミドの宿主多様性を測定した。分類群の数は、細菌間の距離を考慮しておらず、宿主候補として検出された菌株の数（利用可能なゲノム配列の偏り）によっても影響され得るという欠点を有する。例えば、プラスミド間の宿主多様性の高低が分類階級により逆転することがある。さらに新種・新属に再分類されている菌株もある。次に、種などの分類学的情報を用いることなく、16S rRNA遺伝子配列に基づく「細菌間の距離」に基づいてプラスミドの宿主多様性を測定した。狭宿主域プラスミドは、広宿主域プラスミドと比較して、宿主候補の多様性が低かった。
 https://www.ncbi.nlm.nih.gov/pubmed/20851899
 J Bacteriol. 2010 Nov;192(22):6045-55. doi: 10.1128/JB.00277-10. Epub 2010 Sep 17.
