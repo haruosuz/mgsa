@@ -2096,8 +2096,6 @@ Suzuki H1, Yano H, Brown CJ, Top EM.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2976448/
 Second, we inferred plasmid host range based on genetic distance between putative evolutionary hosts without using taxonomic information. “Taxonomic richness” has drawbacks, because it does not take into account distances between bacterial strains and also can be influenced by the number of strains detected as candidate evolutionary hosts, which in turn is biased by the genome sequences available. For example, as shown in Table ​Table1,1, the numbers of classes, orders, families, genera, species, and strains for IncP plasmid pQKH54 were 2, 3, 3, 3, 6, and 11, respectively, while those for IncN plasmid R46 were 1, 1, 1, 13, 17, and 55. Thus, while pQKH54 showed higher taxonomic richness values at the class, order, and family levels, R46 showed higher taxonomic richness values at the genus, species, and strain levels. Moreover, several bacterial strains are still being reclassified into new species and even new genera. Therefore, a method for inferring evolutionary host diversity that does not require a species or any other taxonomic information was conducted.
 
-第12回生物学基礎論研究会 https://sites.google.com/site/colloqfoundbio/ の発表「プラスミドの宿主細菌の過去予測と多様性測定」における多様性指数（Dmean）の論文は以下です。
-
 https://www.ncbi.nlm.nih.gov/pubmed/16535456
 Appl Environ Microbiol. 1996 Nov;62(11):4299-301.
 Problems in measuring bacterial diversity and a possible solution.
@@ -2114,6 +2112,8 @@ feel that the latter should be treated as more diverse.
 
 A simple alternative is to use the mean taxonomic distance (Dmean) between all pairs of isolates as a diversity index (14): 
 
+https://sites.google.com/site/colloqfoundbio/
+第12回生物学基礎論研究会の発表「プラスミドの宿主細菌の過去予測と多様性測定」における多様性指数（Dmean）の論文です。
 小谷野 仁さんの以下の論文で引用されておりました。
 
 https://www.ism.ac.jp/editsec/toukei/pdf/60-2-263.pdf
@@ -2126,6 +2126,12 @@ Phys Rev E Stat Nonlin Soft Matter Phys. 2010 Jun;81(6 Pt 1):061912. Epub 2010 J
 Quantifying biodiversity and asymptotics for a sequence of random strings.
 Koyano H1, Kishino H.
 https://journals.aps.org/pre/abstract/10.1103/PhysRevE.81.061912
+
+https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html
+「生物多様性の減少機構と保全プロジェクト」が目指すもの（2001年度 20巻1号）｜
+多様性を，それぞれ種類数，均等性，系統的距離で計っていることになる。
+
+![https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html](https://www.nies.go.jp/kanko/news/20/20-1/gh5r5k000001g6rd-img/20-1-06-f1.jpg)
 
 ----------
 
