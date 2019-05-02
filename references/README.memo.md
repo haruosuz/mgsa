@@ -32,17 +32,15 @@ Last Update: 2019-04
 - [metagenomics](#metagenomics)
 - [growth rate](#growth-rate) 増殖速度
 - [resistance](#resistance) 耐性
+- [Mash](#mash)
+- [USEARCH](#usearch)
+- [LEfSe](#lefse)
 - [people](#people)
   - [Holt Lab](#holt-Lab)
   - [kadota](#kadota) 門田　幸二のホームページ
   - [kazumaxneo](#kazumaxneo) macでインフォマティクス
-- [Mash](#mash)
-- [USEARCH](#usearch)
-- [LEfSe](#lefse)
-
-----------
-
-
+- [unclassified](#unclassified)
+- [2019-05-02](#2019-05-02)
 
 ----------
 ## featuring
@@ -1941,8 +1939,6 @@ Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
 Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
 Edwards DJ1, Holt KE.
 
-
-
 ----------
 
 ## unclassified
@@ -2014,18 +2010,6 @@ Phylogenies and the Comparative Method
 http://en.wikipedia.org/wiki/Phylogenetic_comparative_methods
 Phylogenetic comparative methods (PCMs) use information on the historical relationships of lineages (phylogenies) to test evolutionary hypotheses.
 
-https://www.ncbi.nlm.nih.gov/pubmed/16535456
-Problems in measuring bacterial diversity and a possible solution.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1388994/pdf/hw4299.pdf
-Simpson’s
-index, the Shannon index, and evenness indices give enough
-weighting to the relative abundances along with species richness but fail to take into account the taxonomic distances
-between species, individuals, or any other appropriate unit. An
-information-based index would treat a community of four different biotypes of coliforms identical to another community
-consisting of one species of coliforms, one of actinomycetes,
-one of myxobacteria, and one of archaebacteria, whereas we
-feel that the latter should be treated as more diverse. 
-
 https://github.com/haruosuz/statistics/blob/master/README.md#distance
 
 UniFracは、距離計量 distance metric の要件を満たす。
@@ -2047,6 +2031,29 @@ Lozupone C1, Knight R.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
 UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
 
+https://github.com/haruosuz/microbe/blob/master/references/README.MoBE.md
+
+16SリボソームRNA遺伝子配列に基づく細菌の多様性レベルは属間で大きく異なった。
+
+https://www.ncbi.nlm.nih.gov/pubmed/30691394
+BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment.
+Merino N, Zhang S, Tomita M, Suzuki H.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
+The Dmean was also selected over the phylogenetic diversity index (PD) [64, 65] because it is less affected by the number of taxa (N) available in the LTP database, 
+
+https://www.ncbi.nlm.nih.gov/pubmed/16535456
+Problems in measuring bacterial diversity and a possible solution.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1388994/pdf/hw4299.pdf
+Simpson’s
+index, the Shannon index, and evenness indices give enough
+weighting to the relative abundances along with species richness but fail to take into account the taxonomic distances
+between species, individuals, or any other appropriate unit. An
+information-based index would treat a community of four different biotypes of coliforms identical to another community
+consisting of one species of coliforms, one of actinomycetes,
+one of myxobacteria, and one of archaebacteria, whereas we
+feel that the latter should be treated as more diverse. 
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/21912589
 PLoS One. 2011;6(8):e23214. doi: 10.1371/journal.pone.0023214. Epub 2011 Aug 31.
@@ -2057,6 +2064,7 @@ Figure 3
 Taxonomic diversity and standardized phylogenetic diversity versus depth in environmental samples along an oceanic depth gradient at the HOT ALOHA site.
 
 https://github.com/haruosuz/plasmids/blob/master/references/README.suzuki.md
+
 プラスミド間の宿主域を比較するために、「細菌の種類」と「細菌間の距離」に基づいて宿主候補の多様性を測定した。先ず、「細菌の種類」（門・綱・目・科・属・種・株などの分類群の数）に基づいて各プラスミドの宿主多様性を測定した。分類群の数は、細菌間の距離を考慮しておらず、宿主候補として検出された菌株の数（利用可能なゲノム配列の偏り）によっても影響され得るという欠点を有する。例えば、プラスミド間の宿主多様性の高低が分類階級により逆転することがある。さらに新種・新属に再分類されている菌株もある。次に、種などの分類学的情報を用いることなく、16S rRNA遺伝子配列に基づく「細菌間の距離」に基づいてプラスミドの宿主多様性を測定した。狭宿主域プラスミドは、広宿主域プラスミドと比較して、宿主候補の多様性が低かった。
 https://www.ncbi.nlm.nih.gov/pubmed/20851899
 J Bacteriol. 2010 Nov;192(22):6045-55. doi: 10.1128/JB.00277-10. Epub 2010 Sep 17.
