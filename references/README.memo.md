@@ -2115,6 +2115,7 @@ feel that the latter should be treated as more diverse.
 A simple alternative is to use the mean taxonomic distance (Dmean) between all pairs of isolates as a diversity index (14): 
 
 小谷野 仁さんの以下の論文で引用されておりました。
+
 https://www.ism.ac.jp/editsec/toukei/pdf/60-2-263.pdf
 統計数理 60(2), 263-278, 2012-12
 特集「多様性と進化の統計解析」α 多様性の測定と確率文字列の理論
