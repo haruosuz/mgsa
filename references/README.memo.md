@@ -2012,6 +2012,7 @@ Phylogenetic comparative methods (PCMs) use information on the historical relati
 
 https://github.com/haruosuz/statistics/blob/master/README.md#distance
 
+### UniFrac
 UniFracは、距離計量 distance metric の要件を満たす。
 
 https://en.wikipedia.org/wiki/UniFrac
@@ -2031,6 +2032,23 @@ Lozupone C1, Knight R.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
 UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
 
+### diversity index
+多様性指数
+
+http://www.naro.affrc.go.jp/archive/niaes/magazine/083/mgzn08304.html
+論文の紹介： 生物多様性を進化系統学的な尺度で測る (情報：農業と環境 No.83 2007.3)
+系統樹（phylogenetic tree）に基づく「系統学的多様性（PD: phylogenetic diversity）」を提案
+
+旧来の種数ベースの生物多様度に代わる尺度として提唱されたのが系統学的多様度である。しかし、系統学的多様度それ自体に関して、いまなお理論的・概念的な論争が続いている （3）。系統学的多様性の尺度は、系統樹の樹形を考慮しつつ生物多様性の重みづけをしている。提唱者である Daniel P. Faith の定義では （1）、ある生物群の系統学的多様度とは、その生物群を系統樹上で結ぶ枝の長さの総和として求められる。このとき、枝の長さをどのようにして推定するのかという現実的問題がある（分子系統樹と形態系統樹では「枝」の意味は異なっているだろう）。
+
+https://www.ncbi.nlm.nih.gov/pubmed/21912589
+PLoS One. 2011;6(8):e23214. doi: 10.1371/journal.pone.0023214. Epub 2011 Aug 31.
+The phylogenetic diversity of metagenomes.
+Kembel SW1, Eisen JA, Pollard KS, Green JL.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166145/
+Figure 3
+Taxonomic diversity and standardized phylogenetic diversity versus depth in environmental samples along an oceanic depth gradient at the HOT ALOHA site.
+
 https://github.com/haruosuz/microbe/blob/master/references/README.MoBE.md
 
 16SリボソームRNA遺伝子配列に基づく細菌の多様性レベルは属間で大きく異なった。
@@ -2042,27 +2060,6 @@ Merino N, Zhang S, Tomita M, Suzuki H.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
 The Dmean was also selected over the phylogenetic diversity index (PD) [64, 65] because it is less affected by the number of taxa (N) available in the LTP database, 
 
-https://www.ncbi.nlm.nih.gov/pubmed/16535456
-Problems in measuring bacterial diversity and a possible solution.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1388994/pdf/hw4299.pdf
-Simpson’s
-index, the Shannon index, and evenness indices give enough
-weighting to the relative abundances along with species richness but fail to take into account the taxonomic distances
-between species, individuals, or any other appropriate unit. An
-information-based index would treat a community of four different biotypes of coliforms identical to another community
-consisting of one species of coliforms, one of actinomycetes,
-one of myxobacteria, and one of archaebacteria, whereas we
-feel that the latter should be treated as more diverse. 
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/21912589
-PLoS One. 2011;6(8):e23214. doi: 10.1371/journal.pone.0023214. Epub 2011 Aug 31.
-The phylogenetic diversity of metagenomes.
-Kembel SW1, Eisen JA, Pollard KS, Green JL.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166145/
-Figure 3
-Taxonomic diversity and standardized phylogenetic diversity versus depth in environmental samples along an oceanic depth gradient at the HOT ALOHA site.
-
 https://github.com/haruosuz/plasmids/blob/master/references/README.suzuki.md
 
 プラスミド間の宿主域を比較するために、「細菌の種類」と「細菌間の距離」に基づいて宿主候補の多様性を測定した。先ず、「細菌の種類」（門・綱・目・科・属・種・株などの分類群の数）に基づいて各プラスミドの宿主多様性を測定した。分類群の数は、細菌間の距離を考慮しておらず、宿主候補として検出された菌株の数（利用可能なゲノム配列の偏り）によっても影響され得るという欠点を有する。例えば、プラスミド間の宿主多様性の高低が分類階級により逆転することがある。さらに新種・新属に再分類されている菌株もある。次に、種などの分類学的情報を用いることなく、16S rRNA遺伝子配列に基づく「細菌間の距離」に基づいてプラスミドの宿主多様性を測定した。狭宿主域プラスミドは、広宿主域プラスミドと比較して、宿主候補の多様性が低かった。
@@ -2073,6 +2070,35 @@ Suzuki H1, Yano H, Brown CJ, Top EM.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2976448/
 Second, we inferred plasmid host range based on genetic distance between putative evolutionary hosts without using taxonomic information. “Taxonomic richness” has drawbacks, because it does not take into account distances between bacterial strains and also can be influenced by the number of strains detected as candidate evolutionary hosts, which in turn is biased by the genome sequences available. For example, as shown in Table ​Table1,1, the numbers of classes, orders, families, genera, species, and strains for IncP plasmid pQKH54 were 2, 3, 3, 3, 6, and 11, respectively, while those for IncN plasmid R46 were 1, 1, 1, 13, 17, and 55. Thus, while pQKH54 showed higher taxonomic richness values at the class, order, and family levels, R46 showed higher taxonomic richness values at the genus, species, and strain levels. Moreover, several bacterial strains are still being reclassified into new species and even new genera. Therefore, a method for inferring evolutionary host diversity that does not require a species or any other taxonomic information was conducted.
 
+第12回生物学基礎論研究会 https://sites.google.com/site/colloqfoundbio/ の発表「プラスミドの宿主細菌の過去予測と多様性測定」における多様性指数（Dmean）の論文は以下です。
+
+https://www.ncbi.nlm.nih.gov/pubmed/16535456
+Appl Environ Microbiol. 1996 Nov;62(11):4299-301.
+Problems in measuring bacterial diversity and a possible solution.
+Watve MG, Gangal RM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1388994/pdf/hw4299.pdf
+Simpson’s
+index, the Shannon index, and evenness indices give enough
+weighting to the relative abundances along with species richness but fail to take into account the taxonomic distances
+between species, individuals, or any other appropriate unit. An
+information-based index would treat a community of four different biotypes of coliforms identical to another community
+consisting of one species of coliforms, one of actinomycetes,
+one of myxobacteria, and one of archaebacteria, whereas we
+feel that the latter should be treated as more diverse. 
+
+A simple alternative is to use the mean taxonomic distance (Dmean) between all pairs of isolates as a diversity index (14): 
+
+小谷野 仁さんの以下の論文で引用されておりました。
+https://www.ism.ac.jp/editsec/toukei/pdf/60-2-263.pdf
+統計数理 60(2), 263-278, 2012-12
+特集「多様性と進化の統計解析」α 多様性の測定と確率文字列の理論
+「代替的な方法の研究として，Watve and Gangal（1996）, Hughes et al.（2001）, Hong et al.（2006）などがあるが，理論的な基礎を持つ体系的な方法とは言えなかった．」
+
+https://www.ncbi.nlm.nih.gov/pubmed/20866445
+Phys Rev E Stat Nonlin Soft Matter Phys. 2010 Jun;81(6 Pt 1):061912. Epub 2010 Jun 7.
+Quantifying biodiversity and asymptotics for a sequence of random strings.
+Koyano H1, Kishino H.
+https://journals.aps.org/pre/abstract/10.1103/PhysRevE.81.061912
 
 ----------
 
