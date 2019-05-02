@@ -32,15 +32,17 @@ Last Update: 2019-04
 - [metagenomics](#metagenomics)
 - [growth rate](#growth-rate) 増殖速度
 - [resistance](#resistance) 耐性
-- [Mash](#mash)
 - [USEARCH](#usearch)
-- [LEfSe](#lefse)
 - [people](#people)
   - [Holt Lab](#holt-Lab)
   - [kadota](#kadota) 門田　幸二のホームページ
   - [kazumaxneo](#kazumaxneo) macでインフォマティクス
 - [unclassified](#unclassified)
 - [2019-05-02](#2019-05-02)
+  - [diversity index](#diversity-index)
+  - [unifrac](#unifrac)
+- [LEfSe](#lefse)
+- [Mash](#mash)
 
 ----------
 ## featuring
@@ -76,10 +78,8 @@ https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and
 Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
 June 22, 2018
 
-
 ----------
 ## updates
-
 
 ### 2019-04-25
 
@@ -92,7 +92,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/31022176
 PLoS Comput Biol. 2019 Apr 25;15(4):e1006946. doi: 10.1371/journal.pcbi.1006946. [Epub ahead of print]
 TASmania: A bacterial Toxin-Antitoxin Systems database.
 Akarsu H1, Bordes P2, Mansour M2, Bigot DJ2, Genevaux P2, Falquet L1.
-
 
 ### 2019-04-12
 
@@ -145,8 +144,6 @@ TaxonKit: a cross-platform and efficient NCBI taxonomy toolkit | bioRxiv
 
 ### 2018
 
-
-
 https://twitter.com/kazumachack/status/1074793968712376320
 上坂一馬 on Twitter: "SPAdesを使って、大きなk-merを使った時にアセンブリがどう変化するのか簡単にまとめました。GAGE-Bのコレラ菌のデータセットを使っています。 SPAdesとUnicyclerでlarge k-merを使う part2 (… https://t.co/DKQnSyZlgx"
 5:30 PM - 17 Dec 2018
@@ -160,9 +157,6 @@ Torsten Seemann on Twitter: ""A Unix one-liner to call bacterial variants" using
 
 https://thegenomefactory.blogspot.com/2018/10/a-unix-one-liner-to-call-bacterial.html
 The Genome Factory: A Unix one-liner to call bacterial variants
-
-
-
 
 
 
@@ -228,8 +222,6 @@ phyloSkeleton: taxon selection, data retrieval and marker identification for phy
 Guy L.
 https://bitbucket.org/lionelguy/phyloskeleton/
 
-
-
 ### 2017
 
 
@@ -251,8 +243,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/29114401
 Microb Genom. 2017 Jul 8;3(9):e000122. doi: 10.1099/mgen.0.000122. eCollection 2017 Sep.
 Aligner optimization increases accuracy and decreases compute times in multi-species sequence data.
 Robinson KM1, Hawkins AS1, Santana-Cruz I1, Adkins RS1, Shetty AC1, Nagaraj S1, Sadzewicz L1, Tallon LJ1, Rasko DA1,2, Fraser CM1,3, Mahurkar A1, Silva JC1,2, Dunning Hotopp JC1,2.
-
-
 
 
 https://twitter.com/marimiya_clc/status/822631074060767234
@@ -444,85 +434,6 @@ COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
 Bose T1, Haque MM1, Reddy C1, Mande SS1.
 The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
 
-
-
-
-----------
-## LEfSe
-linear discriminant analysis (LDA) effect size (LEfSe) 
-線形判別分析（LDA）効果量（LEfSe）
-
-https://www.ncbi.nlm.nih.gov/pubmed/21702898
-Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
-Metagenomic biomarker discovery and explanation.
-Segata N1, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/
-LEfSe determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
-(a) Step 1, Kruskal–Wallis
-(b) Step 2, Wilcoxon (pairwise comparisons)
-(c) Step 3, build a LDA model, effect size
-
-LEfSeのステップ
-
-https://twbattaglia.gitbooks.io/introduction-to-qiime/content/lefse.html
-LEfSe · An Introduction to QIIME 1.9.1
-
-LEfSe (Linear discriminant analysis effect size) is a tool developed by the Huttenhower group to find biomarkers between 2 or more groups using relative abundances.
-
-LEfSe uses a table of relative abundances which also includes sample identifiers and group meta data. 
-
-https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
-Differential abundance analysis with LEfSe
-
-2018-04-05
-https://www.micenavi.jp/jss118/search/detail_program/id:93
-大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
-
-http://www.frc.a.u-tokyo.ac.jp/wp-content/uploads/2018/04/JRAreport_web.pdf
-汚染試料と非汚染試料における構成細菌の違いを明らかにするために、Linear
-discriminant analysis (LDA) effect size (LEfSe) 解析[4]を行いました。LEfSe 解析では
-LDA スコアが大きいほど各試料群を特徴付けている細菌といえます。
-
-2017-06-29
-https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-15K15774/15K15774seika.pdf
-さらに菌種レベルで両群に差異のある細菌を抽出するため、各 OTU の検出リード数に基づいて Linear Discriminant Analysis Effect Size (LEFSe) 解析を行った。
-
-27 April 2017
-http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
-LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
-
-https://www.pediatricsurgery.site/archive/category/菌叢解析
-菌叢解析
-
-2016-10-31
-LEfSeを実際にやってみる
-
-2016-10-31
-LEfSeをインストールする
-
-https://www.pediatricsurgery.site/entry/2016/10/31/214233
-LEfSeを実際にやってみる - Note of Pediatric Surgery
-
-https://www.pediatricsurgery.site/entry/2016/10/31/210537
-LEfSeをインストールする - Note of Pediatric Surgery
-
-2013-03-29
-https://syodokukai.exblog.jp/18438512/
-Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
-
-----------
-## Mash
-Mash: fast genome and metagenome distance estimation using MinHash
-
-https://twitter.com/search?q=Mash%3A%20fast%20genome%20and%20metagenome%20distance%20estimation%20using%20MinHash&src=typd
-
-https://twitter.com/aphillippy/status/745254551947714561
-Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
-9:58 AM - 21 Jun 2016
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
-MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
 
 
 
@@ -1999,48 +1910,6 @@ Isolates Browser - Pathogen Detection - NCBI
 ----------
 ## 2019-05-02
 
-https://github.com/haruosuz/statistics/blob/master/README.md#distance
-
-### UniFrac
-UniFracは、距離計量 distance metric の要件を満たす。
-
-https://en.wikipedia.org/wiki/UniFrac
-This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
-
-https://www.ncbi.nlm.nih.gov/pubmed/20827291
-ISME J. 2011 Feb;5(2):169-72. doi: 10.1038/ismej.2010.133. Epub 2010 Sep 9.
-UniFrac: an effective distance metric for microbial community comparison.
-Lozupone C1, Lladser ME, Knights D, Stombaugh J, Knight R.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105689/
-In this study, we present a mathematical proof that both weighted and unweighted UniFrac values have the formal requirements of a distance metric (Rudin, 1987): they are always non-negative, symmetric and satisfy the triangle inequality, and identical sequence sets have a value of 0 (Supplementary Methods). 
-
-https://www.ncbi.nlm.nih.gov/pubmed/16332807
-Appl Environ Microbiol. 2005 Dec;71(12):8228-35.
-UniFrac: a new phylogenetic method for comparing microbial communities.
-Lozupone C1, Knight R.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
-UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
-
-https://twitter.com/level3defless/status/890749455590342658
-Koichi Higashi on Twitter: "系統組成をアップロードして類似したサンプルを検索、比較するウェブサーバ。Earth mover's distance的な計算でweighted UniFracを高速に評価できるらしい。 https://t.co/K6RszvQpzR"
-9:43 PM - 27 Jul 2017
-
-https://twitter.com/windowmoon/status/783394541067829252
-働く窓月 on Twitter: "UniFracを計算しようとして、有根系統樹が必要なことにハマった。というか、ものすごい高次系統で根の位置が決められない…。Phylogenetic Community Dissimilarityなら無根でいいから、こっちにしよう。"
-3:53 PM - 4 Oct 2016
-
-https://twitter.com/windowmoon/status/411160508532658176
-働く窓月 on Twitter: "そう言えば、種生物でUniFrac使ってる発表(Q大のMTYKさんだったか?)があって、「細菌向けに開発されたものだから何か問題あるのかも」とか書いていたように記憶している。が、対象生物が細菌であることを前提とした方法ではないと思う。問題があるとすれば、系統樹だろう。"
-10:47 AM - 12 Dec 2013
-
-https://twitter.com/Tyu_Shi/status/411124035401949184
-Tyu_Shi on Twitter: "昨日からの発表を聴いていると、みんなUniFrac Distanceを万能の距離尺度と考えて使っているように感じられるが、あれはUniFrac Distanceを計算する系統樹が問題無いことを前提にしているのだから、その前提の確認無しに信頼しすぎるのはマズいよ。"
-8:23 AM - 12 Dec 2013
-
-https://twitter.com/yuifu/status/187741115720548352
-Haruka Ozaki on Twitter: "UniFracの元論文。細菌叢の配列集合間の距離を計算する手法。系統樹上で共有する枝長を使い、かつ、距離を定義したことが新しかったらしい。オルタナティブを作ろうとすると、優位性を示す方法がないことが課題。 http://t.co/nZudriEa #Everydayペーパー"
-11:19 PM - 4 Apr 2012
-
 ### diversity index
 多様性指数
 
@@ -2134,6 +2003,128 @@ https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html
 ![https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html](https://www.nies.go.jp/kanko/news/20/20-1/gh5r5k000001g6rd-img/20-1-06-f1.jpg)
 
 ----------
+
+https://github.com/haruosuz/statistics/blob/master/README.md#distance
+
+### UniFrac
+UniFracは、距離計量 distance metric の要件を満たす。
+
+https://en.wikipedia.org/wiki/UniFrac
+This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20827291
+ISME J. 2011 Feb;5(2):169-72. doi: 10.1038/ismej.2010.133. Epub 2010 Sep 9.
+UniFrac: an effective distance metric for microbial community comparison.
+Lozupone C1, Lladser ME, Knights D, Stombaugh J, Knight R.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105689/
+In this study, we present a mathematical proof that both weighted and unweighted UniFrac values have the formal requirements of a distance metric (Rudin, 1987): they are always non-negative, symmetric and satisfy the triangle inequality, and identical sequence sets have a value of 0 (Supplementary Methods). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/16332807
+Appl Environ Microbiol. 2005 Dec;71(12):8228-35.
+UniFrac: a new phylogenetic method for comparing microbial communities.
+Lozupone C1, Knight R.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
+UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
+
+https://twitter.com/level3defless/status/890749455590342658
+Koichi Higashi on Twitter: "系統組成をアップロードして類似したサンプルを検索、比較するウェブサーバ。Earth mover's distance的な計算でweighted UniFracを高速に評価できるらしい。 https://t.co/K6RszvQpzR"
+9:43 PM - 27 Jul 2017
+
+https://twitter.com/windowmoon/status/783394541067829252
+働く窓月 on Twitter: "UniFracを計算しようとして、有根系統樹が必要なことにハマった。というか、ものすごい高次系統で根の位置が決められない…。Phylogenetic Community Dissimilarityなら無根でいいから、こっちにしよう。"
+3:53 PM - 4 Oct 2016
+
+https://twitter.com/windowmoon/status/411160508532658176
+働く窓月 on Twitter: "そう言えば、種生物でUniFrac使ってる発表(Q大のMTYKさんだったか?)があって、「細菌向けに開発されたものだから何か問題あるのかも」とか書いていたように記憶している。が、対象生物が細菌であることを前提とした方法ではないと思う。問題があるとすれば、系統樹だろう。"
+10:47 AM - 12 Dec 2013
+
+https://twitter.com/Tyu_Shi/status/411124035401949184
+Tyu_Shi on Twitter: "昨日からの発表を聴いていると、みんなUniFrac Distanceを万能の距離尺度と考えて使っているように感じられるが、あれはUniFrac Distanceを計算する系統樹が問題無いことを前提にしているのだから、その前提の確認無しに信頼しすぎるのはマズいよ。"
+8:23 AM - 12 Dec 2013
+
+https://twitter.com/yuifu/status/187741115720548352
+Haruka Ozaki on Twitter: "UniFracの元論文。細菌叢の配列集合間の距離を計算する手法。系統樹上で共有する枝長を使い、かつ、距離を定義したことが新しかったらしい。オルタナティブを作ろうとすると、優位性を示す方法がないことが課題。 http://t.co/nZudriEa #Everydayペーパー"
+11:19 PM - 4 Apr 2012
+
+----------
+## LEfSe
+linear discriminant analysis (LDA) effect size (LEfSe) 
+線形判別分析（LDA）効果量（LEfSe）
+
+https://www.ncbi.nlm.nih.gov/pubmed/21702898
+Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
+Metagenomic biomarker discovery and explanation.
+Segata N1, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/
+LEfSe determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
+(a) Step 1, Kruskal–Wallis
+(b) Step 2, Wilcoxon (pairwise comparisons)
+(c) Step 3, build a LDA model, effect size
+
+LEfSeのステップ
+
+https://twbattaglia.gitbooks.io/introduction-to-qiime/content/lefse.html
+LEfSe · An Introduction to QIIME 1.9.1
+
+LEfSe (Linear discriminant analysis effect size) is a tool developed by the Huttenhower group to find biomarkers between 2 or more groups using relative abundances.
+
+LEfSe uses a table of relative abundances which also includes sample identifiers and group meta data. 
+
+https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
+Differential abundance analysis with LEfSe
+
+2018-04-05
+https://www.micenavi.jp/jss118/search/detail_program/id:93
+大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
+
+http://www.frc.a.u-tokyo.ac.jp/wp-content/uploads/2018/04/JRAreport_web.pdf
+汚染試料と非汚染試料における構成細菌の違いを明らかにするために、Linear
+discriminant analysis (LDA) effect size (LEfSe) 解析[4]を行いました。LEfSe 解析では
+LDA スコアが大きいほど各試料群を特徴付けている細菌といえます。
+
+2017-06-29
+https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-15K15774/15K15774seika.pdf
+さらに菌種レベルで両群に差異のある細菌を抽出するため、各 OTU の検出リード数に基づいて Linear Discriminant Analysis Effect Size (LEFSe) 解析を行った。
+
+27 April 2017
+http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
+LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
+
+https://www.pediatricsurgery.site/archive/category/菌叢解析
+菌叢解析
+
+2016-10-31
+LEfSeを実際にやってみる
+
+2016-10-31
+LEfSeをインストールする
+
+https://www.pediatricsurgery.site/entry/2016/10/31/214233
+LEfSeを実際にやってみる - Note of Pediatric Surgery
+
+https://www.pediatricsurgery.site/entry/2016/10/31/210537
+LEfSeをインストールする - Note of Pediatric Surgery
+
+2013-03-29
+https://syodokukai.exblog.jp/18438512/
+Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
+
+----------
+## Mash
+Mash: fast genome and metagenome distance estimation using MinHash
+
+https://twitter.com/search?q=Mash%3A%20fast%20genome%20and%20metagenome%20distance%20estimation%20using%20MinHash&src=typd
+
+https://twitter.com/aphillippy/status/745254551947714561
+Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
+9:58 AM - 21 Jun 2016
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
+MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+
+----------
+
 
 
 
