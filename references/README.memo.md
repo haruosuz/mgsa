@@ -2003,6 +2003,8 @@ Isolates Browser - Pathogen Detection - NCBI
 ----------
 ## 2019-05-02
 
+https://github.com/haruosuz/evolve/blob/master/README.md#leeswijzer
+
 統計的独立の問題。種間に系統関係があるならば、統計学的にみてデータ点は独立ではあり得ない。（三中信宏「生物系統学」334ページ）
 FIG.2.データ点が独立 FIG.3. データ点が非独立
 https://www.jstor.org/stable/2461605
@@ -2024,7 +2026,8 @@ consisting of one species of coliforms, one of actinomycetes,
 one of myxobacteria, and one of archaebacteria, whereas we
 feel that the latter should be treated as more diverse. 
 
-### UniFrac
+https://github.com/haruosuz/statistics/blob/master/README.md#distance
+
 UniFracは、距離計量 distance metric の要件を満たす。
 
 https://en.wikipedia.org/wiki/UniFrac
@@ -2043,6 +2046,25 @@ UniFrac: a new phylogenetic method for comparing microbial communities.
 Lozupone C1, Knight R.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
 UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/21912589
+PLoS One. 2011;6(8):e23214. doi: 10.1371/journal.pone.0023214. Epub 2011 Aug 31.
+The phylogenetic diversity of metagenomes.
+Kembel SW1, Eisen JA, Pollard KS, Green JL.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166145/
+Figure 3
+Taxonomic diversity and standardized phylogenetic diversity versus depth in environmental samples along an oceanic depth gradient at the HOT ALOHA site.
+
+https://github.com/haruosuz/plasmids/blob/master/references/README.suzuki.md
+プラスミド間の宿主域を比較するために、「細菌の種類」と「細菌間の距離」に基づいて宿主候補の多様性を測定した。先ず、「細菌の種類」（門・綱・目・科・属・種・株などの分類群の数）に基づいて各プラスミドの宿主多様性を測定した。分類群の数は、細菌間の距離を考慮しておらず、宿主候補として検出された菌株の数（利用可能なゲノム配列の偏り）によっても影響され得るという欠点を有する。例えば、プラスミド間の宿主多様性の高低が分類階級により逆転することがある。さらに新種・新属に再分類されている菌株もある。次に、種などの分類学的情報を用いることなく、16S rRNA遺伝子配列に基づく「細菌間の距離」に基づいてプラスミドの宿主多様性を測定した。狭宿主域プラスミドは、広宿主域プラスミドと比較して、宿主候補の多様性が低かった。
+https://www.ncbi.nlm.nih.gov/pubmed/20851899
+J Bacteriol. 2010 Nov;192(22):6045-55. doi: 10.1128/JB.00277-10. Epub 2010 Sep 17.
+Predicting plasmid promiscuity based on genomic signature.
+Suzuki H1, Yano H, Brown CJ, Top EM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2976448/
+Second, we inferred plasmid host range based on genetic distance between putative evolutionary hosts without using taxonomic information. “Taxonomic richness” has drawbacks, because it does not take into account distances between bacterial strains and also can be influenced by the number of strains detected as candidate evolutionary hosts, which in turn is biased by the genome sequences available. For example, as shown in Table ​Table1,1, the numbers of classes, orders, families, genera, species, and strains for IncP plasmid pQKH54 were 2, 3, 3, 3, 6, and 11, respectively, while those for IncN plasmid R46 were 1, 1, 1, 13, 17, and 55. Thus, while pQKH54 showed higher taxonomic richness values at the class, order, and family levels, R46 showed higher taxonomic richness values at the genus, species, and strain levels. Moreover, several bacterial strains are still being reclassified into new species and even new genera. Therefore, a method for inferring evolutionary host diversity that does not require a species or any other taxonomic information was conducted.
+
 
 ----------
 
