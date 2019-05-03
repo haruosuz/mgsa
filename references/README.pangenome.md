@@ -11,12 +11,10 @@
   - Pseudomonas aeruginosa
 - [japanese](#japanese) 日本語
 - [tools](#tools)
-  - [PGAP-X](#tools)
+  - [PGAP](#pgap)
   - [panX](#panX)
   - [BPGA](#BPGA)
   - [ITEP](#ITEP)
-
-----------
 
 ----------
 ## featuring
@@ -321,15 +319,20 @@ Pan-genome analysis bioinformatics tools - omicX
 https://www.researchgate.net/post/Favorite_tools_for_pan-genomic_analysis_of_bacterial_genomes
 
 ----------
-### PGAP-X
+### PGAP
 
 https://www.ncbi.nlm.nih.gov/pubmed/30186253
 Front Microbiol. 2018 Aug 21;9:1910. doi: 10.3389/fmicb.2018.01910. eCollection 2018.
 PGAweb: A Web Server for Bacterial Pan-Genome Analysis.
 Chen X1, Zhang Y2,3,4, Zhang Z2,3, Zhao Y5, Sun C6, Yang M7, Wang J2,3,4, Liu Q1,8, Zhang B1,8, Chen M2,3, Yu J3,4, Wu J3, Jin Z1,8, Xiao J2,3,4.
 
+19 January 2018
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4326-x
+Pan-genome tool PGAP-X is a cross-platform software to analyze and visualize genome structure dynamics and and gene content [54].
+
 https://pgapx.zhaopage.com/
 PGAP-X: Extension on pan-genome analysis pipeline
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/29363431
 BMC Genomics. 2018 Jan 19;19(Suppl 1):36. doi: 10.1186/s12864-017-4337-7.
@@ -337,7 +340,6 @@ PGAP-X: extension on pan-genome analysis pipeline.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5780747/
 
 As a web server, panX provides an interactive interface to visualize various data, including pan-genome statistical charts, gene cluster table, alignment, comparative phylogenies, metadata table [28]. However, it does not provide information about genome structure, gene distribution on the genome, and genetic variation. 
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/22130594
 https://www.ncbi.nlm.nih.gov/pubmed/22130594
