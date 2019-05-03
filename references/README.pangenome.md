@@ -2,8 +2,8 @@
 # pangenome
 
 ## Table of Contents
-- [definition](#definition)
 - [featuring](#featuring)
+  - [definition](#definition)
 - [updates](#updates)
 - [organism](#organism)
   - [archaea](#archaea)
@@ -18,7 +18,12 @@
 
 ----------
 
-## definition
+----------
+## featuring
+
+https://twitter.com/pangenomepapers
+
+### definition
 
 https://en.wikipedia.org/wiki/Pan-genome
 
@@ -28,12 +33,25 @@ http://www.metagenomics.wiki/pdf/definition/pangenome
 Pangenome - Metagenomics
 Pangenome tools
 
-## featuring
-
 ----------
 ## updates
 
 ### 2019
+
+https://www.frontiersin.org/articles/10.3389/fmicb.2019.00834/full
+Frontiers | Large-Scale Genomics Reveals the Genetic Characteristics of Seven Species and Importance of Phylogenetic Distance for Estimating Pan-Genome Size | Microbiology
+, clustering was conducted with UCLUST
+
+https://www.biostars.org/p/360432/
+Is it possible to carry-out pan-genome analysis of interspecies bacterial genome?
+You could take a look at any of: Roary, OrthoMCL, PanOCT, PanSeq, LS-BSR, FindMyFriends, PopPunk, MicroPan and PGAP.
+
+https://bioinformatics.stackexchange.com/questions/2067/what-tools-can-i-use-for-a-bacterial-core-pan-genome-pipeline
+1 year, 4 months ago
+software recommendation - What tools can I use for a bacterial core/pan genome pipeline? - Bioinformatics Stack Exchange
+
+https://bioinformatics.stackovernet.com/ja/q/2455
+genome - 細菌コア/パンゲノムのパイプラインにはどのツールを使用でき ...
 
 https://www.ncbi.nlm.nih.gov/pubmed/30714895
 Microb Genom. 2019 Feb 4. doi: 10.1099/mgen.0.000243. [Epub ahead of print]
@@ -53,6 +71,12 @@ Blaustein RA1, McFarland AG1, Ben Maamar S1, Lopez A2, Castro-Wallace S3, Hartma
 
 ### 2018
 
+https://www.ncbi.nlm.nih.gov/pubmed/30165579
+Bioinformatics. 2018 Aug 25. doi: 10.1093/bioinformatics/bty744. [Epub ahead of print]
+Large-Scale Comparative Analysis of Microbial Pan-genomes using PanOCT.
+Inman JM1, Sutton GG1, Beck E1, Brinkac LM1, Clarke TH1, Fouts DE1.
+J. Craig Venter Institute, Rockville, MD USA.
+
 https://www.ncbi.nlm.nih.gov/pubmed/29942087
 Sci Rep. 2018 Jun 25;8(1):9670. doi: 10.1038/s41598-018-27800-8.
 Pan4Draft: A Computational Tool to Improve the Accuracy of Pan-Genomic Analysis Using Draft Genomes.
@@ -65,6 +89,11 @@ Thorpe HA1, Bayliss SC1, Sheppard SK1, Feil EJ1.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
 The large-scale blast score ratio (LS-BSR) introduced a preclustering step that substantially reduced the number of BLAST comparisons, enabling it to be feasibly run on thousands of samples [10]. More recently, the Roary pipeline has rapidly gained popularity for scalable, user-friendly, pan-genome characterization [4].
 
+https://twitter.com/NatureRevMicro/status/969629255352152064
+Nature Rev Microbiol on Twitter: "Systematic discovery of antiphage defense systems in the microbial pangenome @SorekLab @sciencemagazine https://t.co/h2NRQymzzT… https://t.co/jA9uWzYMXe"
+12:43 PM - 2 Mar 2018
+
+
 https://www.ncbi.nlm.nih.gov/pubmed/27769991
 Brief Bioinform. 2018 Jan 1;19(1):118-135. doi: 10.1093/bib/bbw089.
 Computational pan-genomics: status, promises and challenges.
@@ -73,8 +102,17 @@ Computational Pan-Genomics Consortium.
 ### 2017
 
 https://twitter.com/NatureMicrobiol/status/940566982742740992
-Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2.… https://t.co/gVZeROsJvg"
+Nature Microbiology on Twitter: "Current issue: #pangenome correspondences: 1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? https://t.co/m71AxCNO78 2. @bjesseshapiro on applying population genetics: https://t.co/Sbvuo86QEQ 3. @jomcinerney @alanmcn1 & @Evol_Molly reply: https://t.co/5q2UQXukrp… https://t.co/gVZeROsJvg"
 8:00 AM - 12 Dec 2017
+
+Current issue: #pangenome correspondences: 
+
+1. Michiel Vos & @AdamEyreWalker: are #pangenomes adaptive? http://bit.ly/2nHM5DU  
+
+2. @bjesseshapiro on applying population genetics: http://bit.ly/2nHM82y  
+
+3. @jomcinerney @alanmcn1 & @Evol_Molly reply: http://bit.ly/2nHMaaG 
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/28321969
 Environ Microbiol. 2017 Jul;19(7):2588-2603.
@@ -91,6 +129,11 @@ BMC Microbiol. 2017 Nov 28;17(1):222. doi: 10.1186/s12866-017-1132-1.
 First gene-ontology enrichment analysis based on bacterial coregenome variants: insights into adaptations of Salmonella serovars to mammalian- and avian-hosts.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706153/
 a pangenomic approach, 
+
+
+https://twitter.com/jason_sahl/status/924029119871905793
+Jason Sahl on Twitter: "Some recent thoughts on LS-BSR/Roary comparisons. Feedback/thoughts welcome: https://t.co/Q9MbJfnmqY"
+5:44 PM - 27 Oct 2017
 
 ### 2016
 
@@ -109,6 +152,17 @@ To decipher the 474 core genes of the 14 acetogenic bacteria, functionally group
 As a result, 95 GO terms were significantly enriched and categorized into 10 groups according to their kappa scores (Figure ​Figure3A3A). 
 
 Based on enrichment p-values, 27 GO terms and 8 KEGG pathways were enriched (Supplementary Table S3) and functionally categorized into 12 groups (Supplementary Figure S2).
+
+
+June, 2016
+https://bivi.co/visualisation/phandango
+Phandango | Biological Visualisation Community
+
+![](https://bivi.co/sites/default/files/styles/portfolio_fullwidth/public/phandango.png?itok=zFMBTx5M)
+
+https://www.slideshare.net/torstenseemann/bioinformatics-tools-for-the-diagnostic-laboratory-tseemann-antimicrobials-2016-melb-au-sat-27-feb-2016
+Bioinformatics tools for the diagnostic laboratory - T.Seemann - Antimicrobials 2016 - Melb, AU - sat 27 feb 2016
+43. Example pan genome Roary, LS-BSR, OrthoMCL, Degust Rows are genomes, columns are genes.
 
 ### 2015
 
@@ -268,6 +322,15 @@ https://www.researchgate.net/post/Favorite_tools_for_pan-genomic_analysis_of_bac
 
 ----------
 ### PGAP-X
+
+https://www.ncbi.nlm.nih.gov/pubmed/30186253
+Front Microbiol. 2018 Aug 21;9:1910. doi: 10.3389/fmicb.2018.01910. eCollection 2018.
+PGAweb: A Web Server for Bacterial Pan-Genome Analysis.
+Chen X1, Zhang Y2,3,4, Zhang Z2,3, Zhao Y5, Sun C6, Yang M7, Wang J2,3,4, Liu Q1,8, Zhang B1,8, Chen M2,3, Yu J3,4, Wu J3, Jin Z1,8, Xiao J2,3,4.
+
+https://pgapx.zhaopage.com/
+PGAP-X: Extension on pan-genome analysis pipeline
+
 https://www.ncbi.nlm.nih.gov/pubmed/29363431
 BMC Genomics. 2018 Jan 19;19(Suppl 1):36. doi: 10.1186/s12864-017-4337-7.
 PGAP-X: extension on pan-genome analysis pipeline.
@@ -275,11 +338,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5780747/
 
 As a web server, panX provides an interactive interface to visualize various data, including pan-genome statistical charts, gene cluster table, alignment, comparative phylogenies, metadata table [28]. However, it does not provide information about genome structure, gene distribution on the genome, and genetic variation. 
 
-https://pgapx.zhaopage.com/
-PGAP-X: Extension on pan-genome analysis pipeline
 
-http://pangenome.de/
-panX
+https://www.ncbi.nlm.nih.gov/pubmed/22130594
+https://www.ncbi.nlm.nih.gov/pubmed/22130594
+Bioinformatics. 2012 Feb 1;28(3):416-8. doi: 10.1093/bioinformatics/btr655. Epub 2011 Nov 29.
+PGAP: pan-genomes analysis pipeline.
+Zhao Y1, Wu J, Yang J, Sun S, Xiao J, Yu J.
+
 
 ----------
 ### panX
@@ -320,6 +385,21 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4829868/table/t2/
 Table 2. Comparison of 7 pan-genome analysis tools (BPGA, Roary, PanGP, PGAP, PGAT, Panseq, ITEP)
 
 ----------
+### 2015
+
+### Roary
+
+https://sanger-pathogens.github.io/Roary/
+Roary: the pan genome pipeline
+
+https://www.ncbi.nlm.nih.gov/pubmed/26198102
+Bioinformatics. 2015 Nov 15;31(22):3691-3. doi: 10.1093/bioinformatics/btv421. Epub 2015 Jul 20.
+Roary: rapid large-scale prokaryote pan genome analysis.
+Page AJ1, Cummins CA1, Hunt M1, Wong VK2, Reuter S3, Holden MT4, Fookes M1, Falush D5, Keane JA1, Parkhill J1.
+
+----------
+### 2014
+
 ### ITEP
 
 https://hood-price.systemsbiology.org/research/itep/
@@ -334,4 +414,18 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890548/
 ![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890548/figure/F1/](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=3890548_1471-2164-15-8-1.jpg)
 
 ----------
+### Panseq
+
+https://www.ncbi.nlm.nih.gov/pubmed/20843356
+BMC Bioinformatics. 2010 Sep 15;11:461. doi: 10.1186/1471-2105-11-461.
+Pan-genome sequence analysis using Panseq: an online tool for the rapid analysis of core and accessory genomic regions.
+Laing C1, Buchanan C, Taboada EN, Zhang Y, Kropinski A, Villegas A, Thomas JE, Gannon VP.
+
+
+
+----------
+### 
+
+
+
 
