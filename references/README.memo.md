@@ -679,6 +679,10 @@ https://bacdive.dsmz.de/strain/131145
 
 #### 2019
 
+03 May 2019
+https://www.nature.com/articles/s41396-019-0422-z
+Predictive genomic traits for bacterial growth in culture versus actual growth in soil | The ISME Journal
+
 https://twitter.com/MattagenOlmics/status/1100465734046498816
 Matt Olm on Twitter: "(https://t.co/uHTZlq8Mf7), secondary metabolite gene clusters using antismash (https://t.co/nQrEixuomA), BoNTs using BoNTbase (https://t.co/QEOvEieBC3), and metabolisms using KEGG modules (https://t.co/7d6QwbVOQI). Growth rates of bacteria were calculated using iRep (5/7)"
 1:40 PM - 26 Feb 2019
