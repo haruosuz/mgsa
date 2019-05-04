@@ -40,7 +40,7 @@ Last Update: 2019-05
 - [unclassified](#unclassified)
 - [2019-05-02](#2019-05-02)
   - [diversity index](#diversity-index)
-  - [unifrac](#unifrac)
+- [unifrac](#unifrac)
 - [LEfSe](#lefse)
 - [Mash](#mash)
 
@@ -2016,7 +2016,7 @@ Gibbons, Duvallet, Alm のメタアナリシス
 
 https://github.com/haruosuz/statistics/blob/master/README.md#distance
 
-### UniFrac
+## UniFrac
 UniFracは、距離計量 distance metric の要件を満たす。
 
 https://en.wikipedia.org/wiki/UniFrac
@@ -2045,26 +2045,25 @@ Jan 29, 2016
 https://www.youtube.com/watch?v=M8ylvsS0MHg
 Microbiome Discovery 9: UniFrac - YouTube
 
+平成 28 年 3 月版（Ver.0.9）
+https://www.nite.go.jp/data/000081956.pdf
+次世代シーケンサーを用いた菌叢解析
+（16S rRNA 遺伝子 PCR サンプルの解析）
+独立行政法人 製品評価技術基盤機構
+バイオテクノロジーセンター
+2.5 UniFrac 解析
+比較するサンプルの OTU 代表配列を用いて系統樹解析を行い、試料間で共有されるOTU の枝長と各試料で固有な枝長の割合から、菌叢構造の違いを距離 UniFrac distance として計算する解析方法をいう。算出された UniFrac distance を用いて、主座標分析(PCoA:Principal Coordinate Analysis)や UPGMA 法によるクラスタリング解析を行うことで、試料間の相違度を視覚化することができる。また、リード数を考慮し細菌叢の構成を表す Weighted UniFrac 解析と、リード数を考慮せず細菌叢の構成メンバーを表す UnweightedUniFrac 解析がある。
+
 2014 年
 https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_article/-char/ja
 特集：腸内細菌と免疫疾患
 ヒト腸内マイクロバイオーム解析のための最新技術
 服部 正平
-https://pdfs.semanticscholar.org/b233/363fc7b5dddc590183420e5a1755cab5d0c8.pdf
-二つ目は検出された OTU 間
-の配列類似度から各細菌叢の系統樹を作成し，その
-系統樹の類似性（比較する細菌叢との系統樹間で共
-有する枝の長さとそれぞれの細菌叢に固有な枝の割
-合）から，細菌叢間の全体構造の相違の程度を求め
-る．この解析を UniFrac 解析と言い，細菌叢間の類
-似性を 0（100% 類似する）～ 1（100% 類似しない）
-の距離（UniFrac 距離）で表す6）
-．UniFrac 解析には
-OTU に含まれるリード数（組成比）を考慮しない
-unweighted と考慮した weighted UniFrac 解析がある．
-前者は菌種の有無だけが，後者は同一菌種の組成
-比の相違が両細菌叢間の類似性の距離に反映され
-る．
+https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_pdf/-char/ja
+二つ目は検出された OTU 間の配列類似度から各細菌叢の系統樹を作成し，その系統樹の類似性（比較する細菌叢との系統樹間で共有する枝の長さとそれぞれの細菌叢に固有な枝の割合）から，細菌叢間の全体構造の相違の程度を求める．この解析を UniFrac 解析と言い，細菌叢間の類似性を 0（100% 類似する）～ 1（100% 類似しない）の距離（UniFrac 距離）で表す6）．UniFrac 解析にはOTU に含まれるリード数（組成比）を考慮しないunweighted と考慮した weighted UniFrac 解析がある．前者は菌種の有無だけが，後者は同一菌種の組成比の相違が両細菌叢間の類似性の距離に反映される．
+
+https://twitter.com/yoshikivb/status/1001558730490634243
+Yoshiki Vázquez B. on Twitter: "Ever wondered what a UniFrac ordination looked like with >110K samples? Wonder no more, you can now look at it live (will work best on your desktop): https://t.co/itSsrIzXhL thanks to a recent PR, @mcdonadt and @qiime2… https://t.co/6WPLTbyP6Q"
 
 https://twitter.com/level3defless/status/890749455590342658
 Koichi Higashi on Twitter: "系統組成をアップロードして類似したサンプルを検索、比較するウェブサーバ。Earth mover's distance的な計算でweighted UniFracを高速に評価できるらしい。 https://t.co/K6RszvQpzR"
@@ -2077,6 +2076,10 @@ https://twitter.com/windowmoon/status/783394541067829252
 https://twitter.com/windowmoon/status/411160508532658176
 働く窓月 on Twitter: "そう言えば、種生物でUniFrac使ってる発表(Q大のMTYKさんだったか?)があって、「細菌向けに開発されたものだから何か問題あるのかも」とか書いていたように記憶している。が、対象生物が細菌であることを前提とした方法ではないと思う。問題があるとすれば、系統樹だろう。"
 10:47 AM - 12 Dec 2013
+
+https://twitter.com/windowmoon/status/411154169328709633
+窓月㌠・CC-BY on Twitter: "@Tyu_Shi 万単位になってくるとブートストラップなしでも系統樹推定苦しいのでは。系統樹使わずに分子同定した上で、分類体系に合うように樹形制約を入れれば可能かもしれません。ブートストラップもなしで単発の推定結果を樹形の不確実性考慮せずに使うのはかなり拙いでしょうね。"
+10:22 AM - 12 Dec 2013
 
 https://twitter.com/Tyu_Shi/status/411124035401949184
 Tyu_Shi on Twitter: "昨日からの発表を聴いていると、みんなUniFrac Distanceを万能の距離尺度と考えて使っているように感じられるが、あれはUniFrac Distanceを計算する系統樹が問題無いことを前提にしているのだから、その前提の確認無しに信頼しすぎるのはマズいよ。"
