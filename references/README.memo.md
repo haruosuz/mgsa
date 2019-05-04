@@ -2022,6 +2022,11 @@ UniFracは、距離計量 distance metric の要件を満たす。
 https://en.wikipedia.org/wiki/UniFrac
 This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
 
+https://www.ncbi.nlm.nih.gov/pubmed/30377368
+Nat Methods. 2018 Nov;15(11):847-848. doi: 10.1038/s41592-018-0187-8.
+Striped UniFrac: enabling microbiome analysis at unprecedented scale.
+McDonald D1, Vázquez-Baeza Y1, Koslicki D2, McClelland J2, Reeve N1,3, Xu Z1, Gonzalez A1, Knight R4,5,6,7.
+
 https://www.ncbi.nlm.nih.gov/pubmed/20827291
 ISME J. 2011 Feb;5(2):169-72. doi: 10.1038/ismej.2010.133. Epub 2010 Sep 9.
 UniFrac: an effective distance metric for microbial community comparison.
@@ -2035,6 +2040,31 @@ UniFrac: a new phylogenetic method for comparing microbial communities.
 Lozupone C1, Knight R.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
 UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
+
+Jan 29, 2016
+https://www.youtube.com/watch?v=M8ylvsS0MHg
+Microbiome Discovery 9: UniFrac - YouTube
+
+2014 年
+https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_article/-char/ja
+特集：腸内細菌と免疫疾患
+ヒト腸内マイクロバイオーム解析のための最新技術
+服部 正平
+https://pdfs.semanticscholar.org/b233/363fc7b5dddc590183420e5a1755cab5d0c8.pdf
+二つ目は検出された OTU 間
+の配列類似度から各細菌叢の系統樹を作成し，その
+系統樹の類似性（比較する細菌叢との系統樹間で共
+有する枝の長さとそれぞれの細菌叢に固有な枝の割
+合）から，細菌叢間の全体構造の相違の程度を求め
+る．この解析を UniFrac 解析と言い，細菌叢間の類
+似性を 0（100% 類似する）～ 1（100% 類似しない）
+の距離（UniFrac 距離）で表す6）
+．UniFrac 解析には
+OTU に含まれるリード数（組成比）を考慮しない
+unweighted と考慮した weighted UniFrac 解析がある．
+前者は菌種の有無だけが，後者は同一菌種の組成
+比の相違が両細菌叢間の類似性の距離に反映され
+る．
 
 https://twitter.com/level3defless/status/890749455590342658
 Koichi Higashi on Twitter: "系統組成をアップロードして類似したサンプルを検索、比較するウェブサーバ。Earth mover's distance的な計算でweighted UniFracを高速に評価できるらしい。 https://t.co/K6RszvQpzR"
