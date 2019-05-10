@@ -2780,8 +2780,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/30910818
 G3 (Bethesda). 2019 Mar 25. pii: g3.200978.2018. doi: 10.1534/g3.118.200978. [Epub ahead of print]
 Genomic Analysis of Pseudomonas sp. Strain SCT, an Iodate-Reducing Bacterium Isolated from Marine Sediment, Reveals a Possible Use for Bioremediation.
 Harada M, Ito K, Nakajima N, Yamamura S, Tomita M, Suzuki H, Amachi S.
-http://www.g3journal.org/content/early/2019/03/25/g3.118.200978.long
-http://www.g3journal.org/content/ggg/early/2019/03/25/g3.118.200978.full.pdf
+https://www.g3journal.org/content/9/5/1321.long#T1
 Table 1. Genomic features of Pseudomonas strains analyzed
 Isolation source
 
@@ -2826,11 +2825,6 @@ Genomes selected for analysis
 Strain characteristics
 
 ----------
-
-
-
-
-
 
 
 
