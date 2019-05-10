@@ -48,248 +48,14 @@ Last Update: 2019-05
 - [2018-06](#2018-06)
   - [2018-06-26](#2018-06-26)
   - [2018-06-05](#2018-06-05)
-- [prokaryote](#prokaryote)
 - [replication](#replication)
-- [papers](#papers)
-- [metadata](#metadata)
-  - [source](#source) 分離源
-
 - [phage](#phage)
 - [primer](#primer)
 - [GWAS](#gwas)
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 - [k-mer](#k-mer)
-- [archaea](#archaea)
-
-----------
-
-https://github.com/hiromasaono/training/tree/master/180612_KeioSFC
-今日から使える便利な生命科学系公共データベース・ウェブツール
-小野 浩雅
-2018年6月12日(火)
-
-January 17, 2018
-https://github.com/yuifu/ajacs68/blob/master/README.md
-NGSデータから新たな知識を導出するためのデータ解析リテラシー
-尾崎 遼 Haruka Ozaki
-
-
-
-----------
-## archaea
-
-https://twitter.com/microbeminded2/status/1011396711082700800
-specific archaea-targeting methodology
-
-https://www.biorxiv.org/content/early/2018/05/30/334748
-Measuring the archaeome: detection and quantification of archaea signatures in the human body | bioRxiv
-
-https://twitter.com/pathogenomenick/status/897061801090850819
-"Universal" 16S primers miss a bunch of archaea:
-7:46 AM - 14 Aug 2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/28251182
-mSphere. 2017 Feb 22;2(1). pii: e00026-17. doi: 10.1128/mSphere.00026-17. eCollection 2017 Jan-Feb.
-Unexplored Archaeal Diversity in the Great Ape Gut Microbiome.
-Here we evaluate archaeal diversity in gut microbiomes using an approach that targets virtually all known members of this domain.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25144201
-PLoS One. 2014 Aug 21;9(8):e105592. doi: 10.1371/journal.pone.0105592. eCollection 2014.
-Development of a prokaryotic universal primer for simultaneous analysis of Bacteria and Archaea using next-generation sequencing.
-
-https://www.researchgate.net/post/What_are_the_best_archaeal_and_universal_primers
-Asked 4 years ago
-
-https://www.researchgate.net/post/Can_you_suggest_Archaea_domain_specific_16S_primers_for_metagenomic_study_of_human_gut_flora
-Asked 6 years ago
-
-https://www.ncbi.nlm.nih.gov/pubmed/20940022
-J Microbiol Methods. 2011 Jan;84(1):12-8. doi: 10.1016/j.mimet.2010.10.001. Epub 2010 Oct 19.
-Novel primers for 16S rRNA-based archaeal community analyses in environmental samples.
-
-
-----------
-### GWAS
-- [Genome-wide association study (GWAS)](https://en.wikipedia.org/wiki/Genome-wide_association_study)
-- [ゲノムワイド関連解析](https://bsd.neuroinf.jp/wiki/ゲノムワイド関連解析)
-- [[PDF]次世代GWAS研究 - イルミナ株式会社](https://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/primer_next_generation_gwas_research-j.pdf)
-
-https://twitter.com/The_Microbiome/status/1099955581140508672
-The Microbiome on Twitter: "A new workflow able to integrate #GWAS, #microbiome and #metabolic results to obtain causal inferences about #diabetes and the #SCFA #butyrate and #propionate. @NatureGenet The Microbiome Portal: https://t.co/ZnYwPAYxZC… https://t.co/YWAKHSJZwY"
-3:53 AM - 25 Feb 2019
-http://themicrobiome.com/en/publications/causal-relationships-among-the-gut-microbiome-shortchain-fatty-acids-and-metabolic-diseases
-Mendelian randomization
-
-https://twitter.com/Tyu_Shi/status/1053687083284348928
-Tyu_Shi on Twitter: "それらの論文読んだ後に、GWASとの対比でメタゲコホート研究を論じたこのReviewを読んだが、現状の問題点の整理にとても良かった。提案しているindexはちょっと微妙だが。Host genetics and microbiome associations through the lens of genome wide association studies https://t.co/a7DIpB9Aqs"
-12:39 PM - 20 Oct 2018
-https://www.ncbi.nlm.nih.gov/pubmed/29909175
-Curr Opin Microbiol. 2018 Aug;44:9-19. doi: 10.1016/j.mib.2018.05.003. Epub 2018 Jun 14.
-Host genetics and microbiome associations through the lens of genome wide association studies.
-Weissbrod O1, Rothschild D1, Barkan E1, Segal E2.
-
-https://twitter.com/johnlees6/status/1013791082872745985
-John Lees on Twitter: "Have a look at our (now published) short note about our microbial GWAS software pyseer: https://t.co/7u8ko59mb1 More info here: https://t.co/xOsJbzci33 We've also got some new features coming soon, how exciting"
-10:26 AM - 2 Jul 2018
-
-https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty539/5047751
-pyseer: a comprehensive tool for microbial pangenome-wide association studies | Bioinformatics | Oxford Academic
-
-http://pyseer.readthedocs.io/en/master/
-pyseer documentation — pyseer 1.1.1 documentation
-
-
-https://www.biorxiv.org/content/early/2018/02/15/266312
-pyseer: a comprehensive tool for microbial pangenome-wide association studies | bioRxiv
-- https://github.com/mgalardini/pyseer
-- http://pyseer.readthedocs.io
-
-6 Feb 2018
-https://twitter.com/strnr/status/960873677532385280
-Stephen Turner on Twitter: "treeWAS: A phylogenetic tree-based approach to genome-wide association studies in microbes code https://t.co/JprApEzBbj paper https://t.co/DZN9Jod0tQ docs https://t.co/e5aExAXb1L… https://t.co/ghmiArcTyI"
-
-https://www.ncbi.nlm.nih.gov/pubmed/27840430
-Nat Rev Genet. 2017 Jan;18(1):41-50. doi: 10.1038/nrg.2016.132. Epub 2016 Nov 14.
-Microbial genome-wide association studies: lessons from human GWAS.
-Power RA1, Parkhill J2, de Oliveira T1,2,3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27887642
-Genome Biol. 2016 Nov 25;17(1):238.
-Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
-Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27572652
-Nat Microbiol. 2016 Apr 26;1:16059. doi: 10.1038/nmicrobiol.2016.59.
-Bacterial genomics: Microbial GWAS coming of age.
-Falush D1.
-
-https://www.biostars.org/p/197270/
-Is there any good GWAS software for the whole bacterial genomes?
-
-https://www.ncbi.nlm.nih.gov/pubmed/27892531
-Sci Rep. 2016 Nov 28;6:37811. doi: 10.1038/srep37811.
-A genome-wide association study identifies a horizontally transferred bacterial surface adhesin gene associated with antimicrobial resistant strains.
-Suzuki M1, Shibayama K1, Yahara K1.
-http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
-3O1-09
-ゲノムワイド関連解析による水平伝達に由来しカルバペネム耐性株に広く保存された 細胞表面接着因子の発見
-
-https://twitter.com/search?q=GWAS%20microbiome
-
-https://www.ncbi.nlm.nih.gov/pubmed/28824167
-Nat Rev Genet. 2017 Nov;18(11):690-699. doi: 10.1038/nrg.2017.63. Epub 2017 Aug 21.
-Human genetic variation and the gut microbiome in disease.
-Hall AB1,2, Tolonen AC1, Xavier RJ1,2,3,4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27694959
-Nat Genet. 2016 Nov;48(11):1407-1412. doi: 10.1038/ng.3663. Epub 2016 Oct 3.
-The effect of host genetics on the gut microbiome.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26528553
-PLoS One. 2015 Nov 3;10(11):e0140301. doi: 10.1371/journal.pone.0140301. eCollection 2015.
-Genome-Wide Association Studies of the Human Gut Microbiota.
-Davenport ER1, Cusanovich DA1, Michelini K1, Barreiro LB2, Ober C1, Gilad Y1.
-
-2016年7月11日
-http://first.lifesciencedb.jp/archives/12735
-ゲノムワイド関連解析を用いたイネにおける農業形質にかかわる新規の遺伝子の同定
-
-http://plaza.umin.ac.jp/~yokada/yokada.files/JSHG2012_YukinoriOkada_Award.pdf
-2012/10/26 日本人類遺伝学会第57回大会 奨励賞受賞講演
-ゲノムワイド関連解析を通じた疾患感受性遺伝子の同定
-
-2009年3月26日
-https://www.natureasia.com/ja-jp/jobs/tokushu/detail/154
-ゲノムを巨視的にとらえる…GWASとエピジェネティクスの試み
-
-2009年3月
-https://ci.nii.ac.jp/els/contentscinii_20180212133359.pdf?id=ART0009161346
-全ゲノム関連解析 (GWAS)の統計的手法
-
-----------
-## primer
-
-http://kazumaxneo.hatenablog.com/entry/2017/12/25/155719
-特異的なプライマーを自動設計する Primer BLAST - macでインフォマティクス
-
-http://togotv.dbcls.jp/20170511.html
-2017-05-11 PCRプライマー設計用ツール Primer3の使い方 2017
-
-2012年5月28日
-http://first.lifesciencedb.jp/from_dbcls/e0001
-統合遺伝子検索GGRNA：遺伝子をGoogleのように検索できるウェブサーバ : ライフサイエンス 新着論文レビュー
-2．GGRNAの活用事例
-・PCRのプライマー配列から増幅遺伝子や増幅領域を確認する　　CTAGCTGCCAAAGAAGGACAT comp:CAATGAGATGTTGTCGTGCTCのようにして，fowardプライマーの配列と，reverseプライマーの相補鎖の配列とを同時に検索すれば，PCRで増幅する遺伝子や増幅領域を確認できる．
-
-http://staffblog.amelieff.jp/entry/2011/05/24/180000
-誰でも簡単にPrimer設計！への道 ~Primer3について~
-
-
-----------
-## CAMI
-Critical Assessment of Metagenome Interpretation
-
-https://twitter.com/CAMI_challenge
-
-https://msystems.asm.org/content/3/4/e00103-18
-Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
-
-Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate). 
-
-![](https://msystems.asm.org/content/msys/3/4/e00103-18/F1.large.jpg)
-
-https://www.ncbi.nlm.nih.gov/pubmed/28967888
-Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
-Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
-
-----------
-## k-mer
-
-https://www.biorxiv.org/content/early/2018/04/19/304972
-RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
-
-https://twitter.com/aphillippy/status/987312716451807233
-Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
-8:51 AM - 20 Apr 2018
-
-https://twitter.com/BioMickWatson/status/987217580648693760
-Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
-2:33 AM - 20 Apr 2018
-
-
-
-
-
-
-----------
-### phage
-
-
-https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz265/5480131
-PHANOTATE: A novel approach to gene identification in phage genomes 
-
-https://twitter.com/XabiVC/status/1123503405626826752
-Xabier Vázquez-Campos on Twitter: "Any recommendations for detecting #prophages in #bacteria #genomes? Specially from rather fragmented genomes and/or MAGs I've tried PHASTER and Phigaro so far. Any suggestions welcomed. Thanks!"
-4:24 AM - 1 May 2019
-
-https://twitter.com/yokadzaki/status/1016332354158071809
-面白い。Pseudomonasに感染するファージのゲノムの多様性の高さに注目した研究。この結果を見ると、メタゲノムで得られた未知ウイルスゲノムのホストを特定するのは容易ではないし、比較的良い手がかりになるとされているnucleotide compositionにも実際はかなりばらつきがあるのが分かる
-10:44 AM - 9 Jul 2018
-https://www.frontiersin.org/articles/10.3389/fmicb.2018.01456/full
-Frontiers | Comparative Genomic Analysis of 130 Bacteriophages Infecting Bacteria in the Genus Pseudomonas | Microbiology
-
-
-https://github.com/simroux/VirSorter
-https://www.ncbi.nlm.nih.gov/pubmed/26038737
-PeerJ. 2015 May 28;3:e985. doi: 10.7717/peerj.985. eCollection 2015.
-VirSorter: mining viral signal from microbial genomic data.
-Roux S1, Enault F2, Hurwitz BL3, Sullivan MB1.
-
-http://aclame.ulb.ac.be/Tools/Prophinder/
-ACLAME: Prophinder
-
-
-
+- [metadata](#metadata)
+  - [source](#source) 分離源
 
 ----------
 ## featuring
@@ -622,10 +388,8 @@ https://twitter.com/marimiya_clc/status/822631074060767234
 http://ivory.idyll.org/blog/2017-sourmash-sra-microbial-wgs.html
 Categorizing 400,000 microbial genome shotgun data sets from the SRA
 
-
-
-
-### 2016
+----------
+## 2016
 
 http://www.jsbi.org/iibmp2016/program_highlight/
 森宙史ら
@@ -634,11 +398,6 @@ Nat Commun. 2016, 7:11939. doi: 10.1038/ncomms11939.
 http://www.nature.com/articles/ncomms11939
 
 
-
-
-
-----------
-## 2016
 
 https://www.ncbi.nlm.nih.gov/pubmed/27541692
 PLoS Biol. 2016 Aug 19;14(8):e1002533. doi: 10.1371/journal.pbio.1002533. eCollection 2016 Aug.
@@ -2793,24 +2552,12 @@ MBio. 2018 Jun 5;9(3). pii: e00525-18. doi: 10.1128/mBio.00525-18.
 Identifying and Overcoming Threats to Reproducibility, Replicability, Robustness, and Generalizability in Microbiome Research.
 Schloss PD1.
 
-----------
-## prokaryote
-
-https://twitter.com/FenrirCappel/status/1037604131928592384
-yuki_hamaguchi on Twitter: "真核生物か原核生物かわかっていない生物がいるらしい… しかも2012年に発見されてから、この１種以外見つかっていないみたい…不思議… https://t.co/BaANRqXCTo https://t.co/g4Dfwgu1tb"
-3:31 AM - 6 Sep 2018
-
-10-2-2017
-https://ultrabem.com/organism/taxa/prokaryote.html
-原核生物 Prokaryote: 核をもたない生物
-
-2015年5月12日
-http://aasj.jp/news/watch/3410
-５月１２日：原核生物と真核生物をつなぐミッシングリンクの発見（Natureオンライン版掲載論文） | AASJホームページ
 
 ----------
 # replication
 複製
+
+https://github.com/haruosuz/codon/blob/master/README.md#replication
 
 遺伝子がリーディング鎖に偏る。必須遺伝子で顕著
 French, S. 1992. “Consequences of Replication Fork Movement through Transcription Units in Vivo.” Science (New York, N.Y.) 258 (5086): 1362–65. http://www.ncbi.nlm.nih.gov/pubmed/1455232.
@@ -2838,6 +2585,191 @@ Trends Microbiol. 2002 Sep;10(9):393-5.
 Is there a role for replication fork asymmetry in the distribution of genes in bacterial genomes?
 Rocha E1.
 Fig. 2. Distribution of the percentage of genes in the leading strand (a)
+
+
+
+
+
+
+
+
+----------
+### GWAS
+- [Genome-wide association study (GWAS)](https://en.wikipedia.org/wiki/Genome-wide_association_study)
+- [ゲノムワイド関連解析](https://bsd.neuroinf.jp/wiki/ゲノムワイド関連解析)
+- [[PDF]次世代GWAS研究 - イルミナ株式会社](https://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/primer_next_generation_gwas_research-j.pdf)
+
+https://twitter.com/The_Microbiome/status/1099955581140508672
+The Microbiome on Twitter: "A new workflow able to integrate #GWAS, #microbiome and #metabolic results to obtain causal inferences about #diabetes and the #SCFA #butyrate and #propionate. @NatureGenet The Microbiome Portal: https://t.co/ZnYwPAYxZC… https://t.co/YWAKHSJZwY"
+3:53 AM - 25 Feb 2019
+http://themicrobiome.com/en/publications/causal-relationships-among-the-gut-microbiome-shortchain-fatty-acids-and-metabolic-diseases
+Mendelian randomization
+
+https://twitter.com/Tyu_Shi/status/1053687083284348928
+Tyu_Shi on Twitter: "それらの論文読んだ後に、GWASとの対比でメタゲコホート研究を論じたこのReviewを読んだが、現状の問題点の整理にとても良かった。提案しているindexはちょっと微妙だが。Host genetics and microbiome associations through the lens of genome wide association studies https://t.co/a7DIpB9Aqs"
+12:39 PM - 20 Oct 2018
+https://www.ncbi.nlm.nih.gov/pubmed/29909175
+Curr Opin Microbiol. 2018 Aug;44:9-19. doi: 10.1016/j.mib.2018.05.003. Epub 2018 Jun 14.
+Host genetics and microbiome associations through the lens of genome wide association studies.
+Weissbrod O1, Rothschild D1, Barkan E1, Segal E2.
+
+https://twitter.com/johnlees6/status/1013791082872745985
+John Lees on Twitter: "Have a look at our (now published) short note about our microbial GWAS software pyseer: https://t.co/7u8ko59mb1 More info here: https://t.co/xOsJbzci33 We've also got some new features coming soon, how exciting"
+10:26 AM - 2 Jul 2018
+
+https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty539/5047751
+pyseer: a comprehensive tool for microbial pangenome-wide association studies | Bioinformatics | Oxford Academic
+
+http://pyseer.readthedocs.io/en/master/
+pyseer documentation — pyseer 1.1.1 documentation
+
+
+https://www.biorxiv.org/content/early/2018/02/15/266312
+pyseer: a comprehensive tool for microbial pangenome-wide association studies | bioRxiv
+- https://github.com/mgalardini/pyseer
+- http://pyseer.readthedocs.io
+
+6 Feb 2018
+https://twitter.com/strnr/status/960873677532385280
+Stephen Turner on Twitter: "treeWAS: A phylogenetic tree-based approach to genome-wide association studies in microbes code https://t.co/JprApEzBbj paper https://t.co/DZN9Jod0tQ docs https://t.co/e5aExAXb1L… https://t.co/ghmiArcTyI"
+
+https://www.ncbi.nlm.nih.gov/pubmed/27840430
+Nat Rev Genet. 2017 Jan;18(1):41-50. doi: 10.1038/nrg.2016.132. Epub 2016 Nov 14.
+Microbial genome-wide association studies: lessons from human GWAS.
+Power RA1, Parkhill J2, de Oliveira T1,2,3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27887642
+Genome Biol. 2016 Nov 25;17(1):238.
+Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
+Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27572652
+Nat Microbiol. 2016 Apr 26;1:16059. doi: 10.1038/nmicrobiol.2016.59.
+Bacterial genomics: Microbial GWAS coming of age.
+Falush D1.
+
+https://www.biostars.org/p/197270/
+Is there any good GWAS software for the whole bacterial genomes?
+
+https://www.ncbi.nlm.nih.gov/pubmed/27892531
+Sci Rep. 2016 Nov 28;6:37811. doi: 10.1038/srep37811.
+A genome-wide association study identifies a horizontally transferred bacterial surface adhesin gene associated with antimicrobial resistant strains.
+Suzuki M1, Shibayama K1, Yahara K1.
+http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
+3O1-09
+ゲノムワイド関連解析による水平伝達に由来しカルバペネム耐性株に広く保存された 細胞表面接着因子の発見
+
+https://twitter.com/search?q=GWAS%20microbiome
+
+https://www.ncbi.nlm.nih.gov/pubmed/28824167
+Nat Rev Genet. 2017 Nov;18(11):690-699. doi: 10.1038/nrg.2017.63. Epub 2017 Aug 21.
+Human genetic variation and the gut microbiome in disease.
+Hall AB1,2, Tolonen AC1, Xavier RJ1,2,3,4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27694959
+Nat Genet. 2016 Nov;48(11):1407-1412. doi: 10.1038/ng.3663. Epub 2016 Oct 3.
+The effect of host genetics on the gut microbiome.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26528553
+PLoS One. 2015 Nov 3;10(11):e0140301. doi: 10.1371/journal.pone.0140301. eCollection 2015.
+Genome-Wide Association Studies of the Human Gut Microbiota.
+Davenport ER1, Cusanovich DA1, Michelini K1, Barreiro LB2, Ober C1, Gilad Y1.
+
+2016年7月11日
+http://first.lifesciencedb.jp/archives/12735
+ゲノムワイド関連解析を用いたイネにおける農業形質にかかわる新規の遺伝子の同定
+
+http://plaza.umin.ac.jp/~yokada/yokada.files/JSHG2012_YukinoriOkada_Award.pdf
+2012/10/26 日本人類遺伝学会第57回大会 奨励賞受賞講演
+ゲノムワイド関連解析を通じた疾患感受性遺伝子の同定
+
+2009年3月26日
+https://www.natureasia.com/ja-jp/jobs/tokushu/detail/154
+ゲノムを巨視的にとらえる…GWASとエピジェネティクスの試み
+
+2009年3月
+https://ci.nii.ac.jp/els/contentscinii_20180212133359.pdf?id=ART0009161346
+全ゲノム関連解析 (GWAS)の統計的手法
+
+----------
+## primer
+
+http://kazumaxneo.hatenablog.com/entry/2017/12/25/155719
+特異的なプライマーを自動設計する Primer BLAST - macでインフォマティクス
+
+http://togotv.dbcls.jp/20170511.html
+2017-05-11 PCRプライマー設計用ツール Primer3の使い方 2017
+
+2012年5月28日
+http://first.lifesciencedb.jp/from_dbcls/e0001
+統合遺伝子検索GGRNA：遺伝子をGoogleのように検索できるウェブサーバ : ライフサイエンス 新着論文レビュー
+2．GGRNAの活用事例
+・PCRのプライマー配列から増幅遺伝子や増幅領域を確認する　　CTAGCTGCCAAAGAAGGACAT comp:CAATGAGATGTTGTCGTGCTCのようにして，fowardプライマーの配列と，reverseプライマーの相補鎖の配列とを同時に検索すれば，PCRで増幅する遺伝子や増幅領域を確認できる．
+
+http://staffblog.amelieff.jp/entry/2011/05/24/180000
+誰でも簡単にPrimer設計！への道 ~Primer3について~
+
+
+----------
+## CAMI
+Critical Assessment of Metagenome Interpretation
+
+https://twitter.com/CAMI_challenge
+
+https://msystems.asm.org/content/3/4/e00103-18
+Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
+
+Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate). 
+
+![](https://msystems.asm.org/content/msys/3/4/e00103-18/F1.large.jpg)
+
+https://www.ncbi.nlm.nih.gov/pubmed/28967888
+Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
+Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
+
+----------
+## k-mer
+
+https://www.biorxiv.org/content/early/2018/04/19/304972
+RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
+
+https://twitter.com/aphillippy/status/987312716451807233
+Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
+8:51 AM - 20 Apr 2018
+
+https://twitter.com/BioMickWatson/status/987217580648693760
+Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
+2:33 AM - 20 Apr 2018
+
+----------
+### phage
+
+
+https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz265/5480131
+PHANOTATE: A novel approach to gene identification in phage genomes 
+
+https://twitter.com/XabiVC/status/1123503405626826752
+Xabier Vázquez-Campos on Twitter: "Any recommendations for detecting #prophages in #bacteria #genomes? Specially from rather fragmented genomes and/or MAGs I've tried PHASTER and Phigaro so far. Any suggestions welcomed. Thanks!"
+4:24 AM - 1 May 2019
+
+https://twitter.com/yokadzaki/status/1016332354158071809
+面白い。Pseudomonasに感染するファージのゲノムの多様性の高さに注目した研究。この結果を見ると、メタゲノムで得られた未知ウイルスゲノムのホストを特定するのは容易ではないし、比較的良い手がかりになるとされているnucleotide compositionにも実際はかなりばらつきがあるのが分かる
+10:44 AM - 9 Jul 2018
+https://www.frontiersin.org/articles/10.3389/fmicb.2018.01456/full
+Frontiers | Comparative Genomic Analysis of 130 Bacteriophages Infecting Bacteria in the Genus Pseudomonas | Microbiology
+
+
+https://github.com/simroux/VirSorter
+https://www.ncbi.nlm.nih.gov/pubmed/26038737
+PeerJ. 2015 May 28;3:e985. doi: 10.7717/peerj.985. eCollection 2015.
+VirSorter: mining viral signal from microbial genomic data.
+Roux S1, Enault F2, Hurwitz BL3, Sullivan MB1.
+
+http://aclame.ulb.ac.be/Tools/Prophinder/
+ACLAME: Prophinder
+
+----------
+
 
 ----------
 ## metadata
@@ -2894,6 +2826,10 @@ Genomes selected for analysis
 Strain characteristics
 
 ----------
+
+
+
+
 
 
 
