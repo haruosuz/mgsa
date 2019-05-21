@@ -43,7 +43,6 @@ Last Update: 2019-05
 - [unifrac](#unifrac)
 - [LEfSe](#lefse)
 - [Mash](#mash)
-
 - [jsme2018](#jsme2018) Microbial lifestyle and genome signatures.
 - [2018-06](#2018-06)
   - [2018-06-26](#2018-06-26)
