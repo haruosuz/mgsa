@@ -56,6 +56,71 @@ Last Update: 2019-05
 - [k-mer](#k-mer)
 - [metadata](#metadata)
   - [source](#source) 分離源
+- [genome report](#genome-report)
+- [kofamscan](#kofamscan)
+
+----------
+
+### kofamscan
+
+https://twitter.com/ReiterTaylor/status/1127287338327896064
+Taylor Reiter on Twitter: "I wrote a tutorial on how to use kofamscan on the command line: https://t.co/o9WRfXDKU2 I'm so pleased to be able to use this tool independent of the web interface. No more 300mb cutoffs + email submissions!… https://t.co/ULebatHI98"
+3:00 PM - 11 May 2019
+
+https://taylorreiter.github.io/2019-05-11-kofamscan/
+How to run kofamscan
+
+https://www.biorxiv.org/content/10.1101/602110v1
+KofamKOALA: KEGG ortholog assignment based on profile HMM and adaptive score threshold | bioRxiv
+Availability KofamKOALA, KofamScan, and KOfam are freely available from https://www.genome.jp/tools/kofamkoala/
+
+
+----------
+### genome report
+
+http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
+ゲノム工学実習 - 荒川和晴, 慶應義塾大学 先端生命科学研究所 (Kazuharu Arakawa, Institute for Advanced Biosciences, Keio University)
+
+https://twitter.com/jgalipon/status/1123986093001584640
+Josephine Galipon on Twitter: "オリーブオイル工場の廃液に生きている好塩菌 Halomonas olivaria の@nanopore によるコンプリートゲノムを発表しました。@gaou_ak の『ゲノム工学実習』では、学生がバクテリアゲノム精製⇒Nanoporeシーケンシング⇒ゲノムアセンブリ⇒論文投稿を行う実習です。@shohei_aio らhttps://t.co/RsUKnNzpJ8"
+12:22 PM - 2 May 2019
+
+https://twitter.com/DnEvnsYmmt/status/1119065344255987712
+Dan E.-Y. on Twitter: "南海トラフ海底（水深 3,308 m）の泥から単離したバクテリアゲノムをシーケンスしたゲノムレポートが出版されました。 共同研究航海に参加する形でサンプリングし、 慶應大学院のゲノム工学実習で班員と共にシーケンス・アセンブリしました。 ありがとうございました。 https://t.co/UNWPN3tLjL"
+10:29 PM - 18 Apr 2019
+
+http://www.ncbi.nlm.nih.gov/pubmed/27339634
+Brief Funct Genomics. 2017 May 1;16(3):156-162. doi: 10.1093/bfgp/elw026.
+Goodbye genome paper, hello genome report: the increasing popularity of 'genome announcements' and their impact on science.
+Smith DR.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5439286/
+Table 1.
+Examples of journals that currently publish genome-report-type articles
+Peer reviewed?a
+aEditorial review was not considered peer review.
+
+- Genome Biology and Evolution https://academic.oup.com/gbe/pages/general_instructions Genome Reports
+- Gut Pathogens | Genome report https://gutpathogens.biomedcentral.com/submission-guidelines/preparing-your-manuscript/genome-report
+- Standards in Genomic Sciences | Short genome report https://standardsingenomics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/short-genome-report
+- Journal of Biotechnology https://www.elsevier.com/journals/journal-of-biotechnology/0168-1656/guide-for-authors  (4) Short Genome Communications
+
+https://ultrabem.com/other_metabolites/nucleic_acids/dna_genome_paper.html
+ゲノム論文コレクション
+概要: Genome paper について
+2016 年現在、GenBank には 6 万以上の 原核生物 ゲノムと、2700 以上の真核生物ゲノムが登録されている。
+
+
+
+#### Genome Announcements
+- [抗ウイルス活性物質を生産する放線菌ゲノムの解読　バイオ燃料電池に有用なFDH-O遺伝子の発見 - 国立大学法人 岡山大学](http://www.okayama-u.ac.jp/tp/release/release_id330.html)
+- [Genome Announcementsの評価 - 下っ端○○の日記 第4部 ～ダイヤモンドは砕けない～（仮）](http://d.hatena.ne.jp/Masarakki/20151005/p1)
+
+
+
+2013/2/16
+http://yfuruta.sakura.ne.jp/blog/?p=771
+”Genome announcement”という雑誌ができるメリット
+
 
 ----------
 ## featuring
@@ -94,15 +159,23 @@ June 22, 2018
 ----------
 ## updates
 
-### 2019-04
+### 2019-05
+
+https://twitter.com/StevenSalzberg1/status/1128718460643627008
+Steven Salzberg on Twitter: "Our paper describing 3,437 bogus proteins in 2,250 contaminated genomes is out in @genomeresearch (https://t.co/FyLr3yWss2), but supplemental data isn't up yet, so I put it on our ftp site: ftp://ftp.ccb.jhu.edu/pub/salzberg/Contaminated_genomes_GenomeResearchPaper_2019/"
+1:47 PM - 15 May 2019
 
 https://twitter.com/NoahFierer/status/1126165046654935040
 Noah Fierer on Twitter: "Important read: "Human contamination in bacterial genomes has created thousands of spurious proteins" https://t.co/upGsmajxnc"
 12:40 PM - 8 May 2019
 
+### 2019-04
+
 29 April 2019
 https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz310/5481154
 antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline | Nucleic Acids Research | Oxford Academic
+
+
 
 ### 2019-04-25
 
@@ -1813,17 +1886,6 @@ Huang CH1, Hsiang T, Trevors JT.
  - [PhiXを使用してRun Qualityを改善する](http://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/2013_illumina_techsupport_session16.pdf)
 - 2015年9月4日 [イルミナ サポートウェビナー | 解析に適したリード前処理 を行うために](http://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/2015_techsupport_session10.pdf)
 
-### genome report
-- [Goodbye genome paper, hello genome report: the increasing popularity of 'genome announcements' and their impact on science. Brief Funct Genomics. 2016 Jun 23](http://www.ncbi.nlm.nih.gov/pubmed/27339634)
-- Genome Biology and Evolution https://academic.oup.com/gbe/pages/general_instructions Genome Reports
-- Gut Pathogens | Genome report https://gutpathogens.biomedcentral.com/submission-guidelines/preparing-your-manuscript/genome-report
-- Standards in Genomic Sciences | Short genome report https://standardsingenomics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/short-genome-report
-- Journal of Biotechnology https://www.elsevier.com/journals/journal-of-biotechnology/0168-1656/guide-for-authors  (4) Short Genome Communications
-#### Genome Announcements
-- [抗ウイルス活性物質を生産する放線菌ゲノムの解読　バイオ燃料電池に有用なFDH-O遺伝子の発見 - 国立大学法人 岡山大学](http://www.okayama-u.ac.jp/tp/release/release_id330.html)
-- [Genome Announcementsの評価 - 下っ端○○の日記 第4部 ～ダイヤモンドは砕けない～（仮）](http://d.hatena.ne.jp/Masarakki/20151005/p1)
-- ["Genome announcement"という雑誌ができるメリット - バイオ系研究室PC管理担当のメモ (id:hornistyf / @hornistyf)](http://d.hatena.ne.jp/hornistyf/20130216/1360991017)
-
 ### BioPerl
 - 18/05/2015 [BioPerl をインストールして Perl モジュールを使ってみよう！ | Tools FoR](http://kiagorod.wp.xdomain.jp/2015.05.18.212/)
 - 2015.04.26 [BioPerl | バイオ系なら知っておきたいBioPerlの利用方法,インストール法](http://bi.biopapyrus.net/perl/bioperl/)
@@ -2086,10 +2148,14 @@ http://www.naro.affrc.go.jp/archive/niaes/magazine/083/mgzn08304.html
 旧来の種数ベースの生物多様度に代わる尺度として提唱されたのが系統学的多様度である。しかし、系統学的多様度それ自体に関して、いまなお理論的・概念的な論争が続いている （3）。系統学的多様性の尺度は、系統樹の樹形を考慮しつつ生物多様性の重みづけをしている。提唱者である Daniel P. Faith の定義では （1）、ある生物群の系統学的多様度とは、その生物群を系統樹上で結ぶ枝の長さの総和として求められる。このとき、枝の長さをどのようにして推定するのかという現実的問題がある（分子系統樹と形態系統樹では「枝」の意味は異なっているだろう）。
 
 統計的独立の問題。種間に系統関係があるならば、統計学的にみてデータ点は独立ではあり得ない。（三中信宏「生物系統学」334ページ）
-FIG.2.データ点が独立 FIG.3. データ点が非独立
+FIG.2. データ点が独立
+FIG.3. データ点が非独立
 https://www.jstor.org/stable/2461605
-Joseph Felsenstein (1985)
-Phylogenies and the Comparative Method
+Joseph Felsenstein (1985) Phylogenies and the Comparative Method
+http://bio.classes.ucsc.edu/bioe200b/pdf%20files/Felsenstein%201985%20Am%20Nat.pdf
+FIG. 7.-The same data set, with the points distinguished to show the members of the 2
+monophyletic taxa. It can immediately be seen that the apparently significant relationship of
+fig. 6 is illusory
 
 http://en.wikipedia.org/wiki/Phylogenetic_comparative_methods
 Phylogenetic comparative methods (PCMs) use information on the historical relationships of lineages (phylogenies) to test evolutionary hypotheses.
@@ -2231,6 +2297,30 @@ Tyu_Shi on Twitter: "昨日からの発表を聴いていると、みんなUniFr
 https://twitter.com/yuifu/status/187741115720548352
 Haruka Ozaki on Twitter: "UniFracの元論文。細菌叢の配列集合間の距離を計算する手法。系統樹上で共有する枝長を使い、かつ、距離を定義したことが新しかったらしい。オルタナティブを作ろうとすると、優位性を示す方法がないことが課題。 http://t.co/nZudriEa #Everydayペーパー"
 11:19 PM - 4 Apr 2012
+
+
+----------
+
+https://www.ncbi.nlm.nih.gov/pubmed/25815895
+PLoS Comput Biol. 2015 Mar 27;11(3):e1004186. doi: 10.1371/journal.pcbi.1004186. eCollection 2015 Mar.
+Explaining diversity in metagenomic datasets by phylogenetic-based feature weighting.
+Albanese D1, De Filippo C2, Cavalieri D1, Donati C1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4376673/
+
+Given that the sequences of marker genes are available, phylogenetic measures of diversity such as UniFrac [19,20] have proven to be able to identify subtle differences in the structures of microbial communities by weighting species abundances with the phylogenetic relationships amongst taxa.
+
+Here we present PhyloRelief, a ranking strategy to identify the taxa significantly contributing to the differentiation of groups of amplicon metagenomic samples. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4376673/figure/pcbi.1004186.g001/
+Fig 1
+Schema of the method.
+B) Next, the matrix of the distances between the samples must be computed using a phylogenetic measure of β-diversity, such as weighted or unweighted UniFrac must be provided. C) The PhyloRelief strategy. 
+
+We compared the performance of PhyloRelief coupled with the RF classifier to LEfSe [30], an algorithm that uses statistical tests for biomarker discovery, to MetaPhyl, a recent phylogeny-based method for the classification of microbial communities [31] and to Random Forest, used both as classifier and feature selection method. 
+
+Software dependencies and availability
+PhyloRelief is implemented in Python (http://www.python.org), and requires Python > = 2.7 with the NumPy/SciPy (http://www.scipy.org), Pandas (http://pandas.pydata.org/), DendroPy [43] and Statsmodels (http://statsmodels.sourceforge.net/) libraries. PhyloRelief software, scripts and data analyzed in this paper are available at http://compmetagen.github.io/phylorelief.
+
 
 ----------
 ## LEfSe
