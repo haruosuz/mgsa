@@ -77,22 +77,6 @@ Availability KofamKOALA, KofamScan, and KOfam are freely available from https://
 ----------
 ### genome report
 
-https://mra.asm.org/
-Microbiology Resource Announcements
-https://mra.asm.org/content/scope
-Publication of an announcement does not preclude a later publication (e.g., a full comparative analysis) on the same resource in an ASM journal.
-
-http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
-ゲノム工学実習 - 荒川和晴, 慶應義塾大学 先端生命科学研究所 (Kazuharu Arakawa, Institute for Advanced Biosciences, Keio University)
-
-https://twitter.com/jgalipon/status/1123986093001584640
-Josephine Galipon on Twitter: "オリーブオイル工場の廃液に生きている好塩菌 Halomonas olivaria の@nanopore によるコンプリートゲノムを発表しました。@gaou_ak の『ゲノム工学実習』では、学生がバクテリアゲノム精製⇒Nanoporeシーケンシング⇒ゲノムアセンブリ⇒論文投稿を行う実習です。@shohei_aio らhttps://t.co/RsUKnNzpJ8"
-12:22 PM - 2 May 2019
-
-https://twitter.com/DnEvnsYmmt/status/1119065344255987712
-Dan E.-Y. on Twitter: "南海トラフ海底（水深 3,308 m）の泥から単離したバクテリアゲノムをシーケンスしたゲノムレポートが出版されました。 共同研究航海に参加する形でサンプリングし、 慶應大学院のゲノム工学実習で班員と共にシーケンス・アセンブリしました。 ありがとうございました。 https://t.co/UNWPN3tLjL"
-10:29 PM - 18 Apr 2019
-
 http://www.ncbi.nlm.nih.gov/pubmed/27339634
 Brief Funct Genomics. 2017 May 1;16(3):156-162. doi: 10.1093/bfgp/elw026.
 Goodbye genome paper, hello genome report: the increasing popularity of 'genome announcements' and their impact on science.
@@ -113,17 +97,90 @@ https://ultrabem.com/other_metabolites/nucleic_acids/dna_genome_paper.html
 概要: Genome paper について
 2016 年現在、GenBank には 6 万以上の 原核生物 ゲノムと、2700 以上の真核生物ゲノムが登録されている。
 
+#### genome announcements
 
-#### Genome Announcements
-- [抗ウイルス活性物質を生産する放線菌ゲノムの解読　バイオ燃料電池に有用なFDH-O遺伝子の発見 - 国立大学法人 岡山大学](http://www.okayama-u.ac.jp/tp/release/release_id330.html)
-- [Genome Announcementsの評価 - 下っ端○○の日記 第4部 ～ダイヤモンドは砕けない～（仮）](http://d.hatena.ne.jp/Masarakki/20151005/p1)
+https://github.com/haruosuz/genomea
+Hidetoshi Itaya, Shohei Nagata, Haruo Suzuki
+2016-03-17
+Genome Announcement Project
+We developed a pipeline that uses GenBank format files (.gbk) as input data and automatically generates journal-formatted manuscripts and cover letters for submission to Genome Announcements.
 
+https://mra.asm.org/
+Microbiology Resource Announcements
+https://mra.asm.org/content/scope
+Publication of an announcement does not preclude a later publication (e.g., a full comparative analysis) on the same resource in an ASM journal.
 
+http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
+ゲノム工学実習 - 荒川和晴, 慶應義塾大学 先端生命科学研究所 (Kazuharu Arakawa, Institute for Advanced Biosciences, Keio University)
+
+https://twitter.com/jgalipon/status/1123986093001584640
+Josephine Galipon on Twitter: "オリーブオイル工場の廃液に生きている好塩菌 Halomonas olivaria の@nanopore によるコンプリートゲノムを発表しました。@gaou_ak の『ゲノム工学実習』では、学生がバクテリアゲノム精製⇒Nanoporeシーケンシング⇒ゲノムアセンブリ⇒論文投稿を行う実習です。@shohei_aio らhttps://t.co/RsUKnNzpJ8"
+12:22 PM - 2 May 2019
+
+https://twitter.com/DnEvnsYmmt/status/1119065344255987712
+Dan E.-Y. on Twitter: "南海トラフ海底（水深 3,308 m）の泥から単離したバクテリアゲノムをシーケンスしたゲノムレポートが出版されました。 共同研究航海に参加する形でサンプリングし、 慶應大学院のゲノム工学実習で班員と共にシーケンス・アセンブリしました。 ありがとうございました。 https://t.co/UNWPN3tLjL"
+10:29 PM - 18 Apr 2019
+
+2015年09月17日
+http://www.okayama-u.ac.jp/tp/release/release_id330.html
+抗ウイルス活性物質を生産する放線菌ゲノムの解読　バイオ燃料電池に有用なFDH-O遺伝子の発見 - 国立大学法人 岡山大学
+
+https://masarakki-2.hatenadiary.org/entry/20151005/p1
+Genome Announcementsの評価 - 下っ端○○の日記 第4部 〜ダイヤモンドは砕けない〜（仮）
 
 2013/2/16
 http://yfuruta.sakura.ne.jp/blog/?p=771
 ”Genome announcement”という雑誌ができるメリット
 
+https://www.ncbi.nlm.nih.gov/pubmed/27738047
+Genome Announc. 2016 Oct 13;4(5). pii: e01155-16. doi: 10.1128/genomeA.01155-16.
+Draft Genome Sequence of Arenibacter sp. Strain C-21, an Iodine-Accumulating Bacterium Isolated from Surface Marine Sediment.
+Ito K, Nakajima N, Yamamura S, Tomita M, Suzuki H, Amachi S.
+
+http://www.ncbi.nlm.nih.gov/pubmed/27151793
+Genome Announc. 2016 May 5;4(3). pii: e00315-16. doi: 10.1128/genomeA.00315-16.
+Draft Genome Sequences of 37 Salmonella enterica Strains Isolated from Poultry Sources in Nigeria.
+Useh NM, Ngbede EO, Akange N, Thomas M, Foley A, Keena MC, Nelson E, Christopher-Hennings J, Tomita M, Suzuki H, Scaria J.
+
+http://www.ncbi.nlm.nih.gov/pubmed/26543129
+Genome Announc. 2015 Nov 5;3(6). pii: e01310-15. doi: 10.1128/genomeA.01310-15.
+Draft Genome Sequence of Caedibacter varicaedens, a Kappa Killer Endosymbiont Bacterium of the Ciliate Paramecium biaurelia.
+Suzuki H, Dapper AL, Jackson CE, Lee H, Pejaver V, Doak TG, Lynch M, Preer JR Jr.
+
+http://www.ncbi.nlm.nih.gov/pubmed/25977442
+Genome Announc. 2015 May 14;3(3). pii: e00474-15. doi: 10.1128/genomeA.00474-15.
+Draft Genome Sequences of Five Legionella pneumophila Strains Isolated from Environmental Water Samples.
+Watanabe K, Suzuki H, Nakao R, Shimizu T, Watarai M.
+
+http://www.ncbi.nlm.nih.gov/pubmed/25977440
+Genome Announc. 2015 May 14;3(3). pii: e00472-15. doi: 10.1128/genomeA.00472-15.
+Draft Genome Sequence of Anaeromyxobacter sp. Strain PSR-1, an Arsenate-Respiring Bacterium Isolated from Arsenic-Contaminated Soil.
+Tonomura M, Ehara A, Suzuki H, Amachi S.
+
+http://www.ncbi.nlm.nih.gov/pubmed/25838493
+Genome Announc. 2015 Apr 2;3(2). pii: e00241-15. doi: 10.1128/genomeA.00241-15.
+Draft Genome Sequence of Pseudomonas sp. nov. H2.
+Loftie-Eaton W, Suzuki H, Bashford K, Heuer H, Stragier P, De Vos P, Settles ML, Top EM.
+
+http://www.ncbi.nlm.nih.gov/pubmed/25635012
+Genome Announc. 2015 Jan 29;3(1). pii: e01478-14. doi: 10.1128/genomeA.01478-14.
+Draft Genome Sequence of Geobacter sp. Strain OR-1, an Arsenate-Respiring Bacterium Isolated from Japanese Paddy Soil.
+Ehara A, Suzuki H, Amachi S.
+
+http://www.ncbi.nlm.nih.gov/pubmed/24994802
+Genome Announc. 2014 Jul 3;2(4). pii: e00659-14. doi: 10.1128/genomeA.00659-14.
+Draft genome sequence of strain Q-1, an iodide-oxidizing alphaproteobacterium isolated from natural gas brine water.
+Ehara A, Suzuki H, Kanesaki Y, Yoshikawa H, Amachi S.
+
+http://www.ncbi.nlm.nih.gov/pubmed/23969064
+Genome Announc. 2013 Aug 22;1(4). pii: e00664-13. doi: 10.1128/genomeA.00664-13.
+Draft Genome Sequence of Holospora undulata Strain HU1, a Micronucleus-Specific Symbiont of the Ciliate Paramecium caudatum.
+Dohra H, Suzuki H, Suzuki T, Tanaka K, Fujishima M.
+
+https://www.ncbi.nlm.nih.gov/pubmed/23469345
+Genome Announc. 2013 Jan;1(1). pii: e00215-12. doi: 10.1128/genomeA.00215-12. Epub 2013 Feb 21.
+Complete Genome Sequence of the Porcine Strain Brachyspira pilosicoli P43/6/78(T.).
+Lin C, den Bakker HC, Suzuki H, Lefébure T, Ponnala L, Sun Q, Stanhope MJ, Wiedmann M, Duhamel GE.
 
 ----------
 ## featuring
