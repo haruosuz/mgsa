@@ -77,6 +77,11 @@ Availability KofamKOALA, KofamScan, and KOfam are freely available from https://
 ----------
 ### genome report
 
+https://mra.asm.org/
+Microbiology Resource Announcements
+https://mra.asm.org/content/scope
+Publication of an announcement does not preclude a later publication (e.g., a full comparative analysis) on the same resource in an ASM journal.
+
 http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
 ゲノム工学実習 - 荒川和晴, 慶應義塾大学 先端生命科学研究所 (Kazuharu Arakawa, Institute for Advanced Biosciences, Keio University)
 
@@ -107,7 +112,6 @@ https://ultrabem.com/other_metabolites/nucleic_acids/dna_genome_paper.html
 ゲノム論文コレクション
 概要: Genome paper について
 2016 年現在、GenBank には 6 万以上の 原核生物 ゲノムと、2700 以上の真核生物ゲノムが登録されている。
-
 
 
 #### Genome Announcements
@@ -2740,13 +2744,19 @@ Falush D1.
 https://www.biostars.org/p/197270/
 Is there any good GWAS software for the whole bacterial genomes?
 
+http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
+3O1-09
+ゲノムワイド関連解析による水平伝達に由来しカルバペネム耐性株に広く保存された 細胞表面接着因子の発見
 https://www.ncbi.nlm.nih.gov/pubmed/27892531
 Sci Rep. 2016 Nov 28;6:37811. doi: 10.1038/srep37811.
 A genome-wide association study identifies a horizontally transferred bacterial surface adhesin gene associated with antimicrobial resistant strains.
 Suzuki M1, Shibayama K1, Yahara K1.
-http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
-3O1-09
-ゲノムワイド関連解析による水平伝達に由来しカルバペネム耐性株に広く保存された 細胞表面接着因子の発見
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124939/
+We took a kmer-based approach12,13, in which the genome sequence of each isolate was fragmented into unique, overlapping, 31-bp DNA motifs or kmers, that could be used to identify any kind of genetic variation such as single nucleotide polymorphisms (SNPs), indels, and the presence or absence of a whole gene or gene region.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
+For example, we investigated associations between fusidic acid resistance and the presence or absence of short 31 bp haplotypes or ‘kmers’ in S. aureus (see Methods and Supplementary Fig. 2). 
+31 bp kmers.
 
 https://twitter.com/search?q=GWAS%20microbiome
 
