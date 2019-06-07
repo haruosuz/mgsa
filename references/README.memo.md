@@ -113,6 +113,10 @@ Publication of an announcement does not preclude a later publication (e.g., a fu
 http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
 ゲノム工学実習 - 荒川和晴, 慶應義塾大学 先端生命科学研究所 (Kazuharu Arakawa, Institute for Advanced Biosciences, Keio University)
 
+https://twitter.com/jgalipon/status/1136884765343150080
+Josephine Galipon on Twitter: "もう一個の論文がオンラインになりました！これも指導教員が @gaou_ak です。Nanoporeを使って微生物のゲノム解析し、それを論文投稿しています。実習報告書の代わりに論文投稿っていうわけで、学生も緊張感を持って行うし、査読通ったら達成感があります。https://t.co/NKfwUt5l0G"
+2:37 AM - 7 Jun 2019
+
 https://twitter.com/jgalipon/status/1123986093001584640
 Josephine Galipon on Twitter: "オリーブオイル工場の廃液に生きている好塩菌 Halomonas olivaria の@nanopore によるコンプリートゲノムを発表しました。@gaou_ak の『ゲノム工学実習』では、学生がバクテリアゲノム精製⇒Nanoporeシーケンシング⇒ゲノムアセンブリ⇒論文投稿を行う実習です。@shohei_aio らhttps://t.co/RsUKnNzpJ8"
 12:22 PM - 2 May 2019
