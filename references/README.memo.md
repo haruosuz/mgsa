@@ -87,10 +87,17 @@ Examples of journals that currently publish genome-report-type articles
 Peer reviewed?a
 aEditorial review was not considered peer review.
 
-- Genome Biology and Evolution https://academic.oup.com/gbe/pages/general_instructions Genome Reports
-- Gut Pathogens | Genome report https://gutpathogens.biomedcentral.com/submission-guidelines/preparing-your-manuscript/genome-report
-- Standards in Genomic Sciences | Short genome report https://standardsingenomics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/short-genome-report
-- Journal of Biotechnology https://www.elsevier.com/journals/journal-of-biotechnology/0168-1656/guide-for-authors  (4) Short Genome Communications
+- https://academic.oup.com/gbe/pages/general_instructions
+Genome Biology and Evolution | Genome Reports
+- https://gutpathogens.biomedcentral.com/submission-guidelines/preparing-your-manuscript/genome-report
+Gut Pathogens | Genome report 
+- https://environmentalmicrobiome.biomedcentral.com/
+Standards in Genomic Sciences has now relaunched as Environmental Microbiome.
+genome and metagenome reports
+- http://www.jgenomics.com/
+Journal of Genomics
+- https://www.g3journal.org/content/genome-reports
+Genome Reports | G3: Genes | Genomes | Genetics
 
 https://ultrabem.com/other_metabolites/nucleic_acids/dna_genome_paper.html
 ゲノム論文コレクション
@@ -222,6 +229,15 @@ June 22, 2018
 
 ----------
 ## updates
+
+https://www.biorxiv.org/content/10.1101/653592v1
+Not just BLAST nt: WGS database joins the party | bioRxiv
+
+https://twitter.com/Tyu_Shi/status/1136040929167532032
+ntにWGSを加えれば検出感度上がるのは当然。多くの人が使っていない理由は、系統アサインする時に、存在する可能性のある系統が広すぎてBacteriaとかでしかReferenceの範囲を絞り込めず、洒落にならないDB sizeになること。
+6:43 PM - 4 Jun 2019
+ざっと読んだが、配列類似性検索にCentrifuge使っているのはよくあるパターンだが、WGSとしてまだそれほどゲノムが充実していないFungiを選択しており、Bacteria用のmetagenome系統アサインメントの場合にどの程度のDBサイズになるのかを書いていないのは残念。
+個人的には、普通のマッピングによる系統アサインメントは筋悪だと思っており使っていない。数年後に大量のMAG (Metagenome Assembled Genomes)をReferenceに含めないといけなくなった時に破綻し、多分ANI系に置き換わる。
 
 ### 2019-05
 
