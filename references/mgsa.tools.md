@@ -4,7 +4,6 @@
 - [PhyloPhlAn](#phylophlan)
 - [featuring](#featuring)
 - [updates](#updates)
-- [database](#database)
 - [distribution](#distribution) 遺伝子の系統分布
 - [fastGEAR](#fastgear)
 - [BAPS](#baps)
@@ -50,10 +49,13 @@
 - [GWAS](#gwas)
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 - [k-mer](#k-mer)
-- [metadata](#metadata)
-  - [source](#source) 分離源
 - [genome report](#genome-report)
 - [kofamscan](#kofamscan)
+- [database](#database)
+- [metadata](#metadata)
+  - [source](#source) 分離源
+
+
 
 
 ----------
@@ -912,6 +914,78 @@ Strain-specific glycoside hydrolase distribution in bacteria.
 
 ----------
 ## database
+
+
+----------
+## metadata
+
+### microbe-directory
+
+https://github.com/microbe-directory/microbe-directory
+```
+wget https://raw.githubusercontent.com/microbe-directory/microbe-directory/master/data/microbe-directory.csv
+```
+https://www.ncbi.nlm.nih.gov/pubmed/29630066
+Gates Open Res. 2018 Jan 5;2:3. doi: 10.12688/gatesopenres.12772.1.
+The Microbe Directory: An annotated, searchable inventory of microbes' characteristics.
+Shaaban H#1,2,3, Westfall DA#1,2,4, Mohammad R1,2,5, Danko D1,2, Bezdan D1,2, Afshinnekoo E1,2,6, Segata N7, Mason CE1,2,8.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883067/
+- Such characteristics include, but are not limited to: optimal pH, optimal temperature, Gram stain, biofilm-formation, spore-formation, antimicrobial resistance, and COGEM class risk rating. 
+- Several databases were used to collect this information, including COGEM, MicrobeWiki, BacMap, ATCC, PATRIC, ARDB, GOLD, HOMD, and BEI Resources (see Annotation Tutorial and Guidelines and Links in Supplementary File 1). 
+
+### source
+分離源
+
+https://www.ncbi.nlm.nih.gov/pubmed/30910818
+G3 (Bethesda). 2019 Mar 25. pii: g3.200978.2018. doi: 10.1534/g3.118.200978. [Epub ahead of print]
+Genomic Analysis of Pseudomonas sp. Strain SCT, an Iodate-Reducing Bacterium Isolated from Marine Sediment, Reveals a Possible Use for Bioremediation.
+Harada M, Ito K, Nakajima N, Yamamura S, Tomita M, Suzuki H, Amachi S.
+https://www.g3journal.org/content/9/5/1321.long#T1
+Table 1. Genomic features of Pseudomonas strains analyzed
+Isolation source
+
+https://www.ncbi.nlm.nih.gov/pubmed/24625962
+Genome Biol Evol. 2014 Apr;6(4):741-53. doi: 10.1093/gbe/evu048.
+Phylogenomics and the dynamic genome evolution of the genus Streptococcus.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007547/table/evu048-T1/
+Table 1
+Genome Sequence Details
+Source
+
+https://www.ncbi.nlm.nih.gov/pubmed/24488312
+J Bacteriol. 2014 Apr;196(7):1458-70. doi: 10.1128/JB.01439-13. Epub 2014 Jan 31.
+Comparative functional genomics of Lactobacillus spp. reveals possible mechanisms for specialization of vaginal lactobacilli to their environment.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/table/T1/
+TABLE 1
+Genomic characteristics of the strains analyzed in this study
+Source
+
+https://www.ncbi.nlm.nih.gov/pubmed/25107967
+Appl Environ Microbiol. 2014 Oct;80(20):6383-94. doi: 10.1128/AEM.02004-14. Epub 2014 Aug 8.
+Investigation of the evolutionary development of the genus Bifidobacterium by comparative genomics.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178631/table/T1/
+TABLE 1
+Bifidobacterium genome list
+Source of isolation
+
+https://www.ncbi.nlm.nih.gov/pubmed/24581150
+BMC Genomics. 2014 Mar 1;15:170. doi: 10.1186/1471-2164-15-170.
+Comparative genomics of the Bifidobacterium breve taxon.
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007704/table/Tab1/
+Table 1
+List of Bifidobacterium breve representatives
+Ecological origin
+
+https://www.ncbi.nlm.nih.gov/pubmed/22031452
+Microb Ecol. 2012 Apr;63(3):651-73. doi: 10.1007/s00248-011-9948-y. Epub 2011 Oct 27.
+Comparative genomics of Bifidobacterium, Lactobacillus and related probiotic genera.
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324989/table/Tab1/
+Table 1
+Genomes selected for analysis
+Strain characteristics
+
+----------
+
 
 ### LEA
 
@@ -3038,63 +3112,6 @@ http://aclame.ulb.ac.be/Tools/Prophinder/
 ACLAME: Prophinder
 
 ----------
-
-
-----------
-## metadata
-### source
-分離源
-
-https://www.ncbi.nlm.nih.gov/pubmed/30910818
-G3 (Bethesda). 2019 Mar 25. pii: g3.200978.2018. doi: 10.1534/g3.118.200978. [Epub ahead of print]
-Genomic Analysis of Pseudomonas sp. Strain SCT, an Iodate-Reducing Bacterium Isolated from Marine Sediment, Reveals a Possible Use for Bioremediation.
-Harada M, Ito K, Nakajima N, Yamamura S, Tomita M, Suzuki H, Amachi S.
-https://www.g3journal.org/content/9/5/1321.long#T1
-Table 1. Genomic features of Pseudomonas strains analyzed
-Isolation source
-
-https://www.ncbi.nlm.nih.gov/pubmed/24625962
-Genome Biol Evol. 2014 Apr;6(4):741-53. doi: 10.1093/gbe/evu048.
-Phylogenomics and the dynamic genome evolution of the genus Streptococcus.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007547/table/evu048-T1/
-Table 1
-Genome Sequence Details
-Source
-
-https://www.ncbi.nlm.nih.gov/pubmed/24488312
-J Bacteriol. 2014 Apr;196(7):1458-70. doi: 10.1128/JB.01439-13. Epub 2014 Jan 31.
-Comparative functional genomics of Lactobacillus spp. reveals possible mechanisms for specialization of vaginal lactobacilli to their environment.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/table/T1/
-TABLE 1
-Genomic characteristics of the strains analyzed in this study
-Source
-
-https://www.ncbi.nlm.nih.gov/pubmed/25107967
-Appl Environ Microbiol. 2014 Oct;80(20):6383-94. doi: 10.1128/AEM.02004-14. Epub 2014 Aug 8.
-Investigation of the evolutionary development of the genus Bifidobacterium by comparative genomics.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178631/table/T1/
-TABLE 1
-Bifidobacterium genome list
-Source of isolation
-
-https://www.ncbi.nlm.nih.gov/pubmed/24581150
-BMC Genomics. 2014 Mar 1;15:170. doi: 10.1186/1471-2164-15-170.
-Comparative genomics of the Bifidobacterium breve taxon.
-http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007704/table/Tab1/
-Table 1
-List of Bifidobacterium breve representatives
-Ecological origin
-
-https://www.ncbi.nlm.nih.gov/pubmed/22031452
-Microb Ecol. 2012 Apr;63(3):651-73. doi: 10.1007/s00248-011-9948-y. Epub 2011 Oct 27.
-Comparative genomics of Bifidobacterium, Lactobacillus and related probiotic genera.
-http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324989/table/Tab1/
-Table 1
-Genomes selected for analysis
-Strain characteristics
-
-----------
-
 
 
 
