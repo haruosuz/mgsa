@@ -54,9 +54,35 @@
 - [database](#database)
 - [metadata](#metadata)
   - [source](#source) 分離源
+- [seqkit](#seqkit)
 
+----------
 
+### seqkit
 
+https://github.com/shenwei356/seqkit
+
+2019/07/30
+https://ultrabem-branch3.com/informatics/commands_mac/seqkit_mac
+Mac seqkit コマンド: オプション、正規表現など
+
+http://kazumaxneo.hatenablog.com/entry/2018/12/20/210947
+seqkitに新しく追加されたコマンドを確認する - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/08/08/235042
+fastq / fastaの操作ツール seqkit - macでインフォマティクス
+
+https://twitter.com/yokadzaki/status/842645031756341248
+以前書いたseqkitの記事で、FASTAを長さで抽出できないことをぼやいていたら「お困りの点を解決しました！」というメールが作者から来た。seqkit seq に -mで最小長、-Mで最大長を指定するだけというやばすぎるシンプルさ
+4:53 PM · Mar 17, 2017
+
+https://yokazaki.hatenablog.com/entry/2017/01/16/160652
+seqkitを用いたFASTAのフィルタリング・ソート - yokaのblog
+
+### seqtk
+https://github.com/lh3/seqtk
+http://kazumaxneo.hatenablog.com/entry/2017/08/01/204851
+fastq / fastaの操作ツール seqtk - macでインフォマティクス
 
 ----------
 
@@ -175,6 +201,13 @@ https://twitter.com/ljcoin/status/1146968852070162432
 Lachlan Coin on Twitter: ".@pathogenomenick showing how realtime genomic epidemiology using @nanopore seq could pinpoint cross border transmission of Ebola (colours indicate country) #UQwinterschool… https://t.co/c0AVqrlxJR"
 10:27 PM - 4 Jul 2019
 
+
+
+https://twitter.com/torstenseemann/status/1146209691560640512
+Torsten Seemann on Twitter: "Can't remember how to convert your sequence file into FASTA? Just use "any2fasta" ! Supports gff, gbk, embl, clw, etc and .gz .bz2 automatically. Install using #bioconda or @brew_sci https://t.co/RVbgFDiotP"
+9:11 AM · Jul 3, 2019
+
+
 https://www.biorxiv.org/content/10.1101/688465v1
 PhyloMagnet: Fast and accurate screening of short-read meta-omics data using gene-centric phylogenetics | bioRxiv
 
@@ -187,7 +220,17 @@ ntにWGSを加えれば検出感度上がるのは当然。多くの人が使っ
 ざっと読んだが、配列類似性検索にCentrifuge使っているのはよくあるパターンだが、WGSとしてまだそれほどゲノムが充実していないFungiを選択しており、Bacteria用のmetagenome系統アサインメントの場合にどの程度のDBサイズになるのかを書いていないのは残念。
 個人的には、普通のマッピングによる系統アサインメントは筋悪だと思っており使っていない。数年後に大量のMAG (Metagenome Assembled Genomes)をReferenceに含めないといけなくなった時に破綻し、多分ANI系に置き換わる。
 
+
 ### 2019-05
+
+
+M1CR0B1AL1Z3R
+https://microbializer.tau.ac.il/
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz423/5494765
+M1CR0B1AL1Z3R—a user-friendly web server for the analysis of large-scale microbial genomics data
+https://twitter.com/copypasteusa/status/1132305387472822273
+Haruo Suzuki on Twitter: "微生物ゲノム配列データ解析ウェブサーバ M1CR0B1AL1Z3R（microbializerと発音） https://t.co/5Yybee5kfG ProdigalでORF予測。MMSEQS2(tBlastX)で相同性検索し双方向ベストヒットによるオーソログ同定。MAFFTで多重整列し、RAxMLでコア遺伝子結合データの系統樹作成。GC含量 https://t.co/4WlNgw9YQy"
+12:20 AM · May 26, 2019
 
 https://twitter.com/StevenSalzberg1/status/1128718460643627008
 Steven Salzberg on Twitter: "Our paper describing 3,437 bogus proteins in 2,250 contaminated genomes is out in @genomeresearch (https://t.co/FyLr3yWss2), but supplemental data isn't up yet, so I put it on our ftp site: ftp://ftp.ccb.jhu.edu/pub/salzberg/Contaminated_genomes_GenomeResearchPaper_2019/"
@@ -653,14 +696,17 @@ Genome Announc. 2013 Jan;1(1). pii: e00215-12. doi: 10.1128/genomeA.00215-12. Ep
 Complete Genome Sequence of the Porcine Strain Brachyspira pilosicoli P43/6/78(T.).
 Lin C, den Bakker HC, Suzuki H, Lefébure T, Ponnala L, Sun Q, Stanhope MJ, Wiedmann M, Duhamel GE.
 
-
-
 ----------
 
 ### vsearch
 
 http://kazumaxneo.hatenablog.com/entry/2019/08/08/095820
 多機能な配列処理ツール VSEARCH（USEARCHの代替） - macでインフォマティクス
+
+https://twitter.com/windowmoon/status/881579535891693568
+FASTQ/FASTAの配列処理、自作スクリプトで済ませている人も多いと思うけど、Seqtk https://github.com/lh3/seqtk とVSEARCH https://github.com/torognes/vsearch で処理するのが圧倒的おすすめである。何しろ速い。
+3:25 AM · Jul 3, 2017
+
 
 ----------
 
@@ -2309,6 +2355,7 @@ Edwards DJ1, Holt KE.
 ----------
 
 ## unclassified
+
 
 
 http://www.genomesize.com/prokaryotes/
