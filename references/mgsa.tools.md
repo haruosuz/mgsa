@@ -50,39 +50,9 @@
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 - [k-mer](#k-mer)
 - [genome report](#genome-report)
-- [kofamscan](#kofamscan)
 - [database](#database)
 - [metadata](#metadata)
   - [source](#source) 分離源
-- [seqkit](#seqkit)
-
-----------
-
-### seqkit
-
-https://github.com/shenwei356/seqkit
-
-2019/07/30
-https://ultrabem-branch3.com/informatics/commands_mac/seqkit_mac
-Mac seqkit コマンド: オプション、正規表現など
-
-http://kazumaxneo.hatenablog.com/entry/2018/12/20/210947
-seqkitに新しく追加されたコマンドを確認する - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/08/08/235042
-fastq / fastaの操作ツール seqkit - macでインフォマティクス
-
-https://twitter.com/yokadzaki/status/842645031756341248
-以前書いたseqkitの記事で、FASTAを長さで抽出できないことをぼやいていたら「お困りの点を解決しました！」というメールが作者から来た。seqkit seq に -mで最小長、-Mで最大長を指定するだけというやばすぎるシンプルさ
-4:53 PM · Mar 17, 2017
-
-https://yokazaki.hatenablog.com/entry/2017/01/16/160652
-seqkitを用いたFASTAのフィルタリング・ソート - yokaのblog
-
-### seqtk
-https://github.com/lh3/seqtk
-http://kazumaxneo.hatenablog.com/entry/2017/08/01/204851
-fastq / fastaの操作ツール seqtk - macでインフォマティクス
 
 ----------
 
@@ -561,21 +531,6 @@ The Harvest suite for rapid core-genome alignment and visualization of thousands
 Treangen TJ, Ondov BD, Koren S, Phillippy AM.
 
 
-----------
-
-### kofamscan
-
-https://twitter.com/ReiterTaylor/status/1127287338327896064
-Taylor Reiter on Twitter: "I wrote a tutorial on how to use kofamscan on the command line: https://t.co/o9WRfXDKU2 I'm so pleased to be able to use this tool independent of the web interface. No more 300mb cutoffs + email submissions!… https://t.co/ULebatHI98"
-3:00 PM - 11 May 2019
-
-https://taylorreiter.github.io/2019-05-11-kofamscan/
-How to run kofamscan
-
-https://www.biorxiv.org/content/10.1101/602110v1
-KofamKOALA: KEGG ortholog assignment based on profile HMM and adaptive score threshold | bioRxiv
-Availability KofamKOALA, KofamScan, and KOfam are freely available from https://www.genome.jp/tools/kofamkoala/
-
 
 ----------
 ### genome report
@@ -606,6 +561,17 @@ https://ultrabem.com/other_metabolites/nucleic_acids/dna_genome_paper.html
 ゲノム論文コレクション
 概要: Genome paper について
 2016 年現在、GenBank には 6 万以上の 原核生物 ゲノムと、2700 以上の真核生物ゲノムが登録されている。
+
+#### Data in Brief
+
+2018年01月30日
+https://www.editage.jp/insights/can-i-submit-the-supplemental-data-of-my-manuscript-to-the-elsevier-journal-data-in-brief
+エルゼビア社のジャーナルの”Data in Brief"について | エディテージ・インサイト
+投稿中のジャーナルでのアクセプトが決まったら、あなたの原稿の補足データは、その後の出版のために、Data in Brief誌に直接送られます。データは、別途査読を受けて出版されることになります。これは、データの利用と再現性の拡大を目指す倫理的行為と言えるので、二重投稿には当たりません。
+
+2014年09月12日
+https://jipsti.jst.go.jp/johokanri/sti_updates/?id=7506
+エルゼビア社の新しいデータ・ジャーナルData in Brief | 科学技術情報プラットフォーム
 
 #### genome announcements
 
