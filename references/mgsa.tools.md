@@ -10,7 +10,6 @@
 - [harvest](#harvest)
 - [reordering-contigs](#reordering-contigs)
   - [eggnog](#eggnog)
-  - [BUSCO](#busco)
   - [Tax4Fun](#tax4fun)
   - [diamond](#diamond)
   - [cd-hit](#cd-hit)
@@ -18,9 +17,6 @@
 - [USEARCH](#usearch)
 - [GSEA](#gsea)
 - [qc](#qc)
-- [assembly](#assembly)
-  - [unicycler](#unicycler)
-  - [de Bruijn Graph](#de-bruijn-graph)
 - [reordering contigs](#reordering-contigs)
 - [annotation](#annotation)
   - [dfast](#dfast)
@@ -53,6 +49,182 @@
 - [database](#database)
 - [metadata](#metadata)
   - [source](#source) 分離源
+- [assembly](#assembly)
+  - [unicycler](#unicycler)
+  - [de Bruijn Graph](#de-bruijn-graph)
+- [assembly quality](#assembly-quality)
+  - [QUAST](#quast)
+  - [CheckM](#checkm)
+  - [BUSCO](#busco)
+
+----------
+
+## assembly
+
+http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
+
+2018/01/19
+https://www.biostars.org/p/294053/
+Criteria for filtering contigs after spades assembly
+scripts that remove contigs having less than 500 pb and 2 fold coverage.
+
+https://microsizedmind.wordpress.com/2015/03/05/removing-small-low-coverage-contigs-from-a-spades-assembly/
+Removing small & low coverage contigs from a Spades assembly | The Microsized Mind
+
+https://github.com/rrwick/Unicycler
+  --depth_filter DEPTH_FILTER    Filter out contigs lower than this fraction of the chromosomal
+                                 depth, if doing so does not result in graph dead ends (default:
+                                 0.25)
+
+
+March 23 2018
+http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
+Bioinformatics Zen
+Automating the selection of genome assembly software
+
+The assemblers compared in this analysis were ABySS [7], A5-miseq [8], GATB Minia [9], LightAssembler [10], MEGAHIT [11], Ray [13], Shovill, SPAdes [14], StriDe [15], BBTools Tadpole, Unicycler [16], and Velvet [17]. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/27742661
+Brief Bioinform. 2018 Jan 1;19(1):23-40. doi: 10.1093/bib/bbw096.
+The present and future of de novo whole-genome assembly.
+Sohn JI, Nam JW.
+
+### unicycler
+https://github.com/rrwick/Unicycler
+https://github.com/rrwick/Unicycler#limitations-of-short-reads
+
+https://www.ncbi.nlm.nih.gov/pubmed/28594827
+PLoS Comput Biol. 2017 Jun 8;13(6):e1005595. doi: 10.1371/journal.pcbi.1005595. eCollection 2017 Jun.
+Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads.
+Wick RR1, Judd LM1, Gorrie CL1, Holt KE1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5481147/
+Limitations
+
+http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
+ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
+
+https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html
+
+https://toolshed.g2.bx.psu.edu/repository/display_tool?repository_id=009c2bee22b4ded4&render_repository_actions_for=tool_shed&tool_config=%2Fsrv%2Ftoolshed%2Fmain%2Fvar%2Fdata%2Frepos%2F003%2Frepo_3386%2Funicycler.xml&changeset_revision=e9c1cdb9f9dc
+
+### de Bruijn Graph
+  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
+  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
+  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
+  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
+  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
+- [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
+  - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
+  - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
+  - 2013-05-20 [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/blog/2013/05/20/spades-and-masurca-assemblers-performed-best-in-gage-b-evaluation/) SPAdes and MaSuRCA Assemblers Performed Best in GAGE-B Evaluation
+- SpadesとVelvetの比較 
+  - 2013-08-30 [The Genome Factory: How Spades differs from Velvet](http://thegenomefactory.blogspot.com/2013/08/how-spades-differs-from-velvet.html)
+  - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
+- 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
+- [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
+
+----------
+## assembly quality
+
+https://www.ncbi.nlm.nih.gov/pubmed/31429698
+BMC Genomics. 2019 Aug 20;20(1):662. doi: 10.1186/s12864-019-6014-5.
+The importance of genome sequence quality to microbial comparative genomics.
+Smits THM1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6701015/
+basic methods for genome quality assessment are available [1–3]. 
+- QUAST
+- CheckM
+- BUSCO
+
+----------
+### QUAST
+http://quast.sourceforge.net/quast
+
+https://www.ncbi.nlm.nih.gov/pubmed/23422339
+Bioinformatics. 2013 Apr 15;29(8):1072-5. doi: 10.1093/bioinformatics/btt086. Epub 2013 Feb 19.
+QUAST: quality assessment tool for genome assemblies.
+Gurevich A1, Saveliev V, Vyahhi N, Tesler G.
+QUAST can evaluate assemblies both with a reference genome, as well as without a reference.
+
+http://kazumaxneo.hatenablog.com/entry/2017/08/22/231007
+アセンブリ結果を評価する QUAST - macでインフォマティクス
+Assembliesのところにcontig.fastaを指定、Genomeのところにリファレンスゲノムを指定してランする。リファレンスゲノムがなくても、N(G)50などのアセンブルの基礎的な評価情報は出力してくれる。
+
+----------
+### CheckM
+https://ecogenomics.github.io/CheckM/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25977477
+Genome Res. 2015 Jul;25(7):1043-55. doi: 10.1101/gr.186072.114. Epub 2015 May 14.
+CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes.
+Parks DH1, Imelfort M1, Skennerton CT1, Hugenholtz P2, Tyson GW3.
+Here we introduce CheckM, an automated method for assessing the quality of a genome using a broader set of marker genes specific to the position of a genome within a reference genome tree and information about the collocation of these genes. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4484387/
+
+http://kazumaxneo.hatenablog.com/entry/2017/09/22/012544
+メタゲノムからビニングしたゲノムが完全か、またコンタミがあるか評価する CheckM - macでインフォマティクス
+CheckMは、参照ゲノムツリー内のゲノムに特異的なマーカー遺伝子セット情報を使用して、ゲノムの完全性と汚染の正確な推定値を提供する。系統内で単一コピーの遺伝子を元に、ゲノムが完全であるか、コンタミがあるか分析している。
+
+----------
+### BUSCO
+https://busco.ezlab.org
+Bacteria Bacteria sets
+
+25 April 2019
+https://link.springer.com/protocol/10.1007/978-1-4939-9173-0_14
+BUSCO: Assessing Genome Assembly and Annotation Completeness
+
+https://www.ncbi.nlm.nih.gov/pubmed/29220515
+Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
+BUSCO applications from quality assessments to gene prediction and phylogenomics.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26059717
+Bioinformatics. 2015 Oct 1;31(19):3210-2. doi: 10.1093/bioinformatics/btv351. Epub 2015 Jun 9.
+BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.
+Simão FA1, Waterhouse RM1, Ioannidis P1, Kriventseva EV1, Zdobnov EM1.
+
+http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
+ゲノム工学実習	大学院科目
+【開講日程】 2018年度 秋学期 特定期間集中	【担当教員】 荒川　和晴
+アセンブリークオリティの検証
+アセンブリーのクオリティ確認はN50だけではだめで、ちゃんとゲノムとして全遺伝情報がカバーできているか、を確認する必要があります。このためにはCEGMAやBUSCOといった手法(http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640) を用います。これらのソフトウェアはインストールが面倒なのですが、理研が開発しているgVolanteというウェブサーバが非常に簡単に使えるようにしてくれています。https://gvolante.riken.jpBUSCOはv.1がバクテリアに対応しています。
+
+http://kazumaxneo.hatenablog.com/entry/2018/09/05/155855
+ラージゲノムにも対応したアセンブリ評価ツール QUAST-LG - macでインフォマティクス
+論文内では、最新のmummer4（紹介）やminimap2（紹介）によるcontigのアライメント、KMC3（紹介）によるk-mer評価を元にしたアセンブリ完全性の評価、BUSCO（紹介）によるハウスキーピング遺伝子のhit率に基づいたアセンブリ評価、などの詳細が書かれています。
+
+http://kazumaxneo.hatenablog.com/entry/2017/07/26/211528
+ゲノム情報はないが、モデル生物と近縁な生物のRNA seq 解析 - macでインフォマティクス
+２、buscoによるcore geneの探索。
+
+https://pacbiobrothers.blogspot.com/2017/07/
+2017年7月13日
+パックマンの挑戦　－　PacBioシークエンサー: 7月 2017
+gVolante でアセンブリを検証したくなるこれだけの理由！
+ゲノムアセンブリの論文を読んだことのある方は、BUSCOとかCEGMAとかいう解析で、「Completeが何%、Fragmentedが何%、だからこのアセンブリはまずまず良い」なんていう文章を読んだことがあるかもしれません。
+特に真核生物で、新しくゲノムを決めた、みたいな論文では必ずと言っていいほど。
+
+このような解析を、GUIで簡単に解析できるツールが gVolante（ジーボランチ）です。
+神戸理化学研究所の工樂さん、西村さん、原さんらの論文も、先日Publishされたそうです
+
+http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
+アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
+
+https://pacbiobrothers.blogspot.com/2016/07/pacbio.html
+2016年7月6日
+パックマンの挑戦　－　PacBioシークエンサー: パイナップルドラフトゲノム　PacBioでアセンブリ
+しかし、残念ながら、CEGMAは昨年サービスを中止したらしいです。
+これからはBUSCO（Benchmarking Universal Single-Copy Orthologs)らしいです。
+
+11 of July, 2016
+http://cell-innovation.nig.ac.jp/wiki//tiki-index.php?page=BUSCOインストールログ
+BUSCOインストールログ
+
+March 2016
+http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20160313221003-D6FE3AF4AC97B309F7EF6B0B70F4E54C2EBB49CDD91586A8C5AA323F471D2D06.pdf
+「大量データと知見の架け橋」どのアセンブリを使うか？：分子系統学的観点に基づくアセンブリの評価
+遺伝子探索パイプラインの選択：CEGMAとBUSCOのどちらにするか?
+
 
 ----------
 
@@ -931,20 +1103,6 @@ Strain-specific glycoside hydrolase distribution in bacteria.
 ----------
 ## metadata
 
-### microbe-directory
-
-https://github.com/microbe-directory/microbe-directory
-```
-wget https://raw.githubusercontent.com/microbe-directory/microbe-directory/master/data/microbe-directory.csv
-```
-https://www.ncbi.nlm.nih.gov/pubmed/29630066
-Gates Open Res. 2018 Jan 5;2:3. doi: 10.12688/gatesopenres.12772.1.
-The Microbe Directory: An annotated, searchable inventory of microbes' characteristics.
-Shaaban H#1,2,3, Westfall DA#1,2,4, Mohammad R1,2,5, Danko D1,2, Bezdan D1,2, Afshinnekoo E1,2,6, Segata N7, Mason CE1,2,8.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883067/
-- Such characteristics include, but are not limited to: optimal pH, optimal temperature, Gram stain, biofilm-formation, spore-formation, antimicrobial resistance, and COGEM class risk rating. 
-- Several databases were used to collect this information, including COGEM, MicrobeWiki, BacMap, ATCC, PATRIC, ARDB, GOLD, HOMD, and BEI Resources (see Annotation Tutorial and Guidelines and Links in Supplementary File 1). 
-
 ### source
 分離源
 
@@ -1066,17 +1224,26 @@ https://www.ncbi.nlm.nih.gov/pubmed/27794040
 Nucleic Acids Res. 2017 Jan 4;45(D1):D446-D456. doi: 10.1093/nar/gkw992. Epub 2016 Oct 27.
 Genomes OnLine Database (GOLD) v.6: data updates and feature enhancements.
 
-### 
-https://gatesopenresearch.org/articles/2-3/v1
-Gates Open Res 2018, 2:3 (doi: 10.12688/gatesopenres.12772.1)
-The Microbe Directory: An annotated, searchable inventory of microbes’ characteristics - Gates Open Research
-https://twitter.com/search?q=Microbe%20Directory
-metadata
+### microbe-directory
 
-A Barberán 著 - ‎2017 
-http://msphere.asm.org/content/2/4/e00237-17
-Hiding in Plain Sight: Mining Bacterial Species Records for Phenotypic Trait Information | mSphere
-https://figshare.com/articles/International_Journal_of_Systematic_and_Evolutionary_Microbiology_IJSEM_phenotypic_database/4272392
+https://github.com/microbe-directory/microbe-directory
+```
+wget https://raw.githubusercontent.com/microbe-directory/microbe-directory/master/data/microbe-directory.csv
+```
+https://www.ncbi.nlm.nih.gov/pubmed/29630066
+Gates Open Res. 2018 Jan 5;2:3. doi: 10.12688/gatesopenres.12772.1.
+The Microbe Directory: An annotated, searchable inventory of microbes' characteristics.
+Shaaban H#1,2,3, Westfall DA#1,2,4, Mohammad R1,2,5, Danko D1,2, Bezdan D1,2, Afshinnekoo E1,2,6, Segata N7, Mason CE1,2,8.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883067/
+- Such characteristics include, but are not limited to: optimal pH, optimal temperature, Gram stain, biofilm-formation, spore-formation, antimicrobial resistance, and COGEM class risk rating. 
+- Several databases were used to collect this information, including COGEM, MicrobeWiki, BacMap, ATCC, PATRIC, ARDB, GOLD, HOMD, and BEI Resources (see Annotation Tutorial and Guidelines and Links in Supplementary File 1). 
+https://gatesopenresearch.org/articles/2-3/v1
+
+https://www.ncbi.nlm.nih.gov/pubmed/28776041
+mSphere. 2017 Aug 2;2(4). pii: e00237-17. doi: 10.1128/mSphere.00237-17. eCollection 2017 Jul-Aug.
+Hiding in Plain Sight: Mining Bacterial Species Records for Phenotypic Trait Information.
+Barberán A1, Caceres Velazquez H2, Jones S2, Fierer N3,4.
+https://doi.org/10.6084/m9.figshare.4272392
 
 https://github.com/haruosuz/mgsa/tree/master/traitar
 https://www.ncbi.nlm.nih.gov/pubmed/28066816
@@ -1084,6 +1251,13 @@ mSystems. 2016 Dec 27;1(6). pii: e00101-16. doi: 10.1128/mSystems.00101-16. eCol
 From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer.
 Weimann A1, Mooren K2, Frank J3, Pope PB3, Bremges A4, McHardy AC1.
 Traitar provides phenotype classifiers to predict 67 traits related to the use of various substrates as carbon and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis, and enzymatic activities.
+
+protraits
+http://protraits.irb.hr/
+https://www.ncbi.nlm.nih.gov/pubmed/27915291
+Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
+The landscape of microbial phenotypic traits and associated genes.
+Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
 
 https://www.ncbi.nlm.nih.gov/pubmed/26013493
 J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
@@ -1459,62 +1633,6 @@ https://twitter.com/galaxyproject/status/794453380202725376
 Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
 
 ----------
-### BUSCO
-https://busco.ezlab.org/
-Bacteria Bacteria sets
-
-25 April 2019
-https://link.springer.com/protocol/10.1007/978-1-4939-9173-0_14
-BUSCO: Assessing Genome Assembly and Annotation Completeness
-
-https://www.ncbi.nlm.nih.gov/pubmed/29220515
-Mol Biol Evol. 2017 Dec 6. doi: 10.1093/molbev/msx319. [Epub ahead of print]
-BUSCO applications from quality assessments to gene prediction and phylogenomics.
-
-http://web.sfc.keio.ac.jp/~gaou/wiki/wiki.cgi?page=%A5%B2%A5%CE%A5%E0%B9%A9%B3%D8%BC%C2%BD%AC
-ゲノム工学実習	大学院科目
-【開講日程】 2018年度 秋学期 特定期間集中	【担当教員】 荒川　和晴
-アセンブリークオリティの検証
-アセンブリーのクオリティ確認はN50だけではだめで、ちゃんとゲノムとして全遺伝情報がカバーできているか、を確認する必要があります。このためにはCEGMAやBUSCOといった手法(http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640) を用います。これらのソフトウェアはインストールが面倒なのですが、理研が開発しているgVolanteというウェブサーバが非常に簡単に使えるようにしてくれています。https://gvolante.riken.jpBUSCOはv.1がバクテリアに対応しています。
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/05/155855
-ラージゲノムにも対応したアセンブリ評価ツール QUAST-LG - macでインフォマティクス
-論文内では、最新のmummer4（紹介）やminimap2（紹介）によるcontigのアライメント、KMC3（紹介）によるk-mer評価を元にしたアセンブリ完全性の評価、BUSCO（紹介）によるハウスキーピング遺伝子のhit率に基づいたアセンブリ評価、などの詳細が書かれています。
-
-http://kazumaxneo.hatenablog.com/entry/2017/07/26/211528
-ゲノム情報はないが、モデル生物と近縁な生物のRNA seq 解析 - macでインフォマティクス
-２、buscoによるcore geneの探索。
-
-https://pacbiobrothers.blogspot.com/2017/07/
-2017年7月13日
-パックマンの挑戦　－　PacBioシークエンサー: 7月 2017
-gVolante でアセンブリを検証したくなるこれだけの理由！
-ゲノムアセンブリの論文を読んだことのある方は、BUSCOとかCEGMAとかいう解析で、「Completeが何%、Fragmentedが何%、だからこのアセンブリはまずまず良い」なんていう文章を読んだことがあるかもしれません。
-特に真核生物で、新しくゲノムを決めた、みたいな論文では必ずと言っていいほど。
-
-このような解析を、GUIで簡単に解析できるツールが gVolante（ジーボランチ）です。
-神戸理化学研究所の工樂さん、西村さん、原さんらの論文も、先日Publishされたそうです
-
-2017-07-19
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
-
-https://pacbiobrothers.blogspot.com/2016/07/pacbio.html
-2016年7月6日
-パックマンの挑戦　－　PacBioシークエンサー: パイナップルドラフトゲノム　PacBioでアセンブリ
-しかし、残念ながら、CEGMAは昨年サービスを中止したらしいです。
-これからはBUSCO（Benchmarking Universal Single-Copy Orthologs)らしいです。
-
-11 of July, 2016
-http://cell-innovation.nig.ac.jp/wiki//tiki-index.php?page=BUSCOインストールログ
-BUSCOインストールログ
-
-March 2016
-http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20160313221003-D6FE3AF4AC97B309F7EF6B0B70F4E54C2EBB49CDD91586A8C5AA323F471D2D06.pdf
-「大量データと知見の架け橋」どのアセンブリを使うか？：分子系統学的観点に基づくアセンブリの評価
-遺伝子探索パイプラインの選択：CEGMAとBUSCOのどちらにするか?
-
-----------
 ### Tax4Fun
 
 2017/4/30
@@ -1639,8 +1757,6 @@ Conclusion
 
 ----------
 
-
-
 ## qc
 - [クオリティコントロール | FASTQ | RNA-seq](http://bi.biopapyrus.net/rnaseq/qc/)
  - [FastQC | FASTQのクオリティチェック](http://bi.biopapyrus.net/rnaseq/qc/fastqc.html)
@@ -1648,70 +1764,6 @@ Conclusion
 
 http://kazumaxneo.hatenablog.com/entry/2017/06/21/111007
 ショートリードのアダプタートリミングツール Trim Galore - macでインフォマティクス
-
-## assembly
-
-http://kazumaxneo.hatenablog.com/archive/category/アセンブリ
-
-2018/01/19
-https://www.biostars.org/p/294053/
-Criteria for filtering contigs after spades assembly
-scripts that remove contigs having less than 500 pb and 2 fold coverage.
-
-https://microsizedmind.wordpress.com/2015/03/05/removing-small-low-coverage-contigs-from-a-spades-assembly/
-Removing small & low coverage contigs from a Spades assembly | The Microsized Mind
-
-https://github.com/rrwick/Unicycler
-  --depth_filter DEPTH_FILTER    Filter out contigs lower than this fraction of the chromosomal
-                                 depth, if doing so does not result in graph dead ends (default:
-                                 0.25)
-
-
-March 23 2018
-http://www.bioinformaticszen.com/post/automating-selection-of-genome-assembly-software/
-Bioinformatics Zen
-Automating the selection of genome assembly software
-
-The assemblers compared in this analysis were ABySS [7], A5-miseq [8], GATB Minia [9], LightAssembler [10], MEGAHIT [11], Ray [13], Shovill, SPAdes [14], StriDe [15], BBTools Tadpole, Unicycler [16], and Velvet [17]. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/27742661
-Brief Bioinform. 2018 Jan 1;19(1):23-40. doi: 10.1093/bib/bbw096.
-The present and future of de novo whole-genome assembly.
-Sohn JI, Nam JW.
-
-### unicycler
-https://github.com/rrwick/Unicycler
-https://github.com/rrwick/Unicycler#limitations-of-short-reads
-
-https://www.ncbi.nlm.nih.gov/pubmed/28594827
-PLoS Comput Biol. 2017 Jun 8;13(6):e1005595. doi: 10.1371/journal.pcbi.1005595. eCollection 2017 Jun.
-Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads.
-Wick RR1, Judd LM1, Gorrie CL1, Holt KE1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5481147/
-Limitations
-
-http://kazumaxneo.hatenablog.com/entry/2017/10/26/132951
-ハイブリッドアセンブルを行うUnicycler - macでインフォマティクス
-
-https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html
-
-https://toolshed.g2.bx.psu.edu/repository/display_tool?repository_id=009c2bee22b4ded4&render_repository_actions_for=tool_shed&tool_config=%2Fsrv%2Ftoolshed%2Fmain%2Fvar%2Fdata%2Frepos%2F003%2Frepo_3386%2Funicycler.xml&changeset_revision=e9c1cdb9f9dc
-
-### de Bruijn Graph
-  - 2017.06.04 [de novo アセンブリー | de Bruijn graph によるゲノムアセンブリー](https://bi.biopapyrus.jp/rnaseq/assembly/de-bruijn-graph-assembly.html)
-  - [de Bruijn Graph を使った de novo アセンブリの発想がすごい件 - ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/20100930/p1)
-  - [CLCバイオジャパン - De Novo アセンブリ](http://www.clcbio.co.jp/fileadmin/user_upload/Mari/DeNovo_6.5.pdf)
-  - ["de Bruijn"はどう発音する？ - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/08/01/de-bruijn-pronounce/)
-  - [de Bruijn graphを使ったアセンブラーのヘテロなサイトの取り扱いについて - #LSQA](http://qa.lifesciencedb.jp/questions/623/de-bruijn-graphを使ったアセンブラーのヘテロなサイトの取り扱いについて) 質問日 Aug 31 '12
-- [GAGE-B: an evaluation of genome assemblers for bacterial organisms. Bioinformatics. 2013 Jul 15](http://www.ncbi.nlm.nih.gov/pubmed/23665771)
-  - 細菌で複数のアセンブラー（Abyss、Cabog、Mira、MaSuRCA、SGA、SoapDenovo2、SPAdes、Velvet）の性能を比較。MaSuRCAとSPAdesの結果が良い（N50値が高い）。リード長100bpの250x coverageで（N50値はプラトーに達するので）十分なデータ量。
-  - [Supplementary data](http://bioinformatics.oxfordjournals.org/content/suppl/2013/05/10/btt273.DC1/GAGE-B_SupplementaryMaterial_Apr4.docx)の「Recipes for genome assemblies」にアセンブラーの実行コマンドを記載。
-  - 2013-05-20 [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/blog/2013/05/20/spades-and-masurca-assemblers-performed-best-in-gage-b-evaluation/) SPAdes and MaSuRCA Assemblers Performed Best in GAGE-B Evaluation
-- SpadesとVelvetの比較 
-  - 2013-08-30 [The Genome Factory: How Spades differs from Velvet](http://thegenomefactory.blogspot.com/2013/08/how-spades-differs-from-velvet.html)
-  - 2013-05-25 [SPAdes vs Velvet assemby comparison | BacPathGenomics](https://bacpathgenomics.wordpress.com/2013/05/25/spades-vs-velvet-assemby-comparison/)
-- 2009-09-30 [Tips for de novo bacterial genome assembly · Loman Labs](http://nickloman.github.io/uncategorized/2009/09/30/tips-for-de-novo-bacterial-genome-assembly/)
-- [アセンブルの指標であるN50とNG50の違い - Wolfeyes Bioinformatics beta](http://yagays.github.io/blog/2013/05/15/n50-ng50/)
 
 ## reordering contigs
 
@@ -2256,9 +2308,6 @@ BLASTBasic Local Alignment Search Tool
 ### kazumaxneo
 http://kazumaxneo.hatenablog.com
 macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/07/19/145640
-アセンブル結果をCore gene setの検出数で評価する　BUSCO - macでインフォマティクス
 
 http://kazumaxneo.hatenablog.com/entry/2018/02/03/154624
 GC-skewと複数アセンブルデータを使ってバクテリアのゲノムアセンブリを改善するGUIツール GFinisher - macでインフォマティクス
