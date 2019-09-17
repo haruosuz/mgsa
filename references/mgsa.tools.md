@@ -3,7 +3,6 @@
 ## Table of Contents
 - [PhyloPhlAn](#phylophlan)
 - [featuring](#featuring)
-- [updates](#updates)
 - [distribution](#distribution) 遺伝子の系統分布
 - [fastGEAR](#fastgear)
 - [BAPS](#baps)
@@ -286,9 +285,6 @@ PhyloPhlAn Segata et al. (2014)
 
 
 
-
-
-
 ----------
 ## featuring
 
@@ -325,383 +321,6 @@ Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the 
 https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and-archaea-uba-genomes-for-important-genes/
 Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
 June 22, 2018
-
-----------
-## updates
-
-メタゲノムにおける遺伝子水平伝播イベント同定手法に関する総説
-https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evz184/5554466
-Current and Promising Approaches to Identify Horizontal Gene Transfer Events in Metagenomes | Genome Biology and Evolution | Oxford Academic
-
-
-StrainHub: A phylogenetic tool to construct pathogen transmission networks
-Bioinformatics, btz646, https://doi.org/10.1093/bioinformatics/btz646
-Published: 16 August 2019
-
-リアルタイムゲノム疫学がエボラの国境を越えた感染を正確に特定できることを示す
-https://twitter.com/ljcoin/status/1146968852070162432
-Lachlan Coin on Twitter: ".@pathogenomenick showing how realtime genomic epidemiology using @nanopore seq could pinpoint cross border transmission of Ebola (colours indicate country) #UQwinterschool… https://t.co/c0AVqrlxJR"
-10:27 PM - 4 Jul 2019
-
-
-
-https://twitter.com/torstenseemann/status/1146209691560640512
-Torsten Seemann on Twitter: "Can't remember how to convert your sequence file into FASTA? Just use "any2fasta" ! Supports gff, gbk, embl, clw, etc and .gz .bz2 automatically. Install using #bioconda or @brew_sci https://t.co/RVbgFDiotP"
-9:11 AM · Jul 3, 2019
-
-
-https://www.biorxiv.org/content/10.1101/688465v1
-PhyloMagnet: Fast and accurate screening of short-read meta-omics data using gene-centric phylogenetics | bioRxiv
-
-https://www.biorxiv.org/content/10.1101/653592v1
-Not just BLAST nt: WGS database joins the party | bioRxiv
-
-https://twitter.com/Tyu_Shi/status/1136040929167532032
-ntにWGSを加えれば検出感度上がるのは当然。多くの人が使っていない理由は、系統アサインする時に、存在する可能性のある系統が広すぎてBacteriaとかでしかReferenceの範囲を絞り込めず、洒落にならないDB sizeになること。
-6:43 PM - 4 Jun 2019
-ざっと読んだが、配列類似性検索にCentrifuge使っているのはよくあるパターンだが、WGSとしてまだそれほどゲノムが充実していないFungiを選択しており、Bacteria用のmetagenome系統アサインメントの場合にどの程度のDBサイズになるのかを書いていないのは残念。
-個人的には、普通のマッピングによる系統アサインメントは筋悪だと思っており使っていない。数年後に大量のMAG (Metagenome Assembled Genomes)をReferenceに含めないといけなくなった時に破綻し、多分ANI系に置き換わる。
-
-
-### 2019-05
-
-
-M1CR0B1AL1Z3R
-https://microbializer.tau.ac.il/
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz423/5494765
-M1CR0B1AL1Z3R—a user-friendly web server for the analysis of large-scale microbial genomics data
-https://twitter.com/copypasteusa/status/1132305387472822273
-Haruo Suzuki on Twitter: "微生物ゲノム配列データ解析ウェブサーバ M1CR0B1AL1Z3R（microbializerと発音） https://t.co/5Yybee5kfG ProdigalでORF予測。MMSEQS2(tBlastX)で相同性検索し双方向ベストヒットによるオーソログ同定。MAFFTで多重整列し、RAxMLでコア遺伝子結合データの系統樹作成。GC含量 https://t.co/4WlNgw9YQy"
-12:20 AM · May 26, 2019
-
-https://twitter.com/StevenSalzberg1/status/1128718460643627008
-Steven Salzberg on Twitter: "Our paper describing 3,437 bogus proteins in 2,250 contaminated genomes is out in @genomeresearch (https://t.co/FyLr3yWss2), but supplemental data isn't up yet, so I put it on our ftp site: ftp://ftp.ccb.jhu.edu/pub/salzberg/Contaminated_genomes_GenomeResearchPaper_2019/"
-1:47 PM - 15 May 2019
-
-https://twitter.com/NoahFierer/status/1126165046654935040
-Noah Fierer on Twitter: "Important read: "Human contamination in bacterial genomes has created thousands of spurious proteins" https://t.co/upGsmajxnc"
-12:40 PM - 8 May 2019
-
-### 2019-04
-
-29 April 2019
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz310/5481154
-antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline | Nucleic Acids Research | Oxford Academic
-
-
-
-### 2019-04-25
-
-https://www.ncbi.nlm.nih.gov/pubmed/31020563
-Methods Mol Biol. 2019;1962:215-226. doi: 10.1007/978-1-4939-9173-0_13.
-Generating Publication-Ready Prokaryotic Genome Annotations with DFAST.
-Tanizawa Y1, Fujisawa T2, Arita M2,3, Nakamura Y2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/31022176
-PLoS Comput Biol. 2019 Apr 25;15(4):e1006946. doi: 10.1371/journal.pcbi.1006946. [Epub ahead of print]
-TASmania: A bacterial Toxin-Antitoxin Systems database.
-Akarsu H1, Bordes P2, Mansour M2, Bigot DJ2, Genevaux P2, Falquet L1.
-
-### 2019-04-12
-
-https://twitter.com/strnr/status/1116714372091580423
-Stephen Turner on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/3LbId2vvnb code https://t.co/YxJsNSqzAF Data from https://t.co/0tbwD4jvZL… https://t.co/Gri74Eq0Zf"
-10:47 AM - 12 Apr 2019
-
-https://www.biorxiv.org/content/10.1101/607085v1
-DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes | bioRxiv
-
-### 2019
-
-https://www.ncbi.nlm.nih.gov/pubmed/30957837
-Bioinformatics. 2019 Apr 8. pii: btz220. doi: 10.1093/bioinformatics/btz220. [Epub ahead of print]
-TORMES: an automated pipeline for whole bacterial genome analysis.
-Quijada NM1,2, Rodríguez-Lázaro D2, Hernández M1,2.
-
-
-https://www.nature.com/articles/s41467-019-08844-4
-Microbial abundance, activity and population genomic profiling with mOTUs2 | Nature Communications
-
-https://www.ncbi.nlm.nih.gov/pubmed/30729287
-Appl Microbiol Biotechnol. 2019 Feb 7. doi: 10.1007/s00253-019-09648-8. [Epub ahead of print]
-GeM-Pro: a tool for genome functional mining and microbial profiling.
-
-https://github.com/CAMI-challenge/CAMITAX
-CAMITAX: Taxon labels for microbial genomes
-https://www.biorxiv.org/content/10.1101/532473v1
-CAMITAX: Taxon labels for microbial genomes | bioRxiv
-
-https://twitter.com/joshdneufeld/status/1092486258419326976
-Josh Neufeld on Twitter: ""DNA sequences are just long series of letters. So why is it so hard to search through them?" @sarahzhang reports here https://t.co/QzSlfkbi6l, profiling BIGSI search https://t.co/IgKHcYpgGe, with comments from @jennifergardy. Primary literature here: https://t.co/vIHoE151eM"
-1:13 PM - 4 Feb 2019
-https://www.nature.com/articles/s41587-018-0010-1
-Ultrafast search of all deposited bacterial and viral genomic data | Nature Biotechnology
-Phelim Bradley, Henk C. den Bakker, Eduardo P. C. Rocha, Gil McVean & Zamin Iqbal 
-
-
-https://twitter.com/jongsanders/status/1090341613954568192
-Jon Sanders on Twitter: "Really stoked that the Calour paper is out! This is a really great tool for heatmap-driven exploration of microbiome data. It works *great* with ASVs from DADA2 or Deblur. https://t.co/JXsUtCd6KG I'm going to walk through just a bit of my own data from the paper! 1/"
-3:11 PM - 29 Jan 2019
-https://msystems.asm.org/content/4/1/e00269-18
-Calour: an Interactive Microbe-Centric Analysis Tool 
-
-http://kazumaxneo.hatenablog.com/entry/2019/01/23/073000
-taxonomy ID、学名、系統情報など相互変換できるツール taxonkit - macでインフォマティクス
-https://www.biorxiv.org/content/10.1101/513523v1
-TaxonKit: a cross-platform and efficient NCBI taxonomy toolkit | bioRxiv
-
-
-### 2018
-
-https://twitter.com/kazumachack/status/1074793968712376320
-上坂一馬 on Twitter: "SPAdesを使って、大きなk-merを使った時にアセンブリがどう変化するのか簡単にまとめました。GAGE-Bのコレラ菌のデータセットを使っています。 SPAdesとUnicyclerでlarge k-merを使う part2 (… https://t.co/DKQnSyZlgx"
-5:30 PM - 17 Dec 2018
-
-http://kazumaxneo.hatenablog.com/entry/2018/12/11/164359
-SPAdesとUnicyclerでlarge k-merを使えるようにビルドし直す part1 - macでインフォマティクス
-
-https://twitter.com/torstenseemann/status/1051354968517619712
-Torsten Seemann on Twitter: ""A Unix one-liner to call bacterial variants" using @htslib - my first blog post in a long time! #bioinformatics https://t.co/GkLO4wspGd"
-2:12 AM - 14 Oct 2018
-
-https://thegenomefactory.blogspot.com/2018/10/a-unix-one-liner-to-call-bacterial.html
-The Genome Factory: A Unix one-liner to call bacterial variants
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29309930
-Clin Microbiol Infect. 2018 Apr;24(4):350-354. doi: 10.1016/j.cmi.2017.12.016. Epub 2018 Jan 5.
-Whole genome sequencing options for bacterial strain typing and epidemiologic analysis based on single nucleotide polymorphism versus gene-by-gene-based approaches.
-Schürch AC1, Arredondo-Alonso S1, Willems RJL1, Goering RV2.
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/30148503
-Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
-Parks DH1, Chuvochina M1, Waite DW1, Rinke C1, Skarshewski A1, Chaumeil PA1, Hugenholtz P1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29915113
-Appl Environ Microbiol. 2018 Aug 17;84(17). pii: e00993-18. doi: 10.1128/AEM.00993-18. Print 2018 Sep 1.
-Comparative Genomics of the Genus Lactobacillus Reveals Robust Phylogroups That Provide the Basis for Reclassification.
-Salvetti E1,2, Harris HMB1,2, Felis GE3, O'Toole PW2,4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/30006589
-Nat Commun. 2018 Jul 13;9(1):2703. doi: 10.1038/s41467-018-05114-7.
-Population genomics of hypervirulent Klebsiella pneumoniae clonal-group 23 reveals early emergence and rapid global dissemination.
-Lam MMC1, Wyres KL1, Duchêne S1, Wick RR1, Judd LM1, Gan YH2, Hoh CH2, Archuleta S3, Molton JS3, Kalimuddin S4, Koh TH5, Passet V6, Brisse S6, Holt KE7,8.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29718191
-FEMS Microbiol Ecol. 2018 Jul 1;94(7). doi: 10.1093/femsec/fiy079.
-MetaCompare: a computational pipeline for prioritizing environmental resistome risk.
-Oh M1, Pruden A2, Chen C3, Heath LS1, Xia K3, Zhang L1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29309930
-Clin Microbiol Infect. 2018 Apr;24(4):350-354. doi: 10.1016/j.cmi.2017.12.016. Epub 2018 Jan 5.
-Whole genome sequencing options for bacterial strain typing and epidemiologic analysis based on single nucleotide polymorphism versus gene-by-gene-based approaches.
-Schürch AC1, Arredondo-Alonso S1, Willems RJL1, Goering RV2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29177474
-Mol Biol Evol. 2018 Feb 1;35(2):486-503. doi: 10.1093/molbev/msx302.
-Evaluating Fast Maximum Likelihood-Based Phylogenetic Programs Using Empirical Phylogenomic Data Sets.
-Zhou X1,2, Shen XX3, Hittinger CT4, Rokas A3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29309933
-Clin Microbiol Infect. 2018 Apr;24(4):342-349. doi: 10.1016/j.cmi.2017.12.015. Epub 2018 Jan 5.
-A primer on microbial bioinformatics for nonbioinformaticians.
-Carriço JA1, Rossi M2, Moran-Gilad J3, Van Domselaar G4, Ramirez M5.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27471065
-Microb Biotechnol. 2016 Sep;9(5):681-6. doi: 10.1111/1751-7915.12389. Epub 2016 Jul 29.
-Microbial bioinformatics 2020.
-Pallen MJ1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/24567124
-Nutr Diabetes. 2014 Feb 24;4:e109. doi: 10.1038/nutd.2014.6.
-Comparative genomics analysis of Lactobacillus species associated with weight gain or weight protection.
-Drissi F1, Merhej V1, Angelakis E1, El Kaoutari A1, Carrière F2, Henrissat B3, Raoult D1.
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29379090
-Sci Rep. 2018 Jan 29;8(1):1794. doi: 10.1038/s41598-018-20211-9.
-GO FEAT: a rapid web-based functional annotation tool for genomic and transcriptomic data.
-Araujo FA1, Barh D2, Silva A1, Guimarães L1, Ramos RTJ3.
-https://www.nature.com/articles/s41598-018-20211-9
-The next step is to integrate the result from the alignment to UniProt, NCBI Protein, KEGG, InterPro, Pfam and Gene Ontology databases via UniProt public API and SEED database via SEED public API. 
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/28057682
-Bioinformatics. 2017 Apr 15;33(8):1230-1232. doi: 10.1093/bioinformatics/btw824.
-phyloSkeleton: taxon selection, data retrieval and marker identification for phylogenomics.
-Guy L.
-https://bitbucket.org/lionelguy/phyloskeleton/
-
-
-## 2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/29258574
-Genome Biol. 2017 Dec 19;18(1):233. doi: 10.1186/s13059-017-1367-z.
-MICRA: an automatic pipeline for fast characterization of microbial genomes from high-throughput sequencing data.
-Caboche S1,2, Even G3,4, Loywick A3,4, Audebert C3,4, Hot D5,4.
-
-http://nobukoba1988.hatenablog.com/entry/2017/12/10/144459
-細菌が作り出す真核生物の交配を導く媚薬 〜その名はEroS〜 - 高等ムーミンをめぐる冒険
-
-https://twitter.com/PLOSCompBiol/status/936576580742270981
-PLOS Comp Biol on Twitter: "Congrats to @HusonDaniel and colleagues for winning our 2017 #PLOSCompBiol #ResearchPrize in the category Exemplary Methods/Software for their tool MEGAN CE that analyzes the genetic diversity of #microbiomes https://t.co/eBB8N4hNZk… https://t.co/ifKpnQ0voc"
-7:43 AM - 1 Dec 2017
-
-![](https://pbs.twimg.com/media/DP9jGWnUIAAFLW2.jpg)
-
-https://twitter.com/Tyu_Shi/status/942824493285703680
-Tyu_Shi on Twitter: "poplarとmaizeの根から単離されたバクテリア484株のゲノムを読んで、既知のゲノム3千株以上と比較ゲノム解析してplant-associated gene clustersを探索したのか。 https://t.co/DVNlG9j13e"
-1:30 PM - 18 Dec 2017
-https://www.ncbi.nlm.nih.gov/pubmed/24567124
-Nat Genet. 2018 Jan;50(1):138-150. doi: 10.1038/s41588-017-0012-9. Epub 2017 Dec 18.
-Genomic features of bacterial adaptation to plants.
-
-
-https://twitter.com/Tyu_Shi/status/942824493285703680
-Tyu_Shi on Twitter: "poplarとmaizeの根から単離されたバクテリア484株のゲノムを読んで、既知のゲノム3千株以上と比較ゲノム解析してplant-associated gene clustersを探索したのか。 https://t.co/DVNlG9j13e"
-1:30 PM - 18 Dec 2017
-
-
-https://twitter.com/Tyu_Shi/status/940987045790412800
-Tyu_Shi on Twitter: "Metagenome Assembled Genomesの評価方法としてよく使われている、Single copy genesを用いたcompletenessとcontaminationの指標についての、コンパクトにまとまった良い説明だ。 https://t.co/rfYMlQba35"
-11:49 AM - 13 Dec 2017
-
-
-https://www.microbe.net/2017/12/13/why-genome-completeness-and-contamination-estimates-are-more-complicated-than-you-think/ 
-Why genome completeness and contamination estimates are more complicated than you think – microBEnet: the microbiology of the Built Environment network
-
-
-12:19 PM - 11 Dec 2017
-https://twitter.com/NatureBiotech/status/940269831181557760
-Nature Biotechnology on Twitter: "Metagenomic binning and association of plasmids with bacterial host genomes using DNA methylation https://t.co/Un1Mm1p561 #epigenomics… https://t.co/FCvLuBgoxb"
-
-
-
-https://twitter.com/pathogenomenick/status/939889344453730304
-"On the Problem of Sequence Leakage" by @OmicsOmicsBlog 
-http://omicsomics.blogspot.co.uk/2017/12/on-problem-of-sequence-leakage.html …
-
-Related: have noticed that students are confused that genome 'X' not in GenBank when they know it's been sequenced.
-4 replies 13 retweets 29 likes
-Reply  4   Retweeted  13   Like  29   Direct message
-
-https://twitter.com/ASMicrobiology/status/939872479820111872
-@ASMicrobiology
- Dec 10
-More
-WGS shows that one species is actually (at least) four. Increasing our concept of a microbial species has many implications, including in understanding infections http://ow.ly/PsSI30h5qLc 
-
-
-https://twitter.com/Tyu_Shi/status/938098486280515584
-Tyu_Shi on Twitter: "J. Bacteriol.がこの1-2年で出した、Chromosome & Gene expression regulation, Bacterial cell, Pathogenesis & Host interactionのminireviewのThematic collection、とても勉強になる。個人的には前2つが特に。　https://t.co/Lb68EKtbRb"
-
-evolvability
-https://twitter.com/mbiojournal/status/932941916211175424
-mBio on Twitter: "Refactoring the genetic code for increased evolvability https://t.co/DUl2Jc3did… "
-
-Curtis Huttenhowerラボの論文
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1359-z
-Experimental design and quantitative analysis of microbial community multiomics
-Genome Biology2017
-
-
-1 Dec 2017
-https://twitter.com/thePeerJ/status/936536355772993537
-PeerJ - the journal on Twitter: "Kullback Leibler divergence in complete bacterial and phage genomes https://t.co/qN0QBSUXeR #Genomics https://t.co/CaMp8FbmKe"
-
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29204318
-PeerJ. 2017 Nov 30;5:e4026. doi: 10.7717/peerj.4026. eCollection 2017.
-Kullback Leibler divergence in complete bacterial and phage genomes.
-Akhter S1, Aziz RK2,3, Kashef MT2, Ibrahim ES2, Bailey B4, Edwards RA1,3,4,5.
-Here, we calculated the Kullback-Leibler divergence from the mean amino acid content as a metric to compare the amino acid composition for a large set of bacterial and phage genome sequences. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/29038487
-Nat Ecol Evol. 2017 Nov;1(11):1606-1615. doi: 10.1038/s41559-017-0340-2. Epub 2017 Oct 16.
-The microbiome beyond the horizon of ecological and evolutionary theory.
-Koskella B1, Hall LJ2, Metcalf CJE3.
-horizontal gene transfer, the production of public goods, toxin and antibiotic production, rapid evolution, and feedbacks between the microbiome and its host
-
-https://www.ncbi.nlm.nih.gov/pubmed/29021594
-Nat Rev Microbiol. 2017 Oct 12;15(11):639-640. doi: 10.1038/nrmicro.2017.121.
-Understanding drug resistance will improve the treatment of bacterial infections.
-Piddock LJV1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29018197
-Nat Commun. 2017 Oct 10;8(1):841. doi: 10.1038/s41467-017-00808-w.
-The chromosomal organization of horizontal gene transfer in bacteria.
-Oliveira PH1,2, Touchon M3,4, Cury J5,6, Rocha EPC5,6.
-
-https://www.ncbi.nlm.nih.gov/pubmed/28604660
-Nat Biotechnol. 2017 Jul;35(7):676-683. doi: 10.1038/nbt.3886. Epub 2017 Jun 12.
-1,003 reference genomes of bacterial and archaeal isolates expand coverage of the tree of life.
-
-
-
-### 2017
-
-
-https://twitter.com/thePeerJ/status/932675684543139845
-PeerJ - the journal on Twitter: "PBxplore: a tool to analyze local protein structure and deformability with Protein Blocks https://t.co/p86EiqUZst #bioinformatics https://t.co/fJ1DjbVwFL"
-1:23 PM - 20 Nov 2017
-
-![](https://pbs.twimg.com/media/DPGHl2cW0AYCa1a.jpg)
-
-https://www.biorxiv.org/content/early/2017/11/08/215988
-Panaconda: Application of pan-synteny graph models to genome content analysis 
-
-February 12, 2017
-http://genomeintelligence.org/?p=1157
-BINF 6203: Genome Comparison with Mauve – Genome Intelligence
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29114401
-Microb Genom. 2017 Jul 8;3(9):e000122. doi: 10.1099/mgen.0.000122. eCollection 2017 Sep.
-Aligner optimization increases accuracy and decreases compute times in multi-species sequence data.
-Robinson KM1, Hawkins AS1, Santana-Cruz I1, Adkins RS1, Shetty AC1, Nagaraj S1, Sadzewicz L1, Tallon LJ1, Rasko DA1,2, Fraser CM1,3, Mahurkar A1, Silva JC1,2, Dunning Hotopp JC1,2.
-
-
-https://twitter.com/marimiya_clc/status/822631074060767234
-:marimiya on Twitter: "これすごいな。SRAから400,000の微生物ゲノムのデータの一部をとってきて、Minhashしてるのか。トリミングとかその辺も考慮してるんだな。 https://t.co/Os6di00uYK"
-9:25 PM - 20 Jan 2017
-
-http://ivory.idyll.org/blog/2017-sourmash-sra-microbial-wgs.html
-Categorizing 400,000 microbial genome shotgun data sets from the SRA
-
-----------
-## 2016
-
-http://www.jsbi.org/iibmp2016/program_highlight/
-森宙史ら
-乳児期のビフィズス菌優占の腸内細菌群集を形成する鍵となる因子の解明
-Nat Commun. 2016, 7:11939. doi: 10.1038/ncomms11939.
-http://www.nature.com/articles/ncomms11939
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/27541692
-PLoS Biol. 2016 Aug 19;14(8):e1002533. doi: 10.1371/journal.pbio.1002533. eCollection 2016 Aug.
-Revised Estimates for the Number of Human and Bacteria Cells in the Body.
-Sender R1, Fuchs S2, Milo R1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26867134
-PLoS Comput Biol. 2016 Feb 11;12(2):e1004739. doi: 10.1371/journal.pcbi.1004739. eCollection 2016 Feb.
-Practical Approaches for Detecting Selection in Microbial Genomes.
-Hedge J1, Wilson DJ1,2.
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/25410596
-Genome Biol. 2014;15(11):524.
-The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
-Treangen TJ, Ondov BD, Koren S, Phillippy AM.
-
 
 
 ----------
@@ -1156,8 +775,48 @@ Strain characteristics
 
 ----------
 
+### protraits
+http://protraits.irb.hr/
+https://www.ncbi.nlm.nih.gov/pubmed/27915291
+Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
+The landscape of microbial phenotypic traits and associated genes.
+Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26538122
+J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
+The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
+Supek F1,2,3.
+https://link.springer.com/article/10.1007%2Fs00239-015-9714-8
+Regarding prokaryote genomics—databases with microbial phenotypes are scarce, with some annotation provided by GOLD (Reddy et al. 2015) and BacMap (Cruz et al. 2011). We have thus developed a database named ProTraits (Brbić et al. unpublished; http://protraits.irb.hr/) which contains millions of phenotype annotations for ~3000 prokaryotic taxa, inferred by text mining of scientific literature, while requiring independent validation in genomic data.
+
+
+### BacDive
+
+https://twitter.com/BacDive
+BacDive (@BacDive) | Twitter
+
+https://twitter.com/BacDive/status/1103238138816839680
+BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
+5:17 AM - 6 Mar 2019
+
+2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
+https://www.ncbi.nlm.nih.gov/pubmed/24214959
+Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
+BacDive--the Bacterial Diversity Metadatabase.
+Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
+
+https://bacdive.dsmz.de/
+BacDive | The Bacterial Diversity Metadatabase
+
+https://bacdive.dsmz.de/strain/17849
+https://bacdive.dsmz.de/strain/131145
 
 ### LEA
+
+https://twitter.com/copypasteusa/status/1171355568440655872
+#IIBMP2019 http://leamicrobe.jp
+（LEAの使い方・日本語版はこちら）
+http://133.39.177.105/lea/help_ja.html
 
 https://twitter.com/level3defless/status/1008994650957332481
 Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
@@ -1252,12 +911,6 @@ From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer.
 Weimann A1, Mooren K2, Frank J3, Pope PB3, Bremges A4, McHardy AC1.
 Traitar provides phenotype classifiers to predict 67 traits related to the use of various substrates as carbon and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis, and enzymatic activities.
 
-protraits
-http://protraits.irb.hr/
-https://www.ncbi.nlm.nih.gov/pubmed/27915291
-Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
-The landscape of microbial phenotypic traits and associated genes.
-Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
 
 https://www.ncbi.nlm.nih.gov/pubmed/26013493
 J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
@@ -1293,27 +946,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/23033984
 Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
 Microbial culturomics: paradigm shift in the human gut microbiome study.
 Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
-
-### BacDive
-
-https://twitter.com/BacDive
-BacDive (@BacDive) | Twitter
-
-https://twitter.com/BacDive/status/1103238138816839680
-BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
-5:17 AM - 6 Mar 2019
-
-2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
-https://www.ncbi.nlm.nih.gov/pubmed/24214959
-Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
-BacDive--the Bacterial Diversity Metadatabase.
-Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
-
-https://bacdive.dsmz.de/
-BacDive | The Bacterial Diversity Metadatabase
-
-https://bacdive.dsmz.de/strain/17849
-https://bacdive.dsmz.de/strain/131145
 
 ----------
 ### growth rate
@@ -2738,6 +2370,8 @@ http://meeting-jsme2018.com/symposium.html
 日本微生物生態学会 第32回大会 シンポジウム
 ｢進化・群集生態学の新手法で切り拓く微生物研究のフロンティア｣
 東樹 宏和（京都大学）、岩崎 渉（東京大学）
+
+ゲノムの特徴は系統関係とライフスタイルを反映しうる。系統的に遠縁な細菌でも、ライフスタイル（生息環境）が似ている微生物は、ゲノムの特徴が類似する。逆に、系統的に近縁な細菌が、異なる環境に適応すると、ゲノムは多様化する。
 
 https://www.ncbi.nlm.nih.gov/pubmed/23024607
 Curr Genomics. 2012 Apr;13(2):153-62.
