@@ -48,6 +48,7 @@
 - [database](#database)
 - [metadata](#metadata)
   - [source](#source) 分離源
+  - [mediadb](#mediadb)
 - [assembly](#assembly)
   - [unicycler](#unicycler)
   - [de Bruijn Graph](#de-bruijn-graph)
@@ -55,6 +56,10 @@
   - [QUAST](#quast)
   - [CheckM](#checkm)
   - [BUSCO](#busco)
+
+
+
+
 
 ----------
 
@@ -911,25 +916,65 @@ From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer.
 Weimann A1, Mooren K2, Frank J3, Pope PB3, Bremges A4, McHardy AC1.
 Traitar provides phenotype classifiers to predict 67 traits related to the use of various substrates as carbon and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis, and enzymatic activities.
 
+### MediaDB
+https://www.ncbi.nlm.nih.gov/pubmed/25098325
+PLoS One. 2014 Aug 6;9(8):e103548. doi: 10.1371/journal.pone.0103548. eCollection 2014.
+MediaDB: a database of microbial growth conditions in defined media.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123892/
+Growth Data
+- The Growth_Data table links the tables describing an organism, medium, and literature source, and adds information about temperature, pH, growth rate, product secretion rates, and nutrient uptake rates (whenever reported in the literature source). MediaDB currently contains 765 growth conditions.
+- In many instances, we found rate data associated with a particular growth condition in the form of an experimentally-measured growth rate (μ) measured in h −1.
+
+https://mediadb.systemsbiology.net
+Defined Media Database
+
+```
+https://mediadb.systemsbiology.net/defined_media/growthdata/
+Media database: GrowthData
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/page/5
+Geobacter metallireducens - on Defined freshwater medium (coso4) + 50 mm iron citrate + 113.2 mm acetate
+Geobacter sulfurreducens - on Fwafc
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/3/
+Growth Data: Geobacter sulfurreducens - on Fwafc
+Growth Rate:	0.06 (1/h)
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/page/7
+Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/374/
+Growth Data: Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
+Growth Rate:	0.26609 (1/h)
+```
+
+### Rocha_2004
+
+https://www.ncbi.nlm.nih.gov/pubmed/15479947
+Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
+Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
+Rocha EP1.
+- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
+- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
+- Genome and tRNA data
+One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
+https://genome.cshlp.org/content/14/11/2279.long
+https://genome.cshlp.org/content/14/11/2279/suppl/DC1
+https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
+Table A1- 
+the growth rate class (µ). the optimal doubling time (1/µ).
+```
+Geobacter sulfurreducens PCA	S	6
+Shewanella oneidensis MR-1	F	2
+```
+
+### 
 
 https://www.ncbi.nlm.nih.gov/pubmed/26013493
 J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
 Databases for Microbiologists.
 Zhulin IB1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25098325
-PLoS One. 2014 Aug 6;9(8):e103548. doi: 10.1371/journal.pone.0103548. eCollection 2014.
-MediaDB: a database of microbial growth conditions in defined media.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123892/
-The Growth_Data table links the tables describing an organism, medium, and literature source, and adds information about temperature, pH, growth rate, product secretion rates, and nutrient uptake rates (whenever reported in the literature source). MediaDB currently contains 765 growth conditions.
-https://mediadb.systemsbiology.net
-Defined Media Database
-https://mediadb.systemsbiology.net/defined_media/growthdata/
-Media database: GrowthData
-https://mediadb.systemsbiology.net/defined_media/growthdata/page/4
-    Escherichia coli BL21 on M9 0.24% pyruvate
-https://mediadb.systemsbiology.net/defined_media/growthdata/387/
- Growth Rate: 	0.20776 (1/h)
 
 https://www.ncbi.nlm.nih.gov/pubmed/24152717
 ISME J. 2014 Jan;8(1):1-3. doi: 10.1038/ismej.2013.176. Epub 2013 Oct 24.
