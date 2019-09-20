@@ -794,7 +794,6 @@ Supek F1,2,3.
 https://link.springer.com/article/10.1007%2Fs00239-015-9714-8
 Regarding prokaryote genomics—databases with microbial phenotypes are scarce, with some annotation provided by GOLD (Reddy et al. 2015) and BacMap (Cruz et al. 2011). We have thus developed a database named ProTraits (Brbić et al. unpublished; http://protraits.irb.hr/) which contains millions of phenotype annotations for ~3000 prokaryotic taxa, inferred by text mining of scientific literature, while requiring independent validation in genomic data.
 
-
 ### BacDive
 
 https://twitter.com/BacDive
@@ -813,8 +812,19 @@ Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
 https://bacdive.dsmz.de/
 BacDive | The Bacterial Diversity Metadatabase
 
-https://bacdive.dsmz.de/strain/17849
-https://bacdive.dsmz.de/strain/131145
+```
+https://bacdive.dsmz.de/search?search=Shewanella&submit=
+
+https://bacdive.dsmz.de/strain/14068
+Shewanella denitrificans OS217 | Type strain | DSM 15013, LMG 21692 | BacDiveID:14068
+[Ref.: #39951]	Temperature range	mesophilic	
+Isolation, sampling and environmental information
+
+https://bacdive.dsmz.de/strain/134647
+Shewanella livingstonensis | Type strain | CIP 107390, CECT 5933, LMG 19866 | BacDiveID:134647
+[Ref.: #33120]	Temperature range	psychrophilic	
+Isolation, sampling and environmental information
+```
 
 ### LEA
 
@@ -2390,14 +2400,20 @@ Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群�
 ## Mash
 Mash: fast genome and metagenome distance estimation using MinHash
 
+
+http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
+サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
+MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+
 https://twitter.com/search?q=Mash%3A%20fast%20genome%20and%20metagenome%20distance%20estimation%20using%20MinHash&src=typd
 
 https://twitter.com/aphillippy/status/745254551947714561
 Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
 9:58 AM - 21 Jun 2016
 
-http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
-MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
 
 ----------
 
