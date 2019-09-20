@@ -969,7 +969,34 @@ Growth Data: Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
 Growth Rate:	0.26609 (1/h)
 ```
 
-### Rocha_2004
+### codon bias
+
+https://www.ncbi.nlm.nih.gov/pubmed/30691394
+BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment.
+Merino N1,2, Zhang S3,4, Tomita M5,6, Suzuki H7,8.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
+Comparative genomics of Bacteria commonly identified in the built environment
+- Case study: Mycobacterium
+For example, M. tuberculosis and M. leprae have S values in the lower range (0.36–0.45) and also have slow generation times of ~ 1 and 14 d, respectively [87, 98, 99]. In comparison, one of the highest S values (1.3) corresponded to M. abscessus, which has a generation time of 4–5 h [100].
+
+https://www.ncbi.nlm.nih.gov/pubmed/20308095
+Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias.
+Sharp PM1, Emery LR, Zeng K.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
+Forces that influence the evolution of codon bias
+- For example, C. perfringens has 10 rRNA operons and 96 tRNA genes and can replicate in only 7 min under ideal conditions (Labbe & Huang 1995).
+- To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+Variation in the strength of selected codon usage bias among bacteria
+- Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
+- Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
 
 https://www.ncbi.nlm.nih.gov/pubmed/15479947
 Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
