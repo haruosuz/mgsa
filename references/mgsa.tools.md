@@ -796,19 +796,6 @@ Regarding prokaryote genomics—databases with microbial phenotypes are scarce, 
 
 ### BacDive
 
-https://twitter.com/BacDive
-BacDive (@BacDive) | Twitter
-
-https://twitter.com/BacDive/status/1103238138816839680
-BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
-5:17 AM - 6 Mar 2019
-
-2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
-https://www.ncbi.nlm.nih.gov/pubmed/24214959
-Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
-BacDive--the Bacterial Diversity Metadatabase.
-Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
-
 https://bacdive.dsmz.de/
 BacDive | The Bacterial Diversity Metadatabase
 
@@ -831,6 +818,20 @@ Culture and growth conditions
 Isolation, sampling and environmental information
 [Ref.: #31844]	Sample type/isolated from	marine sediment
 ```
+
+https://twitter.com/BacDive
+BacDive (@BacDive) | Twitter
+
+https://twitter.com/BacDive/status/1103238138816839680
+BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
+5:17 AM - 6 Mar 2019
+
+2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
+https://www.ncbi.nlm.nih.gov/pubmed/24214959
+Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
+BacDive--the Bacterial Diversity Metadatabase.
+Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
+
 
 ### LEA
 
