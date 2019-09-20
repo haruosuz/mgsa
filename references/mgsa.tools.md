@@ -805,10 +805,14 @@ https://bacdive.dsmz.de/search?search=Shewanella&submit=
 https://bacdive.dsmz.de/strain/14068
 Shewanella denitrificans OS217 | Type strain | DSM 15013, LMG 21692 | BacDiveID:14068
 [Ref.: #39951]	Temperature range	mesophilic
+Isolation, sampling and environmental information
+	Isolation sources categories	
+#Environmental	#Aquatic	   -   
 
 https://bacdive.dsmz.de/strain/134647
 Shewanella livingstonensis | Type strain | CIP 107390, CECT 5933, LMG 19866 | BacDiveID:134647
-[Ref.: #33120]	Temperature range	psychrophilic
+[Ref.: #33120]	Temperature range	psychrophilic	
+Isolation, sampling and environmental information
 
 https://bacdive.dsmz.de/strain/134207
 Shewanella piezotolerans WP3 | Type strain | JCM 13877, CGMCC1.6160 | BacDiveID:134207
