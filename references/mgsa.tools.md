@@ -980,6 +980,7 @@ Comparative genomics of Bacteria commonly identified in the built environment
 - Case study: Mycobacterium
 For example, M. tuberculosis and M. leprae have S values in the lower range (0.36–0.45) and also have slow generation times of ~ 1 and 14 d, respectively [87, 98, 99]. In comparison, one of the highest S values (1.3) corresponded to M. abscessus, which has a generation time of 4–5 h [100].
 
+
 https://www.ncbi.nlm.nih.gov/pubmed/20308095
 Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
 Forces that influence the evolution of codon bias.
@@ -988,6 +989,14 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
 Forces that influence the evolution of codon bias
 - For example, C. perfringens has 10 rRNA operons and 96 tRNA genes and can replicate in only 7 min under ideal conditions (Labbe & Huang 1995).
 - To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/17038449
+Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias.
+Henry I, Sharp PM.
+https://academic.oup.com/mbe/article/24/1/10/1070854
+- We outline a simple approach, first to check whether a genome shows evidence of selected codon usage bias and then to assess the strength of bias in genes as a guide to their likely expression level; we illustrate this with an analysis of Shewanella oneidensis.
+- As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online).
 
 https://www.ncbi.nlm.nih.gov/pubmed/15728743
 Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
@@ -998,13 +1007,28 @@ Variation in the strength of selected codon usage bias among bacteria
 - Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
 - Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
 
+
+https://www.ncbi.nlm.nih.gov/pubmed/20090831
+PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics.
+Vieira-Silva S1, Rocha EP.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
+- Figure 1
+Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
+- Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
+
+rRNA/tRNA遺伝子コピー数が多いほど、
+rRNA遺伝子の複製起点からの距離が小さいほど、
+高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
+原核生物の最小倍加時間が小さい（増殖速度が速い）
+
 https://www.ncbi.nlm.nih.gov/pubmed/15479947
 Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
 Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
 Rocha EP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
 - Genome and tRNA data
 One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
 https://genome.cshlp.org/content/14/11/2279.long
@@ -1013,7 +1037,11 @@ https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
 Table A1- 
 the growth rate class (µ). the optimal doubling time (1/µ).
 ```
+Escherichia coli K12	F	0.35
+Clostridium perfringens 13	F	0.2
 Geobacter sulfurreducens PCA	S	6
+Mycobacterium leprae	S	12
+Salmonella typhimurium LT2	F	0.4
 Shewanella oneidensis MR-1	F	2
 ```
 
