@@ -1007,6 +1007,10 @@ Variation in the strength of selected codon usage bias among bacteria
 - Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
 - Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
 
+rRNA/tRNA遺伝子コピー数が多いほど、
+rRNA遺伝子の複製起点からの距離が小さいほど、
+高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
+原核生物の最小倍加時間が小さい（増殖速度が速い）
 
 https://www.ncbi.nlm.nih.gov/pubmed/20090831
 PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
@@ -1016,11 +1020,17 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
 - Figure 1
 Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
 - Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
-
-rRNA/tRNA遺伝子コピー数が多いほど、
-rRNA遺伝子の複製起点からの距離が小さいほど、
-高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
-原核生物の最小倍加時間が小さい（増殖速度が速い）
+- Following a previous work [35], we extracted from primary literature 214 minimal generation times (d) of species of bacteria and archaea (Table S1). 
+- We extracted from primary literature the minimal generation times (d) for the 214 species of bacteria and archaea (Table S1).
+- Table S1
+List of the 214 genomes composing our dataset and their characteristics. Generation times were retrieved from the literature. We defined the minimum generation time (Column “d”) as the smallest value reported (Column “d reference”) for one species. For very few bacteria the generation times for closely related species were used. The optimum growth temperature of the species (Column “OGT”) was retrieved from DSMZ database.
+```
+Species name	Ori	OGT	d (h)	d reference
+Clostridium acetobutylicum ATCC824	1808	37	0.58	[47]
+Clostridium perfringens 13	1784	37	0.2	[48]
+Clostridium tetani E88	50965	37	0.5	[49]
+Escherichia coli MG1655	3923657	37	0.35	[64]
+Geobacter sulfurreducens PCA	1368	30	6	[66]Mycobacterium leprae	1567	37	240	[101]Salmonella typhimurium LT2 	4083788	37	0.4	[64]Shewanella oneidensis MR-1	6419	30	0.66	[138]```
 
 https://www.ncbi.nlm.nih.gov/pubmed/15479947
 Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
@@ -1037,8 +1047,8 @@ https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
 Table A1- 
 the growth rate class (µ). the optimal doubling time (1/µ).
 ```
-Escherichia coli K12	F	0.35
 Clostridium perfringens 13	F	0.2
+Escherichia coli K12	F	0.35
 Geobacter sulfurreducens PCA	S	6
 Mycobacterium leprae	S	12
 Salmonella typhimurium LT2	F	0.4
