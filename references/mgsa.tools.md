@@ -2920,7 +2920,11 @@ Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neit
 ----------
 ### phage
 
+Published: 14 May 2019
+https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz258/5488969
+multiPhATE: bioinformatics pipeline for functional annotation of phage isolates | Bioinformatics | Oxford Academic
 
+Published: 25 April 2019
 https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz265/5480131
 PHANOTATE: A novel approach to gene identification in phage genomes 
 
