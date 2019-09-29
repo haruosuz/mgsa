@@ -1,0 +1,123 @@
+
+# mgsa.nucleotide_composition
+# GC content
+塩基組成、GC含量
+
+## Table of Contents
+- [featuring](#featuring)
+- [updates](#updates)
+[2019](#2019)
+
+----------
+## featuring
+
+
+https://twitter.com/MicrobioSoc/status/994932808823943168
+Microbiology Society on Twitter: "Correlation between bacterial G+C content, genome size and the G+C content of associated plasmids and bacteriophages #bacteriophages #MGen #OpenAccess. https://t.co/6qYXF8usXJ… https://t.co/0sd1ZrinCF"
+9:30 AM - 11 May 2018
+
+https://healthpolicyhealthecon.com/2016/09/08/regression-2/
+回帰分析②：線形回帰が使えないときに用いる高度な回帰分析方法 – 医療政策学×医療経済学
+最小二乗法（Ordinary Least Square; OLS, 線形回帰）
+3．分散が一定ではない場合
+Heteroscedasticity-robust
+
+heteroskedasticity
+分散不均一性
+
+
+3．分散が一定ではない場合
+
+「誤差項の分散が一定」の条件を満たさない場合です。誤差項の分散が一定であることを「ホモスケダスティシティ（Homoscedasticity or homoskedasticity）」と呼びます。一方で、これが達成できていない状況のことを「ヘテロスケダスティシティ（Heteroscedasticity or heteroskedasticity）」と表現します。例えば、結果変数を血圧、原因変数をBMIとします。一般的にBMIが高い方が血圧は高くなるのですが、その一方で、血圧が高くなればなるほどそのデータのばらつき自体も大きくなります。これがHeteroscedasticityであり、そのような場合においては普通のOLSを用いることはできません。Heteroscedasticity-robust SEやHuber-White SE（この二人が開発したためです）と呼ばれる特殊なSEがあり、それを用いることで対処可能です。
+
+----------
+## updates
+
+### 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/29633935
+Microb Genom. 2018 Apr;4(4). doi: 10.1099/mgen.0.000168. Epub 2018 Apr 10.
+Correlation between bacterial G+C content, genome size and the G+C content of associated plasmids and bacteriophages.
+Almpanis A1,2, Swain M1, Gatherer D3, McEwan N1,4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989581/
+
+https://www.ncbi.nlm.nih.gov/pubmed/24983532
+Environ Microbiol Rep. 2014 Jun;6(3):278-86. doi: 10.1111/1758-2229.12145. Epub 2014 Mar 25.
+Positive correlations between genomic %AT and genome size within strains of bacterial species.
+Bohlin J1, Sekse C, Skjerve E, Brynildsrud O.
+https://onlinelibrary.wiley.com/doi/full/10.1111/1758-2229.12145
+- Fig. 1. phyla/subphylaレベルでは12のうち6分類群でゲノムサイズとAT含量に負の相関（GC含量に正の相関）、2分類群のみで正の相関。
+- Fig. 2. speciesレベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関（GC含量に負の相関）、4分類群のみで負の相関。
+
+図1：門（亜門）レベルでは12のうち6分類群でゲノムサイズとAT含量に負の相関、2分類群のみで正の相関。
+図2：種レベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関、4分類群のみで負の相関。
+https://onlinelibrary.wiley.com/doi/full/10.1111/1758-2229.12145
+
+
+https://twitter.com/Symbionticism/status/1123203760564637697
+Seth Bordenstein on Twitter: "This is a game changer. Many intracellular microbes have a genome wide bias in A’s and T’s. The major assumption has been a mutational bias / drift impacts this outcome. Well, not so fast. Evidence below that selection can contribute or cause it.… https://t.co/yfDqN3b3Lj"
+8:33 AM - 30 Apr 2019
+
+https://twitter.com/KostChristian/status/1123158110925934592
+Christian Kost on Twitter: "Very happy that our paper: Selective advantages favour high genomic AT-contents in intracellular elements is finally online @PLOSGenetics https://t.co/J40CRRK74N. This work represents a heroic effort by Anne-Kathrin Dietel and a wonderful colaboration with Martin Kaltenpoth.… https://t.co/RUB5kSZELS"
+5:32 AM - 30 Apr 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/31034469
+PLoS Genet. 2019 Apr 29;15(4):e1007778. doi: 10.1371/journal.pgen.1007778. [Epub ahead of print]
+Selective advantages favour high genomic AT-contents in intracellular elements.
+Dietel AK1, Merker H1, Kaltenpoth M2, Kost C1.
+Accordingly, introducing AT-rich and GC-rich plasmids into other bacterial species with different genomic GC-contents revealed that the costs of G+C-rich plasmids decreased with an increasing GC-content of their host’s genomic DNA. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6519830/
+
+https://www.ncbi.nlm.nih.gov/pubmed/28261263
+Front Genet. 2017 Feb 15;8:16. doi: 10.3389/fgene.2017.00016. eCollection 2017.
+Analytical Biases Associated with GC-Content in Molecular Evolution.
+Romiguier J1, Roux C1.
+KEYWORDS:
+GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
+
+https://www.ncbi.nlm.nih.gov/pubmed/25897009
+G3 (Bethesda). 2015 Apr 20;5(6):1247-52. doi: 10.1534/g3.115.016824.
+Effects of Genic Base Composition on Growth Rate in G+C-rich Genomes.
+Kelkar YD1, Phillips DS1, Ochman H2.
+Erratum in
+Corrigendum.
+http://www.g3journal.org/content/5/12/2921.long
+
+
+### 2010
+
+https://www.ncbi.nlm.nih.gov/pubmed/19233962
+Mol Biol Evol. 2009 May;26(5):1163-9. doi: 10.1093/molbev/msp032. Epub 2009 Feb 20.
+Phylogenetic signals in DNA composition: limitations and prospects.
+Mrázek J1.
+https://academic.oup.com/mbe/article/26/5/1163/1040645
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/16200051
+EMBO Rep. 2005 Dec;6(12):1208-13.
+Environments shape the nucleotide composition of genomes.
+Foerstner KU1, von Mering C, Hooper SD, Bork P.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1369203/
+- (Fig 1A). Surprisingly, the samples from farm soil and ocean surface water—both of which contain DNA from more than 1,000 diverse, non-abundant species (Venter et al, 2004; Tringe et al, 2005)—are very different, with the surface water sample having a GC-content median of around 34% and the soil sample around 61%.
+メタゲノムのGC含量の中央値は、農場の土壌サンプルで34%、海面水サンプルで61%。
+- We found that the third codon position is even more extreme with respect to GC distribution than the average of all three positions (Fig 2, the median in farm soil is 74%, versus 24% in the ocean surface water). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/25861819
+Genome Biol Evol. 2015 Apr 9;7(5):1380-9. doi: 10.1093/gbe/evv063.
+Prokaryotic nucleotide composition is shaped by both phylogeny and the environment.
+Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
+we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
+
+----------
+
+
+
+
+----------
+
+
+
+
+
