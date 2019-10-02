@@ -84,6 +84,16 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/
 
 http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
 
+https://twitter.com/aphillippy/status/1068497439617966080
+Our latest: Are microbial species actually a thing? FastANI gives us a peek. More great work from 
+@chirgjain
+. Great to see this published! https://nature.com/articles/s41467-018-07641-9
+https://www.ncbi.nlm.nih.gov/pubmed/30504855
+Nat Commun. 2018 Nov 30;9(1):5114. doi: 10.1038/s41467-018-07641-9.
+High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries.
+Jain C1,2, Rodriguez-R LM3,4, Phillippy AM2, Konstantinidis KT5,6, Aluru S7,8.
+
+
 ----------
 ## [k-mer](https://en.wikipedia.org/wiki/K-mer)
 
