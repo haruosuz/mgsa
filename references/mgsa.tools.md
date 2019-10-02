@@ -20,7 +20,6 @@
 - [annotation](#annotation)
   - [dfast](#dfast)
   - [prokka](#prokka)
-- [k-mer](#k-mer)
 - [metagenomics](#metagenomics)
 - [growth rate](#growth-rate) 増殖速度
 - [resistance](#resistance) 耐性
@@ -33,7 +32,6 @@
   - [diversity index](#diversity-index)
 - [unifrac](#unifrac)
 - [LEfSe](#lefse)
-- [Mash](#mash)
 - [jsme2018](#jsme2018) Microbial lifestyle and genome signatures.
 - [2018-06](#2018-06)
   - [2018-06-26](#2018-06-26)
@@ -43,7 +41,6 @@
 - [primer](#primer)
 - [GWAS](#gwas)
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
-- [k-mer](#k-mer)
 - [genome report](#genome-report)
 - [database](#database)
 - [metadata](#metadata)
@@ -56,7 +53,105 @@
   - [QUAST](#quast)
   - [CheckM](#checkm)
   - [BUSCO](#busco)
+- [k-mer](#k-mer)
+- [Mash](#mash)
 
+----------
+## Mash
+https://github.com/marbl/mash
+Mash: fast genome and metagenome distance estimation using MinHash
+
+http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
+サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
+MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/09/193021
+MinHashを使いfasta / fastqから生物種を高速推定する BBSketch - macでインフォマティクス
+
+https://twitter.com/search?q=Mash%3A%20fast%20genome%20and%20metagenome%20distance%20estimation%20using%20MinHash&src=typd
+
+https://twitter.com/aphillippy/status/745254551947714561
+Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
+9:58 AM - 21 Jun 2016
+
+https://www.ncbi.nlm.nih.gov/pubmed/27323842
+Genome Biol. 2016 Jun 20;17(1):132. doi: 10.1186/s13059-016-0997-x.
+Mash: fast genome and metagenome distance estimation using MinHash.
+Ondov BD1, Treangen TJ1, Melsted P2, Mallonee AB1, Bergman NH1, Koren S3, Phillippy AM4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/
+
+http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
+
+----------
+## [k-mer](https://en.wikipedia.org/wiki/K-mer)
+
+2018/09/17
+https://bioinfologics.github.io/post/2018/09/17/k-mer-counting-part-i-introduction/
+k-mer counting, part I: Introduction | BioInfoLogics
+
+https://www.biorxiv.org/content/early/2018/04/19/304972
+RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
+
+https://twitter.com/aphillippy/status/987312716451807233
+Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
+8:51 AM - 20 Apr 2018
+
+https://twitter.com/BioMickWatson/status/987217580648693760
+Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
+2:33 AM - 20 Apr 2018
+
+
+https://twitter.com/kazumachack
+上坂一馬 (@kazumachack) | Twitter
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
+kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
+k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/archive/category/k-mer
+k-mer カテゴリーの記事一覧 - macでインフォマティクス
+
+https://www.ncbi.nlm.nih.gov/pubmed/29036588
+Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
+A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
+
+http://biorxiv.org/content/early/2016/10/19/081885
+Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
+- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
+- Read subsampling or removing low-abundant k-mers improved de novo assemblies
+
+2016.07.12版
+https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
+第1部:統計解析 ~ゲノム解析、塩基配列解析~
+
+2016.02.01版
+http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
+農学生命情報科学 特論I 第3回
+
+2015-01-01
+https://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
+k-mer countingに関するメモ - Qiita
+
+Jul 7th, 2013
+http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
+ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
+
+http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
+GenoFinisher homepage
+ShortReadMangerの機能
+<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
+<機能6>missing k-mer探索機能
+
+https://sites.google.com/site/kfuku52/misc/genomesize
+ゲノムサイズの推定法 - Kenji Fukushima's website
+4. k-mer distribution
+
+http://kplogo.wi.mit.edu/manual.html
+kpLogo: k-mer probability logo
 
 
 
@@ -980,6 +1075,14 @@ Comparative genomics of Bacteria commonly identified in the built environment
 - Case study: Mycobacterium
 For example, M. tuberculosis and M. leprae have S values in the lower range (0.36–0.45) and also have slow generation times of ~ 1 and 14 d, respectively [87, 98, 99]. In comparison, one of the highest S values (1.3) corresponded to M. abscessus, which has a generation time of 4–5 h [100].
 
+https://www.ncbi.nlm.nih.gov/pubmed/27540085
+Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+Sun Y1, Tamarit D1, Andersson SGE1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+- fig. 2.—
+Phylogenetic relationships and genome features of Lactobacillus species.
+A schematic figure illustrates the variation in GC contents, selective constraints (S-value), genome sizes and number of tRNAs in the species selected for an in-depth analysis.
 
 https://www.ncbi.nlm.nih.gov/pubmed/20308095
 Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
@@ -1083,6 +1186,10 @@ Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fourn
 増殖速度
 
 #### 2019
+
+September 30, 2019.
+https://www.biorxiv.org/content/10.1101/786939v1
+Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
 
 03 May 2019
 https://www.nature.com/articles/s41396-019-0422-z
@@ -1689,59 +1796,6 @@ GSEA_(Gene_Set_Enrichment_Analysis)について -
 http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
 解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
 
-
-----------
-## [K-mer](https://en.wikipedia.org/wiki/K-mer)
-
-https://twitter.com/kazumachack
-上坂一馬 (@kazumachack) | Twitter
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
-kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
-k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/archive/category/k-mer
-k-mer カテゴリーの記事一覧 - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/29036588
-Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
-A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
-
-http://biorxiv.org/content/early/2016/10/19/081885
-Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
-- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
-- Read subsampling or removing low-abundant k-mers improved de novo assemblies
-
-2016.07.12版
-https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
-第1部:統計解析 ~ゲノム解析、塩基配列解析~
-
-2016.02.01版
-http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
-農学生命情報科学 特論I 第3回
-
-2015-01-01
-https://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
-k-mer countingに関するメモ - Qiita
-
-Jul 7th, 2013
-http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
-ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
-
-http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
-GenoFinisher homepage
-ShortReadMangerの機能
-<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
-<機能6>missing k-mer探索機能
-
-https://sites.google.com/site/kfuku52/misc/genomesize
-ゲノムサイズの推定法 - Kenji Fukushima's website
-4. k-mer distribution
-
-http://kplogo.wi.mit.edu/manual.html
-kpLogo: k-mer probability logo
 
 ----------
 ## metagenomics
@@ -2472,33 +2526,6 @@ LEfSeをインストールする - Note of Pediatric Surgery
 https://syodokukai.exblog.jp/18438512/
 Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
 
-----------
-## Mash
-Mash: fast genome and metagenome distance estimation using MinHash
-
-
-http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
-サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
-MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
-
-https://twitter.com/search?q=Mash%3A%20fast%20genome%20and%20metagenome%20distance%20estimation%20using%20MinHash&src=typd
-
-https://twitter.com/aphillippy/status/745254551947714561
-Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
-9:58 AM - 21 Jun 2016
-
-http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
-
-----------
-
-
-
-
-
-
-
 
 ----------
 ## jsme2018
@@ -2895,27 +2922,12 @@ https://twitter.com/CAMI_challenge
 https://msystems.asm.org/content/3/4/e00103-18
 Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
 
-Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate). 
-
-![](https://msystems.asm.org/content/msys/3/4/e00103-18/F1.large.jpg)
+Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
 
 https://www.ncbi.nlm.nih.gov/pubmed/28967888
 Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
 Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
 
-----------
-## k-mer
-
-https://www.biorxiv.org/content/early/2018/04/19/304972
-RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
-
-https://twitter.com/aphillippy/status/987312716451807233
-Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
-8:51 AM - 20 Apr 2018
-
-https://twitter.com/BioMickWatson/status/987217580648693760
-Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
-2:33 AM - 20 Apr 2018
 
 ----------
 ### phage
