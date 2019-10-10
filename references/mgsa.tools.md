@@ -1214,8 +1214,11 @@ Dr Ashish Malik on Twitter: "Two cool papers just out shedding light on "extreme
 2:07 PM - 21 Feb 2019
 
 非胞子形成状態の枯草菌が飢餓状態（純水中）で数カ月生存可能。様々なストレス（抗生物質）に耐性、定常期と異なるトランスクリプトーム・プロファイルを示す。倍加時間4日。一万倍希釈LB培地。低栄養増殖状態（oligotrophic growth state）と命名。
-https://www.nature.com/articles/s41467-019-08719-8
-Extreme slow growth as alternative strategy to survive deep starvation in bacteria | Nature Communications
+https://www.ncbi.nlm.nih.gov/pubmed/30792386
+Nat Commun. 2019 Feb 21;10(1):890. doi: 10.1038/s41467-019-08719-8.
+Extreme slow growth as alternative strategy to survive deep starvation in bacteria.
+Gray DA1, Dugar G2, Gamba P1, Strahl H1, Jonker MJ3, Hamoen LW4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6385201/
 
 https://twitter.com/MicrobiomDigest/status/1090641480144711681
 Elisabeth Bik on Twitter: "Metagenome – Inferred bacterial replication rates in cystic fibrosis airways https://t.co/9mBQ5cyllD Note: this sounds similar to the iRep algorithm developed by @BanfieldLab but paywalled, so not sure.… https://t.co/XIlg0NuO3O"
