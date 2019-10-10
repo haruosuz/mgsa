@@ -1275,7 +1275,6 @@ Measurement of bacterial replication rates in microbial communities.
 Brown CT1, Olm MR1, Thomas BC2, Banfield JF2,3,4.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538567/
 iRep and bPTR software are maintained under github.com/christophertbrown/iRep (v1.10 used in this analysis: github.com/christophertbrown/iRep/releases/tag/v1.10; Supplementary Code).
-![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538567/bin/nihms884305f1.jpg)
 
 #### 2015
 
@@ -1296,8 +1295,6 @@ Vieira-Silva S1, Rocha EP.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
 - The resulting ΔENC′ and S values were then subject to principal components analysis, of which the first component (Fa) was compared with the one obtained from the whole genome.
 - Codon usage bias is the best determinant of minimum generation time
-
-![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/bin/pgen.1000808.g003.jpg)
 
 https://www.ncbi.nlm.nih.gov/pubmed/15479947
 Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
