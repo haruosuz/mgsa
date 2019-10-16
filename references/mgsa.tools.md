@@ -2943,9 +2943,31 @@ Published: 14 May 2019
 https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz258/5488969
 multiPhATE: bioinformatics pipeline for functional annotation of phage isolates | Bioinformatics | Oxford Academic
 
+http://kazumaxneo.hatenablog.com/entry/2019/05/30/073000
+ファージゲノムのORFを予測する PHANOTATE - macでインフォマティクス
+
 Published: 25 April 2019
 https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz265/5480131
 PHANOTATE: A novel approach to gene identification in phage genomes 
+
+
+http://kazumaxneo.hatenablog.com/entry/2019/02/04/073000
+メタゲノムのphage contigからホスト原核生物ゲノムを予測する WIsH - macでインフォマティクス
+
+https://www.ncbi.nlm.nih.gov/pubmed/28957499
+Bioinformatics. 2017 Oct 1;33(19):3113-3114. doi: 10.1093/bioinformatics/btx383.
+WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage contigs.
+Galiez C1, Siebert M1, Enault F2, Vincent J2, Söding J1.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/26657537
+FEMS Microbiol Rev. 2016 Mar;40(2):258-72. doi: 10.1093/femsre/fuv048. Epub 2015 Dec 9.
+Computational approaches to predict bacteriophage-host relationships.
+Edwards RA1, McNair K2, Faust K3, Raes J3, Dutilh BE4.
+
+
+http://kazumaxneo.hatenablog.com/entry/2018/08/31/164441
+バクテリオファージのホストを推測する HostPhinder - macでインフォマティクス
 
 https://twitter.com/XabiVC/status/1123503405626826752
 Xabier Vázquez-Campos on Twitter: "Any recommendations for detecting #prophages in #bacteria #genomes? Specially from rather fragmented genomes and/or MAGs I've tried PHASTER and Phigaro so far. Any suggestions welcomed. Thanks!"
