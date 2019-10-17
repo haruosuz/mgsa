@@ -56,6 +56,7 @@
 - [k-mer](#k-mer)
 - [Mash](#mash)
 
+
 ----------
 ## Mash
 https://github.com/marbl/mash
@@ -398,11 +399,16 @@ PhyloPhlAn Segata et al. (2014)
 ----------
 ## featuring
 
+http://www.microbesonline.org/
+phylogenetic profile
+
+2019年09月02日
+https://qiita.com/xvtyzn/items/6a008b61d852dcbaed57
+Qiime2を使ったメタゲノム解析パイプライン
+
 http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
 QIIME2インストールの方法解説 | Rとバイオインフォマティクス
 
-http://www.microbesonline.org/
-phylogenetic profile
 
 https://github.com/kblin/ncbi-genome-download
 kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
@@ -1073,6 +1079,26 @@ https://mediadb.systemsbiology.net/defined_media/growthdata/374/
 Growth Data: Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
 Growth Rate:	0.26609 (1/h)
 ```
+
+### S value
+
+https://github.com/haruosuz/codon#sharp
+
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5389-z
+Strength of selected codon usage bias (S value)
+As a measure of translationally selected codon usage bias, the S value was calculated for each chromosome, as described in Sharp and co-workers [87] and Vieira-Silva and Rocha [89], using the codon usage for four amino acids, Phe (TTC and TTT), Tyr (TAC and TAT), Ile (ATC and ATT), and Asn (AAC and AAT). The two codons are recognized by the same tRNA species, and the C-ending codon is recognized more efficiently than T-ending codon. The S value is based on a comparison of codon usage within these synonymous groups between constitutively highly expressed genes (those encoding ribosomal proteins and translation elongation factors) and the entire genome [87, 89].
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873144/
+The strength of selection for codon adaptation (S)
+Following [7] and [26], an S value was calculated for each plastid genome using the codon frequencies for four amino acids, Phe (Ca = TTC and Cs = TTT), Tyr (Ca = TAC and Cs = TAT), Ile (Ca = ATC and Cs = ATT), and Asn (Ca = AAC and Cs = AAT), where the two codons (Cs and Ca) are recognized by the same tRNA species but Ca is recognized more efficiently. The S is based on a comparison of codon frequencies within these synonymous groups between high expression genes and all other genes ([7] and [26]). 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
+S is also an estimator of the strength of selection acting on codon usage bias, but based on the mutation-selection balance between pairs of codons, where one is fitter. Following Sharp, we compute S using the frequency of codons for four amino acids: Phe (C1 = UUC, C2 = UUU), Ile (C1 = AUC, C2 = AUU), Tyr (C1 = UAC, C2 = UAU), Asn (C1 = AAC, C2 = AAU).
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+Estimation of S
+
+To represent genes under the weakest selection, the codon usage of the entire genome was used, on the assumption that the number of genes expressed at high levels is a very small fraction of the genome as a whole. To represent genes where codon usage would be expected to be subject to strong translational selection, codon usage was summed across a set of 40 genes expected to be expressed constitutively at very high levels. 
 
 ### codon bias
 
