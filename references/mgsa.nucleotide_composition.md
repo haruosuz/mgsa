@@ -7,10 +7,10 @@
 - [featuring](#featuring)
 - [updates](#updates)
 [2019](#2019)
+- [oligonucleotide](#oligonucleotide)
 
 ----------
 ## featuring
-
 
 https://twitter.com/MicrobioSoc/status/994932808823943168
 Microbiology Society on Twitter: "Correlation between bacterial G+C content, genome size and the G+C content of associated plasmids and bacteriophages #bacteriophages #MGen #OpenAccess. https://t.co/6qYXF8usXJ… https://t.co/0sd1ZrinCF"
@@ -24,7 +24,6 @@ Heteroscedasticity-robust
 
 heteroskedasticity
 分散不均一性
-
 
 3．分散が一定ではない場合
 
@@ -94,7 +93,6 @@ Mrázek J1.
 https://academic.oup.com/mbe/article/26/5/1163/1040645
 
 
-
 https://www.ncbi.nlm.nih.gov/pubmed/16200051
 EMBO Rep. 2005 Dec;6(12):1208-13.
 Environments shape the nucleotide composition of genomes.
@@ -111,13 +109,61 @@ Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
 we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
 ----------
+## oligonucleotide
+オリゴヌクレオチド
 
+### Coutinho_2015
 
+相同性に依存しない手法
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446528/
+- 1. Introduction
+homology-independent (HI) metrics
+- 3.1.2. Dinucleotide Odds Ratio
+- 3.1.3. Relative Synonymous Codon Usage (RSCU)
+
+The work of Lobo et al. 2009 used HI metrics (DOR and RSCU) to detect coevolutionary trends in a virus-host biological system [52].
+
+[52]
+https://www.ncbi.nlm.nih.gov/pubmed/19617912
+PLoS One. 2009 Jul 20;4(7):e6282. doi: 10.1371/journal.pone.0006282.
+Virus-host coevolution: common patterns of nucleotide motif usage in Flaviviridae and their hosts.
+Lobo FP1, Mota BE, Pena SD, Azevedo V, Macedo AM, Tauch A, Machado CR, Franco GR.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2707012/
+
+### Dutta_2012
+
+微生物のライフスタイルとゲノムの特徴
+https://www.ncbi.nlm.nih.gov/pubmed/23024607
+Curr Genomics. 2012 Apr;13(2):153-62.
+Microbial lifestyle and genome signatures.
+Dutta C1, Paul S.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
+
+b) Oligonucleotide Composition
+
+Free-living bacteria, in general, display stronger bias in oligonucleotide usage than host-associated bacteria, as observed in a hierarchical clustering based on hexanucleotide–based genome signatures of 867 prokaryotic genomes [31]. 
+
+[31]
+https://www.ncbi.nlm.nih.gov/pubmed/18421372
+PLoS Comput Biol. 2008 Apr 18;4(4):e1000057. doi: 10.1371/journal.pcbi.1000057.
+Investigations of oligonucleotide usage variance within and between prokaryotes.
+Bohlin J1, Skjerve E, Ussery DW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2289840/
+
+Recently, comparative analysis of tetranucleotide composition in a set of 774 sequenced microbial genomes revealed convergence of compositional patterns among genomes with similar habitats [34], displaying distinct clusters of obligate intracellular organisms (both pathogen and endosymbiont) and grouping of the halophilic bacterium Salinibacter rubber, not with its fellow Bacteroidetes, but with halophilic and methanogenic Archaea [34].
+
+[34]
+https://www.ncbi.nlm.nih.gov/pubmed/20333228
+Genome Biol Evol. 2010 Jan 25;2:117-31. doi: 10.1093/gbe/evq004.
+Distinguishing microbial genome fragments based on their composition: evolutionary and comparative genomic perspectives.
+Perry SC1, Beiko RG.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2839357/
 
 
 ----------
-
-
-
 
 
