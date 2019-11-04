@@ -1,4 +1,3 @@
-
 # mgsa.nucleotide_composition
 # GC content
 塩基組成、GC含量
@@ -7,6 +6,7 @@
 - [featuring](#featuring)
 - [updates](#updates)
 [2019](#2019)
+- [k-mer](#k-mer)
 - [oligonucleotide](#oligonucleotide)
 
 ----------
@@ -107,6 +107,85 @@ Genome Biol Evol. 2015 Apr 9;7(5):1380-9. doi: 10.1093/gbe/evv063.
 Prokaryotic nucleotide composition is shaped by both phylogeny and the environment.
 Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
 we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
+
+----------
+## [k-mer](https://en.wikipedia.org/wiki/K-mer)
+
+2018/09/17
+https://bioinfologics.github.io/post/2018/09/17/k-mer-counting-part-i-introduction/
+k-mer counting, part I: Introduction | BioInfoLogics
+
+https://twitter.com/merenbey/status/1001592427369648128
+A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
+6:33 PM - 29 May 2018
+
+https://www.biorxiv.org/content/early/2018/04/19/304972
+RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/30373669
+Genome Biol. 2018 Oct 30;19(1):165. doi: 10.1186/s13059-018-1554-6.
+RefSeq database growth influences the accuracy of k-mer-based lowest common ancestor species identification.
+Nasko DJ1, Koren S2, Phillippy AM2, Treangen TJ3.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206640/
+
+https://twitter.com/aphillippy/status/987312716451807233
+Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
+8:51 AM - 20 Apr 2018
+
+https://twitter.com/BioMickWatson/status/987217580648693760
+Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
+2:33 AM - 20 Apr 2018
+
+
+https://twitter.com/kazumachack
+上坂一馬 (@kazumachack) | Twitter
+
+http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
+kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
+k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/archive/category/k-mer
+k-mer カテゴリーの記事一覧 - macでインフォマティクス
+
+https://www.ncbi.nlm.nih.gov/pubmed/29036588
+Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
+A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
+
+http://biorxiv.org/content/early/2016/10/19/081885
+Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
+- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
+- Read subsampling or removing low-abundant k-mers improved de novo assemblies
+
+2016.07.12版
+https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
+第1部:統計解析 ~ゲノム解析、塩基配列解析~
+
+2016.02.01版
+http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
+農学生命情報科学 特論I 第3回
+
+2015-01-01
+https://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
+k-mer countingに関するメモ - Qiita
+
+Jul 7th, 2013
+http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
+ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
+
+http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
+GenoFinisher homepage
+ShortReadMangerの機能
+<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
+<機能6>missing k-mer探索機能
+
+https://sites.google.com/site/kfuku52/misc/genomesize
+ゲノムサイズの推定法 - Kenji Fukushima's website
+4. k-mer distribution
+
+http://kplogo.wi.mit.edu/manual.html
+kpLogo: k-mer probability logo
 
 ----------
 ## oligonucleotide
