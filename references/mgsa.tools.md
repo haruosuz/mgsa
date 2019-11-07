@@ -53,12 +53,80 @@
   - [QUAST](#quast)
   - [CheckM](#checkm)
   - [BUSCO](#busco)
-- [k-mer](#k-mer)
-- [Mash](#mash)
 - [ANI](#ani) Average Nucleotide Identity
 - [species](#species)
 - [taxonomy](#taxonomy)
   - [Genome Taxonomy Database](#gtdb)
+- [Mash](#mash)
+- [MinHash](#minhash)
+
+----------
+
+## MinHash
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/09/193021
+MinHashを使いfasta / fastqから生物種を高速推定する BBSketch - macでインフォマティクス
+
+http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
+Min HashによるJaccard係数の近似実験
+
+http://blog.createfield.com/entry/2015/12/24/120849
+Groongaでb Bit MinHashを使って高速に類似検索 - CreateField Blog
+
+http://yebisupress.dac.co.jp/2015/06/26/hivemall-minhash/
+HivemallでMinhash！〜似てる記事を探し出そう。〜 | DACエンジニアブログ：アドテクゑびす界
+
+https://developer.smartnews.com/blog/2013/08/05/efficient-similarity-estimation-using-b-bit-minhash/
+b-Bit MinHashによる高速かつ省スペースな類似度判定 - SmartNews Engineering Blog
+
+https://research.preferred.jp/2011/02/minhash/
+MinHashによる高速な類似検索 | Preferred Research
+
+## Mash
+
+https://github.com/marbl/mash
+Mash: fast genome and metagenome distance estimation using MinHash
+
+https://www.ncbi.nlm.nih.gov/pubmed/27323842
+Genome Biol. 2016 Jun 20;17(1):132. doi: 10.1186/s13059-016-0997-x.
+Mash: fast genome and metagenome distance estimation using MinHash.
+Ondov BD1, Treangen TJ1, Melsted P2, Mallonee AB1, Bergman NH1, Koren S3, Phillippy AM4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/
+
+https://twitter.com/aphillippy/status/745254551947714561
+Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
+9:58 AM - 21 Jun 2016
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
+MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+
+### Mash Screen
+
+https://twitter.com/aphillippy/status/1191818906257612800
+Adam Phillippy on Twitter: ""Mash Screen: High-throughput sequence containment estimation for genome discovery" is published! Two years after I blogged about it, and 8 months after the preprint. I thank @BrianOndov for his patience and the reviewers for some key corrections https://t.co/boAWvvpnn5"
+5:45 AM · Nov 6, 2019
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1841-x
+
+http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
+サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
+
+### fastANI
+https://github.com/ParBLiSS/FastANI
+
+https://www.ncbi.nlm.nih.gov/pubmed/30504855
+Nat Commun. 2018 Nov 30;9(1):5114. doi: 10.1038/s41467-018-07641-9.
+High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries.
+Jain C1,2, Rodriguez-R LM3,4, Phillippy AM2, Konstantinidis KT5,6, Aluru S7,8.
+
+https://twitter.com/WvSchaik/status/1069298727238713346
+Willem van Schaik on Twitter: "Spoiler: microbial species are a thing.… "
+1:34 PM - 2 Dec 2018
+https://twitter.com/aphillippy/status/1068497439617966080
+Adam Phillippy on Twitter: "Our latest: Are microbial species actually a thing? FastANI gives us a peek. More great work from @chirgjain. Great to see this published! https://t.co/2igLJex2rA"
+8:30 AM - 30 Nov 2018
+
+http://kazumaxneo.hatenablog.com/entry/2018/09/14/141442
+MinHashを使った高速なANI計算ツール fastANI - macでインフォマティクス
 
 ----------
 ## ANI
@@ -105,20 +173,6 @@ Systematics: The Cohesive Nature of Bacterial Species Taxa - ScienceDirect
 https://twitter.com/digitalwright/status/1047618983497818114
 Erik Wright on Twitter: "Is "species" a real thing for bacteria? @baobabbaum and I did a deep dive into thousands of bacterial genomes to figure it out. Turns out the answer is yes and no. Check it out in #BMCGenomics: https://t.co/COJRzSpbs5… https://t.co/7maLMhhTZX"
 6:46 PM - 3 Oct 2018
-
-https://twitter.com/WvSchaik/status/1069298727238713346
-Willem van Schaik on Twitter: "Spoiler: microbial species are a thing.… "
-1:34 PM - 2 Dec 2018
-https://twitter.com/aphillippy/status/1068497439617966080
-Adam Phillippy on Twitter: "Our latest: Are microbial species actually a thing? FastANI gives us a peek. More great work from @chirgjain. Great to see this published! https://t.co/2igLJex2rA"
-8:30 AM - 30 Nov 2018
-https://www.nature.com/articles/s41467-018-07641-9
-High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries | Nature Communications
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/14/141442
-MinHashを使った高速なANI計算ツール fastANI - macでインフォマティクス
-- バクテリア（および他の微生物）が離散したクラスター（discrete clusters ）（species）を形成するか、または水平遺伝子伝達（HGT）の頻度が高く、ゆっくりと減衰するキネティクスのために、連続的な遺伝的多様性が観察されるかどうかである。Closely relatedな少数のゲノムに基づく研究は、genetic continuum（連続性）が優先される可能性があることを示している（例えば、ref.1）。他方、HGTは種間の境界を歪めるほど頻繁ではないかもしれない、あるいは同じ種内の生物が種間の生物に比べてより頻繁に遺伝子交換を行い、それによって異なるクラスターを維持するとの研究がある（例えばref.2）。
-- 種の境界を評価する際の1つの基本的な作業は、2つのゲノム間の遺伝的関連性の推定である。The whole-genome average nucleotide identity（ANI）は、同じ種に属する生物が典型的にはそれらの間に≥95％のANIを示すため（ref.3,4）、近年この作業のための堅牢な方法として浮上している。
 
 http://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
 gANIを計算するツール ANIcalculator - macでインフォマティクス
@@ -190,119 +244,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/
 Table 1
 Proposed standards for high-quality taxa descriptions of uncultivated Bacteria and Archaea
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/table/tbl1/?report=objectonly
-
-
-
-
-----------
-## Mash
-https://github.com/marbl/mash
-Mash: fast genome and metagenome distance estimation using MinHash
-
-http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
-サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
-MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/09/193021
-MinHashを使いfasta / fastqから生物種を高速推定する BBSketch - macでインフォマティクス
-
-https://twitter.com/search?q=Mash%3A%20fast%20genome%20and%20metagenome%20distance%20estimation%20using%20MinHash&src=typd
-
-https://twitter.com/aphillippy/status/745254551947714561
-Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
-9:58 AM - 21 Jun 2016
-
-https://www.ncbi.nlm.nih.gov/pubmed/27323842
-Genome Biol. 2016 Jun 20;17(1):132. doi: 10.1186/s13059-016-0997-x.
-Mash: fast genome and metagenome distance estimation using MinHash.
-Ondov BD1, Treangen TJ1, Melsted P2, Mallonee AB1, Bergman NH1, Koren S3, Phillippy AM4.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/
-
-http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
-
-https://twitter.com/aphillippy/status/1068497439617966080
-Our latest: Are microbial species actually a thing? FastANI gives us a peek. More great work from 
-@chirgjain
-. Great to see this published! https://nature.com/articles/s41467-018-07641-9
-https://www.ncbi.nlm.nih.gov/pubmed/30504855
-Nat Commun. 2018 Nov 30;9(1):5114. doi: 10.1038/s41467-018-07641-9.
-High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries.
-Jain C1,2, Rodriguez-R LM3,4, Phillippy AM2, Konstantinidis KT5,6, Aluru S7,8.
-
-
-----------
-## [k-mer](https://en.wikipedia.org/wiki/K-mer)
-
-2018/09/17
-https://bioinfologics.github.io/post/2018/09/17/k-mer-counting-part-i-introduction/
-k-mer counting, part I: Introduction | BioInfoLogics
-
-https://www.biorxiv.org/content/early/2018/04/19/304972
-RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
-
-https://twitter.com/aphillippy/status/987312716451807233
-Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
-8:51 AM - 20 Apr 2018
-
-https://twitter.com/BioMickWatson/status/987217580648693760
-Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
-2:33 AM - 20 Apr 2018
-
-
-https://twitter.com/kazumachack
-上坂一馬 (@kazumachack) | Twitter
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
-kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
-k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/archive/category/k-mer
-k-mer カテゴリーの記事一覧 - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/29036588
-Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
-A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
-
-http://biorxiv.org/content/early/2016/10/19/081885
-Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
-- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
-- Read subsampling or removing low-abundant k-mers improved de novo assemblies
-
-2016.07.12版
-https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
-第1部:統計解析 ~ゲノム解析、塩基配列解析~
-
-2016.02.01版
-http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
-農学生命情報科学 特論I 第3回
-
-2015-01-01
-https://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
-k-mer countingに関するメモ - Qiita
-
-Jul 7th, 2013
-http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
-ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
-
-http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
-GenoFinisher homepage
-ShortReadMangerの機能
-<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
-<機能6>missing k-mer探索機能
-
-https://sites.google.com/site/kfuku52/misc/genomesize
-ゲノムサイズの推定法 - Kenji Fukushima's website
-4. k-mer distribution
-
-http://kplogo.wi.mit.edu/manual.html
-kpLogo: k-mer probability logo
-
-
-
 
 ----------
 
@@ -562,9 +503,8 @@ Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's clo
 https://twitter.com/i/moments/1000738412117147648
 All metagenomes searched at once?
 
-https://twitter.com/merenbey/status/1001592427369648128
-A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
-6:33 PM - 29 May 2018
+
+
 
 
 https://twitter.com/tylerbarnumphd/status/1010247842772815872
@@ -1027,6 +967,18 @@ Genomes selected for analysis
 Strain characteristics
 
 ----------
+
+### proGenomes2
+
+http://progenomes.embl.de/
+proGenomes Database v2
+
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1002/5606617
+proGenomes2: an improved database for accurate and consistent habitat, taxonomic and functional annotations of prokaryotic genomes
+
+Habitat information
+three broad (soil-associated, aquatic, host-associated) and additionally five more specific categories (mud/sediment, freshwater, disease-associated, food-associated)
+
 
 ### protraits
 http://protraits.irb.hr/
