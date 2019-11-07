@@ -100,6 +100,17 @@ Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distanc
 http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
 MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
 
+### MashMap
+https://github.com/marbl/MashMap
+
+https://www.ncbi.nlm.nih.gov/pubmed/30423094
+Bioinformatics. 2018 Sep 1;34(17):i748-i756. doi: 10.1093/bioinformatics/bty597.
+A fast adaptive algorithm for computing whole-genome homology maps.
+Jain C1,2, Koren S2, Dilthey A2,3, Phillippy AM2, Aluru S1.
+
+http://kazumaxneo.hatenablog.com/entry/2018/06/19/194715
+MinHashを利用した長い配列（ゲノムやロングリード）のアライナー MashMap - macでインフォマティクス
+
 ### Mash Screen
 
 https://twitter.com/aphillippy/status/1191818906257612800
