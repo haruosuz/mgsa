@@ -63,6 +63,35 @@
 
 ----------
 ## Genome alignment
+
+### GenomeMatcher
+http://www.ige.tohoku.ac.jp/joho/gmProject/gmhomeJP.html
+
+http://www.ige.tohoku.ac.jp/joho/gmProject/galleryJP.html
+
+![http://www.ige.tohoku.ac.jp/joho/gmProject/galleryJP.html](http://www.ige.tohoku.ac.jp/joho/gmProject/imageSource/image28.jpg)
+
+### Cactus
+https://github.com/ComparativeGenomicsToolkit/cactus
+
+https://www.biorxiv.org/content/10.1101/730531v3
+Progressive alignment with Cactus: a multiple-genome aligner for the thousand-genome era | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/21665927
+Genome Res. 2011 Sep;21(9):1512-28. doi: 10.1101/gr.123356.111. Epub 2011 Jun 10.
+Cactus: Algorithms for genome multiple sequence alignment.
+Paten B1, Earl D, Nguyen N, Diekhans M, Zerbino D, Haussler D.
+
+### Synima
+https://github.com/rhysf/Synima
+
+https://www.ncbi.nlm.nih.gov/pubmed/29162056
+BMC Bioinformatics. 2017 Nov 21;18(1):507. doi: 10.1186/s12859-017-1939-7.
+Synima: a Synteny imaging tool for annotated genome assemblies.
+Farrer RA1,2.
+
+![https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1939-7](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12859-017-1939-7/MediaObjects/12859_2017_1939_Fig1_HTML.gif)
+
 ### Murasaki
 
 http://murasaki.dna.bio.keio.ac.jp/
@@ -70,6 +99,11 @@ Murasaki Project: Murasaki Project - Murasaki Project
 
 http://kazumaxneo.hatenablog.com/entry/2017/06/23/134413
 ゲノム比較のmurasakiと結果を表示するGMV - macでインフォマティクス
+
+https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-17018029/17018029seika.pdf
+ヒトなど の高等生物の複数種のゲノム比較を計算で きる既存のシステムは存在しないため (Mauve は微生物ゲノムの大きさまでが適用 の限界である.また，Pattern Hunter や BLASTZ などは2種間のゲノム比較のみ適用 可能である.)，Murasaki の性能評価結果は非 常によいものと言える.
+
+![http://murasaki.dna.bio.keio.ac.jp/](http://murasaki.dna.bio.keio.ac.jp/9mammals-small.png)
 
 ### Mauve
 
@@ -80,8 +114,14 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/
 Fig. 2
 Genome alignment of Clostridium difficile strains performed using progressiveMauve (http://darlinglab.org/mauve/user-guide/progressivemauve.html) and visualized using genoPlotR (http://genoplotr.r-forge.r-project.org)
 
+http://kazumaxneo.hatenablog.com/entry/2018/08/23/212408
+mauveを使いcontigをリファレンスfasta順に並べ替える - macでインフォマティクス
+
 http://kazumaxneo.hatenablog.com/entry/2017/06/23/122010
 ゲノム比較 x 変異コール x ビューア を統合したGUI（CUI）ツール Mauve - macでインフォマティクス
+
+![http://darlinglab.org/mauve/user-guide/screenshots.html](http://darlinglab.org/mauve/user-guide/rearrangements.jpg)
+
 
 ----------
 ## MinHash
