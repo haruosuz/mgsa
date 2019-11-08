@@ -110,7 +110,7 @@ https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-17018029/17018029seika.pdf
 http://darlinglab.org/mauve/mauve.html
 Mauve
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/figure/Fig2/
 Fig. 2
 Genome alignment of Clostridium difficile strains performed using progressiveMauve (http://darlinglab.org/mauve/user-guide/progressivemauve.html) and visualized using genoPlotR (http://genoplotr.r-forge.r-project.org)
 
