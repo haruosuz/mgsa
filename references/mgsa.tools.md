@@ -113,6 +113,7 @@ Mauve
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/
 Fig. 2
 Genome alignment of Clostridium difficile strains performed using progressiveMauve (http://darlinglab.org/mauve/user-guide/progressivemauve.html) and visualized using genoPlotR (http://genoplotr.r-forge.r-project.org)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/bin/13099_2017_219_Fig2_HTML.jpg)
 
 http://kazumaxneo.hatenablog.com/entry/2018/08/23/212408
 mauveを使いcontigをリファレンスfasta順に並べ替える - macでインフォマティクス
