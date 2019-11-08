@@ -89,8 +89,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/29162056
 BMC Bioinformatics. 2017 Nov 21;18(1):507. doi: 10.1186/s12859-017-1939-7.
 Synima: a Synteny imaging tool for annotated genome assemblies.
 Farrer RA1,2.
-
-![https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1939-7](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12859-017-1939-7/MediaObjects/12859_2017_1939_Fig1_HTML.gif)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/figure/Fig1/
 
 ### Murasaki
 
