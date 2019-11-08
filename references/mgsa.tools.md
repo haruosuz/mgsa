@@ -59,9 +59,31 @@
   - [Genome Taxonomy Database](#gtdb)
 - [Mash](#mash)
 - [MinHash](#minhash)
+- [Genome alignment](#genome-alignment)
 
 ----------
+## Genome alignment
+### Murasaki
 
+http://murasaki.dna.bio.keio.ac.jp/
+Murasaki Project: Murasaki Project - Murasaki Project
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/23/134413
+ゲノム比較のmurasakiと結果を表示するGMV - macでインフォマティクス
+
+### Mauve
+
+http://darlinglab.org/mauve/mauve.html
+Mauve
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/
+Fig. 2
+Genome alignment of Clostridium difficile strains performed using progressiveMauve (http://darlinglab.org/mauve/user-guide/progressivemauve.html) and visualized using genoPlotR (http://genoplotr.r-forge.r-project.org)
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/23/122010
+ゲノム比較 x 変異コール x ビューア を統合したGUI（CUI）ツール Mauve - macでインフォマティクス
+
+----------
 ## MinHash
 
 http://kazumaxneo.hatenablog.com/entry/2018/05/09/193021
