@@ -3065,6 +3065,20 @@ Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics sof
 ----------
 ### phage
 
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/26657537
+FEMS Microbiol Rev. 2016 Mar;40(2):258-72. doi: 10.1093/femsre/fuv048. Epub 2015 Dec 9.
+Computational approaches to predict bacteriophage-host relationships.
+Edwards RA1, McNair K2, Faust K3, Raes J3, Dutilh BE4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5831537/
+All the bioinformatics code used in this work is available online at http://edwards.sdsu.edu/PhageHosts/.
+
+http://edwards.sdsu.edu/PhageHosts/
+
+
+
 Published: 14 May 2019
 https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz258/5488969
 multiPhATE: bioinformatics pipeline for functional annotation of phage isolates | Bioinformatics | Oxford Academic
@@ -3116,10 +3130,5 @@ http://aclame.ulb.ac.be/Tools/Prophinder/
 ACLAME: Prophinder
 
 ----------
-
-
-
-
-
 
 
