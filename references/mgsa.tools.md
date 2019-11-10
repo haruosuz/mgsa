@@ -1243,119 +1243,69 @@ Growth Data: Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
 Growth Rate:	0.26609 (1/h)
 ```
 
-### S value
-
-https://github.com/haruosuz/codon#sharp
-
-https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5389-z
-Strength of selected codon usage bias (S value)
-As a measure of translationally selected codon usage bias, the S value was calculated for each chromosome, as described in Sharp and co-workers [87] and Vieira-Silva and Rocha [89], using the codon usage for four amino acids, Phe (TTC and TTT), Tyr (TAC and TAT), Ile (ATC and ATT), and Asn (AAC and AAT). The two codons are recognized by the same tRNA species, and the C-ending codon is recognized more efficiently than T-ending codon. The S value is based on a comparison of codon usage within these synonymous groups between constitutively highly expressed genes (those encoding ribosomal proteins and translation elongation factors) and the entire genome [87, 89].
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873144/
-The strength of selection for codon adaptation (S)
-Following [7] and [26], an S value was calculated for each plastid genome using the codon frequencies for four amino acids, Phe (Ca = TTC and Cs = TTT), Tyr (Ca = TAC and Cs = TAT), Ile (Ca = ATC and Cs = ATT), and Asn (Ca = AAC and Cs = AAT), where the two codons (Cs and Ca) are recognized by the same tRNA species but Ca is recognized more efficiently. The S is based on a comparison of codon frequencies within these synonymous groups between high expression genes and all other genes ([7] and [26]). 
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-S is also an estimator of the strength of selection acting on codon usage bias, but based on the mutation-selection balance between pairs of codons, where one is fitter. Following Sharp, we compute S using the frequency of codons for four amino acids: Phe (C1 = UUC, C2 = UUU), Ile (C1 = AUC, C2 = AUU), Tyr (C1 = UAC, C2 = UAU), Asn (C1 = AAC, C2 = AAU).
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-Estimation of S
-
-To represent genes under the weakest selection, the codon usage of the entire genome was used, on the assumption that the number of genes expressed at high levels is a very small fraction of the genome as a whole. To represent genes where codon usage would be expected to be subject to strong translational selection, codon usage was summed across a set of 40 genes expected to be expressed constitutively at very high levels. 
-
 ### codon bias
 
-https://www.ncbi.nlm.nih.gov/pubmed/30691394
-BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
-Comparative genomics of Bacteria commonly identified in the built environment.
-Merino N1,2, Zhang S3,4, Tomita M5,6, Suzuki H7,8.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
-Comparative genomics of Bacteria commonly identified in the built environment
-- Case study: Mycobacterium
-For example, M. tuberculosis and M. leprae have S values in the lower range (0.36–0.45) and also have slow generation times of ~ 1 and 14 d, respectively [87, 98, 99]. In comparison, one of the highest S values (1.3) corresponded to M. abscessus, which has a generation time of 4–5 h [100].
+https://github.com/haruosuz/codon/blob/master/README.md
+
+### S value
 
 https://www.ncbi.nlm.nih.gov/pubmed/27540085
 Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
 Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
 Sun Y1, Tamarit D1, Andersson SGE1.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+- Materials and Methods
+- The strength of selected codon usage bias was estimated from the S index, which is used as a proxy for translational selection on individual genomes (Sharp et
+al. 2005, 2010). 
+- Results
+Switches in GC Content in Lactobacillus and Bifidobacterium Species
 - fig. 2.—
 Phylogenetic relationships and genome features of Lactobacillus species.
 A schematic figure illustrates the variation in GC contents, selective constraints (S-value), genome sizes and number of tRNAs in the species selected for an in-depth analysis.
+- In order to quantify the relative strength of selection, we calculated the S indexes for the genomes in this study (supplementary table S2, Supplementary Material online). The S index is inferred from the relative use of C-ending codons for Asn, Ile, Phe, Tyr (Sharp et
+al. 2005), 
 
-https://www.ncbi.nlm.nih.gov/pubmed/20308095
-Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias.
-Sharp PM1, Emery LR, Zeng K.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
-Forces that influence the evolution of codon bias
-- For example, C. perfringens has 10 rRNA operons and 96 tRNA genes and can replicate in only 7 min under ideal conditions (Labbe & Huang 1995).
-- To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006). 
-
-https://www.ncbi.nlm.nih.gov/pubmed/17038449
-Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
-Predicting gene expression level from codon usage bias.
-Henry I, Sharp PM.
-https://academic.oup.com/mbe/article/24/1/10/1070854
-- We outline a simple approach, first to check whether a genome shows evidence of selected codon usage bias and then to assess the strength of bias in genes as a guide to their likely expression level; we illustrate this with an analysis of Shewanella oneidensis.
-- As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online).
-
-https://www.ncbi.nlm.nih.gov/pubmed/15728743
-Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria.
-Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-Variation in the strength of selected codon usage bias among bacteria
-- Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
-- Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
-
-rRNA/tRNA遺伝子コピー数が多いほど、
-rRNA遺伝子の複製起点からの距離が小さいほど、
-高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
-原核生物の最小倍加時間が小さい（増殖速度が速い）
+https://github.com/haruosuz/codon/blob/master/README.md#rocha
 
 https://www.ncbi.nlm.nih.gov/pubmed/20090831
 PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
 The systemic imprint of growth and its uses in ecological (meta)genomics.
 Vieira-Silva S1, Rocha EP.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-- Figure 1
-Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
-- Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
-- Following a previous work [35], we extracted from primary literature 214 minimal generation times (d) of species of bacteria and archaea (Table S1). 
-- We extracted from primary literature the minimal generation times (d) for the 214 species of bacteria and archaea (Table S1).
-- Table S1
-List of the 214 genomes composing our dataset and their characteristics. Generation times were retrieved from the literature. We defined the minimum generation time (Column “d”) as the smallest value reported (Column “d reference”) for one species. For very few bacteria the generation times for closely related species were used. The optimum growth temperature of the species (Column “OGT”) was retrieved from DSMZ database.
-```
-Species name	Ori	OGT	d (h)	d reference
-Clostridium acetobutylicum ATCC824	1808	37	0.58	[47]
-Clostridium perfringens 13	1784	37	0.2	[48]
-Clostridium tetani E88	50965	37	0.5	[49]
-Escherichia coli MG1655	3923657	37	0.35	[64]
-Geobacter sulfurreducens PCA	1368	30	6	[66]Mycobacterium leprae	1567	37	240	[101]Salmonella typhimurium LT2 	4083788	37	0.4	[64]Shewanella oneidensis MR-1	6419	30	0.66	[138]```
+- S is also an estimator of the strength of selection acting on codon usage bias, but based on the mutation-selection balance between pairs of codons, where one is fitter. Following Sharp, we compute S using the frequency of codons for four amino acids: Phe (C1 = UUC, C2 = UUU), Ile (C1 = AUC, C2 = AUU), Tyr (C1 = UAC, C2 = UAU), Asn (C1 = AAC, C2 = AAU).
 
-https://www.ncbi.nlm.nih.gov/pubmed/15479947
-Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
-Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
-Rocha EP1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
-- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
-- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-- Genome and tRNA data
-One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
-https://genome.cshlp.org/content/14/11/2279.long
-https://genome.cshlp.org/content/14/11/2279/suppl/DC1
-https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
-Table A1- 
-the growth rate class (µ). the optimal doubling time (1/µ).
-```
-Clostridium perfringens 13	F	0.2
-Escherichia coli K12	F	0.35
-Geobacter sulfurreducens PCA	S	6
-Mycobacterium leprae	S	12
-Salmonella typhimurium LT2	F	0.4
-Shewanella oneidensis MR-1	F	2
-```
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+- These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
+- Estimation of S
+To represent genes under the weakest selection, the codon usage of the entire genome was used, on the assumption that the number of genes expressed at high levels is a very small fraction of the genome as a whole. To represent genes where codon usage would be expected to be subject to strong translational selection, codon usage was summed across a set of 40 genes expected to be expressed constitutively at very high levels. 
+
+https://github.com/haruosuz/codon/blob/master/README.md#sharp
+
+https://github.com/haruosuz/codon/blob/master/README.md#suzuki
+
+人工環境で同定された細菌のゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）
+https://www.ncbi.nlm.nih.gov/pubmed/30691394
+BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment.
+Merino N1,2, Zhang S3,4, Tomita M5,6, Suzuki H7,8.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
+- Case study: Mycobacterium
+For example, M. tuberculosis and M. leprae have S values in the lower range (0.36–0.45) and also have slow generation times of ~ 1 and 14 d, respectively [87, 98, 99]. In comparison, one of the highest S values (1.3) corresponded to M. abscessus, which has a generation time of 4–5 h [100].
+- Strength of selected codon usage bias (S value)
+As a measure of translationally selected codon usage bias, the S value was calculated for each chromosome, as described in Sharp and co-workers [87] and Vieira-Silva and Rocha [89], using the codon usage for four amino acids, Phe (TTC and TTT), Tyr (TAC and TAT), Ile (ATC and ATT), and Asn (AAC and AAT). The two codons are recognized by the same tRNA species, and the C-ending codon is recognized more efficiently than T-ending codon. The S value is based on a comparison of codon usage within these synonymous groups between constitutively highly expressed genes (those encoding ribosomal proteins and translation elongation factors) and the entire genome [87, 89].
+
+葉緑体のコドン適応
+http://www.ncbi.nlm.nih.gov/pubmed/27196606
+PLoS One. 2016 May 19;11(5):e0154306.
+Codon Adaptation of Plastid Genes.
+Suzuki H, Morton BR.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873144/
+- The strength of selection for codon adaptation (S)
+Following [7] and [26], an S value was calculated for each plastid genome using the codon frequencies for four amino acids, Phe (Ca = TTC and Cs = TTT), Tyr (Ca = TAC and Cs = TAT), Ile (Ca = ATC and Cs = ATT), and Asn (Ca = AAC and Cs = AAT), where the two codons (Cs and Ca) are recognized by the same tRNA species but Ca is recognized more efficiently. The S is based on a comparison of codon frequencies within these synonymous groups between high expression genes and all other genes ([7] and [26]). 
 
 ### 
 
@@ -1473,34 +1423,6 @@ iRep and bPTR software are maintained under github.com/christophertbrown/iRep (v
 https://www.ncbi.nlm.nih.gov/pubmed/26229116
 Science. 2015 Sep 4;349(6252):1101-1106. doi: 10.1126/science.aac4812. Epub 2015 Jul 30.
 Growth dynamics of gut microbiota in health and disease inferred from single metagenomic samples.
-
-https://www.ncbi.nlm.nih.gov/pubmed/20308095
-Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias.
-Sharp PM1, Emery LR, Zeng K.
-- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-- The resulting ΔENC′ and S values were then subject to principal components analysis, of which the first component (Fa) was compared with the one obtained from the whole genome.
-- Codon usage bias is the best determinant of minimum generation time
-
-https://www.ncbi.nlm.nih.gov/pubmed/15479947
-Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
-Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
-Rocha EP1.
-- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
-- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-
-https://genome.cshlp.org/content/14/11/2279/suppl/DC1
-Supplemental Research Data
-https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
-Table A1- Data table with major results. 
-the growth rate class (μ). the optimal doubling time (1/μ).
-
 
 #### 199X
 
@@ -3130,17 +3052,22 @@ Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics sof
 
 
 
-
-https://www.ncbi.nlm.nih.gov/pubmed/26657537
-FEMS Microbiol Rev. 2016 Mar;40(2):258-72. doi: 10.1093/femsre/fuv048. Epub 2015 Dec 9.
-Computational approaches to predict bacteriophage-host relationships.
-Edwards RA1, McNair K2, Faust K3, Raes J3, Dutilh BE4.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5831537/
-All the bioinformatics code used in this work is available online at http://edwards.sdsu.edu/PhageHosts/.
-
-http://edwards.sdsu.edu/PhageHosts/
+### 
 
 
+https://twitter.com/XabiVC/status/1123503405626826752
+Xabier Vázquez-Campos on Twitter: "Any recommendations for detecting #prophages in #bacteria #genomes? Specially from rather fragmented genomes and/or MAGs I've tried PHASTER and Phigaro so far. Any suggestions welcomed. Thanks!"
+4:24 AM - 1 May 2019
+
+https://twitter.com/yokadzaki/status/1016332354158071809
+面白い。Pseudomonasに感染するファージのゲノムの多様性の高さに注目した研究。この結果を見ると、メタゲノムで得られた未知ウイルスゲノムのホストを特定するのは容易ではないし、比較的良い手がかりになるとされているnucleotide compositionにも実際はかなりばらつきがあるのが分かる
+10:44 AM - 9 Jul 2018
+https://www.frontiersin.org/articles/10.3389/fmicb.2018.01456/full
+Frontiers | Comparative Genomic Analysis of 130 Bacteriophages Infecting Bacteria in the Genus Pseudomonas | Microbiology
+
+
+
+### 
 
 Published: 14 May 2019
 https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz258/5488969
@@ -3153,9 +3080,7 @@ Published: 25 April 2019
 https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz265/5480131
 PHANOTATE: A novel approach to gene identification in phage genomes 
 
-
-http://kazumaxneo.hatenablog.com/entry/2019/02/04/073000
-メタゲノムのphage contigからホスト原核生物ゲノムを予測する WIsH - macでインフォマティクス
+### WIsH
 
 https://www.ncbi.nlm.nih.gov/pubmed/28957499
 Bioinformatics. 2017 Oct 1;33(19):3113-3114. doi: 10.1093/bioinformatics/btx383.
@@ -3163,25 +3088,31 @@ WIsH: who is the host? Predicting prokaryotic hosts from metagenomic phage conti
 Galiez C1, Siebert M1, Enault F2, Vincent J2, Söding J1.
 
 
-https://www.ncbi.nlm.nih.gov/pubmed/26657537
-FEMS Microbiol Rev. 2016 Mar;40(2):258-72. doi: 10.1093/femsre/fuv048. Epub 2015 Dec 9.
-Computational approaches to predict bacteriophage-host relationships.
-Edwards RA1, McNair K2, Faust K3, Raes J3, Dutilh BE4.
+http://kazumaxneo.hatenablog.com/entry/2019/02/04/073000
+メタゲノムのphage contigからホスト原核生物ゲノムを予測する WIsH - macでインフォマティクス
 
+### HostPhinder
+
+https://www.ncbi.nlm.nih.gov/pubmed/27153081
+Viruses. 2016 May 4;8(5). pii: E116. doi: 10.3390/v8050116.
+HostPhinder: A Phage Host Prediction Tool.
+Villarroel J1, Kleinheinz KA2, Jurtz VI3, Zschach H4, Lund O5, Nielsen M6,7, Larsen MV8.
 
 http://kazumaxneo.hatenablog.com/entry/2018/08/31/164441
 バクテリオファージのホストを推測する HostPhinder - macでインフォマティクス
 
-https://twitter.com/XabiVC/status/1123503405626826752
-Xabier Vázquez-Campos on Twitter: "Any recommendations for detecting #prophages in #bacteria #genomes? Specially from rather fragmented genomes and/or MAGs I've tried PHASTER and Phigaro so far. Any suggestions welcomed. Thanks!"
-4:24 AM - 1 May 2019
+### 
 
-https://twitter.com/yokadzaki/status/1016332354158071809
-面白い。Pseudomonasに感染するファージのゲノムの多様性の高さに注目した研究。この結果を見ると、メタゲノムで得られた未知ウイルスゲノムのホストを特定するのは容易ではないし、比較的良い手がかりになるとされているnucleotide compositionにも実際はかなりばらつきがあるのが分かる
-10:44 AM - 9 Jul 2018
-https://www.frontiersin.org/articles/10.3389/fmicb.2018.01456/full
-Frontiers | Comparative Genomic Analysis of 130 Bacteriophages Infecting Bacteria in the Genus Pseudomonas | Microbiology
+https://www.ncbi.nlm.nih.gov/pubmed/26657537
+FEMS Microbiol Rev. 2016 Mar;40(2):258-72. doi: 10.1093/femsre/fuv048. Epub 2015 Dec 9.
+Computational approaches to predict bacteriophage-host relationships.
+Edwards RA1, McNair K2, Faust K3, Raes J3, Dutilh BE4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5831537/
+All the bioinformatics code used in this work is available online at http://edwards.sdsu.edu/PhageHosts/.
 
+http://edwards.sdsu.edu/PhageHosts/
+
+### 
 
 https://github.com/simroux/VirSorter
 https://www.ncbi.nlm.nih.gov/pubmed/26038737
