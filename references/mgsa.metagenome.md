@@ -9,23 +9,25 @@
 [2018](#2018)
 [2017](#2017)
 - [review](#review)
-- [video](#video)
 - [Metagenomic Assembly](#phylophlan)
 - [MAG](#mag) Metagenome Assembled Genome
 - [people](#people)
 [Mori](#mori)
 [Rocha](#rocha)
+- [book](#book)
+- [video](#video)
 
 ----------
-
 ## featuring
-
-http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
-メタゲノム解析ツール - macでインフォマティクス
 
 https://www.ebi.ac.uk/metagenomics/
 EBI metagenomics: archiving, analysis and integration of metagenomics data < EBI metagenomics < EMBL-EBI
 
+http://kazumaxneo.hatenablog.com/archive/category/metagenome
+metagenome カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
+メタゲノム解析ツール - macでインフォマティクス
 
 ----------
 
@@ -256,10 +258,24 @@ Author(s) 岡崎, 友輔
 深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
 た。
 
+----------
+## book
 
+### 2018-11-19
+よくわかるバイオインフォマティクス入門/藤博幸/講談社
+https://www.kspub.co.jp/book/detail/5138212.html
+http://bookclub.kodansha.co.jp/product?item=0000275926
+９章　メタゲノム解析
 
-
-
+### 2016-12-01
+https://www.yodosha.co.jp/yodobook/book/9784758101974/
+実験医学別冊：NGSアプリケーション 今すぐ始める！　メタゲノム解析　実験プロトコール〜ヒト常在細菌叢から環境メタゲノムまでサンプル調製と解析のコツ - 羊土社
+第1章　メタゲノム解析の基本知識
+2．メタゲノムデータの情報解析のオーバービュー【東　光一，森　宙史，黒川　顕】 
+### 2016-09-12
+http://www.kyoto-up.or.jp/book.php?id=2128
+微生物生態学　ゲノム解析からエコシステムまで
+Chapter 10　微生物とウィルスのゲノムおよびメタゲノム
 
 ----------
 
