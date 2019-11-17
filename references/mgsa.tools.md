@@ -4,6 +4,7 @@
 - [PhyloPhlAn](#phylophlan)
 - [featuring](#featuring)
 - [distribution](#distribution) 遺伝子の系統分布
+- [population genetics](#population-genetics)
 - [fastGEAR](#fastgear)
 - [BAPS](#baps)
 - [harvest](#harvest)
@@ -554,6 +555,7 @@ PhyloPhlAn Segata et al. (2014)
 http://www.microbesonline.org/
 phylogenetic profile
 
+
 2019年09月02日
 https://qiita.com/xvtyzn/items/6a008b61d852dcbaed57
 Qiime2を使ったメタゲノム解析パイプライン
@@ -579,8 +581,6 @@ All metagenomes searched at once?
 
 
 
-
-
 https://twitter.com/tylerbarnumphd/status/1010247842772815872
 Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the ~8,000 Uncultivated Bacteria and Archaea (UBA) genomes from @donovan_parks. It's the largest collection of genomes that you can't search for on BLAST or IMG. ~1,500 metagenomes. https://t.co/PgavpbmsQg Feedback welcome!"
 3:47 PM - 22 Jun 2018
@@ -588,6 +588,31 @@ Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the 
 https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and-archaea-uba-genomes-for-important-genes/
 Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
 June 22, 2018
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/26013493
+J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
+Databases for Microbiologists.
+Zhulin IB1.
+
+
+数十の大腸菌のゲノム配列データからゲノムスケールの代謝モデルを構築し、様々な培養条件での増殖を予測
+https://www.ncbi.nlm.nih.gov/pubmed/24277855
+Proc Natl Acad Sci U S A. 2013 Dec 10;110(50):20338-43. doi: 10.1073/pnas.1307797110. Epub 2013 Nov 25.
+Genome-scale metabolic reconstructions of multiple Escherichia coli strains highlight strain-specific adaptations to nutritional environments.
+Monk JM1, Charusanti P, Aziz RK, Lerman JA, Premyodhin N, Orth JD, Feist AM, Palsson BØ.
+
+212種類の培養条件で得られたコロニー形成細菌群集
+https://www.ncbi.nlm.nih.gov/pubmed/23033984
+Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
+Microbial culturomics: paradigm shift in the human gut microbiome study.
+Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
+
+
+
+
+
 
 
 ----------
@@ -1104,6 +1129,10 @@ https://twitter.com/BacDive/status/1103238138816839680
 BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
 5:17 AM - 6 Mar 2019
 
+https://twitter.com/BacDive/status/1095559495651115009
+BacDive on Twitter: "Find here an interesting example how @BacDive data can be used to correlate microbial growth temperatues with temperature optima of enzymes: https://t.co/XWenohoc5W #biodiversity #bacteria #microbiology"
+12:45 AM - 13 Feb 2019
+
 2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
 https://www.ncbi.nlm.nih.gov/pubmed/24214959
 Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
@@ -1307,29 +1336,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873144/
 - The strength of selection for codon adaptation (S)
 Following [7] and [26], an S value was calculated for each plastid genome using the codon frequencies for four amino acids, Phe (Ca = TTC and Cs = TTT), Tyr (Ca = TAC and Cs = TAT), Ile (Ca = ATC and Cs = ATT), and Asn (Ca = AAC and Cs = AAT), where the two codons (Cs and Ca) are recognized by the same tRNA species but Ca is recognized more efficiently. The S is based on a comparison of codon frequencies within these synonymous groups between high expression genes and all other genes ([7] and [26]). 
 
-### 
-
-https://www.ncbi.nlm.nih.gov/pubmed/26013493
-J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
-Databases for Microbiologists.
-Zhulin IB1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/24152717
-ISME J. 2014 Jan;8(1):1-3. doi: 10.1038/ismej.2013.176. Epub 2013 Oct 24.
-MIxS-BE: a MIxS extension defining a minimum information standard for sequence data from the built environment.
-
-数十の大腸菌のゲノム配列データからゲノムスケールの代謝モデルを構築し、様々な培養条件での増殖を予測
-https://www.ncbi.nlm.nih.gov/pubmed/24277855
-Proc Natl Acad Sci U S A. 2013 Dec 10;110(50):20338-43. doi: 10.1073/pnas.1307797110. Epub 2013 Nov 25.
-Genome-scale metabolic reconstructions of multiple Escherichia coli strains highlight strain-specific adaptations to nutritional environments.
-Monk JM1, Charusanti P, Aziz RK, Lerman JA, Premyodhin N, Orth JD, Feist AM, Palsson BØ.
-
-212種類の培養条件で得られたコロニー形成細菌群集
-https://www.ncbi.nlm.nih.gov/pubmed/23033984
-Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
-Microbial culturomics: paradigm shift in the human gut microbiome study.
-Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
-
 ----------
 ### growth rate
 増殖速度
@@ -1514,11 +1520,42 @@ BacMet: antibacterial biocide and metal resistance genes database.
 Pal C1, Bengtsson-Palme J, Rensing C, Kristiansson E, Larsson DG.
 
 ----------
-### 
+## population genetics
 
+https://www.ncbi.nlm.nih.gov/pubmed/29973680
+Nat Rev Genet. 2018 Sep;19(9):549-565. doi: 10.1038/s41576-018-0032-z.
+Population genomics of bacterial host adaptation.
+Sheppard SK1, Guttman DS2,3, Fitzgerald JR4.
 
+https://www.ncbi.nlm.nih.gov/pubmed/29684183
+Mol Biol Evol. 2018 Jun 1;35(6):1338-1347. doi: 10.1093/molbev/msy078.
+Neutral Theory, Microbial Practice: Challenges in Bacterial Population Genetics.
+Rocha EPC1,2.
+https://academic.oup.com/mbe/article/35/6/1338/4976545
+Horizontal gene transfer (HGT)
+mobile genetic elements (MGEs, conjugation, or phage-mediated)
+
+https://www.ncbi.nlm.nih.gov/pubmed/27091940
+Cold Spring Harb Perspect Biol. 2016 Jul 1;8(7). pii: a018069. doi: 10.1101/cshperspect.a018069.
+Not So Simple After All: Bacteria, Their Population Genetics, and Recombination.
+Hanage WP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930924/
+
+----------
 ## fastGEAR
 https://users.ics.aalto.fi/~pemartti/fastGEAR/
+
+https://mostowylab.com/news/fastgear
+fastGEAR: detecting mosaicism in bacterial genomes — Mostowy Lab
+identifies population genetic structure of an alignment in question, and detects recombinations between the inferred lineages as well as from external origins.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28199698
+Mol Biol Evol. 2017 May 1;34(5):1167-1182. doi: 10.1093/molbev/msx066.
+Efficient Inference of Recent and Ancestral Recombination within Bacterial Populations.
+Mostowy R1, Croucher NJ1, Andam CP2, Corander J3,4, Hanage WP2, Marttinen P5.
+We introduce a novel algorithm called fastGEAR which identifies lineages in diverse microbial alignments, and recombinations between them and from external origins.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
+(1) Identifying lineages: To identify lineages in a data set, we start by running a previously published clustering algorithm (Corander and Marttinen, 2006) included in the Bayesian Analysis of Population Structure (BAPS) software (Corander et al., 2003).
 
 https://www.ncbi.nlm.nih.gov/pubmed/29291727
 BMC Genomics. 2018 Jan 2;19(1):2. doi: 10.1186/s12864-017-4249-6.
@@ -1563,16 +1600,6 @@ Dynamics and impact of homologous recombination on the evolution of Legionella p
 David S1,2, Sánchez-Busó L1, Harris SR1, Marttinen P3, Rusniok C4,5, Buchrieser C4,5, Harrison TG2, Parkhill J1.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5507463/
 
-https://www.ncbi.nlm.nih.gov/pubmed/28199698
-Mol Biol Evol. 2017 May 1;34(5):1167-1182. doi: 10.1093/molbev/msx066.
-Efficient Inference of Recent and Ancestral Recombination within Bacterial Populations.
-Mostowy R1, Croucher NJ1, Andam CP2, Corander J3,4, Hanage WP2, Marttinen P5.
-We introduce a novel algorithm called fastGEAR which identifies lineages in diverse microbial alignments, and recombinations between them and from external origins.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
-(1) Identifying lineages: To identify lineages in a data set, we start by running a previously published clustering algorithm (Corander and Marttinen, 2006) included in the Bayesian Analysis of Population Structure (BAPS) software (Corander et al., 2003).
-
-https://mostowylab.com/2017/02/26/fastgear/
-fastGEAR: detecting mosaicism in bacterial genomes – Research of Rafal Mostowy
 
 ## BAPS
 http://www.helsinki.fi/bsg/software/BAPS/
@@ -1913,103 +1940,6 @@ GSEA_(Gene_Set_Enrichment_Analysis)について -
 
 http://www.iu.a.u-tokyo.ac.jp/~kadota/r.html#page_go
 解析 | 機能解析 | PAGE法(Kim_2005;統計量の変換なし)を用いてGene Ontology解析
-
-
-----------
-## metagenomics
-メタゲノム
-
-https://www.biorxiv.org/content/early/2018/05/18/326363
-Sunbeam: a pipeline for next-generation metagenomic sequencing experiments | bioRxiv
-
-https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
-2017年 NGSハンズオン講習会 8月31日
-メタゲノム解析
-森 宙史(HiroshiMori),Ph.D.
-
-代表的なメタゲノムデータベース
-MG-RAST
-EBI-Metagenomics
-
-http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
-メタゲノム解析ツール - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/28321234
-Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
-A Review of Bioinformatics Tools for Bio-Prospecting from Metagenomic Sequence Data.
-Roumpeka DD1, Wallace RJ2, Escalettes F3, Fotheringham I3, Watson M1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5337752/
-Data Sharing and Online Portals
-MG-RAST (Glass et al., 2010) 
-EBI MetaGenomics (Hunter et al., 2014) 
-IMG/M (Markowitz et al., 2014) 
-
-https://www.ebi.ac.uk/metagenomics/
-EBI metagenomics: archiving, analysis and integration of metagenomics data < EBI metagenomics < EMBL-EBI
-
-https://www.slideshare.net/DDBJslide/ddbjing30-43012395
-[DDBJing30] メタゲノム解析と微生物統合データベース
-講師：森 宙史
-2014年12月18日
-
-https://wg.biosciencedbc.jp/doku.php/ゲノム・メタゲノム情報を基盤とした微生物dbの統合
-ゲノム・メタゲノム情報を基盤とした微生物dbの統合.txt · 最終更新: 2011/12/27 09:54 +0900 (外部編集)
-
-https://www.ncbi.nlm.nih.gov/pubmed/25983555
-Bioinform Biol Insights. 2015 May 5;9:75-88. doi: 10.4137/BBI.S12462. eCollection 2015.
-Metagenomics: tools and insights for analyzing next-generation sequencing data derived from biodiversity studies.
-Oulas A1, Pavloudi C2, Polymenakou P1, Pavlopoulos GA3, Papanikolaou N3, Kotoulas G1, Arvanitidis C1, Iliopoulos I3.
-
-http://clark.cs.ucr.edu
-CLARK :: Fast and accurate classification method for metagenomic/genomic sequences
-
-https://www.ncbi.nlm.nih.gov/pubmed/27540266
-Bioinformatics. 2016 Dec 15;32(24):3823-3825. Epub 2016 Aug 18.
-Higher classification sensitivity of short metagenomic reads with CLARK-S.
-Ounit R1, Lonardi S1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25879410
-BMC Genomics. 2015 Mar 25;16:236. doi: 10.1186/s12864-015-1419-2.
-CLARK: fast and accurate classification of metagenomic and genomic sequences using discriminative k-mers.
-Ounit R1, Wanamaker S2, Close TJ3, Lonardi S4.
-
-- [Kraken](http://ccb.jhu.edu/software/kraken/)
- - 論文 [Wood DE, Salzberg SL. Genome Biol. 2014 "Kraken: ultrafast metagenomic sequence classification using exact alignments."]()
-
-- [Kaiju: Fast and sensitive taxonomic classification for metagenomics](http://kaiju.binf.ku.dk)
- - 論文 [Menzel P et al. Nat Commun. 2016 "Fast and sensitive taxonomic classification for metagenomics with Kaiju."](https://www.ncbi.nlm.nih.gov/pubmed/27071849)
-  - We compared the performance of Kaiju with the two k-mer-based programs Kraken and Clark, which performed best in speed and accuracy in a recent benchmark study18. https://www.ncbi.nlm.nih.gov/pubmed/26778510
-
-### Metagenomic Assembly
-
-https://omictools.com/metagenomic-assembly-category
-Assembly software tools | Metagenomic sequencing analysis - OMICtools
-
-https://www.ncbi.nlm.nih.gov/pubmed/28693474
-BMC Genomics. 2017 Jul 10;18(1):521. 
-Assembling metagenomes, one community at a time.
-
-https://twitter.com/StevenJRobbins/status/849484107797204997
-Three very recent papers comparing metagenome assembly tools:
-
-https://www.ncbi.nlm.nih.gov/pubmed/28099457
-PLoS One. 2017 Jan 18;12(1):e0169662.
-Comparing and Evaluating Metagenome Assembly Tools from a Microbiologist's Perspective - Not Only Size Matters!
-
-https://www.ncbi.nlm.nih.gov/pubmed/27698619
-Yale J Biol Med. 2016 Sep 30;89(3):353-362. eCollection 2016.
-Metagenomic Assembly: Overview, Challenges and Applications.
-Ghurye JS1, Cepeda-Espinoza V1, Pop M1.
-
-[MetAMOS](https://github.com/treangen/MetAMOS)
-https://www.ncbi.nlm.nih.gov/pubmed/23320958
-Genome Biol. 2013 Jan 15;14(1):R2. doi: 10.1186/gb-2013-14-1-r2.
-MetAMOS: a modular and open source metagenomic assembly and analysis pipeline.
-
-[MOCAT](http://www.bork.embl.de/mocat/)
-https://www.ncbi.nlm.nih.gov/pubmed/23082188
-PLoS One. 2012;7(10):e47656.
-MOCAT: a metagenomics assembly and gene prediction toolkit.
 
 
 ----------
@@ -3124,5 +3054,10 @@ http://aclame.ulb.ac.be/Tools/Prophinder/
 ACLAME: Prophinder
 
 ----------
+
+
+
+
+
 
 
