@@ -83,8 +83,8 @@ Kat Holt on Twitter: "@BioMinnie @sylvainbrisse @KelWyres Python package ete2, u
 https://holtlab.net/2015/10/03/plotting-trees-data/
 
 <img src="https://katholtlab.files.wordpress.com/2015/10/pan.png" width=30% alt="https://holtlab.net/2015/10/03/plotting-trees-data/">
-
-
+<img src="https://katholtlab.files.wordpress.com/2015/10/screen-shot-2015-12-15-at-4-43-05-pm.png" width=30% alt="https://holtlab.net/2015/10/03/plotting-trees-data/">
+<img src="https://katholtlab.files.wordpress.com/2015/10/screen-shot-2015-12-15-at-4-47-34-pm.png" width=30% alt="https://holtlab.net/2015/10/03/plotting-trees-data/">
 
 
 https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
