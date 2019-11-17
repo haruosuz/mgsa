@@ -63,6 +63,59 @@
 - [Genome alignment](#genome-alignment)
 
 ----------
+### 
+
+https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
+https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
+生態学のためのメタバーコーディングとDNAバーコーディング
+田辺晶史
+2018年5月8日
+
+----------
+### holt Lab
+
+https://holtlab.net
+Holt Lab | microbial genomics
+
+https://twitter.com/DrKatHolt/status/1016835161818722305
+Kat Holt on Twitter: "@BioMinnie @sylvainbrisse @KelWyres Python package ete2, using our scripts here https://t.co/5oOeLwx2Hg https://t.co/wYGiP0bAQ1 Although most of this you can now also do with ggtree, or microreact."
+9:02 AM · Jul 11, 2018
+https://holtlab.net/2015/10/03/plotting-trees-data/
+
+<img src="https://katholtlab.files.wordpress.com/2015/10/pan.png" width=30% alt="https://holtlab.net/2015/10/03/plotting-trees-data/">
+
+
+
+
+https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
+Update to Comparative Bacterial Genomics tutorial | Holt Lab
+
+https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
+Genomics of atypical enteropathogenic E. coli | Holt Lab
+
+We tried making the core genome tree in a few different ways, including mapping reads to a reference genome vs using Roary to generate core gene alignments from assemblies; with and without removing recombinant regions identified using ClonalFrameML. 
+
+![](https://katholtlab.files.wordpress.com/2016/01/aepec_tree_lee_subtypes1.png)
+
+https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
+Tools for bacterial comparative genomics | Holt Lab
+
+https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
+Bacterial genomics tutorial | Holt Lab
+
+https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
+Bacterial genomics tutorial | BacPathGenomics
+
+https://www.ncbi.nlm.nih.gov/pubmed/23575213
+Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
+Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
+Edwards DJ1, Holt KE.
+
+
+
+
+
+----------
 ## Genome alignment
 
 ### GenomeMatcher
@@ -1532,8 +1585,8 @@ Mol Biol Evol. 2018 Jun 1;35(6):1338-1347. doi: 10.1093/molbev/msy078.
 Neutral Theory, Microbial Practice: Challenges in Bacterial Population Genetics.
 Rocha EPC1,2.
 https://academic.oup.com/mbe/article/35/6/1338/4976545
-Horizontal gene transfer (HGT)
-mobile genetic elements (MGEs, conjugation, or phage-mediated)
+- Horizontal gene transfer (HGT)
+- mobile genetic elements (MGEs, conjugation, or phage-mediated)
 
 https://www.ncbi.nlm.nih.gov/pubmed/27091940
 Cold Spring Harb Perspect Biol. 2016 Jul 1;8(7). pii: a018069. doi: 10.1101/cshperspect.a018069.
@@ -2192,45 +2245,6 @@ Investigation of recombination-intense viral groups and their genes in the Earth
 Meier-Kolthoff JP1, Uchiyama J2, Yahara H3, Paez-Espino D4, Yahara K5.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068154/
 Because approximately 90% of such genes were initially annotated as hypothetical, we conducted iterative protein searches based on representing both query and database sequences by profile hidden Markov models31 using a UniProt database. We examined all hits with >99% probability of being true positives, and identified 89 notable genes in 24 viral groups (listed in Table S2).
-
-----------
-### 
-
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
-生態学のためのメタバーコーディングとDNAバーコーディング
-田辺晶史
-2018年5月8日
-
-----------
-### holt Lab
-
-https://holtlab.net
-Holt Lab | microbial genomics
-
-https://holtlab.net/2017/07/01/update-to-comparative-bacterial-genomics-tutorial/
-Update to Comparative Bacterial Genomics tutorial | Holt Lab
-
-https://holtlab.net/2016/01/19/genomics-of-atypical-enteropathogenic-e-coli/
-Genomics of atypical enteropathogenic E. coli | Holt Lab
-
-We tried making the core genome tree in a few different ways, including mapping reads to a reference genome vs using Roary to generate core gene alignments from assemblies; with and without removing recombinant regions identified using ClonalFrameML. 
-
-![](https://katholtlab.files.wordpress.com/2016/01/aepec_tree_lee_subtypes1.png)
-
-https://holtlab.net/2015/02/25/tools-for-bacterial-comparative-genomics/
-Tools for bacterial comparative genomics | Holt Lab
-
-https://holtlab.net/2014/12/27/bacterial-genomics-tutorial-2/
-Bacterial genomics tutorial | Holt Lab
-
-https://bacpathgenomics.wordpress.com/2013/04/13/bacterial-genomics-tutorial/
-Bacterial genomics tutorial | BacPathGenomics
-
-https://www.ncbi.nlm.nih.gov/pubmed/23575213
-Microb Inform Exp. 2013 Apr 10;3(1):2. doi: 10.1186/2042-5783-3-2.
-Beginner's guide to comparative bacterial genome analysis using next-generation sequence data.
-Edwards DJ1, Holt KE.
 
 ----------
 
