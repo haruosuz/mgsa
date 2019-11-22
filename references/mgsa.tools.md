@@ -163,6 +163,27 @@ https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-17018029/17018029seika.pdf
 http://darlinglab.org/mauve/mauve.html
 Mauve
 
+https://scholar.google.com.au/citations?user=TE8_LDwAAAAJ&hl=en&oi=ao
+- progressiveMauve: multiple genome alignment with gene gain, loss and rearrangement
+- Reordering contigs of draft genomes using the Mauve aligner
+- Mauve: multiple alignment of conserved genomic sequence with rearrangements
+
+https://www.ncbi.nlm.nih.gov/pubmed/20593022
+PLoS One. 2010 Jun 25;5(6):e11147. doi: 10.1371/journal.pone.0011147.
+progressiveMauve: multiple genome alignment with gene gain, loss and rearrangement.
+Darling AE1, Mau B, Perna NT.
+
+https://www.ncbi.nlm.nih.gov/pubmed/19515959
+Bioinformatics. 2009 Aug 15;25(16):2071-3. doi: 10.1093/bioinformatics/btp356. Epub 2009 Jun 10.
+Reordering contigs of draft genomes using the Mauve aligner.
+Rissman AI1, Mau B, Biehl BS, Darling AE, Glasner JD, Perna NT.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15231754
+Genome Res. 2004 Jul;14(7):1394-403.
+Mauve: multiple alignment of conserved genomic sequence with rearrangements.
+Darling AC1, Mau B, Blattner FR, Perna NT.
+
+解析例
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708112/figure/Fig2/
 Fig. 2
 Genome alignment of Clostridium difficile strains performed using progressiveMauve (http://darlinglab.org/mauve/user-guide/progressivemauve.html) and visualized using genoPlotR (http://genoplotr.r-forge.r-project.org)
