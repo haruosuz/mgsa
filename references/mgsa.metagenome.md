@@ -48,6 +48,20 @@ https://en.wikipedia.org/wiki/PICRUSt
 http://picrust.github.io/picrust/
 Please note that PICRUSt2 is now available. PICRUSt2 is a re-written version of PICRUSt and is available here. We are no longer developing PICRUSt1 and we recommend users shift to PICRUSt2.
 
+http://anonym.hatenablog.jp/entry/2018/10/25/172452
+QIIME2でPICRUSt2が利用可能になったらしい
+http://anonym.hatenablog.jp/entry/2018/09/10/183941
+細菌叢解析におけるFunctional Inference
+PICRUSt
+PICRUSt2
+Tax4Fun
+Piphillin
+SINAPS
+http://anonym.hatenablog.jp/entry/2018/07/05/100753
+PICRUSt2を使用してみる
+http://anonym.hatenablog.jp/entry/2018/03/12/123658
+DADA2からPICRUStへ
+
 ### Tax4Fun
 http://tax4fun.gobics.de/
 Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data
@@ -77,26 +91,17 @@ Iwai S1, Weinmaier T1, Schmidt BL2, Albertson DG2,3, Poloso NJ4, Dabbagh K1, DeS
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5098786/
 Table 2
 Piphillin has less pre-requisites than PICRUSt and Tax4Fun.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5098786/table/pone.0166104.t002/?report=objectonly
-
-
+![https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0166104.t002](https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0166104.t002&size=medium)
 
 https://www.pediatricsurgery.site/entry/2017/03/13/152234
 16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
 下記の図にPICRUStとTax4Funに必要な条件がまとめられています。
 ![](http://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0166104.t002)
 
-http://anonym.hatenablog.jp/entry/2018/09/10/183941
-細菌叢解析におけるFunctional Inference
-PICRUSt
-PICRUSt2
-Tax4Fun
-Piphillin
-SINAPS
-http://anonym.hatenablog.jp/entry/2018/07/05/100753
-PICRUSt2を使用してみる
-http://anonym.hatenablog.jp/entry/2018/03/12/123658
-DADA2からPICRUStへ
+
+
+
+
 
 Apr 30, 2017
 https://twitter.com/windowmoon/status/858615467010703360
