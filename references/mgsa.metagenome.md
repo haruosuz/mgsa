@@ -33,7 +33,8 @@
 ----------
 ## metabolic inference
 
-https://twitter.com/search?q=PICRUSt%20lang%3Aja&f=live
+日本語のツイート
+https://twitter.com/search?q=lang%3Aja%20(PICRUSt%20OR%20Tax4Fun%20OR%20Piphillin)&src=typed_query&f=live
 
 ### PICRUSt
 
