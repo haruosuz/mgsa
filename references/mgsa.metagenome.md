@@ -32,6 +32,7 @@
 
 ----------
 ## metabolic inference
+16Sからメタゲノム機能推定
 
 日本語のツイート
 https://twitter.com/search?q=lang%3Aja%20(PICRUSt%20OR%20Tax4Fun%20OR%20Piphillin)&src=typed_query&f=live
@@ -78,6 +79,16 @@ Bioinformatics. 2015 Sep 1;31(17):2882-4. doi: 10.1093/bioinformatics/btv287. Ep
 Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data.
 Aßhauer KP1, Wemheuer B2, Daniel R2, Meinicke P1.
 
+### paprica
+
+Nov 10, 2019
+https://github.com/bowmanjeffs/paprica
+PAthway PRediction by phylogenetIC plAcement
+
+August 18, 2015 by Jeff
+https://www.polarmicrobes.org/introducing-paprica/
+Introducing PAPRICA | The Bowman Lab
+
 ### Piphillin
 http://piphillin.secondgenome.com/
 
@@ -98,16 +109,6 @@ https://www.pediatricsurgery.site/entry/2017/03/13/152234
 2016-08-13
 http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
 予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
-
-### paprica
-
-Nov 10, 2019
-https://github.com/bowmanjeffs/paprica
-PAthway PRediction by phylogenetIC plAcement
-
-August 18, 2015 by Jeff
-https://www.polarmicrobes.org/introducing-paprica/
-Introducing PAPRICA | The Bowman Lab
 
 ### 
 
