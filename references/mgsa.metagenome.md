@@ -77,16 +77,6 @@ Bioinformatics. 2015 Sep 1;31(17):2882-4. doi: 10.1093/bioinformatics/btv287. Ep
 Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data.
 Aßhauer KP1, Wemheuer B2, Daniel R2, Meinicke P1.
 
-### paprica
-
-Nov 10, 2019
-https://github.com/bowmanjeffs/paprica
-PAthway PRediction by phylogenetIC plAcement
-
-August 18, 2015 by Jeff
-https://www.polarmicrobes.org/introducing-paprica/
-Introducing PAPRICA | The Bowman Lab
-
 ### Piphillin
 http://piphillin.secondgenome.com/
 
@@ -97,7 +87,7 @@ Iwai S1, Weinmaier T1, Schmidt BL2, Albertson DG2,3, Poloso NJ4, Dabbagh K1, DeS
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5098786/
 Table 2
 Piphillin has less pre-requisites than PICRUSt and Tax4Fun.
-![https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0166104.t002](https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0166104.t002&size=medium)
+https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0166104.t002
 
 https://www.pediatricsurgery.site/entry/2017/03/13/152234
 16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
@@ -107,6 +97,35 @@ https://www.pediatricsurgery.site/entry/2017/03/13/152234
 2016-08-13
 http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
 予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
+
+### paprica
+
+Nov 10, 2019
+https://github.com/bowmanjeffs/paprica
+PAthway PRediction by phylogenetIC plAcement
+
+August 18, 2015 by Jeff
+https://www.polarmicrobes.org/introducing-paprica/
+Introducing PAPRICA | The Bowman Lab
+
+### 
+
+https://www.nature.com/articles/s41579-018-0029-9
+Best practices for analysing microbiomes
+
+Predictive functional profiling38,39,40,41 is a technique for linking marker gene data with available microbial genomes to make predictions about metagenomic content and thus the putative biological functions of a microbial community. This analysis generally requires a reference-based OTU table. Methods based on evolutionary models (for example, PICRUSt39) provide confidence intervals on these predictions of gene content, which will tend to be wider in regions of the tree distant from reference genome sequences and narrower where many reference genomes are available. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26409790
+BMC Res Notes. 2015 Sep 26;8:479. doi: 10.1186/s13104-015-1462-8.
+PanFP: pangenome-based functional profiles for microbial communities.
+Jun SR1,2, Robeson MS3,4, Hauser LJ5, Schadt CW6,7, Gorin AA8.
+
+https://www.ncbi.nlm.nih.gov/pubmed/23149747
+Nat Commun. 2012;3:1203. doi: 10.1038/ncomms2203.
+Virtual metagenome reconstruction from 16S rRNA gene sequences.
+Okuda S1, Tsuchiya Y, Kiriyama C, Itoh M, Morisaki H.
+
+
 
 ----------
 ### 
