@@ -33,7 +33,13 @@
 ----------
 ## metabolic inference
 
+https://twitter.com/search?q=PICRUSt%20lang%3Aja&f=live
+
 ### PICRUSt
+
+https://twitter.com/NoahFierer/status/1179101529044766720
+Noah Fierer on Twitter: "PiCrust2: when you want to predict metagenomes slightly better than random (sometimes) https://t.co/4FGgo4oAHN" / Twitter
+3:31 AM · Oct 2, 2019
 
 Posted June 15, 2019.
 https://www.biorxiv.org/content/10.1101/672295v1
@@ -98,27 +104,9 @@ https://www.pediatricsurgery.site/entry/2017/03/13/152234
 下記の図にPICRUStとTax4Funに必要な条件がまとめられています。
 ![](http://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0166104.t002)
 
-
-
-
-
-
-Apr 30, 2017
-https://twitter.com/windowmoon/status/858615467010703360
-(1) 窓月＠低度AI人材 on Twitter: "PICRUStによる機能プロファイリングってどれくらい信用できるもんなんだ？ヒト腸内細菌叢なら研究が進んでるからいいだろうけど、海や湖、河川や土壌は？メタトランスクリプトームやショットガンメタゲノムと比較してる研究どれくらいあるのかな。探せばいいんだが、そこまでやってる暇が…。" / Twitter
-https://twitter.com/windowmoon/status/858668094083874818
-Tax4Funの論文でも同様の比較をやってますが、土壌がやたら良くて(謎)、ヒトも良いですが、哺乳類腸内細菌叢は少し悪化、高塩環境はちょいヤバゲという感じですね。やっぱり陸水海洋がないのですが。
-https://twitter.com/tksmiki/status/858803605435854848
-ヨーロッパの某湖一つでちょっと前にやったんですが、メタゲノムのうち、6-8割、5割しかTax4funとpapricaで予測できませんでした。かつ、時期の異なるサンプル間でメタゲノムは2-4割組成が違うのに、予測メタゲノム組成の違いは1割以下。今保留にしてます。
-7:01 AM · May 1, 2017
-
-https://twitter.com/razumall/status/835437553251557376
-Razumall on Twitter: "同じ予測メタゲノム解析の論文でもPICRUStはNature biotechnologyでTax4FunはBioinformaticsだけど、Piphillinの掲載論文はPLoS One。目新しさがなくなったということなのか。インフォマの人たちIFにこだわらない印象はあるけど。" / Twitter
-7:33 PM · Feb 25, 2017
-
 2016-08-13
 http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
-時系列でのバクテリア群集の機能組成の編成を追跡したいが、全サンプルでメタゲノムをとることはできないので、バクテリアの群集組成(16S rRNA gene)から機能遺伝子の組成を予測したい（KEGGオーソログリストがほしい）。予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、そのうちPICRUStは更新されていないようだし,インストール時にライブラリーのバージョン違いでうまくいかないし、Silvaの分類フォーマットを受け入れてくれないので使うのをあきらめて、残り二つの性能を比較する必要がある。そのために群集組成と同時にメタゲノム組成を取ってるサブサンプルと照合してどっちがいいか決めている最中。papricaは共同研究者にやってもらっている。papricaはOTUごとの機能遺伝子組成を予測してくれるけど、Rで動くTax4Funは全OTUまとめての予測しか返してくれない。ひとつのOTUだけをTax4Funに入れてもエラーになるので、ダミーのOTU（個体数0）を用意して形式上2OTUからなる群集をインプットにしたらうまくいく。
+予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
 
 ----------
 ### 
