@@ -10,7 +10,6 @@
 - [harvest](#harvest)
 - [reordering-contigs](#reordering-contigs)
   - [eggnog](#eggnog)
-  - [Tax4Fun](#tax4fun)
   - [diamond](#diamond)
   - [cd-hit](#cd-hit)
   - [usearch](#usearch)
@@ -21,7 +20,6 @@
 - [annotation](#annotation)
   - [dfast](#dfast)
   - [prokka](#prokka)
-- [metagenomics](#metagenomics)
 - [growth rate](#growth-rate) 増殖速度
 - [resistance](#resistance) 耐性
 - [people](#people)
@@ -41,7 +39,6 @@
 - [phage](#phage)
 - [primer](#primer)
 - [GWAS](#gwas)
-- [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 - [genome report](#genome-report)
 - [database](#database)
 - [metadata](#metadata)
@@ -62,14 +59,105 @@
 - [MinHash](#minhash)
 - [Genome alignment](#genome-alignment)
 
+
+
 ----------
 ### 
 
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
-生態学のためのメタバーコーディングとDNAバーコーディング
-田辺晶史
-2018年5月8日
+
+
+https://twitter.com/copypasteusa/status/1132305387472822273
+Haruo Suzuki on Twitter: "微生物ゲノム配列データ解析ウェブサーバ M1CR0B1AL1Z3R（microbializerと発音） https://t.co/5Yybee5kfG ProdigalでORF予測。MMSEQS2(tBlastX)で相同性検索し双方向ベストヒットによるオーソログ同定。MAFFTで多重整列し、RAxMLでコア遺伝子結合データの系統樹作成。GC含量 https://t.co/4WlNgw9YQy"
+12:20 AM · May 26, 2019
+
+
+----------
+### Tychus
+
+https://www.biorxiv.org/content/early/2018/03/16/283101
+Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
+
+Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
+
+https://github.com/Abdo-Lab/Tychus
+
+
+
+
+
+----------
+### ASaiM
+https://www.biorxiv.org/content/early/2017/09/04/183970
+ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
+
+Published on Jul 9, 2015
+https://www.slideshare.net/bebatut/asaim-an-environment
+JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
+
+https://twitter.com/galaxyproject/status/794453380202725376
+Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
+
+
+
+
+----------
+### diamond
+https://ab.inf.uni-tuebingen.de/software/diamond/
+https://github.com/bbuchfink/diamond
+blastx
+
+https://www.ncbi.nlm.nih.gov/pubmed/25402007
+Nat Methods. 2015 Jan;12(1):59-60. doi: 10.1038/nmeth.3176. Epub 2014 Nov 17.
+Fast and sensitive protein alignment using DIAMOND.
+Buchfink B1, Xie C2, Huson DH3.
+
+https://twitter.com/windowmoon/status/916248116193456129
+窓月＠低度AI人材 on Twitter: "DIAMONDはBLASTNをサポートしてないし、原理上アミノ酸配列データベースでしか高速化が機能しない。核酸配列データベースの超高速ローカルアライメント検索できるアプリが欲しい。"
+1:25 PM · Oct 6, 2017
+
+http://kazumaxneo.hatenablog.com/entry/2017/08/24/150512
+BLASTとコンパチブルで高速なホモロジー検索ツール Diamond - macでインフォマティクス
+
+2015-12-28
+https://ang65.hatenadiary.org/entry/20151228/1451307913
+高速なタンパク質配列相同性検索ツール「DIAMOND」 - それなりにマジメなメモ
+
+
+
+----------
+
+## eggnog
+EggNOG Database | Orthology predictions and functional annnotaion
+
+http://eggnogdb.embl.de/#/app/emapper
+
+https://twitter.com/yokadzaki/status/958651006702661632
+Yusuke Okazaki on Twitter: "eggNOG-mapper便利。"https://t.co/pWUltPTHld -i <input.fa> -o <outname> -m diamond --cpu <ncpu>"でアミノ酸FASTA投げたら全自動でアノテーションしてCOGカテゴリとKO番号まで出してくれる。こいつとpVOGを併せて使えば環境ウイルスメタゲノムでも40%弱のORFに一応アノテーションがついた"
+5:39 AM - 31 Jan 2018
+
+http://www.geocities.jp/ancientfishtree/phyMarker.html
+系統推定 - Jun Inoue
+
+巨大な配列データセットの機能アノテーションを行う eggNOG-Mapper の報告．スタンドアローンとオンライン・サービスがある．eggNOG データベースで，すでに推定されているオーソログクラスターと系統樹を用いることで，高速化．
+
+https://www.ncbi.nlm.nih.gov/pubmed/28460117
+Mol Biol Evol. 2017 Aug 1;34(8):2115-2122. doi: 10.1093/molbev/msx148.
+Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper.
+Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Mering C2,3, Bork P1,5,6,7.
+
+
+
+
+
+
+
+----------
+
+
+
+
+
+
 
 ----------
 ### holt Lab
@@ -308,6 +396,17 @@ https://www.nite.go.jp/nbrc/safety/risk_assessment.html
 菌種の同定法　～ Average Nucleotide Identity （ANI）について～
 ![](https://www.nite.go.jp/data/000060544.png)
 
+https://www.ncbi.nlm.nih.gov/pubmed/17220447
+Int J Syst Evol Microbiol. 2007 Jan;57(Pt 1):81-91.
+DNA-DNA hybridization values and their relationship to whole-genome sequence similarities.
+Goris J1, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15701695
+Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2567-72. Epub 2005 Feb 8.
+Genomic insights that advance the species definition for prokaryotes.
+Konstantinidis KT1, Tiedje JM.
+
+
 ----------
 ## species
 
@@ -341,6 +440,7 @@ Small Things Considered: Do bacterial species really exist and why should we car
 ## taxonomy
 ### gtdb
 Genome Taxonomy Database
+http://gtdb.ecogenomic.org/
 
 https://twitter.com/kazumachack/status/1188583676772093952
 Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。 普遍的な single-copy proteinsに基… https://t.co/EbOtcaM4z5"
@@ -349,8 +449,17 @@ Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在�
 http://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
 普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
 
-http://gtdb.ecogenomic.org/
-Genome Taxonomy Database
+https://www.ncbi.nlm.nih.gov/pubmed/31778148
+Bioinformatics. 2019 Nov 28. pii: btz899. doi: 10.1093/bioinformatics/btz899. [Epub ahead of print]
+Struo: a pipeline for building custom databases for common metagenome profilers.
+de la Cuesta-Zuluaga J1, Ley RE1, Youngblut ND1.
+AVAILABILITY AND IMPLEMENTATION:
+Source code available for download at https://github.com/leylabmpi/Struo. Custom GTDB databases available at http://ftp.tue.mpg.de/ebio/projects/struo/.
+
+https://www.ncbi.nlm.nih.gov/pubmed/31730192
+Bioinformatics. 2019 Nov 15. pii: btz848. doi: 10.1093/bioinformatics/btz848. [Epub ahead of print]
+GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database.
+Chaumeil PA1, Mussig AJ1, Hugenholtz P1, Parks DH1.
 
 https://www.ncbi.nlm.nih.gov/pubmed/30148503
 Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
@@ -630,39 +739,14 @@ http://www.microbesonline.org/
 phylogenetic profile
 
 
-2019年09月02日
-https://qiita.com/xvtyzn/items/6a008b61d852dcbaed57
-Qiime2を使ったメタゲノム解析パイプライン
-
-http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
-QIIME2インストールの方法解説 | Rとバイオインフォマティクス
-
-
 https://github.com/kblin/ncbi-genome-download
 kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
 
 
-https://twitter.com/sjackman/status/1045005404227362817
-Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
-1:41 PM - 26 Sep 2018
 
 https://twitter.com/torstenseemann/status/1013354894730772480
 Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
 5:33 AM - 1 Jul 2018
-
-https://twitter.com/i/moments/1000738412117147648
-All metagenomes searched at once?
-
-
-
-https://twitter.com/tylerbarnumphd/status/1010247842772815872
-Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the ~8,000 Uncultivated Bacteria and Archaea (UBA) genomes from @donovan_parks. It's the largest collection of genomes that you can't search for on BLAST or IMG. ~1,500 metagenomes. https://t.co/PgavpbmsQg Feedback welcome!"
-3:47 PM - 22 Jun 2018
-
-https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and-archaea-uba-genomes-for-important-genes/
-Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
-June 22, 2018
-
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/26013493
@@ -993,20 +1077,6 @@ https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item
 
 
 
-
-----------
-
-### cognizer
-
-https://omictools.com/cognizer-tool
-This tool is not available anymore.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26561344
-PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eCollection 2015.
-COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
-Bose T1, Haque MM1, Reddy C1, Mande SS1.
-The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
-
 ----------
 ## distribution
 遺伝子の系統分布
@@ -1287,6 +1357,24 @@ Nucleic Acids Res. 2017 Jan 4;45(D1):D446-D456. doi: 10.1093/nar/gkw992. Epub 20
 Genomes OnLine Database (GOLD) v.6: data updates and feature enhancements.
 
 ### microbe-directory
+
+
+https://www.biorxiv.org/content/10.1101/2019.12.20.860569v1
+The Microbe Directory v2.0: An Expanded Database of Ecological and Phenotypical Features of Microbes. | bioRxiv
+https://www.biorxiv.org/content/10.1101/2019.12.20.860569v1.full.pdf
+Data Availability and Contribution
+A web interface for the Microbe Directory may be found at https://microbe.directory. Source code
+for collating and cleaning tables along with a CSV spreadsheet version of the database may be found at
+the GitHub repository https://github.com/dcdanko/MD2. 
+
+- https://microbe.directory
+- https://github.com/dcdanko/MD2
+
+
+
+
+
+
 
 https://github.com/microbe-directory/microbe-directory
 ```
@@ -1707,103 +1795,6 @@ http://kazumaxneo.hatenablog.com/entry/2017/11/26/205234
 
 https://www.cbcb.umd.edu/software/harvest
 Harvest | CBCB
-
-
-----------
-### ASaiM
-https://www.biorxiv.org/content/early/2017/09/04/183970
-ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
-
-Published on Jul 9, 2015
-https://www.slideshare.net/bebatut/asaim-an-environment
-JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
-
-https://twitter.com/galaxyproject/status/794453380202725376
-Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
-
-----------
-### Tax4Fun
-
-2017/4/30
-http://ja.whotwi.com/windowmoon/tweets/user/tksmiki
-@tksmiki Tax4Funの論文でも同様の比較をやってますが、土壌がやたら良くて(謎)、ヒトも良いですが、哺乳類腸内細菌叢は少し悪化、高塩環境はちょいヤバゲという感じですね。やっぱり陸水海洋がないのですが。
-
-30 Apr 2017
-https://twitter.com/tksmiki/status/858803605435854848
-ヨーロッパの某湖一つでちょっと前にやったんですが、メタゲノムのうち、6-8割、5割しかTax4funとpapricaで予測できませんでした。かつ、時期の異なるサンプル間でメタゲノムは2-4割組成が違うのに、予測メタゲノム組成の違いは1割以下。今保留にしてます。
-
-http://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
-16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
-
-2017年02月26日(日)
-http://tweez.net/razumall/archive/7/
-同じ予測メタゲノム解析の論文でもPICRUStはNature biotechnologyでTax4FunはBioinformaticsだけど、Piphillinの掲載論文はPLoS One。目新しさがなくなったということなのか。インフォマの人たちIFにこだわらない印象はあるけど。
-
-2016-08-13
-http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
-バクテリアの群集組成(16S rRNA gene)から機能遺伝子の組成を予測したい（KEGGオーソログリストがほしい）。予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
-
-----------
-### diamond
-https://ab.inf.uni-tuebingen.de/software/diamond/
-https://github.com/bbuchfink/diamond
-blastx
-
-https://www.ncbi.nlm.nih.gov/pubmed/25402007
-Nat Methods. 2015 Jan;12(1):59-60. doi: 10.1038/nmeth.3176. Epub 2014 Nov 17.
-Fast and sensitive protein alignment using DIAMOND.
-Buchfink B1, Xie C2, Huson DH3.
-
-https://twitter.com/windowmoon/status/916248116193456129
-窓月＠低度AI人材 on Twitter: "DIAMONDはBLASTNをサポートしてないし、原理上アミノ酸配列データベースでしか高速化が機能しない。核酸配列データベースの超高速ローカルアライメント検索できるアプリが欲しい。"
-1:25 PM · Oct 6, 2017
-
-http://kazumaxneo.hatenablog.com/entry/2017/08/24/150512
-BLASTとコンパチブルで高速なホモロジー検索ツール Diamond - macでインフォマティクス
-
-2015-12-28
-https://ang65.hatenadiary.org/entry/20151228/1451307913
-高速なタンパク質配列相同性検索ツール「DIAMOND」 - それなりにマジメなメモ
-
-----------
-### Tychus
-
-https://www.biorxiv.org/content/early/2018/03/16/283101
-Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
-
-Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
-
-https://github.com/Abdo-Lab/Tychus
-
-----------
-
-## eggnog
-EggNOG Database | Orthology predictions and functional annnotaion
-
-http://eggnogdb.embl.de/#/app/emapper
-
-https://twitter.com/yokadzaki/status/958651006702661632
-Yusuke Okazaki on Twitter: "eggNOG-mapper便利。"https://t.co/pWUltPTHld -i <input.fa> -o <outname> -m diamond --cpu <ncpu>"でアミノ酸FASTA投げたら全自動でアノテーションしてCOGカテゴリとKO番号まで出してくれる。こいつとpVOGを併せて使えば環境ウイルスメタゲノムでも40%弱のORFに一応アノテーションがついた"
-5:39 AM - 31 Jan 2018
-
-http://www.geocities.jp/ancientfishtree/phyMarker.html
-系統推定 - Jun Inoue
-
-巨大な配列データセットの機能アノテーションを行う eggNOG-Mapper の報告．スタンドアローンとオンライン・サービスがある．eggNOG データベースで，すでに推定されているオーソログクラスターと系統樹を用いることで，高速化．
-
-https://www.ncbi.nlm.nih.gov/pubmed/28460117
-Mol Biol Evol. 2017 Aug 1;34(8):2115-2122. doi: 10.1093/molbev/msx148.
-Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper.
-Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Mering C2,3, Bork P1,5,6,7.
-
-
-
-
-
-
-
-----------
-
 
 
 
@@ -2995,27 +2986,13 @@ http://first.lifesciencedb.jp/from_dbcls/e0001
 http://staffblog.amelieff.jp/entry/2011/05/24/180000
 誰でも簡単にPrimer設計！への道 ~Primer3について~
 
-
-----------
-## CAMI
-Critical Assessment of Metagenome Interpretation
-
-https://twitter.com/CAMI_challenge
-
-https://msystems.asm.org/content/3/4/e00103-18
-Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
-
-Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28967888
-Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
-Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
-
-
 ----------
 ### phage
 
-
+https://www.ncbi.nlm.nih.gov/pubmed/31086982
+Bioinformatics. 2019 Nov 1;35(21):4402-4404. doi: 10.1093/bioinformatics/btz258.
+multiPhATE: bioinformatics pipeline for functional annotation of phage isolates.
+Ecale Zhou CL1, Malfatti S1, Kimbrel J1, Philipson C2,3, McNair K4, Hamilton T2, Edwards R4, Souza B1.
 
 ### 
 
@@ -3033,10 +3010,6 @@ Frontiers | Comparative Genomic Analysis of 130 Bacteriophages Infecting Bacteri
 
 
 ### 
-
-Published: 14 May 2019
-https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz258/5488969
-multiPhATE: bioinformatics pipeline for functional annotation of phage isolates | Bioinformatics | Oxford Academic
 
 http://kazumaxneo.hatenablog.com/entry/2019/05/30/073000
 ファージゲノムのORFを予測する PHANOTATE - macでインフォマティクス
