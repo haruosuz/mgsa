@@ -27,6 +27,7 @@
 - [metabolic inference](#metabolic-inference)
   - [PICRUSt](#tax4fun)
   - [Tax4Fun](#tax4fun)
+  - [themetagenomics](#themetagenomics)
   - [paprica](#paprica)
   - [Piphillin](#piphillin)
 
@@ -73,10 +74,39 @@ DADA2からPICRUStへ
 http://tax4fun.gobics.de/
 Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data
 
+09 Dec 2018
+http://europepmc.org/article/PPR/PPR64283
+Tax4Fun2: a R-based tool for the rapid prediction of habitat-specific functional profiles and functional redundancy based on 16S rRNA gene marker gene sequences - Abstract - Europe PMC
+https://www.biorxiv.org/content/10.1101/490037v1
+https://www.biorxiv.org/content/10.1101/490037v1.full.pdf
+In recent years, several freely available tools such as PICRUSt10, Tax4Fun11, Piphillin12, Faprotax13 and paprica14 have been developed. 
+
 https://www.ncbi.nlm.nih.gov/pubmed/25957349
 Bioinformatics. 2015 Sep 1;31(17):2882-4. doi: 10.1093/bioinformatics/btv287. Epub 2015 May 7.
 Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data.
 Aßhauer KP1, Wemheuer B2, Daniel R2, Meinicke P1.
+
+### themetagenomics
+https://github.com/EESI/themetagenomics
+themetagenomics provides functions to explore topics generated from 16S rRNA sequencing information on both the abundance and functional levels. It also provides an R implementation of PICRUSt and wraps Tax4fun, giving users a choice for their functional prediction strategy.
+
+Posted June 21, 2019.
+https://www.biorxiv.org/content/10.1101/678110v1
+Themetagenomics: Exploring Thematic Structure and Predicted Functionality of 16s rRNA Amplicon Data | bioRxiv
+https://www.biorxiv.org/content/10.1101/678110v1.full.pdf
+Standard methods that predict function from 16S rRNA survey data include PICRUSt, Tax4fun, Piphillin, and SINAPS [14–17]. 
+
+https://github.com/EESI/themetagenomics/issues/10
+Package 'themetagenomics' removed from CRAN · Issue #10 · EESI/themetagenomics
+The R package on CRAN was removed apparently because of "check errors":
+https://cran.r-project.org/web/packages/themetagenomics/index.html
+```
+Package ‘themetagenomics’ was removed from the CRAN repository.
+
+Formerly available versions can be obtained from the archive.
+
+Archived on 2019-12-21 as check problems were not corrected in time.
+```
 
 ### paprica
 
