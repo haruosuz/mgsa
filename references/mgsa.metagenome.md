@@ -27,7 +27,7 @@
 - [metabolic inference](#metabolic-inference)
   - [PICRUSt](#tax4fun)
   - [Tax4Fun](#tax4fun)
-  - [themetagenomics](#themetagenomics)
+  - [themetagenomics](#themetagenomics) # removed from CRAN
   - [paprica](#paprica)
   - [Piphillin](#piphillin)
 
