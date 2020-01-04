@@ -25,15 +25,16 @@
 - [amplicon-shotgun](#amplicon-shotgun)
 - [HGT](#hgt)
 - [metabolic inference](#metabolic-inference)
-  - [PICRUSt](#tax4fun)
+  - [PICRUSt](#picrust)
   - [Tax4Fun](#tax4fun)
-  - [themetagenomics](#themetagenomics) # removed from CRAN
+  - [themetagenomics](#themetagenomics) removed from CRAN
   - [paprica](#paprica)
   - [Piphillin](#piphillin)
 
 ----------
 ## metabolic inference
-メタ16Sからメタゲノム機能推定　
+メタ16Sからメタゲノム機能推定
+
 日本語のツイート
 https://twitter.com/search?q=lang%3Aja%20(PICRUSt%20OR%20Tax4Fun%20OR%20Piphillin)&src=typed_query&f=live
 
@@ -140,6 +141,19 @@ http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
 予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
 
 ### 
+
+
+
+https://twitter.com/sai_kai_cs/status/1115428029235322880
+腸内細菌の16Sとメタゲノム比較論文。ちゃんと読んでないけど、PICRUStはPathwayレベルで相関係数0.80くらいのようだ 似てる経路もあれば似てない経路もある様子
+https://www.ncbi.nlm.nih.gov/pubmed/27148170
+Front Microbiol. 2016 Apr 20;7:459. doi: 10.3389/fmicb.2016.00459. eCollection 2016.
+Characterization of the Gut Microbiome Using 16S or Shotgun Metagenomics.
+Jovel J1, Patterson J1, Wang W1, Hotte N1, O'Keefe S1, Mitchel T1, Perry T1, Kao D1, Mason AL1, Madsen KL1, Wong GK2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837688/
+The software PICRUSt (Langille et al., 2013) can be used to infer metabolic capacity of the microbiome contained in 16S libraries.
+
+
 
 https://www.nature.com/articles/s41579-018-0029-9
 Best practices for analysing microbiomes
