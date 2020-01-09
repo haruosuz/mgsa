@@ -284,9 +284,24 @@ June 22, 2018
 
 ## updates
 
+### 2020
+
+https://twitter.com/gggtta/status/1215107137476513792
+サンプル中に含まれるOTUやバクテリアの相対存在量のプロファイルがまとまった、サンプル数×OTU数の行列のデータベースってどこかにないかな？
+12:04 PM · Jan 9, 2020
+
+
 ### 2019
 
+https://qiita.com/advent-calendar/2019/metagenome
+メタゲノム Advent Calendar 2019 - Qiita
 
+https://qiita.com/hi-mori/items/a1d3e0923f2cc85edb84
+メタゲノムの情報解析が学べるWeb教材（スライドや動画） - Qiita
+
+https://qiita.com/Yohei__K/items/dffc8767581bfbaad812
+メタゲノムのイケてるネットワーク解析手法、WGCNA解説 - Qiita
+R packageに関して
 
 https://www.ncbi.nlm.nih.gov/pubmed/31848574/
 Brief Bioinform. 2019 Dec 18. pii: bbz155. doi: 10.1093/bib/bbz155. [Epub ahead of print]
@@ -1089,6 +1104,12 @@ Claire Duvallet, Sean M. Gibbons, Thomas Gurry, Rafael A. Irizarry & Eric J. Alm
 ### Mori
 
 https://researchmap.jp/himori/
+
+2019年9月25日
+https://github.com/AJACS-training/AJACS79
+15:30-17:00　メタゲノム解析ツール ……森 宙史（国立遺伝学研究所）
+https://togotv.dbcls.jp/ajacs2019033.html
+メタゲノム解析ツール｜統合TV(togotv)
 
 http://doi.org/10.7875/ajacs.2017.016
 開催日時：2017-08-31
