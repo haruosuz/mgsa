@@ -14,172 +14,23 @@
 - [book](#book)
 - [video](#video)
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
-- [MGnify](#mgnify) EBI metagenomics
+- [batch effect](#batch-effect)
 - [meta-analysis](#meta-analysis)
 - [people](#people)
+[duvallet](#duvallet) Claire Duvallet
 [Mori](#mori)
 [Rocha](#rocha)
-  - [duvallet](#duvallet) Claire Duvallet
 - [mothur-qiime](#mothur-qiime)
 - [16S](#16s)
 - [amplicon-shotgun](#amplicon-shotgun)
-- [HGT](#hgt)
 - [metabolic inference](#metabolic-inference)
   - [PICRUSt](#picrust)
   - [Tax4Fun](#tax4fun)
   - [themetagenomics](#themetagenomics) removed from CRAN
   - [paprica](#paprica)
   - [Piphillin](#piphillin)
-
-----------
-## metabolic inference
-メタ16Sからメタゲノム機能推定
-
-日本語のツイート
-https://twitter.com/search?q=lang%3Aja%20(PICRUSt%20OR%20Tax4Fun%20OR%20Piphillin)&src=typed_query&f=live
-
-### PICRUSt
-
-https://twitter.com/NoahFierer/status/1179101529044766720
-Noah Fierer on Twitter: "PiCrust2: when you want to predict metagenomes slightly better than random (sometimes) https://t.co/4FGgo4oAHN" / Twitter
-3:31 AM · Oct 2, 2019
-
-Posted June 15, 2019.
-https://www.biorxiv.org/content/10.1101/672295v1
-PICRUSt2: An improved and extensible approach for metagenome inference | bioRxiv
-https://github.com/picrust/picrust2
-Please note that PICRUSt2 is currently in beta.
-https://github.com/picrust/picrust2/wiki
-PICRUSt2 (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States) is a software for predicting functional abundances based only on marker gene sequences.
-
-https://en.wikipedia.org/wiki/PICRUSt
-
-http://picrust.github.io/picrust/
-Please note that PICRUSt2 is now available. PICRUSt2 is a re-written version of PICRUSt and is available here. We are no longer developing PICRUSt1 and we recommend users shift to PICRUSt2.
-
-http://anonym.hatenablog.jp/entry/2018/10/25/172452
-QIIME2でPICRUSt2が利用可能になったらしい
-http://anonym.hatenablog.jp/entry/2018/09/10/183941
-細菌叢解析におけるFunctional Inference
-PICRUSt
-PICRUSt2
-Tax4Fun
-Piphillin
-SINAPS
-http://anonym.hatenablog.jp/entry/2018/07/05/100753
-PICRUSt2を使用してみる
-http://anonym.hatenablog.jp/entry/2018/03/12/123658
-DADA2からPICRUStへ
-
-### Tax4Fun
-http://tax4fun.gobics.de/
-Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data
-
-09 Dec 2018
-http://europepmc.org/article/PPR/PPR64283
-Tax4Fun2: a R-based tool for the rapid prediction of habitat-specific functional profiles and functional redundancy based on 16S rRNA gene marker gene sequences - Abstract - Europe PMC
-https://www.biorxiv.org/content/10.1101/490037v1
-https://www.biorxiv.org/content/10.1101/490037v1.full.pdf
-In recent years, several freely available tools such as PICRUSt10, Tax4Fun11, Piphillin12, Faprotax13 and paprica14 have been developed. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/25957349
-Bioinformatics. 2015 Sep 1;31(17):2882-4. doi: 10.1093/bioinformatics/btv287. Epub 2015 May 7.
-Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data.
-Aßhauer KP1, Wemheuer B2, Daniel R2, Meinicke P1.
-
-### themetagenomics
-https://github.com/EESI/themetagenomics
-themetagenomics provides functions to explore topics generated from 16S rRNA sequencing information on both the abundance and functional levels. It also provides an R implementation of PICRUSt and wraps Tax4fun, giving users a choice for their functional prediction strategy.
-
-Posted June 21, 2019.
-https://www.biorxiv.org/content/10.1101/678110v1
-Themetagenomics: Exploring Thematic Structure and Predicted Functionality of 16s rRNA Amplicon Data | bioRxiv
-https://www.biorxiv.org/content/10.1101/678110v1.full.pdf
-Standard methods that predict function from 16S rRNA survey data include PICRUSt, Tax4fun, Piphillin, and SINAPS [14–17]. 
-
-https://github.com/EESI/themetagenomics/issues/10
-Package 'themetagenomics' removed from CRAN · Issue #10 · EESI/themetagenomics
-The R package on CRAN was removed apparently because of "check errors":
-https://cran.r-project.org/web/packages/themetagenomics/index.html
-```
-Package ‘themetagenomics’ was removed from the CRAN repository.
-
-Formerly available versions can be obtained from the archive.
-
-Archived on 2019-12-21 as check problems were not corrected in time.
-```
-
-### paprica
-
-Nov 10, 2019
-https://github.com/bowmanjeffs/paprica
-PAthway PRediction by phylogenetIC plAcement
-
-August 18, 2015 by Jeff
-https://www.polarmicrobes.org/introducing-paprica/
-Introducing PAPRICA | The Bowman Lab
-
-### Piphillin
-http://piphillin.secondgenome.com/
-
-https://www.ncbi.nlm.nih.gov/pubmed/27820856
-PLoS One. 2016 Nov 7;11(11):e0166104. doi: 10.1371/journal.pone.0166104. eCollection 2016.
-Piphillin: Improved Prediction of Metagenomic Content by Direct Inference from Human Microbiomes.
-Iwai S1, Weinmaier T1, Schmidt BL2, Albertson DG2,3, Poloso NJ4, Dabbagh K1, DeSantis TZ1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5098786/
-Table 2
-Piphillin has less pre-requisites than PICRUSt and Tax4Fun.
-https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0166104.t002
-
-https://www.pediatricsurgery.site/entry/2017/03/13/152234
-16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
-下記の図にPICRUStとTax4Funに必要な条件がまとめられています。
-![](http://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0166104.t002)
-
-2016-08-13
-http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
-予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
-
-### 
-
-
-
-https://twitter.com/sai_kai_cs/status/1115428029235322880
-腸内細菌の16Sとメタゲノム比較論文。ちゃんと読んでないけど、PICRUStはPathwayレベルで相関係数0.80くらいのようだ 似てる経路もあれば似てない経路もある様子
-https://www.ncbi.nlm.nih.gov/pubmed/27148170
-Front Microbiol. 2016 Apr 20;7:459. doi: 10.3389/fmicb.2016.00459. eCollection 2016.
-Characterization of the Gut Microbiome Using 16S or Shotgun Metagenomics.
-Jovel J1, Patterson J1, Wang W1, Hotte N1, O'Keefe S1, Mitchel T1, Perry T1, Kao D1, Mason AL1, Madsen KL1, Wong GK2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837688/
-The software PICRUSt (Langille et al., 2013) can be used to infer metabolic capacity of the microbiome contained in 16S libraries.
-
-
-
-https://www.nature.com/articles/s41579-018-0029-9
-Best practices for analysing microbiomes
-
-Predictive functional profiling38,39,40,41 is a technique for linking marker gene data with available microbial genomes to make predictions about metagenomic content and thus the putative biological functions of a microbial community. This analysis generally requires a reference-based OTU table. Methods based on evolutionary models (for example, PICRUSt39) provide confidence intervals on these predictions of gene content, which will tend to be wider in regions of the tree distant from reference genome sequences and narrower where many reference genomes are available. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/26409790
-BMC Res Notes. 2015 Sep 26;8:479. doi: 10.1186/s13104-015-1462-8.
-PanFP: pangenome-based functional profiles for microbial communities.
-Jun SR1,2, Robeson MS3,4, Hauser LJ5, Schadt CW6,7, Gorin AA8.
-
-https://www.ncbi.nlm.nih.gov/pubmed/23149747
-Nat Commun. 2012;3:1203. doi: 10.1038/ncomms2203.
-Virtual metagenome reconstruction from 16S rRNA gene sequences.
-Okuda S1, Tsuchiya Y, Kiriyama C, Itoh M, Morisaki H.
-
-
-
-----------
-### 
-
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
-生態学のためのメタバーコーディングとDNAバーコーディング
-田辺晶史
-2018年5月8日
+- [HGT](#hgt)
+- [MGnify](#mgnify) EBI metagenomics
 
 
 ----------
@@ -225,26 +76,8 @@ MGnify: the microbiome analysis resource in 2020.
 Mitchell AL1, Almeida A1,2, Beracochea M1, Boland M1, Burgin J1, Cochrane G1, Crusoe MR3, Kale V1, Potter SC1, Richardson LJ1, Sakharova E1, Scheremetjew M1, Korobeynikov A4, Shlemov A4, Kunyavskaya O4, Lapidus A4, Finn RD1.
 https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1035/5614179
 
-
 https://integbio.jp/dbcatalog/record/nbdc01916
 EBI Metagenomics は 対象範囲変更にあわせて名称をMgnifyに変更しました。こちらはすべてのメタゲノミクス研究者を支援することを目的とした、自由に利用可能なリソースです。メタゲノムデータを自動的に解析･保存するパイプラインとして機能します。系統発生の多様性の他、サンプルの機能的および代謝的ポテンシャルについての知見を提供することを目的としています。リポジトリ内のすべての公開データは、自由に参照することができます。
-
-----------
-## CAMI
-Critical Assessment of Metagenome Interpretation
-
-https://twitter.com/CAMI_challenge
-
-https://msystems.asm.org/content/3/4/e00103-18
-Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
-
-Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28967888
-Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
-Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
-
-
 
 ----------
 ## featuring
@@ -254,9 +87,6 @@ metagenome カテゴリーの記事一覧 - macでインフォマティクス
 
 http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
 メタゲノム解析ツール - macでインフォマティクス
-
-
-
 
 2019年09月02日
 https://qiita.com/xvtyzn/items/6a008b61d852dcbaed57
@@ -280,15 +110,28 @@ https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and
 Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
 June 22, 2018
 
+
+https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
+https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
+生態学のためのメタバーコーディングとDNAバーコーディング
+田辺晶史
+2018年5月8日
+
+
+
+
+
 ----------
 
 ## updates
 
 ### 2020
 
+
 https://twitter.com/gggtta/status/1215107137476513792
-サンプル中に含まれるOTUやバクテリアの相対存在量のプロファイルがまとまった、サンプル数×OTU数の行列のデータベースってどこかにないかな？
+松本 on Twitter: "サンプル中に含まれるOTUやバクテリアの相対存在量のプロファイルがまとまった、サンプル数×OTU数の行列のデータベースってどこかにないかな？" / Twitter
 12:04 PM · Jan 9, 2020
+
 
 
 ### 2019
@@ -617,6 +460,27 @@ The COGNIZER framework includes a cross-mapping database that enables end-users 
 
 
 
+
+----------
+## CAMI
+Critical Assessment of Metagenome Interpretation
+
+https://twitter.com/CAMI_challenge
+
+https://msystems.asm.org/content/3/4/e00103-18
+Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
+
+Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
+
+https://www.ncbi.nlm.nih.gov/pubmed/28967888
+Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
+Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
+
+
+
+
+
+
 ----------
 ## batch effect
 
@@ -766,15 +630,6 @@ Microbiome. 2015 Oct 13;3:49. doi: 10.1186/s40168-015-0108-3.
 Microbiota of the indoor environment: a meta-analysis.
 Adams RI1, Bateman AC2, Bik HM3,4, Meadow JF5.
 室内環境の微生物群集：メタアナリシス
-
-
-
-----------
-
-
-
-
-
 
 ----------
 ## mothur-qiime
@@ -1239,10 +1094,156 @@ https://www.jstage.jst.go.jp/article/kagakutoseibutsu/51/12/51_802/_pdf
 ヒト腸内メタゲノム解析が 広げる医療展開 - J-Stage
 化学と生物 Vol. 51, No. 12, 2013
 
+----------
+## metabolic inference
+メタ16Sからメタゲノム機能推定
+functional prediction
 
+日本語のツイート
+https://twitter.com/search?q=lang%3Aja%20(PICRUSt%20OR%20Tax4Fun%20OR%20Piphillin)&src=typed_query&f=live
+
+https://doi.org/10.7875/togotv.2019.203
+2019-12-16 メタゲノム解析ツール @ AJACS十勝2
+1:10:50 / 1:28:59
+アンプリコン解析データからの遺伝子機能組成推定
+
+### PICRUSt
+
+https://twitter.com/NoahFierer/status/1179101529044766720
+Noah Fierer on Twitter: "PiCrust2: when you want to predict metagenomes slightly better than random (sometimes) https://t.co/4FGgo4oAHN" / Twitter
+3:31 AM · Oct 2, 2019
+
+Posted June 15, 2019.
+https://www.biorxiv.org/content/10.1101/672295v1
+PICRUSt2: An improved and extensible approach for metagenome inference | bioRxiv
+https://github.com/picrust/picrust2
+Please note that PICRUSt2 is currently in beta.
+https://github.com/picrust/picrust2/wiki
+PICRUSt2 (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States) is a software for predicting functional abundances based only on marker gene sequences.
+
+https://en.wikipedia.org/wiki/PICRUSt
+
+http://picrust.github.io/picrust/
+Please note that PICRUSt2 is now available. PICRUSt2 is a re-written version of PICRUSt and is available here. We are no longer developing PICRUSt1 and we recommend users shift to PICRUSt2.
+
+http://anonym.hatenablog.jp/entry/2018/10/25/172452
+QIIME2でPICRUSt2が利用可能になったらしい
+http://anonym.hatenablog.jp/entry/2018/09/10/183941
+細菌叢解析におけるFunctional Inference
+PICRUSt
+PICRUSt2
+Tax4Fun
+Piphillin
+SINAPS
+http://anonym.hatenablog.jp/entry/2018/07/05/100753
+PICRUSt2を使用してみる
+http://anonym.hatenablog.jp/entry/2018/03/12/123658
+DADA2からPICRUStへ
+
+### Tax4Fun
+http://tax4fun.gobics.de/
+Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data
+
+09 Dec 2018
+http://europepmc.org/article/PPR/PPR64283
+Tax4Fun2: a R-based tool for the rapid prediction of habitat-specific functional profiles and functional redundancy based on 16S rRNA gene marker gene sequences - Abstract - Europe PMC
+https://www.biorxiv.org/content/10.1101/490037v1
+https://www.biorxiv.org/content/10.1101/490037v1.full.pdf
+In recent years, several freely available tools such as PICRUSt10, Tax4Fun11, Piphillin12, Faprotax13 and paprica14 have been developed. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/25957349
+Bioinformatics. 2015 Sep 1;31(17):2882-4. doi: 10.1093/bioinformatics/btv287. Epub 2015 May 7.
+Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data.
+Aßhauer KP1, Wemheuer B2, Daniel R2, Meinicke P1.
+
+### themetagenomics
+https://github.com/EESI/themetagenomics
+themetagenomics provides functions to explore topics generated from 16S rRNA sequencing information on both the abundance and functional levels. It also provides an R implementation of PICRUSt and wraps Tax4fun, giving users a choice for their functional prediction strategy.
+
+Posted June 21, 2019.
+https://www.biorxiv.org/content/10.1101/678110v1
+Themetagenomics: Exploring Thematic Structure and Predicted Functionality of 16s rRNA Amplicon Data | bioRxiv
+https://www.biorxiv.org/content/10.1101/678110v1.full.pdf
+Standard methods that predict function from 16S rRNA survey data include PICRUSt, Tax4fun, Piphillin, and SINAPS [14–17]. 
+
+https://github.com/EESI/themetagenomics/issues/10
+Package 'themetagenomics' removed from CRAN · Issue #10 · EESI/themetagenomics
+The R package on CRAN was removed apparently because of "check errors":
+https://cran.r-project.org/web/packages/themetagenomics/index.html
+```
+Package ‘themetagenomics’ was removed from the CRAN repository.
+
+Formerly available versions can be obtained from the archive.
+
+Archived on 2019-12-21 as check problems were not corrected in time.
+```
+
+### paprica
+
+Nov 10, 2019
+https://github.com/bowmanjeffs/paprica
+PAthway PRediction by phylogenetIC plAcement
+
+August 18, 2015 by Jeff
+https://www.polarmicrobes.org/introducing-paprica/
+Introducing PAPRICA | The Bowman Lab
+
+### Piphillin
+http://piphillin.secondgenome.com/
+
+https://www.ncbi.nlm.nih.gov/pubmed/27820856
+PLoS One. 2016 Nov 7;11(11):e0166104. doi: 10.1371/journal.pone.0166104. eCollection 2016.
+Piphillin: Improved Prediction of Metagenomic Content by Direct Inference from Human Microbiomes.
+Iwai S1, Weinmaier T1, Schmidt BL2, Albertson DG2,3, Poloso NJ4, Dabbagh K1, DeSantis TZ1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5098786/
+Table 2
+Piphillin has less pre-requisites than PICRUSt and Tax4Fun.
+https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0166104.t002
+
+https://www.pediatricsurgery.site/entry/2017/03/13/152234
+16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
+下記の図にPICRUStとTax4Funに必要な条件がまとめられています。
+![](http://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0166104.t002)
+
+2016-08-13
+http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
+予測のためのツールが３つ（PICRUSt, Tax4Fun, paprica）、
+
+### 
+
+
+https://twitter.com/sai_kai_cs/status/1115428029235322880
+腸内細菌の16Sとメタゲノム比較論文。ちゃんと読んでないけど、PICRUStはPathwayレベルで相関係数0.80くらいのようだ 似てる経路もあれば似てない経路もある様子
+https://www.ncbi.nlm.nih.gov/pubmed/27148170
+Front Microbiol. 2016 Apr 20;7:459. doi: 10.3389/fmicb.2016.00459. eCollection 2016.
+Characterization of the Gut Microbiome Using 16S or Shotgun Metagenomics.
+Jovel J1, Patterson J1, Wang W1, Hotte N1, O'Keefe S1, Mitchel T1, Perry T1, Kao D1, Mason AL1, Madsen KL1, Wong GK2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837688/
+The software PICRUSt (Langille et al., 2013) can be used to infer metabolic capacity of the microbiome contained in 16S libraries.
+
+
+
+https://www.nature.com/articles/s41579-018-0029-9
+Best practices for analysing microbiomes
+
+Predictive functional profiling38,39,40,41 is a technique for linking marker gene data with available microbial genomes to make predictions about metagenomic content and thus the putative biological functions of a microbial community. This analysis generally requires a reference-based OTU table. Methods based on evolutionary models (for example, PICRUSt39) provide confidence intervals on these predictions of gene content, which will tend to be wider in regions of the tree distant from reference genome sequences and narrower where many reference genomes are available. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26409790
+BMC Res Notes. 2015 Sep 26;8:479. doi: 10.1186/s13104-015-1462-8.
+PanFP: pangenome-based functional profiles for microbial communities.
+Jun SR1,2, Robeson MS3,4, Hauser LJ5, Schadt CW6,7, Gorin AA8.
+
+https://www.ncbi.nlm.nih.gov/pubmed/23149747
+Nat Commun. 2012;3:1203. doi: 10.1038/ncomms2203.
+Virtual metagenome reconstruction from 16S rRNA gene sequences.
+Okuda S1, Tsuchiya Y, Kiriyama C, Itoh M, Morisaki H.
 
 
 ----------
+
+
+
+
 
 
 
