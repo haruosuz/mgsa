@@ -68,13 +68,19 @@ BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
 BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
 Kalkatawi M1, Alam I2, Bajic VB3.
 
+アノテーションの表記揺れ
+
 https://www.ncbi.nlm.nih.gov/pubmed/24203705
 Nucleic Acids Res. 2014 Jan;42(Database issue):D617-24. doi: 10.1093/nar/gkt1078. Epub 2013 Nov 6.
 MetaRef: a pan-genomic database for comparative and community microbial genomics.
 Huang K1, Brady A, Mahurkar A, White O, Gevers D, Huttenhower C, Segata N.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964974/
-Consensus functional annotation of MetaRef families
-- However, we observed that functional annotation of individual members within a family were, at times, inconsistent, often stemming from the fact that individual genomes were annotated by different methods at different times, with varying criteria and terminology.
+- Consensus functional annotation of MetaRef families
+However, we observed that functional annotation of individual members within a family were, at times, inconsistent, often stemming from the fact that individual genomes were annotated by different methods at different times, with varying criteria and terminology.
+For example, a 71 gene core family of S. aureus (reported in Supplementary Figure S2) is consistently annotated as a putative siderophore biosynthesis protein subunit, although eight individual gene members were previously only annotated as hypothetical proteins. In another case (Supplementary Figure S2), two DNA mismatch repair proteins in a core family are labelled as HexA, whereas all the other members of the family (70) are labelled as MutS, suggesting a misannotation. 
+https://academic.oup.com/nar/article/42/D1/D617/1047917
+[Supplementary Figure S2](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/42/D1/10.1093_nar_gkt1078/3/gkt1078_Supplementary_Data.zip?Expires=1583404502&Signature=MBvJetYrgpgzFoHqo9ATnLBWxPkp0W09U4BNNA13gL5iopmNjCPPv~WIEui7cpKLMkd7twh7RgO3yICW2S~Wdk86yb8BxX1m2T~UGuY04kClSRPNja2qSzPD5QSR9ER7B~aDW7JjfUjbtSrwzSTqeBu9Cnwu9-Qz5Ds9n8S4pDmhJB2dsVO7~U9H4P-hLW1BsVoAdS4j0T6UqiSh5uTPRfxVLKa5zdkioFNkYMNusOnekSwGBfdh4TVqDPKdr25CpfnEC4LLIscFCiYR-eJaB9~modPLbL1PNKPynEL1YMScP7cAtKRQOmkg1BwL~AiTO4MQ176K2GHep4gr-9neGQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+Supplementary Figure S2. Examples of consensus functional annotation for two Staphylococcus aureus genes.
 
 https://www.ncbi.nlm.nih.gov/pubmed/22408191
 Brief Bioinform. 2013 Jan;14(1):1-12. doi: 10.1093/bib/bbs007. Epub 2012 Mar 9.
@@ -82,6 +88,9 @@ The automatic annotation of bacterial genomes.
 Richardson EJ1, Watson M.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
 Inconsistent annotation
+Figure 2:
+The six different models present across 17 RefSeq entries for Salmonella species for the eutM/eutN locus. 
+![](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=3548604_bbs007f2.jpg)
 
 ### 2010
 
@@ -112,6 +121,8 @@ Prokka
 
 ### kegg
 
+https://twitter.com/kazumachack/status/1225312240120651776
+Kazuma Uesaka on Twitter: "今日は久々に時間があったので３つ記事を更新してみました。こちらはKAASなどの結果を要約してくれるツールです。KEGGのサーバーから消える前に走らせておくと便利だと思います。 https://t.co/gwgKiSXOXU" / Twitter
 http://kazumaxneo.hatenablog.com/entry/2020/02/06/155212
 KEGGの遺伝子アノテーション結果を要約する GAEV - macでインフォマティクス
 
