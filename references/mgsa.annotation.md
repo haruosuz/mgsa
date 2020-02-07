@@ -56,6 +56,13 @@ http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
 
 ### 2016
 
+https://www.ncbi.nlm.nih.gov/pubmed/27856568
+FEMS Microbiol Lett. 2016 Dec;363(23). pii: fnw263. doi: 10.1093/femsle/fnw263. Epub 2016 Nov 16.
+Genix: a new online automated pipeline for bacterial genome annotation.
+Kremer FS1, Eslabão MR2, Dellagostin OA2, Pinto LD1.
+https://academic.oup.com/femsle/article/363/23/fnw263/2726782
+http://labbioinfo.ufpel.edu.br/genix/
+
 https://www.ncbi.nlm.nih.gov/pubmed/26283419
 BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
 BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
@@ -75,6 +82,15 @@ The automatic annotation of bacterial genomes.
 Richardson EJ1, Watson M.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
 Inconsistent annotation
+
+### 2010
+
+BH10.10 2010.10.20-23
+https://wiki.lifesciencedb.jp/mw/オルソログクラスターへの自動命名手法の開発
+Biocuration 2010の総括 -yy
+マニュアルキュレーションされた良い名前ならGO termをつかうべき。ないGO termがあれば作ればいい
+オルソログクラスターは何を使うのか？→eggNOG, KEGG OC...任意の遺伝子セット
+どうやってつかうのか？→尤もらしい名前をひとつだけ推薦する、アノテーターに複数の候補を推薦
 
 ----------
 ## annotathon
@@ -120,24 +136,28 @@ Availability KofamKOALA, KofamScan, and KOfam are freely available from https://
 ----------
 
 ## eggnog
-EggNOG Database | Orthology predictions and functional annnotaion
 
 http://eggnogdb.embl.de/#/app/emapper
+EggNOG Database | Orthology predictions and functional annnotaion
+
+https://integbio.jp/dbcatalog/record/nbdc02042
+Evolutionary Genealogy of Genes: Non-supervised Orthologous Groups:  eggNOG
+オーソロガスな遺伝子群のデータベースです。（遺伝子オーソログのデータベースです。）これらのオーソロガス群には、機能を説明するアノテーション（様々なアノテーションにもとづき、遺伝子に共通する特徴 [denominator] を特定することにより抽出したもの）、機能カテゴリーのアノテーション（オリジナルの COG/KOG カテゴリーから抽出したもの)が付されています。タンパク質名と生物種を指定し、オーソロガスな遺伝子を探す対象をヒト、哺乳類、バクテリア、マウス、真核生物から選択すると、生物種とオーソロガスな遺伝子群の一覧が表示されます。検索結果リストやオーソログ遺伝子のアミノ酸配列のダウンロードが可能です。また、生物種ごとの遺伝子、アノテーション、配列情報もダウンロードできます。
 
 https://twitter.com/yokadzaki/status/958651006702661632
 Yusuke Okazaki on Twitter: "eggNOG-mapper便利。"https://t.co/pWUltPTHld -i <input.fa> -o <outname> -m diamond --cpu <ncpu>"でアミノ酸FASTA投げたら全自動でアノテーションしてCOGカテゴリとKO番号まで出してくれる。こいつとpVOGを併せて使えば環境ウイルスメタゲノムでも40%弱のORFに一応アノテーションがついた"
 5:39 AM - 31 Jan 2018
 
-http://www.geocities.jp/ancientfishtree/phyMarker.html
-系統推定 - Jun Inoue
 
+19 Sep. 2019. Jun Inoue
+http://www.fish-evol.org/phyMarker.html
+系統推定 - Jun Inoue
 巨大な配列データセットの機能アノテーションを行う eggNOG-Mapper の報告．スタンドアローンとオンライン・サービスがある．eggNOG データベースで，すでに推定されているオーソログクラスターと系統樹を用いることで，高速化．
 
 https://www.ncbi.nlm.nih.gov/pubmed/28460117
 Mol Biol Evol. 2017 Aug 1;34(8):2115-2122. doi: 10.1093/molbev/msx148.
 Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper.
 Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Mering C2,3, Bork P1,5,6,7.
-
 
 ----------
 
@@ -154,9 +174,7 @@ Tanizawa Y1, Fujisawa T1, Nakamura Y1.
 
 http://wiki.lifesciencedb.jp/mw/BH16.12/DFAST
 
-
 ----------
-
 ## [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml)
  - [Invoking Prokka](https://github.com/tseemann/prokka#invoking-prokka)
 - FEB 6, 2017 [BINF 6203: Bacterial genome annotation with prokka | Genome Intelligence](http://genomeintelligence.org/?p=1212)
@@ -164,6 +182,9 @@ http://wiki.lifesciencedb.jp/mw/BH16.12/DFAST
   - [Annotating genomes](https://github.com/microgenomics/tutorials/blob/master/pangenome.md#annotating-genomes)
  - [Annotating the assembly using the PROKKA pipeline — Metagenomics Workshop SciLifeLab 1.0 documentation](http://metagenomics-workshop.readthedocs.io/en/latest/functional-annotation/prokka.html)
  - [Annotating a bacterial genome with Prokka — 2013-caltechworkshop 0.1 documentation](http://2013-caltech-workshop.readthedocs.org/en/latest/prokka-annotation.html)
+
+https://angus.readthedocs.io/en/2016/_static/bacterial_genome_annotation.pdf
+Small genome annotation - T.Seemann - GCC 2016 - Bloomington IN, USA - Mon 27 Jun 2016
 
 http://crusade1096.web.fc2.com/katei.html
 メタアセンブル後に遺伝子予測を行います。バクテリアの遺伝子予測で紹介したprokkaやGeneMarkは，メタゲノム用にも使用できます。実行時間に大きく差があり，数によってはprokkaの場合だと数日かかる実行時間が，MetaGeneMarkを使用すれば，数分で完了することが可能です。
@@ -224,9 +245,10 @@ https://www.nature.com/articles/s41576-019-0108-4
 Sequencing-based methods and resources to study antimicrobial resistance | Nature Reviews Genetics
 
 https://www.ncbi.nlm.nih.gov/pubmed/30381421
-J Clin Microbiol. 2018 Oct 31. pii: JCM.01405-18. doi: 10.1128/JCM.01405-18. [Epub ahead of print]
-Genome-based prediction of bacterial antibiotic resistance.
-Su M1,2,3, Satola SW1,3,4, Read TD1,3,4.
+J Clin Microbiol. 2019 Feb 27;57(3). pii: e01405-18. doi: 10.1128/JCM.01405-18. Print 2019 Mar.
+Genome-Based Prediction of Bacterial Antibiotic Resistance.
+Su M1,2,3, Satola SW1,3,4, Read TD5,3,4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6425178/
 
 https://www.pediatricsurgery.site/entry/2018/11/05/142545
 Rで細菌に有効な抗菌薬を探せるようにSanfordの表からデータを整形する - Note of Pediatric Surgery
