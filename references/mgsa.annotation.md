@@ -8,7 +8,7 @@
 - [eggnog](#eggnog)
 - [dfast](#dfast)
 - [prokka](#prokka)
-- [phyre](#phyre) Protein Homology/AnalogY Recognition Engine
+- [phyre](#phyre)
 - [resistance](#resistance) 耐性
 - [people](#people)
   - [koji.yahara](#koji.yahara)
