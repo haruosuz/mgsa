@@ -90,7 +90,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
 Inconsistent annotation
 Figure 2:
 The six different models present across 17 RefSeq entries for Salmonella species for the eutM/eutN locus. 
-![](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=3548604_bbs007f2.jpg)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/bin/bbs007f2.jpg)
 
 ### 2010
 
