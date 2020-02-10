@@ -3,8 +3,9 @@
 
 ## Table of Contents
 - [updates](#updates)
-- [annotathon](#annotathon)
+- [Annotathon](#annotathon)(=Annotation+Marathon)
 - [kegg](#kegg)
+  - [KofamScan](#kofamscan)
 - [eggnog](#eggnog)
 - [dfast](#dfast)
 - [prokka](#prokka)
@@ -102,8 +103,8 @@ Biocuration 2010の総括 -yy
 どうやってつかうのか？→尤もらしい名前をひとつだけ推薦する、アノテーターに複数の候補を推薦
 
 ----------
-## annotathon
-Annotathon(=Annotation+Marathon)
+## Annotathon
+(=Annotation+Marathon)
 
 http://bit.ly/annotathon2019
 
@@ -202,7 +203,6 @@ http://crusade1096.web.fc2.com/katei.html
 
 http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
 バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
-
 
 ----------
 ## phyre2
@@ -326,6 +326,9 @@ Because approximately 90% of such genes were initially annotated as hypothetical
 ## excerpt
 抜粋［引用］
 
+https://haruosuz.hatenadiary.org/entry/20090605
+遺伝子の機能注釈には、複数のデータベース（NCBI/COG, JCVI/CMR, KEGG, SEED, VFDB, MvirDB, Pfam, Gene Ontology）を用いた。
+
 https://www.ncbi.nlm.nih.gov/pubmed/30910818
 G3 (Bethesda). 2019 May 7;9(5):1321-1329. doi: 10.1534/g3.118.200978.
 Genomic Analysis of Pseudomonas sp. Strain SCT, an Iodate-Reducing Bacterium Isolated from Marine Sediment, Reveals a Possible Use for Bioremediation.
@@ -377,9 +380,6 @@ Comparative Functional Genomics of Lactobacillus spp. Reveals Possible Mechanism
 Mendes-Soares H, Suzuki H, Hickey RJ, Forney LJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/
 We assigned functional annotations to each protein family by merging all the functional annotations of proteins belonging to the same protein family (deleting uninformative annotations such as “hypothetical protein”). We used multiple databases as follows: Clusters of Orthologous Groups (COG [http://www.ncbi.nlm.nih.gov/COG/; 40]), JCVI/CMR [http://cmr.jcvi.org/; 41]), SEED (http://www.theseed.org/ [42]), UniProtKB/Uniref90 (http://www.uniprot.org), Virulence Factors Database (VFDB) (http://www.mgc.ac.cn/VFs/ [43]), Pfam (http://pfam.sanger.ac.uk), and Gene Ontology (GO) (http://www.geneontology.org). We performed a similarity search of the 136,962 Lactobacillus proteins against the Uniref90 and VFDB protein sequence databases using BLASTP (E-value < 1e−5 and >50% coverage) and assigned the functional annotations of the most similar protein sequences. We searched protein sequences against the Pfam library of hidden Markov models (HMMs) using HMMER (http://hmmer.janelia.org/) and converted Pfam accession numbers to GO terms using “pfam2go” mapping (http://www.geneontology.org/external2go/pfam2go).
-
-https://haruosuz.hatenadiary.org/entry/20090605
-遺伝子の機能注釈には、複数のデータベース（NCBI/COG, JCVI/CMR, KEGG, SEED, VFDB, MvirDB, Pfam, Gene Ontology）を用いた。
 
 https://www.ncbi.nlm.nih.gov/pubmed/22155358
 Infect Genet Evol. 2012 Mar;12(2):274-7. doi: 10.1016/j.meegid.2011.11.004. Epub 2011 Dec 3.
