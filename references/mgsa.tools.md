@@ -10,18 +10,13 @@
 - [harvest](#harvest)
 - [reordering-contigs](#reordering-contigs)
   - [eggnog](#eggnog)
-  - [diamond](#diamond)
   - [cd-hit](#cd-hit)
   - [usearch](#usearch)
 - [USEARCH](#usearch)
 - [GSEA](#gsea)
 - [qc](#qc)
 - [reordering contigs](#reordering-contigs)
-- [annotation](#annotation)
-  - [dfast](#dfast)
-  - [prokka](#prokka)
 - [growth rate](#growth-rate) 増殖速度
-- [resistance](#resistance) 耐性
 - [people](#people)
   - [Holt Lab](#holt-Lab)
   - [kadota](#kadota) 門田　幸二のホームページ
@@ -58,12 +53,16 @@
 - [Mash](#mash)
 - [MinHash](#minhash)
 - [Genome alignment](#genome-alignment)
-
-
+- [diamond](#diamond)
+- [mmseq2](#mmseq2)
+- [lea](#lea)
+- [vitcomic](#vitcomic)
 
 ----------
-### 
+## featuring
 
+http://www.microbesonline.org/
+phylogenetic profile
 
 
 https://twitter.com/copypasteusa/status/1132305387472822273
@@ -71,37 +70,57 @@ Haruo Suzuki on Twitter: "微生物ゲノム配列データ解析ウェブサー
 12:20 AM · May 26, 2019
 
 
+
+https://github.com/kblin/ncbi-genome-download
+kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
+
+
+
+https://twitter.com/torstenseemann/status/1013354894730772480
+Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
+5:33 AM - 1 Jul 2018
+
+
+https://twitter.com/drk0311/status/1204326388368470016
+内藤健 on Twitter: "all-to-allのblast検索をしたいのだけど、blastnより高速なツールは何がありますか。誰か教えてエロい人。" / Twitter
+6:06 PM · Dec 10, 2019
+- Diamondとかmmseq2とかでいいんですかね？　all to allで使ったことはないですが。
+- mmseq2はqueryを分割してしまうのが気に入らないんだなー　Diamond初耳ちぇけら
+- 使用経験はないのですがGHOSTXとか…？
+
+https://www.ncbi.nlm.nih.gov/pubmed/25402007
+Nat Methods. 2015 Jan;12(1):59-60. doi: 10.1038/nmeth.3176. Epub 2014 Nov 17.
+Fast and sensitive protein alignment using DIAMOND.
+Buchfink B1, Xie C2, Huson DH3.
+
+https://www.scl.kyoto-u.ac.jp/Appli/
+アプリケーション一覧
+```
+DIAMOND	ホモロジー検索	diamond
+MMseq2	ホモロジー検索、配列クラスタリング	mmseq2
+ghostx	ホモロジー検索	ghostx
+```
+
 ----------
-### Tychus
+## mmseq2
 
-https://www.biorxiv.org/content/early/2018/03/16/283101
-Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
+https://github.com/soedinglab/MMseqs2
+MMseqs2: ultra fast and sensitive protein search and clustering suite
+MMseqs2 (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. 
 
-Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
+https://www.ncbi.nlm.nih.gov/pubmed/30615063
+Bioinformatics. 2019 Aug 15;35(16):2856-2858. doi: 10.1093/bioinformatics/bty1057.
+MMseqs2 desktop and local web server app for fast, interactive sequence searches.
+Mirdita M1, Steinegger M1,2, Söding J1.
 
-https://github.com/Abdo-Lab/Tychus
+http://kazumaxneo.hatenablog.com/entry/2019/06/28/073000
+MMseqs2 コマンド其の2 タンパク質配列のクラスタリング - macでインフォマティクス
 
-
-
-
-
-----------
-### ASaiM
-https://www.biorxiv.org/content/early/2017/09/04/183970
-ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
-
-Published on Jul 9, 2015
-https://www.slideshare.net/bebatut/asaim-an-environment
-JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
-
-https://twitter.com/galaxyproject/status/794453380202725376
-Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
-
-
-
+http://kazumaxneo.hatenablog.com/entry/2018/09/22/220752
+高速かつ高感度なプロテイン検索ツール MMseqs2 - macでインフォマティクス
 
 ----------
-### diamond
+## diamond
 https://ab.inf.uni-tuebingen.de/software/diamond/
 https://github.com/bbuchfink/diamond
 blastx
@@ -122,41 +141,57 @@ BLASTとコンパチブルで高速なホモロジー検索ツール Diamond - m
 https://ang65.hatenadiary.org/entry/20151228/1451307913
 高速なタンパク質配列相同性検索ツール「DIAMOND」 - それなりにマジメなメモ
 
+----------
+## LEA
+
+https://github.com/haruosuz/bioinfo/blob/master/2019/CaseStudy.md#lea
+
+https://twitter.com/copypasteusa/status/1171355568440655872
+#IIBMP2019 http://leamicrobe.jp
+（LEAの使い方・日本語版はこちら）
+http://133.39.177.105/lea/help_ja.html
+
+https://twitter.com/level3defless/status/1008994650957332481
+Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
+4:47 AM - 19 Jun 2018
+
+https://twitter.com/NIG_idenken/status/1008941881051398144
+国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
+1:17 AM - 19 Jun 2018
+
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
+環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
 
 
 ----------
+## VITCOMIC
+http://vitcomic.org/
 
-## eggnog
-EggNOG Database | Orthology predictions and functional annnotaion
+https://doi.org/10.7875/togotv.2019.121
+2019-09-18 【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3
+目標:公共の微生物のゲノム・メタゲノム解析データ等をMicrobeDB.jpで検索する方法、および、VITCOMIC2、LEA等を用いて、自分の持つマイクロバイオームのアンプリコンシーケンスデータやメタゲノムシーケンスデータから系統組成を推定し、系統組成が似たMicrobeDB.jp上のメタゲノム解析データを検索する方法がわかる。
 
-http://eggnogdb.embl.de/#/app/emapper
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180613.html
+高速かつ高精度に細菌群集の系統組成を推定するツールVITCOMIC2を開発
 
-https://twitter.com/yokadzaki/status/958651006702661632
-Yusuke Okazaki on Twitter: "eggNOG-mapper便利。"https://t.co/pWUltPTHld -i <input.fa> -o <outname> -m diamond --cpu <ncpu>"でアミノ酸FASTA投げたら全自動でアノテーションしてCOGカテゴリとKO番号まで出してくれる。こいつとpVOGを併せて使えば環境ウイルスメタゲノムでも40%弱のORFに一応アノテーションがついた"
-5:39 AM - 31 Jan 2018
+https://www.ncbi.nlm.nih.gov/pubmed/29560821
+BMC Syst Biol. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
+VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing.
+Mori H1, Maruyama T2, Yano M2, Yamada T2, Kurokawa K3.
 
-http://www.geocities.jp/ancientfishtree/phyMarker.html
-系統推定 - Jun Inoue
-
-巨大な配列データセットの機能アノテーションを行う eggNOG-Mapper の報告．スタンドアローンとオンライン・サービスがある．eggNOG データベースで，すでに推定されているオーソログクラスターと系統樹を用いることで，高速化．
-
-https://www.ncbi.nlm.nih.gov/pubmed/28460117
-Mol Biol Evol. 2017 Aug 1;34(8):2115-2122. doi: 10.1093/molbev/msx148.
-Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper.
-Huerta-Cepas J1, Forslund K1, Coelho LP1, Szklarczyk D2,3, Jensen LJ4, von Mering C2,3, Bork P1,5,6,7.
-
-
-
-
-
-
+2020年01月15日
+https://qiita.com/danryo_official/items/9861f8140b63b3a5c7e9
+オススメツール VITCOMIC2
 
 ----------
+### Tychus
 
+https://www.biorxiv.org/content/early/2018/03/16/283101
+Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
 
+Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
 
-
-
+https://github.com/Abdo-Lab/Tychus
 
 
 ----------
@@ -672,105 +707,6 @@ http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20160313221003-D6FE3AF4AC97
 遺伝子探索パイプラインの選択：CEGMAとBUSCOのどちらにするか?
 
 
-----------
-
-### annotree
-
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638
-AnnoTree: visualization and exploration of a functionally annotated microbial tree of life | Nucleic Acids Research | Oxford Academic
-
-https://twitter.com/strnr/status/1117782170645483520
-AnnoTree: visualization and exploration of a functionally annotated microbial tree of life
-Paper https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638 …
-App http://annotree.uwaterloo.ca/ 
-Code https://bitbucket.org/account/user/doxeylabcrew/projects/AN …
-Docs https://annotree-docs.readthedocs.io/en/latest/ 
-Data http://gtdb.ecogenomic.org/downloads 
-9:30 AM - 15 Apr 2019
-![](https://pbs.twimg.com/media/D4Mo9PSXoAEYnZ1.jpg)
-
-
-
-----------
-
-### bcgTree
-
-https://github.com/molbiodiv/bcgTree
-Automatically calculate phylogenetic trees from bacterial core genes
-
-See this file for instructions on how to reproduce results from our article.
-https://github.com/molbiodiv/bcgTree/blob/master/reproduce_results.org
-
-----------
-
-### PhyloPhlAn
-
-https://huttenhower.sph.harvard.edu/phylophlan
-
-https://www.ncbi.nlm.nih.gov/pubmed/23942190
-Nat Commun. 2013;4:2304. doi: 10.1038/ncomms3304.
-PhyloPhlAn is a new method for improved phylogenetic and taxonomic placement of microbes.
-Segata N1, Börnigen D, Morgan XC, Huttenhower C.
-
-
-https://github.com/alvaralmstedt/Tutorials/wiki/Creating-bacterial-phylogenetic-trees-with-PhyloPhlAn
-Creating bacterial phylogenetic trees with PhyloPhlAn
-alvaralmstedt edited this page on Aug 13, 2015
-
-https://jpn.bioconus.com/phylophlan-is-new-method-795397
-フィロフランは、微生物の系統発生学的および分類学的配置を改善するための新しい方法です。 自然通信 - コミュニケーション - 2019
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/12/221645
-phylogenetic marker genesを検出し、marker genes全てを使って系統樹を作成する自動化パイプライン ezTree - macでインフォマティクス
-PhyloPhlAn (Segata et al,. 2014) も簡単に紹介しています。
-
-http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
-メタゲノム解析ツール - macでインフォマティクス
-使ってみて便利だったツールを紹介する。
-PhyloPhlAn Segata et al. (2014)
-ランにはFasttreeが必要。
-
-
-
-----------
-## featuring
-
-http://www.microbesonline.org/
-phylogenetic profile
-
-
-https://github.com/kblin/ncbi-genome-download
-kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
-
-
-
-https://twitter.com/torstenseemann/status/1013354894730772480
-Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
-5:33 AM - 1 Jul 2018
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/26013493
-J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
-Databases for Microbiologists.
-Zhulin IB1.
-
-
-数十の大腸菌のゲノム配列データからゲノムスケールの代謝モデルを構築し、様々な培養条件での増殖を予測
-https://www.ncbi.nlm.nih.gov/pubmed/24277855
-Proc Natl Acad Sci U S A. 2013 Dec 10;110(50):20338-43. doi: 10.1073/pnas.1307797110. Epub 2013 Nov 25.
-Genome-scale metabolic reconstructions of multiple Escherichia coli strains highlight strain-specific adaptations to nutritional environments.
-Monk JM1, Charusanti P, Aziz RK, Lerman JA, Premyodhin N, Orth JD, Feist AM, Palsson BØ.
-
-212種類の培養条件で得られたコロニー形成細菌群集
-https://www.ncbi.nlm.nih.gov/pubmed/23033984
-Clin Microbiol Infect. 2012 Dec;18(12):1185-93. doi: 10.1111/1469-0691.12023. Epub 2012 Oct 3.
-Microbial culturomics: paradigm shift in the human gut microbiome study.
-Lagier JC1, Armougom F, Million M, Hugon P, Pagnier I, Robert C, Bittar F, Fournous G, Gimenez G, Maraninchi M, Trape JF, Koonin EV, La Scola B, Raoult D.
-
-
-
-
-
 
 
 ----------
@@ -1081,6 +1017,17 @@ https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item
 ## distribution
 遺伝子の系統分布
 
+https://www.nature.com/articles/s41467-020-14572-x
+Community diversity and habitat structure shape the repertoire of extracellular proteins in bacteria | Nature Communications
+Fig. 1: Number of genes encoding extracellular proteins per large taxonomic group and in terms of COG protein function.
+
+2019年12月23日
+https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
+【論文紹介】メタゲノムでやってよかったよね感が出た面白い結果 - Qiita
+https://www.nature.com/articles/s41396-019-0552-3
+Unlinked rRNA genes are widespread among bacteria and archaea | The ISME Journal
+
+
 酸素
 https://www.frontiersin.org/articles/10.3389/fmicb.2019.00499/full
 Frontiers | Oxygen Reductases in Alphaproteobacterial Genomes: Physiological Evolution From Low to High Oxygen Environments | Microbiology
@@ -1283,25 +1230,6 @@ Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058.
 BacDive--the Bacterial Diversity Metadatabase.
 Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
 
-
-### LEA
-
-https://twitter.com/copypasteusa/status/1171355568440655872
-#IIBMP2019 http://leamicrobe.jp
-（LEAの使い方・日本語版はこちら）
-http://133.39.177.105/lea/help_ja.html
-
-https://twitter.com/level3defless/status/1008994650957332481
-Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
-4:47 AM - 19 Jun 2018
-
-https://twitter.com/NIG_idenken/status/1008941881051398144
-国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
-1:17 AM - 19 Jun 2018
-
-https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
-環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
-
 ### MetaMetaDB
 http://mmdb.aori.u-tokyo.ac.jp
 MetaMetaDB: To the Habitabilities of Microbes
@@ -1502,6 +1430,13 @@ Following [7] and [26], an S value was calculated for each plastid genome using 
 ### growth rate
 増殖速度
 
+#### 2020
+
+https://twitter.com/asahi_kankyo/status/1225572539814105093
+朝日新聞環境取材チーム on Twitter: "私たちの「祖先」？　深海の泥から微生物の培養に成功：朝日新聞デジタル https://t.co/9TJIfyi9S8 《今回培養したのは、真核生物に最も近いアーキアの一群「アスガルドアーキア」の仲間》 #環境 #生き物 #自然" / Twitter
+9:10 AM · Feb 7, 2020
+バクテリア（大腸菌など）に比べて増殖速度が遅く、増殖した場合の細胞密度も低かったため、分離に成功するまで約12年もかかった。
+
 #### 2019
 
 September 30, 2019.
@@ -1592,94 +1527,10 @@ https://www.ncbi.nlm.nih.gov/pubmed/26229116
 Science. 2015 Sep 4;349(6252):1101-1106. doi: 10.1126/science.aac4812. Epub 2015 Jul 30.
 Growth dynamics of gut microbiota in health and disease inferred from single metagenomic samples.
 
-#### 199X
-
-https://www.jstage.jst.go.jp/browse/jssm/50/0/_contents/-char/ja
-土と微生物
-https://www.jstage.jst.go.jp/article/jssm/50/0/50_KJ00008103464/_article/-char/ja/
-土壌微生物のエコ・コレクションと進化・適応(共生・寄生微生物の進化と環境適応,シンポジウム)
-服部 勉
-1997 年 50 巻 p. 1-3
-
-https://www.jstage.jst.go.jp/article/kagakutoseibutsu1962/28/5/28_5_307/_article/-char/ja
-細菌コロニー形成曲線と低栄養細菌
-服部 勉
-1990 年 28 巻 5 号 p. 307-315
-
-----------
-## resistance
-耐性
-
-https://twitter.com/arpcard
-CARD Developers (@arpcard) | Twitter
-https://card.mcmaster.ca/
-The Comprehensive Antibiotic Resistance Database
-
-a cool map of AMRs in current cities and some public usage data:
-https://resistancemap.cddep.org/
-
-Also here is another great map from John Brownstein’s lab:
-https://resistanceopen.org/
-
-https://omictools.com/drug-resistance-category
-Drug resistance prediction bioinformatics tools | Drug design analysis - OMICtools
-
-https://twitter.com/volatilebug/status/1107680239818366977
-Gautam Dantas on Twitter: "Excited to have our review published on Sequencing-Based Methods and Resources to Study Antimicrobial Resistance in @NatureRevGenet co-authored by WashU PhD students @ManishBoolcha and @alaric_dsouza https://t.co/ObSBXuSn52 #AMR #NGS @WUSTLnews @WUSTLdbbs @WUSTLmed"
-12:28 PM - 18 Mar 2019
-https://www.nature.com/articles/s41576-019-0108-4
-Sequencing-based methods and resources to study antimicrobial resistance | Nature Reviews Genetics
-
-https://www.ncbi.nlm.nih.gov/pubmed/30381421
-J Clin Microbiol. 2018 Oct 31. pii: JCM.01405-18. doi: 10.1128/JCM.01405-18. [Epub ahead of print]
-Genome-based prediction of bacterial antibiotic resistance.
-Su M1,2,3, Satola SW1,3,4, Read TD1,3,4.
-
-https://www.pediatricsurgery.site/entry/2018/11/05/142545
-Rで細菌に有効な抗菌薬を探せるようにSanfordの表からデータを整形する - Note of Pediatric Surgery
-
-https://www.ncbi.nlm.nih.gov/pubmed/30333483
-Nat Commun. 2018 Oct 17;9(1):4306. doi: 10.1038/s41467-018-06634-y.
-Machine learning and structural analysis of Mycobacterium tuberculosis pan-genome identifies genetic signatures of antibiotic resistance.
-Kavvas ES1, Catoiu E1, Mih N1,2, Yurkovich JT1,2, Seif Y1, Dillon N3,4, Heckmann D1, Anand A1, Yang L1, Nizet V3,4, Monk JM5, Palsson BO6,7,8.
-
-https://www.ncbi.nlm.nih.gov/pubmed/30332990
-BMC Bioinformatics. 2018 Oct 17;19(1):383. doi: 10.1186/s12859-018-2403-z.
-Predicting bacterial resistance from whole-genome sequences using k-mers and stability selection.
-Mahé P1, Tournoud M2.
-
-https://f1000research.com/articles/6-1971/v1
-NastyBugs: A simple method for extracting antimicrobial resistance information from metagenomes - F1000Research
-
-http://kazumaxneo.hatenablog.com/entry/2018/07/19/142001
-メタゲノムから抗生物質耐性情報を検出する NastyBugs - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/07/03/094105
-点変異も考慮して抗生物質耐性遺伝子を検出する PointFinder - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/07/03/113439
-抗生物質耐性遺伝子や病原性遺伝子を素早く検索できる ABRicate - macでインフォマティクス
-
-
-抗生物質耐性・病原性遺伝子予測
-https://github.com/tseemann/abricate
-ABRicate
-Mass screening of contigs for antimicrobial resistance or virulence genes. It comes bundled with multiple databases: Resfinder, CARD, ARG-ANNOT, NCBI BARRGD, NCBI, EcOH, PlasmidFinder, Ecoli_VF and VFDB.
-
-抗生物質耐性遺伝子および金属耐性遺伝子
-https://www.ncbi.nlm.nih.gov/pubmed/26441947
-Front Microbiol. 2015 Sep 24;6:1025. doi: 10.3389/fmicb.2015.01025. eCollection 2015.
-Exploring antibiotic resistance genes and metal resistance genes in plasmid metagenomes from wastewater treatment plants.
-Li AD1, Li LG1, Zhang T1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4585309/
-MRGs annotation was conducted similarly by searching against MRDB (Cai et al., 2013; Li et al., 2014; Pal et al., 2014). 
-
-抗菌性殺生物剤・金属耐性遺伝子データベース
-http://bacmet.biomedicine.gu.se
-https://www.ncbi.nlm.nih.gov/pubmed/24304895
-Nucleic Acids Res. 2014 Jan;42(Database issue):D737-43. doi: 10.1093/nar/gkt1252. Epub 2013 Dec 3.
-BacMet: antibacterial biocide and metal resistance genes database.
-Pal C1, Bengtsson-Palme J, Rensing C, Kristiansson E, Larsson DG.
+https://www.ncbi.nlm.nih.gov/pubmed/26013493
+J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May 26.
+Databases for Microbiologists.
+Zhulin IB1.
 
 ----------
 ## population genetics
@@ -1884,101 +1735,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/19515959
 Bioinformatics. 2009 Aug 15;25(16):2071-3. doi: 10.1093/bioinformatics/btp356. Epub 2009 Jun 10.
 Reordering contigs of draft genomes using the Mauve aligner.
 Rissman AI1, Mau B, Biehl BS, Darling AE, Glasner JD, Perna NT.
-
-----------
-
-https://en.wikipedia.org/wiki/Phyre
-Phyre and Phyre2 (Protein Homology/AnalogY Recognition Engine; pronounced as 'fire') are web-based services for protein structure prediction
-
-https://www.ncbi.nlm.nih.gov/pubmed/25950237
-Nat Protoc. 2015 Jun;10(6):845-58. doi: 10.1038/nprot.2015.053. Epub 2015 May 7.
-The Phyre2 web portal for protein modeling, prediction and analysis.
-Kelley LA1, Mezulis S1, Yates CM1, Wass MN1, Sternberg MJ1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5298202/
- In collaboration with other groups we have applied Phyre2 to the annotation of a wide range of genomes4–6.
-
-----------
-
-
-## annotation
-アノテーション
-
-https://twitter.com/search?q=%23annotathon
-#annotathon - Twitter Search
-
-https://twitter.com/chalkless/status/931390702595878912
-Nakazato T. on Twitter: "アノテーションの際に用いるツールなどのリストアップをしてみています。興味のある方はご自由に書き込みください。質問も歓迎 https://t.co/MagBjfy0y4 #annotathon"
-
-https://docs.google.com/spreadsheets/d/1eFFSILjN1OqMitzJVMwJYomwZGZ4N1QRK8mesXWuaQI/edit#gid=0
-MiGAP
-DFAST
-Prokka
-
-https://www.ncbi.nlm.nih.gov/pubmed/26283419
-BMC Genomics. 2015 Aug 18;16:616. doi: 10.1186/s12864-015-1826-4.
-BEACON: automated tool for Bacterial GEnome Annotation ComparisON.
-Kalkatawi M1, Alam I2, Bajic VB3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/24203705
-Nucleic Acids Res. 2014 Jan;42(Database issue):D617-24. doi: 10.1093/nar/gkt1078. Epub 2013 Nov 6.
-MetaRef: a pan-genomic database for comparative and community microbial genomics.
-Huang K1, Brady A, Mahurkar A, White O, Gevers D, Huttenhower C, Segata N.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3964974/
-Consensus functional annotation of MetaRef families
-- However, we observed that functional annotation of individual members within a family were, at times, inconsistent, often stemming from the fact that individual genomes were annotated by different methods at different times, with varying criteria and terminology.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22408191
-Brief Bioinform. 2013 Jan;14(1):1-12. doi: 10.1093/bib/bbs007. Epub 2012 Mar 9.
-The automatic annotation of bacterial genomes.
-Richardson EJ1, Watson M.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548604/
-Inconsistent annotation
-
-### [DFAST](https://github.com/nigyta/dfast_core)
-DFAST - DDBJ Fast Annotation and Submission Tool
-
-http://togotv.dbcls.jp/20180318.html
-微生物ゲノムのキラーアノテーションパイプライン DFASTの紹介 @ Annotathon2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/29106469
-Bioinformatics. 2018 Mar 15;34(6):1037-1039. doi: 10.1093/bioinformatics/btx713.
-DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication.
-Tanizawa Y1, Fujisawa T1, Nakamura Y1.
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
-次世代シーケンサーデータの解析手法 第 9 回 ゲノムアノテーションとその可視化、DDBJ への登録
-谷澤 靖洋、真島 淳、藤澤 貴智、李 慶範、 中村 保一、清水 謙多郎、門田 幸二
-
-DFAST を用いたゲノムアノテーション
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/book/JSLAB9_suppl_win_20170201.pdf
-次世代シーケンサーデータの解析手法 第9回ゲノムアノテーションとその可視化、 DDBJへの登録
-ウェブ資料
-
-http://wiki.lifesciencedb.jp/mw/BH16.12/DFAST
-
-### [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml)
- - [Invoking Prokka](https://github.com/tseemann/prokka#invoking-prokka)
-- FEB 6, 2017 [BINF 6203: Bacterial genome annotation with prokka | Genome Intelligence](http://genomeintelligence.org/?p=1212)
- - [Genome annotation and Pangenome analysis](https://github.com/microgenomics/tutorials/blob/master/pangenome.md)
-  - [Annotating genomes](https://github.com/microgenomics/tutorials/blob/master/pangenome.md#annotating-genomes)
- - [Annotating the assembly using the PROKKA pipeline — Metagenomics Workshop SciLifeLab 1.0 documentation](http://metagenomics-workshop.readthedocs.io/en/latest/functional-annotation/prokka.html)
- - [Annotating a bacterial genome with Prokka — 2013-caltechworkshop 0.1 documentation](http://2013-caltech-workshop.readthedocs.org/en/latest/prokka-annotation.html)
-
-http://crusade1096.web.fc2.com/katei.html
-メタアセンブル後に遺伝子予測を行います。バクテリアの遺伝子予測で紹介したprokkaやGeneMarkは，メタゲノム用にも使用できます。実行時間に大きく差があり，数によってはprokkaの場合だと数日かかる実行時間が，MetaGeneMarkを使用すれば，数分で完了することが可能です。
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/18/165258
-バクテリア、ウィルス、アーキアのアノテーションツール; Prokka - macでインフォマティクス
-
-日本乳酸菌学会誌
-Vol. 28 No. 1 3 ~ 11(2017)
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
- Prokka は、CDS、rRNA、tRNA の 予 測 と い っ た 基 本的なアノテーションに加えて、CRISPR(Clustered regularly interspaced short palindromic repeats)32) や シグナルペプチドの検出機能を備えている。Prokka の高 速なアノテーションは、予測された CDS を複数の参照ア ミノ酸配列 DB に対して段階的に検索していくことで実 現されている。はじめに近縁種から得られた配列を中心 に構成されたより信頼できる参照 DB に対して BLAST 検索を行い、そこでヒットしなかった遺伝子はより包括 的な参照 DB を用いて検索される。そこでもヒットしな かった遺伝子については、最終的に隠れマルコフモデル を用いたモチーフ・ドメイン検索ソフト HMMER3 33)を 使って Pfam 34) や TIGRFAMs 35) などの DB に対して検 索を行う。
-
-http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_5_kadota.pdf
- ウェブベースで手軽に利用できるバクテリア用の解析パ 14 イプラインも存在する。連載第 1 回でも触れた Galaxy ベー 15 スのものとしては、Orione 14)というウェブツールが提供 16 されている。Orione の枠組みで、リードの QC、de novo 17 assembly、CISA 15)による scaffolding やアセンブリ後の 18 解析、Prokka 16)によるアノテーションまで一通りの解析 19 が可能である。
-
 
 ----------
 
@@ -2245,18 +2001,6 @@ GC-skewと複数アセンブルデータを使ってバクテリアのゲノム�
 http://kazumaxneo.hatenablog.com/entry/2017/09/04/105002
 メタゲノムデータを種レベルで検出し割合を計算するMOCAT - macでインフォマティクス
 
-----------
-### koji.yahara
-
-https://researchmap.jp/koji.yahara/
-矢原耕史
-
-https://www.ncbi.nlm.nih.gov/pubmed/30065291
-Sci Rep. 2018 Jul 31;8(1):11496. doi: 10.1038/s41598-018-29272-2.
-Investigation of recombination-intense viral groups and their genes in the Earth's virome.
-Meier-Kolthoff JP1, Uchiyama J2, Yahara H3, Paez-Espino D4, Yahara K5.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068154/
-Because approximately 90% of such genes were initially annotated as hypothetical, we conducted iterative protein searches based on representing both query and database sequences by profile hidden Markov models31 using a UniProt database. We examined all hits with >99% probability of being true positives, and identified 89 notable genes in 24 viral groups (listed in Table S2).
 
 ----------
 
