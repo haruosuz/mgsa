@@ -4,51 +4,30 @@
 - [featuring](#featuring)
 - [updates](#updates)
 [2019](#2019)
+- [microbiome](#microbiome)
+- [phage](#phage)
+- [plasmid](#plasmid)
 - [people](#people)
   - [anda](#anda)
   - [miyazaki-kentaro](#miyazaki-kentaro)
 - [unclassified](#unclassified)
 
+https://ja.wikipedia.org/wiki/16S_rRNA系統解析
+
 ----------
 ## featuring
 
 ----------
-## phage
-
-https://www.ncbi.nlm.nih.gov/pubmed/22902729
-Microbiology. 2012 Nov;158(Pt 11):2789-95. doi: 10.1099/mic.0.057943-0. Epub 2012 Aug 17.
-Evidence of bacteriophage-mediated horizontal transfer of bacterial 16S rRNA genes in the viral metagenome of the marine sponge Hymeniacidon perlevis.
-Harrington C1, Del Casale A, Kennedy J, Neve H, Picton BE, Mooij MJ, O'Gara F, Kulakov LA, Larkin MJ, Dobson AD.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21666016
-Appl Environ Microbiol. 2011 Aug;77(15):5529-32. doi: 10.1128/AEM.00457-11. Epub 2011 Jun 10.
-Extent and variation of phage-borne bacterial 16S rRNA gene sequences in wastewater environments.
-Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
-
-
-----------
-## plasmid
-
-https://www.ncbi.nlm.nih.gov/pubmed/26534993
-Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
-Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
-Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
-plant-associated alphaproteobacterium, Aureimonas sp. AU20
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
-Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
-
-https://www.ncbi.nlm.nih.gov/pubmed/14663090
-Microbiology. 2003 Dec;149(Pt 12):3587-93.
-A functional plasmid-borne rrn operon in soil isolates belonging to the genus Paracoccus.
-Battermann A1, Disse-Krömker C, Dreiseikelmann B.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11251820
-Mol Microbiol. 2001 Feb;39(4):1010-21.
-Analysis of the replicon region and identification of an rRNA operon on pBM400 of Bacillus megaterium QM B1551.
-Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
-
-----------
 ## updates
+
+### 2020
+
+https://www.ncbi.nlm.nih.gov/pubmed/31712737
+ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
+Unlinked rRNA genes are widespread among bacteria and archaea.
+Brewer TE1,2, Albertsen M3, Edwards A4, Kirkegaard RH3, Rocha EPC5, Fierer N6,7.
+https://www.nature.com/articles/s41396-019-0552-3
+In addition, tRNA are the most common genes found in the space between the 16S and 23S rRNA genes, and range from only 75–90 bp in length [38]. After classifying each rRNA gene pair as linked or unlinked based on the distance between the 16S and 23S rRNA genes, 
 
 ### 2019
 
@@ -68,8 +47,6 @@ Furthermore, a comparison of rrs sequences between closely related species and b
 Recently, analysis of 2,143 genomes distinguished 28 genomes with high intragenomic heterogeneity revealing horizontal gene transfer (HGT) events and their potential donors (Tian et al., 2015). In all these 28 cases HGT of the 16S rRNA gene only occurred at intrageneous or intraspecies levels. More recently, a conserved, highly divergent rrs (7.3–9.0%) was found in one of the five ribosomal operons in the species complex Scytonema hyalinum (Johansen et al., 2017).
 - Conclusion
 the effect of multiple rrs in bacterial genomes and their location in chromosomes or plasmids has not been considered. 
-
-
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/29073157
@@ -103,13 +80,80 @@ Figure 3. Neighbor-joining phylogenetic tree of 16S rRNA genes. Environmental 16
 For example, the thermophilic bacterium Thermoanaerobacter tengcongensis contains four rrn operons, and the 16S rRNA sequence of rrnC shows only 88.4% homology with other rrn operons (rrnA, rrnB and rrnD).13 The 16S rRNA gene of rrnC is not a pseudogene because it correctly forms the conserved secondary structure of 16S rRNA. The sequence is more closely related (95%) to that of other Thermoanaerobacter species (T. subterraneus SL9 and T. keratinophilus 2KXI), suggesting that this gene was transferred into the ancestor of T. tengcongensis and became fixed as a functional gene in this organism over evolution.13 Similar interoperonic diversity is observed in Desulfotomaculum kuznestovii (91.7% homology), Thermobispora bispora R51 (93.6%), Thermonospora chromogena (94%) and Halobacterium marismortui (95%).13 These examples can be regarded as snapshots of ongoing HGT of 16S rRNA in nature and are thought to be clear counterexamples of the complexity hypothesis. Chimeric 16S rRNA genes have also been reported between two distantly related species24 or closely related lineages,25-27 suggesting that partial fragments of the 16S rRNA genes are also amenable to HGT.
 
 
+### 2016
+
+https://www.ncbi.nlm.nih.gov/pubmed/27617693
+Nat Microbiol. 2016 Sep 12;1(11):16160. doi: 10.1038/nmicrobiol.2016.160.
+Exploiting rRNA operon copy number to investigate bacterial reproductive strategies.
+Roller BR1,2, Stoddard SF1, Schmidt TM1,3,4.
+
+
 ### 2012
 
 http://d.hatena.ne.jp/hoxo_m/20121031/p1
 16S rRNA解析のクオリティフィルタリングについて - ほくそ笑む
 Sliding Window フィルタ
 
+### 2011
 
+review
+https://www.ncbi.nlm.nih.gov/pubmed/20223646
+Microbiol Res. 2011 Feb 20;166(2):99-110. doi: 10.1016/j.micres.2010.02.003. Epub 2010 Mar 11.
+Microbial phylogeny and diversity: small subunit ribosomal RNA sequence analysis and beyond.
+Rajendhran J1, Gunasekaran P.
+
+
+----------
+## microbiome
+
+https://www.ncbi.nlm.nih.gov/pubmed/29427429
+Appl Environ Microbiol. 2018 Mar 19;84(7). pii: e02627-17. doi: 10.1128/AEM.02627-17. Print 2018 Apr 1.
+The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
+Pollock J#1,2, Glendinning L#2, Wisedchanwet T2, Watson M2.
+
+----------
+## phage
+
+https://www.ncbi.nlm.nih.gov/pubmed/22902729
+Microbiology. 2012 Nov;158(Pt 11):2789-95. doi: 10.1099/mic.0.057943-0. Epub 2012 Aug 17.
+Evidence of bacteriophage-mediated horizontal transfer of bacterial 16S rRNA genes in the viral metagenome of the marine sponge Hymeniacidon perlevis.
+Harrington C1, Del Casale A, Kennedy J, Neve H, Picton BE, Mooij MJ, O'Gara F, Kulakov LA, Larkin MJ, Dobson AD.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21666016
+Appl Environ Microbiol. 2011 Aug;77(15):5529-32. doi: 10.1128/AEM.00457-11. Epub 2011 Jun 10.
+Extent and variation of phage-borne bacterial 16S rRNA gene sequences in wastewater environments.
+Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
+
+----------
+## plasmid
+
+https://www.ncbi.nlm.nih.gov/pubmed/26534993
+Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
+Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
+Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
+plant-associated alphaproteobacterium, Aureimonas sp. AU20
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
+Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
+
+https://www.ncbi.nlm.nih.gov/pubmed/14663090
+Microbiology. 2003 Dec;149(Pt 12):3587-93.
+A functional plasmid-borne rrn operon in soil isolates belonging to the genus Paracoccus.
+Battermann A1, Disse-Krömker C, Dreiseikelmann B.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11251820
+Mol Microbiol. 2001 Feb;39(4):1010-21.
+Analysis of the replicon region and identification of an rRNA operon on pBM400 of Bacillus megaterium QM B1551.
+Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
+
+
+----------
+
+## Tian_2015
+
+https://www.ncbi.nlm.nih.gov/pubmed/26220935
+Genome Biol Evol. 2015 Jul 27;7(8):2310-20. doi: 10.1093/gbe/evv143.
+Rare Events of Intragenus and Intraspecies Horizontal Transfer of the 16S rRNA Gene.
+Tian RM1, Cai L1, Zhang WP1, Cao HL1, Qian PY2.
 
 ----------
 ## people
@@ -139,6 +183,12 @@ http://www.microbial-ecology.jp/?p=7070
 2015年11月4日
 https://www.tohoku.ac.jp/japanese/2015/11/press20151104-01.html
 染色体上からリボソームRNA遺伝子が消えた細菌を発見 ～ゲノムの常識を覆す～
+
+https://www.ncbi.nlm.nih.gov/pubmed/26534993
+Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
+Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
+Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
 
 ### miyazaki-kentaro
 宮崎 健太郎
