@@ -87,6 +87,15 @@ Nat Microbiol. 2016 Sep 12;1(11):16160. doi: 10.1038/nmicrobiol.2016.160.
 Exploiting rRNA operon copy number to investigate bacterial reproductive strategies.
 Roller BR1,2, Stoddard SF1, Schmidt TM1,3,4.
 
+### 2013
+
+https://www.ncbi.nlm.nih.gov/pubmed/23872556
+Appl Environ Microbiol. 2013 Oct;79(19):5962-9. doi: 10.1128/AEM.01282-13. Epub 2013 Jul 19.
+Intragenomic heterogeneity of 16S rRNA genes causes overestimation of prokaryotic diversity.
+Sun DL1, Jiang X, Wu QL, Zhou NY.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811346/
+The pseudogene previously reported in Borrelia afzelii, with a high difference of 20.38% (6), was not included in this study, as it is not predicted to be a 16S rRNA gene by RNAmmer.
+
 
 ### 2012
 
@@ -101,6 +110,34 @@ https://www.ncbi.nlm.nih.gov/pubmed/20223646
 Microbiol Res. 2011 Feb 20;166(2):99-110. doi: 10.1016/j.micres.2010.02.003. Epub 2010 Mar 11.
 Microbial phylogeny and diversity: small subunit ribosomal RNA sequence analysis and beyond.
 Rajendhran J1, Gunasekaran P.
+
+
+### 2010
+
+https://www.ncbi.nlm.nih.gov/pubmed/20418441
+Appl Environ Microbiol. 2010 Jun;76(12):3886-97. doi: 10.1128/AEM.02953-09. Epub 2010 Apr 23.
+Diversity of 16S rRNA genes within individual prokaryotic genomes.
+Pei AY1, Oberdorf WE, Nossa CW, Agarwal A, Chokshi P, Gerz EA, Jin Z, Lee P, Yang L, Poles M, Brown SM, Sotero S, Desantis T, Brodie E, Nelson K, Pei Z.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2893482/
+, while the diversified gene in B. afzelii (20.38%) appears to be a pseudogene.
+
+RESULTS
+
+Diversity of 16S rRNA genes.
+, and Borrelia afzelii (20.38%) (15, 19, 20, 22, 39, 46, 55). The sequence diversity observed in these species appears to follow five patterns: intervening sequences, regional diversity, random diversity, pseudogene, and gene truncation/partial rRNA operon.
+
+TABLE 2.
+Species with significant diversity among paralogous 16S rRNA genes
+
+FIG. 2.
+Homologs of the 28- and 31-bp inserts in T. tengcongensis rrnC 16S rRNA genes also are present in 16S rRNA genes of T. kivui and T. siderophilus. The 24- and 28-bp inserts were separated by a 6-nucleotide conserved sequence shown in red.
+
+Species with nonfunctional rRNA gene.
+Borrelia afzelii contains two 16S rRNA genes found on two separate chromosomes that differ by 20.38%. The lengths of B. afzelii rrnA and rrnB are 1,509 nt and 1,537 nt, respectively, when compared to E. coli as a template. While rrnB is closely related to 16S rRNA genes in other species of Borrelia, rrnA is significantly different. Alignment of the two genes results in a 1,570-nt overlap, of which 320 bp are mismatched (225 substitutions and 95 indels). These mismatches do not follow any type of aforementioned patterns and are distributed throughout the alignment evenly. This level of random diversity may have occurred due to the escape from constraint in a nonfunctional 16S rRNA pseudogene. There has not been any experiment designed to examine the expression of rrnA of B. afzelii. It does not appear to be horizontally transferred into B afzelii from other species, as it is closer to rrnB of B. afzelii than to a species in any other genus.
+
+DISCUSSION
+
+Of the two 16S rRNA genes in B. afzelii, the pseudogene has a much lower GC content (38.1%) than the functional copy (46.5%). It appears the random mutations in the pseudogene have been bringing its GC content toward the baseline for the whole genome (28%).
 
 
 ----------
