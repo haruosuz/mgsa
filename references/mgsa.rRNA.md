@@ -224,4 +224,18 @@ https://www.aist.go.jp/aist_j/press_release/pr2012/pr20121030/pr20121030.html
 産総研：生物種を越えた16S rRNA遺伝子の機能相補性を確認
 －バクテリアの系統分類学の根本に疑問を投げかける－
 
+2014
+https://www.jseb.jp/wordpress/wp-content/uploads/14-01-003.pdf
+リボソーム改変による大腸菌宿主デザイン
+2.3 自然界で見られる 16S rRNA 遺伝子のゲノム内多 様性とリボソームの可塑性
+ロン)は複数個存在している。生物種により様々である が，例えば大腸菌では 7 個，枯草菌では 13 個の rRNA オペロンがコードされている。興味深いことに，これら は完全に同じというわけではなく，オペロン間に数塩基 の多型が見られることが多い。「例外」とは，ゲノム中 に複数存在する 16S rRNA の差が「数塩基」ではなく， あたかも異種生物の 16S rRNA 遺伝子が丸ごと飛び込ん できたかのように，相同性の低い 16S rRNA 遺伝子が共 存している事例を指す。どちらか一方が偽遺伝子という わけではなく，両方共に機能していることも確かめられ ている 4)。遺伝子丸ごとではなく，部分的な断片として 飛び込んできているようにみえる事例も見つかってい る。相同遺伝子間で組換えが起きたかのような「キメラ 型」の16S rRNAである5–8)。
+
+4) Acinas, S.G., L.A. Marcelino, V. Klepac-Ceraj, and M.F. Polz.
+2004. Divergence and redundancy of 16S rRNA sequences in genomes with multiple rrn operons. J. Bacteriol. 186: 2629– 2635.
+5) Wang, Y. and Z. Zhang. 2000. Comparative sequence analyses reveal frequent occurrence of short segments containing an abnormally high number of non-random base variations in bacterial rRNA genes. Microbiology 146: 2845–2854.
+6) Schouls, L.M., C.S. Schot, and J.A. Jacobs. 2003. Horizontal transfer of segments of the 16S rRNA genes between species of the Streptococcus anginosus group. J. Bacteriol. 185: 7241–7246.
+7) Miller, S.R., S. Augustine, T.L. Olson, R.E. Blankenship, J. Selker, and A.M. Wood. 2005. Discovery of a free-living chlo- rophyll d-producing cyanobacterium with a hybrid proteobac- terial/cyanobacterial small-subunit rRNA gene. Proc. Natl. Acad. Sci. USA 102: 850–855.
+8) Eardly, B.D., S.M. Nour, P. van Berkum, and R.K. Selander.
+2005. Rhizobial 16S rRNA and dnaK genes: mosaicism and the uncertain phylogenetic placement of Rhizobium galegae. Appl. Environ. Microbiol. 71: 1328–1335.
+
 ----------
