@@ -34,7 +34,67 @@ Pangenome tools
 ----------
 ## updates
 
+### 2020
+
+https://twitter.com/jomcinerney/status/1232385925189111808
+James McInerney on Twitter: "Finally it’s out. Coinfinder: detecting significant associations and dissociations in pangenomes. Microbial Genomics DOI 10.1099/mgen.0.000338 https://t.co/vbduewc7RC" / Twitter
+4:24 AM · Feb 26, 2020
+https://www.ncbi.nlm.nih.gov/pubmed/32100706
+Microb Genom. 2020 Feb 25. doi: 10.1099/mgen.0.000338. [Epub ahead of print]
+Coinfinder: detecting significant associations and dissociations in pangenomes.
+Whelan FJ1, Rusilowicz M2, McInerney JO2,1.
+Coinfinder employs a user-supplied phylogenetic tree in order to assess the lineage-dependence (i.e. the phylogenetic distribution) of each accessory gene
+https://github.com/fwhelan/coinfinder
+
+https://www.nature.com/articles/s41396-020-0600-z
+Disentangling the impact of environmental and phylogenetic constraints on prokaryotic within-species diversity | The ISME Journal
+
+
 ### 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/31891864
+Curr Opin Biotechnol. 2019 Dec 28;63:54-62. doi: 10.1016/j.copbio.2019.12.001. [Epub ahead of print]
+Current status of pan-genome analysis for pathogenic bacteria.
+Kim Y1, Gu C1, Kim HU2, Lee SY3.
+https://www.sciencedirect.com/science/article/abs/pii/S0958166919301387
+Pan-genome analysis has been shown to be an effective approach to better understand a clade of pathogenic bacteria because it helps developing various and tailored therapeutic strategies on the basis of their biological similarities and differences. Here, we review
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/31626589
+Microb Genom. 2019 Oct 18. doi: 10.1099/mgen.0.000309. [Epub ahead of print]
+Pangenome of Acinetobacter baumannii uncovers two groups of genomes, one of them with genes involved in CRISPR/Cas defence systems associated with the absence of plasmids and exclusive genes for biofilm formation.
+Mangas EL1, Rubio A1, Álvarez-Marín R2, Labrador-Herrera G2, Pachón J3,2, Pachón-Ibáñez ME3,2, Divina F4, Pérez-Pulido AJ1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/31584605
+Bioinformatics. 2019 Oct 4. pii: btz735. doi: 10.1093/bioinformatics/btz735. [Epub ahead of print]
+simurg: simulate bacterial pangenomes in R.
+Ferrés I1, Fresia P1,2, Iraola G1,3,4.
+
+https://twitter.com/copypasteusa/status/1132305387472822273
+微生物ゲノム配列データ解析ウェブサーバ M1CR0B1AL1Z3R（microbializerと発音）
+https://microbializer.tau.ac.il/
+ProdigalでORF予測。MMSEQS2(tBlastX)で相同性検索し、双方向ベストヒットによるオーソログ同定。MAFFTで多重整列し、RAxMLでコア遺伝子結合データの系統樹作成。GC含量
+https://www.ncbi.nlm.nih.gov/pubmed/31114912
+Nucleic Acids Res. 2019 Jul 2;47(W1):W88-W92. doi: 10.1093/nar/gkz423.
+M1CR0B1AL1Z3R-a user-friendly web server for the analysis of large-scale microbial genomics data.
+Avram O1, Rapoport D1, Portugez S1, Pupko T1.
+
+https://twitter.com/jcveritas/status/1132015987019210753
+Juan J. Carmona on Twitter: "Our @Philips team's new @Nature @SciReports article is in press: "A core genome approach that enables prospective and dynamic monitoring of infectious outbreaks" #InfectionPrevention #InfectiousOutbreaks #InfectiousDiseases https://t.co/aNy2TA8Lwc | @BillHanage @SundermannAJ"
+4:10 PM - 24 May 2019
+細菌間で保存されたゲノム領域core genomeを得る方法として、Roaryで得た保存「遺伝子」conserved-geneに比べ、k-mer（31連続塩基）頻度に基づいて得た保存「配列」conserved-sequenceは、同一患者サンプルの同定精度が高い（図4）。黄色ブドウ球菌3436株、肺炎桿菌1362株、腸球菌348株サンプルの臨床データを使用。
+A core genome approach that enables prospective and dynamic monitoring of infectious outbreaks
+https://www.nature.com/articles/s41598-019-44189-0
+Conserved-gene core genome
+Conserved-sequence core genome
+https://twitter.com/copypasteusa/status/1132102268461785089
+31 bp kmersを使用
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124939/
+overlapping, 31-bp DNA motifs or kmers 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
+the presence or absence of short 31 bp haplotypes or ‘kmers’
+
 
 https://www.frontiersin.org/articles/10.3389/fmicb.2019.00834/full
 Frontiers | Large-Scale Genomics Reveals the Genetic Characteristics of Seven Species and Importance of Phylogenetic Distance for Estimating Pan-Genome Size | Microbiology
@@ -69,6 +129,13 @@ Blaustein RA1, McFarland AG1, Ben Maamar S1, Lopez A2, Castro-Wallace S3, Hartma
 
 ### 2018
 
+https://www.ncbi.nlm.nih.gov/pubmed/29785479
+Adv Exp Med Biol. 2018;1052:39-49. doi: 10.1007/978-981-10-7572-8_4.
+NGSPanPipe: A Pipeline for Pan-genome Identification in Microbial Strains from Experimental Reads.
+Kulsum U1, Kapil A2, Singh H3, Kaur P4.
+https://link.springer.com/chapter/10.1007%2F978-981-10-7572-8_4
+We have designed an easy-to-use integrated pipeline, NGSPanPipe, which can directly identify the pan-genome from short reads. 
+
 https://www.ncbi.nlm.nih.gov/pubmed/30165579
 Bioinformatics. 2018 Aug 25. doi: 10.1093/bioinformatics/bty744. [Epub ahead of print]
 Large-Scale Comparative Analysis of Microbial Pan-genomes using PanOCT.
@@ -79,6 +146,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/29942087
 Sci Rep. 2018 Jun 25;8(1):9670. doi: 10.1038/s41598-018-27800-8.
 Pan4Draft: A Computational Tool to Improve the Accuracy of Pan-Genomic Analysis Using Draft Genomes.
 Veras A1, Araujo F1, Pinheiro K1, Guimarães L1, Azevedo V2, Soares S3, da Costa da Silva A1, Ramos R4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6018222/
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/29635296
 Gigascience. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
@@ -224,6 +293,11 @@ BMC Genomics. 2014 Jan 24;15:65. doi: 10.1186/1471-2164-15-65.
 CodaChrome: a tool for the visualization of proteome conservation across all fully sequenced bacterial genomes.
 Rokicki J, Knox D, Dowell RD1, Copley SD.
 
+
+
+
+
+
 ----------
 ## organism
 
@@ -243,6 +317,13 @@ Mike Jetten on Twitter: "#FEMS2017 @eugene_koonin open vs closed #pangenome in #
 
 ![](https://pbs.twimg.com/media/DEcRUf_XsAAAfYP.jpg)
 ![](https://pbs.twimg.com/media/DEcRWEzXkAEwoRe.jpg)
+
+https://www.ncbi.nlm.nih.gov/pubmed/25764277
+Life (Basel). 2015 Mar 10;5(1):818-40. doi: 10.3390/life5010818.
+Archaeal Clusters of Orthologous Genes (arCOGs): An Update and Application for Analysis of Shared Features between Thermococcales, Methanococcales, and Methanobacteriales.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4390880/
+The new arCOGs were constructed using refined algorithms for orthology identification combined with extensive manual curation, including incorporation of the results of several completed and ongoing research projects in archaeal genomics.
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/23241446
 Biol Direct. 2012 Dec 14;7:46. doi: 10.1186/1745-6150-7-46.
