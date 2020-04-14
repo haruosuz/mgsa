@@ -70,7 +70,6 @@ Haruo Suzuki on Twitter: "微生物ゲノム配列データ解析ウェブサー
 12:20 AM · May 26, 2019
 
 
-
 https://github.com/kblin/ncbi-genome-download
 kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP servers
 
@@ -140,48 +139,6 @@ BLASTとコンパチブルで高速なホモロジー検索ツール Diamond - m
 2015-12-28
 https://ang65.hatenadiary.org/entry/20151228/1451307913
 高速なタンパク質配列相同性検索ツール「DIAMOND」 - それなりにマジメなメモ
-
-----------
-## LEA
-
-https://github.com/haruosuz/bioinfo/blob/master/2019/CaseStudy.md#lea
-
-https://twitter.com/copypasteusa/status/1171355568440655872
-#IIBMP2019 http://leamicrobe.jp
-（LEAの使い方・日本語版はこちら）
-http://133.39.177.105/lea/help_ja.html
-
-https://twitter.com/level3defless/status/1008994650957332481
-Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
-4:47 AM - 19 Jun 2018
-
-https://twitter.com/NIG_idenken/status/1008941881051398144
-国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
-1:17 AM - 19 Jun 2018
-
-https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
-環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
-
-
-----------
-## VITCOMIC
-http://vitcomic.org/
-
-https://doi.org/10.7875/togotv.2019.121
-2019-09-18 【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3
-目標:公共の微生物のゲノム・メタゲノム解析データ等をMicrobeDB.jpで検索する方法、および、VITCOMIC2、LEA等を用いて、自分の持つマイクロバイオームのアンプリコンシーケンスデータやメタゲノムシーケンスデータから系統組成を推定し、系統組成が似たMicrobeDB.jp上のメタゲノム解析データを検索する方法がわかる。
-
-https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180613.html
-高速かつ高精度に細菌群集の系統組成を推定するツールVITCOMIC2を開発
-
-https://www.ncbi.nlm.nih.gov/pubmed/29560821
-BMC Syst Biol. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
-VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing.
-Mori H1, Maruyama T2, Yano M2, Yamada T2, Kurokawa K3.
-
-2020年01月15日
-https://qiita.com/danryo_official/items/9861f8140b63b3a5c7e9
-オススメツール VITCOMIC2
 
 ----------
 ### Tychus
@@ -1099,8 +1056,55 @@ Strain-specific glycoside hydrolase distribution in bacteria.
 ![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg)
 
 ----------
-## database
+## LEA
 
+https://github.com/haruosuz/bioinfo/blob/master/2019/CaseStudy.md#lea
+
+https://twitter.com/copypasteusa/status/1171355568440655872
+#IIBMP2019 http://leamicrobe.jp
+（LEAの使い方・日本語版はこちら）
+http://133.39.177.105/lea/help_ja.html
+
+https://twitter.com/level3defless/status/1008994650957332481
+Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
+4:47 AM - 19 Jun 2018
+
+https://twitter.com/NIG_idenken/status/1008941881051398144
+国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
+1:17 AM - 19 Jun 2018
+
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
+環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
+
+----------
+## VITCOMIC
+http://vitcomic.org/
+
+https://doi.org/10.7875/togotv.2019.121
+2019-09-18 【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3
+目標:公共の微生物のゲノム・メタゲノム解析データ等をMicrobeDB.jpで検索する方法、および、VITCOMIC2、LEA等を用いて、自分の持つマイクロバイオームのアンプリコンシーケンスデータやメタゲノムシーケンスデータから系統組成を推定し、系統組成が似たMicrobeDB.jp上のメタゲノム解析データを検索する方法がわかる。
+
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180613.html
+高速かつ高精度に細菌群集の系統組成を推定するツールVITCOMIC2を開発
+
+https://www.ncbi.nlm.nih.gov/pubmed/29560821
+BMC Syst Biol. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
+VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing.
+Mori H1, Maruyama T2, Yano M2, Yamada T2, Kurokawa K3.
+
+2020年01月15日
+https://qiita.com/danryo_official/items/9861f8140b63b3a5c7e9
+オススメツール VITCOMIC2
+
+----------
+### MicrobeDB
+http://microbedb.jp/MDB/
+
+http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
+MicrobeDB.jpポータル開発 - TogoWiki
+
+----------
+## database
 
 ----------
 ## metadata
@@ -1245,12 +1249,6 @@ Wataru IWASAKI on Twitter: "MetaMetaDBは、様々な環境のメタゲノム（
 
 https://www.jst.go.jp/kisoken/crest/research/nenpou/h25/JST_1111065_11103779_2013_YR.pdf
 遺伝子解析基盤技術グループは、これまでに世界中の様々な環境か ら得られたメタゲノムデータを収集した網羅的メタゲノムデータベース(MetaMetaDB) を開発し、海洋環境中に新たなグループの微生物が見つかった場合にその由来となった環 境を遺伝子情報から迅速に解析し、遺伝子情報に基づいた生態系評価を行うための基盤を 作った。
-
-### MicrobeDB
-http://microbedb.jp/MDB/
-
-http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
-MicrobeDB.jpポータル開発 - TogoWiki
 
 ### PATRIC
 https://patricbrc.org
@@ -2294,32 +2292,14 @@ LEfSe uses a table of relative abundances which also includes sample identifiers
 https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
 Differential abundance analysis with LEfSe
 
+2020/01/11
+https://note.com/ytomy/n/n39b64afd3862
+LEfSeの使用法
+Galaxy
+
 https://doi.org/10.7875/togotv.2019.102
 2019-04-12 LEfSeを使って細菌叢(Microbiome)の群間比較解析とバイオマーカー探索を行う
-```
- 見どころダイジェスト
-1. データセット細菌叢ファイルを用意する (0:23) 
-2. LEfSeのウェブサイト (0:45) 
-3. Galaxy版のLEfSeにデータをアップロードする (1:02) 
-4. LEfSe用にデータのフォーマットを行う (1:32) 
-5. Lefseによる群間比較解析を行う (2:05) 
-6. Lefseで発見されたバイオマーカー候補を表示する (2:35) 
-7. バイオマーカー候補をCladogram (分岐図)で表現する (3:23) 
-8. 一つの特徴量に絞ってその詳細を表示する (3:52) 
-```
-
-2018-04-05
-https://www.micenavi.jp/jss118/search/detail_program/id:93
-大腸癌患者，健常者それぞれに豊富なOTUをLinear discriminant analysis effect size (LEfSe)法にて選出し，これらを用いて診断モデルを作成した．
-
-http://www.frc.a.u-tokyo.ac.jp/wp-content/uploads/2018/04/JRAreport_web.pdf
-汚染試料と非汚染試料における構成細菌の違いを明らかにするために、Linear
-discriminant analysis (LDA) effect size (LEfSe) 解析[4]を行いました。LEfSe 解析では
-LDA スコアが大きいほど各試料群を特徴付けている細菌といえます。
-
-2017-06-29
-https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-15K15774/15K15774seika.pdf
-さらに菌種レベルで両群に差異のある細菌を抽出するため、各 OTU の検出リード数に基づいて Linear Discriminant Analysis Effect Size (LEFSe) 解析を行った。
+Galaxy
 
 27 April 2017
 http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
@@ -2339,11 +2319,6 @@ LEfSeを実際にやってみる - Note of Pediatric Surgery
 
 https://www.pediatricsurgery.site/entry/2016/10/31/210537
 LEfSeをインストールする - Note of Pediatric Surgery
-
-2013-03-29
-https://syodokukai.exblog.jp/18438512/
-Linear discriminant analysis (LDA) effect size (LEfSe)法を用いて、RYGB群、SHAM群、WMS群の便サンプルの間で有意に量が変化した細菌種の同定を行った。
-
 
 ----------
 ## jsme2018
