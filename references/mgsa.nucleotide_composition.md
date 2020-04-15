@@ -6,8 +6,91 @@
 - [featuring](#featuring)
 - [updates](#updates)
 [2019](#2019)
-- [k-mer](#k-mer)
-- [oligonucleotide](#oligonucleotide)
+
+https://github.com/haruosuz/codon#neutral
+
+----------
+## mutation
+
+https://en.wikipedia.org/wiki/Mutation_bias
+
+http://www.iu.a.u-tokyo.ac.jp/~hnishida/tokuron4.htm
+ゲノム塩基配列の偏りと生物機能
+Genome base composition bias and biological function
+
+このGC含量のばらつきの要因は複製時における中立的な変異の偏りにあると考えられている（Sueoka, 1961, PNAS, 47, 1141-1149; Sueoka 1962, PNAS, 48, 582-592; Freese, 1962, J Theoret Biol, 3, 82-101; Sueoka 1988, PNAS, 85, 2653-2657）
+
+他方、この変異の偏りが中立的ではなく、GCからATへの偏りが顕著であることも指摘されている（Hershberg and Petrov, 2010, PLoS Genet, 6, e1001115; Hildebrand et al., 2010, PLoS Genet, 6, e1001107; Rocha and Feil, 2010, PLoS Genet, 6, e1001104）
+
+http://sesj.kenkyuukai.jp/special/index.asp?id=1450
+日本進化学会ニュースvol.12 No.3 （2011.11.15発行）■5.1MB
+シリーズ「私と進化学」第2回
+http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20111114200040-DB164BC02BD9DEE68BBF8E76AB9722787A49390FC228BFE89C59C773A5C3A175.pdf
+虫から始まり虫で終わる（後編）
+「分子生物学から進化学へ」
+大澤 省三（初代進化学会会長）
+このようなゲノムのGC含量の偏りを説明する
+ため、末岡登博士が古く1962年、方向性をもつ突
+然変異圧（directional mutation pressure）という考
+えを出されている。事実、AT to GC、またはGC to
+ATの変異を起こす遺伝子の存在が知られているが、
+現存生物のDNAのGC含量が末岡のいう突然変異
+圧に関係しているかどうかは解明されていない。
+
+いずれもタン
+パク質のアミノ酸配列を変えることのない中立変
+異である（図16-3の上）。これが我々の考えた暗号
+変化の「コドン捕獲説」の大要である（1987）。こ
+のスキームが正しいことは、後にCastresama et
+al.（1998）によって証明された（図16-3の下）。
+捕獲説はコドンとアンチコドン間のwobble rules
+（コドンとtRNAのアンチコドンの相互認識のルー
+ル）、同義語コドンの中立変化などをよく理解してい
+ないと、わかりにくいことと、
+
+https://www.ncbi.nlm.nih.gov/pubmed/28645195
+Mol Biol Evol. 2017 Sep 1;34(9):2163-2172. doi: 10.1093/molbev/msx180.
+Mutational Biases Influence Parallel Adaptation.
+Stoltzfus A1, McCandlish DM2.
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+While mutational biases strongly influence neutral molecular evolution, the role of mutational biases in shaping the course of adaptation is less clear. Here we consider the frequency of transitions relative to transversions among adaptive substitutions. Because mutation rates for transitions are higher than those for transversions, if mutational biases influence the dynamics of adaptation, then transitions should be overrepresented among documented adaptive substitutions. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/21498884
+Genome Biol Evol. 2011;3:383-95. doi: 10.1093/gbe/evr032. Epub 2011 Apr 17.
+Faster than neutral evolution of constrained sequences: the complex interplay of mutational biases and weak selection.
+Lawrie DS1, Petrov DA, Messer PW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3101017/
+When purifying selection is weak and mutation is biased, constrained regions can even evolve faster than neutral sequences and thus can appear to be under positive selection. Moreover, conservation estimates depend also on the orientation of selection relative to mutational biases and can vary over time. In the light of recent data of the ubiquity of mutational biases and weak selective forces, these effects should reduce the power of conservation analyses to define functional regions using comparative genomics data. We argue that the estimation of true mutational biases and the use of explicit evolutionary models are essential to improve methods inferring the action of natural selection and functionality in genome sequences.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+Among bacteria, genomic G+C content varies over a wide range, presumably reflecting variation in mutation biases (7), with a major impact on codon usage (8). 
+
+The species analysed here have genomic G+C contents ranging from 22 to 72%. Since bacterial genomes have little non-coding DNA, and the first two positions within codons are constrained by protein-coding requirements, most of the variation is due to the third position of codons [(8) and Figure 2]. Thus the overall G+C content at synonymously variable third positions (GC3S) ranged from 9 to 93% among the 80 genomes (Table 1). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/3467347
+Proc Natl Acad Sci U S A. 1987 Jan;84(1):166-9.
+The guanine and cytosine content of genomic DNA and bacterial evolution.
+Muto A, Osawa S.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC304163/
+However, the plotted correlation slopes differ among various parts of the genome or among the first, second, and third positions of the codons depending on their functional importance. Facts suggest that biased mutation pressure, called A X T/G X C pressure, has affected whole DNA during evolution so as to determine the genomic G + C content in a given bacterium. The role of A X T/G X C pressure in diversification of bacterial DNA sequences and codon usage patterns is discussed in the perspective of the neutral theory of molecular evolution.
+細菌DNA配列とコドン使用パターンの多様化におけるAT/GC方向の変異圧の役割を分子進化の中立理論の観点から論じる。
+
+https://www.ncbi.nlm.nih.gov/pubmed/8411203
+J Mol Evol. 1993 Aug;37(2):137-53.
+Directional mutation pressure, mutator mutations, and dynamics of molecular evolution.
+Sueoka N1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/3357886
+Proc Natl Acad Sci U S A. 1988 Apr;85(8):2653-7.
+Directional mutation pressure and neutral molecular evolution.
+Sueoka N1.
+The theory was based on the assumption that the effect of mutation on a genome is not random but has a directionality toward higher or lower guanine-plus-cytosine content of DNA, and this pressure generates directional changes more in neutral parts of the genome than in functionally significant parts. Now that DNA sequence data are available, the theory allows the estimation of the extent of neutrality of directional mutation pressure against selection. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC280056/pdf/pnas00260-0245.pdf
+
 
 ----------
 ## featuring
@@ -86,12 +169,6 @@ http://www.g3journal.org/content/5/12/2921.long
 
 ### 2010
 
-https://www.ncbi.nlm.nih.gov/pubmed/19233962
-Mol Biol Evol. 2009 May;26(5):1163-9. doi: 10.1093/molbev/msp032. Epub 2009 Feb 20.
-Phylogenetic signals in DNA composition: limitations and prospects.
-Mrázek J1.
-https://academic.oup.com/mbe/article/26/5/1163/1040645
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/16200051
 EMBO Rep. 2005 Dec;6(12):1208-13.
@@ -108,141 +185,6 @@ Prokaryotic nucleotide composition is shaped by both phylogeny and the environme
 Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
 we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
-----------
-## [k-mer](https://en.wikipedia.org/wiki/K-mer)
-
-2018/09/17
-https://bioinfologics.github.io/post/2018/09/17/k-mer-counting-part-i-introduction/
-k-mer counting, part I: Introduction | BioInfoLogics
-
-https://twitter.com/merenbey/status/1001592427369648128
-A. Murat Eren (Meren) on Twitter: "K-mers aren't reads, reads aren't genes, genes aren't genomes, & genomes you get from metagenomes are often nothing but consensus sequences of large population of cells heterogeneity of which is defined by the heuristics of your assembler of which you likely know next to nothing.… https://t.co/gCVybgHCQH"
-6:33 PM - 29 May 2018
-
-https://www.biorxiv.org/content/early/2018/04/19/304972
-RefSeq database growth influences the accuracy of k-mer-based species identification | bioRxiv
-
-https://www.ncbi.nlm.nih.gov/pubmed/30373669
-Genome Biol. 2018 Oct 30;19(1):165. doi: 10.1186/s13059-018-1554-6.
-RefSeq database growth influences the accuracy of k-mer-based lowest common ancestor species identification.
-Nasko DJ1, Koren S2, Phillippy AM2, Treangen TJ3.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206640/
-
-https://twitter.com/aphillippy/status/987312716451807233
-Adam Phillippy on Twitter: ""RefSeq database growth influences the accuracy of k-mer-based species identification" https://t.co/XSc6pYq6Wh A shame that @traingene didn't go with my suggested title "No, that's not actually anthrax on the subway, international space station, etc."… https://t.co/i6BH4NEswI"
-8:51 AM - 20 Apr 2018
-
-https://twitter.com/BioMickWatson/status/987217580648693760
-Mick Watson on Twitter: "Never go to species, not with kmers, not with 16S. Neither are accurate enough (sorry!)… "
-2:33 AM - 20 Apr 2018
-
-
-https://twitter.com/kazumachack
-上坂一馬 (@kazumachack) | Twitter
-
-http://kazumaxneo.hatenablog.com/entry/2018/02/24/161757
-kallistoを動かしメタゲノムからウィルスゲノムを高速に検出・定量する FastViromeExplorer - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/06/27/180033
-k-mer カウントして、配列も出力するツール　jellyfish、BFCounter - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/archive/category/k-mer
-k-mer カテゴリーの記事一覧 - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/29036588
-Bioinformatics. 2017 Jul 7. doi: 10.1093/bioinformatics/btx432. [Epub ahead of print]
-A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with k-mer signatures.
-
-http://biorxiv.org/content/early/2016/10/19/081885
-Contamination as a major factor in poor Illumina assembly of microbial isolate genomes | bioRxiv 
-- We found that subsampling or filtering out reads having rare k-mers could efficiently remove low-level contaminants and greatly improve the de novo assemblies. 
-- Read subsampling or removing low-abundant k-mers improved de novo assemblies
-
-2016.07.12版
-https://biosciencedbc.jp/gadget/human/20160720_1_kadota.pdf
-第1部:統計解析 ~ゲノム解析、塩基配列解析~
-
-2016.02.01版
-http://www.iu.a.u-tokyo.ac.jp/~kadota/20140625_kadota.pdf
-農学生命情報科学 特論I 第3回
-
-2015-01-01
-https://qiita.com/antiplastics/items/c1532474e943ac2d1b0a
-k-mer countingに関するメモ - Qiita
-
-Jul 7th, 2013
-http://yagays.github.io/blog/2013/07/07/genome-assembly-kmergenie/
-ゲノムアセンブリにおいて最適なk-merを推定するKmerGenieを試してみた - Wolfeyes Bioinformatics beta
-
-http://www.ige.tohoku.ac.jp/joho/gf/ShortReadManager.php
-GenoFinisher homepage
-ShortReadMangerの機能
-<機能5>k-merの出現頻度に基づいたイルミナデータのフィルタリング機能
-<機能6>missing k-mer探索機能
-
-https://sites.google.com/site/kfuku52/misc/genomesize
-ゲノムサイズの推定法 - Kenji Fukushima's website
-4. k-mer distribution
-
-http://kplogo.wi.mit.edu/manual.html
-kpLogo: k-mer probability logo
 
 ----------
-## oligonucleotide
-オリゴヌクレオチド
-
-### Coutinho_2015
-
-相同性に依存しない手法
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446528/
-- 1. Introduction
-homology-independent (HI) metrics
-- 3.1.2. Dinucleotide Odds Ratio
-- 3.1.3. Relative Synonymous Codon Usage (RSCU)
-
-The work of Lobo et al. 2009 used HI metrics (DOR and RSCU) to detect coevolutionary trends in a virus-host biological system [52].
-
-[52]
-https://www.ncbi.nlm.nih.gov/pubmed/19617912
-PLoS One. 2009 Jul 20;4(7):e6282. doi: 10.1371/journal.pone.0006282.
-Virus-host coevolution: common patterns of nucleotide motif usage in Flaviviridae and their hosts.
-Lobo FP1, Mota BE, Pena SD, Azevedo V, Macedo AM, Tauch A, Machado CR, Franco GR.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2707012/
-
-### Dutta_2012
-
-微生物のライフスタイルとゲノムの特徴
-https://www.ncbi.nlm.nih.gov/pubmed/23024607
-Curr Genomics. 2012 Apr;13(2):153-62.
-Microbial lifestyle and genome signatures.
-Dutta C1, Paul S.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
-
-b) Oligonucleotide Composition
-
-Free-living bacteria, in general, display stronger bias in oligonucleotide usage than host-associated bacteria, as observed in a hierarchical clustering based on hexanucleotide–based genome signatures of 867 prokaryotic genomes [31]. 
-
-[31]
-https://www.ncbi.nlm.nih.gov/pubmed/18421372
-PLoS Comput Biol. 2008 Apr 18;4(4):e1000057. doi: 10.1371/journal.pcbi.1000057.
-Investigations of oligonucleotide usage variance within and between prokaryotes.
-Bohlin J1, Skjerve E, Ussery DW.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2289840/
-
-Recently, comparative analysis of tetranucleotide composition in a set of 774 sequenced microbial genomes revealed convergence of compositional patterns among genomes with similar habitats [34], displaying distinct clusters of obligate intracellular organisms (both pathogen and endosymbiont) and grouping of the halophilic bacterium Salinibacter rubber, not with its fellow Bacteroidetes, but with halophilic and methanogenic Archaea [34].
-
-[34]
-https://www.ncbi.nlm.nih.gov/pubmed/20333228
-Genome Biol Evol. 2010 Jan 25;2:117-31. doi: 10.1093/gbe/evq004.
-Distinguishing microbial genome fragments based on their composition: evolutionary and comparative genomic perspectives.
-Perry SC1, Beiko RG.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2839357/
-
-
-----------
-
 
