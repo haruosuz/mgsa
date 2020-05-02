@@ -57,6 +57,54 @@
 - [mmseq2](#mmseq2)
 - [lea](#lea)
 - [vitcomic](#vitcomic)
+- [pipeline](#pipeline)
+  - [Tychus](#tychus)
+  - [bactopia](#bactopia)
+
+
+----------
+
+
+----------
+### bactopia
+https://github.com/bactopia/bactopia
+
+https://github.com/bactopia/bactopia/issues/100
+It would be nice to execute the tool on just completed genomes. For example, run Roary on just the completed genomes.
+
+Posted March 02, 2020.
+https://www.biorxiv.org/content/10.1101/2020.02.28.969394v1
+Bactopia: a flexible pipeline for complete analysis of bacterial genomes | bioRxiv
+
+http://kazumaxneo.hatenablog.com/entry/2020/03/17/090935
+計算リソースを効率的に使って多数のよく似たバクテリアゲノムを素早く分析する自動化されたパイプライン Bactopia - macでインフォマティクス
+
+BaTには、パンゲノム解析、サンプル間の平均ヌクレオチド同一性の計算、16S遺伝子の抽出とプロファイリング、高度に保存された遺伝子を使用した分類学的分類が含まれる。
+
+Bactopia Toolsは、比較分析のための独立したワークフローセットである。比較分析には、要約レポート、パンゲノム、または系統樹構築が含まれる。
+
+```
+PLSDB (Plasmid) BLAST/Sketch:
+
+  --skip_plsdb      Skip download of pre-computed PLSDB datbases (blast, mash)
+```
+
+これにより、Aribaデータセット（CARDおよびvfdb_core）、RefSeq Mash sketch、GenBank Sourmash Signatures、およびPLSDBが作成されたdatasetsディレクトリにセットアップされる。
+
+
+
+----------
+### Tychus
+
+https://www.biorxiv.org/content/early/2018/03/16/283101
+Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
+
+Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
+
+https://github.com/Abdo-Lab/Tychus
+
+
+
 
 ----------
 ## featuring
@@ -139,17 +187,6 @@ BLASTとコンパチブルで高速なホモロジー検索ツール Diamond - m
 2015-12-28
 https://ang65.hatenadiary.org/entry/20151228/1451307913
 高速なタンパク質配列相同性検索ツール「DIAMOND」 - それなりにマジメなメモ
-
-----------
-### Tychus
-
-https://www.biorxiv.org/content/early/2018/03/16/283101
-Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
-
-Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
-
-https://github.com/Abdo-Lab/Tychus
-
 
 ----------
 ### holt Lab
@@ -1079,6 +1116,10 @@ https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
 ----------
 ## VITCOMIC
 http://vitcomic.org/
+
+https://doi.org/10.7875/togotv.2020.024
+2020-01-24 MicrobeDB.jp version 3の活用法 @ 第42回日本分子生物学会年会
+2019年12月2-4日に開催された第42回日本分子生物学会年会のフォーラム(チュートリアル企画)「生命科学のデータベース活用法2019」から、国立遺伝学研究所 森 宙史 氏 による「MicrobeDB.jp version 3の活用法」をお送りします。約12分です。
 
 https://doi.org/10.7875/togotv.2019.121
 2019-09-18 【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3
@@ -2024,10 +2065,6 @@ Loman NJ1, Pallen MJ2.
 
 PLOS Genetics: Combined Analysis of Variation in Core, Accessory and Regulatory Genome Regions Provides a Super-Resolution View into the Evolution of Bacterial Populations
 
-http://www.ncbi.nlm.nih.gov/pubmed/27603265
-Genome. 2016 May 11:1-9. [Epub ahead of print]
-bcgTree: automatized phylogenetic tree building from bacterial core genomes.
-Ankenbrand MJ1,2, Keller A2,2.
 
 - 10X Genomics
  - 2016年03月23日 [ロングリード・シーケンシングを可能にする10X Genomicsの新機種"Chromium"の魅力](http://genaport.genaris.com/GOC_topics2_post.php?eid=00031)
