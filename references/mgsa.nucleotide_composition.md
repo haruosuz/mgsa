@@ -148,8 +148,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/31034469
 PLoS Genet. 2019 Apr 29;15(4):e1007778. doi: 10.1371/journal.pgen.1007778. [Epub ahead of print]
 Selective advantages favour high genomic AT-contents in intracellular elements.
 Dietel AK1, Merker H1, Kaltenpoth M2, Kost C1.
-Accordingly, introducing AT-rich and GC-rich plasmids into other bacterial species with different genomic GC-contents revealed that the costs of G+C-rich plasmids decreased with an increasing GC-content of their host’s genomic DNA. 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6519830/
+Accordingly, introducing AT-rich and GC-rich plasmids into other bacterial species with different genomic GC-contents revealed that the costs of G+C-rich plasmids decreased with an increasing GC-content of their host’s genomic DNA. 
 
 https://www.ncbi.nlm.nih.gov/pubmed/28261263
 Front Genet. 2017 Feb 15;8:16. doi: 10.3389/fgene.2017.00016. eCollection 2017.
@@ -157,6 +157,8 @@ Analytical Biases Associated with GC-Content in Molecular Evolution.
 Romiguier J1, Roux C1.
 KEYWORDS:
 GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
+
+### 2015
 
 https://www.ncbi.nlm.nih.gov/pubmed/25897009
 G3 (Bethesda). 2015 Apr 20;5(6):1247-52. doi: 10.1534/g3.115.016824.
@@ -166,9 +168,23 @@ Erratum in
 Corrigendum.
 http://www.g3journal.org/content/5/12/2921.long
 
+https://www.ncbi.nlm.nih.gov/pubmed/25814499
+Proc Natl Acad Sci U S A. 2015 Aug 18;112(33):10177-84. doi: 10.1073/pnas.1422049112. Epub 2015 Mar 26.
+Mitochondrial and plastid genome architecture: Reoccurring themes, but significant differences at the extremes.
+Smith DR1, Keeling PJ2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547224/
+Nucleotide Composition.
+There is a near-universal adenine (A) and thymine (T) bias in organelle genomes throughout the eukaryotic domain (41), the most extreme of which (∼90% AT) is in the mitochondria of yeasts and arthropods. Plastid genomes can also be very AT rich, reaching 87% in Plasmodium falciparum, but overall, they have less severe nucleotide biases than mtDNAs (41).
+
+### 2012
+
+https://www.ncbi.nlm.nih.gov/pubmed/22325062
+BMC Genomics. 2012 Feb 10;13:66. doi: 10.1186/1471-2164-13-66.
+Relative entropy differences in bacterial chromosomes, plasmids, phages and genomic islands.
+Bohlin J1, van Passel MW, Snipen L, Kristoffersen AB, Ussery D, Hardy SP.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3305612/
 
 ### 2010
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/16200051
 EMBO Rep. 2005 Dec;6(12):1208-13.
@@ -185,6 +201,16 @@ Prokaryotic nucleotide composition is shaped by both phylogeny and the environme
 Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
 we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
+### 2002
+
+https://www.ncbi.nlm.nih.gov/pubmed/12044357
+Trends Genet. 2002 Jun;18(6):291-4.
+Base composition bias might result from competition for metabolic resources.
+Rocha EP1, Danchin A.
+
+
 
 ----------
+
+
 
