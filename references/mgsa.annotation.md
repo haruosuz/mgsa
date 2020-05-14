@@ -235,6 +235,9 @@ http://shushoku-signal.umin.jp/images/wakate2013ishitani.pdf
 ## resistance
 耐性
 
+https://omictools.com/antibiotic-resistance-gene-prediction-category
+Antibiotic resistance gene prediction bioinformatics tools | Metagenomic sequencing analysis - omicX
+
 https://twitter.com/arpcard
 CARD Developers (@arpcard) | Twitter
 https://card.mcmaster.ca/
@@ -249,17 +252,53 @@ https://resistanceopen.org/
 https://omictools.com/drug-resistance-category
 Drug resistance prediction bioinformatics tools | Drug design analysis - OMICtools
 
+
+https://www.ncbi.nlm.nih.gov/pubmed/32058567
+Bioinformatics. 2020 Feb 14. pii: btaa095. doi: 10.1093/bioinformatics/btaa095. [Epub ahead of print]
+ARGminer: A web platform for crowdsourcing based curation of antibiotic resistance genes.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/31665441
+Nucleic Acids Res. 2020 Jan 8;48(D1):D517-D525. doi: 10.1093/nar/gkz935.
+CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145624/
+
+総説 review
+https://www.ncbi.nlm.nih.gov/pubmed/31552211
+Front Public Health. 2019 Sep 4;7:242. doi: 10.3389/fpubh.2019.00242. eCollection 2019.
+Using Genomics to Track Global Antimicrobial Resistance.
+Hendriksen RS1, Bortolaia V1, Tate H2, Tyson GH2, Aarestrup FM1, McDermott PF2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6737581/
+- We conducted a scientific literature review and here we present a description of examples of available tools and databases for antimicrobial resistance (AMR) detection and provide future perspectives and recommendations.
+- Table 2
+Open-access resources for in silico antimicrobial resistance detection in bacteria.
+ABRICATE
+
+総説 review
+12:28 PM - 18 Mar 2019
 https://twitter.com/volatilebug/status/1107680239818366977
 Gautam Dantas on Twitter: "Excited to have our review published on Sequencing-Based Methods and Resources to Study Antimicrobial Resistance in @NatureRevGenet co-authored by WashU PhD students @ManishBoolcha and @alaric_dsouza https://t.co/ObSBXuSn52 #AMR #NGS @WUSTLnews @WUSTLdbbs @WUSTLmed"
-12:28 PM - 18 Mar 2019
+https://www.ncbi.nlm.nih.gov/pubmed/30886350
+Nat Rev Genet. 2019 Jun;20(6):356-370. doi: 10.1038/s41576-019-0108-4.
+Sequencing-based methods and resources to study antimicrobial resistance.
+Boolchandani M1, D'Souza AW1, Dantas G2,3,4,5
 https://www.nature.com/articles/s41576-019-0108-4
-Sequencing-based methods and resources to study antimicrobial resistance | Nature Reviews Genetics
+This Review provides a detailed overview of antimicrobial resistance identification and characterization methods, from traditional antimicrobial susceptibility testing to recent deep-learning methods. We focus on sequencing-based resistance discovery and discuss tools and databases used in antimicrobial resistance studies.
+https://www.nature.com/articles/s41576-019-0108-4/tables/1
+Table 1 Sequencing-based tools for antimicrobial resistance detection
+https://www.nature.com/articles/s41576-019-0108-4/tables/2
+Table 2 Summary of antimicrobial resistance reference databases
 
 https://www.ncbi.nlm.nih.gov/pubmed/30381421
 J Clin Microbiol. 2019 Feb 27;57(3). pii: e01405-18. doi: 10.1128/JCM.01405-18. Print 2019 Mar.
 Genome-Based Prediction of Bacterial Antibiotic Resistance.
 Su M1,2,3, Satola SW1,3,4, Read TD5,3,4.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6425178/
+- This review discusses the technologies that made this possible and presents results from recent studies to predict resistance based on genome sequences. 
+- TABLE 2
+Types of antibiotic resistance loci
+Plasmid/mobile element	Presence of a known drug resistance plasmid or mobile genetic cassette (e.g., SCCmec [114]) is used to infer that S. aureus is resistant to a beta-lactams.
+
 
 https://www.pediatricsurgery.site/entry/2018/11/05/142545
 Rで細菌に有効な抗菌薬を探せるようにSanfordの表からデータを整形する - Note of Pediatric Surgery
