@@ -9,7 +9,7 @@
 [2018](#2018)
 [2017](#2017)
 - [review](#review)
-- [Metagenomic Assembly](#phylophlan)
+- [Metagenomic Assembly]
 - [MAG](#mag) Metagenome Assembled Genome
 - [book](#book)
 - [video](#video)
@@ -31,6 +31,23 @@
   - [Piphillin](#piphillin)
 - [HGT](#hgt)
 - [MGnify](#mgnify) EBI metagenomics
+
+----------
+## 
+
+
+
+----------
+### ASaiM
+https://www.biorxiv.org/content/early/2017/09/04/183970
+ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
+
+Published on Jul 9, 2015
+https://www.slideshare.net/bebatut/asaim-an-environment
+JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
+
+https://twitter.com/galaxyproject/status/794453380202725376
+Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
 
 
 ----------
@@ -119,8 +136,6 @@ https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextb
 
 
 
-
-
 ----------
 
 ## updates
@@ -206,6 +221,10 @@ Clarke EL1, Taylor LJ1, Zhao C2, Connell A1, Lee JJ2, Fett B2, Bushman FD1, Bitt
 
 
 ### 2018
+
+https://twitter.com/pathogenomenick/status/1053620015579172864
+Nick Loman on Twitter: "An extremely informative thread explaining why metagenomic assemblies of related species and strains results in subsequent difficulties during binning:… https://t.co/CzUcpRiYdJ"
+8:12 AM - 20 Oct 2018
 
 https://www.ncbi.nlm.nih.gov/pubmed/29950328
 J Clin Microbiol. 2018 Aug 27;56(9). pii: e00813-18. doi: 10.1128/JCM.00813-18. Print 2018 Sep.
@@ -476,11 +495,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/28967888
 Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
 Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
 
-
-
-
-
-
 ----------
 ## batch effect
 
@@ -502,9 +516,6 @@ A Metagenomic Meta-analysis Reveals Functional Signatures of Health and Disease 
 Armour CR1,2, Nayfach S3,4, Pollard KS4,5,6, Sharpton TJ7,8.
 https://msystems.asm.org/content/4/4/e00332-18
 "certain study effects (i.e., batch effects) are unlikely to be the source of variance between samples."
-
-
-
 
 ----------
 ## meta-analysis
@@ -611,8 +622,10 @@ https://twitter.com/NatureMicrobiol/status/932704694912389120
 Nature Microbiology on Twitter: ".@drkellysierra & co: Integration and meta-analysis of global #soil datasets uncover patterns of #microbial structure,… https://t.co/QB51kFBtK5"
 3:18 PM - 20 Nov 2017
 
-https://www.nature.com/articles/s41564-017-0062-x
-Detecting macroecological patterns in bacterial communities across independent studies of global soils | Nature Microbiology
+https://pubmed.ncbi.nlm.nih.gov/29158606/
+Nat Microbiol
+. 2018 Feb;3(2):189-196. doi: 10.1038/s41564-017-0062-x. Epub 2017 Nov 20.
+Detecting Macroecological Patterns in Bacterial Communities Across Independent Studies of Global Soils
 - Whereas previous meta-analysis efforts have focused on bacterial diversity measures or abundances of major taxa, we show that disparate amplicon sequence data can be combined at the taxonomy-based level to assess bacterial community structure.
 
 ### 2016
@@ -949,11 +962,18 @@ https://onlinelibrary.wiley.com/doi/full/10.1111/1751-7915.13047
 Meta‐analysis generates and prioritizes hypotheses for translational microbiome research - Duvallet - 2018 - Microbial Biotechnology - Wiley Online Library
 Claire Duvallet
 
+https://pubmed.ncbi.nlm.nih.gov/29209090/
+2017 Dec 5;8(1):1784. doi: 10.1038/s41467-017-01973-8.
+Meta-analysis of Gut Microbiome Studies Identifies Disease-Specific and Shared Responses
+Claire Duvallet 1 2, Sean M Gibbons 1 2 3, Thomas Gurry 1 2 3, Rafael A Irizarry 4 5, Eric J Alm 6 7 8
+
+
 05 December 2017
 https://www.nature.com/articles/s41467-017-01973-8
 Meta-analysis of gut microbiome studies identifies disease-specific and shared responses | Nature Communications
 Claire Duvallet, Sean M. Gibbons, Thomas Gurry, Rafael A. Irizarry & Eric J. Alm
-
+https://www.nature.com/articles/s41467-017-01973-8
+We perform a cross-disease meta-analysis of these studies using standardized methods. 
 
 ----------
 ### Mori
@@ -1025,6 +1045,12 @@ https://www.ncbi.nlm.nih.gov/pubmed/29795540
 Nat Microbiol. 2018 Jun;3(6):652-661. doi: 10.1038/s41564-018-0156-0. Epub 2018 May 24.
 Methods for phylogenetic analysis of microbiome data.
 Washburne AD1, Morton JT2,3, Sanders J3, McDonald D3, Zhu Q3, Oliverio AM4,5, Knight R2,3.
+https://www.nature.com/articles/s41564-018-0156-0
+In this Review Article, we organize the field of phylogenetically structured data analysis by discussing the major classes of methods. We first emphasize a fundamental issue in the field: the imperfection of estimated phylogenies. We then define four classes: (1) comparative methods; (2) ancestral state reconstruction and descendant trait imputation; (3) phylogenetic variables; and (4) phylogeny-aware distances (Table 1); and provide Supplementary Online Tutorials with examples (https://knightlab-analyses.github.io/phylogenetic-tutorials/). 
+
+
+
+
 
 ----------
 ## Mason CE
@@ -1190,6 +1216,11 @@ Introducing PAPRICA | The Bowman Lab
 
 ### Piphillin
 http://piphillin.secondgenome.com/
+
+https://www.ncbi.nlm.nih.gov/pubmed/31952477
+BMC Genomics. 2020 Jan 17;21(1):56. doi: 10.1186/s12864-019-6427-1.
+Piphillin predicts metagenomic composition and dynamics from DADA2-corrected 16S rDNA sequences.
+Narayan NR1, Weinmaier T1, Laserna-Mendieta EJ2,3, Claesson MJ2,3, Shanahan F2,4, Dabbagh K1, Iwai S1, DeSantis TZ5.
 
 https://www.ncbi.nlm.nih.gov/pubmed/27820856
 PLoS One. 2016 Nov 7;11(11):e0166104. doi: 10.1371/journal.pone.0166104. eCollection 2016.
