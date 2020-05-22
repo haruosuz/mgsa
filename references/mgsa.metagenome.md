@@ -565,8 +565,15 @@ Jon Sanders on Twitter: "The Qiita paper is out! So happy to have been able to c
 ![](https://pbs.twimg.com/card_img/1046836828454703105/ZFWvyfj5?format=jpg&name=144x144_2)
 
 01 October 2018  & Rob Knight 
-https://www.nature.com/articles/s41592-018-0141-9
 Qiita: rapid, web-enabled microbiome meta-analysis
+
+https://pubmed.ncbi.nlm.nih.gov/30275573/
+Meta-Analysis Nat Methods
+. 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.
+Qiita: Rapid, Web-Enabled Microbiome Meta-Analysis
+Antonio Gonzalez 1, Jose A Navas-Molina 1 2 3, Tomasz Kosciolek 1, Daniel McDonald 1, Yoshiki Vázquez-Baeza 1, Gail Ackermann 1, Jeff DeReus 1, Stefan Janssen 1, Austin D Swafford 4, Stephanie B Orchanian 4, Jon G Sanders 1, Joshua Shorenstein 1 5, Hannes Holste 1 2, Semar Petrus 6, Adam Robbins-Pianka 7, Colin J Brislawn 8, Mingxun Wang 9, Jai Ram Rideout 10, Evan Bolyen 10, Matthew Dillon 10, J Gregory Caporaso 10 11, Pieter C Dorrestein 1 4 9, Rob Knight 12 13 14
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235622/
+Despite these challenges, meta-analyses of microbiomes have a rich history of success, identifying the major global drivers of diversity in microbial communities4, characterizing the evolution of the vertebrate gut microbiome5, and surveying specialized fields such as the built environment6. Meta-analyses also enable scientists to identify important biases such as DNA extraction, primers, or analytical pipelines7,8, which need to be controlled to generate biological discoveries.
 
 ### almlab
 https://be.mit.edu/directory/eric-alm
