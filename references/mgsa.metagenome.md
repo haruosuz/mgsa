@@ -1142,6 +1142,17 @@ https://doi.org/10.7875/togotv.2019.203
 
 ### PICRUSt
 
+01 June 2020
+https://www.nature.com/articles/s41587-020-0548-6
+PICRUSt2 for prediction of metagenome functions | Nature Biotechnology
+
+11:32 AM · Jun 5, 2020
+https://twitter.com/maskot1977/status/1268732318077693952
+微生物群集のマーカー遺伝子シークエンシングの限界の一つは、サンプリングされた群集の機能的構成に関する情報が得られないことである。
+PICRUSt1は2013年に開発され、マーカー遺伝子シークエンシングプロファイルに基づいて細菌群集の機能的可能性を予測するために開発されましたが、この度、オリジナルの手法を改良したPICRUSt2（https://github.com/picrust/picrust2）を発表します。
+具体的には、PICRUSt2は、遺伝子ファミリーと参照ゲノムの更新された大規模なデータベースを含み、任意のオペレーショナル・タクソノミック・ユニット（OTU）ピッキングまたはデノアイジング・アルゴリズムとの相互運用性を提供し、表現型予測を可能にします。
+ベンチマークでは、PICRUSt2はPICRUStや他の競合する手法よりも全体的に精度が高いことが示されています。PICRUSt2では、カスタムの参照データベースを追加することも可能です。これらの改善点と、予測されたメタゲノムの使用に関する重要な注意点を強調しています。
+
 https://twitter.com/NoahFierer/status/1179101529044766720
 Noah Fierer on Twitter: "PiCrust2: when you want to predict metagenomes slightly better than random (sometimes) https://t.co/4FGgo4oAHN" / Twitter
 3:31 AM · Oct 2, 2019
