@@ -64,6 +64,19 @@
 
 ----------
 
+9:53 AM · May 25, 2019
+https://twitter.com/copypasteusa/status/1132087168388571136
+Haruo Suzuki on Twitter: "細菌間で保存されたゲノム領域core genomeを得る方法として、Roaryで得た保存「遺伝子」conserved-geneに比べ、k-mer（31連続塩基）頻度に基づいて得た保存「配列」conserved-sequenceは、同一患者サンプルの同定精度が高い（図4）。 https://t.co/b8OHPz2jED" / Twitter
+https://www.nature.com/articles/s41598-019-44189-0
+A core genome approach that enables prospective and dynamic monitoring of infectious outbreaks | Scientific Reports
+31 bp kmersを使用
+https://ncbi.nlm.nih.gov/pmc/articles/PMC5124939/
+overlapping, 31-bp DNA motifs or kmers 
+https://ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
+the presence or absence of short 31 bp haplotypes or ‘kmers’
+
+
+
 
 ----------
 ### bactopia
@@ -427,6 +440,9 @@ https://github.com/rprops/MetaG_analysis_workflow/wiki/13.-Compute-Average-Nucle
 
 http://kazumaxneo.hatenablog.com/archive/category/ANI
 ANI カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/09/10/201205
+ANItoolsをwebで実行できるANItools web - macでインフォマティクス
 
 https://www.tecsrg.co.jp/services/microbiological/other/average-nucleotide-identity/
 ANI 解析は、対象株（検体）と比較株のゲノム配列の類似度（ANI：相同値）をコンピュータ上で計算し、種の異同を判
@@ -1259,6 +1275,12 @@ https://link.springer.com/article/10.1007%2Fs00239-015-9714-8
 Regarding prokaryote genomics—databases with microbial phenotypes are scarce, with some annotation provided by GOLD (Reddy et al. 2015) and BacMap (Cruz et al. 2011). We have thus developed a database named ProTraits (Brbić et al. unpublished; http://protraits.irb.hr/) which contains millions of phenotype annotations for ~3000 prokaryotic taxa, inferred by text mining of scientific literature, while requiring independent validation in genomic data.
 
 ### BacDive
+
+http://kazumaxneo.hatenablog.com/entry/2019/07/06/073000
+バクテリアの表現型情報データベース BacDive - macでインフォマティクス
+
+https://bacdive.dsmz.de/tutorials
+Tutorials | BacDive
 
 https://bacdive.dsmz.de/
 BacDive | The Bacterial Diversity Metadatabase
