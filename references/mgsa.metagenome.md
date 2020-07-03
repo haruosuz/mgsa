@@ -31,9 +31,267 @@
   - [Piphillin](#piphillin)
 - [HGT](#hgt)
 - [MGnify](#mgnify) EBI metagenomics
+- [2019-05-02](#2019-05-02)
+  - [diversity index](#diversity-index)
+- [unifrac](#unifrac)
+- [LEfSe](#lefse)
 
 ----------
-## 
+## 2019-05-02
+
+### diversity index
+多様性指数
+
+https://www.ncbi.nlm.nih.gov/pubmed/21912589
+PLoS One. 2011;6(8):e23214. doi: 10.1371/journal.pone.0023214. Epub 2011 Aug 31.
+The phylogenetic diversity of metagenomes.
+Kembel SW1, Eisen JA, Pollard KS, Green JL.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166145/
+Figure 3
+Taxonomic diversity and standardized phylogenetic diversity versus depth in environmental samples along an oceanic depth gradient at the HOT ALOHA site.
+
+https://github.com/haruosuz/evolve/blob/master/README.md#fifthdimension
+
+https://www.fifthdimension.jp/wiki.cgi?page=FrontPage&file=20100522BiometricsJapanPreprint%2Epdf&action=ATTACH
+[PDF]ベイジアン MCMC による生物間系統関係の推定法
+生物学における系統樹の必要性
+そもそも、これまでに「系統的に独立した生物」は確認 されていない。そのため、統計解析上の最も重要な仮定の一つである「サンプル間の独立 性」が生物では成立し得ないことは明白である。ここで、仮に 100 種のトカゲの体色を考 えてみる。草原と砂漠にそれぞれ 50 種生息し、草原に生息する種は緑色と褐色がそれぞ れ 40 種と 10 種、砂漠に生息する種は緑色と褐色がそれぞれ 20 種と 30 種だったとしよ う (表 3)。では、生息環境と体色に関連性はあるだろうか。系統関係を考慮しない研究者
+はサンプル間の非独立性には気付かず、Fisher の正確確率検定を用いてしまうかもしれな い。すると、p = 0.00008039 となり、生息環境と体色に関連性を見いだすことになるだ ろう。しかし、仮に表 3 のマス目の各種群が単系統であったならどうだろう。数えるべき は種数ではなく単系統群の数であり、各マス目の数値は 1 ということになる。以上のよう に、系統関係を考慮するかしないかで結論が大きく変化し得ることがわかるだろう。そこ で、系統関係=サンプル間の非依存性を考慮して統計解析を行うことでこのような問題を 解決しようとする手法があり、系統的独立比較法などと呼ばれている (Felsenstein, 1985; Grafen, 1989)。これが系統樹の第 2 の用途である。
+系統樹の第 3 の用途は、多様性の定量化である。生物多様性の重要性が叫ばれて久しい が、いまだに多様性は種・属・科などの分類群の数で定量化されている。しかしこれらの 分類群は人間が便宜的に設定したものであり、その数では十分に自然界の多様性を認識 できているとは言い難いと考えられる。これを、系統樹上での生物間のパスの長さの和= 系統的多様性で置き換えることで解決しようという研究が徐々に増えてきている (Faith, 1992; Forest et al., 2007)。
+
+https://github.com/haruosuz/evolve/blob/master/README.md#leeswijzer
+
+2007.3
+http://www.naro.affrc.go.jp/archive/niaes/magazine/083/mgzn08304.html
+論文の紹介： 生物多様性を進化系統学的な尺度で測る (情報：農業と環境 No.83 2007.3)
+系統樹（phylogenetic tree）に基づく「系統学的多様性（PD: phylogenetic diversity）」を提案
+旧来の種数ベースの生物多様度に代わる尺度として提唱されたのが系統学的多様度である。しかし、系統学的多様度それ自体に関して、いまなお理論的・概念的な論争が続いている （3）。系統学的多様性の尺度は、系統樹の樹形を考慮しつつ生物多様性の重みづけをしている。提唱者である Daniel P. Faith の定義では （1）、ある生物群の系統学的多様度とは、その生物群を系統樹上で結ぶ枝の長さの総和として求められる。このとき、枝の長さをどのようにして推定するのかという現実的問題がある（分子系統樹と形態系統樹では「枝」の意味は異なっているだろう）。
+
+統計的独立の問題。種間に系統関係があるならば、統計学的にみてデータ点は独立ではあり得ない。（三中信宏「生物系統学」334ページ）
+FIG.2. データ点が独立
+FIG.3. データ点が非独立
+https://www.jstor.org/stable/2461605
+Joseph Felsenstein (1985) Phylogenies and the Comparative Method
+http://bio.classes.ucsc.edu/bioe200b/pdf%20files/Felsenstein%201985%20Am%20Nat.pdf
+FIG. 7.-The same data set, with the points distinguished to show the members of the 2
+monophyletic taxa. It can immediately be seen that the apparently significant relationship of
+fig. 6 is illusory
+
+http://en.wikipedia.org/wiki/Phylogenetic_comparative_methods
+Phylogenetic comparative methods (PCMs) use information on the historical relationships of lineages (phylogenies) to test evolutionary hypotheses.
+
+https://github.com/haruosuz/microbe/blob/master/references/README.MoBE.md
+16SリボソームRNA遺伝子配列に基づく細菌の多様性レベルは属間で大きく異なった。
+https://www.ncbi.nlm.nih.gov/pubmed/30691394
+BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment.
+Merino N, Zhang S, Tomita M, Suzuki H.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
+The Dmean was also selected over the phylogenetic diversity index (PD) [64, 65] because it is less affected by the number of taxa (N) available in the LTP database, 
+
+https://github.com/haruosuz/plasmids/blob/master/references/README.suzuki.md
+プラスミド間の宿主域を比較するために、「細菌の種類」と「細菌間の距離」に基づいて宿主候補の多様性を測定した。先ず、「細菌の種類」（門・綱・目・科・属・種・株などの分類群の数）に基づいて各プラスミドの宿主多様性を測定した。分類群の数は、細菌間の距離を考慮しておらず、宿主候補として検出された菌株の数（利用可能なゲノム配列の偏り）によっても影響され得るという欠点を有する。例えば、プラスミド間の宿主多様性の高低が分類階級により逆転することがある。さらに新種・新属に再分類されている菌株もある。次に、種などの分類学的情報を用いることなく、16S rRNA遺伝子配列に基づく「細菌間の距離」に基づいてプラスミドの宿主多様性を測定した。狭宿主域プラスミドは、広宿主域プラスミドと比較して、宿主候補の多様性が低かった。
+https://www.ncbi.nlm.nih.gov/pubmed/20851899
+J Bacteriol. 2010 Nov;192(22):6045-55. doi: 10.1128/JB.00277-10. Epub 2010 Sep 17.
+Predicting plasmid promiscuity based on genomic signature.
+Suzuki H1, Yano H, Brown CJ, Top EM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2976448/
+Second, we inferred plasmid host range based on genetic distance between putative evolutionary hosts without using taxonomic information. “Taxonomic richness” has drawbacks, because it does not take into account distances between bacterial strains and also can be influenced by the number of strains detected as candidate evolutionary hosts, which in turn is biased by the genome sequences available. For example, as shown in Table ​Table1,1, the numbers of classes, orders, families, genera, species, and strains for IncP plasmid pQKH54 were 2, 3, 3, 3, 6, and 11, respectively, while those for IncN plasmid R46 were 1, 1, 1, 13, 17, and 55. Thus, while pQKH54 showed higher taxonomic richness values at the class, order, and family levels, R46 showed higher taxonomic richness values at the genus, species, and strain levels. Moreover, several bacterial strains are still being reclassified into new species and even new genera. Therefore, a method for inferring evolutionary host diversity that does not require a species or any other taxonomic information was conducted.
+
+https://www.ncbi.nlm.nih.gov/pubmed/16535456
+Appl Environ Microbiol. 1996 Nov;62(11):4299-301.
+Problems in measuring bacterial diversity and a possible solution.
+Watve MG, Gangal RM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1388994/pdf/hw4299.pdf
+Simpson’s
+index, the Shannon index, and evenness indices give enough
+weighting to the relative abundances along with species richness but fail to take into account the taxonomic distances
+between species, individuals, or any other appropriate unit. An
+information-based index would treat a community of four different biotypes of coliforms identical to another community
+consisting of one species of coliforms, one of actinomycetes,
+one of myxobacteria, and one of archaebacteria, whereas we
+feel that the latter should be treated as more diverse. 
+
+A simple alternative is to use the mean taxonomic distance (Dmean) between all pairs of isolates as a diversity index (14): 
+
+https://sites.google.com/site/colloqfoundbio/
+第12回生物学基礎論研究会の発表「プラスミドの宿主細菌の過去予測と多様性測定」における多様性指数（Dmean）の論文です。
+小谷野 仁さんの以下の論文で引用されておりました。
+
+https://www.ism.ac.jp/editsec/toukei/pdf/60-2-263.pdf
+統計数理 60(2), 263-278, 2012-12
+特集「多様性と進化の統計解析」α 多様性の測定と確率文字列の理論
+「代替的な方法の研究として，Watve and Gangal（1996）, Hughes et al.（2001）, Hong et al.（2006）などがあるが，理論的な基礎を持つ体系的な方法とは言えなかった．」
+
+https://www.ncbi.nlm.nih.gov/pubmed/20866445
+Phys Rev E Stat Nonlin Soft Matter Phys. 2010 Jun;81(6 Pt 1):061912. Epub 2010 Jun 7.
+Quantifying biodiversity and asymptotics for a sequence of random strings.
+Koyano H1, Kishino H.
+https://journals.aps.org/pre/abstract/10.1103/PhysRevE.81.061912
+
+https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html
+「生物多様性の減少機構と保全プロジェクト」が目指すもの（2001年度 20巻1号）｜
+多様性を，それぞれ種類数，均等性，系統的距離で計っていることになる。
+
+![https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html](https://www.nies.go.jp/kanko/news/20/20-1/gh5r5k000001g6rd-img/20-1-06-f1.jpg)
+
+----------
+
+https://github.com/haruosuz/statistics/blob/master/README.md#distance
+
+## UniFrac
+UniFracは、距離計量 distance metric の要件を満たす。
+
+https://en.wikipedia.org/wiki/UniFrac
+This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
+
+https://www.ncbi.nlm.nih.gov/pubmed/30377368
+Nat Methods. 2018 Nov;15(11):847-848. doi: 10.1038/s41592-018-0187-8.
+Striped UniFrac: enabling microbiome analysis at unprecedented scale.
+McDonald D1, Vázquez-Baeza Y1, Koslicki D2, McClelland J2, Reeve N1,3, Xu Z1, Gonzalez A1, Knight R4,5,6,7.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20827291
+ISME J. 2011 Feb;5(2):169-72. doi: 10.1038/ismej.2010.133. Epub 2010 Sep 9.
+UniFrac: an effective distance metric for microbial community comparison.
+Lozupone C1, Lladser ME, Knights D, Stombaugh J, Knight R.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105689/
+In this study, we present a mathematical proof that both weighted and unweighted UniFrac values have the formal requirements of a distance metric (Rudin, 1987): they are always non-negative, symmetric and satisfy the triangle inequality, and identical sequence sets have a value of 0 (Supplementary Methods). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/16332807
+Appl Environ Microbiol. 2005 Dec;71(12):8228-35.
+UniFrac: a new phylogenetic method for comparing microbial communities.
+Lozupone C1, Knight R.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1317376/
+UniFrac can be used to compare many samples simultaneously because it satisfies the technical requirements for a distance metric (it is always positive, is transitive, and satisfies the triangle inequality) and can thus be used with standard multivariate statistics such as unweighted-pair group method using average linkages (UPGMA) clustering (9) and principal coordinate analysis (23). Similarly, UniFrac is more powerful than nonphylogenetic distance measures because it exploits the different degrees of similarity between sequences. 
+
+Jan 29, 2016
+https://www.youtube.com/watch?v=M8ylvsS0MHg
+Microbiome Discovery 9: UniFrac - YouTube
+
+平成 28 年 3 月版（Ver.0.9）
+https://www.nite.go.jp/data/000081956.pdf
+次世代シーケンサーを用いた菌叢解析
+（16S rRNA 遺伝子 PCR サンプルの解析）
+独立行政法人 製品評価技術基盤機構
+バイオテクノロジーセンター
+2.5 UniFrac 解析
+比較するサンプルの OTU 代表配列を用いて系統樹解析を行い、試料間で共有されるOTU の枝長と各試料で固有な枝長の割合から、菌叢構造の違いを距離 UniFrac distance として計算する解析方法をいう。算出された UniFrac distance を用いて、主座標分析(PCoA:Principal Coordinate Analysis)や UPGMA 法によるクラスタリング解析を行うことで、試料間の相違度を視覚化することができる。また、リード数を考慮し細菌叢の構成を表す Weighted UniFrac 解析と、リード数を考慮せず細菌叢の構成メンバーを表す UnweightedUniFrac 解析がある。
+
+2014 年
+https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_article/-char/ja
+特集：腸内細菌と免疫疾患
+ヒト腸内マイクロバイオーム解析のための最新技術
+服部 正平
+https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_pdf/-char/ja
+二つ目は検出された OTU 間の配列類似度から各細菌叢の系統樹を作成し，その系統樹の類似性（比較する細菌叢との系統樹間で共有する枝の長さとそれぞれの細菌叢に固有な枝の割合）から，細菌叢間の全体構造の相違の程度を求める．この解析を UniFrac 解析と言い，細菌叢間の類似性を 0（100% 類似する）～ 1（100% 類似しない）の距離（UniFrac 距離）で表す6）．UniFrac 解析にはOTU に含まれるリード数（組成比）を考慮しないunweighted と考慮した weighted UniFrac 解析がある．前者は菌種の有無だけが，後者は同一菌種の組成比の相違が両細菌叢間の類似性の距離に反映される．
+
+https://twitter.com/yoshikivb/status/1001558730490634243
+Yoshiki Vázquez B. on Twitter: "Ever wondered what a UniFrac ordination looked like with >110K samples? Wonder no more, you can now look at it live (will work best on your desktop): https://t.co/itSsrIzXhL thanks to a recent PR, @mcdonadt and @qiime2… https://t.co/6WPLTbyP6Q"
+
+https://twitter.com/level3defless/status/890749455590342658
+Koichi Higashi on Twitter: "系統組成をアップロードして類似したサンプルを検索、比較するウェブサーバ。Earth mover's distance的な計算でweighted UniFracを高速に評価できるらしい。 https://t.co/K6RszvQpzR"
+9:43 PM - 27 Jul 2017
+
+https://twitter.com/windowmoon/status/783394541067829252
+働く窓月 on Twitter: "UniFracを計算しようとして、有根系統樹が必要なことにハマった。というか、ものすごい高次系統で根の位置が決められない…。Phylogenetic Community Dissimilarityなら無根でいいから、こっちにしよう。"
+3:53 PM - 4 Oct 2016
+
+https://twitter.com/windowmoon/status/411160508532658176
+働く窓月 on Twitter: "そう言えば、種生物でUniFrac使ってる発表(Q大のMTYKさんだったか?)があって、「細菌向けに開発されたものだから何か問題あるのかも」とか書いていたように記憶している。が、対象生物が細菌であることを前提とした方法ではないと思う。問題があるとすれば、系統樹だろう。"
+10:47 AM - 12 Dec 2013
+
+https://twitter.com/windowmoon/status/411154169328709633
+窓月㌠・CC-BY on Twitter: "@Tyu_Shi 万単位になってくるとブートストラップなしでも系統樹推定苦しいのでは。系統樹使わずに分子同定した上で、分類体系に合うように樹形制約を入れれば可能かもしれません。ブートストラップもなしで単発の推定結果を樹形の不確実性考慮せずに使うのはかなり拙いでしょうね。"
+10:22 AM - 12 Dec 2013
+
+https://twitter.com/Tyu_Shi/status/411124035401949184
+Tyu_Shi on Twitter: "昨日からの発表を聴いていると、みんなUniFrac Distanceを万能の距離尺度と考えて使っているように感じられるが、あれはUniFrac Distanceを計算する系統樹が問題無いことを前提にしているのだから、その前提の確認無しに信頼しすぎるのはマズいよ。"
+8:23 AM - 12 Dec 2013
+
+https://twitter.com/yuifu/status/187741115720548352
+Haruka Ozaki on Twitter: "UniFracの元論文。細菌叢の配列集合間の距離を計算する手法。系統樹上で共有する枝長を使い、かつ、距離を定義したことが新しかったらしい。オルタナティブを作ろうとすると、優位性を示す方法がないことが課題。 http://t.co/nZudriEa #Everydayペーパー"
+11:19 PM - 4 Apr 2012
+
+
+----------
+
+https://www.ncbi.nlm.nih.gov/pubmed/25815895
+PLoS Comput Biol. 2015 Mar 27;11(3):e1004186. doi: 10.1371/journal.pcbi.1004186. eCollection 2015 Mar.
+Explaining diversity in metagenomic datasets by phylogenetic-based feature weighting.
+Albanese D1, De Filippo C2, Cavalieri D1, Donati C1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4376673/
+
+Given that the sequences of marker genes are available, phylogenetic measures of diversity such as UniFrac [19,20] have proven to be able to identify subtle differences in the structures of microbial communities by weighting species abundances with the phylogenetic relationships amongst taxa.
+
+Here we present PhyloRelief, a ranking strategy to identify the taxa significantly contributing to the differentiation of groups of amplicon metagenomic samples. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4376673/figure/pcbi.1004186.g001/
+Fig 1
+Schema of the method.
+B) Next, the matrix of the distances between the samples must be computed using a phylogenetic measure of β-diversity, such as weighted or unweighted UniFrac must be provided. C) The PhyloRelief strategy. 
+
+We compared the performance of PhyloRelief coupled with the RF classifier to LEfSe [30], an algorithm that uses statistical tests for biomarker discovery, to MetaPhyl, a recent phylogeny-based method for the classification of microbial communities [31] and to Random Forest, used both as classifier and feature selection method. 
+
+Software dependencies and availability
+PhyloRelief is implemented in Python (http://www.python.org), and requires Python > = 2.7 with the NumPy/SciPy (http://www.scipy.org), Pandas (http://pandas.pydata.org/), DendroPy [43] and Statsmodels (http://statsmodels.sourceforge.net/) libraries. PhyloRelief software, scripts and data analyzed in this paper are available at http://compmetagen.github.io/phylorelief.
+
+
+----------
+## LEfSe
+linear discriminant analysis (LDA) effect size (LEfSe) 
+線形判別分析（LDA）効果量（LEfSe）
+
+https://www.ncbi.nlm.nih.gov/pubmed/21702898
+Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
+Metagenomic biomarker discovery and explanation.
+Segata N1, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/
+LEfSe determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/figure/F6/
+(a) Step 1, Kruskal–Wallis
+(b) Step 2, Wilcoxon (pairwise comparisons)
+(c) Step 3, build a LDA model, effect size
+
+LEfSeのステップ
+
+https://twbattaglia.gitbooks.io/introduction-to-qiime/content/lefse.html
+LEfSe · An Introduction to QIIME 1.9.1
+
+LEfSe (Linear discriminant analysis effect size) is a tool developed by the Huttenhower group to find biomarkers between 2 or more groups using relative abundances.
+
+LEfSe uses a table of relative abundances which also includes sample identifiers and group meta data. 
+
+https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
+Differential abundance analysis with LEfSe
+
+2020/01/11
+https://note.com/ytomy/n/n39b64afd3862
+LEfSeの使用法
+Galaxy
+
+https://doi.org/10.7875/togotv.2019.102
+2019-04-12 LEfSeを使って細菌叢(Microbiome)の群間比較解析とバイオマーカー探索を行う
+Galaxy
+
+27 April 2017
+http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
+LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
+
+https://www.pediatricsurgery.site/archive/category/菌叢解析
+菌叢解析
+
+2016-10-31
+LEfSeを実際にやってみる
+
+2016-10-31
+LEfSeをインストールする
+
+https://www.pediatricsurgery.site/entry/2016/10/31/214233
+LEfSeを実際にやってみる - Note of Pediatric Surgery
+
+https://www.pediatricsurgery.site/entry/2016/10/31/210537
+LEfSeをインストールする - Note of Pediatric Surgery
+
 
 
 
