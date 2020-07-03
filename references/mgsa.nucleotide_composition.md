@@ -1,5 +1,4 @@
 # mgsa.nucleotide_composition
-# GC content
 塩基組成、GC含量
 
 ## Table of Contents
@@ -8,6 +7,24 @@
 [2019](#2019)
 
 https://github.com/haruosuz/codon#neutral
+
+----------
+## aerobic
+酸素とGC含量
+
+https://pubmed.ncbi.nlm.nih.gov/30691392/
+BMC Evol Biol
+. 2019 Jan 28;19(1):35. doi: 10.1186/s12862-019-1365-8.
+Aerobic Prokaryotes Do Not Have Higher GC Contents Than Anaerobic Prokaryotes, but Obligate Aerobic Prokaryotes Have
+Sidra Aslam 1, Xin-Ran Lan 1, Bo-Wen Zhang 1, Zheng-Lin Chen 1, Li Wang 1, Deng-Ke Niu 2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350292/
+
+https://pubmed.ncbi.nlm.nih.gov/12187379/
+J Mol Evol
+. 2002 Sep;55(3):260-4. doi: 10.1007/s00239-002-2323-3.
+Aerobiosis Increases the Genomic Guanine Plus Cytosine Content (GC%) in Prokaryotes
+Hugo Naya 1, Héctor Romero, Alejandro Zavala, Beatriz Alvarez, Héctor Musto
+http://pbil.univ-lyon1.fr/members/lobry/articles/JME_1997_44_632.kim/NayaH2002.pdf
 
 ----------
 ## mutation
