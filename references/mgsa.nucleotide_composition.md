@@ -10,7 +10,7 @@ https://github.com/haruosuz/codon#neutral
 
 ----------
 ## aerobic
-酸素とGC含量
+酸素要求性とGC含量
 
 https://pubmed.ncbi.nlm.nih.gov/30691392/
 BMC Evol Biol
