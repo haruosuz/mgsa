@@ -25,7 +25,8 @@ J Mol Evol
 Oxygen and Guanine-Cytosine Profiles in Marine Environments
 Héctor Romero 1, Emiliano Pereira, Hugo Naya, Héctor Musto
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2722718/
-In a previous article published by our group, we showed that inside well-defined taxonomic groups of prokaryotes, strictly aerobic organisms tend to display higher genomic GC levels than strictly anaerobic species. In the present study, we examined the GC content of fragments of DNA obtained from microbial communities along a well-defined environmental gradient: a 4,000-m vertical profile in the North Pacific subtropical gyre. The patterns of GC distribution might be associated with oxygen concentrations in the seawater column. These results give further support to the link between a physiologic trait (aerobic respiration) and genomic GC content.
+In a previous article published by our group, we showed that inside well-defined taxonomic groups of prokaryotes, strictly aerobic organisms tend to display higher genomic GC levels than strictly anaerobic species. 
+These results give further support to the link between a physiologic trait (aerobic respiration) and genomic GC content.
 
 Mini Review
 https://pubmed.ncbi.nlm.nih.gov/16815305/
