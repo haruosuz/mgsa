@@ -19,6 +19,25 @@ Aerobic Prokaryotes Do Not Have Higher GC Contents Than Anaerobic Prokaryotes, b
 Sidra Aslam 1, Xin-Ran Lan 1, Bo-Wen Zhang 1, Zheng-Lin Chen 1, Li Wang 1, Deng-Ke Niu 2
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350292/
 
+https://pubmed.ncbi.nlm.nih.gov/19554248/
+J Mol Evol
+. 2009 Aug;69(2):203-6. doi: 10.1007/s00239-009-9230-9. Epub 2009 Jun 25.
+Oxygen and Guanine-Cytosine Profiles in Marine Environments
+Héctor Romero 1, Emiliano Pereira, Hugo Naya, Héctor Musto
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2722718/
+In a previous article published by our group, we showed that inside well-defined taxonomic groups of prokaryotes, strictly aerobic organisms tend to display higher genomic GC levels than strictly anaerobic species. In the present study, we examined the GC content of fragments of DNA obtained from microbial communities along a well-defined environmental gradient: a 4,000-m vertical profile in the North Pacific subtropical gyre. The patterns of GC distribution might be associated with oxygen concentrations in the seawater column. These results give further support to the link between a physiologic trait (aerobic respiration) and genomic GC content.
+
+Mini Review
+https://pubmed.ncbi.nlm.nih.gov/16815305/
+Biochem Biophys Res Commun
+. 2006 Aug 18;347(1):1-3. doi: 10.1016/j.bbrc.2006.06.054. Epub 2006 Jun 19.
+Genomic GC Level, Optimal Growth Temperature, and Genome Size in Prokaryotes
+Héctor Musto 1, Hugo Naya, Alejandro Zavala, Héctor Romero, Fernando Alvarez-Valín, Giorgio Bernardi
+https://www.sciencedirect.com/science/article/pii/S0006291X06013088?via%3Dihub
+- Furthermore, we demonstrate that the relationship that exists between genome size and GC level is valid for aerobic, facultative, and microaerophilic species, but not for anaerobic prokaryotes.
+- In this regard, we should mention that the correlation between genome size and genomic GC holds only for aerobic, facultative, and microaerophilic prokaryotes, but not for anaerobic species, as is shown in Fig. 1. 
+- Fig. 1. The data for constructing this plot were taken from http://www.ncbi.nlm.nih.gov/genomes/lproks.cgi, which displays several physiological and ecological features for all completed prokaryotic genomes. When several species from the same genus were available, we included the organism with the highest genome size. (a) All species; (b) aerobic, facultative, and microaerophilic prokaryotes; (c) anaerobic prokaryotes.
+
 https://pubmed.ncbi.nlm.nih.gov/12187379/
 J Mol Evol
 . 2002 Sep;55(3):260-4. doi: 10.1007/s00239-002-2323-3.
@@ -145,13 +164,13 @@ Environ Microbiol Rep. 2014 Jun;6(3):278-86. doi: 10.1111/1758-2229.12145. Epub 
 Positive correlations between genomic %AT and genome size within strains of bacterial species.
 Bohlin J1, Sekse C, Skjerve E, Brynildsrud O.
 https://onlinelibrary.wiley.com/doi/full/10.1111/1758-2229.12145
+ Fig. 2 
+Chlamydia trachomatis, Neisseria meningitidis, Helicobacter pylori, Escherichia coli, Francisella tularensis, Listeria monocytogenes, Strepto- coccus pneumoniae and Streptococcus suis on the other hand were found to have genomes sizes that correlated positively with genomic %AT and thus opposite to what was anticipated. 
+
 - Fig. 1. phyla/subphylaレベルでは12のうち6分類群でゲノムサイズとAT含量に負の相関（GC含量に正の相関）、2分類群のみで正の相関。
 - Fig. 2. speciesレベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関（GC含量に負の相関）、4分類群のみで負の相関。
-
-図1：門（亜門）レベルでは12のうち6分類群でゲノムサイズとAT含量に負の相関、2分類群のみで正の相関。
-図2：種レベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関、4分類群のみで負の相関。
-https://onlinelibrary.wiley.com/doi/full/10.1111/1758-2229.12145
-
+- 図1：門（亜門）レベルでは12のうち6分類群でゲノムサイズとAT含量に負の相関、2分類群のみで正の相関。
+- 図2：種レベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関、4分類群のみで負の相関。
 
 https://twitter.com/Symbionticism/status/1123203760564637697
 Seth Bordenstein on Twitter: "This is a game changer. Many intracellular microbes have a genome wide bias in A’s and T’s. The major assumption has been a mutational bias / drift impacts this outcome. Well, not so fast. Evidence below that selection can contribute or cause it.… https://t.co/yfDqN3b3Lj"
