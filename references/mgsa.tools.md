@@ -774,6 +774,18 @@ https://ultrabem.com/other_metabolites/nucleic_acids/dna_genome_paper.html
 概要: Genome paper について
 2016 年現在、GenBank には 6 万以上の 原核生物 ゲノムと、2700 以上の真核生物ゲノムが登録されている。
 
+#### jgenomics
+Journal of Genomics
+
+https://www.jgenomics.com/v08p0037.htm
+Draft Genome Sequences of Bifidobacterium animalis Consecutively Isolated from Healthy Japanese Individuals
+
+https://www.jgenomics.com/v07p0018.htm
+Complete Genome Sequence of Arthrobacter sp. Strain MN05-02, a UV-Resistant Bacterium from a Manganese Deposit in the Sonoran Desert
+
+https://www.jgenomics.com/v06p0122.htm
+Genomic Analysis of Rhodococcus sp. Br-6, a Bromate Reducing Bacterium Isolated From Soil in Chiba, Japan
+
 #### Data in Brief
 
 2018年01月30日
@@ -784,6 +796,7 @@ https://www.editage.jp/insights/can-i-submit-the-supplemental-data-of-my-manuscr
 2014年09月12日
 https://jipsti.jst.go.jp/johokanri/sti_updates/?id=7506
 エルゼビア社の新しいデータ・ジャーナルData in Brief | 科学技術情報プラットフォーム
+
 
 #### genome announcements
 
@@ -1272,14 +1285,28 @@ Regarding prokaryote genomics—databases with microbial phenotypes are scarce, 
 
 ### BacDive
 
-http://kazumaxneo.hatenablog.com/entry/2019/07/06/073000
-バクテリアの表現型情報データベース BacDive - macでインフォマティクス
+https://bacdive.dsmz.de/
+BacDive | The Bacterial Diversity Metadatabase
 
 https://bacdive.dsmz.de/tutorials
 Tutorials | BacDive
 
-https://bacdive.dsmz.de/
-BacDive | The Bacterial Diversity Metadatabase
+https://twitter.com/BacDive
+BacDive (@BacDive) | Twitter
+
+https://twitter.com/BacDive/status/1103238138816839680
+BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
+5:17 AM - 6 Mar 2019
+
+https://twitter.com/BacDive/status/1095559495651115009
+BacDive on Twitter: "Find here an interesting example how @BacDive data can be used to correlate microbial growth temperatues with temperature optima of enzymes: https://t.co/XWenohoc5W #biodiversity #bacteria #microbiology"
+12:45 AM - 13 Feb 2019
+
+2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
+https://www.ncbi.nlm.nih.gov/pubmed/24214959
+Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
+BacDive--the Bacterial Diversity Metadatabase.
+Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
 
 ```
 https://bacdive.dsmz.de/search?search=Shewanella&submit=
@@ -1305,22 +1332,8 @@ Isolation, sampling and environmental information
 [Ref.: #31844]	Sample type/isolated from	marine sediment
 ```
 
-https://twitter.com/BacDive
-BacDive (@BacDive) | Twitter
-
-https://twitter.com/BacDive/status/1103238138816839680
-BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
-5:17 AM - 6 Mar 2019
-
-https://twitter.com/BacDive/status/1095559495651115009
-BacDive on Twitter: "Find here an interesting example how @BacDive data can be used to correlate microbial growth temperatues with temperature optima of enzymes: https://t.co/XWenohoc5W #biodiversity #bacteria #microbiology"
-12:45 AM - 13 Feb 2019
-
-2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
-https://www.ncbi.nlm.nih.gov/pubmed/24214959
-Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
-BacDive--the Bacterial Diversity Metadatabase.
-Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
+http://kazumaxneo.hatenablog.com/entry/2019/07/06/073000
+バクテリアの表現型情報データベース BacDive - macでインフォマティクス
 
 ### MetaMetaDB
 http://mmdb.aori.u-tokyo.ac.jp
