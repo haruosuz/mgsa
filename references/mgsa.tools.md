@@ -511,6 +511,9 @@ Small Things Considered: Do bacterial species really exist and why should we car
 Genome Taxonomy Database
 http://gtdb.ecogenomic.org/
 
+http://kazumaxneo.hatenablog.com/entry/2019/10/29/143024
+GTDBのオンライン系統樹 AnnoTree - macでインフォマティクス
+
 https://twitter.com/kazumachack/status/1188583676772093952
 Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。 普遍的な single-copy proteinsに基… https://t.co/EbOtcaM4z5"
 7:30 AM · Oct 28, 2019
