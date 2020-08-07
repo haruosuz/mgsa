@@ -43,9 +43,6 @@
   - [CheckM](#checkm)
   - [BUSCO](#busco)
 - [ANI](#ani) Average Nucleotide Identity
-- [species](#species)
-- [taxonomy](#taxonomy)
-  - [Genome Taxonomy Database](#gtdb)
 - [Mash](#mash)
 - [MinHash](#minhash)
 - [Genome alignment](#genome-alignment)
@@ -135,67 +132,6 @@ kblin/ncbi-genome-download: Scripts to download genomes from the NCBI FTP server
 https://twitter.com/torstenseemann/status/1013354894730772480
 Torsten Seemann on Twitter: "Need a closed bacterial reference genome that's close to your sample but can't find it on @ncbi or @enasequence ? Try looking at the @NCTC_3000 collection, as not all of the asemblies have made it into the public databases yet ! https://t.co/lIolFpNJ0z"
 5:33 AM - 1 Jul 2018
-
-
-https://twitter.com/drk0311/status/1204326388368470016
-内藤健 on Twitter: "all-to-allのblast検索をしたいのだけど、blastnより高速なツールは何がありますか。誰か教えてエロい人。" / Twitter
-6:06 PM · Dec 10, 2019
-- Diamondとかmmseq2とかでいいんですかね？　all to allで使ったことはないですが。
-- mmseq2はqueryを分割してしまうのが気に入らないんだなー　Diamond初耳ちぇけら
-- 使用経験はないのですがGHOSTXとか…？
-
-https://www.ncbi.nlm.nih.gov/pubmed/25402007
-Nat Methods. 2015 Jan;12(1):59-60. doi: 10.1038/nmeth.3176. Epub 2014 Nov 17.
-Fast and sensitive protein alignment using DIAMOND.
-Buchfink B1, Xie C2, Huson DH3.
-
-https://www.scl.kyoto-u.ac.jp/Appli/
-アプリケーション一覧
-```
-DIAMOND	ホモロジー検索	diamond
-MMseq2	ホモロジー検索、配列クラスタリング	mmseq2
-ghostx	ホモロジー検索	ghostx
-```
-
-----------
-## mmseq2
-
-https://github.com/soedinglab/MMseqs2
-MMseqs2: ultra fast and sensitive protein search and clustering suite
-MMseqs2 (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/30615063
-Bioinformatics. 2019 Aug 15;35(16):2856-2858. doi: 10.1093/bioinformatics/bty1057.
-MMseqs2 desktop and local web server app for fast, interactive sequence searches.
-Mirdita M1, Steinegger M1,2, Söding J1.
-
-http://kazumaxneo.hatenablog.com/entry/2019/06/28/073000
-MMseqs2 コマンド其の2 タンパク質配列のクラスタリング - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/22/220752
-高速かつ高感度なプロテイン検索ツール MMseqs2 - macでインフォマティクス
-
-----------
-## diamond
-https://ab.inf.uni-tuebingen.de/software/diamond/
-https://github.com/bbuchfink/diamond
-blastx
-
-https://www.ncbi.nlm.nih.gov/pubmed/25402007
-Nat Methods. 2015 Jan;12(1):59-60. doi: 10.1038/nmeth.3176. Epub 2014 Nov 17.
-Fast and sensitive protein alignment using DIAMOND.
-Buchfink B1, Xie C2, Huson DH3.
-
-https://twitter.com/windowmoon/status/916248116193456129
-窓月＠低度AI人材 on Twitter: "DIAMONDはBLASTNをサポートしてないし、原理上アミノ酸配列データベースでしか高速化が機能しない。核酸配列データベースの超高速ローカルアライメント検索できるアプリが欲しい。"
-1:25 PM · Oct 6, 2017
-
-http://kazumaxneo.hatenablog.com/entry/2017/08/24/150512
-BLASTとコンパチブルで高速なホモロジー検索ツール Diamond - macでインフォマティクス
-
-2015-12-28
-https://ang65.hatenadiary.org/entry/20151228/1451307913
-高速なタンパク質配列相同性検索ツール「DIAMOND」 - それなりにマジメなメモ
 
 ----------
 ### holt Lab
@@ -437,6 +373,11 @@ https://github.com/rprops/MetaG_analysis_workflow/wiki/13.-Compute-Average-Nucle
 http://kazumaxneo.hatenablog.com/archive/category/ANI
 ANI カテゴリーの記事一覧 - macでインフォマティクス
 
+http://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
+gANIを計算するツール ANIcalculator - macでインフォマティクス
+- 微生物は数と多様性の両方で生命の樹木を支配しており、その自然分類を困難かつ重要なものにしている。動物では、種は一般に交配可能な生物群と定義されるが（biological species concept）、この定義は無性生物の集合体に直接適用することはできない。結果として、微生物分類学は、生物に関する遺伝子型、表現型および化学感受性の情報を統合し、利用可能なデータのコンセンサスに基づいて微生物種を描写する多相性のアプローチ（論文よりref.2,3）を採用する。
+- Whole-genome based Average Nucleotide Identity (gANI) は、KonstantinidisとTiedjeにより、2ゲノム間の類似性の尺度として提案された（ref.4）。
+
 http://kazumaxneo.hatenablog.com/entry/2018/09/10/201205
 ANItoolsをwebで実行できるANItools web - macでインフォマティクス
 
@@ -474,107 +415,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/15701695
 Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2567-72. Epub 2005 Feb 8.
 Genomic insights that advance the species definition for prokaryotes.
 Konstantinidis KT1, Tiedje JM.
-
-
-----------
-## species
-
-Posted May 24, 2019.
-https://www.biorxiv.org/content/10.1101/647511v1
-Consistent metagenome-derived metrics verify and define bacterial species boundaries
-- Bacterial genomes from the human gut, soil, and the ocean all exhibited gaps in whole-genome average nucleotide identities (ANI) near the previously suggested species threshold of 95% ANI. While genome-wide ratios of non-synonymous and synonymous nucleotide differences (dN/dS) decrease until ANI values approach ~98%, estimates for homologous recombination approached zero at ~95% ANI, supporting breakdown of recombination due to sequence divergence as a species-forming force. 
-
-https://www.sciencedirect.com/science/article/pii/S0960982219300624
-Systematics: The Cohesive Nature of Bacterial Species Taxa - ScienceDirect
-
-https://twitter.com/digitalwright/status/1047618983497818114
-Erik Wright on Twitter: "Is "species" a real thing for bacteria? @baobabbaum and I did a deep dive into thousands of bacterial genomes to figure it out. Turns out the answer is yes and no. Check it out in #BMCGenomics: https://t.co/COJRzSpbs5… https://t.co/7maLMhhTZX"
-6:46 PM - 3 Oct 2018
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
-gANIを計算するツール ANIcalculator - macでインフォマティクス
-- 微生物は数と多様性の両方で生命の樹木を支配しており、その自然分類を困難かつ重要なものにしている。動物では、種は一般に交配可能な生物群と定義されるが（biological species concept）、この定義は無性生物の集合体に直接適用することはできない。結果として、微生物分類学は、生物に関する遺伝子型、表現型および化学感受性の情報を統合し、利用可能なデータのコンセンサスに基づいて微生物種を描写する多相性のアプローチ（論文よりref.2,3）を採用する。
-- Whole-genome based Average Nucleotide Identity (gANI) は、KonstantinidisとTiedjeにより、2ゲノム間の類似性の尺度として提案された（ref.4）。
-
-https://www.ncbi.nlm.nih.gov/pubmed/26150420
-Nucleic Acids Res. 2015 Aug 18;43(14):6761-71. doi: 10.1093/nar/gkv657. Epub 2015 Jul 6.
-Microbial species delineation using whole genome sequences.
-Varghese NJ1, Mukherjee S1, Ivanova N1, Konstantinidis KT2, Mavrommatis K3, Kyrpides NC4, Pati A4.
-
-January 16, 2017
-http://schaechter.asmblog.org/schaechter/2017/01/do-bacterial-species-really-exist-and-why-should-we-care.html
-Small Things Considered: Do bacterial species really exist and why should we care?
-
-----------
-## taxonomy
-### gtdb
-Genome Taxonomy Database
-http://gtdb.ecogenomic.org/
-
-http://kazumaxneo.hatenablog.com/entry/2019/10/29/143024
-GTDBのオンライン系統樹 AnnoTree - macでインフォマティクス
-
-https://twitter.com/kazumachack/status/1188583676772093952
-Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。 普遍的な single-copy proteinsに基… https://t.co/EbOtcaM4z5"
-7:30 AM · Oct 28, 2019
-
-http://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
-普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/31778148
-Bioinformatics. 2019 Nov 28. pii: btz899. doi: 10.1093/bioinformatics/btz899. [Epub ahead of print]
-Struo: a pipeline for building custom databases for common metagenome profilers.
-de la Cuesta-Zuluaga J1, Ley RE1, Youngblut ND1.
-AVAILABILITY AND IMPLEMENTATION:
-Source code available for download at https://github.com/leylabmpi/Struo. Custom GTDB databases available at http://ftp.tue.mpg.de/ebio/projects/struo/.
-
-https://www.ncbi.nlm.nih.gov/pubmed/31730192
-Bioinformatics. 2019 Nov 15. pii: btz848. doi: 10.1093/bioinformatics/btz848. [Epub ahead of print]
-GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database.
-Chaumeil PA1, Mussig AJ1, Hugenholtz P1, Parks DH1.
-https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btz848
-
-https://www.ncbi.nlm.nih.gov/pubmed/30148503
-Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
-Parks DH1, Chuvochina M1, Waite DW1, Rinke C1, Skarshewski A1, Chaumeil PA1, Hugenholtz P1.
-https://www.nature.com/articles/nbt.4229
-A bacterial genome tree was inferred from the dereplicated data set by applying FastTree to a concatenated alignment of 120 ubiquitous single-copy proteins22 (subsequently referred to as 'bac120') comprising a total of 34,744 columns after trimming of 1,021 columns represented in <50% of the genomes and 5,390 columns with an amino acid consensus <25% (Online Methods).
-
-https://twitter.com/NatureBiotech/status/1034201413717450753
-Nature Biotechnology on Twitter: "A standardized bacterial #taxonomy based on genome phylogeny substantially revises the tree of life https://t.co/VxV1FNxtAs #phylogenetics… https://t.co/AZR5RBc18E"
-6:10 PM - 27 Aug 2018
-![](https://pbs.twimg.com/media/Dlo37tsUYAAcnP8.jpg)
-
-https://twitter.com/NatureRevMicro/status/1036595989816246272
-Nature Rev Microbiol on Twitter: "#ResearchHighlight: Next-generation bacterial taxonomy https://t.co/Acx8vB0XuW"
-8:45 AM - 3 Sep 2018
-
-https://twitter.com/RPoretsky/status/1034446295451226113
-Rachel Poretsky on Twitter: "The @PhilHugenholtz et al. paper that contributed to heated #ISME17 discussions is out! A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life. https://t.co/lvWwHKS7OD"
-10:23 AM - 28 Aug 2018
-
-https://twitter.com/NatureRevMicro/status/1034357487355539456
-Nature Rev Microbiol on Twitter: "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life @NatureBiotech https://t.co/Hro7pynEPQ… https://t.co/ev7En4LKdL"
-4:30 AM - 28 Aug 2018
-![](https://pbs.twimg.com/media/DlrGnFvX4AA_a4L.jpg)
-
-https://twitter.com/WvSchaik/status/1034188127261405185
-Willem van Schaik on Twitter: "Exciting paper: 'A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life' by @PhilHugenholtz https://t.co/ABzGHUSuPn"
-5:17 PM - 27 Aug 2018
-
-https://twitter.com/Tyu_Shi/status/1034217003936931841
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life https://www.nature.com/articles/nbt.4229 …  bioRxivに前に出ていたHugenholtz達の原核生物ゲノム系統樹論文が出たか。
-7:12 PM - 27 Aug 2018
-
-https://www.ncbi.nlm.nih.gov/pubmed/28731467
-ISME J. 2017 Nov;11(11):2399-2406. doi: 10.1038/ismej.2017.113. Epub 2017 Jul 21.
-Uncultivated microbes in need of their own taxonomy.
-Konstantinidis KT1, Rosselló-Móra R2, Amann R3.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/
-Table 1
-Proposed standards for high-quality taxa descriptions of uncultivated Bacteria and Archaea
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/table/tbl1/?report=objectonly
 
 ----------
 
