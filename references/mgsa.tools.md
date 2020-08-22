@@ -69,18 +69,21 @@ https://ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
 the presence or absence of short 31 bp haplotypes or ‘kmers’
 
 
-
-
 ----------
 ### bactopia
 https://github.com/bactopia/bactopia
 
 https://github.com/bactopia/bactopia/issues/100
 It would be nice to execute the tool on just completed genomes. For example, run Roary on just the completed genomes.
+https://github.com/bactopia/bactopia/issues/100#issuecomment-653634707
+I've released a new version of Bactopia (https://github.com/bactopia/bactopia/releases/tag/v1.4.0). The bactopia tools for Roary and PIRATE, both allow the creation of a pan-genome of only completed genomes.
 
-Posted March 02, 2020.
-https://www.biorxiv.org/content/10.1101/2020.02.28.969394v1
-Bactopia: a flexible pipeline for complete analysis of bacterial genomes | bioRxiv
+https://pubmed.ncbi.nlm.nih.gov/32753501/
+mSystems
+. 2020 Aug 4;5(4):e00190-20. doi: 10.1128/mSystems.00190-20.
+Bactopia: a Flexible Pipeline for Complete Analysis of Bacterial Genomes
+Robert A Petit 3rd 1, Timothy D Read 2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7406220/
 
 http://kazumaxneo.hatenablog.com/entry/2020/03/17/090935
 計算リソースを効率的に使って多数のよく似たバクテリアゲノムを素早く分析する自動化されたパイプライン Bactopia - macでインフォマティクス
@@ -96,8 +99,6 @@ PLSDB (Plasmid) BLAST/Sketch:
 ```
 
 これにより、Aribaデータセット（CARDおよびvfdb_core）、RefSeq Mash sketch、GenBank Sourmash Signatures、およびPLSDBが作成されたdatasetsディレクトリにセットアップされる。
-
-
 
 ----------
 ### Tychus
