@@ -36,6 +36,15 @@
 - [unifrac](#unifrac)
 - [LEfSe](#lefse)
 
+
+----------
+
+http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
+メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
+
+
+
+
 ----------
 ## 2019-05-02
 
@@ -399,6 +408,47 @@ https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextb
 ## updates
 
 ### 2020
+
+Aug 18, 2020
+https://twitter.com/LibKot/status/1295539951396782080
+Meta-analysis of cheese microbiomes highlights contributions to multiple aspects of quality
+https://nature.com/articles/s43016-020-0129-3 #maskotlib
+
+チーズマイクロバイオームの詳細な理解は、風味、外観、品質、安全性の最適化の鍵となる。そこで我々は、チーズマイクロバイオームとそれに対応するボラチロムの高分解能メタアナリシスを実施した。
+
+アイルランドの生産者27社から55種類の職人的チーズから採取した77種類の新しいサンプルと、公開されている107種類のチーズメタゲノムを組み合わせて使用したところ、328種類のメタゲノムを発見しました。
+
+その中には、揮発性物質の分泌や色素の生合成を通じて味や色に影響を与える可能性のある47種類の新種が含まれていました。さらに、サンプルのサブセットから、菌株の豊富さの違いが揮発性物質のレベルに対応していることを発見しました。
+
+バクテリオシンやシュードアルテリンなどの抗菌薬をコードする遺伝子が共通しており、好ましくない微生物の制御に寄与している可能性が示唆された。抗生物質耐性遺伝子が検出されたが、他のマイクロバイオームへの伝播に関しては大きな懸念材料ではないことが示唆された。
+
+発酵障害の潜在的な原因であるファージは豊富に存在し、ファージ媒介の遺伝子移入の証拠が検出された。抗ファージ防御機構である CRISPR は広く普及しており、その解析と抗 CRISPR タンパク質の解析により、ファージと細菌の間に複雑な相互作用があることが明らかになった。
+
+全体的に、我々の結果は、チーズ生産のさらなる改善に応用できるチーズマイクロバイオームに新たな技術的・生態学的洞察を提供するものである。
+
+
+
+
+
+10:21 AM · Jun 30, 2020
+https://twitter.com/maskot1977/status/1277774301039480832
+From bag-of-genes to bag-of-genomes: metabolic modelling of communities in the era of metagenome-assembled genomes
+https://sciencedirect.com/science/article/pii/S2001037020303172 #maskotlib
+
+完全な微生物群集のメタゲノム配列決定は、微生物の分類学的構成の理解を飛躍的に向上させました。
+
+これにより、アセンブリー、遺伝子クラスタリング、種ゲノムのメタゲノム結合などのバイオインフォマティクス分野で画期的な発展を遂げ、これまで発見されていなかった驚くべき分類学的多様性が発見されました。
+
+しかし、機能的なアノテーションを行い、単一の種（または群集）から代謝プロセスを推定することは、いまだに困難である。
+
+これまでのアプローチでは、代謝経路に重要な酵素がメタゲノム全体に存在することを推測することがほとんどであり、そのような酵素のゲノム情報を無視していたため、微生物の機能的能力を推定するための「遺伝子の袋」アプローチになってしまっていた。
+
+ここでは、メタゲノムバイオインフォマティクスにおける最近の動向をレビューし、特に、メタゲノムから得られる代謝情報をシミュレーションして推定する新技術に焦点を当てている。
+
+ゲノムスケールの代謝モデルは、微生物群集やコミュニティ全体の出現特性をモデル化するために使用することができ、この分野での進展をレビューする。
+
+メタゲノミクスのこの分野はまだ黎明期にあるが、大規模な群集の代謝を「ゲノムの袋」としてモデル化する際の複雑な組み合わせの問題に対処するために、さらなるバイオインフォマティクスツールが必要であることが明らかになりつつある。
+
 
 
 https://twitter.com/gggtta/status/1215107137476513792
@@ -1245,11 +1295,27 @@ We perform a cross-disease meta-analysis of these studies using standardized met
 
 https://researchmap.jp/himori/
 
+https://www.jsbi.org/iibmp2020/program/sponsor.html
+9/2（水）14:45〜16:15	データサイエンティスト養成セッション：実践的オミックス解析
+https://www.jsbi.org/iibmp2020/program/sponsor.html#sp6
+森 宙史（国立遺伝学研究所）
+「メタゲノム解析」
+https://www.youtube.com/watch?v=7mhsOuGYgYM&list=PL_dbAF_dbOEpcBhGhyv9Wvl2XU9MnmFUD&index=5
+メタゲノム解析（IIBMP2020） - YouTube
+12:00 / 20:31
+- 16S rRNA gene reference DB
+  - SILVA
+  - Greengenes
+  - RDP
+
 2019年9月25日
 https://github.com/AJACS-training/AJACS79
+統合データベース講習会：AJACS 十勝2
+帯広畜産大学　情報処理センター1階　第1実習室 （北海道帯広市稲田町西2線11番地）
 15:30-17:00　メタゲノム解析ツール ……森 宙史（国立遺伝学研究所）
-https://togotv.dbcls.jp/ajacs2019033.html
+http://doi.org/10.7875/ajacs.2019.033
 メタゲノム解析ツール｜統合TV(togotv)
+1:28:59
 
 http://doi.org/10.7875/ajacs.2017.016
 開催日時：2017-08-31
