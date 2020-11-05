@@ -2,7 +2,7 @@
 塩基組成、GC含量
 
 ## Table of Contents
-- [featuring](#featuring)
+- [unclassified](#unclassified)
 - [updates](#updates)
 [2020](#2020)
 [2019](#2019)
@@ -10,7 +10,7 @@
 - [mutation](#mutation) 変異
 
 ----------
-## featuring
+## unclassified
 
 - https://github.com/haruosuz/codon#neutral
 - https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#genome-signature
