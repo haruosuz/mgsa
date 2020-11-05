@@ -78,6 +78,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
 - GC content has been shown to relate to both the phylogeny and ecological adaptations of a microbial species, as demonstrated by Reichenberger and co-workers [73]. GC content can range from 15 to 75% and can be influenced by environmental factors such as temperature [74], oxygen levels [75], and nucleotide availability [76]. 
 - Fig. 2
 Density plots comparing “Common BE genomes” against “Other genomes.” a Genome size, b GC Content (%), c GCSI, and d S value.
+- The smaller genome size and lower GC content of M. leprae, an obligate pathogen, are a result of genome reduction which has been well documented [97].
+
 
 ### 2018
 
@@ -154,6 +156,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/
 - The values for both the genome size and the GC content of the strains isolated from the vagina are significantly lower than those of the strains isolated from the other sites (Fig. 1) (genome size, 1.71 ± 0.391 Mbp versus 2.33 ± 0.491 Mbp; GC content, 34.17% ± 2.036% versus 41.92% ± 5.609%). 
 - FIG 1
 Genome size and GC content of Lactobacillus species. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/figure/F1/?report=objectonly
 
 ### 2012
 
