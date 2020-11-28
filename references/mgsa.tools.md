@@ -46,8 +46,6 @@
 - [Mash](#mash)
 - [MinHash](#minhash)
 - [Genome alignment](#genome-alignment)
-- [diamond](#diamond)
-- [mmseq2](#mmseq2)
 - [lea](#lea)
 - [vitcomic](#vitcomic)
 - [pipeline](#pipeline)
@@ -55,23 +53,49 @@
   - [bactopia](#bactopia)
 
 
+
+
+
 ----------
 
-9:53 AM · May 25, 2019
-https://twitter.com/copypasteusa/status/1132087168388571136
-Haruo Suzuki on Twitter: "細菌間で保存されたゲノム領域core genomeを得る方法として、Roaryで得た保存「遺伝子」conserved-geneに比べ、k-mer（31連続塩基）頻度に基づいて得た保存「配列」conserved-sequenceは、同一患者サンプルの同定精度が高い（図4）。 https://t.co/b8OHPz2jED" / Twitter
-https://www.nature.com/articles/s41598-019-44189-0
-A core genome approach that enables prospective and dynamic monitoring of infectious outbreaks | Scientific Reports
-31 bp kmersを使用
-https://ncbi.nlm.nih.gov/pmc/articles/PMC5124939/
-overlapping, 31-bp DNA motifs or kmers 
-https://ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
-the presence or absence of short 31 bp haplotypes or ‘kmers’
+https://github.com/haruosuz/mgsa/blob/master/references/README.pangenome.md
+
+----------
+### Scoary
+
+https://github.com/AdmiralenOla/Scoary
+
+https://www.ncbi.nlm.nih.gov/pubmed/27887642
+Genome Biol. 2016 Nov 25;17(1):238.
+Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
+Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
+
+
+----------
+### piggy
+
+https://github.com/harry-thorpe/piggy
+
+https://pubmed.ncbi.nlm.nih.gov/29635296/
+Gigascience
+. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
+Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria
+Harry A Thorpe 1, Sion C Bayliss 1, Samuel K Sheppard 1, Edward J Feil 1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
+
+https://academic.oup.com/gigascience/article/7/4/giy015/4919733
+Roary and Piggy parameter settings
+Roary [4] was run using default parameters except for the following: -e -n (to produce alignments with MAFFT [23]); -i 90 (lower amino acid identity than the default); -s (to keep paralogs together); and -z (to keep intermediate files). 
 
 
 ----------
 ### bactopia
 https://github.com/bactopia/bactopia
+
+https://bactopia.github.io/
+
+https://github.com/bactopia/bactopia/issues/141
+How to run bactopia tools pirate/roary on a local dataset [question] · Issue #141 · bactopia/bactopia
 
 https://github.com/bactopia/bactopia/issues/100
 It would be nice to execute the tool on just completed genomes. For example, run Roary on just the completed genomes.
@@ -109,7 +133,6 @@ Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogen
 Christopher Dean, Noelle Noyes, Steven M Lakin, Pablo Rovira-Sanz, Xiang Yang, Keith Belk, Paul Morley, Richard Meinersmann, Zaid Abdo
 
 https://github.com/Abdo-Lab/Tychus
-
 
 
 
@@ -175,8 +198,14 @@ Beginner's guide to comparative bacterial genome analysis using next-generation 
 Edwards DJ1, Holt KE.
 
 
+----------
+## viewer
 
+http://kazumaxneo.hatenablog.com/entry/2019/10/08/073000
+ゲノムや特定の領域の配列比較結果をシンテニーブロックで視覚化する Easyfig - macでインフォマティクス
 
+http://kazumaxneo.hatenablog.com/entry/2017/03/24/172503
+ゲノム比較ビューア　Artemis comparison tool (ACT) - macでインフォマティクス
 
 ----------
 ## Genome alignment
@@ -1375,16 +1404,22 @@ Following [7] and [26], an S value was calculated for each plastid genome using 
 
 #### 2020
 
+https://pubmed.ncbi.nlm.nih.gov/32939027/
+ISME J
+. 2020 Sep 16. doi: 10.1038/s41396-020-00773-1. Online ahead of print.
+Benchmarking microbial growth rate predictions from metagenomes
+Andrew M Long 1, Shengwei Hou 2, J Cesar Ignacio-Espinoza 2, Jed A Fuhrman 2
+https://www.nature.com/articles/s41396-020-00773-1
+- Metagenomic growth estimators have been developed, specifically codon usage bias (CUB) for maximum growth rates and "peak-to-trough ratio" (PTR) for in situ rates. 
+- PTR, calculated by three methods, rarely correlated to growth (r ~-0.26-0.08), except for rapidly growing γ-Proteobacteria (r ~0.63-0.92), while CUB correlated moderately well to observed maximum growth rates (r = 0.57). This suggests that current PTR approaches poorly predict actual growth of most marine bacterial populations, but maximum growth rates can be approximated from genomic characteristics.
+
+
 https://twitter.com/asahi_kankyo/status/1225572539814105093
 朝日新聞環境取材チーム on Twitter: "私たちの「祖先」？　深海の泥から微生物の培養に成功：朝日新聞デジタル https://t.co/9TJIfyi9S8 《今回培養したのは、真核生物に最も近いアーキアの一群「アスガルドアーキア」の仲間》 #環境 #生き物 #自然" / Twitter
 9:10 AM · Feb 7, 2020
 バクテリア（大腸菌など）に比べて増殖速度が遅く、増殖した場合の細胞密度も低かったため、分離に成功するまで約12年もかかった。
 
 #### 2019
-
-September 30, 2019.
-https://www.biorxiv.org/content/10.1101/786939v1
-Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
 
 03 May 2019
 https://www.nature.com/articles/s41396-019-0422-z
