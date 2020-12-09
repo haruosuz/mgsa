@@ -146,6 +146,14 @@ https://www.nies.go.jp/kanko/news/20/20-1/20-1-06.html
 
 ----------
 
+
+http://kazumaxneo.hatenablog.com/entry/2020/04/28/073000
+DEICODE - macでインフォマティクス
+UniFrac (ref.8)で示されたように、系統情報を取り入れることで、微生物のβ多様性の推定は大幅に改善された。
+
+
+----------
+
 https://github.com/haruosuz/statistics/blob/master/README.md#distance
 
 ## UniFrac
@@ -582,11 +590,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/30197908
 Genes Dis. 2017 Sep;4(3):138-148. doi: 10.1016/j.gendis.2017.06.001. Epub 2017 Jun 23.
 Hypothesis Testing and Statistical Analysis of Microbiome.
 Xia Y1,2, Sun J2.
-
-2017-03-13
-http://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
-16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery 
-
 
 2017年11月23日
 http://www.natureasia.com/ja-jp/nature/551/7681/nature24460/
@@ -1127,7 +1130,7 @@ Kozlov AM1, Zhang J2, Yilmaz P3, Glöckner FO4, Stamatakis A5.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914121/
 First, we evaluate taxonomic annotations of type strains only, using the same sequence set and alignment (LTP v123) for all four databases (data sets GG13_T, LTP123_T, RDP11_T and SLV123_T in Table ​Table1).1). 
 
-http://blog.mothur.org/2015/08/04/No-greengenes-hasnt-improved/
+https://mothur.org/blog/2015/No-greengenes-hasnt-improved/
 No, greengenes' reference alignment hasn't improved
 
 - SILVA (good for alignment and classification)
@@ -1573,8 +1576,9 @@ Table 2
 Piphillin has less pre-requisites than PICRUSt and Tax4Fun.
 https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0166104.t002
 
-https://www.pediatricsurgery.site/entry/2017/03/13/152234
-16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery
+2017-03-13
+https://pediatricsurgery.hatenadiary.jp/entry/2017/03/13/152234
+16S rRNA遺伝子解析の限界と予測メタゲノム解析 - Piphillinの導入 - Note of Pediatric Surgery 
 下記の図にPICRUStとTax4Funに必要な条件がまとめられています。
 ![](http://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0166104.t002)
 
@@ -1593,8 +1597,6 @@ Characterization of the Gut Microbiome Using 16S or Shotgun Metagenomics.
 Jovel J1, Patterson J1, Wang W1, Hotte N1, O'Keefe S1, Mitchel T1, Perry T1, Kao D1, Mason AL1, Madsen KL1, Wong GK2.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837688/
 The software PICRUSt (Langille et al., 2013) can be used to infer metabolic capacity of the microbiome contained in 16S libraries.
-
-
 
 https://www.nature.com/articles/s41579-018-0029-9
 Best practices for analysing microbiomes
