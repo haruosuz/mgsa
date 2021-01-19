@@ -152,6 +152,20 @@ DEICODE - macでインフォマティクス
 UniFrac (ref.8)で示されたように、系統情報を取り入れることで、微生物のβ多様性の推定は大幅に改善された。
 
 
+https://gakken-mesh.jp/book/detail/9784780909838.html
+次世代シークエンサーDRY解析教本　改訂第2版 | 学研メディカル秀潤社
+
+https://github.com/youyuh48/NGSDRY2/
+次世代シークエンサーDRY解析教本 改訂第2版 サポートサイト
+
+QIIME2-01
+Level2：実践編5「０から始めるメタゲノム解析」本文部分のコマンドとデータ
+QIIME2-02
+Level2：実践編5「０から始めるメタゲノム解析」解析手順書のコマンドとデータ
+Yamamoto-etal-2018-FrontMicrobiol
+Level3：応用編14「メタ16Sシークエンスの各サンプルから得られた細菌叢組成の差を主座標分析・クラスター分析により可視化する
+
+
 ----------
 
 https://github.com/haruosuz/statistics/blob/master/README.md#distance
@@ -161,6 +175,39 @@ UniFracは、距離計量 distance metric の要件を満たす。
 
 https://en.wikipedia.org/wiki/UniFrac
 This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
+
+2020-06-22
+http://www.kaimeisha.com/index.php?共生微生物からみた新しい進化学
+https://www.hanmoto.com/bd/isbn/9784875253501
+共生微生物からみた新しい進化学
+長谷川政美(著)
+p.57: UniFrac 距離
+
+2018/10
+https://www.kinokuniya.co.jp/f/dsg-02-9789811315336
+マイクロバイオーム・データのＲ統計解析
+
+        3.3.2 UniFrac Distance Metric Family       49 (1)
+
+      9.5 Compare Microbiome Communities Using     320(7)
+      the GUniFrac Package
+        9.5.1 Introduction to UniFrac, Weighted    320(2)
+        UniFrac and Generalized UniFrac
+        Distance Metrics
+        9.5.2 Breast Milk Data Set                 322(1)
+        9.5.3 Comparing Microbiome Communities     323(4)
+        Using the GUniFrac Package
+
+https://link.springer.com/book/10.1007/978-981-13-1534-3
+Statistical Analysis of Microbiome Data with R | SpringerLink
+
+https://link.springer.com/chapter/10.1007/978-981-13-1534-3_3
+Introductory Overview of Statistical Analysis of Microbiome Data
+3.3.2 UniFrac Distance Metric Family
+
+https://link.springer.com/chapter/10.1007/978-981-13-1534-3_9
+Multivariate Community Analysis | SpringerLink
+9.5 Compare Microbiome Communities Using the GUniFrac Package
 
 https://www.ncbi.nlm.nih.gov/pubmed/30377368
 Nat Methods. 2018 Nov;15(11):847-848. doi: 10.1038/s41592-018-0187-8.
