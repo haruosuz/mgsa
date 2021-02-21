@@ -58,15 +58,71 @@
 
 https://github.com/haruosuz/mgsa/blob/master/references/README.pangenome.md
 
+----------
+## ClonalFrameML
 
+最尤推定により細菌ゲノムの組換えを検出
+
+https://github.com/xavierdidelot/ClonalFrameML
+The user guide for ClonalFrameML is available here.
+https://github.com/xavierdidelot/clonalframeml/wiki
+
+
+https://pubmed.ncbi.nlm.nih.gov/25675341/
+PLoS Comput Biol
+. 2015 Feb 12;11(2):e1004041. doi: 10.1371/journal.pcbi.1004041. eCollection 2015 Feb.
+ClonalFrameML: efficient inference of recombination in whole bacterial genomes
+Xavier Didelot 1, Daniel J Wilson 2
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004041
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4326465/
+
+
+5:28 AM · May 8, 2020
+https://twitter.com/kfuku0502/status/1258493846159319040
+Kenji Fukushima on Twitter: "分子系統学をほんの少しかじった者としてはSARS-CoV-2のゲノム配列を解析してみたい気持ちもあるんだけど、こういうの読むと地雷が多すぎてアーティファクトに嵌まる未来しか見えない。配列アラインメントを作るところですでにドメイン知識豊富な専門家が必要になってくる。 https://t.co/cECG4TCV6s" / Twitter
+全部自力でやろうとしたら、ここに挙げられているアーティファクトのいくつかは私では見破れないと思う。もしアラインメントを精査せずにその後の段階に進んでしまったら系統樹を描いた段階で枝が長い配列に気付いてそれらを除くくらいで、他の多くの点はスルーしてしまう気がする。
+https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473
+Issues with SARS-CoV-2 sequencing data - Novel 2019 coronavirus / nCoV-2019 Genomic Epidemiology - Virological
+Figure 2: IQTree phylogeny showing some very long terminal branches.
+Investigating recombinations and clusters of mutations/artefacts
+To further investigate, and to look into possible recombination events, homoplasies (mutation events seemingly happening multiple times along the phylogeny) and mutational clusters, we ran ClonalFrameML v1.12 [4]. This software found 30 putative recombination events happening at terminal branches, consistent with the long terminal branches in Figure 2.
 
 ----------
 ## updates
 
 ### 2021
 
+
+17 February 2021
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-020-00993-9
+PathoFact: a pipeline for the prediction of virulence factors and antimicrobial resistance genes in metagenomic data
+
+PathoFact, its models, and databases are freely available at https://pathofact.lcsb.uni.lu.
+
+
+
+https://github.com/gem-pasteur/PanACoTA
+https://pubmed.ncbi.nlm.nih.gov/33575648/
+NAR Genom Bioinform
+. 2021 Jan 12;3(1):lqaa106. doi: 10.1093/nargab/lqaa106. eCollection 2021 Mar.
+PanACoTA: a modular tool for massive microbial comparative genomics
+Amandine Perrin 1, Eduardo P C Rocha 1
+https://academic.oup.com/nargab/article/3/1/lqaa106/6090162
+Some tools, such as PIRATE (22) have also been recently developed to cluster orthologues between distant genomes. However, all these programs lack some or all of initial and final steps that are essential in comparative genomics, including download, quality control, alignment and phylogenetic inference. This spurred the development of PanACoTA (PANgenome with Annotations, COre identification, Tree and corresponding Alignments). 
+
+
+
+https://pubmed.ncbi.nlm.nih.gov/33407081/
+BMC Bioinformatics
+. 2021 Jan 6;22(1):11. doi: 10.1186/s12859-020-03940-5.
+MicrobeAnnotator: a user-friendly, comprehensive functional annotation pipeline for microbial genomes
+Carlos A Ruiz-Perez 1, Roth E Conrad 2, Konstantinos T Konstantinidis 3 4 5 6
 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03940-5
-MicrobeAnnotator: a user-friendly, comprehensive functional annotation pipeline for microbial genomes | BMC Bioinformatics | Full Text
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7789693/
+multiple databases [KEGG Orthology (KO), Enzyme Commission (E.C.), Gene Ontology (GO), Pfam, and InterPro].
+https://github.com/cruizperez/MicrobeAnnotator
+
+
 
 ### 2020
 
@@ -323,15 +379,32 @@ Genomic islandsを検出し視覚化する IslandViewer4 - macでインフォマ
 http://kazumaxneo.hatenablog.com/archive/category/synteny_block
 
 
+http://kazumaxneo.hatenablog.com/entry/2019/10/08/073000
+ゲノムや特定の領域の配列比較結果をシンテニーブロックで視覚化する Easyfig - macでインフォマティクス
+
+----------
+### smashpp
+
+https://github.com/smortezah/smashpp
+
+https://academic.oup.com/gigascience/article/9/5/giaa048/5841055
+Smash++: an alignment-free and memory-efficient tool to find genomic rearrangements
 
 http://kazumaxneo.hatenablog.com/entry/2020/05/21/235631
 ゲノムのリアレンジメントを検出して視覚化する smashpp - macでインフォマティクス
 
-http://kazumaxneo.hatenablog.com/entry/2019/10/08/073000
-ゲノムや特定の領域の配列比較結果をシンテニーブロックで視覚化する Easyfig - macでインフォマティクス
+----------
+### act
+Artemis comparison tool
+
+http://kazumaxneo.hatenablog.com/entry/2017/06/14/171106
+blast解析からArtemis comparison tool 起動まで自動で行うラッパーツール - macでインフォマティクス
 
 http://kazumaxneo.hatenablog.com/entry/2017/03/24/172503
 ゲノム比較ビューア　Artemis comparison tool (ACT) - macでインフォマティクス
+
+
+
 
 ----------
 ## Genome alignment
