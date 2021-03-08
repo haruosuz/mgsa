@@ -76,16 +76,8 @@ Xavier Didelot 1, Daniel J Wilson 2
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004041
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4326465/
 
-
-5:28 AM · May 8, 2020
-https://twitter.com/kfuku0502/status/1258493846159319040
-Kenji Fukushima on Twitter: "分子系統学をほんの少しかじった者としてはSARS-CoV-2のゲノム配列を解析してみたい気持ちもあるんだけど、こういうの読むと地雷が多すぎてアーティファクトに嵌まる未来しか見えない。配列アラインメントを作るところですでにドメイン知識豊富な専門家が必要になってくる。 https://t.co/cECG4TCV6s" / Twitter
-全部自力でやろうとしたら、ここに挙げられているアーティファクトのいくつかは私では見破れないと思う。もしアラインメントを精査せずにその後の段階に進んでしまったら系統樹を描いた段階で枝が長い配列に気付いてそれらを除くくらいで、他の多くの点はスルーしてしまう気がする。
+https://github.com/haruosuz/microbe/blob/master/references/microbe.COVID-19.md#tree
 https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473
-Issues with SARS-CoV-2 sequencing data - Novel 2019 coronavirus / nCoV-2019 Genomic Epidemiology - Virological
-Figure 2: IQTree phylogeny showing some very long terminal branches.
-Investigating recombinations and clusters of mutations/artefacts
-To further investigate, and to look into possible recombination events, homoplasies (mutation events seemingly happening multiple times along the phylogeny) and mutational clusters, we ran ClonalFrameML v1.12 [4]. This software found 30 putative recombination events happening at terminal branches, consistent with the long terminal branches in Figure 2.
 
 ----------
 ## updates
@@ -287,6 +279,7 @@ mSystems
 . 2020 Aug 4;5(4):e00190-20. doi: 10.1128/mSystems.00190-20.
 Bactopia: a Flexible Pipeline for Complete Analysis of Bacterial Genomes
 Robert A Petit 3rd 1, Timothy D Read 2
+https://msystems.asm.org/content/5/4/e00190-20
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7406220/
 
 http://kazumaxneo.hatenablog.com/entry/2020/03/17/090935
