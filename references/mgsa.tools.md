@@ -48,6 +48,7 @@
 - [vitcomic](#vitcomic)
 - [pipeline](#pipeline)
   - [Tychus](#tychus)
+  - [pirate](#pirate)
   - [bactopia](#bactopia)
 - [unclassified](#unclassified)
 - [updates](#updates)
@@ -261,10 +262,24 @@ Roary [4] was run using default parameters except for the following: -e -n (to p
 
 
 ----------
-### bactopia
-https://github.com/bactopia/bactopia
+### pirate
+https://github.com/SionBayliss/PIRATE
 
-https://bactopia.github.io/
+https://pubmed.ncbi.nlm.nih.gov/31598686/
+Gigascience
+. 2019 Oct 1;8(10):giz119. doi: 10.1093/gigascience/giz119.
+PIRATE: A fast and scalable pangenomics toolbox for clustering diverged orthologues in bacteria
+Sion C Bayliss 1, Harry A Thorpe 1, Nicola M Coyle 1, Samuel K Sheppard 1, Edward J Feil 1
+https://academic.oup.com/gigascience/article/8/10/giz119/5584409
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785682/
+For comparison, we chose 2 of the most widely used packages, Roary and PanX [2,6]. 
+
+
+----------
+### bactopia
+- https://github.com/bactopia/bactopia
+- https://bactopia.github.io/
+- https://bactopia.github.io/bactopia-tools/pirate/
 
 https://github.com/bactopia/bactopia/issues/141
 How to run bactopia tools pirate/roary on a local dataset [question] · Issue #141 · bactopia/bactopia
