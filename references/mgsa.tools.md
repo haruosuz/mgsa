@@ -48,12 +48,13 @@
 - [vitcomic](#vitcomic)
 - [pipeline](#pipeline)
   - [Tychus](#tychus)
-  - [pirate](#pirate)
+  - [scoary](#scoary)
+  - [piggy](#piggy)
   - [bactopia](#bactopia)
+  - [pirate](#pirate)
 - [unclassified](#unclassified)
 - [updates](#updates)
 - [island](#island)
-
 
 ----------
 
@@ -233,16 +234,28 @@ gbk2fna.pl -- Read Genbank to Nucleotide Fasta file.
 https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
+
+----------
+
 ----------
 ### Scoary
 
 https://github.com/AdmiralenOla/Scoary
 
-https://www.ncbi.nlm.nih.gov/pubmed/27887642
-Genome Biol. 2016 Nov 25;17(1):238.
-Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
-Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
+https://github.com/AdmiralenOla/Scoary/issues/86
+gene_presence_absence.csv file from Roary · Issue #86 · AdmiralenOla/Scoary
 
+https://pubmed.ncbi.nlm.nih.gov/27887642/
+Genome Biol
+. 2016 Nov 25;17(1):238. doi: 10.1186/s13059-016-1108-8.
+Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary
+Ola Brynildsrud 1, Jon Bohlin 2, Lonneke Scheffer 2 3, Vegard Eldholm 2
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1108-8
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124306/
+
+https://sanger-pathogens.github.io/Roary/
+Pan-genome wide association studies
+Ola Brynildsrud has created a python script called scoary which takes in a csv file of traits, and the gene presence and absense spreadsheet, then performs a pan genome wide association analysis. It highlights genes which appear to be linked to the traits and gives lots of stats.
 
 ----------
 ### piggy
@@ -259,7 +272,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
 https://academic.oup.com/gigascience/article/7/4/giy015/4919733
 Roary and Piggy parameter settings
 Roary [4] was run using default parameters except for the following: -e -n (to produce alignments with MAFFT [23]); -i 90 (lower amino acid identity than the default); -s (to keep paralogs together); and -z (to keep intermediate files). 
-
 
 ----------
 ### pirate
