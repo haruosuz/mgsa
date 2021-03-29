@@ -3,9 +3,6 @@
 ## Table of Contents
 - [PhyloPhlAn](#phylophlan)
 - [distribution](#distribution) 遺伝子の系統分布
-- [population genetics](#population-genetics)
-- [fastGEAR](#fastgear)
-- [BAPS](#baps)
 - [harvest](#harvest)
 - [reordering-contigs](#reordering-contigs)
   - [eggnog](#eggnog)
@@ -55,12 +52,53 @@
 - [unclassified](#unclassified)
 - [updates](#updates)
 - [island](#island)
+- [population genetics](#population-genetics)
+- [](#)
+- [maskrc-svg](#maskrc-svg)
+- [clonalframeml](#clonalframeml)
+- [gubbins](#gubbins)
+- [fastGEAR](#fastgear)
+- [BAPS](#baps)
+- [](#)
+- [](#)
+
 
 ----------
 
 https://github.com/haruosuz/mgsa/blob/master/references/README.pangenome.md
 
 ----------
+## population genetics
+
+https://www.ncbi.nlm.nih.gov/pubmed/29973680
+Nat Rev Genet. 2018 Sep;19(9):549-565. doi: 10.1038/s41576-018-0032-z.
+Population genomics of bacterial host adaptation.
+Sheppard SK1, Guttman DS2,3, Fitzgerald JR4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29684183
+Mol Biol Evol. 2018 Jun 1;35(6):1338-1347. doi: 10.1093/molbev/msy078.
+Neutral Theory, Microbial Practice: Challenges in Bacterial Population Genetics.
+Rocha EPC1,2.
+https://academic.oup.com/mbe/article/35/6/1338/4976545
+- Horizontal gene transfer (HGT)
+- mobile genetic elements (MGEs, conjugation, or phage-mediated)
+
+https://www.ncbi.nlm.nih.gov/pubmed/27091940
+Cold Spring Harb Perspect Biol. 2016 Jul 1;8(7). pii: a018069. doi: 10.1101/cshperspect.a018069.
+Not So Simple After All: Bacteria, Their Population Genetics, and Recombination.
+Hanage WP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930924/
+
+
+----------
+
+## maskrc-svg
+https://github.com/kwongj/maskrc-svg
+Masks recombinant regions in an alignment based on ClonalFrameML or Gubbins output
+Option to draw SVG of recombinant regions
+
+----------
+
 ## ClonalFrameML
 
 最尤推定により細菌ゲノムの組換えを検出
@@ -81,10 +119,88 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4326465/
 https://github.com/haruosuz/microbe/blob/master/references/microbe.COVID-19.md#tree
 https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473
 
+
+----------
+## gubbins
+
+https://github.com/sanger-pathogens/gubbins
+Genealogies Unbiased By recomBinations In Nucleotide Sequences
+
+- Midpoint rerooting
+- Ancestral sequence reconstruction
+
+https://pubmed.ncbi.nlm.nih.gov/25414349/
+Nucleic Acids Res
+. 2015 Feb 18;43(3):e15. doi: 10.1093/nar/gku1196. Epub 2014 Nov 20.
+Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins
+Nicholas J Croucher 1, Andrew J Page 2, Thomas R Connor 3, Aidan J Delaney 4, Jacqueline A Keane 2, Stephen D Bentley 5, Julian Parkhill 2, Simon R Harris 6
+https://academic.oup.com/nar/article/43/3/e15/2410982
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4330336/
+
+http://kazumaxneo.hatenablog.com/entry/2017/12/10/211129
+近縁な何百~何千のバクテリアの系統解析を行うGubbins - macでインフォマティクス
+ランにはマルチプルアライメント実行済みのファイルを使う。マニュアルではゲノムのマルチプルアライメントのツール例としてSnippyが挙げられている（Snippyの使い方）。
+
+----------
+## fastGEAR
+https://users.ics.aalto.fi/~pemartti/fastGEAR/
+
+https://mostowylab.com/news/fastgear
+fastGEAR: detecting mosaicism in bacterial genomes — Mostowy Lab
+
+identifies population genetic structure of an alignment in question, and detects recombinations between the inferred lineages as well as from external origins.
+
+To summarise, fastGEAR is a tool to detect mosaicism in bacterial genomes. It can be used on individual genes as well as concatenations of genes. However, as we argued in the original publication it’s probably best used on a gene-by-gene basis as it then deals best with varying levels of diversity across different genes.
+
+
+https://pubmed.ncbi.nlm.nih.gov/28199698/
+Mol Biol Evol
+. 2017 May 1;34(5):1167-1182. doi: 10.1093/molbev/msx066.
+Efficient Inference of Recent and Ancestral Recombination within Bacterial Populations
+Rafal Mostowy 1, Nicholas J Croucher 1, Cheryl P Andam 2, Jukka Corander 3 4, William P Hanage 2, Pekka Marttinen 5
+https://academic.oup.com/mbe/article/34/5/1167/2983515
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
+Currently, popular methods used for detecting recombination in bacterial genomes include ClonalFrame (Didelot and Falush, 2007) and ClonalFrameML (Didelot and Wilson, 2015), Gubbins (Croucher et al., 2015), and BratNextGen (Marttinen et al., 2012).
+
+FIG. 4
+Comparison of fastGEAR and other recombination detection methods. The figure shows the performance of fastGEAR compared with other methods: STRUCTURE, Gubbins and ClonalFrameML. 
+
+For this reason, we chose to analyze the S. pneumoniae data gene-by-gene, rather than concatenating multiple genes for joint analysis. 
+
+
+----------
+## BAPS
+http://www.helsinki.fi/bsg/software/BAPS/
+
+https://www.ncbi.nlm.nih.gov/pubmed/23408797
+Mol Biol Evol. 2013 May;30(5):1224-8. doi: 10.1093/molbev/mst028. Epub 2013 Feb 13.
+Hierarchical and spatially explicit clustering of DNA sequences with BAPS software.
+Cheng L1, Connor TR, Sirén J, Aanensen DM, Corander J.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670731/
+This tool, hierBAPS, is freely available for research purposes at http://www.helsinki.fi/bsg/software/BAPS/
+
+https://www.ncbi.nlm.nih.gov/pubmed/12586722/
+Genetics. 2003 Jan;163(1):367-74.
+Bayesian analysis of genetic differentiation between populations.
+Corander J1, Waldmann P, Sillanpää MJ.
+
+
 ----------
 ## updates
 
 ### 2021
+
+MutVis
+https://pubmed.ncbi.nlm.nih.gov/33689914/
+Infect Genet Evol
+. 2021 Mar 6;104805. doi: 10.1016/j.meegid.2021.104805. Online ahead of print.
+MutVis: Automated framework for analysis and visualization of mutational signatures in pathogenic bacterial strains
+Akshatha Prasanna 1, Vidya Niranjan 2
+https://www.sciencedirect.com/science/article/abs/pii/S1567134821001027
+https://github.com/AkshathaPrasanna/MutVis
+MutVis is an open-source, user-friendly, automated framework for analysis and visualization of mutational signatures in pathogenic bacterial strains, regardless the number, origin or species. The current framework integrates various opensource tools and is scripted using Python, R programming and Snakemake workflow management software. MutVis supports variant calling, processing of VCF files, transition and transversion graphical representation, generation of mutational count matrix, graphical visualization of basepair substitution spectrum (BPS) and mutation signatures.
+
+
 
 
 17 February 2021
@@ -292,14 +408,6 @@ For comparison, we chose 2 of the most widely used packages, Roary and PanX [2,6
 - https://github.com/bactopia/bactopia
 - https://bactopia.github.io/
 - https://bactopia.github.io/bactopia-tools/pirate/
-
-https://github.com/bactopia/bactopia/issues/141
-How to run bactopia tools pirate/roary on a local dataset [question] · Issue #141 · bactopia/bactopia
-
-https://github.com/bactopia/bactopia/issues/100
-It would be nice to execute the tool on just completed genomes. For example, run Roary on just the completed genomes.
-https://github.com/bactopia/bactopia/issues/100#issuecomment-653634707
-I've released a new version of Bactopia (https://github.com/bactopia/bactopia/releases/tag/v1.4.0). The bactopia tools for Roary and PIRATE, both allow the creation of a pan-genome of only completed genomes.
 
 https://pubmed.ncbi.nlm.nih.gov/32753501/
 mSystems
@@ -1735,102 +1843,6 @@ J Bacteriol. 2015 Aug 1;197(15):2458-67. doi: 10.1128/JB.00330-15. Epub 2015 May
 Databases for Microbiologists.
 Zhulin IB1.
 
-----------
-## population genetics
-
-https://www.ncbi.nlm.nih.gov/pubmed/29973680
-Nat Rev Genet. 2018 Sep;19(9):549-565. doi: 10.1038/s41576-018-0032-z.
-Population genomics of bacterial host adaptation.
-Sheppard SK1, Guttman DS2,3, Fitzgerald JR4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29684183
-Mol Biol Evol. 2018 Jun 1;35(6):1338-1347. doi: 10.1093/molbev/msy078.
-Neutral Theory, Microbial Practice: Challenges in Bacterial Population Genetics.
-Rocha EPC1,2.
-https://academic.oup.com/mbe/article/35/6/1338/4976545
-- Horizontal gene transfer (HGT)
-- mobile genetic elements (MGEs, conjugation, or phage-mediated)
-
-https://www.ncbi.nlm.nih.gov/pubmed/27091940
-Cold Spring Harb Perspect Biol. 2016 Jul 1;8(7). pii: a018069. doi: 10.1101/cshperspect.a018069.
-Not So Simple After All: Bacteria, Their Population Genetics, and Recombination.
-Hanage WP1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930924/
-
-----------
-## fastGEAR
-https://users.ics.aalto.fi/~pemartti/fastGEAR/
-
-https://mostowylab.com/news/fastgear
-fastGEAR: detecting mosaicism in bacterial genomes — Mostowy Lab
-identifies population genetic structure of an alignment in question, and detects recombinations between the inferred lineages as well as from external origins.
-
-https://www.ncbi.nlm.nih.gov/pubmed/28199698
-Mol Biol Evol. 2017 May 1;34(5):1167-1182. doi: 10.1093/molbev/msx066.
-Efficient Inference of Recent and Ancestral Recombination within Bacterial Populations.
-Mostowy R1, Croucher NJ1, Andam CP2, Corander J3,4, Hanage WP2, Marttinen P5.
-We introduce a novel algorithm called fastGEAR which identifies lineages in diverse microbial alignments, and recombinations between them and from external origins.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
-(1) Identifying lineages: To identify lineages in a data set, we start by running a previously published clustering algorithm (Corander and Marttinen, 2006) included in the Bayesian Analysis of Population Structure (BAPS) software (Corander et al., 2003).
-
-https://www.ncbi.nlm.nih.gov/pubmed/29291727
-BMC Genomics. 2018 Jan 2;19(1):2. doi: 10.1186/s12864-017-4249-6.
-Whole genome sequencing of the monomorphic pathogen Mycobacterium bovis reveals local differentiation of cattle clinical isolates.
-Lasserre M1, Fresia P2, Greif G1, Iraola G2, Castro-Ramos M3, Juambeltz A3, Nuñez Á3, Naya H2, Robello C4,5, Berná L6.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5748942/
-
-Phylogenetic reconstruction of 186 MTBC strains
-Recombination was inspected using fastGEAR [44]. 
-
-Variant calling and clustering
-We used SnpSift (v4.2) [68], a vcf-manipulation tool, to extract all the genes contained between the SNP-densest regions.
-
-Dec 7, 2017
-https://github.com/tseemann/snippy/issues/122
-VCF filtering: Pruning / thinnig · Issue #122 · tseemann/snippy
-
-We tend to use the core.full.aln and provide it to ClonalFrameML or gubbins or BratNextGen or FastGear to remove recombination in a more model-based manner. But it is much slower.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29202045
-mSphere. 2017 Nov 29;2(6). pii: e00511-17. doi: 10.1128/mSphere.00511-17. eCollection 2017 Nov-Dec.
-Adaptation in a Fibronectin Binding Autolysin of Staphylococcus saprophyticus.
-Mortimer TD1,2, Annis DS3, O'Neill MB1,4, Bohr LL1,2, Smith TM1,5, Poinar HN6,7,8,9, Mosher DF3, Pepperell CS1,5.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5705806/
-Recombination analyses.
-To identify recombinant regions in the S. saprophyticus alignment, we used Gubbins v 2.1.0 (20). fastGEAR (42) was used with the recommended input specifications to identify recombination events between major lineages of S. saprophyticus.
-
-Site frequency spectrum.
-We used SNP-sites v 2.0.3 (97) to convert the alignment of S. saprophyticus isolates to a multisample variant call format (VCF).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28957464
-Genome Biol Evol. 2017 Sep 1;9(9):2403-2417. doi: 10.1093/gbe/evx183.
-Population Structure and Local Adaptation of MAC Lung Disease Agent Mycobacterium avium subsp. hominissuis.
-Yano H1,2, Iwamoto T3, Nishiuchi Y4, Nakajima C5,6, Starkova DA7, Mokrousov I7, Narvskaya O7, Yoshida S8, Arikawa K3, Nakanishi N3, Osaki K9, Nakagawa I10, Ato M11, Suzuki Y5,6, Maruyama F10.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5622343/
-https://academic.oup.com/gbe/article/9/9/2403/4107938
-Chromosome recombination was inferred using fastGEAR software (Mostowy etal. 2017).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28650958
-PLoS Genet. 2017 Jun 26;13(6):e1006855. doi: 10.1371/journal.pgen.1006855. eCollection 2017 Jun.
-Dynamics and impact of homologous recombination on the evolution of Legionella pneumophila.
-David S1,2, Sánchez-Busó L1, Harris SR1, Marttinen P3, Rusniok C4,5, Buchrieser C4,5, Harrison TG2, Parkhill J1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5507463/
-
-
-## BAPS
-http://www.helsinki.fi/bsg/software/BAPS/
-
-https://www.ncbi.nlm.nih.gov/pubmed/23408797
-Mol Biol Evol. 2013 May;30(5):1224-8. doi: 10.1093/molbev/mst028. Epub 2013 Feb 13.
-Hierarchical and spatially explicit clustering of DNA sequences with BAPS software.
-Cheng L1, Connor TR, Sirén J, Aanensen DM, Corander J.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3670731/
-This tool, hierBAPS, is freely available for research purposes at http://www.helsinki.fi/bsg/software/BAPS/
-
-https://www.ncbi.nlm.nih.gov/pubmed/12586722/
-Genetics. 2003 Jan;163(1):367-74.
-Bayesian analysis of genetic differentiation between populations.
-Corander J1, Waldmann P, Sillanpää MJ.
 
 ----------
 ## harvest
