@@ -14,8 +14,10 @@
 
 - https://github.com/haruosuz/codon#neutral
 - https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#genome-signature
-- http://www.g-language.org/wiki/restgenomeanalysisenglish#nucleotide_composition_analysis
-- http://www.g-language.org/wiki/restgenomeanalysisjapanese#塩基組成の解析
+- https://github.com/gaou/g-language/wiki/restgenomeanalysisenglish#nucleotide-composition-analysis
+G+C content along the genome
+Genomic G+C content (G+C)/(A+T+G+C) is correlated with a number of factors including genome size, aerobiosis, optimal growth temperature, and free-living lifestyle (Hildebrand F et al., 2010). 
+- https://github.com/gaou/g-language/wiki/restgenomeanalysisjapanese#塩基組成の解析
 ゲノム領域毎のG+C含量の解析
 ゲノムのG+C含量 (G+C)/(A+T+G+C) は、様々な因子（ゲノムサイズ、酸素要求性、窒素利用能、生育温度、自由生活性か否か等）と相関を示します (Hildebrand F et al., 2010)。ゲノム内のG+C含量の変動は、外来性遺伝子クラスター (genomic islands) の検出に利用されています (Karlin S., 2001)。
 
@@ -51,6 +53,15 @@ Selection for Reducing Energy Cost of Protein Production Drives the GC Content a
 
 ### 2019
 
+https://pubmed.ncbi.nlm.nih.gov/31703064/
+PLoS Genet
+. 2019 Nov 8;15(11):e1008493. doi: 10.1371/journal.pgen.1008493. eCollection 2019 Nov.
+Linking high GC content to the repair of double strand breaks in prokaryotic genomes
+Jake L Weissman 1, William F Fagan 1, Philip L F Johnson 1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6867656/
+https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008493
+
+
 ### Dietel_2019
 
 https://twitter.com/Symbionticism/status/1123203760564637697
@@ -83,10 +94,21 @@ Density plots comparing “Common BE genomes” against “Other genomes.” a G
 
 ### 2018
 
+
+https://pubmed.ncbi.nlm.nih.gov/30581420/
+Front Microbiol
+. 2018 Dec 7;9:2948. doi: 10.3389/fmicb.2018.02948. eCollection 2018.
+The GC Content as a Main Factor Shaping the Amino Acid Usage During Bacterial Evolution Process
+Meng-Ze Du 1, Changjiang Zhang 2, Huan Wang 2, Shuo Liu 1, Wen Wei 2, Feng-Biao Guo 1 3
+https://www.frontiersin.org/articles/10.3389/fmicb.2018.02948/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6292993/
+
+
 https://www.ncbi.nlm.nih.gov/pubmed/29633935
 Microb Genom. 2018 Apr;4(4). doi: 10.1099/mgen.0.000168. Epub 2018 Apr 10.
 Correlation between bacterial G+C content, genome size and the G+C content of associated plasmids and bacteriophages.
 Almpanis A1,2, Swain M1, Gatherer D3, McEwan N1,4.
+https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000168#tab2
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989581/
 
 ### 2017
@@ -104,6 +126,14 @@ Analytical Biases Associated with GC-Content in Molecular Evolution.
 Romiguier J1, Roux C1.
 KEYWORDS:
 GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
+
+https://pubmed.ncbi.nlm.nih.gov/28187704/
+BMC Genomics
+. 2017 Feb 10;18(1):151. doi: 10.1186/s12864-017-3543-7.
+The nucleotide composition of microbial genomes indicates differential patterns of selection on core and accessory genomes
+Jon Bohlin 1, Vegard Eldholm 2, John H O Pettersson 2, Ola Brynildsrud 2, Lars Snipen 3
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5303225/
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3543-7
 
 ### 2015
 
@@ -160,10 +190,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/figure/F1/?report=objectonl
 
 ### 2012
 
-https://www.ncbi.nlm.nih.gov/pubmed/23024607
-Curr Genomics. 2012 Apr;13(2):153-62.
-Microbial lifestyle and genome signatures.
-Dutta C1, Paul S.
+review
+https://pubmed.ncbi.nlm.nih.gov/23024607/
+Curr Genomics
+. 2012 Apr;13(2):153-62. doi: 10.2174/138920212799860698.
+Microbial lifestyle and genome signatures
+Chitra Dutta 1, Sandip Paul
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
 SEQUENCE FEATURES OF MICROBIAL GENOMES INFLUENCED BY LIFESTYLE
 a) G+C-Content
