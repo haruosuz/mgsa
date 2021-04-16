@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [PhyloPhlAn](#phylophlan)
-- [distribution](#distribution) 遺伝子の系統分布
 - [harvest](#harvest)
 - [reordering-contigs](#reordering-contigs)
   - [eggnog](#eggnog)
@@ -91,6 +90,14 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930924/
 
 
 ----------
+## 
+
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2456-z
+
+Over the last four decades, many methods have been proposed to detect the presence of recombination in bacterial genomes, applying concepts of maximum likelihood, phylogenetic incongruence, substitution patterns, distance-based approach, or character compatibility [16–22]. Commonly used methods to identify recombination breakpoints include ClonalFrameML [22], RDP [18] and GARD [19]. All are phylogenetic-based programs. 
+
+
+----------
 
 ## maskrc-svg
 https://github.com/kwongj/maskrc-svg
@@ -162,10 +169,18 @@ https://academic.oup.com/mbe/article/34/5/1167/2983515
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
 Currently, popular methods used for detecting recombination in bacterial genomes include ClonalFrame (Didelot and Falush, 2007) and ClonalFrameML (Didelot and Wilson, 2015), Gubbins (Croucher et al., 2015), and BratNextGen (Marttinen et al., 2012).
 
+
+All these methods specialize in identifying imports originating in external sources, and are therefore appropriately applied to a single bacterial lineage at a time. Thus, they rely on another method to identify the underlying population structure, which limits their ability to provide insight into species-wide or even inter-species patterns of exchange. With the recent development of high-throughput sequencing methods, which can process tens of thousands of bacterial whole-genomes, such analyses have become increasingly interesting and necessary.
+これらの方法はいずれも、外部からの輸入品を特定することに特化しているため、一度に単一の細菌系統に適用するのが適切である。そのため、根本的な集団構造を特定するには別の方法に頼らざるを得ず、種全体、あるいは種間の交換パターンについての洞察を得るには限界があった。近年、数万の細菌の全ゲノムを処理できるハイスループットシーケンス法が開発されたことで、このような解析はますます興味深く、必要性が高まっている。
+
+
 FIG. 4
 Comparison of fastGEAR and other recombination detection methods. The figure shows the performance of fastGEAR compared with other methods: STRUCTURE, Gubbins and ClonalFrameML. 
 
 For this reason, we chose to analyze the S. pneumoniae data gene-by-gene, rather than concatenating multiple genes for joint analysis. 
+
+
+
 
 
 ----------
@@ -1265,92 +1280,6 @@ https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item
 
 広く利用されている既存の配列クラスタリングツール のひとつに CD-HIT [2] がある.CD-HIT は近似的なクラ スタリング手法を用いることによって比較的大量の配列 を高速に処理することができ，メタゲノムデータのアノ テーションパイプライン中で用いられたり，Uniprot や PDB といった公共データベースにおいて冗長配列を取り 除いてデータベースサイズを圧縮するのにも使われてい る.しかし，1000 万本の配列のクラスタリング処理には 数日かかるという具合に，次世代シーケンサーの出力配 列ほどの規模のデータをクラスタリングする場合，現実 的な時間で処理するのは困難になってくるという問題が ある.
 
-
-
-----------
-## distribution
-遺伝子の系統分布
-
-https://www.nature.com/articles/s41467-020-14572-x
-Community diversity and habitat structure shape the repertoire of extracellular proteins in bacteria | Nature Communications
-Fig. 1: Number of genes encoding extracellular proteins per large taxonomic group and in terms of COG protein function.
-
-2019年12月23日
-https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
-【論文紹介】メタゲノムでやってよかったよね感が出た面白い結果 - Qiita
-https://www.nature.com/articles/s41396-019-0552-3
-Unlinked rRNA genes are widespread among bacteria and archaea | The ISME Journal
-
-
-酸素
-https://www.frontiersin.org/articles/10.3389/fmicb.2019.00499/full
-Frontiers | Oxygen Reductases in Alphaproteobacterial Genomes: Physiological Evolution From Low to High Oxygen Environments | Microbiology
-
-Based on their phylogenetic distribution, CtaG_Cox11 proteins, which so far only have been found in proteobacteria and mitochondria, appear to have originated within the proteobacteria (Banci et al., 2004, 2007). The distribution of different Cu assembly proteins among selected organisms is shown in Figure 6. 
-
-
-https://twitter.com/search?q=%22phylogenetic%20distribution%22
-
-https://twitter.com/LAHug_/status/1059900649351987200
-Laura Hug on Twitter: "Want an addictive, informative, gene distribution experience? Check out AnnoTree, our new tool. Here's the distribution of reductive dehalogenases (my favorite) on the bacterial tree of life. https://t.co/ziywZa8UvC https://t.co/Z6vVQ6VtyN @ACDoxey… https://t.co/3nayeeYGVx"
-3:09 PM - 6 Nov 2018
-![](https://pbs.twimg.com/media/DrWF2tgUUAEejFi.jpg)
-
-プロテオロドプシン
-http://iwasakilab.bs.s.u-tokyo.ac.jp/iwasaki/publications.html
-Solar-panel and parasol strategies shape the proteorhodopsin distribution pattern in marine Flavobacteriia.
-The ISME Journal, 12, 1329-1343. (2018)
-
- 2006年2月16日
-https://www.natureasia.com/ja-jp/nature/439/7078/nature04435
-海洋性の浮遊細菌と古細菌の間でのプロテオロドプシン遺伝子の水平伝播 | Nature | Nature Research
-プロテオロドプシンの全世界的な系統的分布
-
-原核生物におけるヒ素耐性遺伝子の分布
-https://www.ncbi.nlm.nih.gov/pubmed/30405552
-Front Microbiol. 2018 Oct 23;9:2473. doi: 10.3389/fmicb.2018.02473. eCollection 2018.
-Distribution of Arsenic Resistance Genes in Prokaryotes.
-Ben Fekih I1, Zhang C1, Li YP1, Zhao Y2, Alwathnani HA3, Saquib Q4, Rensing C1,5, Cervantes C6.
-Numerous ars operons, with a variety of genes and different combinations of them, populate the prokaryotic genomes, including their accessory plasmids, transposons, and genomic islands. 
-This review summarizes the presence, distribution, organization, and redundance of arsenic resistance genes in prokaryotes.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/
-Additional Arsenic Resistance Genes
-However, the arsenite transport pathway was unknown until an aquaglyceroporin, the glycerol facilitator GlpF, was discovered in E. coli as an “accidental” arsenite uptake transporter (Sanders et al., 1997; Rosen, 2002; Meng et al., 2004). 
-
-FIGURE 1
-Distribution of ars genes in arsenic-resistant prokaryotes. 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/figure/F1/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/bin/fmicb-09-02473-g001.jpg
-
-http://www.chem.utsunomiya-u.ac.jp/lab/bio/research_qs1.html
-研究テーマ（Quorum Sensing その1） -生物工学研究室-
-
-Quorum Sensingに関連する遺伝子 LuxI and LuxR 
-https://www.ncbi.nlm.nih.gov/pubmed/28765541
-Sci Rep. 2017 Aug 1;7(1):6969. doi: 10.1038/s41598-017-07241-5.
-In silico analyses of conservational, functional and phylogenetic distribution of the LuxI and LuxR homologs in Gram-positive bacteria.
-Rajput A1, Kumar M2.
-```
-Moreover, Phylogenetic analyses (LuxI, LuxR, LuxI + LuxR and 16s rRNA) revealed horizontal gene transfer events with significant statistical support among Gram-positive and Gram-negative bacteria.
-```
-
-外来遺伝子サイレンサー
-https://www.ncbi.nlm.nih.gov/pubmed/26247404
-Comput Biol Chem. 2015 Oct;58:167-72. doi: 10.1016/j.compbiolchem.2015.06.007. Epub 2015 Jul 23.
-Distribution of putative xenogeneic silencers in prokaryote genomes.
-Perez-Rueda E1, Ibarra JA2.
-xenogeneic silencers (XS) and belong to either the H-NS, Lsr2, MvaT or Rok families.
-
-セルラーゼ
-https://www.ncbi.nlm.nih.gov/pubmed/23263967
-Appl Environ Microbiol. 2013 Mar;79(5):1545-54. doi: 10.1128/AEM.03305-12. Epub 2012 Dec 21.
-Phylogenetic distribution of potential cellulases in bacteria.
-Berlemont R1, Martiny AC.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/
-
-Strain-specific glycoside hydrolase distribution in bacteria.
-
-![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg)
 
 ----------
 ## LEA
