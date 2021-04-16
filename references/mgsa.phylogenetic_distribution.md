@@ -127,9 +127,9 @@ https://www.ncbi.nlm.nih.gov/pubmed/28765541
 Sci Rep. 2017 Aug 1;7(1):6969. doi: 10.1038/s41598-017-07241-5.
 In silico analyses of conservational, functional and phylogenetic distribution of the LuxI and LuxR homologs in Gram-positive bacteria.
 Rajput A1, Kumar M2.
-```
+
 Moreover, Phylogenetic analyses (LuxI, LuxR, LuxI + LuxR and 16s rRNA) revealed horizontal gene transfer events with significant statistical support among Gram-positive and Gram-negative bacteria.
-```
+
 
 外来遺伝子サイレンサー
 https://www.ncbi.nlm.nih.gov/pubmed/26247404
