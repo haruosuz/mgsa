@@ -3,20 +3,31 @@
 
 ## Table of Contents
 - [unclassified](#unclassified)
+- [annotree](#annotree)
 - [updates](#updates)
+[2021](#2021)
 [2020](#2020)
 [2019](#2019)
-- [annotree](#annotree)
+[2018](#2018)
+[2017](#2017)
+[2015](#2015)
+[2013](#2013)
+- [proteorhodopsin](#proteorhodopsin)
 
 ----------
 ## unclassified
 
+https://twitter.com/search?q=%22phylogenetic%20distribution%22
+
 ----------
 ## annotree
+
+http://annotree.uwaterloo.ca/app/
 
 https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638
 AnnoTree: visualization and exploration of a functionally annotated microbial tree of life | Nucleic Acids Research | Oxford Academic
 
+9:30 AM - 15 Apr 2019
 https://twitter.com/strnr/status/1117782170645483520
 AnnoTree: visualization and exploration of a functionally annotated microbial tree of life
 Paper https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz246/5432638 …
@@ -24,14 +35,27 @@ App http://annotree.uwaterloo.ca/
 Code https://bitbucket.org/account/user/doxeylabcrew/projects/AN …
 Docs https://annotree-docs.readthedocs.io/en/latest/ 
 Data http://gtdb.ecogenomic.org/downloads 
-9:30 AM - 15 Apr 2019
 ![](https://pbs.twimg.com/media/D4Mo9PSXoAEYnZ1.jpg)
+
+3:09 PM - 6 Nov 2018
+https://twitter.com/LAHug_/status/1059900649351987200
+Laura Hug on Twitter: "Want an addictive, informative, gene distribution experience? Check out AnnoTree, our new tool. Here's the distribution of reductive dehalogenases (my favorite) on the bacterial tree of life. https://t.co/ziywZa8UvC https://t.co/Z6vVQ6VtyN @ACDoxey… https://t.co/3nayeeYGVx"
+
+![](https://pbs.twimg.com/media/DrWF2tgUUAEejFi.jpg)
 
 ----------
 
 ## updates
 
 ### 2021
+
+https://pubmed.ncbi.nlm.nih.gov/33468707/
+mSystems
+. 2021 Jan 19;6(1):e01112-20.  doi: 10.1128/mSystems.01112-20.
+Phylogenetic Distribution of Plastic-Degrading Microorganisms
+Victor Gambarini  1 , Olga Pantos  2 , Joanne M Kingsbury  2 , Louise Weaver  2 , Kim M Handley  1 , Gavin Lear  3
+https://msystems.asm.org/content/6/1/e01112-20
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7820669/
 
 ### 2020
 
@@ -82,26 +106,7 @@ Figure 6. Distribution of Cu assembly proteins of different families along vario
 
 ![](https://www.frontiersin.org/files/Articles/431618/fmicb-10-00499-HTML/image_m/fmicb-10-00499-g006.jpg)
 
-----------
-
-
-
-https://twitter.com/search?q=%22phylogenetic%20distribution%22
-
-https://twitter.com/LAHug_/status/1059900649351987200
-Laura Hug on Twitter: "Want an addictive, informative, gene distribution experience? Check out AnnoTree, our new tool. Here's the distribution of reductive dehalogenases (my favorite) on the bacterial tree of life. https://t.co/ziywZa8UvC https://t.co/Z6vVQ6VtyN @ACDoxey… https://t.co/3nayeeYGVx"
-3:09 PM - 6 Nov 2018
-![](https://pbs.twimg.com/media/DrWF2tgUUAEejFi.jpg)
-
-プロテオロドプシン
-http://iwasakilab.bs.s.u-tokyo.ac.jp/iwasaki/publications.html
-Solar-panel and parasol strategies shape the proteorhodopsin distribution pattern in marine Flavobacteriia.
-The ISME Journal, 12, 1329-1343. (2018)
-
- 2006年2月16日
-https://www.natureasia.com/ja-jp/nature/439/7078/nature04435
-海洋性の浮遊細菌と古細菌の間でのプロテオロドプシン遺伝子の水平伝播 | Nature | Nature Research
-プロテオロドプシンの全世界的な系統的分布
+### 2018
 
 原核生物におけるヒ素耐性遺伝子の分布
 https://www.ncbi.nlm.nih.gov/pubmed/30405552
@@ -119,17 +124,49 @@ Distribution of ars genes in arsenic-resistant prokaryotes.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/figure/F1/
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6205960/bin/fmicb-09-02473-g001.jpg
 
-http://www.chem.utsunomiya-u.ac.jp/lab/bio/research_qs1.html
-研究テーマ（Quorum Sensing その1） -生物工学研究室-
 
-Quorum Sensingに関連する遺伝子 LuxI and LuxR 
-https://www.ncbi.nlm.nih.gov/pubmed/28765541
-Sci Rep. 2017 Aug 1;7(1):6969. doi: 10.1038/s41598-017-07241-5.
-In silico analyses of conservational, functional and phylogenetic distribution of the LuxI and LuxR homologs in Gram-positive bacteria.
-Rajput A1, Kumar M2.
+### 2017
 
+細菌のクオラムセンシング
+https://pubmed.ncbi.nlm.nih.gov/28765541/
+Sci Rep
+. 2017 Aug 1;7(1):6969. doi: 10.1038/s41598-017-07241-5.
+In silico analyses of conservational, functional and phylogenetic distribution of the LuxI and LuxR homologs in Gram-positive bacteria
+Akanksha Rajput 1, Manoj Kumar 2
+https://www.nature.com/articles/s41598-017-07241-5
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5539150/
 Moreover, Phylogenetic analyses (LuxI, LuxR, LuxI + LuxR and 16s rRNA) revealed horizontal gene transfer events with significant statistical support among Gram-positive and Gram-negative bacteria.
 
+Figure 3
+Multiple Sequence alignment of 11 LuxI containing sequences against V. fischeri LuxR sequence using MAFFT and visualized using Jalview software.
+
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5539150/bin/41598_2017_7241_Fig3_HTML.jpg)
+
+![https://www.nature.com/articles/s41598-017-07241-5/figures/3](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-07241-5/MediaObjects/41598_2017_7241_Fig3_HTML.jpg)
+
+
+Figure 6
+Phylogenetic tree reconstruction using Maximum Likelihood method for Gram-positive bacteria (a) LuxI containing sequences, (b) LuxR containing sequences, and (c) LuxR + LuxI sequences against V. fischeri LuxI and/or LuxR as outgroup. [Gram-positive bacteria (An external file that holds a picture, illustration, etc.
+Object name is 41598_2017_7241_Fige_HTML.gif), and Gram-negative bacteria (An external file that holds a picture, illustration, etc.
+Object name is 41598_2017_7241_Figf_HTML.gif)].
+
+外群
+https://github.com/haruosuz/evolve/blob/master/references/README.evolve.jargon.md#outgroup
+
+
+
+http://www.chem.utsunomiya-u.ac.jp/lab/bio/research_qs1.html
+研究テーマ（Quorum Sensing その1） -生物工学研究室-
+Quorum Sensingって何？
+バクテリアも「会話」をしている
+「言葉」の正体は化学物質
+Quorum Sensingに関連する遺伝子と情報伝達メカニズム
+
+https://ja.wikipedia.org/wiki/クオラムセンシング
+
+
+
+### 2015
 
 外来遺伝子サイレンサー
 https://www.ncbi.nlm.nih.gov/pubmed/26247404
@@ -138,18 +175,61 @@ Distribution of putative xenogeneic silencers in prokaryote genomes.
 Perez-Rueda E1, Ibarra JA2.
 xenogeneic silencers (XS) and belong to either the H-NS, Lsr2, MvaT or Rok families.
 
+### 2013
+
 セルラーゼ
-https://www.ncbi.nlm.nih.gov/pubmed/23263967
-Appl Environ Microbiol. 2013 Mar;79(5):1545-54. doi: 10.1128/AEM.03305-12. Epub 2012 Dec 21.
-Phylogenetic distribution of potential cellulases in bacteria.
-Berlemont R1, Martiny AC.
+https://pubmed.ncbi.nlm.nih.gov/23263967/
+Appl Environ Microbiol
+. 2013 Mar;79(5):1545-54. doi: 10.1128/AEM.03305-12. Epub 2012 Dec 21.
+Phylogenetic distribution of potential cellulases in bacteria
+Renaud Berlemont 1, Adam C Martiny
+https://aem.asm.org/content/79/5/1545.long
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/
 
-Strain-specific glycoside hydrolase distribution in bacteria.
+MATERIALS AND METHODS
+Identification of genes encoding glycoside hydrolases.
+Families of orthologous genes for cellulose degradation were identified following the CAZy database classification scheme (http://www.cazy.org/) (9). 
+
+Fig 3
+Strain-specific glycoside hydrolase distribution in bacteria. The consensus phylogenetic tree was based on a 16S rRNA alignment retrieved from the SILVA database (32) and constructed using Phylip (distance matrix F84, neighbor joining, 100 bootstraps) (34). The outer circles show the absence (white) or the presence of one copy (red) or multiple copies (blue) of genes from a considered GH family in each genome.
 
 ![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg)
 
 ----------
+
+## proteorhodopsin
+プロテオロドプシン
+
+http://iwasakilab.bs.s.u-tokyo.ac.jp/iwasaki/publications.html
+岩崎 渉 | Wataru IWASAKI, Ph.D.
+
+59.
+Daniel K. Olson, Susumu Yoshizawa, Dominique Boeuf, Wataru Iwasaki, and Edward F. DeLong.
+Proteorhodopsin variability and distribution in the North Pacific Subtropical Gyre.
+The ISME Journal, 12, 1047–1060. (2018)
+DOI: 10.1038/s41396-018-0074-4 / PubMed: 29476140
+プロテオロドプシンは海洋に分布する多くの細菌が持つ光駆動プロトンポンプであり、環境中には膨大なプロテオロドプシン遺伝子が存在していると考えられますが、その配列多様性や系統的分布・空間分布との関連はまだ十分に解明されていません。本研究では、ハワイ・オアフ島の北に位置する観測点Station ALOHAにおいて、表層から水深1000mまでのメタゲノム解析を１年半にわたって行いました。これにより、これまで知られていなかった新しいタイプのものを含めた1,510のプロテオロドプシン遺伝子の配列多様性を明らかにするとともに、系統的分布・空間分布との関連について解析しました。
+
+57.
+Yohei Kumagai, Susumu Yoshizawa, Yu Nakajima, Mai Watanabe, Tsukasa Fukunaga, Yoshitoshi Ogura, Tetsuya Hayashi, Kenshiro Oshima, Masahira Hattori, Masahiko Ikeuchi, Kazuhiro Kogure, Edward F. DeLong, and Wataru Iwasaki.
+Solar-panel and parasol strategies shape the proteorhodopsin distribution pattern in marine Flavobacteriia.
+The ISME Journal, 12, 1329-1343. (2018)
+DOI: 10.1038/s41396-018-0058-4 / PubMed: 29410487
+Press Release: AORI of UTokyo (in Japanese) / Grad Sch Sci of UTokyo (in Japanese)
+海洋表層に生息する細菌の約半数が持つ「プロテオロドプシン」は、光からエネルギーを受け取る光受容体として、細菌の海洋表層への適応に大きく貢献していると考えられています。しかしそれならば、そもそもなぜ、そのように重要なプロテオロドプシンを持つ海洋細菌と持たない海洋細菌がいるのでしょうか？本研究では大規模比較ゲノム解析により、プロテオロドプシンを持たない細菌は、光エネルギーを利用する「ソーラーパネル型」ではなく色素で光を遮る「パラソル型」の適応戦略をとっていることを示しました。すなわち、太陽からの莫大な光エネルギーにさらされる海洋表層の細菌は、単にその恩恵を受けるだけではなく、「光を利用するか、光を避けるか」という“究極の選択”を迫られていることになります。
+
+
+2006年2月16日
+https://www.natureasia.com/ja-jp/nature/439/7078
+植物：海洋性の浮遊細菌と古細菌の間でのプロテオロドプシン遺伝子の水平伝播
+Proteorhodopsin lateral gene transfer between marine planktonic Bacteria and Archaea
+doi: 10.1038/nature04435
+https://www.natureasia.com/ja-jp/nature/439/7078/nature04435
+海洋性の浮遊細菌と古細菌の間でのプロテオロドプシン遺伝子の水平伝播 | Nature | Nature Research
+プロテオロドプシンの全世界的な系統的分布
+
+----------
+
 
 
 
