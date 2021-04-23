@@ -19,6 +19,8 @@
 
 https://twitter.com/search?q=%22phylogenetic%20distribution%22
 
+<img alt="" src="" width=50%>
+
 ----------
 ## annotree
 
@@ -35,13 +37,14 @@ App http://annotree.uwaterloo.ca/
 Code https://bitbucket.org/account/user/doxeylabcrew/projects/AN …
 Docs https://annotree-docs.readthedocs.io/en/latest/ 
 Data http://gtdb.ecogenomic.org/downloads 
-![](https://pbs.twimg.com/media/D4Mo9PSXoAEYnZ1.jpg)
+
+<img alt="" src="https://pbs.twimg.com/media/D4Mo9PSXoAEYnZ1.jpg" width=50%>
 
 3:09 PM - 6 Nov 2018
 https://twitter.com/LAHug_/status/1059900649351987200
 Laura Hug on Twitter: "Want an addictive, informative, gene distribution experience? Check out AnnoTree, our new tool. Here's the distribution of reductive dehalogenases (my favorite) on the bacterial tree of life. https://t.co/ziywZa8UvC https://t.co/Z6vVQ6VtyN @ACDoxey… https://t.co/3nayeeYGVx"
 
-![](https://pbs.twimg.com/media/DrWF2tgUUAEejFi.jpg)
+<img alt="" src="https://pbs.twimg.com/media/DrWF2tgUUAEejFi.jpg" width=50%>
 
 ----------
 
@@ -69,7 +72,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7005277/
 
 Fig. 1: Number of genes encoding extracellular proteins per large taxonomic group and in terms of COG protein function.
 
-![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-020-14572-x/MediaObjects/41467_2020_14572_Fig1_HTML.png)
+<img alt="" src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-020-14572-x/MediaObjects/41467_2020_14572_Fig1_HTML.png" width=50%>
 
 2019年12月23日
 https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
@@ -82,7 +85,7 @@ Tess E Brewer 1 2, Mads Albertsen 3, Arwyn Edwards 4, Rasmus H Kirkegaard 3, Edu
 https://www.nature.com/articles/s41396-019-0552-3
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976660/
 
-![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41396-019-0552-3/MediaObjects/41396_2019_552_Fig4_HTML.png)
+<img alt="" src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41396-019-0552-3/MediaObjects/41396_2019_552_Fig4_HTML.png" width=50%>
 
 
 ### 2019
@@ -98,13 +101,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431628/
 
 Figure 4. Distribution of terminal oxidases and various anaerobic traits shared between 20 bacteria and 10 eukaryotes in a selection of taxa representative of various lineages and metabolic combinations. 
 
-![](https://www.frontiersin.org/files/Articles/431618/fmicb-10-00499-HTML/image_m/fmicb-10-00499-g004.jpg)
+<img alt="" src="https://www.frontiersin.org/files/Articles/431618/fmicb-10-00499-HTML/image_m/fmicb-10-00499-g004.jpg" width=50%>
 
 Based on their phylogenetic distribution, CtaG_Cox11 proteins, which so far only have been found in proteobacteria and mitochondria, appear to have originated within the proteobacteria (Banci et al., 2004, 2007). The distribution of different Cu assembly proteins among selected organisms is shown in Figure 6. 
 
 Figure 6. Distribution of Cu assembly proteins of different families along various alphaproteobacteria. Taxa were selected from Supplementary Figure S1 and Figure 4 to represent all major variations in the combination of Cu-binding assembly proteins that are present in alphaproteobacteria, either in isolated gene clusters or associated with diverse operon subtypes of HCO oxidases (see text).
 
-![](https://www.frontiersin.org/files/Articles/431618/fmicb-10-00499-HTML/image_m/fmicb-10-00499-g006.jpg)
+<img alt="" src="https://www.frontiersin.org/files/Articles/431618/fmicb-10-00499-HTML/image_m/fmicb-10-00499-g006.jpg" width=50%>
 
 ### 2018
 
@@ -140,20 +143,17 @@ Moreover, Phylogenetic analyses (LuxI, LuxR, LuxI + LuxR and 16s rRNA) revea
 Figure 3
 Multiple Sequence alignment of 11 LuxI containing sequences against V. fischeri LuxR sequence using MAFFT and visualized using Jalview software.
 
-![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5539150/bin/41598_2017_7241_Fig3_HTML.jpg)
-
-![https://www.nature.com/articles/s41598-017-07241-5/figures/3](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-07241-5/MediaObjects/41598_2017_7241_Fig3_HTML.jpg)
-
+<img alt="" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5539150/bin/41598_2017_7241_Fig3_HTML.jpg" width=50%>
 
 Figure 6
 Phylogenetic tree reconstruction using Maximum Likelihood method for Gram-positive bacteria (a) LuxI containing sequences, (b) LuxR containing sequences, and (c) LuxR + LuxI sequences against V. fischeri LuxI and/or LuxR as outgroup. [Gram-positive bacteria (An external file that holds a picture, illustration, etc.
 Object name is 41598_2017_7241_Fige_HTML.gif), and Gram-negative bacteria (An external file that holds a picture, illustration, etc.
 Object name is 41598_2017_7241_Figf_HTML.gif)].
 
+<img alt="" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5539150/bin/41598_2017_7241_Fig4_HTML.jpg" width=50%>
+
 外群
 https://github.com/haruosuz/evolve/blob/master/references/README.evolve.jargon.md#outgroup
-
-
 
 http://www.chem.utsunomiya-u.ac.jp/lab/bio/research_qs1.html
 研究テーマ（Quorum Sensing その1） -生物工学研究室-
@@ -164,16 +164,18 @@ Quorum Sensingに関連する遺伝子と情報伝達メカニズム
 
 https://ja.wikipedia.org/wiki/クオラムセンシング
 
-
-
 ### 2015
 
 外来遺伝子サイレンサー
-https://www.ncbi.nlm.nih.gov/pubmed/26247404
-Comput Biol Chem. 2015 Oct;58:167-72. doi: 10.1016/j.compbiolchem.2015.06.007. Epub 2015 Jul 23.
-Distribution of putative xenogeneic silencers in prokaryote genomes.
-Perez-Rueda E1, Ibarra JA2.
-xenogeneic silencers (XS) and belong to either the H-NS, Lsr2, MvaT or Rok families.
+https://pubmed.ncbi.nlm.nih.gov/26247404/
+Comput Biol Chem
+. 2015 Oct;58:167-72. doi: 10.1016/j.compbiolchem.2015.06.007. Epub 2015 Jul 23.
+Distribution of putative xenogeneic silencers in prokaryote genomes
+Ernesto Perez-Rueda 1, J Antonio Ibarra 2
+https://www.sciencedirect.com/science/article/abs/pii/S147692711530058X?via%3Dihub
+Gene silencing is an important function as it keeps newly acquired foreign DNA repressed, thereby avoiding possible deleterious effects in the host organism. Known transcriptional regulators associated with this process are called xenogeneic silencers (XS) and belong to either the H-NS, Lsr2, MvaT or Rok families.
+
+other nucleoid-associated proteins (NAPs) not included in this group such as Fis, EbfC/YbaB, HU/IHF and Alba.
 
 ### 2013
 
@@ -193,7 +195,7 @@ Families of orthologous genes for cellulose degradation were identified followin
 Fig 3
 Strain-specific glycoside hydrolase distribution in bacteria. The consensus phylogenetic tree was based on a 16S rRNA alignment retrieved from the SILVA database (32) and constructed using Phylip (distance matrix F84, neighbor joining, 100 bootstraps) (34). The outer circles show the absence (white) or the presence of one copy (red) or multiple copies (blue) of genes from a considered GH family in each genome.
 
-![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg)
+<img alt="" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/figure/F3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591946/bin/zam9991041460003.jpg" width=50%>
 
 ----------
 
@@ -229,6 +231,20 @@ https://www.natureasia.com/ja-jp/nature/439/7078/nature04435
 プロテオロドプシンの全世界的な系統的分布
 
 ----------
+
+<img alt="" src="" width=50%>
+<img alt="" src="" width=25%>
+![]()
+
+```
+
+```
+
+----------
+
+
+
+
 
 
 
