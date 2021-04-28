@@ -169,7 +169,6 @@ https://academic.oup.com/mbe/article/34/5/1167/2983515
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400400/
 Currently, popular methods used for detecting recombination in bacterial genomes include ClonalFrame (Didelot and Falush, 2007) and ClonalFrameML (Didelot and Wilson, 2015), Gubbins (Croucher et al., 2015), and BratNextGen (Marttinen et al., 2012).
 
-
 All these methods specialize in identifying imports originating in external sources, and are therefore appropriately applied to a single bacterial lineage at a time. Thus, they rely on another method to identify the underlying population structure, which limits their ability to provide insight into species-wide or even inter-species patterns of exchange. With the recent development of high-throughput sequencing methods, which can process tens of thousands of bacterial whole-genomes, such analyses have become increasingly interesting and necessary.
 これらの方法はいずれも、外部からの輸入品を特定することに特化しているため、一度に単一の細菌系統に適用するのが適切である。そのため、根本的な集団構造を特定するには別の方法に頼らざるを得ず、種全体、あるいは種間の交換パターンについての洞察を得るには限界があった。近年、数万の細菌の全ゲノムを処理できるハイスループットシーケンス法が開発されたことで、このような解析はますます興味深く、必要性が高まっている。
 
@@ -418,11 +417,12 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785682/
 For comparison, we chose 2 of the most widely used packages, Roary and PanX [2,6]. 
 
 
+
+
 ----------
 ### bactopia
 - https://github.com/bactopia/bactopia
 - https://bactopia.github.io/
-- https://bactopia.github.io/bactopia-tools/pirate/
 
 https://pubmed.ncbi.nlm.nih.gov/32753501/
 mSystems
@@ -434,20 +434,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7406220/
 
 http://kazumaxneo.hatenablog.com/entry/2020/03/17/090935
 計算リソースを効率的に使って多数のよく似たバクテリアゲノムを素早く分析する自動化されたパイプライン Bactopia - macでインフォマティクス
-
-BaTには、パンゲノム解析、サンプル間の平均ヌクレオチド同一性の計算、16S遺伝子の抽出とプロファイリング、高度に保存された遺伝子を使用した分類学的分類が含まれる。
-
-Bactopia Toolsは、比較分析のための独立したワークフローセットである。比較分析には、要約レポート、パンゲノム、または系統樹構築が含まれる。
-
-```
-PLSDB (Plasmid) BLAST/Sketch:
-
-  --skip_plsdb      Skip download of pre-computed PLSDB datbases (blast, mash)
-```
-
-これにより、Aribaデータセット（CARDおよびvfdb_core）、RefSeq Mash sketch、GenBank Sourmash Signatures、およびPLSDBが作成されたdatasetsディレクトリにセットアップされる。
-
-
 
 ----------
 ### holt Lab
