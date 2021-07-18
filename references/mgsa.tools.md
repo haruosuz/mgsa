@@ -23,7 +23,6 @@
 - [replication](#replication)
 - [phage](#phage)
 - [primer](#primer)
-- [GWAS](#gwas)
 - [genome report](#genome-report)
 - [database](#database)
 - [metadata](#metadata)
@@ -47,24 +46,208 @@
   - [scoary](#scoary)
   - [piggy](#piggy)
   - [bactopia](#bactopia)
+  - [get_homologues](#get_homologues)
   - [pirate](#pirate)
 - [unclassified](#unclassified)
 - [updates](#updates)
 - [island](#island)
 - [population genetics](#population-genetics)
-- [](#)
+- [recombination](#recombination)　組み換え
 - [maskrc-svg](#maskrc-svg)
 - [clonalframeml](#clonalframeml)
 - [gubbins](#gubbins)
 - [fastGEAR](#fastgear)
 - [BAPS](#baps)
 - [](#)
+- [GWAS](#gwas)
 - [](#)
-
 
 ----------
 
 https://github.com/haruosuz/mgsa/blob/master/references/README.pangenome.md
+
+
+
+----------
+### GWAS
+
+- [Genome-wide association study (GWAS)](https://en.wikipedia.org/wiki/Genome-wide_association_study)
+- [ゲノムワイド関連解析](https://bsd.neuroinf.jp/wiki/ゲノムワイド関連解析)
+- [[PDF]次世代GWAS研究 - イルミナ株式会社](https://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/primer_next_generation_gwas_research-j.pdf)
+
+
+
+
+https://pubmed.ncbi.nlm.nih.gov/33206035/
+Microb Genom
+. 2020 Nov;6(11):mgen000469. doi: 10.1099/mgen.0.000469.
+Hogwash: three methods for genome-wide association studies in bacteria
+Katie Saund 1, Evan S Snitkin 1 2
+https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000469#tab2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7725327/
+This work introduces hogwash, an open source R package that implements three algorithms for convergence-based bGWAS. 
+
+bGWAS software
+Several different variations of bGWAS approaches have been applied, including methods for SNPs, accessory genes (Scory) [6], or k-mers (pyseer) [7], methods using regression (pyseer) [7, 8] or phylogenetic convergence (PhyC, treeWAS) [1, 9], and methods designed for humans (PLINK) [10] or specifically for bacteria [7, 9]. 
+
+
+https://pubmed.ncbi.nlm.nih.gov/32082269/
+Review Front Microbiol
+. 2020 Jan 30;10:3119. doi: 10.3389/fmicb.2019.03119. eCollection 2019.
+Current Affairs of Microbial Genome-Wide Association Studies: Approaches, Bottlenecks and Analytical Pitfalls
+James Emmanuel San 1, Shakuntala Baichoo 2, Aquillah Kanzi 1, Yumna Moosa 1, Richard Lessells 1, Vagner Fonseca 1 3, John Mogaka 4, Robert Power 5, Tulio de Oliveira 1 6
+https://www.frontiersin.org/articles/10.3389/fmicb.2019.03119/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7002396/
+TABLE 1
+Summary of details of prominent and promising bioinformatics tools and pipelines available for microbial GWAS.
+
+Scoary
+k-mers
+
+R package
+
+
+
+May 25, 2019
+https://twitter.com/copypasteusa/status/1132087168388571136
+細菌間で保存されたゲノム領域core genomeを得る方法として、Roaryで得た保存「遺伝子」conserved-geneに比べ、k-mer（31連続塩基）頻度に基づいて得た保存「配列」conserved-sequenceは、同一患者サンプルの同定精度が高い（図4）。
+https://pubmed.ncbi.nlm.nih.gov/31127153/
+Sci Rep
+. 2019 May 24;9(1):7808. doi: 10.1038/s41598-019-44189-0.
+A core genome approach that enables prospective and dynamic monitoring of infectious outbreaks
+Helen van Aggelen 1, Raivo Kolde 2, Hareesh Chamarthi 2, Joshua Loving 2, Yu Fan 2, John T Fallon 3rd 3 4, Weihua Huang 3, Guiqing Wang 4, Mary M Fortunato-Habib 5, Juan J Carmona 5, Brian D Gross 5
+https://www.nature.com/articles/s41598-019-44189-0
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6534532/
+
+
+
+
+
+http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
+≪バイオインフォマティクス≫ 11:06~11:54
+3O1-09
+ゲノムワイド関連解析による水平伝達に由来しカルバペネム耐性株に広く保存された
+細胞表面接着因子の発見
+○矢原耕史、鈴木 仁人、柴山 恵吾
+国立感染症研究所細菌第二部
+
+https://pubmed.ncbi.nlm.nih.gov/27892531/
+Sci Rep
+. 2016 Nov 28;6:37811. doi: 10.1038/srep37811.
+A genome-wide association study identifies a horizontally transferred bacterial surface adhesin gene associated with antimicrobial resistant strains
+Masato Suzuki 1, Keigo Shibayama 1, Koji Yahara 1
+https://www.nature.com/articles/srep37811
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124939/
+We took a kmer-based approach12,13, in which the genome sequence of each isolate was fragmented into unique, overlapping, 31-bp DNA motifs or kmers, that could be used to identify any kind of genetic variation such as single nucleotide polymorphisms (SNPs), indels, and the presence or absence of a whole gene or gene region.
+
+12
+Sheppard S. K. et al.. Genome-wide association study identifies vitamin B5 biosynthesis as a host specificity factor in Campylobacter. Proc. Natl. Acad. Sci. USA 110, 11923–11927 (2013). [PMC free article] [PubMed] [Google Scholar]
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3718156/
+
+13
+Earle S. G. et al.. Identifying lineage effects when controlling for population structure improves power in bacterial association studies. Nature Microbiology 1, Article number: 16041 (2016). [PMC free article] [PubMed] [Google Scholar]
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
+For example, we investigated associations between fusidic acid resistance and the presence or absence of short 31 bp haplotypes or ‘kmers’ in S. aureus (see Methods and Supplementary Fig. 2). 
+31 bp kmers.
+
+
+
+
+
+
+
+
+
+
+https://twitter.com/The_Microbiome/status/1099955581140508672
+The Microbiome on Twitter: "A new workflow able to integrate #GWAS, #microbiome and #metabolic results to obtain causal inferences about #diabetes and the #SCFA #butyrate and #propionate. @NatureGenet The Microbiome Portal: https://t.co/ZnYwPAYxZC… https://t.co/YWAKHSJZwY"
+3:53 AM - 25 Feb 2019
+http://themicrobiome.com/en/publications/causal-relationships-among-the-gut-microbiome-shortchain-fatty-acids-and-metabolic-diseases
+Mendelian randomization
+
+https://twitter.com/Tyu_Shi/status/1053687083284348928
+Tyu_Shi on Twitter: "それらの論文読んだ後に、GWASとの対比でメタゲコホート研究を論じたこのReviewを読んだが、現状の問題点の整理にとても良かった。提案しているindexはちょっと微妙だが。Host genetics and microbiome associations through the lens of genome wide association studies https://t.co/a7DIpB9Aqs"
+12:39 PM - 20 Oct 2018
+https://www.ncbi.nlm.nih.gov/pubmed/29909175
+Curr Opin Microbiol. 2018 Aug;44:9-19. doi: 10.1016/j.mib.2018.05.003. Epub 2018 Jun 14.
+Host genetics and microbiome associations through the lens of genome wide association studies.
+Weissbrod O1, Rothschild D1, Barkan E1, Segal E2.
+
+https://twitter.com/johnlees6/status/1013791082872745985
+John Lees on Twitter: "Have a look at our (now published) short note about our microbial GWAS software pyseer: https://t.co/7u8ko59mb1 More info here: https://t.co/xOsJbzci33 We've also got some new features coming soon, how exciting"
+10:26 AM - 2 Jul 2018
+
+https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty539/5047751
+pyseer: a comprehensive tool for microbial pangenome-wide association studies | Bioinformatics | Oxford Academic
+
+http://pyseer.readthedocs.io/en/master/
+pyseer documentation — pyseer 1.1.1 documentation
+
+
+https://www.biorxiv.org/content/early/2018/02/15/266312
+pyseer: a comprehensive tool for microbial pangenome-wide association studies | bioRxiv
+- https://github.com/mgalardini/pyseer
+- http://pyseer.readthedocs.io
+
+6 Feb 2018
+https://twitter.com/strnr/status/960873677532385280
+Stephen Turner on Twitter: "treeWAS: A phylogenetic tree-based approach to genome-wide association studies in microbes code https://t.co/JprApEzBbj paper https://t.co/DZN9Jod0tQ docs https://t.co/e5aExAXb1L… https://t.co/ghmiArcTyI"
+
+https://www.ncbi.nlm.nih.gov/pubmed/27840430
+Nat Rev Genet. 2017 Jan;18(1):41-50. doi: 10.1038/nrg.2016.132. Epub 2016 Nov 14.
+Microbial genome-wide association studies: lessons from human GWAS.
+Power RA1, Parkhill J2, de Oliveira T1,2,3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27887642
+Genome Biol. 2016 Nov 25;17(1):238.
+Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
+Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27572652
+Nat Microbiol. 2016 Apr 26;1:16059. doi: 10.1038/nmicrobiol.2016.59.
+Bacterial genomics: Microbial GWAS coming of age.
+Falush D1.
+
+https://www.biostars.org/p/197270/
+Is there any good GWAS software for the whole bacterial genomes?
+
+
+
+
+
+
+https://twitter.com/search?q=GWAS%20microbiome
+
+https://www.ncbi.nlm.nih.gov/pubmed/28824167
+Nat Rev Genet. 2017 Nov;18(11):690-699. doi: 10.1038/nrg.2017.63. Epub 2017 Aug 21.
+Human genetic variation and the gut microbiome in disease.
+Hall AB1,2, Tolonen AC1, Xavier RJ1,2,3,4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27694959
+Nat Genet. 2016 Nov;48(11):1407-1412. doi: 10.1038/ng.3663. Epub 2016 Oct 3.
+The effect of host genetics on the gut microbiome.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26528553
+PLoS One. 2015 Nov 3;10(11):e0140301. doi: 10.1371/journal.pone.0140301. eCollection 2015.
+Genome-Wide Association Studies of the Human Gut Microbiota.
+Davenport ER1, Cusanovich DA1, Michelini K1, Barreiro LB2, Ober C1, Gilad Y1.
+
+2016年7月11日
+http://first.lifesciencedb.jp/archives/12735
+ゲノムワイド関連解析を用いたイネにおける農業形質にかかわる新規の遺伝子の同定
+
+http://plaza.umin.ac.jp/~yokada/yokada.files/JSHG2012_YukinoriOkada_Award.pdf
+2012/10/26 日本人類遺伝学会第57回大会 奨励賞受賞講演
+ゲノムワイド関連解析を通じた疾患感受性遺伝子の同定
+
+2009年3月26日
+https://www.natureasia.com/ja-jp/jobs/tokushu/detail/154
+ゲノムを巨視的にとらえる…GWASとエピジェネティクスの試み
+
+2009年3月
+https://ci.nii.ac.jp/els/contentscinii_20180212133359.pdf?id=ART0009161346
+全ゲノム関連解析 (GWAS)の統計的手法
+
 
 ----------
 ## population genetics
@@ -90,7 +273,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930924/
 
 
 ----------
-## 
+## recombination
+組み換え
 
 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2456-z
 
@@ -364,9 +548,6 @@ gbk2fna.pl -- Read Genbank to Nucleotide Fasta file.
 https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
-
-----------
-
 ----------
 ### Scoary
 
@@ -417,7 +598,51 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785682/
 For comparison, we chose 2 of the most widely used packages, Roary and PanX [2,6]. 
 
 
+----------
+### GET_HOMOLOGUES
 
+http://www.eead.csic.es/compbio/soft/gethoms.php
+http://maya.ccg.unam.mx/soft/gethoms.php
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7738440/
+A Novel Family of Acinetobacter Mega-Plasmids Are Disseminating Multi-Drug Resistance Across the Globe While Acquiring Location-Specific Accessory Genes
+
+Plasmid pan‐ and core-genome analyses were carried out using Perl scripts available in the GET_HOMOLOGUES v20092018 software package (Contreras-Moreira and Vinuesa, 2013; Vinuesa and Contreras-Moreira, 2015).
+
+Appropriate phylogenetic loci were identified using the GET_PHYLOMARKERS software package (Vinuesa et al., 2018) with default parameters. The GET_PHYLOMARKERS uses the single-copy plasmid core-genome clusters identified by GET_HOMOLOGUES and removes recombinant sequences as well as loci that produce outlier phylogenies. 
+
+https://pubmed.ncbi.nlm.nih.gov/29765358/
+Front Microbiol
+. 2018 May 1;9:771. doi: 10.3389/fmicb.2018.00771. eCollection 2018.
+GET_PHYLOMARKERS, a Software Package to Select Optimal Orthologous Clusters for Phylogenomics and Inferring Pan-Genome Phylogenies, Used for a Critical Geno-Taxonomic Revision of the Genus Stenotrophomonas
+Pablo Vinuesa 1, Luz E Ochoa-Sánchez 1, Bruno Contreras-Moreira 2 3
+https://www.frontiersin.org/articles/10.3389/fmicb.2018.00771/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938378/
+
+https://pubmed.ncbi.nlm.nih.gov/25343868/
+Methods Mol Biol
+. 2015;1231:203-32. doi: 10.1007/978-1-4939-1720-4_14.
+Robust identification of orthologues and paralogues for microbial pan-genomics using GET_HOMOLOGUES: a case study of pIncA/C plasmids
+Pablo Vinuesa 1, Bruno Contreras-Moreira
+https://link.springer.com/protocol/10.1007%2F978-1-4939-1720-4_14
+https://core.ac.uk/reader/36182144
+
+https://pubmed.ncbi.nlm.nih.gov/24096415/
+Appl Environ Microbiol
+. 2013 Dec;79(24):7696-701. doi: 10.1128/AEM.02411-13. Epub 2013 Oct 4.
+GET_HOMOLOGUES, a versatile software package for scalable and robust microbial pangenome analysis
+Bruno Contreras-Moreira 1, Pablo Vinuesa
+https://journals.asm.org/doi/10.1128/AEM.02411-13
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3837814/
+
+https://bibgraph.hpcr.jp/abst/pubmed/24096415
+get_homoleues、スケーラブルで堅牢な微生物パンゲノーム分析のための多用途のソフトウェアパッケージ。 - Bibgraph（ビブグラフ）| PubMedを日本語で論文検索
+
+https://kazumaxneo.hatenablog.com/entry/2020/05/27/140848
+パンゲノム解析を行う GET HOMOLOGUES - macでインフォマティクス
+
+https://kazumaxneo.hatenablog.com/entry/2017/08/24/163914
+複数のトランスクリプトーム解析からコア遺伝子を探索するGET_HOMOLOGUES-EST - macでインフォマティクス
 
 ----------
 ### bactopia
@@ -2385,115 +2610,6 @@ Rocha E1.
 Fig. 2. Distribution of the percentage of genes in the leading strand (a)
 
 
-
-
-
-
-
-
-----------
-### GWAS
-- [Genome-wide association study (GWAS)](https://en.wikipedia.org/wiki/Genome-wide_association_study)
-- [ゲノムワイド関連解析](https://bsd.neuroinf.jp/wiki/ゲノムワイド関連解析)
-- [[PDF]次世代GWAS研究 - イルミナ株式会社](https://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/primer_next_generation_gwas_research-j.pdf)
-
-https://twitter.com/The_Microbiome/status/1099955581140508672
-The Microbiome on Twitter: "A new workflow able to integrate #GWAS, #microbiome and #metabolic results to obtain causal inferences about #diabetes and the #SCFA #butyrate and #propionate. @NatureGenet The Microbiome Portal: https://t.co/ZnYwPAYxZC… https://t.co/YWAKHSJZwY"
-3:53 AM - 25 Feb 2019
-http://themicrobiome.com/en/publications/causal-relationships-among-the-gut-microbiome-shortchain-fatty-acids-and-metabolic-diseases
-Mendelian randomization
-
-https://twitter.com/Tyu_Shi/status/1053687083284348928
-Tyu_Shi on Twitter: "それらの論文読んだ後に、GWASとの対比でメタゲコホート研究を論じたこのReviewを読んだが、現状の問題点の整理にとても良かった。提案しているindexはちょっと微妙だが。Host genetics and microbiome associations through the lens of genome wide association studies https://t.co/a7DIpB9Aqs"
-12:39 PM - 20 Oct 2018
-https://www.ncbi.nlm.nih.gov/pubmed/29909175
-Curr Opin Microbiol. 2018 Aug;44:9-19. doi: 10.1016/j.mib.2018.05.003. Epub 2018 Jun 14.
-Host genetics and microbiome associations through the lens of genome wide association studies.
-Weissbrod O1, Rothschild D1, Barkan E1, Segal E2.
-
-https://twitter.com/johnlees6/status/1013791082872745985
-John Lees on Twitter: "Have a look at our (now published) short note about our microbial GWAS software pyseer: https://t.co/7u8ko59mb1 More info here: https://t.co/xOsJbzci33 We've also got some new features coming soon, how exciting"
-10:26 AM - 2 Jul 2018
-
-https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty539/5047751
-pyseer: a comprehensive tool for microbial pangenome-wide association studies | Bioinformatics | Oxford Academic
-
-http://pyseer.readthedocs.io/en/master/
-pyseer documentation — pyseer 1.1.1 documentation
-
-
-https://www.biorxiv.org/content/early/2018/02/15/266312
-pyseer: a comprehensive tool for microbial pangenome-wide association studies | bioRxiv
-- https://github.com/mgalardini/pyseer
-- http://pyseer.readthedocs.io
-
-6 Feb 2018
-https://twitter.com/strnr/status/960873677532385280
-Stephen Turner on Twitter: "treeWAS: A phylogenetic tree-based approach to genome-wide association studies in microbes code https://t.co/JprApEzBbj paper https://t.co/DZN9Jod0tQ docs https://t.co/e5aExAXb1L… https://t.co/ghmiArcTyI"
-
-https://www.ncbi.nlm.nih.gov/pubmed/27840430
-Nat Rev Genet. 2017 Jan;18(1):41-50. doi: 10.1038/nrg.2016.132. Epub 2016 Nov 14.
-Microbial genome-wide association studies: lessons from human GWAS.
-Power RA1, Parkhill J2, de Oliveira T1,2,3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27887642
-Genome Biol. 2016 Nov 25;17(1):238.
-Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary.
-Brynildsrud O1, Bohlin J2, Scheffer L2,3, Eldholm V2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27572652
-Nat Microbiol. 2016 Apr 26;1:16059. doi: 10.1038/nmicrobiol.2016.59.
-Bacterial genomics: Microbial GWAS coming of age.
-Falush D1.
-
-https://www.biostars.org/p/197270/
-Is there any good GWAS software for the whole bacterial genomes?
-
-http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
-3O1-09
-ゲノムワイド関連解析による水平伝達に由来しカルバペネム耐性株に広く保存された 細胞表面接着因子の発見
-https://www.ncbi.nlm.nih.gov/pubmed/27892531
-Sci Rep. 2016 Nov 28;6:37811. doi: 10.1038/srep37811.
-A genome-wide association study identifies a horizontally transferred bacterial surface adhesin gene associated with antimicrobial resistant strains.
-Suzuki M1, Shibayama K1, Yahara K1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124939/
-We took a kmer-based approach12,13, in which the genome sequence of each isolate was fragmented into unique, overlapping, 31-bp DNA motifs or kmers, that could be used to identify any kind of genetic variation such as single nucleotide polymorphisms (SNPs), indels, and the presence or absence of a whole gene or gene region.
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
-For example, we investigated associations between fusidic acid resistance and the presence or absence of short 31 bp haplotypes or ‘kmers’ in S. aureus (see Methods and Supplementary Fig. 2). 
-31 bp kmers.
-
-https://twitter.com/search?q=GWAS%20microbiome
-
-https://www.ncbi.nlm.nih.gov/pubmed/28824167
-Nat Rev Genet. 2017 Nov;18(11):690-699. doi: 10.1038/nrg.2017.63. Epub 2017 Aug 21.
-Human genetic variation and the gut microbiome in disease.
-Hall AB1,2, Tolonen AC1, Xavier RJ1,2,3,4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/27694959
-Nat Genet. 2016 Nov;48(11):1407-1412. doi: 10.1038/ng.3663. Epub 2016 Oct 3.
-The effect of host genetics on the gut microbiome.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26528553
-PLoS One. 2015 Nov 3;10(11):e0140301. doi: 10.1371/journal.pone.0140301. eCollection 2015.
-Genome-Wide Association Studies of the Human Gut Microbiota.
-Davenport ER1, Cusanovich DA1, Michelini K1, Barreiro LB2, Ober C1, Gilad Y1.
-
-2016年7月11日
-http://first.lifesciencedb.jp/archives/12735
-ゲノムワイド関連解析を用いたイネにおける農業形質にかかわる新規の遺伝子の同定
-
-http://plaza.umin.ac.jp/~yokada/yokada.files/JSHG2012_YukinoriOkada_Award.pdf
-2012/10/26 日本人類遺伝学会第57回大会 奨励賞受賞講演
-ゲノムワイド関連解析を通じた疾患感受性遺伝子の同定
-
-2009年3月26日
-https://www.natureasia.com/ja-jp/jobs/tokushu/detail/154
-ゲノムを巨視的にとらえる…GWASとエピジェネティクスの試み
-
-2009年3月
-https://ci.nii.ac.jp/els/contentscinii_20180212133359.pdf?id=ART0009161346
-全ゲノム関連解析 (GWAS)の統計的手法
 
 ----------
 ## primer
