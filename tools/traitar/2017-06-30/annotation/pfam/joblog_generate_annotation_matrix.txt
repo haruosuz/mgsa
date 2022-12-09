@@ -1,0 +1,2 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+1	:	1498811340.550	    15.473	0	0	0	0	domtblout2gene_generic.py 2017-06-30/annotation/pfam/summary.dat  <(ls 2017-06-30/annotation/pfam/*_filtered_best.dat) /usr/lib/python2.7/site-packages/traitar/data/models/phypat.tar.gz
