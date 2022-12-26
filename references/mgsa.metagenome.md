@@ -59,6 +59,57 @@
 - [metathermo](#metathermo) メタゲノム温度計
 - [](#)
 
+
+
+
+
+
+
+
+
+
+----------
+
+### metathermo
+
+http://metathermo.jp/
+
+メタゲノム温度計
+
+Metagenomic Thermometer
+Masaomi Kurokawa, Koichi Higashi, Keisuke Yoshida, Tomohiko Sato, Shigenori Maruyama, Hiroshi Mori, Ken Kurokawa
+doi: https://doi.org/10.1101/2022.07.14.499854
+
+https://www.biorxiv.org/content/10.1101/2022.07.14.499854v1.full
+
+FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate MPT instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
+
+
+https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/docs/program.pdf
+P-41A*
+メタゲノム温度計
+○⿊川 真⾂ 1
+、森 宙史 1
+、東 光⼀ 1
+、吉⽥ 圭佑 2
+、佐藤 友彦 2
+、丸⼭ 茂徳 2
+、⿊川 顕 1
+1) 国⽴遺伝学研究所 2) 東京⼯業⼤学
+
+https://pubmed.ncbi.nlm.nih.gov/17222055/
+PLoS Comput Biol
+. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
+Protein and DNA sequence determinants of thermophilic adaptation
+Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
+
+
+----------
+
+
+
 ----------
 
 https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
@@ -174,34 +225,96 @@ https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextb
 田辺晶史
 2018年5月8日
 
+
+
+
+
+
 ----------
 
-### metathermo
+## MAG
+Metagenome Assembled Genome (MAG)
 
-http://metathermo.jp/
+https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
+DDBJ Qualifier key
+metagenome_source
+定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
 
-メタゲノム温度計
+2019年4月25日
+https://www.natureasia.com/ja-jp/nature/highlights/98543
+Nature ハイライト：ヒト腸内微生物相の構成をこれまでにない分解能で明らかにする
+、1万1850のヒト腸のマイクロバイオームから、9万2143のメタゲノムアセンブリーによる再構築ゲノム（MAG）を得て、1952種の未培養の候補細菌を特定した。
+、系統発生学的多様性を281％増大させた。
+、数百の新しい生合成遺伝子クラスターをコードしていることが分かった。
+https://www.nature.com/articles/s41586-019-0965-1
+A new genomic blueprint of the human gut microbiota | Nature
+Phylogenetic diversity was quantified by the sum of branch lengths using the phytools R package59.
 
-Metagenomic Thermometer
-Masaomi Kurokawa, Koichi Higashi, Keisuke Yoshida, Tomohiko Sato, Shigenori Maruyama, Hiroshi Mori, Ken Kurokawa
-doi: https://doi.org/10.1101/2022.07.14.499854
 
-https://www.biorxiv.org/content/10.1101/2022.07.14.499854v1.full
+https://twitter.com/jgi/status/1106429999974772736
+Joint Genome Inst. on Twitter: "Read "Novel insights from uncultivated genomes of the global human gut #microbiome" in @nature from @BerkeleyLab @LBNLBioSci @jgi and @GladstoneInst @UCSF @czbiohub researchers: https://t.co/5dUrX7zHzd #BioEGSB #DataScience… https://t.co/ExoEkSqpRp"
+1:40 AM - 15 Mar 2019
+![](https://pbs.twimg.com/media/D1rUODCUgAA8bDz.jpg)
 
-FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate MPT instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
+https://twitter.com/TrendsMicrobiol/status/1106251713122578433
+Trends Microbiol on Twitter: "Sam Minot spotlights how de novo assembly vastly expands the known microbial universe of the gut microbiome https://t.co/kyUgu6tu1Q"
+1:52 PM - 14 Mar 2019
+https://www.sciencedirect.com/science/article/pii/S0966842X19300587
 
+https://www.ncbi.nlm.nih.gov/pubmed/30867587
+Nature. 2019 Mar 13. doi: 10.1038/s41586-019-1058-x. [Epub ahead of print]
+Novel insights from uncultivated genomes of the global human gut microbiome.
+Nayfach S1,2, Shi ZJ3,4, Seshadri R5,6, Pollard KS3,4,7, Kyrpides N8,9.
 
-https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/docs/program.pdf
-P-41A*
-メタゲノム温度計
-○⿊川 真⾂ 1
-、森 宙史 1
-、東 光⼀ 1
-、吉⽥ 圭佑 2
-、佐藤 友彦 2
-、丸⼭ 茂徳 2
-、⿊川 顕 1
-1) 国⽴遺伝学研究所 2) 東京⼯業⼤学
+2019Feb28
+https://bibgraph.hpcr.jp/abst/pubmed/30816235
+メタゲノム集合ゲノムはロシアのカムチャツカにおける2つの温泉プールの微生物多様性への新しい洞察を提供する - Bibgraph（ビブグラフ）| PubMedを日本語で論文検索
+
+再現性のあるパイプライン
+https://github.com/WatsonLab/MAGpy
+https://www.ncbi.nlm.nih.gov/pubmed/30418481
+Bioinformatics. 2018 Nov 10. doi: 10.1093/bioinformatics/bty905. [Epub ahead of print]
+MAGpy: a reproducible pipeline for the downstream analysis of metagenome-assembled genomes (MAGs).
+Stewart RD1, Auffret M2, Snelling TJ3, Roehe R2, Watson M1.
+
+未培養原核生物のゲノム
+https://www.ncbi.nlm.nih.gov/pubmed/30266101
+Microbiome. 2018 Sep 28;6(1):173. doi: 10.1186/s40168-018-0550-0.
+Genomes from uncultivated prokaryotes: a comparison of metagenome-assembled and single-amplified genomes.
+Alneberg J1, Karlsson CMG2, Divne AM3, Bergin C3, Homa F3, Lindh MV2,4, Hugerth LW1,5, Ettema TJG3, Bertilsson S6, Andersson AF7, Pinhassi J8.
+
+http://kazumaxneo.hatenablog.com/entry/2018/10/09/003000
+NGSデータまたはアセンブリからバクテリアやアーキアのtaxanomic assignmentを行い、ゲノムのnoveltyなどを評価する MIGA - macでインフォマティクス
+　微生物ゲノムアトラス（MiGA）プロジェクトは、ANIに基づいてクエリーゲノムまたはアセンブリされたコンティグ配列の頑強な分類学的分類を提供する。
+　さらに、クエリーゲノム配列は、単離されたが分類されていないゲノムや、metagenome-assembled genomes（MAG）およびsingle-cell amplified genome（SAG）コレクションに対して検索し、
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/08/212758
+クラスタを自動で決めてビニングする BinSanity - macでインフォマティクス
+。Metagenome-assembled genomes （MAG）にcontigを分類することは、メタゲノムデータを分析する際に直面するハードルの1つである。
+
+https://www.ncbi.nlm.nih.gov/pubmed/29234139
+Nat Microbiol. 2018 Feb;3(2):253. doi: 10.1038/s41564-017-0083-5.
+Author Correction: Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
+Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28894102
+Nat Microbiol. 2017 Nov;2(11):1533-1542. doi: 10.1038/s41564-017-0012-7. Epub 2017 Sep 11.
+Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
+Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
+
+2017年09月12日
+http://crisp-bio.blog.jp/archives/3772216.html
+メタゲノムからアッセンブルしたゲノムにより微生物系統樹30％以上拡張
+
+2017-03
+https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227988/1/scr_2017_56.pdf
+Title 琵琶湖沖に生息する細菌・ウイルスのメタゲノム解析
+Author(s) 岡崎, 友輔
+細菌メタゲノムにおいては、SPAdes でアセンブリされた塩基配列断片に対し、4-mer および
+サンプル間のカバレッジの差異を用いてクラスタリングする手法(binning) を用いた。これによ
+り、各細菌系統の MAG(Metagenome Assembled Genome)を構築し、琵琶湖の表水層および
+深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
+た。
 
 
 ----------
@@ -214,12 +327,6 @@ Phylogenetic diversity analysis of shotgun metagenomic reads describes gut micro
 Daniela Gaio 1, Matthew Z DeMaere 1, Kay Anantanawat 1, Graeme J Eamens 2, Linda Falconer 2, Toni A Chapman 2, Steven Djordjevic 1, Aaron E Darling 1
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270372
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9232140/
-
-The discovery of correlations between experimental factors and microbial community composition is more commonly addressed with OTU-based methods and rarely analysed via phylogenetic diversity measures. The latter method, although less intuitive than the former, suffers less from library size normalization biases, and it proved to be instrumental in this study for the discovery of correlations between microbiome composition and host-, and treatment factors.
-実験因子と微生物群集組成との相関の発見は、OTU ベースの手法で行われることが多く、系統的多様性指標で分析されることは稀である。後者は、前者に比べて直感的ではないものの、ライブラリサイズの正規化バイアスに悩まされることは少なく、本研究ではマイクロバイオーム組成と宿主および治療要因との相関関係を発見するのに有効であることが証明された。
-
-Determination of microbial diversity among samples
-Phylogenetic diversity of all samples was assessed with PhyloSift [58] using the first 1M read pairs of each sample (parameters:—chunk-size 1000000—paired) (script: phylosift.nf).
 
 ----------
 ### kazumaxneo
@@ -645,6 +752,36 @@ https://scholar.google.co.jp/scholar?cites=8605030642958534701&as_sdt=2005&sciod
 ## updates
 
 ### 2022
+
+### 2022-11-28
+
+https://www.nature.com/articles/s43705-022-00204-6
+Unexpected absence of ribosomal protein genes from metagenome-assembled genomes | ISME Communications
+
+
+6:25 AM · Dec 8, 2022
+https://twitter.com/luispedrocoelho/status/1600602523206791168
+Luis Pedro Coelho🌻 on Twitter: ""Unexpected absence of ribosomal protein genes from metagenome-assembled genomes" by Mise &amp; Iwasaki (Quoted text is from paper [slightly edited for space], unquoted from me) https://t.co/Xlw9v5V3c6" / Twitter
+
+
+6:40 AM · Nov 30, 2022
+https://twitter.com/iwasakiw/status/1597707175836934146
+論文「メタゲノムアセンブルゲノムからの予想外のリボソームタンパク質遺伝子の欠失」を出版しました！
+Kazumori Mise and Wataru Iwasaki.
+Unexpected absence of ribosomal protein genes from metagenome-assembled genomes.
+ISME Communications, 2, 118. (2022)
+ショットガンシーケンスから環境微生物のゲノムを復元するMAG（メタゲノムアセンブルゲノム）解析が一般的になり、未培養微生物の進化や生理・生態に関する研究が大きく進んでいます。一方でMAGにはまだ問題点も多く、例えば、反復配列や外来配列はMAGから欠落しやすいことが良く知られています。
+本研究では、反復配列でも外来配列でもない「リボソームタンパク質遺伝子」もまた、予想外にMAGから欠落しやすいことを明らかにしました。そして、コドン使用頻度の偏りによるビニングの誤りがその原因であり、これが微生物の生存戦略にもリンクしていることを明らかにしました。
+
+### 2021-01-07
+
+https://pubmed.ncbi.nlm.nih.gov/33462601/
+Genome Biol Evol
+. 2021 Jan 7;13(1):evaa238. doi: 10.1093/gbe/evaa238.
+Anomalous Phylogenetic Behavior of Ribosomal Proteins in Metagenome-Assembled Asgard Archaea
+Sriram G Garg 1, Nils Kapust 1, Weili Lin 2, Michael Knopp 1, Fernando D K Tria 1, Shijulal Nelson-Sathi 3, Sven B Gould 1, Lu Fan 4 5 6, Ruixin Zhu 2, Chuanlun Zhang 4 5 7, William F Martin 1
+https://academic.oup.com/gbe/article/13/1/evaa238/5988511
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7813640/
 
 ### 
 
@@ -1326,93 +1463,6 @@ MetAMOS: a modular and open source metagenomic assembly and analysis pipeline.
 https://www.ncbi.nlm.nih.gov/pubmed/23082188
 PLoS One. 2012;7(10):e47656.
 MOCAT: a metagenomics assembly and gene prediction toolkit.
-
-
-----------
-
-## MAG
-Metagenome Assembled Genome (MAG)
-
-https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
-DDBJ Qualifier key
-metagenome_source
-定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
-
-2019年4月25日
-https://www.natureasia.com/ja-jp/nature/highlights/98543
-Nature ハイライト：ヒト腸内微生物相の構成をこれまでにない分解能で明らかにする
-、1万1850のヒト腸のマイクロバイオームから、9万2143のメタゲノムアセンブリーによる再構築ゲノム（MAG）を得て、1952種の未培養の候補細菌を特定した。
-、系統発生学的多様性を281％増大させた。
-、数百の新しい生合成遺伝子クラスターをコードしていることが分かった。
-https://www.nature.com/articles/s41586-019-0965-1
-A new genomic blueprint of the human gut microbiota | Nature
-Phylogenetic diversity was quantified by the sum of branch lengths using the phytools R package59.
-
-
-https://twitter.com/jgi/status/1106429999974772736
-Joint Genome Inst. on Twitter: "Read "Novel insights from uncultivated genomes of the global human gut #microbiome" in @nature from @BerkeleyLab @LBNLBioSci @jgi and @GladstoneInst @UCSF @czbiohub researchers: https://t.co/5dUrX7zHzd #BioEGSB #DataScience… https://t.co/ExoEkSqpRp"
-1:40 AM - 15 Mar 2019
-![](https://pbs.twimg.com/media/D1rUODCUgAA8bDz.jpg)
-
-https://twitter.com/TrendsMicrobiol/status/1106251713122578433
-Trends Microbiol on Twitter: "Sam Minot spotlights how de novo assembly vastly expands the known microbial universe of the gut microbiome https://t.co/kyUgu6tu1Q"
-1:52 PM - 14 Mar 2019
-https://www.sciencedirect.com/science/article/pii/S0966842X19300587
-
-https://www.ncbi.nlm.nih.gov/pubmed/30867587
-Nature. 2019 Mar 13. doi: 10.1038/s41586-019-1058-x. [Epub ahead of print]
-Novel insights from uncultivated genomes of the global human gut microbiome.
-Nayfach S1,2, Shi ZJ3,4, Seshadri R5,6, Pollard KS3,4,7, Kyrpides N8,9.
-
-2019Feb28
-https://bibgraph.hpcr.jp/abst/pubmed/30816235
-メタゲノム集合ゲノムはロシアのカムチャツカにおける2つの温泉プールの微生物多様性への新しい洞察を提供する - Bibgraph（ビブグラフ）| PubMedを日本語で論文検索
-
-再現性のあるパイプライン
-https://github.com/WatsonLab/MAGpy
-https://www.ncbi.nlm.nih.gov/pubmed/30418481
-Bioinformatics. 2018 Nov 10. doi: 10.1093/bioinformatics/bty905. [Epub ahead of print]
-MAGpy: a reproducible pipeline for the downstream analysis of metagenome-assembled genomes (MAGs).
-Stewart RD1, Auffret M2, Snelling TJ3, Roehe R2, Watson M1.
-
-未培養原核生物のゲノム
-https://www.ncbi.nlm.nih.gov/pubmed/30266101
-Microbiome. 2018 Sep 28;6(1):173. doi: 10.1186/s40168-018-0550-0.
-Genomes from uncultivated prokaryotes: a comparison of metagenome-assembled and single-amplified genomes.
-Alneberg J1, Karlsson CMG2, Divne AM3, Bergin C3, Homa F3, Lindh MV2,4, Hugerth LW1,5, Ettema TJG3, Bertilsson S6, Andersson AF7, Pinhassi J8.
-
-http://kazumaxneo.hatenablog.com/entry/2018/10/09/003000
-NGSデータまたはアセンブリからバクテリアやアーキアのtaxanomic assignmentを行い、ゲノムのnoveltyなどを評価する MIGA - macでインフォマティクス
-　微生物ゲノムアトラス（MiGA）プロジェクトは、ANIに基づいてクエリーゲノムまたはアセンブリされたコンティグ配列の頑強な分類学的分類を提供する。
-　さらに、クエリーゲノム配列は、単離されたが分類されていないゲノムや、metagenome-assembled genomes（MAG）およびsingle-cell amplified genome（SAG）コレクションに対して検索し、
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/08/212758
-クラスタを自動で決めてビニングする BinSanity - macでインフォマティクス
-。Metagenome-assembled genomes （MAG）にcontigを分類することは、メタゲノムデータを分析する際に直面するハードルの1つである。
-
-https://www.ncbi.nlm.nih.gov/pubmed/29234139
-Nat Microbiol. 2018 Feb;3(2):253. doi: 10.1038/s41564-017-0083-5.
-Author Correction: Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
-Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/28894102
-Nat Microbiol. 2017 Nov;2(11):1533-1542. doi: 10.1038/s41564-017-0012-7. Epub 2017 Sep 11.
-Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
-Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
-
-2017年09月12日
-http://crisp-bio.blog.jp/archives/3772216.html
-メタゲノムからアッセンブルしたゲノムにより微生物系統樹30％以上拡張
-
-2017-03
-https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227988/1/scr_2017_56.pdf
-Title 琵琶湖沖に生息する細菌・ウイルスのメタゲノム解析
-Author(s) 岡崎, 友輔
-細菌メタゲノムにおいては、SPAdes でアセンブリされた塩基配列断片に対し、4-mer および
-サンプル間のカバレッジの差異を用いてクラスタリングする手法(binning) を用いた。これによ
-り、各細菌系統の MAG(Metagenome Assembled Genome)を構築し、琵琶湖の表水層および
-深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
-た。
 
 ----------
 ## book
