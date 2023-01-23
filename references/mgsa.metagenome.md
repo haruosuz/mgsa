@@ -59,15 +59,6 @@
 - [metathermo](#metathermo) メタゲノム温度計
 - [](#)
 
-
-
-
-
-
-
-
-
-
 ----------
 
 ### metathermo
@@ -1549,7 +1540,12 @@ https://github.com/haruosuz/statistics#meta-analysis
 
 https://twitter.com/search?f=tweets&q=microbiome%20meta-analysis
 
-### 2019
+----------
+### metamicrobiomeR
+
+https://github.com/haruosuz/r4bioinfo/blob/master/R_microb/README.md#metamicrobiomer
+
+----------
 
 https://twitter.com/EricTopol/status/1112741724302893056
 Eric Topol on Twitter: "It's not enough to characterize the gut #microbiome by bacterial content. How #metagenomics tracks with colon #cancer, specific signatures https://t.co/yIH1TeYeVg https://t.co/jqRIcffhGZ @NatureMedicine… https://t.co/VfDiUXjqvO"
@@ -1564,54 +1560,42 @@ Metagenomic analysis of colorectal cancer datasets identifies cross-cohort micro
 We performed a meta-analysis of five publicly available datasets and two new cohorts and validated the findings on two additional cohorts, considering in total 969 fecal metagenomes. 
 
 ### Qiita
+### 2018-10
 
+10:30 PM · Oct 4, 2018
 https://twitter.com/strnr/status/1047841444214558720
-Stephen Turner on Twitter: "Qiita (pronounced chee-tah): rapid, web-enabled microbiome meta-analysis Paper: https://t.co/aXTv0cTCND Web: https://t.co/XfwpO4bP0I Docs: https://t.co/CKEEffUSCW Source: https://t.co/HWOT2qYHeZ… https://t.co/RVMns0X6Eo"
-9:30 AM - 4 Oct 2018
+Stephen Turner on Twitter: "Qiita (pronounced chee-tah): rapid, web-enabled microbiome meta-analysis Paper: https://t.co/aXTv0cTCND Web: https://t.co/XfwpO4bP0I Docs: https://t.co/CKEEffUSCW Source: https://t.co/HWOT2qYHeZ https://t.co/d13hW5GJ3n" / Twitter
 
-Qiita (pronounced chee-tah): rapid, web-enabled microbiome meta-analysis 
-
-Paper: https://www.nature.com/articles/s41592-018-0141-9 …
-Web: https://qiita.ucsd.edu/ 
-Docs: https://qiita.ucsd.edu/static/doc/html/index.html …
-Source: https://github.com/biocore/qiita 
-
+6:44 AM · Oct 2, 2018
 https://twitter.com/gibbological/status/1046878477981343744
-Sean Gibbons on Twitter: "Qiita: rapid, web-enabled microbiome meta-analysis https://t.co/4Osl11rR8X from @KnightLabNews @gregcaporaso and @Pdorrestein1 labs. Useful tool for all us 'data parasites' :)"
-5:44 PM - 1 Oct 2018
-
-batch effect
-バッチ効果
-
-https://twitter.com/jongsanders/status/1046836821286686721
-Jon Sanders on Twitter: "The Qiita paper is out! So happy to have been able to contribute to this amazing resource. Congrats, @KnightLabNews! https://t.co/QkQ2x363Xi"
-2:58 PM - 1 Oct 2018
-![](https://pbs.twimg.com/card_img/1046836828454703105/ZFWvyfj5?format=jpg&name=144x144_2)
-
-01 October 2018  & Rob Knight 
-Qiita: rapid, web-enabled microbiome meta-analysis
+Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Qiita: rapid, web-enabled microbiome meta-analysis https://t.co/4Osl11rR8X from @KnightLabNews @gregcaporaso and @Pdorrestein1 labs. Useful tool for all us 'data parasites' :)" / Twitter
+https://twitter.com/inschool4life/status/1047107731327467521
+Did they comment on batch effects?
 
 https://pubmed.ncbi.nlm.nih.gov/30275573/
 Meta-Analysis Nat Methods
 . 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.
-Qiita: Rapid, Web-Enabled Microbiome Meta-Analysis
+Qiita: rapid, web-enabled microbiome meta-analysis
 Antonio Gonzalez 1, Jose A Navas-Molina 1 2 3, Tomasz Kosciolek 1, Daniel McDonald 1, Yoshiki Vázquez-Baeza 1, Gail Ackermann 1, Jeff DeReus 1, Stefan Janssen 1, Austin D Swafford 4, Stephanie B Orchanian 4, Jon G Sanders 1, Joshua Shorenstein 1 5, Hannes Holste 1 2, Semar Petrus 6, Adam Robbins-Pianka 7, Colin J Brislawn 8, Mingxun Wang 9, Jai Ram Rideout 10, Evan Bolyen 10, Matthew Dillon 10, J Gregory Caporaso 10 11, Pieter C Dorrestein 1 4 9, Rob Knight 12 13 14
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235622/
 Despite these challenges, meta-analyses of microbiomes have a rich history of success, identifying the major global drivers of diversity in microbial communities4, characterizing the evolution of the vertebrate gut microbiome5, and surveying specialized fields such as the built environment6. Meta-analyses also enable scientists to identify important biases such as DNA extraction, primers, or analytical pipelines7,8, which need to be controlled to generate biological discoveries.
 
 ### almlab
+### 2018-04-23
+
 https://be.mit.edu/directory/eric-alm
 Eric Alm
 http://almlab.mit.edu/
 
+2:55 AM · Apr 24, 2018
 https://twitter.com/gibbological/status/988476547614105601
-Sean Gibbons on Twitter: "Befuddled by batch effects? Check out our simple, non-parametric solution for 16S case-control studies in @PLOSCompBiol https://t.co/grMDm7SIQl -- method available as a @qiime2 plugin thanks to @cduvallet"
+Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Befuddled by batch effects? Check out our simple, non-parametric solution for 16S case-control studies in @PLOSCompBiol https://t.co/grMDm7SIQl -- method available as a @qiime2 plugin thanks to @cduvallet" / Twitter
 
-https://www.ncbi.nlm.nih.gov/pubmed/29684016
-PLoS Comput Biol. 2018 Apr 23;14(4):e1006102. doi: 10.1371/journal.pcbi.1006102. eCollection 2018 Apr.
-Correcting for batch effects in case-control microbiome studies.
-Gibbons SM1,2,3, Duvallet C1,2, Alm EJ1,2,3.
-微生物群集の症例対照研究におけるバッチ効果の補正
+https://pubmed.ncbi.nlm.nih.gov/29684016/
+Comparative Study PLoS Comput Biol
+. 2018 Apr 23;14(4):e1006102. doi: 10.1371/journal.pcbi.1006102. eCollection 2018 Apr.
+Correcting for batch effects in case-control microbiome studies
+Sean M Gibbons 1 2 3, Claire Duvallet 1 2, Eric J Alm 1 2 3
 
 April 17, 2018
 https://cduvallet.github.io/posts/2018/04/microbiome-data
@@ -1626,9 +1610,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5716994/
 Code availability
 The code to reproduce all of the analyses in this paper is available at https://github.com/cduvallet/microbiomeHD. 
 
+3:05 AM · Dec 7, 2017
 https://twitter.com/Kazu_Kasahara/status/938469390739234816
-Kazu_Kasahara on Twitter: "流行しているマイクロバイオーム研究に警鐘を鳴らす論文。28報の研究、10疾患のメタ解析から、病気で認める"dysbiosis"の多くは疾患特異的ではなく、バイオマーカーになり難い。 https://t.co/AVJHhcCCcI"
-1:05 PM - 6 Dec 2017
+Kazuyuki Kasahara on Twitter: "流行しているマイクロバイオーム研究に警鐘を鳴らす論文。28報の研究、10疾患のメタ解析から、病気で認める"dysbiosis"の多くは疾患特異的ではなく、バイオマーカーになり難い。 https://t.co/AVJHhcCCcI" / Twitter
+
+5:45 AM · Dec 6, 2017
+https://twitter.com/cduvallet/status/938147253512015873
+Claire Duvallet on Twitter: "The meta-analysis is out in @NatureComms! We found that diseases are characterized by consistent types of microbial community shifts, and that lots of bacteria respond non-specifically to multiple diseases. @gibbological @ThomasGurry @ejalm @rafalab https://t.co/XJxmxApgXv" / Twitter
 
 ### 2018-06
 https://twitter.com/ayaKT/status/1005378142146457600
