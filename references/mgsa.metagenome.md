@@ -61,6 +61,24 @@
 
 ----------
 
+https://pubmed.ncbi.nlm.nih.gov/29871915/
+mBio
+. 2018 Jun 5;9(3):e00525-18. doi: 10.1128/mBio.00525-18.
+Identifying and Overcoming Threats to Reproducibility, Replicability, Robustness, and Generalizability in Microbiome Research
+Patrick D Schloss 1
+https://journals.asm.org/doi/10.1128/mBio.00525-18
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989067/
+
+ replicability
+ confounding variable
+ samples are not randomized across sequencing runs.
+ batch effects
+
+
+
+
+----------
+
 ### metathermo
 
 http://metathermo.jp/
@@ -1731,25 +1749,32 @@ In this module, microbiology students used Quantitative Insights into Microbial 
 
 https://twitter.com/BioMickWatson
 
-https://www.ncbi.nlm.nih.gov/pubmed/29427429
-Appl Environ Microbiol. 2018 Mar 19;84(7). pii: e02627-17. doi: 10.1128/AEM.02627-17. Print 2018 Apr 1.
-The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
-Pollock J#1,2, Glendinning L#2, Wisedchanwet T2, Watson M2.
+### 2018-03-19
+https://pubmed.ncbi.nlm.nih.gov/29427429/
+Review Appl Environ Microbiol
+. 2018 Mar 19;84(7):e02627-17. doi: 10.1128/AEM.02627-17. Print 2018 Apr 1.
+The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies
+Jolinda Pollock # 1 2, Laura Glendinning # 2, Trong Wisedchanwet 2, Mick Watson 2
+https://journals.asm.org/doi/full/10.1128/AEM.02627-17
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861821/
 Of the three most commonly used alignments which are guided by secondary structure (i.e., Greengenes [73], RDP [74], and SILVA [75]), the Greengenes alignment was observed to be of poor quality, leading to significantly greater richness and diversity estimates.
 
 https://www.microbe.net/2018/03/03/the-attempt-to-find-best-practice-for-16s-studies/
 The attempt to find “best practice” for 16S studies – microBEnet: the microbiology of the Built Environment network
 
-https://www.ncbi.nlm.nih.gov/pubmed/29305502
-Appl Environ Microbiol. 2018 Mar 1;84(6). pii: e00014-18. doi: 10.1128/AEM.00014-18. Print 2018 Mar 15.
-How Much Do rRNA Gene Surveys Underestimate Extant Bacterial Diversity?
-Rodriguez-R LM1,2,3, Castro JC1,2, Kyrpides NC4, Cole JR5,6, Tiedje JM5,7,6, Konstantinidis KT8,2,3.
-
+12:34 AM · Feb 27, 2018
 https://twitter.com/BioMickWatson/status/968147242401058817
-Mick Watson on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW"
-The madness of microbiome: Attempting to find consensus “best practice” for 16S microbiome studies
-10:34 AM - 26 Feb 2018
+Mick W@tson 🐄 on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW" / Twitter
+
+### 2018-03-01
+https://pubmed.ncbi.nlm.nih.gov/29305502/
+Appl Environ Microbiol
+. 2018 Mar 1;84(6):e00014-18. doi: 10.1128/AEM.00014-18. Print 2018 Mar 15.
+How Much Do rRNA Gene Surveys Underestimate Extant Bacterial Diversity?
+Luis M Rodriguez-R 1 2 3, Juan C Castro 1 2, Nikos C Kyrpides 4, James R Cole 5 6, James M Tiedje 5 7 6, Konstantinos T Konstantinidis 8 2 3
+https://journals.asm.org/doi/10.1128/AEM.00014-18
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5835724/
+
 
 https://twitter.com/search?q=ゲノム%2016S
 
@@ -1767,10 +1792,6 @@ https://twitter.com/Tyu_Shi/status/969218896371707904
 https://twitter.com/yokadzaki/status/968841333400944640
 Yusuke Okazaki on Twitter: "16Sアンプリコンseqで各系統のrrnオペロンのコピー数の違いの補正に近縁系統の情報を使う方法はアテにならないので、補正しないで済むデータの使い方をしたほうがマシである、という論文"
 8:32 AM - 28 Feb 2018
-
-
-
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/29506021
 Bioinformatics. 2018 Jul 15;34(14):2371-2375. doi: 10.1093/bioinformatics/bty113.
@@ -1925,7 +1946,6 @@ TABLE 3
 Comparison of metagenomic assay capabilities and limitations
 
 Data type	16S	18S	ITS	Shotgun
-
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/28761145
