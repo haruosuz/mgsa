@@ -168,6 +168,33 @@ Following [7] and [26], an S value was calculated for each plastid genome using 
 ### growth rate
 増殖速度
 
+https://academic.oup.com/book/26784
+Processes in Microbial Ecology (2nd edn)
+David L. Kirchman
+https://academic.oup.com/book/26784/chapter-abstract/195718998
+5 Genomes and meta-omics for microbes
+
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/fb8nrm/alma9926457313604034
+Processes in microbial ecology
+Kirchman, David L., author.
+Oxford : Oxford University Press, [ 2018]
+Second edition.
+
+82 PROCESSES IN MICROBIAL ECOLOGY
+
+Genomes and growth strategies for bacteria
+
+Specific genomic features and growth
+In contrast with genome size, there are several predictable relationships between growth and genomic features connected to protein synthesis. Perhaps of most interest to microbial ecologists is the 16S rRNA gene. There is a fairly high correlation between the maximum growth rate of a bacterium and the number of 16S rRNA genes in its genome (Figure 5.8). The genome of a bacterium capable of high growth rates can have several 16S rRNA genes (multiple “copies”). The presence of several rRNA genes enables faster rRNA synthesis and more ribosomes.
+
+Figure 5.8 Relationship between maximum growth rate and rRNA copy number in bacteria. rRNA copy number explains about 45% of the variation in maximum growth rate (log–log regression analysis). The closed symbols are for bacteria with genome sizes less than 2 Mb, while the open symbols are for >5 Mb genome bacteria. The scatter of both small- and big-genome bacteria around the line is indicative of the lack of a significant relationship between growth rate and genome size. Data from Roller et al. (2016), provided by Ben Roller.
+
+Another growth-related feature of genomes is the preference for use of one codon for an amino acid over another, referred to as “codon usage bias” (Figure 5.9).
+
+Interestingly, psy- chrophilic bacteria
+
+
+2016/09
 https://www.kyoto-up.or.jp/books/9784814000470.html
 微生物生態学
 ゲノム解析からエコシステムまで
