@@ -124,10 +124,12 @@ al. 2005),
 
 https://github.com/haruosuz/codon/blob/master/README.md#rocha
 
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
+https://pubmed.ncbi.nlm.nih.gov/20090831/
+PLoS Genet
+. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics
+Sara Vieira-Silva 1, Eduardo P C Rocha
+https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000808
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
 - S is also an estimator of the strength of selection acting on codon usage bias, but based on the mutation-selection balance between pairs of codons, where one is fitter. Following Sharp, we compute S using the frequency of codons for four amino acids: Phe (C1 = UUC, C2 = UUU), Ile (C1 = AUC, C2 = AUU), Tyr (C1 = UAC, C2 = UAU), Asn (C1 = AAC, C2 = AAU).
 
@@ -168,11 +170,18 @@ Following [7] and [26], an S value was calculated for each plastid genome using 
 ### growth rate
 増殖速度
 
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/fb8nrm/alma9926457313604034
+Processes in microbial ecology
+Kirchman, David L., author.
+Oxford : Oxford University Press, [ 2018]
+Second edition.
 https://academic.oup.com/book/26784
 Processes in Microbial Ecology (2nd edn)
 David L. Kirchman
 https://academic.oup.com/book/26784
-5 Genomes and meta-omics for microbes
+- 5 Genomes and meta-omics for microbes
+  - Genomes and growth strategies for bacteria
+    - Specific genomic features and growth
 
 2016/09
 https://www.kyoto-up.or.jp/books/9784814000470.html
