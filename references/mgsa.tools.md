@@ -108,6 +108,17 @@ plasmid
 optimum growth temperature
 最適増殖温度
 
+### tempura
+http://togodb.org/db/tempura
+### 2020
+https://pubmed.ncbi.nlm.nih.gov/32727974/
+Microbes Environ
+. 2020;35(3):ME20074. doi: 10.1264/jsme2.ME20074.
+TEMPURA: Database of Growth TEMPeratures of Usual and RAre Prokaryotes
+Yu Sato 1, Kenji Okano 1, Hiroyuki Kimura 2 3, Kohsuke Honda 1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7511790/
+https://www.jstage.jst.go.jp/article/jsme2/35/3/35_ME20074/_html/-char/en
+
 ### 2019-09-15
 
 https://pubmed.ncbi.nlm.nih.gov/30689741/
