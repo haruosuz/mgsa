@@ -56,10 +56,11 @@
   - [](#)
 - [](#)
 - [PhyloSift](#PhyloSift)
-- [metathermo](#metathermo) メタゲノム温度計
 - [](#)
 
 ----------
+
+### 2018-06-05
 
 https://pubmed.ncbi.nlm.nih.gov/29871915/
 mBio
@@ -73,51 +74,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989067/
  confounding variable
  samples are not randomized across sequencing runs.
  batch effects
-
-
-
-
-----------
-
-### metathermo
-
-http://metathermo.jp/
-
-メタゲノム温度計
-
-Metagenomic Thermometer
-Masaomi Kurokawa, Koichi Higashi, Keisuke Yoshida, Tomohiko Sato, Shigenori Maruyama, Hiroshi Mori, Ken Kurokawa
-doi: https://doi.org/10.1101/2022.07.14.499854
-
-https://www.biorxiv.org/content/10.1101/2022.07.14.499854v1.full
-
-FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate MPT instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
-
-
-https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/docs/program.pdf
-P-41A*
-メタゲノム温度計
-○⿊川 真⾂ 1
-、森 宙史 1
-、東 光⼀ 1
-、吉⽥ 圭佑 2
-、佐藤 友彦 2
-、丸⼭ 茂徳 2
-、⿊川 顕 1
-1) 国⽴遺伝学研究所 2) 東京⼯業⼤学
-
-https://pubmed.ncbi.nlm.nih.gov/17222055/
-PLoS Comput Biol
-. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
-Protein and DNA sequence determinants of thermophilic adaptation
-Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
-
-
-----------
-
-
 
 ----------
 
@@ -404,6 +360,13 @@ Kaster Lab on Twitter: "Our genome assessment pipeline for microbial dark matter
 6:13 PM · May 16, 2022
 https://twitter.com/BioMickWatson/status/1526128600617046022
 Mick W@tson on Twitter: "Another taxonomy-based approach to MAG contamination: How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner | Nucleic Acids Research | Oxford Academic https://t.co/Fpl1iHhR4K" / Twitter
+
+In our experience these really don't work very well especially for MAGs distant from the reference DB
+
+And if your MAGs are not distant from the reference DB, why are you creating them>
+
+I mean if your microbiome contains known genomes (which you can find out using containment queries), you don't need to create MAGs
+
 
 ----------
 ### 2018-09-15
