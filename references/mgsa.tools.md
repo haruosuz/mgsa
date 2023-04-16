@@ -178,7 +178,6 @@ Second edition.
 https://academic.oup.com/book/26784
 Processes in Microbial Ecology (2nd edn)
 David L. Kirchman
-https://academic.oup.com/book/26784
 - 5 Genomes and meta-omics for microbes
   - Genomes and growth strategies for bacteria
     - Specific genomic features and growth
