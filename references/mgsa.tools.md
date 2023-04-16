@@ -60,14 +60,16 @@
 - [](#)
 - [GWAS](#gwas)
 - [](#)
-- [growth rate](#growth-rate) 増殖速度
+- [](#)
+- [temperature](#temperature)
+  - [metathermo](#metathermo) メタゲノム温度計
 - [codon](#codon) コドンバイアス
+- [growth rate](#growth-rate) 増殖速度
 - [](#)
 
 ----------
 
 https://github.com/haruosuz/mgsa/blob/master/references/README.pangenome.md
-
 
 ----------
 
@@ -100,9 +102,113 @@ plasmid
 ２つデータが入っているが、それぞれ、1592バクテリアのCOG (Cluster of Orthologous Genes) を集めたファイルと、933プラスミドのCOGを集めたファイルとなっている。
 
 ----------
+
+----------
+## temperature
+optimum growth temperature
+最適増殖温度
+
+### 2019-09-15
+
+https://pubmed.ncbi.nlm.nih.gov/30689741/
+Bioinformatics
+. 2019 Sep 15;35(18):3224-3231. doi: 10.1093/bioinformatics/btz059.
+Predicting the optimal growth temperatures of prokaryotes using only genome derived features
+David B Sauer 1, Da-Neng Wang 1
+https://academic.oup.com/bioinformatics/article/35/18/3224/5301315
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/
+Optimal growth temperatures were predicted by multiple linear regression against the quantitative genomic, tRNA, rRNA, ORF and proteome features. Only those features with an absolute value of r greater than 0.3 were used as predictor variables for multiple linear regression (Supplementary Table S1). 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/#sup1
+btz059_supplementary_data.pdf
+Table S1. Correlation of features to OGT. Features with |r| > 0.3 are shown in bold.
+
+### 2007-01-12
+
+https://pubmed.ncbi.nlm.nih.gov/17222055/
+PLoS Comput Biol
+. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
+Protein and DNA sequence determinants of thermophilic adaptation
+Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
+
+### metathermo
+
+http://metathermo.jp/
+
+メタゲノム温度計
+
+Metagenomic Thermometer
+Masaomi Kurokawa, Koichi Higashi, Keisuke Yoshida, Tomohiko Sato, Shigenori Maruyama, Hiroshi Mori, Ken Kurokawa
+doi: https://doi.org/10.1101/2022.07.14.499854
+
+https://www.biorxiv.org/content/10.1101/2022.07.14.499854v1.full
+
+FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate MPT instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
+
+https://www.sgmj.org/index.php?page=workshop_index
+
+https://sgmj.nig.ac.jp/
+HOME｜第17回日本ゲノム微生物学会年会
+https://sgmj.nig.ac.jp/program.html
+プログラム｜第17回日本ゲノム微生物学会年会
+プログラム（PDFファイル、540KB）
+https://sgmj.nig.ac.jp/images/SGMJ2023Program.v1.pdf
+14:12 3O2-07 メタゲノム温度計の応用 -その群集はその環境に適応しているのか-
+○⿊川 真⾂ 1
+、森 宙史 1
+、東 光⼀ 1
+、吉⽥ 圭佑 2
+、佐藤 友彦 2
+、丸⼭ 茂徳
+2
+、⿊川 顕 1
+1)国⽴遺伝学研究所、2)東京⼯業⼤学
+
+https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/
+HOME｜第16回日本ゲノム微生物学会年会
+https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/docs/program.pdf
+P-41A*
+メタゲノム温度計
+○⿊川 真⾂ 1
+、森 宙史 1
+、東 光⼀ 1
+、吉⽥ 圭佑 2
+、佐藤 友彦 2
+、丸⼭ 茂徳 2
+、⿊川 顕 1
+1) 国⽴遺伝学研究所 2) 東京⼯業⼤学
+
+----------
+
+https://sgmj.nig.ac.jp/
+HOME｜第17回日本ゲノム微生物学会年会
+https://sgmj.nig.ac.jp/program.html
+プログラム｜第17回日本ゲノム微生物学会年会
+
+プログラム（PDFファイル、540KB）
+https://sgmj.nig.ac.jp/images/SGMJ2023Program.v1.pdf
+ショートトーク２ (2St1) 14:40-15:20 -XX はポスター番号と共通 *はポスター賞応募演題
+14:40 2St1-31* 細菌の低温環境への適応シグナルは開始・終止コドン周辺に存在する
+か？
+○⼟岐 誠司 1
+、松井 求 2
+、岩崎 渉 1,2
+1)東⼤・理、2)東⼤・院新領域
+
+ポスター発表リスト（PDFファイル、540KB）
+https://sgmj.nig.ac.jp/images/SGMJ2023PosterList.v1.pdf
+P-31* 細菌の低温環境への適応シグナルは開始・終止コドン周辺に存在する
+か？
+○⼟岐 誠司 1
+、松井 求 2
+、岩崎 渉 1,2
+1)東⼤・理、2)東⼤・院新領域
+
+----------
 ### codon bias
 
-https://github.com/haruosuz/codon/blob/master/README.md
+https://github.com/haruosuz/codon
 
 ### S value
 
