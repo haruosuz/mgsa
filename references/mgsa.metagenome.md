@@ -11,7 +11,6 @@
 [2017](#2017)
 - [review](#review)
 - [Metagenomic Assembly]
-- [MAG](#mag) Metagenome Assembled Genome
 - [book](#book)
 - [video](#video)
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
@@ -49,6 +48,7 @@
 - [recentrifuge](#recentrifuge)
 - [centrifuge](#centrifuge)
 - [](#)
+- [MAG](#mag) Metagenome Assembled Genome
 - [MAG](#mag) Metagenome-Assembled Genome
   - [MAGNETO](#magneto)
   - [MDMcleaner](#mdmcleaner)
@@ -57,6 +57,7 @@
 - [](#)
 - [PhyloSift](#PhyloSift)
 - [](#)
+
 
 ----------
 
@@ -75,6 +76,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989067/
  samples are not randomized across sequencing runs.
  batch effects
 
+
 ----------
 
 https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
@@ -91,111 +93,6 @@ Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as
 
 
 ----------
-## 
-kraken2 alpha beta diversity
-
-----------
-
-https://github.com/DerrickWood/kraken2/issues/80
-Input assembled metagenoms · Issue #80 · DerrickWood/kraken2
-
-https://github.com/DerrickWood/kraken2/issues/80#issuecomment-565222474
-isardi commented on Dec 13, 2019
-Hi @MichaelAngelou,
-I have been trying to figure out how to calculate alpha and beta diversity using the Bracken output with no luck. What package do you use? Did you have to modify the output in anyway? I spent the whole day trying to figure this out so your input is very much appreciated. Thanks in advanced!
-
-https://github.com/DerrickWood/kraken2/issues/80#issuecomment-565422169
-ciemanek commented on Dec 13, 2019
-Hi @isardi !
-You can use R package vegan for calculating the diversity indices on Bracken output :)
-
-----------
-
-https://carpentries-incubator.github.io/metagenomics/aio/index.html
-Data processing and visualization for metagenomics
-
-
-Packages like Quiime2, MEGAN, Vegan or Phyloseq in R allows us to obtain these diversity indexes by manipulating taxonomic-assignation data. In this lesson, we will use Phyloseq. In order to do so, we need to generate an abundance matrix from the Kraken output files. One program widely used for this purpose is kraken-biom.
-
-----------
-
-https://www.cell.com/cms/10.1016/j.isci.2020.100905/attachment/d3d5d291-4f11-4ecf-af92-558af5d1f474/mmc7
-Data S1: Code Used for Analysis, Related to Figures 1-6
-This file includes all of the analysis code used for QIIME2, Kraken2 and Bracken2, Phyloseq,
-HUMANn2, and DeepARG.
-All metagenomic processing was run using the Brown University OSCAR computing cluster
-
-https://pubmed.ncbi.nlm.nih.gov/32106056/
-iScience
-. 2020 Mar 27;23(3):100905. doi: 10.1016/j.isci.2020.100905. Epub 2020 Feb 13.
-Antimicrobial Resistance Gene Prevalence in a Population of Patients with Advanced Dementia Is Related to Specific Pathobionts
-Aislinn D Rowan-Nash 1, Rafael Araos 2, Erika M C D'Agata 3, Peter Belenky 4
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7044522/
-
-Associated Data
-Supplementary Materials
-
-Data S1. Code Used for Analysis, Related to Figures 1–6 This file includes all of the analysis code used for QIIME2, Kraken2 and Bracken2, Phyloseq, HUMANn2, and DeepARG.
-All metagenomic processing was run using the Brown University OSCAR computing cluster.
-
-mmc7.pdf (100K)
-
-----------
-## unclassified
-
-http://clark.cs.ucr.edu
-CLARK :: Fast and accurate classification method for metagenomic/genomic sequences
-
-https://www.ncbi.nlm.nih.gov/pubmed/27540266
-Bioinformatics. 2016 Dec 15;32(24):3823-3825. Epub 2016 Aug 18.
-Higher classification sensitivity of short metagenomic reads with CLARK-S.
-Ounit R1, Lonardi S1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25879410
-BMC Genomics. 2015 Mar 25;16:236. doi: 10.1186/s12864-015-1419-2.
-CLARK: fast and accurate classification of metagenomic and genomic sequences using discriminative k-mers.
-Ounit R1, Wanamaker S2, Close TJ3, Lonardi S4.
-
-- [Kraken](http://ccb.jhu.edu/software/kraken/)
- - 論文 [Wood DE, Salzberg SL. Genome Biol. 2014 "Kraken: ultrafast metagenomic sequence classification using exact alignments."]()
-
-
-
-2019年09月02日
-https://qiita.com/xvtyzn/items/6a008b61d852dcbaed57
-Qiime2を使ったメタゲノム解析パイプライン
-
-http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
-QIIME2インストールの方法解説 | Rとバイオインフォマティクス
-
-
-https://twitter.com/sjackman/status/1045005404227362817
-Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
-1:41 PM - 26 Sep 2018
-
-https://twitter.com/i/moments/1000738412117147648
-All metagenomes searched at once?
-
-https://twitter.com/tylerbarnumphd/status/1010247842772815872
-Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the ~8,000 Uncultivated Bacteria and Archaea (UBA) genomes from @donovan_parks. It's the largest collection of genomes that you can't search for on BLAST or IMG. ~1,500 metagenomes. https://t.co/PgavpbmsQg Feedback welcome!"
-3:47 PM - 22 Jun 2018
-https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and-archaea-uba-genomes-for-important-genes/
-Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
-June 22, 2018
-
-
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
-https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
-生態学のためのメタバーコーディングとDNAバーコーディング
-田辺晶史
-2018年5月8日
-
-
-
-
-
-
-----------
 
 ## MAG
 Metagenome Assembled Genome (MAG)
@@ -204,6 +101,63 @@ https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
 DDBJ Qualifier key
 metagenome_source
 定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
+
+----------
+
+### 2022-06-15
+### MAGNETO
+
+https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
+
+11:20 PM · Jun 24, 2022
+https://twitter.com/schaffron/status/1540338989240033282
+Samuel Chaffron on Twitter: "Have you ever wondered how to group metagenomic samples for co-assembly to improve MAGs recovery? Check out our solution implemented in MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems https://t.co/zykKasJwIq" / Twitter
+https://journals.asm.org/doi/10.1128/msystems.00432-22
+MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems
+
+----------
+### 2022-05-10
+### MDMcleaner
+
+https://pubmed.ncbi.nlm.nih.gov/35536293/
+Nucleic Acids Res
+. 2022 May 10;gkac294. doi: 10.1093/nar/gkac294. Online ahead of print.
+How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner
+John Vollmers 1, Sandra Wiegand 1, Florian Lenk 1, Anne-Kristin Kaster 1
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac294/6583244
+
+8:05 PM · May 20, 2022
+https://twitter.com/kasterlab/status/1527606371872546818
+Kaster Lab on Twitter: "Our genome assessment pipeline for microbial dark matter, MDMcleaner, is now available via Pip & Conda! Also check out the corresponding publication at NAR: https://t.co/8lqdLnNQfD" / Twitter
+
+6:13 PM · May 16, 2022
+https://twitter.com/BioMickWatson/status/1526128600617046022
+Mick W@tson on Twitter: "Another taxonomy-based approach to MAG contamination: How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner | Nucleic Acids Research | Oxford Academic https://t.co/Fpl1iHhR4K" / Twitter
+
+In our experience these really don't work very well especially for MAGs distant from the reference DB
+
+And if your MAGs are not distant from the reference DB, why are you creating them>
+
+I mean if your microbiome contains known genomes (which you can find out using containment queries), you don't need to create MAGs
+
+
+----------
+### 2018-09-15
+### MetaWRAP
+
+https://kazumaxneo.hatenablog.com/entry/2018/10/07/073000
+複数のbiningツールを統合し、包括的なメタゲノム解析を行うパイプライン metaWRAP - macでインフォマティクス
+https://github.com/bxlab/metaWRAP
+https://pubmed.ncbi.nlm.nih.gov/30219103/
+Microbiome
+. 2018 Sep 15;6(1):158. doi: 10.1186/s40168-018-0541-1.
+MetaWRAP-a flexible pipeline for genome-resolved metagenomic data analysis
+Gherman V Uritskiy 1, Jocelyne DiRuggiero 2, James Taylor 3
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138922/
+
+
+
 
 2019年4月25日
 https://www.natureasia.com/ja-jp/nature/highlights/98543
@@ -307,6 +261,106 @@ http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
 
 
 ----------
+## 
+kraken2 alpha beta diversity
+
+----------
+
+https://github.com/DerrickWood/kraken2/issues/80
+Input assembled metagenoms · Issue #80 · DerrickWood/kraken2
+
+https://github.com/DerrickWood/kraken2/issues/80#issuecomment-565222474
+isardi commented on Dec 13, 2019
+Hi @MichaelAngelou,
+I have been trying to figure out how to calculate alpha and beta diversity using the Bracken output with no luck. What package do you use? Did you have to modify the output in anyway? I spent the whole day trying to figure this out so your input is very much appreciated. Thanks in advanced!
+
+https://github.com/DerrickWood/kraken2/issues/80#issuecomment-565422169
+ciemanek commented on Dec 13, 2019
+Hi @isardi !
+You can use R package vegan for calculating the diversity indices on Bracken output :)
+
+----------
+
+https://carpentries-incubator.github.io/metagenomics/aio/index.html
+Data processing and visualization for metagenomics
+
+
+Packages like Quiime2, MEGAN, Vegan or Phyloseq in R allows us to obtain these diversity indexes by manipulating taxonomic-assignation data. In this lesson, we will use Phyloseq. In order to do so, we need to generate an abundance matrix from the Kraken output files. One program widely used for this purpose is kraken-biom.
+
+----------
+
+https://www.cell.com/cms/10.1016/j.isci.2020.100905/attachment/d3d5d291-4f11-4ecf-af92-558af5d1f474/mmc7
+Data S1: Code Used for Analysis, Related to Figures 1-6
+This file includes all of the analysis code used for QIIME2, Kraken2 and Bracken2, Phyloseq,
+HUMANn2, and DeepARG.
+All metagenomic processing was run using the Brown University OSCAR computing cluster
+
+https://pubmed.ncbi.nlm.nih.gov/32106056/
+iScience
+. 2020 Mar 27;23(3):100905. doi: 10.1016/j.isci.2020.100905. Epub 2020 Feb 13.
+Antimicrobial Resistance Gene Prevalence in a Population of Patients with Advanced Dementia Is Related to Specific Pathobionts
+Aislinn D Rowan-Nash 1, Rafael Araos 2, Erika M C D'Agata 3, Peter Belenky 4
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7044522/
+
+Associated Data
+Supplementary Materials
+
+Data S1. Code Used for Analysis, Related to Figures 1–6 This file includes all of the analysis code used for QIIME2, Kraken2 and Bracken2, Phyloseq, HUMANn2, and DeepARG.
+All metagenomic processing was run using the Brown University OSCAR computing cluster.
+
+mmc7.pdf (100K)
+
+----------
+## unclassified
+
+http://clark.cs.ucr.edu
+CLARK :: Fast and accurate classification method for metagenomic/genomic sequences
+
+https://www.ncbi.nlm.nih.gov/pubmed/27540266
+Bioinformatics. 2016 Dec 15;32(24):3823-3825. Epub 2016 Aug 18.
+Higher classification sensitivity of short metagenomic reads with CLARK-S.
+Ounit R1, Lonardi S1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25879410
+BMC Genomics. 2015 Mar 25;16:236. doi: 10.1186/s12864-015-1419-2.
+CLARK: fast and accurate classification of metagenomic and genomic sequences using discriminative k-mers.
+Ounit R1, Wanamaker S2, Close TJ3, Lonardi S4.
+
+- [Kraken](http://ccb.jhu.edu/software/kraken/)
+ - 論文 [Wood DE, Salzberg SL. Genome Biol. 2014 "Kraken: ultrafast metagenomic sequence classification using exact alignments."]()
+
+
+
+2019年09月02日
+https://qiita.com/xvtyzn/items/6a008b61d852dcbaed57
+Qiime2を使ったメタゲノム解析パイプライン
+
+http://fox-bioinformatics.net/2019/01/05/qiime2-how-to-install/
+QIIME2インストールの方法解説 | Rとバイオインフォマティクス
+
+
+https://twitter.com/sjackman/status/1045005404227362817
+Shaun Jackman on Twitter: "I have a 16 kbp query sequence, and I'd like to search all of SRA (including metagenomes) to see if any SRA read sets match this query sequence. Does this tool exist?"
+1:41 PM - 26 Sep 2018
+
+https://twitter.com/i/moments/1000738412117147648
+All metagenomes searched at once?
+
+https://twitter.com/tylerbarnumphd/status/1010247842772815872
+Tyler Barnum on Twitter: "I wrote a tutorial on how to find new proteins in the ~8,000 Uncultivated Bacteria and Archaea (UBA) genomes from @donovan_parks. It's the largest collection of genomes that you can't search for on BLAST or IMG. ~1,500 metagenomes. https://t.co/PgavpbmsQg Feedback welcome!"
+3:47 PM - 22 Jun 2018
+https://tylerbarnum.wordpress.com/2018/06/22/searching-uncultivated-bacteria-and-archaea-uba-genomes-for-important-genes/
+Searching Uncultivated Bacteria and Archaea (UBA) Genomes for Important Genes – The Biolo-Gist
+June 22, 2018
+
+
+https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.pdf
+https://www.fifthdimension.jp/documents/metabarcodingtextbook/metabarcodingtextbook.ja.html
+生態学のためのメタバーコーディングとDNAバーコーディング
+田辺晶史
+2018年5月8日
+
+----------
 ## 2022
 
 
@@ -327,61 +381,6 @@ https://www.biorxiv.org/content/10.1101/2022.06.21.496983v2
 MuDoGeR: Multi-Domain Genome Recovery from metagenomes made easy | bioRxiv
 
 Only 8 of the 574 metagenomic libraries showed no recovery of Prokaryotic metagenome-assembled genomes (MAGs), putative viral contigs, or Eukaryotic metagenome-assembled bins (MABs) (Supplementary Table 1). In the following paragraphs, we detailed the data for recovering Prokaryotic MAGs, high-quality and complete uncultivated viral genomes (UViGs), and Eukaryotic MABs. Nevertheless
-
-----------
-
-
-### 2022-06-15
-### MAGNETO
-
-https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
-
-11:20 PM · Jun 24, 2022
-https://twitter.com/schaffron/status/1540338989240033282
-Samuel Chaffron on Twitter: "Have you ever wondered how to group metagenomic samples for co-assembly to improve MAGs recovery? Check out our solution implemented in MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems https://t.co/zykKasJwIq" / Twitter
-https://journals.asm.org/doi/10.1128/msystems.00432-22
-MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems
-
-----------
-### 2022-05-10
-### MDMcleaner
-
-https://pubmed.ncbi.nlm.nih.gov/35536293/
-Nucleic Acids Res
-. 2022 May 10;gkac294. doi: 10.1093/nar/gkac294. Online ahead of print.
-How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner
-John Vollmers 1, Sandra Wiegand 1, Florian Lenk 1, Anne-Kristin Kaster 1
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac294/6583244
-
-8:05 PM · May 20, 2022
-https://twitter.com/kasterlab/status/1527606371872546818
-Kaster Lab on Twitter: "Our genome assessment pipeline for microbial dark matter, MDMcleaner, is now available via Pip & Conda! Also check out the corresponding publication at NAR: https://t.co/8lqdLnNQfD" / Twitter
-
-6:13 PM · May 16, 2022
-https://twitter.com/BioMickWatson/status/1526128600617046022
-Mick W@tson on Twitter: "Another taxonomy-based approach to MAG contamination: How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner | Nucleic Acids Research | Oxford Academic https://t.co/Fpl1iHhR4K" / Twitter
-
-In our experience these really don't work very well especially for MAGs distant from the reference DB
-
-And if your MAGs are not distant from the reference DB, why are you creating them>
-
-I mean if your microbiome contains known genomes (which you can find out using containment queries), you don't need to create MAGs
-
-
-----------
-### 2018-09-15
-### MetaWRAP
-
-https://kazumaxneo.hatenablog.com/entry/2018/10/07/073000
-複数のbiningツールを統合し、包括的なメタゲノム解析を行うパイプライン metaWRAP - macでインフォマティクス
-https://github.com/bxlab/metaWRAP
-https://pubmed.ncbi.nlm.nih.gov/30219103/
-Microbiome
-. 2018 Sep 15;6(1):158. doi: 10.1186/s40168-018-0541-1.
-MetaWRAP-a flexible pipeline for genome-resolved metagenomic data analysis
-Gherman V Uritskiy 1, Jocelyne DiRuggiero 2, James Taylor 3
-https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138922/
 
 ----------
 ### 2022-03-07
@@ -702,20 +701,16 @@ Here we benchmarked 20 metagenomic classifiers to compare performance in classif
 https://scholar.google.co.jp/scholar?cites=6688630901807222522&as_sdt=2005&sciodt=0,5&hl=ja
 
 ### 2017-09-21
-### McIntyre_2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/28934964
+https://pubmed.ncbi.nlm.nih.gov/28934964/
 Genome Biol
 . 2017 Sep 21;18(1):182. doi: 10.1186/s13059-017-1299-7.
 Comprehensive benchmarking and ensemble approaches for metagenomic classifiers
 Alexa B R McIntyre 1 2 3, Rachid Ounit 4, Ebrahim Afshinnekoo 2 3 5, Robert J Prill 6, Elizabeth Hénaff 2 3, Noah Alexander 2 3, Samuel S Minot 7, David Danko 1 2 3, Jonathan Foox 2 3, Sofia Ahsanuddin 2 3, Scott Tighe 8, Nur A Hasan 9 10, Poorani Subramanian 9, Kelly Moffat 9, Shawn Levy 11, Stefano Lonardi 4, Nick Greenfield 7, Rita R Colwell 9 12, Gail L Rosen 13, Christopher E Mason 14 15 16
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1299-7
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC5609029/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609029/
 Overall, pairing tools with different classification strategies (k-mer, alignment, marker) can combine their respective advantages.
 
 https://scholar.google.co.jp/scholar?cites=8605030642958534701&as_sdt=2005&sciodt=0,5&hl=ja
-
-
 
 
 
@@ -2112,10 +2107,6 @@ Communicating the promise, risks, and ethics of large-scale, open space microbio
 Shamarina D1, Stoyantcheva I1, Mason CE2,3,4, Bibby K5, Elhaik E6.
 
 
-https://www.ncbi.nlm.nih.gov/pubmed/28934964
-Genome Biol. 2017 Sep 21;18(1):182. doi: 10.1186/s13059-017-1299-7.
-Comprehensive benchmarking and ensemble approaches for metagenomic classifiers.
-McIntyre ABR1,2,3, Ounit R4, Afshinnekoo E2,3,5, Prill RJ6, Hénaff E2,3, Alexander N2,3, Minot SS7, Danko D1,2,3, Foox J2,3, Ahsanuddin S2,3, Tighe S8, Hasan NA9,10, Subramanian P9, Moffat K9, Levy S11, Lonardi S4, Greenfield N7, Colwell RR9,12, Rosen GL13, Mason CE14,15,16.
 
 https://www.ncbi.nlm.nih.gov/pubmed/28349976
 Nat Microbiol. 2017 Mar 28;2:16275. doi: 10.1038/nmicrobiol.2016.275.
