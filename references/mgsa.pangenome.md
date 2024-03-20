@@ -76,6 +76,16 @@ http://kazumaxneo.hatenablog.com/entry/2020/03/17/090935
 ----------
 ### panaroo
 
+
+https://pubmed.ncbi.nlm.nih.gov/37227251/
+Review Microb Genom
+. 2023 May;9(5):mgen001021. doi: 10.1099/mgen.0.001021.
+Challenges in prokaryote pangenomics
+Gerry Tonkin-Hill 1, Jukka Corander 1 2 3, Julian Parkhill 4
+https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001021#tab2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10272878/
+
+
 https://pubmed.ncbi.nlm.nih.gov/32698896/
 Comparative Study Genome Biol
 . 2020 Jul 22;21(1):180. doi: 10.1186/s13059-020-02090-4.
@@ -252,16 +262,6 @@ https://kazumaxneo.hatenablog.com/entry/2017/08/24/163914
 ## updates
 
 ### 2023-05
-
-
-https://pubmed.ncbi.nlm.nih.gov/37227251/
-Review Microb Genom
-. 2023 May;9(5):mgen001021. doi: 10.1099/mgen.0.001021.
-Challenges in prokaryote pangenomics
-Gerry Tonkin-Hill 1, Jukka Corander 1 2 3, Julian Parkhill 4
-https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001021#tab2
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10272878/
-
 
 ### 
 
