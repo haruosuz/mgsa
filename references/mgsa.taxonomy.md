@@ -6,96 +6,42 @@
 - [species](#species)
 - [tag](#tag)
 
-----------
 
 ----------
-## gtdb
-Genome Taxonomy Database
-
-http://gtdb.ecogenomic.org/
-
-https://twitter.com/ace_gtdb
-
-https://kazumaxneo.hatenablog.com/entry/2022/04/13/025100
-GTDB-Tkのversion 2 - macでインフォマティクス
-
-https://pubmed.ncbi.nlm.nih.gov/34520557/
-Nucleic Acids Res
-. 2022 Jan 7;50(D1):D785-D794. doi: 10.1093/nar/gkab776.
-GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized and complete genome-based taxonomy
-Donovan H Parks 1, Maria Chuvochina 1, Christian Rinke 1, Aaron J Mussig 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
-https://academic.oup.com/nar/article/50/D1/D785/6370255
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728215/
-
-http://kazumaxneo.hatenablog.com/entry/2019/10/29/143024
-GTDBのオンライン系統樹 AnnoTree - macでインフォマティクス
-
-7:30 AM · Oct 28, 2019
-https://twitter.com/kazumachack/status/1188583676772093952
-Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。
-http://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
-普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/31778148
-Bioinformatics. 2019 Nov 28. pii: btz899. doi: 10.1093/bioinformatics/btz899. [Epub ahead of print]
-Struo: a pipeline for building custom databases for common metagenome profilers.
-de la Cuesta-Zuluaga J1, Ley RE1, Youngblut ND1.
-AVAILABILITY AND IMPLEMENTATION:
-Source code available for download at https://github.com/leylabmpi/Struo. Custom GTDB databases available at http://ftp.tue.mpg.de/ebio/projects/struo/.
-
-https://www.ncbi.nlm.nih.gov/pubmed/31730192
-Bioinformatics. 2019 Nov 15. pii: btz848. doi: 10.1093/bioinformatics/btz848. [Epub ahead of print]
-GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database.
-Chaumeil PA1, Mussig AJ1, Hugenholtz P1, Parks DH1.
-https://academic.oup.com/bioinformatics/article/36/6/1925/5626182
-
-https://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
-普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
-
-https://www.ncbi.nlm.nih.gov/pubmed/30148503
-Nat Biotechnol. 2018 Aug 27. doi: 10.1038/nbt.4229. [Epub ahead of print]
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
-Parks DH1, Chuvochina M1, Waite DW1, Rinke C1, Skarshewski A1, Chaumeil PA1, Hugenholtz P1.
-https://www.nature.com/articles/nbt.4229
-A bacterial genome tree was inferred from the dereplicated data set by applying FastTree to a concatenated alignment of 120 ubiquitous single-copy proteins22 (subsequently referred to as 'bac120') comprising a total of 34,744 columns after trimming of 1,021 columns represented in <50% of the genomes and 5,390 columns with an amino acid consensus <25% (Online Methods).
-
-https://twitter.com/NatureBiotech/status/1034201413717450753
-Nature Biotechnology on Twitter: "A standardized bacterial #taxonomy based on genome phylogeny substantially revises the tree of life https://t.co/VxV1FNxtAs #phylogenetics… https://t.co/AZR5RBc18E"
-6:10 PM - 27 Aug 2018
-![](https://pbs.twimg.com/media/Dlo37tsUYAAcnP8.jpg)
-
-https://twitter.com/NatureRevMicro/status/1036595989816246272
-Nature Rev Microbiol on Twitter: "#ResearchHighlight: Next-generation bacterial taxonomy https://t.co/Acx8vB0XuW"
-8:45 AM - 3 Sep 2018
-
-https://twitter.com/RPoretsky/status/1034446295451226113
-Rachel Poretsky on Twitter: "The @PhilHugenholtz et al. paper that contributed to heated #ISME17 discussions is out! A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life. https://t.co/lvWwHKS7OD"
-10:23 AM - 28 Aug 2018
-
-https://twitter.com/NatureRevMicro/status/1034357487355539456
-Nature Rev Microbiol on Twitter: "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life @NatureBiotech https://t.co/Hro7pynEPQ… https://t.co/ev7En4LKdL"
-4:30 AM - 28 Aug 2018
-![](https://pbs.twimg.com/media/DlrGnFvX4AA_a4L.jpg)
-
-https://twitter.com/WvSchaik/status/1034188127261405185
-Willem van Schaik on Twitter: "Exciting paper: 'A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life' by @PhilHugenholtz https://t.co/ABzGHUSuPn"
-5:17 PM - 27 Aug 2018
-
-https://twitter.com/Tyu_Shi/status/1034217003936931841
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life https://www.nature.com/articles/nbt.4229 …  bioRxivに前に出ていたHugenholtz達の原核生物ゲノム系統樹論文が出たか。
-7:12 PM - 27 Aug 2018
-
-https://www.ncbi.nlm.nih.gov/pubmed/28731467
-ISME J. 2017 Nov;11(11):2399-2406. doi: 10.1038/ismej.2017.113. Epub 2017 Jul 21.
-Uncultivated microbes in need of their own taxonomy.
-Konstantinidis KT1, Rosselló-Móra R2, Amann R3.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/
-Table 1
-Proposed standards for high-quality taxa descriptions of uncultivated Bacteria and Archaea
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/table/tbl1/?report=objectonly
 
 ----------
 ## species
+
+
+### 2024-01-16
+
+https://pubmed.ncbi.nlm.nih.gov/38085031/
+mBio
+. 2024 Jan 16;15(1):e0269623. doi: 10.1128/mbio.02696-23. Epub 2023 Dec 12.
+An ANI gap within bacterial species that advances the definitions of intra-species units
+Luis M Rodriguez-R # 1, Roth E Conrad # 2, Tomeu Viver 3, Dorian J Feistel 2, Blake G Lindner 2, Stephanus N Venter 4, Luis H Orellana 5, Rudolf Amann 5, Ramon Rossello-Mora 3, Konstantinos T Konstantinidis 2
+https://journals.asm.org/doi/10.1128/mbio.02696-23
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10790751/
+
+Intermediate identity genotypes, for example, sharing 85%–95% ANI, when present, are generally ecologically differentiated and scarcer in abundance, and thus should probably be considered distinct species (6, 13, 14) rather than representing cultivation or other sampling biases (15). 
+
+### 2021-07-07
+
+https://pubmed.ncbi.nlm.nih.gov/34234115/
+Comment Nat Commun
+. 2021 Jul 7;12(1):4060. doi: 10.1038/s41467-021-24129-1.
+Reply to: "Re-evaluating the evidence for a universal genetic boundary among microbial species"
+Luis M Rodriguez-R 1 2, Chirag Jain 3, Roth E Conrad 1, Srinivas Aluru 4, Konstantinos T Konstantinidis 5
+https://www.nature.com/articles/s41467-021-24129-1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8263725/
+
+https://pubmed.ncbi.nlm.nih.gov/34234129/
+Comment Nat Commun
+. 2021 Jul 7;12(1):4059. doi: 10.1038/s41467-021-24128-2.
+Re-evaluating the evidence for a universal genetic boundary among microbial species
+Connor S Murray 1, Yingnan Gao 1, Martin Wu 2
+https://www.nature.com/articles/s41467-021-24128-2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8263626/
 
 2:08 AM · Jul 31, 2020
 https://twitter.com/MattagenOlmics/status/1288884073755074561
@@ -105,6 +51,8 @@ In the final paragraphs the authors make theoretical arguments against using met
 
 https://www.biorxiv.org/content/10.1101/2020.07.27.223511v1#comment-5010354002
 
+### 2020-01-14
+
 https://pubmed.ncbi.nlm.nih.gov/31937678/
 mSystems
 . 2020 Jan 14;5(1):e00731-19. doi: 10.1128/mSystems.00731-19.
@@ -112,15 +60,31 @@ Consistent Metagenome-Derived Metrics Verify and Delineate Bacterial Species Bou
 Matthew R Olm 1 2, Alexander Crits-Christoph 2, Spencer Diamond 1, Adi Lavy 1, Paula B Matheus Carnevali 1, Jillian F Banfield 3 4 5 6
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6967389/
 
+### 2019-03-04
 
-
+https://pubmed.ncbi.nlm.nih.gov/30836089/
+Comment Curr Biol
+. 2019 Mar 4;29(5):R169-R172. doi: 10.1016/j.cub.2019.01.033.
+Systematics: The Cohesive Nature of Bacterial Species Taxa
+Frederick M Cohan 1
+https://www.cell.com/current-biology/fulltext/S0960-9822(19)30062-4
 https://www.sciencedirect.com/science/article/pii/S0960982219300624
-Systematics: The Cohesive Nature of Bacterial Species Taxa - ScienceDirect
 
+### 2018-01-03
+
+https://pubmed.ncbi.nlm.nih.gov/30285620/
+BMC Genomics
+. 2018 Oct 3;19(1):724. doi: 10.1186/s12864-018-5099-6.
+Exclusivity offers a sound yet practical species criterion for bacteria despite abundant gene flow
+Erik S Wright 1 2, David A Baum 3
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5099-6
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6171291/
+
+7:46 AM · Oct 4, 2018
 https://twitter.com/digitalwright/status/1047618983497818114
-Erik Wright on Twitter: "Is "species" a real thing for bacteria? @baobabbaum and I did a deep dive into thousands of bacterial genomes to figure it out. Turns out the answer is yes and no. Check it out in #BMCGenomics: https://t.co/COJRzSpbs5… https://t.co/7maLMhhTZX"
-6:46 PM - 3 Oct 2018
+Erik Wright on X: "Is "species" a real thing for bacteria? @baobabbaum and I did a deep dive into thousands of bacterial genomes to figure it out. Turns out the answer is yes and no. Check it out in #BMCGenomics: https://t.co/COJRzSpbs5 https://t.co/FmYMJSuKQF" / X
 
+### 
 
 https://www.ncbi.nlm.nih.gov/pubmed/26150420
 Nucleic Acids Res. 2015 Aug 18;43(14):6761-71. doi: 10.1093/nar/gkv657. Epub 2015 Jul 6.
@@ -130,6 +94,82 @@ Varghese NJ1, Mukherjee S1, Ivanova N1, Konstantinidis KT2, Mavrommatis K3, Kyrp
 January 16, 2017
 http://schaechter.asmblog.org/schaechter/2017/01/do-bacterial-species-really-exist-and-why-should-we-care.html
 Small Things Considered: Do bacterial species really exist and why should we care?
+
+----------
+## gtdb
+Genome Taxonomy Database
+
+http://gtdb.ecogenomic.org/
+
+https://twitter.com/ace_gtdb
+
+https://gtdb.ecogenomic.org/about
+Cite GTDB
+
+https://pubmed.ncbi.nlm.nih.gov/36218463/
+Bioinformatics
+. 2022 Nov 30;38(23):5315-5316. doi: 10.1093/bioinformatics/btac672.
+GTDB-Tk v2: memory friendly classification with the genome taxonomy database
+Pierre-Alain Chaumeil 1 2, Aaron J Mussig 1, Philip Hugenholtz 1, Donovan H Parks 1
+https://academic.oup.com/bioinformatics/article/38/23/5315/6758240?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9710552/
+
+https://pubmed.ncbi.nlm.nih.gov/34520557/
+Nucleic Acids Res
+. 2022 Jan 7;50(D1):D785-D794. doi: 10.1093/nar/gkab776.
+GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized and complete genome-based taxonomy
+Donovan H Parks 1, Maria Chuvochina 1, Christian Rinke 1, Aaron J Mussig 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
+https://academic.oup.com/nar/article/50/D1/D785/6370255
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728215/
+
+https://pubmed.ncbi.nlm.nih.gov/31730192/
+Bioinformatics
+. 2019 Nov 15;36(6):1925-1927. doi: 10.1093/bioinformatics/btz848. Online ahead of print.
+GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database
+Pierre-Alain Chaumeil 1, Aaron J Mussig 1, Philip Hugenholtz 1, Donovan H Parks 1
+https://academic.oup.com/bioinformatics/article/36/6/1925/5626182?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7703759/
+
+https://pubmed.ncbi.nlm.nih.gov/30148503/
+Nat Biotechnol
+. 2018 Nov;36(10):996-1004. doi: 10.1038/nbt.4229. Epub 2018 Aug 27.
+A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life
+Donovan H Parks 1, Maria Chuvochina 1, David W Waite 1, Christian Rinke 1, Adam Skarshewski 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
+https://www.nature.com/articles/nbt.4229
+
+https://kazumaxneo.hatenablog.com/entry/2022/04/13/025100
+GTDB-Tkのversion 2 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2019/10/29/143024
+GTDBのオンライン系統樹 AnnoTree - macでインフォマティクス
+
+7:30 AM · Oct 28, 2019
+https://twitter.com/kazumachack/status/1188583676772093952
+Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。
+https://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
+普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
+
+
+
+----------
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/31778148
+Bioinformatics. 2019 Nov 28. pii: btz899. doi: 10.1093/bioinformatics/btz899. [Epub ahead of print]
+Struo: a pipeline for building custom databases for common metagenome profilers.
+de la Cuesta-Zuluaga J1, Ley RE1, Youngblut ND1.
+AVAILABILITY AND IMPLEMENTATION:
+Source code available for download at https://github.com/leylabmpi/Struo. Custom GTDB databases available at http://ftp.tue.mpg.de/ebio/projects/struo/.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/28731467
+ISME J. 2017 Nov;11(11):2399-2406. doi: 10.1038/ismej.2017.113. Epub 2017 Jul 21.
+Uncultivated microbes in need of their own taxonomy.
+Konstantinidis KT1, Rosselló-Móra R2, Amann R3.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/
+Table 1
+Proposed standards for high-quality taxa descriptions of uncultivated Bacteria and Archaea
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/table/tbl1/?report=objectonly
 
 ----------
 
