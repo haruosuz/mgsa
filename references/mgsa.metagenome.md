@@ -78,6 +78,29 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989067/
 
 ----------
 
+### 2018-03-19
+https://pubmed.ncbi.nlm.nih.gov/29427429/
+Review Appl Environ Microbiol
+. 2018 Mar 19;84(7):e02627-17. doi: 10.1128/AEM.02627-17. Print 2018 Apr 1.
+The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies
+Jolinda Pollock # 1 2, Laura Glendinning # 2, Trong Wisedchanwet 2, Mick Watson 2
+https://journals.asm.org/doi/full/10.1128/AEM.02627-17
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861821/
+Of the three most commonly used alignments which are guided by secondary structure (i.e., Greengenes [73], RDP [74], and SILVA [75]), the Greengenes alignment was observed to be of poor quality, leading to significantly greater richness and diversity estimates.
+
+https://www.microbe.net/2018/03/03/the-attempt-to-find-best-practice-for-16s-studies/
+The attempt to find “best practice” for 16S studies – microBEnet: the microbiology of the Built Environment network
+
+12:34 AM · Feb 27, 2018
+https://twitter.com/BioMickWatson/status/968147242401058817
+Mick W@tson 🐄 on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW" / Twitter
+
+----------
+
+
+
+----------
+
 https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
 
 ----------
@@ -1767,78 +1790,27 @@ https://www.biorxiv.org/content/early/2018/10/13/441576
 Nomenclature Errors in Public 16S rRNA Gene Reference Databases
 
 
+
 https://www.ncbi.nlm.nih.gov/pubmed/29688343
 FEMS Microbiol Lett. 2018 May 1;365(10). doi: 10.1093/femsle/fny104.
 A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class.
 Tobin TC1, Shade A2.
+
+
+https://pubmed.ncbi.nlm.nih.gov/29688343/
+FEMS Microbiol Lett
+. 2018 May 1;365(10):fny104. doi: 10.1093/femsle/fny104.
+A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class
+Tammy C Tobin 1, Ashley Shade 2
+https://academic.oup.com/femsle/article/365/10/fny104/4980908?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5954299/
 In this module, microbiology students used Quantitative Insights into Microbial Ecology (QIIME) to perform taxonomic, phylogenetic and statistical analyses on bacterial communities from three hot mine fire-impacted surface soils using 16S rRNA gene amplicon sequences. 
+
+
 
 https://twitter.com/BioMickWatson
 
-### 2018-03-19
-https://pubmed.ncbi.nlm.nih.gov/29427429/
-Review Appl Environ Microbiol
-. 2018 Mar 19;84(7):e02627-17. doi: 10.1128/AEM.02627-17. Print 2018 Apr 1.
-The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies
-Jolinda Pollock # 1 2, Laura Glendinning # 2, Trong Wisedchanwet 2, Mick Watson 2
-https://journals.asm.org/doi/full/10.1128/AEM.02627-17
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861821/
-Of the three most commonly used alignments which are guided by secondary structure (i.e., Greengenes [73], RDP [74], and SILVA [75]), the Greengenes alignment was observed to be of poor quality, leading to significantly greater richness and diversity estimates.
 
-https://www.microbe.net/2018/03/03/the-attempt-to-find-best-practice-for-16s-studies/
-The attempt to find “best practice” for 16S studies – microBEnet: the microbiology of the Built Environment network
-
-12:34 AM · Feb 27, 2018
-https://twitter.com/BioMickWatson/status/968147242401058817
-Mick W@tson 🐄 on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW" / Twitter
-
-### 2018-03-01
-https://pubmed.ncbi.nlm.nih.gov/29305502/
-Appl Environ Microbiol
-. 2018 Mar 1;84(6):e00014-18. doi: 10.1128/AEM.00014-18. Print 2018 Mar 15.
-How Much Do rRNA Gene Surveys Underestimate Extant Bacterial Diversity?
-Luis M Rodriguez-R 1 2 3, Juan C Castro 1 2, Nikos C Kyrpides 4, James R Cole 5 6, James M Tiedje 5 7 6, Konstantinos T Konstantinidis 8 2 3
-https://journals.asm.org/doi/10.1128/AEM.00014-18
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5835724/
-
-
-https://twitter.com/search?q=ゲノム%2016S
-
-https://www.ncbi.nlm.nih.gov/pubmed/29482646
-Microbiome. 2018 Feb 26;6(1):41. doi: 10.1186/s40168-018-0420-9.
-Correcting for 16S rRNA gene copy numbers in microbiome surveys remains an unsolved problem.
-Louca S1,2, Doebeli M3,4,5, Parfrey LW3,4,6.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5828423/
-For over 85% of the examined microbial communities, GCN predictions differed strongly between any two tools compared (R2<0.5). 
-
-https://twitter.com/Tyu_Shi/status/969218896371707904
-16S rRNA遺伝子配列で85%以下のIdentityの場合には、近縁系統のゲノム内16S rRNA遺伝子コピー数を補正に使うと補正精度が悪くなるという結果を出し、それを根拠にCopyRighter等の既存の補正ツールを批判しているが、そんな遠い系統を基準に補正をしては精度が下がるのは当然だ。
-9:32 AM - 1 Mar 2018
-
-https://twitter.com/yokadzaki/status/968841333400944640
-Yusuke Okazaki on Twitter: "16Sアンプリコンseqで各系統のrrnオペロンのコピー数の違いの補正に近縁系統の情報を使う方法はアテにならないので、補正しないで済むデータの使い方をしたほうがマシである、という論文"
-8:32 AM - 28 Feb 2018
-
-https://www.ncbi.nlm.nih.gov/pubmed/29506021
-Bioinformatics. 2018 Jul 15;34(14):2371-2375. doi: 10.1093/bioinformatics/bty113.
-Updating the 97% identity threshold for 16S ribosomal RNA OTUs.
-Edgar RC1.
-
-https://twitter.com/yokadzaki/status/968837626013794304
-Yusuke Okazaki on Twitter: "この論文はBioRxivのコメント欄でやりあっていて面白いので併せて読んだほうがよい https://t.co/dq9i5so7XG"
-8:17 AM - 28 Feb 2018
-
-https://twitter.com/yokadzaki/status/949628412804481025
-DB上の細菌ゲノムを使って、全ゲノム>95％で定義されるOTUと16S rRNA>97%で定義されるOTUがどれくらい乖離しているのかを調べた研究。その乖離度が系統によって大きく異なるという結果も（予想通りだけど）面白い。ゲノムサイズが関係ありそうな結果だけど、本文には言及が無かった
-8:07 AM - 6 Jan 2018
-
-https://twitter.com/yokadzaki/status/940465660852703232
-ゲノムサイズが小さいもの同士でも「近縁系統とのゲノムの違いがどれくらい連続的か」というのに系統間で明らかな差があるというのは面白い。そしてこの結果は「16Sで見えていたものはバイアスだらけ」ということも意味している
-1:17 AM - 12 Dec 2017
-
-https://twitter.com/yokadzaki/status/936042447452323840
-それを「種」と呼んでいいのかは分からないけど、全ゲノムの相同性で明確に他の系統と区別できる（中間的なものが存在しない）形でクラスターができるという報告が増えてきて、16Sで>97%とかいう謎の基準に依存した研究はもうじき過去のものになりそう
-8:21 PM - 29 Nov 2017
 
 https://www.pediatricsurgery.site/entry/2017/11/19/200241
 mothur開発者によるmothurとQIIMEの比較 - Note of Pediatric Surgery
@@ -2126,17 +2098,21 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
 
 https://knightlab.ucsd.edu/wordpress/?page_id=25
 
-
 7:25 AM · May 24, 2018
 https://twitter.com/merenbey/status/999416078446071809
 A. Murat Eren (Meren) on Twitter: "This is unfair to DADA2 😐 When someone as big as Rob Knight says "this is the best practice", it creates a nightmare for younger scientists to promote their tool. I think, from "Deblur" to "Deblur or DADA2" would've added much more than just 9 more characters to this chart. https://t.co/5q71yxh4Yt" / Twitter
 
-https://www.ncbi.nlm.nih.gov/pubmed/29795328
-Nat Rev Microbiol. 2018 Jul;16(7):410-422. doi: 10.1038/s41579-018-0029-9.
-Best practices for analysing microbiomes.
-Knight R1,2,3, Vrbanac A4, Taylor BC4, Aksenov A5, Callewaert C6,7, Debelius J6, Gonzalez A6, Kosciolek T6, McCall LI5, McDonald D6, Melnik AV5, Morton JT6,8, Navas J8, Quinn RA5, Sanders JG6, Swafford AD9, Thompson LR10,11, Tripathi A12, Xu ZZ6, Zaneveld JR13, Zhu Q6, Caporaso JG14, Dorrestein PC9,5,6.
+### 2018-07
 
+https://pubmed.ncbi.nlm.nih.gov/29795328/
+Review Nat Rev Microbiol
+. 2018 Jul;16(7):410-422. doi: 10.1038/s41579-018-0029-9.
+Best practices for analysing microbiomes
+Rob Knight 1 2 3, Alison Vrbanac 4, Bryn C Taylor 4, Alexander Aksenov 5, Chris Callewaert 6 7, Justine Debelius 6, Antonio Gonzalez 6, Tomasz Kosciolek 6, Laura-Isobel McCall 5, Daniel McDonald 6, Alexey V Melnik 5, James T Morton 6 8, Jose Navas 8, Robert A Quinn 5, Jon G Sanders 6, Austin D Swafford 9, Luke R Thompson 10 11, Anupriya Tripathi 12, Zhenjiang Z Xu 6, Jesse R Zaneveld 13, Qiyun Zhu 6, J Gregory Caporaso 14, Pieter C Dorrestein 9 5 6
+https://www.nature.com/articles/s41579-018-0029-9
+As rodents are coprophagic, cage mate faecal microbiomes become more homogeneous over time, so experiments must be replicated across multiple cages to control for cage effects19.
 
+### 2018-06
 
 https://pubmed.ncbi.nlm.nih.gov/29795540/
 Review Nat Microbiol
