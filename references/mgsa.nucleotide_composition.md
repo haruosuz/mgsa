@@ -211,11 +211,14 @@ http://www.g3journal.org/content/5/12/2921.long
 
 ### 2014
 
-https://www.ncbi.nlm.nih.gov/pubmed/24983532
-Environ Microbiol Rep. 2014 Jun;6(3):278-86. doi: 10.1111/1758-2229.12145. Epub 2014 Mar 25.
-Positive correlations between genomic %AT and genome size within strains of bacterial species.
-Bohlin J1, Sekse C, Skjerve E, Brynildsrud O.
-https://onlinelibrary.wiley.com/doi/full/10.1111/1758-2229.12145
+### 2014-06
+
+https://pubmed.ncbi.nlm.nih.gov/24983532/
+Environ Microbiol Rep
+. 2014 Jun;6(3):278-86. doi: 10.1111/1758-2229.12145. Epub 2014 Mar 25.
+Positive correlations between genomic %AT and genome size within strains of bacterial species
+Jon Bohlin 1, Camilla Sekse, Eystein Skjerve, Ola Brynildsrud
+https://enviromicro-journals.onlinelibrary.wiley.com/doi/10.1111/1758-2229.12145
  Fig. 2 
 Chlamydia trachomatis, Neisseria meningitidis, Helicobacter pylori, Escherichia coli, Francisella tularensis, Listeria monocytogenes, Strepto- coccus pneumoniae and Streptococcus suis on the other hand were found to have genomes sizes that correlated positively with genomic %AT and thus opposite to what was anticipated. 
 
@@ -223,6 +226,11 @@ Chlamydia trachomatis, Neisseria meningitidis, Helicobacter pylori, Escherichia 
 - Fig. 2. speciesレベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関（GC含量に負の相関）、4分類群のみで負の相関。
 - 図1：門（亜門）レベルでは12のうち6分類群でゲノムサイズとAT含量に負の相関、2分類群のみで正の相関。
 - 図2：種レベルでは20のうち8分類群でゲノムサイズとAT含量に正の相関、4分類群のみで負の相関。
+
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_proquest_miscellaneous_1542648747
+Wiley Online Library Open Access
+
+### 2014-04
 
 http://www.ncbi.nlm.nih.gov/pubmed/24488312
 J Bacteriol. 2014 Apr;196(7):1458-70.
