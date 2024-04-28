@@ -133,22 +133,36 @@ In addition, tRNA are the most common genes found in the space between the 16S a
 
 ### 2019
 
-https://www.ncbi.nlm.nih.gov/pubmed/29937760
-Front Microbiol. 2018 Jun 8;9:1232. doi: 10.3389/fmicb.2018.01232. eCollection 2018.
-Multiple Ribosomal RNA Operons in Bacteria; Their Concerted Evolution and Potential Consequences on the Rate of Evolution of Their 16S rRNA.
-Espejo RT1, Plaza N1,2.
-Bacterial species differ greatly in the number and location of the rRNA operons which may be present in the bacterial chromosomes and plasmids. 
-https://www.frontiersin.org/articles/10.3389/fmicb.2018.01232/full
+### 2018-06-08
 MINI REVIEW ARTICLE
+https://pubmed.ncbi.nlm.nih.gov/29937760/
+Front Microbiol
+. 2018 Jun 8:9:1232. doi: 10.3389/fmicb.2018.01232. eCollection 2018.
+Multiple Ribosomal RNA Operons in Bacteria; Their Concerted Evolution and Potential Consequences on the Rate of Evolution of Their 16S rRNA
+Romilio T Espejo 1, Nicolás Plaza 1 2
+https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2018.01232/full
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6002687/
-- Ribosomal Rna Operons in Bacteria
-Moreover, its function can be replaced by a plasmid-encoded rRNA operon, which in E. coli can be exchanged for operons from Salmonella typhimurium and Proteus vulgaris (Asai et al., 1999a).
+Abstract
+Bacterial species differ greatly in the number and location of the rRNA operons which may be present in the bacterial chromosomes and plasmids. Most bacterial species contain more than one ribosomal RNA operon copy in their genomes, with some species containing up to 15 such copies. We review the number and location of the rRNA operons and discuss evolution of 16S rRNA (rrs) genes -which are considered as ultimate chronometers for phylogenetic classification- in bacteria with multiple copies of these genes.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6002687/#sec-a.f.atitle
+Ribosomal Rna Operons in Bacteria
+
+FIGURE 1
+Median of the number of rrs copies in 3,070 bacterial species according to data reported in rrnDB database (Stoddard et al., 2015).
+
 In addition, rrn copies are also found in both chromosomes and plasmids as in B. megaterium (Kunnimalaiyaan et al., 2001) or Paracoccus species (Battermann et al., 2003). A special case is Aureimonas sp. AU20 in which the only rRNA operon is in the plasmid (Anda et al., 2015).
-- Concerted Evolution of rRna Genes
-Furthermore, a comparison of rrs sequences between closely related species and between rrs copies in the same genome indicated that as with most other genes, recombination with horizontally transferred rrs is relatively frequent (reviewed by Kitahara and Miyazaki, 2013).
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6002687/#sec-a.f.btitle
+Concerted Evolution of rRna Genes
+
+Furthermore, a comparison of rrs sequences between closely related species and between rrs copies in the same genome indicated that as with most other genes, recombination with horizontally transferred rrs is relatively frequent (reviewed by Kitahara and Miyazaki, 2013). 
+
 Recently, analysis of 2,143 genomes distinguished 28 genomes with high intragenomic heterogeneity revealing horizontal gene transfer (HGT) events and their potential donors (Tian et al., 2015). In all these 28 cases HGT of the 16S rRNA gene only occurred at intrageneous or intraspecies levels. More recently, a conserved, highly divergent rrs (7.3–9.0%) was found in one of the five ribosomal operons in the species complex Scytonema hyalinum (Johansen et al., 2017).
-- Conclusion
-the effect of multiple rrs in bacterial genomes and their location in chromosomes or plasmids has not been considered. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6002687/#sec-a.f.etitle
+Conclusion
+
+The copy contributing part of the genome may be acquired by horizontal transfer. 16S rRNA sequences have long been used as an “ultimate chronometer” for phylogenetic classification of bacterial species but the effect of multiple rrs in bacterial genomes and their location in chromosomes or plasmids has not been considered.
 
 ### 2018-03-19
 
