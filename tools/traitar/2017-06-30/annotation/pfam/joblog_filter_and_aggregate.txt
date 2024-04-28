@@ -1,0 +1,3 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+2	:	1498811324.261	    14.721	0	0	0	0	hmmer2filtered_best.py 2017-06-30/annotation/pfam/Listeria_grayi_DSM_20601_domtblout.dat   2017-06-30/annotation/pfam/Listeria_grayi_DSM_20601_filtered_best.dat pfam
+1	:	1498811324.258	    16.053	0	0	0	0	hmmer2filtered_best.py 2017-06-30/annotation/pfam/Listeria_ivanovii_WSLC3009_domtblout.dat   2017-06-30/annotation/pfam/Listeria_ivanovii_WSLC3009_filtered_best.dat pfam
