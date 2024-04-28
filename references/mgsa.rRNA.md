@@ -10,6 +10,7 @@
 - [people](#people)
   - [anda](#anda)
   - [miyazaki-kentaro](#miyazaki-kentaro)
+<<<<<<< HEAD
 
 ----------
 ## unclassified
@@ -22,10 +23,19 @@ https://ja.wikipedia.org/wiki/16S_rRNA系統解析
 
 16S rRNA遺伝子の交雑
 進化が垂直伝達によって駆動されるという仮定の下では、16S rRNA遺伝子は種特異的であるみなすことができ、原核生物間の系統関係を推測する確実な遺伝的マーカーであると長年考えられてきた。しかしながら、研究が進むに連れ、これらの遺伝子においても遺伝子の水平伝播が発生していることが分かってきた。
+=======
+- [unclassified](#unclassified)
+
+https://ja.wikipedia.org/wiki/16S_rRNA系統解析
+
+----------
+## unclassified
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 
 ----------
 ## updates
 
+<<<<<<< HEAD
 ### 2023-11-14
 
 https://pubmed.ncbi.nlm.nih.gov/37963895/
@@ -77,6 +87,8 @@ Hayley B Hassler 1, Brett Probert 1, Carson Moore 1, Elizabeth Lawson 1, Richard
 https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-022-01295-y
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9264627/
 
+=======
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 ### 2021
 
 ### 2021-07-21
@@ -124,6 +136,10 @@ https://twitter.com/puni2azarashi/status/1270590549414707205
 https://www.nature.com/articles/s41467-020-16694-8
 Ribosome engineering reveals the importance of 5S rRNA autonomy for ribosome assembly | Nature Communications
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 https://www.ncbi.nlm.nih.gov/pubmed/31712737
 ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
 Unlinked rRNA genes are widespread among bacteria and archaea.
@@ -150,6 +166,7 @@ Recently, analysis of 2,143 genomes distinguished 28 genomes with high intrageno
 - Conclusion
 the effect of multiple rrs in bacterial genomes and their location in chromosomes or plasmids has not been considered. 
 
+<<<<<<< HEAD
 ### 2018-03-19
 
 https://github.com/haruosuz/bioinfo/blob/master/2022/CaseStudy.md#vitcomic2
@@ -164,17 +181,27 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
 
 
 ### 
+=======
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 
 https://www.ncbi.nlm.nih.gov/pubmed/29073157
 PLoS One. 2017 Oct 26;12(10):e0186393. doi: 10.1371/journal.pone.0186393. eCollection 2017.
 Highly divergent 16S rRNA sequences in ribosomal operons of Scytonema hyalinum (Cyanobacteria).
 Johansen JR1,2, Mareš J2,3,4, Pietrasiak N5, Bohunická M4, Zima J Jr4, Štenclová L2,3, Hauer T2,4.
 
+<<<<<<< HEAD
+=======
+https://www.ncbi.nlm.nih.gov/pubmed/26220935
+Genome Biol Evol. 2015 Jul 27;7(8):2310-20. doi: 10.1093/gbe/evv143.
+Rare Events of Intragenus and Intraspecies Horizontal Transfer of the 16S rRNA Gene.
+Tian RM1, Cai L1, Zhang WP1, Cao HL1, Qian PY2.
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 
 
 
 
 
+<<<<<<< HEAD
 
 ### 2015-07-27
 https://pubmed.ncbi.nlm.nih.gov/26220935/
@@ -205,6 +232,23 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3661144/#sec-a.f.gtitle
 Through DNA sequencing, we found that most 16S rRNA genes were derived from Gammaproteobacteria, but some were derived from Betaproteobacteria with 80.9% identity to the E. coli sequence (note that the phylogenetic class of E. coli is Gammaproteobacteria; Fig. 3).34
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3661144/figure/F3/?report=objectonly
 Figure 3. Neighbor-joining phylogenetic tree of 16S rRNA genes. Environmental 16S rRNA genes that were functional in E. coli are shown as the clone ID (A01–H03) with their closest relatives (nomenclature). Several other relevant strains are also shown.
+=======
+https://www.ncbi.nlm.nih.gov/pubmed/23734299
+Mob Genet Elements. 2013 Jan 1;3(1):e24210.
+Revisiting bacterial phylogeny: Natural and experimental evidence for horizontal gene transfer of 16S rRNA.
+Kitahara K1, Miyazaki K.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3661144/
+- It remains unclear how HGT of 16S rRNA is driven in the environment. 16S rRNA genes may be propagated by transduction because, according to a previous report, this gene can be incorporated into a broad-host-range, generalized transducing phage (SN-T) at a frequency of 1 × 109 transductants/PFU.28
+- (note that the phylogenetic class of E. coli is Gammaproteobacteria; Fig. 3)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3661144/figure/F3/?report=objectonly
+Figure 3. Neighbor-joining phylogenetic tree of 16S rRNA genes. Environmental 16S rRNA genes that were functional in E. coli are shown as the clone ID (A01–H03) with their closest relatives (nomenclature). Several other relevant strains are also shown.
+
+
+
+
+- Evidence of HGT of 16S rRNA in Nature: Counterexamples to the Complexity Hypothesis
+For example, the thermophilic bacterium Thermoanaerobacter tengcongensis contains four rrn operons, and the 16S rRNA sequence of rrnC shows only 88.4% homology with other rrn operons (rrnA, rrnB and rrnD).13 The 16S rRNA gene of rrnC is not a pseudogene because it correctly forms the conserved secondary structure of 16S rRNA. The sequence is more closely related (95%) to that of other Thermoanaerobacter species (T. subterraneus SL9 and T. keratinophilus 2KXI), suggesting that this gene was transferred into the ancestor of T. tengcongensis and became fixed as a functional gene in this organism over evolution.13 Similar interoperonic diversity is observed in Desulfotomaculum kuznestovii (91.7% homology), Thermobispora bispora R51 (93.6%), Thermonospora chromogena (94%) and Halobacterium marismortui (95%).13 These examples can be regarded as snapshots of ongoing HGT of 16S rRNA in nature and are thought to be clear counterexamples of the complexity hypothesis. Chimeric 16S rRNA genes have also been reported between two distantly related species24 or closely related lineages,25-27 suggesting that partial fragments of the 16S rRNA genes are also amenable to HGT.
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 
 
 ### 2016
@@ -232,6 +276,7 @@ Sliding Window フィルタ
 
 ### 2011
 
+<<<<<<< HEAD
 ### 2011-05-27
 https://pubmed.ncbi.nlm.nih.gov/21619604/
 BMC Evol Biol
@@ -242,6 +287,8 @@ https://bmcecolevol.biomedcentral.com/articles/10.1186/1471-2148-11-146
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3123606/
 
 ### 2011-02-20
+=======
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 review
 https://www.ncbi.nlm.nih.gov/pubmed/20223646
 Microbiol Res. 2011 Feb 20;166(2):99-110. doi: 10.1016/j.micres.2010.02.003. Epub 2010 Mar 11.
@@ -329,6 +376,16 @@ Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
 
 ----------
 
+<<<<<<< HEAD
+=======
+## Tian_2015
+
+https://www.ncbi.nlm.nih.gov/pubmed/26220935
+Genome Biol Evol. 2015 Jul 27;7(8):2310-20. doi: 10.1093/gbe/evv143.
+Rare Events of Intragenus and Intraspecies Horizontal Transfer of the 16S rRNA Gene.
+Tian RM1, Cai L1, Zhang WP1, Cao HL1, Qian PY2.
+
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 ----------
 ## people
 
@@ -350,9 +407,18 @@ https://www.jstage.jst.go.jp/article/kagakutoseibutsu/55/6/55_378/_pdf
 予想外なゲノム構造と進化
 唯一のrrnは9.4 kbのレプリコン（pAU20rrn）に存在していた（図1A）．
 
+<<<<<<< HEAD
 https://schaechter.asmblog.org/schaechter/2015/11/your-operating-system-on-a-thumbdrive-a-snippet.html
 Small Things Considered: Your Operating System on a Thumbdrive – A Snippet
 
+=======
+
+
+https://schaechter.asmblog.org/schaechter/2015/11/your-operating-system-on-a-thumbdrive-a-snippet.html
+Small Things Considered: Your Operating System on a Thumbdrive – A Snippet
+
+
+>>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 24 11月 2015
 http://www.microbial-ecology.jp/?p=7070
 日本微生物生態学会 » 染色体上からリボソームRNA遺伝子が消えた細菌を発見 ～ゲノムの常識を覆す～ (PNAS 112)
