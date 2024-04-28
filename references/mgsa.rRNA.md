@@ -104,6 +104,15 @@ To more directly measure rates of rRNA intragenomic recombination, we sequenced 
 
 ### 2020
 
+### 2020-06-09
+https://pubmed.ncbi.nlm.nih.gov/32518240/
+Nat Commun
+. 2020 Jun 9;11(1):2900. doi: 10.1038/s41467-020-16694-8.
+Ribosome engineering reveals the importance of 5S rRNA autonomy for ribosome assembly
+Shijie Huang # 1 2, Nikolay A Aleksashin # 1 3 4, Anna B Loveland # 5, Dorota Klepacki 1, Kaspar Reier 6, Amira Kefi 1, Teresa Szal 1, Jaanus Remme 6, Luc Jaeger 7, Nora Vázquez-Laslop 1 3, Andrei A Korostelev 8, Alexander S Mankin 9 10
+https://www.nature.com/articles/s41467-020-16694-8
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7283268/
+
 2:36 PM · Jun 10, 2020
 https://twitter.com/puni2azarashi/status/1270590549414707205
 大腸菌でリボソームRNA 5S rRNA の機能解明に挑んだ論文が出ました（Nature Commun）!
@@ -120,16 +129,22 @@ https://twitter.com/puni2azarashi/status/1270590549414707205
 一方、リボソーム構成前のサブユニットの構造には差があり、組み込み23Sを含む方では、ペプチジルトランスフェラーゼ中心の形成に障害がありました（続
 つまり、遊離5S rRNAは、リボソームサブユニットが正しい構造を取るために、遊離されておかねばならない、ということがわかりました。
 
-09 June 2020
-https://www.nature.com/articles/s41467-020-16694-8
-Ribosome engineering reveals the importance of 5S rRNA autonomy for ribosome assembly | Nature Communications
+### 2020-02
 
-https://www.ncbi.nlm.nih.gov/pubmed/31712737
-ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
-Unlinked rRNA genes are widespread among bacteria and archaea.
-Brewer TE1,2, Albertsen M3, Edwards A4, Kirkegaard RH3, Rocha EPC5, Fierer N6,7.
-https://www.nature.com/articles/s41396-019-0552-3
-In addition, tRNA are the most common genes found in the space between the 16S and 23S rRNA genes, and range from only 75–90 bp in length [38]. After classifying each rRNA gene pair as linked or unlinked based on the distance between the 16S and 23S rRNA genes, 
+https://pubmed.ncbi.nlm.nih.gov/31712737/
+ISME J
+. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
+Unlinked rRNA genes are widespread among bacteria and archaea
+Tess E Brewer 1 2, Mads Albertsen 3, Arwyn Edwards 4, Rasmus H Kirkegaard 3, Eduardo P C Rocha 5, Noah Fierer 6 7
+https://academic.oup.com/ismej/article/14/2/597/7474940?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976660/
+
+Fig. 1
+In most bacteria and archaea, rRNA genes are arranged in the order 16S-23S-5S, and are transcribed and regulated as a single unit. However, in some cases, the 16S is separated from the 23S and 5S, and is referred to as “unlinked”
+
+In addition, tRNA are the most common genes found in the space between the 16S and 23S rRNA genes, and range from only 75–90 bp in length [38].
+
+After classifying each rRNA gene pair as linked or unlinked based on the distance between the 16S and 23S rRNA genes,
 
 ### 2019
 
