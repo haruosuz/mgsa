@@ -1,10 +1,9 @@
 # mgsa.rRNA
 
 ## Table of Contents
+- [microbiome](#microbiome)
 - [unclassified](#unclassified)
 - [updates](#updates)
-[2019](#2019)
-- [microbiome](#microbiome)
 - [phage](#phage)
 - [plasmid](#plasmid)
 - [people](#people)
@@ -22,6 +21,47 @@ https://ja.wikipedia.org/wiki/16S_rRNA系統解析
 
 16S rRNA遺伝子の交雑
 進化が垂直伝達によって駆動されるという仮定の下では、16S rRNA遺伝子は種特異的であるみなすことができ、原核生物間の系統関係を推測する確実な遺伝的マーカーであると長年考えられてきた。しかしながら、研究が進むに連れ、これらの遺伝子においても遺伝子の水平伝播が発生していることが分かってきた。
+
+----------
+## microbiome
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.metagenome.md
+
+The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
+
+----------
+## phage
+
+https://www.ncbi.nlm.nih.gov/pubmed/22902729
+Microbiology. 2012 Nov;158(Pt 11):2789-95. doi: 10.1099/mic.0.057943-0. Epub 2012 Aug 17.
+Evidence of bacteriophage-mediated horizontal transfer of bacterial 16S rRNA genes in the viral metagenome of the marine sponge Hymeniacidon perlevis.
+Harrington C1, Del Casale A, Kennedy J, Neve H, Picton BE, Mooij MJ, O'Gara F, Kulakov LA, Larkin MJ, Dobson AD.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21666016
+Appl Environ Microbiol. 2011 Aug;77(15):5529-32. doi: 10.1128/AEM.00457-11. Epub 2011 Jun 10.
+Extent and variation of phage-borne bacterial 16S rRNA gene sequences in wastewater environments.
+Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
+
+----------
+## plasmid
+
+https://www.ncbi.nlm.nih.gov/pubmed/26534993
+Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
+Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
+Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
+plant-associated alphaproteobacterium, Aureimonas sp. AU20
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
+Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
+
+https://www.ncbi.nlm.nih.gov/pubmed/14663090
+Microbiology. 2003 Dec;149(Pt 12):3587-93.
+A functional plasmid-borne rrn operon in soil isolates belonging to the genus Paracoccus.
+Battermann A1, Disse-Krömker C, Dreiseikelmann B.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11251820
+Mol Microbiol. 2001 Feb;39(4):1010-21.
+Analysis of the replicon region and identification of an rRNA operon on pBM400 of Bacillus megaterium QM B1551.
+Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
 
 ----------
 ## updates
@@ -300,66 +340,14 @@ Of the two 16S rRNA genes in B. afzelii, the pseudogene has a much lower GC cont
 ### 2003
 
 2003-10-20
+https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/97613/1/KJ00004705532.pdf
+https://dl.ndl.go.jp/view/prepareDownload?itemId=info%3Andljp%2Fpid%2F10940560&contentNo=1
 https://dl.ndl.go.jp/view/download/digidepo_10940560_po_ART0008411553.pdf?contentNo=1&alternativeNo=
+最尤 法に よ る 生 物 の 系統 関係 推定 につ い て
+加 藤 和貴
 SSU rRNAを用いた系統推定の問題点として、「進化速度が他種に比べ早い種」「GC含量3の高い種」の系統的位置の推定を間違えやすいことが挙げられる。
 先の例において、SSU rRNAを用いた系統樹では真核生物に至る枝は、真正細菌/古細菌に比べて明らかに長くなる。このことは、SSU rRNAを用いた推定が誤った結論を導いている可能性を示唆する。
 
-
-----------
-## microbiome
-
-https://www.ncbi.nlm.nih.gov/pubmed/29427429
-Appl Environ Microbiol. 2018 Mar 19;84(7). pii: e02627-17. doi: 10.1128/AEM.02627-17. Print 2018 Apr 1.
-The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
-Pollock J#1,2, Glendinning L#2, Wisedchanwet T2, Watson M2.
-
-----------
-## phage
-
-https://www.ncbi.nlm.nih.gov/pubmed/22902729
-Microbiology. 2012 Nov;158(Pt 11):2789-95. doi: 10.1099/mic.0.057943-0. Epub 2012 Aug 17.
-Evidence of bacteriophage-mediated horizontal transfer of bacterial 16S rRNA genes in the viral metagenome of the marine sponge Hymeniacidon perlevis.
-Harrington C1, Del Casale A, Kennedy J, Neve H, Picton BE, Mooij MJ, O'Gara F, Kulakov LA, Larkin MJ, Dobson AD.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21666016
-Appl Environ Microbiol. 2011 Aug;77(15):5529-32. doi: 10.1128/AEM.00457-11. Epub 2011 Jun 10.
-Extent and variation of phage-borne bacterial 16S rRNA gene sequences in wastewater environments.
-Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
-
-----------
-## plasmid
-
-https://www.ncbi.nlm.nih.gov/pubmed/26534993
-Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
-Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
-Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
-plant-associated alphaproteobacterium, Aureimonas sp. AU20
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
-Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
-
-https://www.ncbi.nlm.nih.gov/pubmed/14663090
-Microbiology. 2003 Dec;149(Pt 12):3587-93.
-A functional plasmid-borne rrn operon in soil isolates belonging to the genus Paracoccus.
-Battermann A1, Disse-Krömker C, Dreiseikelmann B.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11251820
-Mol Microbiol. 2001 Feb;39(4):1010-21.
-Analysis of the replicon region and identification of an rRNA operon on pBM400 of Bacillus megaterium QM B1551.
-Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
-
-
-----------
-
-<<<<<<< HEAD
-=======
-## Tian_2015
-
-https://www.ncbi.nlm.nih.gov/pubmed/26220935
-Genome Biol Evol. 2015 Jul 27;7(8):2310-20. doi: 10.1093/gbe/evv143.
-Rare Events of Intragenus and Intraspecies Horizontal Transfer of the 16S rRNA Gene.
-Tian RM1, Cai L1, Zhang WP1, Cao HL1, Qian PY2.
-
->>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 ----------
 ## people
 
