@@ -61,6 +61,880 @@
 
 ----------
 
+https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
+
+----------
+### 
+
+https://github.com/haruosuz/microbe/blob/master/references/microbe.urban.md
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238498/
+A global metagenomic map of urban microbiomes and antimicrobial resistance
+
+Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
+
+
+
+
+
+
+
+
+----------
+
+## updates
+
+### 2022
+
+### 2022-11-28
+
+https://www.nature.com/articles/s43705-022-00204-6
+Unexpected absence of ribosomal protein genes from metagenome-assembled genomes | ISME Communications
+
+
+6:25 AM · Dec 8, 2022
+https://twitter.com/luispedrocoelho/status/1600602523206791168
+Luis Pedro Coelho🌻 on Twitter: ""Unexpected absence of ribosomal protein genes from metagenome-assembled genomes" by Mise &amp; Iwasaki (Quoted text is from paper [slightly edited for space], unquoted from me) https://t.co/Xlw9v5V3c6" / Twitter
+
+
+6:40 AM · Nov 30, 2022
+https://twitter.com/iwasakiw/status/1597707175836934146
+論文「メタゲノムアセンブルゲノムからの予想外のリボソームタンパク質遺伝子の欠失」を出版しました！
+Kazumori Mise and Wataru Iwasaki.
+Unexpected absence of ribosomal protein genes from metagenome-assembled genomes.
+ISME Communications, 2, 118. (2022)
+ショットガンシーケンスから環境微生物のゲノムを復元するMAG（メタゲノムアセンブルゲノム）解析が一般的になり、未培養微生物の進化や生理・生態に関する研究が大きく進んでいます。一方でMAGにはまだ問題点も多く、例えば、反復配列や外来配列はMAGから欠落しやすいことが良く知られています。
+本研究では、反復配列でも外来配列でもない「リボソームタンパク質遺伝子」もまた、予想外にMAGから欠落しやすいことを明らかにしました。そして、コドン使用頻度の偏りによるビニングの誤りがその原因であり、これが微生物の生存戦略にもリンクしていることを明らかにしました。
+
+### 2021-01-07
+
+https://pubmed.ncbi.nlm.nih.gov/33462601/
+Genome Biol Evol
+. 2021 Jan 7;13(1):evaa238. doi: 10.1093/gbe/evaa238.
+Anomalous Phylogenetic Behavior of Ribosomal Proteins in Metagenome-Assembled Asgard Archaea
+Sriram G Garg 1, Nils Kapust 1, Weili Lin 2, Michael Knopp 1, Fernando D K Tria 1, Shijulal Nelson-Sathi 3, Sven B Gould 1, Lu Fan 4 5 6, Ruixin Zhu 2, Chuanlun Zhang 4 5 7, William F Martin 1
+https://academic.oup.com/gbe/article/13/1/evaa238/5988511
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7813640/
+
+### 
+
+8:50 AM · Apr 29, 2022
+https://twitter.com/RobynJWright/status/1519826469610041344
+Robyn Wright on Twitter: "Q: Which is better for taxonomic classification of #metagenomics samples - Kraken2 or MetaPhlAn 3? A: It really depends! Read the very short story in this thread, or the full story in my preprint w/ @BetaScience and André Comeau: https://t.co/2U3e7odn8Y 1/" / Twitter
+
+### 2022-02-05
+
+1:34 AM · Feb 6, 2022
+https://twitter.com/arroboso/status/1490000882980769792
+ᴀʟᴇᴊᴀɴᴅʀᴏ ꜱᴀɴᴄʜᴇᴢ-ꜰʟᴏʀᴇꜱ 🧬👨🏽‍💻 on Twitter: "@bielleogy Have you tried MetaPhlAn? I think that using single copy marker genes will get you a better classification than using k-mer signatures like Kraken2 or others. At least that is what we tested in a publication some time ago. https://t.co/NijLnyVA7v https://t.co/nj0hE7UTad" / Twitter
+https://www.nature.com/articles/s41598-018-30515-5
+Analysis of sequencing strategies and tools for taxonomic annotation: Defining standards for progressive metagenomics | Scientific Reports
+
+
+11:13 PM · Feb 5, 2022
+https://twitter.com/AMohamed85/status/1489965514902446083
+Amin Mohamed on Twitter: "@bielleogy For MAGs I recently used GTDB (bacteria and archaea only). For read-based analyses, I used kraken2 and metaphlan after removing host reads. Might be better to try on contigs (metaSpades) rather than reads!" / Twitter
+
+
+6:10 AM · Feb 5, 2022
+https://twitter.com/bielleogy/status/1489708006283440129
+Dr. Elinne Becket on Twitter: "Any marine (or related) microbiologists have recs for metagenome taxonomic classifiers for those sample types? Or has anyone in those fields had success getting a decent % classified from Kraken2? I'm only getting like 10-15% classified despite every option I've tried." / Twitter
+
+
+### 2021
+
+
+### 2020
+
+
+https://twitter.com/gggtta/status/1215107137476513792
+松本 on Twitter: "サンプル中に含まれるOTUやバクテリアの相対存在量のプロファイルがまとまった、サンプル数×OTU数の行列のデータベースってどこかにないかな？" / Twitter
+12:04 PM · Jan 9, 2020
+
+
+
+### 2019
+
+https://qiita.com/advent-calendar/2019/metagenome
+メタゲノム Advent Calendar 2019 - Qiita
+
+https://qiita.com/hi-mori/items/a1d3e0923f2cc85edb84
+メタゲノムの情報解析が学べるWeb教材（スライドや動画） - Qiita
+
+https://qiita.com/Yohei__K/items/dffc8767581bfbaad812
+メタゲノムのイケてるネットワーク解析手法、WGCNA解説 - Qiita
+R packageに関して
+
+https://www.ncbi.nlm.nih.gov/pubmed/31848574/
+Brief Bioinform. 2019 Dec 18. pii: bbz155. doi: 10.1093/bib/bbz155. [Epub ahead of print]
+Current challenges and best-practice protocols for microbiome analysis.
+Bharti R, Grimm DG.
+https://github.com/grimmlab/MicrobiomeBestPracticeReview
+Both the workflows are controlled by bash scripts
+
+
+https://twitter.com/tjsharpton/status/1192820360556793856
+Thomas Sharpton on Twitter: "Published! Happy to share our review on statistical methods for integrating multi'omic microbiome data. This results from a wonderful NIGMS/DMS sponsored collaboration with my brilliant statistics colleagues. I hope you find it helpful! cc @CourtneyRArmour https://t.co/lrXI2PXrZK https://t.co/b2mIbFcKSU" / Twitter
+12:05 AM · Nov 9, 2019
+![](https://pbs.twimg.com/media/EI2_yXcX0AM31w3?format=jpg&name=small)
+
+
+
+https://twitter.com/WvSchaik/status/1148595145790689281
+Willem van Schaik on Twitter: "Really interesting approach to link ALL microbiome studies and allow for comparative analyses: https://t.co/PVM3HCi7hT by João Rodriguez #FEMS2019"
+10:09 AM - 9 Jul 2019
+
+Posted May 21, 2019.
+https://www.biorxiv.org/content/10.1101/644740v1
+Cartography of opportunistic pathogens and antibiotic resistance genes in a tertiary hospital environment
+https://twitter.com/NiranjanTW/status/1131022012556533760
+Our hospital microbiome work as part of @metasub! All Illumina and Nanopore data should be available from ENA: Cartography of opportunistic pathogens and antibiotic resistance genes in a tertiary hospital environment https://www.biorxiv.org/content/10.1101/644740v1 …
+@kalisvar @oontek1 @mason_lab
+1000s of @nanopore assembled genomes and circular plasmid sequences too!
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/30418481
+Bioinformatics. 2019 Jun 1;35(12):2150-2152. doi: 10.1093/bioinformatics/bty905.
+MAGpy: a reproducible pipeline for the downstream analysis of metagenome-assembled genomes (MAGs).
+Stewart RD1, Auffret MD2, Snelling TJ3, Roehe R2, Watson M1.
+
+
+https://twitter.com/ASMicrobiology/status/1126925145069817856
+We need an ecological understanding of the microbiome as a community of interacting individuals  and an evolutionary understanding of the microbiome as a trait of the host: an @mSystemsJ perspective from @sarahmhird http://ow.ly/UAkL50u2gEp 
+3:01 PM - 10 May 2019
+https://twitter.com/sarahmhird
+Sarah Hird
+
+
+https://twitter.com/Tyu_Shi/status/1110601849386618880
+Tyu_Shi on Twitter: "マウスgut microbiomeの解析でベンダーが違うマウスは別物として扱うのはほぼ常識なので驚きは無いが、こういうのを論文にしてくれるのは引用で済ませられるのでありがたい。 Mouse vendor influence on the bacterial and viral gut composition exceeds the effect of diet https://t.co/mwS8HwmvMf"
+1:58 PM - 26 Mar 2019
+
+https://twitter.com/Tyu_Shi/status/1110583615526596609
+reference basedとde novo basedのhybrid型ということで一時期持て囃されて流行りそうになったopen or closed reference OTU clustering法が、わりとしっかりと批判されている。
+12:45 PM - 26 Mar 2019
+
+https://twitter.com/PatSchloss/status/1110509388664619009
+Pat Schloss on Twitter: "Please stop using the open (and closed) reference clustering methods based on USEARCH/VSEARCH. Instead, use de novo clustering algorithms to form OTUs 1/"
+7:50 AM - 26 Mar 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/30902113
+Microbiome. 2019 Mar 22;7(1):46. doi: 10.1186/s40168-019-0658-x.
+Sunbeam: an extensible pipeline for analyzing metagenomic sequencing experiments.
+Clarke EL1, Taylor LJ1, Zhao C2, Connell A1, Lee JJ2, Fett B2, Bushman FD1, Bittinger K3.
+
+
+### 2018
+
+https://twitter.com/pathogenomenick/status/1053620015579172864
+Nick Loman on Twitter: "An extremely informative thread explaining why metagenomic assemblies of related species and strains results in subsequent difficulties during binning:… https://t.co/CzUcpRiYdJ"
+8:12 AM - 20 Oct 2018
+
+https://www.ncbi.nlm.nih.gov/pubmed/29950328
+J Clin Microbiol. 2018 Aug 27;56(9). pii: e00813-18. doi: 10.1128/JCM.00813-18. Print 2018 Sep.
+Lowering the Barriers to Routine Whole-Genome Sequencing of Bacteria in the Clinical Microbiology Laboratory.
+Rhoads DD1,2.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/29460198
+J Plant Res. 2018 Jul;131(4):709-717. doi: 10.1007/s10265-018-1017-x. Epub 2018 Feb 19.
+Collaborative environmental DNA sampling from petal surfaces of flowering cherry Cerasus × yedoensis 'Somei-yoshino' across the Japanese archipelago.
+Ohta T1, Kawashima T2, Shinozaki NO3, Dobashi A4, Hiraoka S5, Hoshino T6, Kanno K7, Kataoka T8, Kawashima S9, Matsui M10, Nemoto W11, Nishijima S12,13,14, Suganuma N15, Suzuki H16, Taguchi YH17, Takenaka Y18, Tanigawa Y19, Tsuneyoshi M20, Yoshitake K21, Sato Y22, Yamashita R22, Arakawa K23, Iwasaki W10.
+
+Fig.2: "Deblur" -> "Deblur or DADA2" に修正し
+https://twitter.com/merenbey/status/999416078446071809
+A. Murat Eren (Meren) on Twitter: "This is unfair to DADA2
+6:25 PM - 23 May 2018
+
+
+### 2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/28321234
+Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
+A Review of Bioinformatics Tools for Bio-Prospecting from Metagenomic Sequence Data.
+Roumpeka DD1, Wallace RJ2, Escalettes F3, Fotheringham I3, Watson M1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5337752/
+Data Sharing and Online Portals
+MG-RAST (Glass et al., 2010) 
+EBI MetaGenomics (Hunter et al., 2014) 
+IMG/M (Markowitz et al., 2014) 
+
+https://www.ncbi.nlm.nih.gov/pubmed/25983555
+Bioinform Biol Insights. 2015 May 5;9:75-88. doi: 10.4137/BBI.S12462. eCollection 2015.
+Metagenomics: tools and insights for analyzing next-generation sequencing data derived from biodiversity studies.
+Oulas A1, Pavloudi C2, Polymenakou P1, Pavlopoulos GA3, Papanikolaou N3, Kotoulas G1, Arvanitidis C1, Iliopoulos I3.
+
+
+### 2017
+
+https://www.microbe.net/2017/11/15/nice-title-nice-paper-microbiome-datasets-are-compositional-and-this-is-not-optional/
+Nice title, nice paper: Microbiome Datasets Are Compositional: And This Is Not Optional  – microBEnet: the microbiology of the Built Environment network
+
+1:39 PM - 18 Dec 2017
+https://twitter.com/Tyu_Shi/status/942826707022520320
+Tyu_Shi on Twitter: "まだ記事は少ないが、ヒト腸内メタ関連のDalhousie Universityでのjournal clubのblog。Points of InterestとPoints of Confusionが箇条書きにされているので、元論文自分で読んだ後にblog読んで人との解釈の差異を知る… https://t.co/HdO5AftF7a"
+
+https://www.ncbi.nlm.nih.gov/pubmed/30197908
+Genes Dis. 2017 Sep;4(3):138-148. doi: 10.1016/j.gendis.2017.06.001. Epub 2017 Jun 23.
+Hypothesis Testing and Statistical Analysis of Microbiome.
+Xia Y1,2, Sun J2.
+
+2017年11月23日
+http://www.natureasia.com/ja-jp/nature/551/7681/nature24460/
+バイオインフォマティクス：定量的マイクロバイオームプロファイリングで明らかになった腸内細菌群集の変動と微生物量の関連
+
+3:09 PM - 7 Nov 2017
+beneficial microbes 有益な微生物 https://twitter.com/phylogenomics/status/927991509017866240
+
+
+### 2011
+
+https://wg.biosciencedbc.jp/doku.php/ゲノム・メタゲノム情報を基盤とした微生物dbの統合
+ゲノム・メタゲノム情報を基盤とした微生物dbの統合.txt · 最終更新: 2011/12/27 09:54 +0900 (外部編集)
+
+
+----------
+
+
+----------
+### ASaiM
+https://www.biorxiv.org/content/early/2017/09/04/183970
+ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
+
+Published on Jul 9, 2015
+https://www.slideshare.net/bebatut/asaim-an-environment
+JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
+
+https://twitter.com/galaxyproject/status/794453380202725376
+Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
+
+
+----------
+## HGT
+
+メタゲノムにおける遺伝子水平伝播イベント同定手法に関する総説
+review
+https://www.ncbi.nlm.nih.gov/pubmed/31504488
+Genome Biol Evol. 2019 Oct 1;11(10):2750-2766. doi: 10.1093/gbe/evz184.
+Current and Promising Approaches to Identify Horizontal Gene Transfer Events in Metagenomes.
+Douglas GM1, Langille MGI1.
+
+
+### DaisyGPS
+https://www.ncbi.nlm.nih.gov/pubmed/31335917
+PLoS Comput Biol. 2019 Jul 23;15(7):e1007208. doi: 10.1371/journal.pcbi.1007208. eCollection 2019 Jul.
+Where did you come from, where did you go: Refining metagenomic analysis tools for horizontal gene transfer characterisation.
+Seiler E1,2, Trappe K1, Renard BY1.
+
+### MetaCHIP
+
+https://www.ncbi.nlm.nih.gov/pubmed/30832740
+Microbiome. 2019 Mar 4;7(1):36. doi: 10.1186/s40168-019-0649-y.
+MetaCHIP: community-level horizontal gene transfer identification through the combination of best-match and phylogenetic approaches.
+Song W1,2, Wemheuer B1,3, Zhang S1,2, Steensen K1,4, Thomas T5,6.
+
+http://kazumaxneo.hatenablog.com/entry/2019/03/12/224600
+メタゲノムbinsからHGTを検出する MetaCHIP - macでインフォマティクス
+
+----------
+## MGnify
+
+https://www.ebi.ac.uk/metagenomics/
+MGnify
+
+https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
+phmmer search | EBI metagenomics
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/31696235
+Nucleic Acids Res. 2019 Nov 7. pii: gkz1035. doi: 10.1093/nar/gkz1035. [Epub ahead of print]
+MGnify: the microbiome analysis resource in 2020.
+Mitchell AL1, Almeida A1,2, Beracochea M1, Boland M1, Burgin J1, Cochrane G1, Crusoe MR3, Kale V1, Potter SC1, Richardson LJ1, Sakharova E1, Scheremetjew M1, Korobeynikov A4, Shlemov A4, Kunyavskaya O4, Lapidus A4, Finn RD1.
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1035/5614179
+
+https://integbio.jp/dbcatalog/record/nbdc01916
+EBI Metagenomics は 対象範囲変更にあわせて名称をMgnifyに変更しました。こちらはすべてのメタゲノミクス研究者を支援することを目的とした、自由に利用可能なリソースです。メタゲノムデータを自動的に解析･保存するパイプラインとして機能します。系統発生の多様性の他、サンプルの機能的および代謝的ポテンシャルについての知見を提供することを目的としています。リポジトリ内のすべての公開データは、自由に参照することができます。
+
+
+
+
+
+----------
+
+### Metagenomic Assembly
+
+https://omictools.com/metagenomic-assembly-category
+Assembly software tools | Metagenomic sequencing analysis - OMICtools
+
+https://www.ncbi.nlm.nih.gov/pubmed/28693474
+BMC Genomics. 2017 Jul 10;18(1):521. 
+Assembling metagenomes, one community at a time.
+
+https://twitter.com/StevenJRobbins/status/849484107797204997
+Three very recent papers comparing metagenome assembly tools:
+
+https://www.ncbi.nlm.nih.gov/pubmed/28099457
+PLoS One. 2017 Jan 18;12(1):e0169662.
+Comparing and Evaluating Metagenome Assembly Tools from a Microbiologist's Perspective - Not Only Size Matters!
+
+https://www.ncbi.nlm.nih.gov/pubmed/27698619
+Yale J Biol Med. 2016 Sep 30;89(3):353-362. eCollection 2016.
+Metagenomic Assembly: Overview, Challenges and Applications.
+Ghurye JS1, Cepeda-Espinoza V1, Pop M1.
+
+[MetAMOS](https://github.com/treangen/MetAMOS)
+https://www.ncbi.nlm.nih.gov/pubmed/23320958
+Genome Biol. 2013 Jan 15;14(1):R2. doi: 10.1186/gb-2013-14-1-r2.
+MetAMOS: a modular and open source metagenomic assembly and analysis pipeline.
+
+[MOCAT](http://www.bork.embl.de/mocat/)
+https://www.ncbi.nlm.nih.gov/pubmed/23082188
+PLoS One. 2012;7(10):e47656.
+MOCAT: a metagenomics assembly and gene prediction toolkit.
+
+----------
+## book
+
+### 2018-11-19
+よくわかるバイオインフォマティクス入門/藤博幸/講談社
+https://www.kspub.co.jp/book/detail/5138212.html
+http://bookclub.kodansha.co.jp/product?item=0000275926
+９章　メタゲノム解析
+
+### 2016-12-01
+https://www.yodosha.co.jp/yodobook/book/9784758101974/
+実験医学別冊：NGSアプリケーション 今すぐ始める！　メタゲノム解析　実験プロトコール〜ヒト常在細菌叢から環境メタゲノムまでサンプル調製と解析のコツ - 羊土社
+第1章　メタゲノム解析の基本知識
+2．メタゲノムデータの情報解析のオーバービュー【東　光一，森　宙史，黒川　顕】 
+### 2016-09-12
+http://www.kyoto-up.or.jp/book.php?id=2128
+微生物生態学　ゲノム解析からエコシステムまで
+Chapter 10　微生物とウィルスのゲノムおよびメタゲノム
+
+----------
+
+
+
+----------
+## NA
+not available
+このツールは使用できなくなりました。
+
+### cognizer
+https://omictools.com/cognizer-tool
+This tool is not available anymore.
+https://www.ncbi.nlm.nih.gov/pubmed/26561344
+PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eCollection 2015.
+COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
+Bose T1, Haque MM1, Reddy C1, Mande SS1.
+The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
+
+
+
+
+----------
+## CAMI
+Critical Assessment of Metagenome Interpretation
+
+https://twitter.com/CAMI_challenge
+
+https://msystems.asm.org/content/3/4/e00103-18
+Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
+
+Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
+
+https://www.ncbi.nlm.nih.gov/pubmed/28967888
+Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
+Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
+
+----------
+## batch effect
+
+### 2024
+
+2024 著者 Fan, Howard James
+https://open.bu.edu/handle/2144/47924
+Improving batch effect correction of metagenomic data: applications in the black women’s health study
+First, I evaluated ComBat-Seq, along with existing microbiome-specific tools, in removing batch effects from both simulated 16S rRNA and real-world shotgun metagenomic sequencing data while preserving effects belonging to biological factors of interest. Second, I applied ComBat-Seq in an epidemiological study 
+
+### ComBat-seq
+https://github.com/zhangyuqing/ComBat-seq
+https://pubmed.ncbi.nlm.nih.gov/33015620/
+NAR Genom Bioinform
+. 2020 Sep;2(3):lqaa078. doi: 10.1093/nargab/lqaa078. Epub 2020 Sep 21.
+ComBat-seq: batch effect adjustment for RNA-seq count data
+Yuqing Zhang 1, Giovanni Parmigiani 2, W Evan Johnson 3
+https://academic.oup.com/nargab/article/2/3/lqaa078/5909519
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7518324/
+
+### 2023 Oct 4
+https://pubmed.ncbi.nlm.nih.gov/37841330/
+Review Comput Struct Biotechnol J
+. 2023 Oct 4:21:4804-4815. doi: 10.1016/j.csbj.2023.10.001. eCollection 2023.
+Data pre-processing for analyzing microbiome data - A mini review
+Ruwen Zhou 1, Siu Kin Ng 1, Joseph Jao Yiu Sung 1 2, Wilson Wen Bin Goh 1 3 4, Sunny Hei Wong 1 2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10569954/
+https://www.csbj.org/article/S2001-0370(23)00357-4/fulltext
+2. Pre-processing methods
+1) Filtering
+2) Batch Effect Correction 
+3) Imputation 
+4) Normalization
+
+Table 3
+Common methods for batch effect correction. 
+
+### MBECS
+https://bioconductor.org/packages/MBECS/
+https://bioconductor.org/packages/release/bioc/vignettes/MBECS/inst/doc/mbecs_vignette.html
+https://github.com/rmolbrich/MBECS
+https://pubmed.ncbi.nlm.nih.gov/37138207/
+BMC Bioinformatics
+. 2023 May 3;24(1):182. doi: 10.1186/s12859-023-05252-w.
+MBECS: Microbiome Batch Effects Correction Suite
+Michael Olbrich 1 2 3, Axel Künstner # 4 5, Hauke Busch # 6
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05252-w
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10155362/
+
+### PLSDAbatch
+https://github.com/EvaYiwenWang/PLSDAbatch
+https://pubmed.ncbi.nlm.nih.gov/36653900/
+Brief Bioinform
+. 2023 Mar 19;24(2):bbac622. doi: 10.1093/bib/bbac622.
+PLSDA-batch: a multivariate framework to correct for batch effects in microbiome data
+Yiwen Wang 1 2, Kim-Anh Lê Cao 2
+https://academic.oup.com/bib/article/24/2/bbac622/6991121
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10025448/
+
+review
+https://pubmed.ncbi.nlm.nih.gov/31776547/
+Brief Bioinform
+. 2020 Dec 1;21(6):1954-1970. doi: 10.1093/bib/bbz105.
+Managing batch effects in microbiome data
+Yiwen Wang 1, Kim-Anh LêCao 1
+https://academic.oup.com/bib/article/21/6/1954/5643537
+2019-10-22
+https://evayiwenwang.github.io/Managing_batch_effects/
+
+### ConQuR
+https://github.com/wdl2459/ConQuR
+https://wdl2459.github.io/ConQuR/ConQuR.Vignette.html
+https://pubmed.ncbi.nlm.nih.gov/36109499/
+Nat Commun
+. 2022 Sep 15;13(1):5418. doi: 10.1038/s41467-022-33071-9.
+Batch effects removal for microbiome data via conditional quantile regression
+Wodan Ling 1, Jiuyao Lu 2, Ni Zhao 3, Anju Lulla 4, Anna M Plantinga 5, Weijia Fu 6, Angela Zhang 1 6, Hongjiao Liu 1 6, Hoseung Song 1, Zhigang Li 7, Jun Chen 8, Timothy W Randolph 1, Wei Li A Koay 9 10, James R White 11, Lenore J Launer 12, Anthony A Fodor 13, Katie A Meyer 4, Michael C Wu 14 15
+https://www.nature.com/articles/s41467-022-33071-9
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9477887/
+Code availability
+The R package ConQuR47 is available at https://github.com/wdl2459/ConQuR in formats appropriate for Macintosh, Windows, or Linux systems. A vignette demonstrating use of the package (a full analysis pipeline, including the standard fitting strategy, penalized fitting strategy, the fine-tuned result, and investigations on the original and batch-removed taxa read count tables) is included (https://wdl2459.github.io/ConQuR/ConQuR.Vignette.html).
+
+
+
+
+1:15 AM · May 23, 2021
+https://twitter.com/phylogenomics/status/1396137556345974788
+Jonathan Eisen on X: "This is really a phenomenally useful paper that I think everyone interested in #microbiome studies should read: "Identifying biases and their potential solutions in human microbiome studies" by @JTNearing et al. https://t.co/dhWrS1sj1E https://t.co/Icn6HWhkrN" / X
+https://pubmed.ncbi.nlm.nih.gov/34006335/
+Review Microbiome
+. 2021 May 18;9(1):113. doi: 10.1186/s40168-021-01059-0.
+Identifying biases and their potential solutions in human microbiome studies
+Jacob T Nearing 1, André M Comeau 2, Morgan G I Langille 3 4
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01059-0
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8132403/
+
+
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/30388197
+Bioinformatics. 2019 Jul 1;35(13):2348. doi: 10.1093/bioinformatics/bty874.
+Batch effects correction for microbiome data with Dirichlet-multinomial regression.
+Dai Z, Wong SH, Yu J, Wei Y.
+
+8x臨床研究の約2,000x糞便メタゲノムのメタアナリシスにより、複数の疾患／特定の病気に関連するヒト腸内マイクロバイオームの機能(KEGG annotated gene families)を同定。バッチ効果(batch effects)に言及
+https://www.ncbi.nlm.nih.gov/pubmed/31120034
+mSystems. 2019 May 14;4(4). pii: e00332-18. doi: 10.1128/mSystems.00332-18.
+A Metagenomic Meta-analysis Reveals Functional Signatures of Health and Disease in the Human Gut Microbiome.
+Armour CR1,2, Nayfach S3,4, Pollard KS4,5,6, Sharpton TJ7,8.
+https://msystems.asm.org/content/4/4/e00332-18
+"certain study effects (i.e., batch effects) are unlikely to be the source of variance between samples."
+
+----------
+## meta-analysis
+https://ja.wikipedia.org/wiki/メタアナリシス
+
+https://github.com/haruosuz/statistics#meta-analysis
+
+https://twitter.com/search?f=tweets&q=microbiome%20meta-analysis
+
+----------
+### metamicrobiomeR
+
+https://github.com/haruosuz/r4bioinfo/blob/master/R_microb/README.md#metamicrobiomer
+
+----------
+
+https://twitter.com/EricTopol/status/1112741724302893056
+Eric Topol on Twitter: "It's not enough to characterize the gut #microbiome by bacterial content. How #metagenomics tracks with colon #cancer, specific signatures https://t.co/yIH1TeYeVg https://t.co/jqRIcffhGZ @NatureMedicine… https://t.co/VfDiUXjqvO"
+11:41 AM - 1 Apr 2019
+
+https://www.nature.com/articles/s41591-019-0406-6
+Meta-analysis of fecal metagenomes reveals global microbial signatures that are specific for colorectal cancer | Nature Medicine
+Here, a meta-analysis of eight geographically and technically diverse fecal shotgun metagenomic studies of colorectal cancer (CRC, n = 768), which was controlled for several confounders, identified a core set of 29 species significantly enriched in CRC metagenomes (false discovery rate (FDR) < 1 × 10−5). 
+
+https://www.nature.com/articles/s41591-019-0405-7
+Metagenomic analysis of colorectal cancer datasets identifies cross-cohort microbial diagnostic signatures and a link with choline degradation | Nature Medicine
+We performed a meta-analysis of five publicly available datasets and two new cohorts and validated the findings on two additional cohorts, considering in total 969 fecal metagenomes. 
+
+### Qiita
+### 2018-10
+
+10:30 PM · Oct 4, 2018
+https://twitter.com/strnr/status/1047841444214558720
+Stephen Turner on Twitter: "Qiita (pronounced chee-tah): rapid, web-enabled microbiome meta-analysis Paper: https://t.co/aXTv0cTCND Web: https://t.co/XfwpO4bP0I Docs: https://t.co/CKEEffUSCW Source: https://t.co/HWOT2qYHeZ https://t.co/d13hW5GJ3n" / Twitter
+
+6:44 AM · Oct 2, 2018
+https://twitter.com/gibbological/status/1046878477981343744
+Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Qiita: rapid, web-enabled microbiome meta-analysis https://t.co/4Osl11rR8X from @KnightLabNews @gregcaporaso and @Pdorrestein1 labs. Useful tool for all us 'data parasites' :)" / Twitter
+https://twitter.com/inschool4life/status/1047107731327467521
+Did they comment on batch effects?
+
+https://pubmed.ncbi.nlm.nih.gov/30275573/
+Meta-Analysis Nat Methods
+. 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.
+Qiita: rapid, web-enabled microbiome meta-analysis
+Antonio Gonzalez 1, Jose A Navas-Molina 1 2 3, Tomasz Kosciolek 1, Daniel McDonald 1, Yoshiki Vázquez-Baeza 1, Gail Ackermann 1, Jeff DeReus 1, Stefan Janssen 1, Austin D Swafford 4, Stephanie B Orchanian 4, Jon G Sanders 1, Joshua Shorenstein 1 5, Hannes Holste 1 2, Semar Petrus 6, Adam Robbins-Pianka 7, Colin J Brislawn 8, Mingxun Wang 9, Jai Ram Rideout 10, Evan Bolyen 10, Matthew Dillon 10, J Gregory Caporaso 10 11, Pieter C Dorrestein 1 4 9, Rob Knight 12 13 14
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235622/
+Despite these challenges, meta-analyses of microbiomes have a rich history of success, identifying the major global drivers of diversity in microbial communities4, characterizing the evolution of the vertebrate gut microbiome5, and surveying specialized fields such as the built environment6. Meta-analyses also enable scientists to identify important biases such as DNA extraction, primers, or analytical pipelines7,8, which need to be controlled to generate biological discoveries.
+
+### almlab
+### 2018-04-23
+
+https://be.mit.edu/directory/eric-alm
+Eric Alm
+http://almlab.mit.edu/
+
+2:55 AM · Apr 24, 2018
+https://twitter.com/gibbological/status/988476547614105601
+Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Befuddled by batch effects? Check out our simple, non-parametric solution for 16S case-control studies in @PLOSCompBiol https://t.co/grMDm7SIQl -- method available as a @qiime2 plugin thanks to @cduvallet" / Twitter
+
+https://pubmed.ncbi.nlm.nih.gov/29684016/
+Comparative Study PLoS Comput Biol
+. 2018 Apr 23;14(4):e1006102. doi: 10.1371/journal.pcbi.1006102. eCollection 2018 Apr.
+Correcting for batch effects in case-control microbiome studies
+Sean M Gibbons 1 2 3, Claire Duvallet 1 2, Eric J Alm 1 2 3
+
+April 17, 2018
+https://cduvallet.github.io/posts/2018/04/microbiome-data
+An empirical analysis of microbiome data availability - Claire Duvallet
+
+https://www.ncbi.nlm.nih.gov/pubmed/29209090
+Nat Commun. 2017 Dec 5;8(1):1784. doi: 10.1038/s41467-017-01973-8.
+Meta-analysis of gut microbiome studies identifies disease-specific and shared responses.
+Duvallet C1,2, Gibbons SM1,2,3, Gurry T1,2,3, Irizarry RA4,5, Alm EJ6,7,8.
+We perform a cross-disease meta-analysis of these studies using standardized methods. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5716994/
+Code availability
+The code to reproduce all of the analyses in this paper is available at https://github.com/cduvallet/microbiomeHD. 
+
+3:05 AM · Dec 7, 2017
+https://twitter.com/Kazu_Kasahara/status/938469390739234816
+Kazuyuki Kasahara on Twitter: "流行しているマイクロバイオーム研究に警鐘を鳴らす論文。28報の研究、10疾患のメタ解析から、病気で認める"dysbiosis"の多くは疾患特異的ではなく、バイオマーカーになり難い。 https://t.co/AVJHhcCCcI" / Twitter
+
+5:45 AM · Dec 6, 2017
+https://twitter.com/cduvallet/status/938147253512015873
+Claire Duvallet on Twitter: "The meta-analysis is out in @NatureComms! We found that diseases are characterized by consistent types of microbial community shifts, and that lots of bacteria respond non-specifically to multiple diseases. @gibbological @ThomasGurry @ejalm @rafalab https://t.co/XJxmxApgXv" / Twitter
+
+### 2018-06
+https://twitter.com/ayaKT/status/1005378142146457600
+ayaKT on Twitter: "~19000人規模のmicrobiome-GWAS に着手しました論文。どんな解析結果が出てくるのか楽しみ。 いろんな16Sシーケンス手法を比較可能にする考えかたも、勉強になる。fmfm https://t.co/hNMXyZHzWj"
+5:16 AM - 9 Jun 2018
+
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0479-3
+Meta-analysis of human genome-microbiome association studies: the MiBioGen consortium initiative | Microbiome
+We are now in the process of benchmarking the association tests and performing meta-analyses of genome-wide associations. All pipeline and summary statistics results will be shared using public data repositories.
+
+### 2017-12-22
+https://www.ncbi.nlm.nih.gov/pubmed/29273717
+Nat Commun. 2017 Dec 22;8(1):2260. doi: 10.1038/s41467-017-02209-5.
+Strain profiling and epidemiology of bacterial species from metagenomic sequencing.
+Albanese D1, Donati C2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5741664/
+- Here we present StrainEst, a novel, reference-based method that uses the single-nucleotide variants (SNV) profiles of the available genomes of selected species to determine the number and identity of coexisting strains and their relative abundances in mixed metagenomic samples.
+- meta-analyses
+
+### 2017-11-20
+https://twitter.com/NatureMicrobiol/status/932704694912389120
+Nature Microbiology on Twitter: ".@drkellysierra & co: Integration and meta-analysis of global #soil datasets uncover patterns of #microbial structure,… https://t.co/QB51kFBtK5"
+3:18 PM - 20 Nov 2017
+
+https://pubmed.ncbi.nlm.nih.gov/29158606/
+Nat Microbiol
+. 2018 Feb;3(2):189-196. doi: 10.1038/s41564-017-0062-x. Epub 2017 Nov 20.
+Detecting Macroecological Patterns in Bacterial Communities Across Independent Studies of Global Soils
+- Whereas previous meta-analysis efforts have focused on bacterial diversity measures or abundances of major taxa, we show that disparate amplicon sequence data can be combined at the taxonomy-based level to assess bacterial community structure.
+
+### 2016
+https://www.ncbi.nlm.nih.gov/pubmed/27400279
+PLoS Comput Biol. 2016 Jul 11;12(7):e1004977. doi: 10.1371/journal.pcbi.1004977. eCollection 2016 Jul.
+Machine Learning Meta-analysis of Large Metagenomic Datasets: Tools and Biological Insights.
+Pasolli E1, Truong DT1, Malik F2, Waldron L2, Segata N1.
+http://segatalab.cibio.unitn.it/tools/metaml
+MetAML - Metagenomic prediction Analysis based on Machine Learning
+機械学習
+
+### 2015
+https://www.ncbi.nlm.nih.gov/pubmed/26459172
+Microbiome. 2015 Oct 13;3:49. doi: 10.1186/s40168-015-0108-3.
+Microbiota of the indoor environment: a meta-analysis.
+Adams RI1, Bateman AC2, Bik HM3,4, Meadow JF5.
+室内環境の微生物群集：メタアナリシス
+
+----------
+## mothur-qiime
+https://mothur.org
+
+https://www.pediatricsurgery.site/entry/2017/11/19/200241
+mothur開発者によるmothurとQIIMEの比較 - Note of Pediatric Surgery
+
+https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
+メタ16S解析利点
+・マシンパワーは少なくて済み、解析ツールも普及(QIIME・mothur等)
+
+https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_article/-char/ja/
+総　　説 ＜特集：腸内細菌叢Microbiotaの分子生物学的解析法の成果と未来＞
+進化する次世代シーケンサーによる腸内細菌叢の解析
+東 佳那子, 中山 二郎
+2015 年 29 巻 3 号 p. 135-144
+https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_pdf
+データセットは,16S rRNA 配列から菌叢データを 得るためのオープンソースソフトウェアを開発してい る Mothur プロジェクト(4)が,Silva の 16S rRNA の全長配列データベースから 14,956 本を網羅的に抽出 し作成したデータセット silva.bacteria.fasta を用いた(http://www.mothur.org/wiki/Silva_reference_files).
+
+ここで は,Mothur 同様,菌叢解析のオープンソースソフトウェ アである QIIME(Quantitative Insights into Microbial Ecology, http://qiime.org/)(5) の assign_taxonomy.py のプログラムの uclust のアルゴリズムを用いた.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3775626/
+PeerJ. 2013; 1: e157.
+Abundance-weighted phylogenetic diversity measures distinguish microbial community states and are robust to sampling depth
+
+In microbial ecology studies, the most commonly used ways of investigating alpha (within-sample) diversity are either to apply non-phylogenetic measures such as Simpson’s index to Operational Taxonomic Unit (OTU) groupings, or to use classical phylogenetic diversity (PD), which is not abundance-weighted. 
+
+As of the publication of this paper, no abundance-weighted phylogenetic alpha diversity measures are implemented in either mothur (Schloss et al., 2009) or QIIME (Caporaso et al., 2010), two of the most popular tools for analysis of microbial ecology data. 
+
+
+----------
+## Greengenes
+
+http://greengenes.secondgenome.com
+The Greengenes Database
+
+http://greengenes.secondgenome.com/downloads
+Download Area
+
+----------
+## RDP
+
+https://www.ncbi.nlm.nih.gov/pubmed/24288368
+Nucleic Acids Res. 2014 Jan;42(Database issue):D633-42. doi: 10.1093/nar/gkt1244. Epub 2013 Nov 27.
+Ribosomal Database Project: data and tools for high throughput rRNA analysis.
+Cole JR1, Wang Q, Fish JA, Chai B, McGarrell DM, Sun Y, Brown CT, Porras-Alfaro A, Kuske CR, Tiedje JM.
+
+http://rdp.cme.msu.edu
+RDP Release 11 -- Sequence Analysis Tools
+
+http://rdp.cme.msu.edu/misc/resources.jsp
+RDP Resource Download Area
+
+----------
+## 16S
+
+https://www.biorxiv.org/content/early/2018/10/13/441576
+Nomenclature Errors in Public 16S rRNA Gene Reference Databases
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/29688343
+FEMS Microbiol Lett. 2018 May 1;365(10). doi: 10.1093/femsle/fny104.
+A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class.
+Tobin TC1, Shade A2.
+
+
+https://pubmed.ncbi.nlm.nih.gov/29688343/
+FEMS Microbiol Lett
+. 2018 May 1;365(10):fny104. doi: 10.1093/femsle/fny104.
+A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class
+Tammy C Tobin 1, Ashley Shade 2
+https://academic.oup.com/femsle/article/365/10/fny104/4980908?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5954299/
+In this module, microbiology students used Quantitative Insights into Microbial Ecology (QIIME) to perform taxonomic, phylogenetic and statistical analyses on bacterial communities from three hot mine fire-impacted surface soils using 16S rRNA gene amplicon sequences. 
+
+https://twitter.com/BioMickWatson
+
+https://www.pediatricsurgery.site/entry/2017/11/19/200241
+mothur開発者によるmothurとQIIMEの比較 - Note of Pediatric Surgery
+
+mothurではRDP、SILVA、greengenesを使用することができる
+
+https://www.ncbi.nlm.nih.gov/pubmed/28705636
+J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
+A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
+Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
+https://www.sciencedirect.com/science/article/pii/S0168165617315225
+But, because it is well known that the phylogenetic resolution of the primary phylogenetic marker, the 16S rRNA gene, is limited at the lower taxonomic levels, the integration of a genome sequence based phylogeny into the polyphasic approach of the prokaryotic taxonomy and systematics is the clear consequence in the genome area (Chun and Rainey, 2014, Ramasamy et al., 2014, Oren and Garrity, 2014, Vandamme and Peeters, 2014, Sangal et al., 2016).
+
+https://www.ncbi.nlm.nih.gov/pubmed/28662636
+BMC Genomics. 2017 Jun 29;18(1):499. doi: 10.1186/s12864-017-3888-y.
+Relating genomic characteristics to environmental preferences and ubiquity in different microbial taxa.
+Cobo-Simón M1, Tamames J2.
+
+https://www.researchgate.net/post/Is_Greengenes_or_SILVA_better_for_bacterial_microbiome_studies
+Is Greengenes or SILVA better for bacterial microbiome studies?
+
+https://www.ncbi.nlm.nih.gov/pubmed/28361695
+BMC Genomics. 2017 Mar 14;18(Suppl 2):114. doi: 10.1186/s12864-017-3501-4.
+SILVA, RDP, Greengenes, NCBI and OTT - how do these taxonomies compare?
+Balvočiūtė M1, Huson DH2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5374703/
+For the comparisons we used a taxonomy associated with the Greengenes database as released on May 2013. Although Greengenes is still included in some metagenomic analyses packages, for example QIIME [22], it has not been updated for the last three years.
+
+Mar 2017
+https://forum.qiime2.org/t/classification-using-greengenes-v-silva/409
+Classification using GreenGenes v. SILVA - User support - QIIME 2 Forum
+
+https://www.ncbi.nlm.nih.gov/pubmed/27166378
+Nucleic Acids Res. 2016 Jun 20;44(11):5022-33. doi: 10.1093/nar/gkw396. Epub 2016 May 10.
+Phylogeny-aware identification and correction of taxonomically mislabeled sequences.
+Kozlov AM1, Zhang J2, Yilmaz P3, Glöckner FO4, Stamatakis A5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914121/
+First, we evaluate taxonomic annotations of type strains only, using the same sequence set and alignment (LTP v123) for all four databases (data sets GG13_T, LTP123_T, RDP11_T and SLV123_T in Table ​Table1).1). 
+
+https://mothur.org/blog/2015/No-greengenes-hasnt-improved/
+No, greengenes' reference alignment hasn't improved
+
+- SILVA (good for alignment and classification)
+- greengenes (good for alignment and classification)
+- RDP (good for classification)
+
+https://www.ncbi.nlm.nih.gov/pubmed/27603265
+Genome. 2016 Oct;59(10):783-791. Epub 2016 May 11.
+bcgTree: automatized phylogenetic tree building from bacterial core genomes.
+Ankenbrand MJ1,1, Keller A1,1.
+The need for multi-gene analyses in scientific fields such as phylogenetics and DNA barcoding has increased in recent years. In particular, these approaches are increasingly important for differentiating bacterial species, where reliance on the standard 16S rDNA marker can result in poor resolution. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/23460914
+PLoS One. 2013;8(2):e57923. doi: 10.1371/journal.pone.0057923. Epub 2013 Feb 27.
+The variability of the 16S rRNA gene in bacterial genomes and its consequences for bacterial community analyses.
+Větrovský T1, Baldrian P.
+
+
+2017/08/30
+https://www.aist.go.jp/aist_j/press_release/pr2017/pr20170830/pr20170830.html
+産総研：進化系統分類の指標となる16S rRNA遺伝子の進化的な中立性を実験的に証明
+
+https://www.nite.go.jp/nbrc/safety/risk_assessment.html
+微生物利用におけるリスク評価に関する技術情報の提供 | バイオテクノロジー | 製品評価技術基盤機構
+DDHにおける菌種判定の閾値である類似度70%は、ANIにおいて95-96%に相当すると報告されています。このことから、近年では、DDHの代替としてANIに基づく新種の提案が行われてきています(Baek et al. 2015, IJSEM 65: 504; Shahraki et al. 2015, IJSEM 65: 504)。
+OTUとは、ある一定以上の類似性（一般的には96-97%）を持つ配列同士を一つの菌種のように扱うための操作上の分類単位です。
+
+バイオレメディエーションにおける生態系影響評価手法	Illumina社MiSeqシーケンサーを用いた、環境中の微生物生態系解析の実験手法およびパイプラインツール「QIIME」を用いたデータ解析手法の手順書です。 2016年3月25日 https://www.nite.go.jp/data/000081956.pdf
+
+https://seikagaku.jbsoc.or.jp/10.14952/SEIKAGAKU.2015.870475/data/index.html
+Journal of Japanese Biochemical Society 87(4): 475-477 (2015)
+16SリボソームRNAの水平伝播実験からみえてくるリボソームの可塑性
+佃 美雪1,2，宮崎 健太郎1,3
+
+https://www.jstage.jst.go.jp/article/kagakutoseibutsu/52/2/52_70/_pdf
+化学と生物 Vol. 52, No. 2, 2014
+16S rRNA遺伝子の「水平伝播」
+異種16S rRNAによる遺伝的相補
+
+2014
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3903645/
+MetaMetaDB: A Database and Analytic System for Investigating Microbial Habitability
+
+Therefore, MetaMetaDB chooses the hits exhibiting above 97%, 95%, 90%, 85%, and 80% identity from the search result list, which correspond approximately to the taxonomic levels of species, genus, family, order, and class [1], respectively, 
+
+02/02/13
+http://www.jarmam.gr.jp/situmon/16sr_rna.html
+16s rRNA の相同性と同定精度の関係は???
+一般的には, 97%以上の相同性があれば類縁関係があり、99%以上であれば同種である可能性が高いとしています。
+極端な例では, 100%の相同性が認められても, 属レベルで異なる例さえ示されているのです。
+
+2012 年
+https://www.jstage.jst.go.jp/article/jslab/23/1/23_24/_pdf
+総説
+16S rRNA 遺伝子の大量シークェンシングによる 菌叢解析の現状と問題点
+是則 有希, Jiahui Jiang, 中山 二郎
+属レベルまでの菌叢プロファイルであ れば、Ribosomal Database Project I(I 以下、RDP II)のウェ ブサイトにある RDP classifier を用いることで容易に菌叢 プロファイルに変換することができる。
+一方、種レベルでの菌叢データを得ることは非常に困難 である。実際に、理論上 16S rRNA 遺伝子の部分配列か ら種を特定することは不可能であり、
+
+http://www.aist.go.jp/aist_j/press_release/pr2012/pr20121030/pr20121030.html
+産総研：生物種を越えた16S rRNA遺伝子の機能相補性を確認
+
+2011
+https://www.sbj.or.jp/wp-content/uploads/file/sbj/8912/8912_yomoyama_2.pdf
+生物工学基礎講座 バイオよもやま話 何から始めよう 微生物の同定 細菌・アーキア編
+浜田 盛之,鈴木 健一朗
+特に 16S rRNA 遺伝子配列の相同値が 97% に満たない場合 などは新属になる可能性もあるため,系統樹を作成して 既知の属のクラスターに含まれるのかどうかを慎重に確 認したほうがよい.
+
+https://www.mitsui-norin.co.jp/mmid/knowledge/yokota/index3.html
+MMID｜微生物を知ろう｜微生物分類同定講座
+16S ｒRNA遺伝子塩基配列の相同性が98％以上の場合、必ずしも同種であるとは限らず、属によっては99％以上であっても別種の場合があります。
+
+https://ja.wikipedia.org/wiki/16S_rRNA系統解析
+
+http://www.jarmam.gr.jp/situmon3/16sr-rna.html
+16S rRNAでの微生物同定
+
+----------
+## amplicon-shotgun
+
+targeted amplicon sequencing (16S, 18S, ITS) vs. shotgun sequencing (metagenomics)
+
+https://pubmed.ncbi.nlm.nih.gov/28337071/
+Review J Biomol Tech
+. 2017 Apr;28(1):8-18. doi: 10.7171/jbt.17-2801-006. Epub 2017 Mar 17.
+International Standards for Genomes, Transcriptomes, and Metagenomes
+Christopher E Mason 1, Ebrahim Afshinnekoo 2, Scott Tighe 3, Shixiu Wu 4, Shawn Levy 5
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5359768/
+
+TABLE 3
+Comparison of metagenomic assay capabilities and limitations
+
+Data type	16S	18S	ITS	Shotgun
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/28761145
+Sci Rep. 2017 Jul 31;7(1):6589. doi: 10.1038/s41598-017-06665-3.
+Large-scale differences in microbial biodiversity discovery between 16S amplicon and shotgun sequencing.
+Tessler M1,2, Neumann JS3, Afshinnekoo E4,5,6, Pineda M4,5, Hersch R7, Velho LFM8,9, Segovia BT8, Lansac-Toha FA8, Lemke M10, DeSalle R7, Mason CE11,12,13, Brugler MR14,15.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21121044
+Pac Symp Biocomput. 2011:165-76.
+Comparing bacterial communities inferred from 16S rRNA gene sequencing and shotgun metagenomics.
+Shah N1, Tang H, Doak TG, Ye Y.
+
+ボストン交通システムのマイクロバイオーム
+https://github.com/haruosuz/metasub/tree/master/references#boston-subway-microbiome
+https://microbe.net/2016/06/30/microbes-on-the-boston-t/
+The 16S and shotgun results were mostly complementary. Both showed high abundances of Staphylococcus, Corynebacterium, and Streptococcus. The main difference was that the V4 primers could not detect Propionibacterium acnes: these primers are not ideal for skin microbial communities – which is what the subway most resembled (based on Microbial SourceTracker and correlations in abundance with skin taxa). 
+
+https://twitter.com/Tyu_Shi/status/982940944495403009
+Tyu_Shi on Twitter: "したがって、16S rRNA遺伝子のみの解析をメタゲノム解析と呼ぶのは、マイクロバイオーム業界で常識ではありません。概念としては誤用だと個人的には考えておりますし、古くからメタゲノム解析に関わってきたUC DavisのJ. Eisen等の研究者も、たびたびその誤用を批判しております。… https://t.co/SpajjZUOIW"
+7:19 AM - 8 Apr 2018
+
+https://twitter.com/Tyu_Shi/status/248334905816276993
+Tyu_Shi on Twitter: "Many INSDC entry of 16S rRNA amplicon study use terms "metagenome". troublesome! #GSC14"
+4:17 AM - 19 Sep 2012
+
+https://twitter.com/phylogenomics/status/966887584608567297
+Jonathan Eisen on Twitter: "Not sure where you are going with this but I don't think there can be any debate here - the term "metagenome" and its variants like "metagenomics" clearly refer to genome-scale studies and thus there is simply no way a 16S study should be called "metagenomics"… https://t.co/ScdBSzIzlG"
+11:08 PM - 22 Feb 2018
+
+https://phylogenomics.blogspot.com/2012/08/referring-to-16s-surveys-as.html
+The Tree of Life: Referring to 16S surveys as "metagenomics" is misleading and annoying #badomics #OmicMimicry
+
+----------
+
 ### 2018-06-05
 
 https://pubmed.ncbi.nlm.nih.gov/29871915/
@@ -94,27 +968,6 @@ The attempt to find “best practice” for 16S studies – microBEnet: the micr
 12:34 AM · Feb 27, 2018
 https://twitter.com/BioMickWatson/status/968147242401058817
 Mick W@tson 🐄 on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW" / Twitter
-
-----------
-
-
-
-----------
-
-https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
-
-----------
-### 
-
-https://github.com/haruosuz/microbe/blob/master/references/microbe.urban.md
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238498/
-A global metagenomic map of urban microbiomes and antimicrobial resistance
-
-Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
-
-
-
 
 
 
@@ -1199,784 +2052,6 @@ Overall, pairing tools with different classification strategies (k-mer, alignmen
 https://scholar.google.co.jp/scholar?cites=8605030642958534701&as_sdt=2005&sciodt=0,5&hl=ja
 
 
-
-----------
-
-## updates
-
-### 2022
-
-### 2022-11-28
-
-https://www.nature.com/articles/s43705-022-00204-6
-Unexpected absence of ribosomal protein genes from metagenome-assembled genomes | ISME Communications
-
-
-6:25 AM · Dec 8, 2022
-https://twitter.com/luispedrocoelho/status/1600602523206791168
-Luis Pedro Coelho🌻 on Twitter: ""Unexpected absence of ribosomal protein genes from metagenome-assembled genomes" by Mise &amp; Iwasaki (Quoted text is from paper [slightly edited for space], unquoted from me) https://t.co/Xlw9v5V3c6" / Twitter
-
-
-6:40 AM · Nov 30, 2022
-https://twitter.com/iwasakiw/status/1597707175836934146
-論文「メタゲノムアセンブルゲノムからの予想外のリボソームタンパク質遺伝子の欠失」を出版しました！
-Kazumori Mise and Wataru Iwasaki.
-Unexpected absence of ribosomal protein genes from metagenome-assembled genomes.
-ISME Communications, 2, 118. (2022)
-ショットガンシーケンスから環境微生物のゲノムを復元するMAG（メタゲノムアセンブルゲノム）解析が一般的になり、未培養微生物の進化や生理・生態に関する研究が大きく進んでいます。一方でMAGにはまだ問題点も多く、例えば、反復配列や外来配列はMAGから欠落しやすいことが良く知られています。
-本研究では、反復配列でも外来配列でもない「リボソームタンパク質遺伝子」もまた、予想外にMAGから欠落しやすいことを明らかにしました。そして、コドン使用頻度の偏りによるビニングの誤りがその原因であり、これが微生物の生存戦略にもリンクしていることを明らかにしました。
-
-### 2021-01-07
-
-https://pubmed.ncbi.nlm.nih.gov/33462601/
-Genome Biol Evol
-. 2021 Jan 7;13(1):evaa238. doi: 10.1093/gbe/evaa238.
-Anomalous Phylogenetic Behavior of Ribosomal Proteins in Metagenome-Assembled Asgard Archaea
-Sriram G Garg 1, Nils Kapust 1, Weili Lin 2, Michael Knopp 1, Fernando D K Tria 1, Shijulal Nelson-Sathi 3, Sven B Gould 1, Lu Fan 4 5 6, Ruixin Zhu 2, Chuanlun Zhang 4 5 7, William F Martin 1
-https://academic.oup.com/gbe/article/13/1/evaa238/5988511
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7813640/
-
-### 
-
-8:50 AM · Apr 29, 2022
-https://twitter.com/RobynJWright/status/1519826469610041344
-Robyn Wright on Twitter: "Q: Which is better for taxonomic classification of #metagenomics samples - Kraken2 or MetaPhlAn 3? A: It really depends! Read the very short story in this thread, or the full story in my preprint w/ @BetaScience and André Comeau: https://t.co/2U3e7odn8Y 1/" / Twitter
-
-### 2022-02-05
-
-1:34 AM · Feb 6, 2022
-https://twitter.com/arroboso/status/1490000882980769792
-ᴀʟᴇᴊᴀɴᴅʀᴏ ꜱᴀɴᴄʜᴇᴢ-ꜰʟᴏʀᴇꜱ 🧬👨🏽‍💻 on Twitter: "@bielleogy Have you tried MetaPhlAn? I think that using single copy marker genes will get you a better classification than using k-mer signatures like Kraken2 or others. At least that is what we tested in a publication some time ago. https://t.co/NijLnyVA7v https://t.co/nj0hE7UTad" / Twitter
-https://www.nature.com/articles/s41598-018-30515-5
-Analysis of sequencing strategies and tools for taxonomic annotation: Defining standards for progressive metagenomics | Scientific Reports
-
-
-11:13 PM · Feb 5, 2022
-https://twitter.com/AMohamed85/status/1489965514902446083
-Amin Mohamed on Twitter: "@bielleogy For MAGs I recently used GTDB (bacteria and archaea only). For read-based analyses, I used kraken2 and metaphlan after removing host reads. Might be better to try on contigs (metaSpades) rather than reads!" / Twitter
-
-
-6:10 AM · Feb 5, 2022
-https://twitter.com/bielleogy/status/1489708006283440129
-Dr. Elinne Becket on Twitter: "Any marine (or related) microbiologists have recs for metagenome taxonomic classifiers for those sample types? Or has anyone in those fields had success getting a decent % classified from Kraken2? I'm only getting like 10-15% classified despite every option I've tried." / Twitter
-
-
-### 2021
-
-
-### 2020
-
-
-https://twitter.com/gggtta/status/1215107137476513792
-松本 on Twitter: "サンプル中に含まれるOTUやバクテリアの相対存在量のプロファイルがまとまった、サンプル数×OTU数の行列のデータベースってどこかにないかな？" / Twitter
-12:04 PM · Jan 9, 2020
-
-
-
-### 2019
-
-https://qiita.com/advent-calendar/2019/metagenome
-メタゲノム Advent Calendar 2019 - Qiita
-
-https://qiita.com/hi-mori/items/a1d3e0923f2cc85edb84
-メタゲノムの情報解析が学べるWeb教材（スライドや動画） - Qiita
-
-https://qiita.com/Yohei__K/items/dffc8767581bfbaad812
-メタゲノムのイケてるネットワーク解析手法、WGCNA解説 - Qiita
-R packageに関して
-
-https://www.ncbi.nlm.nih.gov/pubmed/31848574/
-Brief Bioinform. 2019 Dec 18. pii: bbz155. doi: 10.1093/bib/bbz155. [Epub ahead of print]
-Current challenges and best-practice protocols for microbiome analysis.
-Bharti R, Grimm DG.
-https://github.com/grimmlab/MicrobiomeBestPracticeReview
-Both the workflows are controlled by bash scripts
-
-
-https://twitter.com/tjsharpton/status/1192820360556793856
-Thomas Sharpton on Twitter: "Published! Happy to share our review on statistical methods for integrating multi'omic microbiome data. This results from a wonderful NIGMS/DMS sponsored collaboration with my brilliant statistics colleagues. I hope you find it helpful! cc @CourtneyRArmour https://t.co/lrXI2PXrZK https://t.co/b2mIbFcKSU" / Twitter
-12:05 AM · Nov 9, 2019
-![](https://pbs.twimg.com/media/EI2_yXcX0AM31w3?format=jpg&name=small)
-
-
-
-https://twitter.com/WvSchaik/status/1148595145790689281
-Willem van Schaik on Twitter: "Really interesting approach to link ALL microbiome studies and allow for comparative analyses: https://t.co/PVM3HCi7hT by João Rodriguez #FEMS2019"
-10:09 AM - 9 Jul 2019
-
-Posted May 21, 2019.
-https://www.biorxiv.org/content/10.1101/644740v1
-Cartography of opportunistic pathogens and antibiotic resistance genes in a tertiary hospital environment
-https://twitter.com/NiranjanTW/status/1131022012556533760
-Our hospital microbiome work as part of @metasub! All Illumina and Nanopore data should be available from ENA: Cartography of opportunistic pathogens and antibiotic resistance genes in a tertiary hospital environment https://www.biorxiv.org/content/10.1101/644740v1 …
-@kalisvar @oontek1 @mason_lab
-1000s of @nanopore assembled genomes and circular plasmid sequences too!
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/30418481
-Bioinformatics. 2019 Jun 1;35(12):2150-2152. doi: 10.1093/bioinformatics/bty905.
-MAGpy: a reproducible pipeline for the downstream analysis of metagenome-assembled genomes (MAGs).
-Stewart RD1, Auffret MD2, Snelling TJ3, Roehe R2, Watson M1.
-
-
-https://twitter.com/ASMicrobiology/status/1126925145069817856
-We need an ecological understanding of the microbiome as a community of interacting individuals  and an evolutionary understanding of the microbiome as a trait of the host: an @mSystemsJ perspective from @sarahmhird http://ow.ly/UAkL50u2gEp 
-3:01 PM - 10 May 2019
-https://twitter.com/sarahmhird
-Sarah Hird
-
-
-https://twitter.com/Tyu_Shi/status/1110601849386618880
-Tyu_Shi on Twitter: "マウスgut microbiomeの解析でベンダーが違うマウスは別物として扱うのはほぼ常識なので驚きは無いが、こういうのを論文にしてくれるのは引用で済ませられるのでありがたい。 Mouse vendor influence on the bacterial and viral gut composition exceeds the effect of diet https://t.co/mwS8HwmvMf"
-1:58 PM - 26 Mar 2019
-
-https://twitter.com/Tyu_Shi/status/1110583615526596609
-reference basedとde novo basedのhybrid型ということで一時期持て囃されて流行りそうになったopen or closed reference OTU clustering法が、わりとしっかりと批判されている。
-12:45 PM - 26 Mar 2019
-
-https://twitter.com/PatSchloss/status/1110509388664619009
-Pat Schloss on Twitter: "Please stop using the open (and closed) reference clustering methods based on USEARCH/VSEARCH. Instead, use de novo clustering algorithms to form OTUs 1/"
-7:50 AM - 26 Mar 2019
-
-https://www.ncbi.nlm.nih.gov/pubmed/30902113
-Microbiome. 2019 Mar 22;7(1):46. doi: 10.1186/s40168-019-0658-x.
-Sunbeam: an extensible pipeline for analyzing metagenomic sequencing experiments.
-Clarke EL1, Taylor LJ1, Zhao C2, Connell A1, Lee JJ2, Fett B2, Bushman FD1, Bittinger K3.
-
-
-### 2018
-
-https://twitter.com/pathogenomenick/status/1053620015579172864
-Nick Loman on Twitter: "An extremely informative thread explaining why metagenomic assemblies of related species and strains results in subsequent difficulties during binning:… https://t.co/CzUcpRiYdJ"
-8:12 AM - 20 Oct 2018
-
-https://www.ncbi.nlm.nih.gov/pubmed/29950328
-J Clin Microbiol. 2018 Aug 27;56(9). pii: e00813-18. doi: 10.1128/JCM.00813-18. Print 2018 Sep.
-Lowering the Barriers to Routine Whole-Genome Sequencing of Bacteria in the Clinical Microbiology Laboratory.
-Rhoads DD1,2.
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29460198
-J Plant Res. 2018 Jul;131(4):709-717. doi: 10.1007/s10265-018-1017-x. Epub 2018 Feb 19.
-Collaborative environmental DNA sampling from petal surfaces of flowering cherry Cerasus × yedoensis 'Somei-yoshino' across the Japanese archipelago.
-Ohta T1, Kawashima T2, Shinozaki NO3, Dobashi A4, Hiraoka S5, Hoshino T6, Kanno K7, Kataoka T8, Kawashima S9, Matsui M10, Nemoto W11, Nishijima S12,13,14, Suganuma N15, Suzuki H16, Taguchi YH17, Takenaka Y18, Tanigawa Y19, Tsuneyoshi M20, Yoshitake K21, Sato Y22, Yamashita R22, Arakawa K23, Iwasaki W10.
-
-Fig.2: "Deblur" -> "Deblur or DADA2" に修正し
-https://twitter.com/merenbey/status/999416078446071809
-A. Murat Eren (Meren) on Twitter: "This is unfair to DADA2
-6:25 PM - 23 May 2018
-
-
-### 2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/28321234
-Front Genet. 2017 Mar 6;8:23. doi: 10.3389/fgene.2017.00023. eCollection 2017.
-A Review of Bioinformatics Tools for Bio-Prospecting from Metagenomic Sequence Data.
-Roumpeka DD1, Wallace RJ2, Escalettes F3, Fotheringham I3, Watson M1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5337752/
-Data Sharing and Online Portals
-MG-RAST (Glass et al., 2010) 
-EBI MetaGenomics (Hunter et al., 2014) 
-IMG/M (Markowitz et al., 2014) 
-
-https://www.ncbi.nlm.nih.gov/pubmed/25983555
-Bioinform Biol Insights. 2015 May 5;9:75-88. doi: 10.4137/BBI.S12462. eCollection 2015.
-Metagenomics: tools and insights for analyzing next-generation sequencing data derived from biodiversity studies.
-Oulas A1, Pavloudi C2, Polymenakou P1, Pavlopoulos GA3, Papanikolaou N3, Kotoulas G1, Arvanitidis C1, Iliopoulos I3.
-
-
-### 2017
-
-https://www.microbe.net/2017/11/15/nice-title-nice-paper-microbiome-datasets-are-compositional-and-this-is-not-optional/
-Nice title, nice paper: Microbiome Datasets Are Compositional: And This Is Not Optional  – microBEnet: the microbiology of the Built Environment network
-
-1:39 PM - 18 Dec 2017
-https://twitter.com/Tyu_Shi/status/942826707022520320
-Tyu_Shi on Twitter: "まだ記事は少ないが、ヒト腸内メタ関連のDalhousie Universityでのjournal clubのblog。Points of InterestとPoints of Confusionが箇条書きにされているので、元論文自分で読んだ後にblog読んで人との解釈の差異を知る… https://t.co/HdO5AftF7a"
-
-https://www.ncbi.nlm.nih.gov/pubmed/30197908
-Genes Dis. 2017 Sep;4(3):138-148. doi: 10.1016/j.gendis.2017.06.001. Epub 2017 Jun 23.
-Hypothesis Testing and Statistical Analysis of Microbiome.
-Xia Y1,2, Sun J2.
-
-2017年11月23日
-http://www.natureasia.com/ja-jp/nature/551/7681/nature24460/
-バイオインフォマティクス：定量的マイクロバイオームプロファイリングで明らかになった腸内細菌群集の変動と微生物量の関連
-
-3:09 PM - 7 Nov 2017
-beneficial microbes 有益な微生物 https://twitter.com/phylogenomics/status/927991509017866240
-
-
-### 2011
-
-https://wg.biosciencedbc.jp/doku.php/ゲノム・メタゲノム情報を基盤とした微生物dbの統合
-ゲノム・メタゲノム情報を基盤とした微生物dbの統合.txt · 最終更新: 2011/12/27 09:54 +0900 (外部編集)
-
-
-----------
-
-
-----------
-### ASaiM
-https://www.biorxiv.org/content/early/2017/09/04/183970
-ASaiM: a Galaxy-based framework to analyze raw shotgun data from microbiota | bioRxiv
-
-Published on Jul 9, 2015
-https://www.slideshare.net/bebatut/asaim-an-environment
-JOBIM 2015 - ASaiM: an environment to analyze intestinal microbiota - Demo with analysis of gut metatranscriptomic sequences
-
-https://twitter.com/galaxyproject/status/794453380202725376
-Galaxy Project on Twitter: "Computational workflow for fine-grained analysis of metagenomic samples, Pérez-Wohlfeil et al. https://t.co/MAJKM97Pxb #usegalaxy @InfoUMA https://t.co/FAtN47hRES"
-
-
-----------
-## HGT
-
-メタゲノムにおける遺伝子水平伝播イベント同定手法に関する総説
-review
-https://www.ncbi.nlm.nih.gov/pubmed/31504488
-Genome Biol Evol. 2019 Oct 1;11(10):2750-2766. doi: 10.1093/gbe/evz184.
-Current and Promising Approaches to Identify Horizontal Gene Transfer Events in Metagenomes.
-Douglas GM1, Langille MGI1.
-
-
-### DaisyGPS
-https://www.ncbi.nlm.nih.gov/pubmed/31335917
-PLoS Comput Biol. 2019 Jul 23;15(7):e1007208. doi: 10.1371/journal.pcbi.1007208. eCollection 2019 Jul.
-Where did you come from, where did you go: Refining metagenomic analysis tools for horizontal gene transfer characterisation.
-Seiler E1,2, Trappe K1, Renard BY1.
-
-### MetaCHIP
-
-https://www.ncbi.nlm.nih.gov/pubmed/30832740
-Microbiome. 2019 Mar 4;7(1):36. doi: 10.1186/s40168-019-0649-y.
-MetaCHIP: community-level horizontal gene transfer identification through the combination of best-match and phylogenetic approaches.
-Song W1,2, Wemheuer B1,3, Zhang S1,2, Steensen K1,4, Thomas T5,6.
-
-http://kazumaxneo.hatenablog.com/entry/2019/03/12/224600
-メタゲノムbinsからHGTを検出する MetaCHIP - macでインフォマティクス
-
-----------
-## MGnify
-
-https://www.ebi.ac.uk/metagenomics/
-MGnify
-
-https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
-phmmer search | EBI metagenomics
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/31696235
-Nucleic Acids Res. 2019 Nov 7. pii: gkz1035. doi: 10.1093/nar/gkz1035. [Epub ahead of print]
-MGnify: the microbiome analysis resource in 2020.
-Mitchell AL1, Almeida A1,2, Beracochea M1, Boland M1, Burgin J1, Cochrane G1, Crusoe MR3, Kale V1, Potter SC1, Richardson LJ1, Sakharova E1, Scheremetjew M1, Korobeynikov A4, Shlemov A4, Kunyavskaya O4, Lapidus A4, Finn RD1.
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1035/5614179
-
-https://integbio.jp/dbcatalog/record/nbdc01916
-EBI Metagenomics は 対象範囲変更にあわせて名称をMgnifyに変更しました。こちらはすべてのメタゲノミクス研究者を支援することを目的とした、自由に利用可能なリソースです。メタゲノムデータを自動的に解析･保存するパイプラインとして機能します。系統発生の多様性の他、サンプルの機能的および代謝的ポテンシャルについての知見を提供することを目的としています。リポジトリ内のすべての公開データは、自由に参照することができます。
-
-
-
-
-
-----------
-
-### Metagenomic Assembly
-
-https://omictools.com/metagenomic-assembly-category
-Assembly software tools | Metagenomic sequencing analysis - OMICtools
-
-https://www.ncbi.nlm.nih.gov/pubmed/28693474
-BMC Genomics. 2017 Jul 10;18(1):521. 
-Assembling metagenomes, one community at a time.
-
-https://twitter.com/StevenJRobbins/status/849484107797204997
-Three very recent papers comparing metagenome assembly tools:
-
-https://www.ncbi.nlm.nih.gov/pubmed/28099457
-PLoS One. 2017 Jan 18;12(1):e0169662.
-Comparing and Evaluating Metagenome Assembly Tools from a Microbiologist's Perspective - Not Only Size Matters!
-
-https://www.ncbi.nlm.nih.gov/pubmed/27698619
-Yale J Biol Med. 2016 Sep 30;89(3):353-362. eCollection 2016.
-Metagenomic Assembly: Overview, Challenges and Applications.
-Ghurye JS1, Cepeda-Espinoza V1, Pop M1.
-
-[MetAMOS](https://github.com/treangen/MetAMOS)
-https://www.ncbi.nlm.nih.gov/pubmed/23320958
-Genome Biol. 2013 Jan 15;14(1):R2. doi: 10.1186/gb-2013-14-1-r2.
-MetAMOS: a modular and open source metagenomic assembly and analysis pipeline.
-
-[MOCAT](http://www.bork.embl.de/mocat/)
-https://www.ncbi.nlm.nih.gov/pubmed/23082188
-PLoS One. 2012;7(10):e47656.
-MOCAT: a metagenomics assembly and gene prediction toolkit.
-
-----------
-## book
-
-### 2018-11-19
-よくわかるバイオインフォマティクス入門/藤博幸/講談社
-https://www.kspub.co.jp/book/detail/5138212.html
-http://bookclub.kodansha.co.jp/product?item=0000275926
-９章　メタゲノム解析
-
-### 2016-12-01
-https://www.yodosha.co.jp/yodobook/book/9784758101974/
-実験医学別冊：NGSアプリケーション 今すぐ始める！　メタゲノム解析　実験プロトコール〜ヒト常在細菌叢から環境メタゲノムまでサンプル調製と解析のコツ - 羊土社
-第1章　メタゲノム解析の基本知識
-2．メタゲノムデータの情報解析のオーバービュー【東　光一，森　宙史，黒川　顕】 
-### 2016-09-12
-http://www.kyoto-up.or.jp/book.php?id=2128
-微生物生態学　ゲノム解析からエコシステムまで
-Chapter 10　微生物とウィルスのゲノムおよびメタゲノム
-
-----------
-
-
-
-----------
-## NA
-not available
-このツールは使用できなくなりました。
-
-### cognizer
-https://omictools.com/cognizer-tool
-This tool is not available anymore.
-https://www.ncbi.nlm.nih.gov/pubmed/26561344
-PLoS One. 2015 Nov 11;10(11):e0142102. doi: 10.1371/journal.pone.0142102. eCollection 2015.
-COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
-Bose T1, Haque MM1, Reddy C1, Mande SS1.
-The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
-
-
-
-
-----------
-## CAMI
-Critical Assessment of Metagenome Interpretation
-
-https://twitter.com/CAMI_challenge
-
-https://msystems.asm.org/content/3/4/e00103-18
-Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
-
-Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28967888
-Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
-Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
-
-----------
-## batch effect
-
-1:15 AM · May 23, 2021
-https://twitter.com/phylogenomics/status/1396137556345974788
-Jonathan Eisen on X: "This is really a phenomenally useful paper that I think everyone interested in #microbiome studies should read: "Identifying biases and their potential solutions in human microbiome studies" by @JTNearing et al. https://t.co/dhWrS1sj1E https://t.co/Icn6HWhkrN" / X
-https://pubmed.ncbi.nlm.nih.gov/34006335/
-Review Microbiome
-. 2021 May 18;9(1):113. doi: 10.1186/s40168-021-01059-0.
-Identifying biases and their potential solutions in human microbiome studies
-Jacob T Nearing 1, André M Comeau 2, Morgan G I Langille 3 4
-https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01059-0
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8132403/
-
-https://www.ncbi.nlm.nih.gov/pubmed/31776547
-Brief Bioinform. 2019 Nov 28. pii: bbz105. doi: 10.1093/bib/bbz105. [Epub ahead of print]
-Managing batch effects in microbiome data.
-Wang Y1, LêCao KA1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/30388197
-Bioinformatics. 2019 Jul 1;35(13):2348. doi: 10.1093/bioinformatics/bty874.
-Batch effects correction for microbiome data with Dirichlet-multinomial regression.
-Dai Z, Wong SH, Yu J, Wei Y.
-
-8x臨床研究の約2,000x糞便メタゲノムのメタアナリシスにより、複数の疾患／特定の病気に関連するヒト腸内マイクロバイオームの機能(KEGG annotated gene families)を同定。バッチ効果(batch effects)に言及
-https://www.ncbi.nlm.nih.gov/pubmed/31120034
-mSystems. 2019 May 14;4(4). pii: e00332-18. doi: 10.1128/mSystems.00332-18.
-A Metagenomic Meta-analysis Reveals Functional Signatures of Health and Disease in the Human Gut Microbiome.
-Armour CR1,2, Nayfach S3,4, Pollard KS4,5,6, Sharpton TJ7,8.
-https://msystems.asm.org/content/4/4/e00332-18
-"certain study effects (i.e., batch effects) are unlikely to be the source of variance between samples."
-
-----------
-## meta-analysis
-https://ja.wikipedia.org/wiki/メタアナリシス
-
-https://github.com/haruosuz/statistics#meta-analysis
-
-https://twitter.com/search?f=tweets&q=microbiome%20meta-analysis
-
-----------
-### metamicrobiomeR
-
-https://github.com/haruosuz/r4bioinfo/blob/master/R_microb/README.md#metamicrobiomer
-
-----------
-
-https://twitter.com/EricTopol/status/1112741724302893056
-Eric Topol on Twitter: "It's not enough to characterize the gut #microbiome by bacterial content. How #metagenomics tracks with colon #cancer, specific signatures https://t.co/yIH1TeYeVg https://t.co/jqRIcffhGZ @NatureMedicine… https://t.co/VfDiUXjqvO"
-11:41 AM - 1 Apr 2019
-
-https://www.nature.com/articles/s41591-019-0406-6
-Meta-analysis of fecal metagenomes reveals global microbial signatures that are specific for colorectal cancer | Nature Medicine
-Here, a meta-analysis of eight geographically and technically diverse fecal shotgun metagenomic studies of colorectal cancer (CRC, n = 768), which was controlled for several confounders, identified a core set of 29 species significantly enriched in CRC metagenomes (false discovery rate (FDR) < 1 × 10−5). 
-
-https://www.nature.com/articles/s41591-019-0405-7
-Metagenomic analysis of colorectal cancer datasets identifies cross-cohort microbial diagnostic signatures and a link with choline degradation | Nature Medicine
-We performed a meta-analysis of five publicly available datasets and two new cohorts and validated the findings on two additional cohorts, considering in total 969 fecal metagenomes. 
-
-### Qiita
-### 2018-10
-
-10:30 PM · Oct 4, 2018
-https://twitter.com/strnr/status/1047841444214558720
-Stephen Turner on Twitter: "Qiita (pronounced chee-tah): rapid, web-enabled microbiome meta-analysis Paper: https://t.co/aXTv0cTCND Web: https://t.co/XfwpO4bP0I Docs: https://t.co/CKEEffUSCW Source: https://t.co/HWOT2qYHeZ https://t.co/d13hW5GJ3n" / Twitter
-
-6:44 AM · Oct 2, 2018
-https://twitter.com/gibbological/status/1046878477981343744
-Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Qiita: rapid, web-enabled microbiome meta-analysis https://t.co/4Osl11rR8X from @KnightLabNews @gregcaporaso and @Pdorrestein1 labs. Useful tool for all us 'data parasites' :)" / Twitter
-https://twitter.com/inschool4life/status/1047107731327467521
-Did they comment on batch effects?
-
-https://pubmed.ncbi.nlm.nih.gov/30275573/
-Meta-Analysis Nat Methods
-. 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.
-Qiita: rapid, web-enabled microbiome meta-analysis
-Antonio Gonzalez 1, Jose A Navas-Molina 1 2 3, Tomasz Kosciolek 1, Daniel McDonald 1, Yoshiki Vázquez-Baeza 1, Gail Ackermann 1, Jeff DeReus 1, Stefan Janssen 1, Austin D Swafford 4, Stephanie B Orchanian 4, Jon G Sanders 1, Joshua Shorenstein 1 5, Hannes Holste 1 2, Semar Petrus 6, Adam Robbins-Pianka 7, Colin J Brislawn 8, Mingxun Wang 9, Jai Ram Rideout 10, Evan Bolyen 10, Matthew Dillon 10, J Gregory Caporaso 10 11, Pieter C Dorrestein 1 4 9, Rob Knight 12 13 14
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235622/
-Despite these challenges, meta-analyses of microbiomes have a rich history of success, identifying the major global drivers of diversity in microbial communities4, characterizing the evolution of the vertebrate gut microbiome5, and surveying specialized fields such as the built environment6. Meta-analyses also enable scientists to identify important biases such as DNA extraction, primers, or analytical pipelines7,8, which need to be controlled to generate biological discoveries.
-
-### almlab
-### 2018-04-23
-
-https://be.mit.edu/directory/eric-alm
-Eric Alm
-http://almlab.mit.edu/
-
-2:55 AM · Apr 24, 2018
-https://twitter.com/gibbological/status/988476547614105601
-Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Befuddled by batch effects? Check out our simple, non-parametric solution for 16S case-control studies in @PLOSCompBiol https://t.co/grMDm7SIQl -- method available as a @qiime2 plugin thanks to @cduvallet" / Twitter
-
-https://pubmed.ncbi.nlm.nih.gov/29684016/
-Comparative Study PLoS Comput Biol
-. 2018 Apr 23;14(4):e1006102. doi: 10.1371/journal.pcbi.1006102. eCollection 2018 Apr.
-Correcting for batch effects in case-control microbiome studies
-Sean M Gibbons 1 2 3, Claire Duvallet 1 2, Eric J Alm 1 2 3
-
-April 17, 2018
-https://cduvallet.github.io/posts/2018/04/microbiome-data
-An empirical analysis of microbiome data availability - Claire Duvallet
-
-https://www.ncbi.nlm.nih.gov/pubmed/29209090
-Nat Commun. 2017 Dec 5;8(1):1784. doi: 10.1038/s41467-017-01973-8.
-Meta-analysis of gut microbiome studies identifies disease-specific and shared responses.
-Duvallet C1,2, Gibbons SM1,2,3, Gurry T1,2,3, Irizarry RA4,5, Alm EJ6,7,8.
-We perform a cross-disease meta-analysis of these studies using standardized methods. 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5716994/
-Code availability
-The code to reproduce all of the analyses in this paper is available at https://github.com/cduvallet/microbiomeHD. 
-
-3:05 AM · Dec 7, 2017
-https://twitter.com/Kazu_Kasahara/status/938469390739234816
-Kazuyuki Kasahara on Twitter: "流行しているマイクロバイオーム研究に警鐘を鳴らす論文。28報の研究、10疾患のメタ解析から、病気で認める"dysbiosis"の多くは疾患特異的ではなく、バイオマーカーになり難い。 https://t.co/AVJHhcCCcI" / Twitter
-
-5:45 AM · Dec 6, 2017
-https://twitter.com/cduvallet/status/938147253512015873
-Claire Duvallet on Twitter: "The meta-analysis is out in @NatureComms! We found that diseases are characterized by consistent types of microbial community shifts, and that lots of bacteria respond non-specifically to multiple diseases. @gibbological @ThomasGurry @ejalm @rafalab https://t.co/XJxmxApgXv" / Twitter
-
-### 2018-06
-https://twitter.com/ayaKT/status/1005378142146457600
-ayaKT on Twitter: "~19000人規模のmicrobiome-GWAS に着手しました論文。どんな解析結果が出てくるのか楽しみ。 いろんな16Sシーケンス手法を比較可能にする考えかたも、勉強になる。fmfm https://t.co/hNMXyZHzWj"
-5:16 AM - 9 Jun 2018
-
-https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0479-3
-Meta-analysis of human genome-microbiome association studies: the MiBioGen consortium initiative | Microbiome
-We are now in the process of benchmarking the association tests and performing meta-analyses of genome-wide associations. All pipeline and summary statistics results will be shared using public data repositories.
-
-### 2017-12-22
-https://www.ncbi.nlm.nih.gov/pubmed/29273717
-Nat Commun. 2017 Dec 22;8(1):2260. doi: 10.1038/s41467-017-02209-5.
-Strain profiling and epidemiology of bacterial species from metagenomic sequencing.
-Albanese D1, Donati C2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5741664/
-- Here we present StrainEst, a novel, reference-based method that uses the single-nucleotide variants (SNV) profiles of the available genomes of selected species to determine the number and identity of coexisting strains and their relative abundances in mixed metagenomic samples.
-- meta-analyses
-
-### 2017-11-20
-https://twitter.com/NatureMicrobiol/status/932704694912389120
-Nature Microbiology on Twitter: ".@drkellysierra & co: Integration and meta-analysis of global #soil datasets uncover patterns of #microbial structure,… https://t.co/QB51kFBtK5"
-3:18 PM - 20 Nov 2017
-
-https://pubmed.ncbi.nlm.nih.gov/29158606/
-Nat Microbiol
-. 2018 Feb;3(2):189-196. doi: 10.1038/s41564-017-0062-x. Epub 2017 Nov 20.
-Detecting Macroecological Patterns in Bacterial Communities Across Independent Studies of Global Soils
-- Whereas previous meta-analysis efforts have focused on bacterial diversity measures or abundances of major taxa, we show that disparate amplicon sequence data can be combined at the taxonomy-based level to assess bacterial community structure.
-
-### 2016
-https://www.ncbi.nlm.nih.gov/pubmed/27400279
-PLoS Comput Biol. 2016 Jul 11;12(7):e1004977. doi: 10.1371/journal.pcbi.1004977. eCollection 2016 Jul.
-Machine Learning Meta-analysis of Large Metagenomic Datasets: Tools and Biological Insights.
-Pasolli E1, Truong DT1, Malik F2, Waldron L2, Segata N1.
-http://segatalab.cibio.unitn.it/tools/metaml
-MetAML - Metagenomic prediction Analysis based on Machine Learning
-機械学習
-
-### 2015
-https://www.ncbi.nlm.nih.gov/pubmed/26459172
-Microbiome. 2015 Oct 13;3:49. doi: 10.1186/s40168-015-0108-3.
-Microbiota of the indoor environment: a meta-analysis.
-Adams RI1, Bateman AC2, Bik HM3,4, Meadow JF5.
-室内環境の微生物群集：メタアナリシス
-
-----------
-## mothur-qiime
-https://mothur.org
-
-https://www.pediatricsurgery.site/entry/2017/11/19/200241
-mothur開発者によるmothurとQIIMEの比較 - Note of Pediatric Surgery
-
-https://biosciencedbc.jp/gadget/human/170831_mori_170830.pdf
-メタ16S解析利点
-・マシンパワーは少なくて済み、解析ツールも普及(QIIME・mothur等)
-
-https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_article/-char/ja/
-総　　説 ＜特集：腸内細菌叢Microbiotaの分子生物学的解析法の成果と未来＞
-進化する次世代シーケンサーによる腸内細菌叢の解析
-東 佳那子, 中山 二郎
-2015 年 29 巻 3 号 p. 135-144
-https://www.jstage.jst.go.jp/article/jim/29/3/29_135/_pdf
-データセットは,16S rRNA 配列から菌叢データを 得るためのオープンソースソフトウェアを開発してい る Mothur プロジェクト(4)が,Silva の 16S rRNA の全長配列データベースから 14,956 本を網羅的に抽出 し作成したデータセット silva.bacteria.fasta を用いた(http://www.mothur.org/wiki/Silva_reference_files).
-
-ここで は,Mothur 同様,菌叢解析のオープンソースソフトウェ アである QIIME(Quantitative Insights into Microbial Ecology, http://qiime.org/)(5) の assign_taxonomy.py のプログラムの uclust のアルゴリズムを用いた.
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3775626/
-PeerJ. 2013; 1: e157.
-Abundance-weighted phylogenetic diversity measures distinguish microbial community states and are robust to sampling depth
-
-In microbial ecology studies, the most commonly used ways of investigating alpha (within-sample) diversity are either to apply non-phylogenetic measures such as Simpson’s index to Operational Taxonomic Unit (OTU) groupings, or to use classical phylogenetic diversity (PD), which is not abundance-weighted. 
-
-As of the publication of this paper, no abundance-weighted phylogenetic alpha diversity measures are implemented in either mothur (Schloss et al., 2009) or QIIME (Caporaso et al., 2010), two of the most popular tools for analysis of microbial ecology data. 
-
-
-----------
-## Greengenes
-
-http://greengenes.secondgenome.com
-The Greengenes Database
-
-http://greengenes.secondgenome.com/downloads
-Download Area
-
-----------
-## RDP
-
-https://www.ncbi.nlm.nih.gov/pubmed/24288368
-Nucleic Acids Res. 2014 Jan;42(Database issue):D633-42. doi: 10.1093/nar/gkt1244. Epub 2013 Nov 27.
-Ribosomal Database Project: data and tools for high throughput rRNA analysis.
-Cole JR1, Wang Q, Fish JA, Chai B, McGarrell DM, Sun Y, Brown CT, Porras-Alfaro A, Kuske CR, Tiedje JM.
-
-http://rdp.cme.msu.edu
-RDP Release 11 -- Sequence Analysis Tools
-
-http://rdp.cme.msu.edu/misc/resources.jsp
-RDP Resource Download Area
-
-----------
-## 16S
-
-https://www.biorxiv.org/content/early/2018/10/13/441576
-Nomenclature Errors in Public 16S rRNA Gene Reference Databases
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29688343
-FEMS Microbiol Lett. 2018 May 1;365(10). doi: 10.1093/femsle/fny104.
-A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class.
-Tobin TC1, Shade A2.
-
-
-https://pubmed.ncbi.nlm.nih.gov/29688343/
-FEMS Microbiol Lett
-. 2018 May 1;365(10):fny104. doi: 10.1093/femsle/fny104.
-A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class
-Tammy C Tobin 1, Ashley Shade 2
-https://academic.oup.com/femsle/article/365/10/fny104/4980908?login=false
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5954299/
-In this module, microbiology students used Quantitative Insights into Microbial Ecology (QIIME) to perform taxonomic, phylogenetic and statistical analyses on bacterial communities from three hot mine fire-impacted surface soils using 16S rRNA gene amplicon sequences. 
-
-
-
-https://twitter.com/BioMickWatson
-
-
-
-https://www.pediatricsurgery.site/entry/2017/11/19/200241
-mothur開発者によるmothurとQIIMEの比較 - Note of Pediatric Surgery
-
-mothurではRDP、SILVA、greengenesを使用することができる
-
-https://www.ncbi.nlm.nih.gov/pubmed/28705636
-J Biotechnol. 2017 Nov 10;261:2-9. doi: 10.1016/j.jbiotec.2017.07.010. Epub 2017 Jul 10.
-A review of bioinformatics platforms for comparative genomics. Recent developments of the EDGAR 2.0 platform and its utility for taxonomic and phylogenetic studies.
-Yu J1, Blom J2, Glaeser SP3, Jaenicke S4, Juhre T4, Rupp O4, Schwengers O4, Spänig S4, Goesmann A4.
-https://www.sciencedirect.com/science/article/pii/S0168165617315225
-But, because it is well known that the phylogenetic resolution of the primary phylogenetic marker, the 16S rRNA gene, is limited at the lower taxonomic levels, the integration of a genome sequence based phylogeny into the polyphasic approach of the prokaryotic taxonomy and systematics is the clear consequence in the genome area (Chun and Rainey, 2014, Ramasamy et al., 2014, Oren and Garrity, 2014, Vandamme and Peeters, 2014, Sangal et al., 2016).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28662636
-BMC Genomics. 2017 Jun 29;18(1):499. doi: 10.1186/s12864-017-3888-y.
-Relating genomic characteristics to environmental preferences and ubiquity in different microbial taxa.
-Cobo-Simón M1, Tamames J2.
-
-https://www.researchgate.net/post/Is_Greengenes_or_SILVA_better_for_bacterial_microbiome_studies
-Is Greengenes or SILVA better for bacterial microbiome studies?
-
-https://www.ncbi.nlm.nih.gov/pubmed/28361695
-BMC Genomics. 2017 Mar 14;18(Suppl 2):114. doi: 10.1186/s12864-017-3501-4.
-SILVA, RDP, Greengenes, NCBI and OTT - how do these taxonomies compare?
-Balvočiūtė M1, Huson DH2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5374703/
-For the comparisons we used a taxonomy associated with the Greengenes database as released on May 2013. Although Greengenes is still included in some metagenomic analyses packages, for example QIIME [22], it has not been updated for the last three years.
-
-Mar 2017
-https://forum.qiime2.org/t/classification-using-greengenes-v-silva/409
-Classification using GreenGenes v. SILVA - User support - QIIME 2 Forum
-
-https://www.ncbi.nlm.nih.gov/pubmed/27166378
-Nucleic Acids Res. 2016 Jun 20;44(11):5022-33. doi: 10.1093/nar/gkw396. Epub 2016 May 10.
-Phylogeny-aware identification and correction of taxonomically mislabeled sequences.
-Kozlov AM1, Zhang J2, Yilmaz P3, Glöckner FO4, Stamatakis A5.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914121/
-First, we evaluate taxonomic annotations of type strains only, using the same sequence set and alignment (LTP v123) for all four databases (data sets GG13_T, LTP123_T, RDP11_T and SLV123_T in Table ​Table1).1). 
-
-https://mothur.org/blog/2015/No-greengenes-hasnt-improved/
-No, greengenes' reference alignment hasn't improved
-
-- SILVA (good for alignment and classification)
-- greengenes (good for alignment and classification)
-- RDP (good for classification)
-
-https://www.ncbi.nlm.nih.gov/pubmed/27603265
-Genome. 2016 Oct;59(10):783-791. Epub 2016 May 11.
-bcgTree: automatized phylogenetic tree building from bacterial core genomes.
-Ankenbrand MJ1,1, Keller A1,1.
-The need for multi-gene analyses in scientific fields such as phylogenetics and DNA barcoding has increased in recent years. In particular, these approaches are increasingly important for differentiating bacterial species, where reliance on the standard 16S rDNA marker can result in poor resolution. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/23460914
-PLoS One. 2013;8(2):e57923. doi: 10.1371/journal.pone.0057923. Epub 2013 Feb 27.
-The variability of the 16S rRNA gene in bacterial genomes and its consequences for bacterial community analyses.
-Větrovský T1, Baldrian P.
-
-
-2017/08/30
-https://www.aist.go.jp/aist_j/press_release/pr2017/pr20170830/pr20170830.html
-産総研：進化系統分類の指標となる16S rRNA遺伝子の進化的な中立性を実験的に証明
-
-https://www.nite.go.jp/nbrc/safety/risk_assessment.html
-微生物利用におけるリスク評価に関する技術情報の提供 | バイオテクノロジー | 製品評価技術基盤機構
-DDHにおける菌種判定の閾値である類似度70%は、ANIにおいて95-96%に相当すると報告されています。このことから、近年では、DDHの代替としてANIに基づく新種の提案が行われてきています(Baek et al. 2015, IJSEM 65: 504; Shahraki et al. 2015, IJSEM 65: 504)。
-OTUとは、ある一定以上の類似性（一般的には96-97%）を持つ配列同士を一つの菌種のように扱うための操作上の分類単位です。
-
-バイオレメディエーションにおける生態系影響評価手法	Illumina社MiSeqシーケンサーを用いた、環境中の微生物生態系解析の実験手法およびパイプラインツール「QIIME」を用いたデータ解析手法の手順書です。 2016年3月25日 https://www.nite.go.jp/data/000081956.pdf
-
-https://seikagaku.jbsoc.or.jp/10.14952/SEIKAGAKU.2015.870475/data/index.html
-Journal of Japanese Biochemical Society 87(4): 475-477 (2015)
-16SリボソームRNAの水平伝播実験からみえてくるリボソームの可塑性
-佃 美雪1,2，宮崎 健太郎1,3
-
-https://www.jstage.jst.go.jp/article/kagakutoseibutsu/52/2/52_70/_pdf
-化学と生物 Vol. 52, No. 2, 2014
-16S rRNA遺伝子の「水平伝播」
-異種16S rRNAによる遺伝的相補
-
-2014
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3903645/
-MetaMetaDB: A Database and Analytic System for Investigating Microbial Habitability
-
-Therefore, MetaMetaDB chooses the hits exhibiting above 97%, 95%, 90%, 85%, and 80% identity from the search result list, which correspond approximately to the taxonomic levels of species, genus, family, order, and class [1], respectively, 
-
-02/02/13
-http://www.jarmam.gr.jp/situmon/16sr_rna.html
-16s rRNA の相同性と同定精度の関係は???
-一般的には, 97%以上の相同性があれば類縁関係があり、99%以上であれば同種である可能性が高いとしています。
-極端な例では, 100%の相同性が認められても, 属レベルで異なる例さえ示されているのです。
-
-2012 年
-https://www.jstage.jst.go.jp/article/jslab/23/1/23_24/_pdf
-総説
-16S rRNA 遺伝子の大量シークェンシングによる 菌叢解析の現状と問題点
-是則 有希, Jiahui Jiang, 中山 二郎
-属レベルまでの菌叢プロファイルであ れば、Ribosomal Database Project I(I 以下、RDP II)のウェ ブサイトにある RDP classifier を用いることで容易に菌叢 プロファイルに変換することができる。
-一方、種レベルでの菌叢データを得ることは非常に困難 である。実際に、理論上 16S rRNA 遺伝子の部分配列か ら種を特定することは不可能であり、
-
-http://www.aist.go.jp/aist_j/press_release/pr2012/pr20121030/pr20121030.html
-産総研：生物種を越えた16S rRNA遺伝子の機能相補性を確認
-
-2011
-https://www.sbj.or.jp/wp-content/uploads/file/sbj/8912/8912_yomoyama_2.pdf
-生物工学基礎講座 バイオよもやま話 何から始めよう 微生物の同定 細菌・アーキア編
-浜田 盛之,鈴木 健一朗
-特に 16S rRNA 遺伝子配列の相同値が 97% に満たない場合 などは新属になる可能性もあるため,系統樹を作成して 既知の属のクラスターに含まれるのかどうかを慎重に確 認したほうがよい.
-
-https://www.mitsui-norin.co.jp/mmid/knowledge/yokota/index3.html
-MMID｜微生物を知ろう｜微生物分類同定講座
-16S ｒRNA遺伝子塩基配列の相同性が98％以上の場合、必ずしも同種であるとは限らず、属によっては99％以上であっても別種の場合があります。
-
-https://ja.wikipedia.org/wiki/16S_rRNA系統解析
-
-http://www.jarmam.gr.jp/situmon3/16sr-rna.html
-16S rRNAでの微生物同定
-
-----------
-## amplicon-shotgun
-
-targeted amplicon sequencing (16S, 18S, ITS) vs. shotgun sequencing (metagenomics)
-
-https://pubmed.ncbi.nlm.nih.gov/28337071/
-Review J Biomol Tech
-. 2017 Apr;28(1):8-18. doi: 10.7171/jbt.17-2801-006. Epub 2017 Mar 17.
-International Standards for Genomes, Transcriptomes, and Metagenomes
-Christopher E Mason 1, Ebrahim Afshinnekoo 2, Scott Tighe 3, Shixiu Wu 4, Shawn Levy 5
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5359768/
-
-TABLE 3
-Comparison of metagenomic assay capabilities and limitations
-
-Data type	16S	18S	ITS	Shotgun
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/28761145
-Sci Rep. 2017 Jul 31;7(1):6589. doi: 10.1038/s41598-017-06665-3.
-Large-scale differences in microbial biodiversity discovery between 16S amplicon and shotgun sequencing.
-Tessler M1,2, Neumann JS3, Afshinnekoo E4,5,6, Pineda M4,5, Hersch R7, Velho LFM8,9, Segovia BT8, Lansac-Toha FA8, Lemke M10, DeSalle R7, Mason CE11,12,13, Brugler MR14,15.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21121044
-Pac Symp Biocomput. 2011:165-76.
-Comparing bacterial communities inferred from 16S rRNA gene sequencing and shotgun metagenomics.
-Shah N1, Tang H, Doak TG, Ye Y.
-
-ボストン交通システムのマイクロバイオーム
-https://github.com/haruosuz/metasub/tree/master/references#boston-subway-microbiome
-https://microbe.net/2016/06/30/microbes-on-the-boston-t/
-The 16S and shotgun results were mostly complementary. Both showed high abundances of Staphylococcus, Corynebacterium, and Streptococcus. The main difference was that the V4 primers could not detect Propionibacterium acnes: these primers are not ideal for skin microbial communities – which is what the subway most resembled (based on Microbial SourceTracker and correlations in abundance with skin taxa). 
-
-https://twitter.com/Tyu_Shi/status/982940944495403009
-Tyu_Shi on Twitter: "したがって、16S rRNA遺伝子のみの解析をメタゲノム解析と呼ぶのは、マイクロバイオーム業界で常識ではありません。概念としては誤用だと個人的には考えておりますし、古くからメタゲノム解析に関わってきたUC DavisのJ. Eisen等の研究者も、たびたびその誤用を批判しております。… https://t.co/SpajjZUOIW"
-7:19 AM - 8 Apr 2018
-
-https://twitter.com/Tyu_Shi/status/248334905816276993
-Tyu_Shi on Twitter: "Many INSDC entry of 16S rRNA amplicon study use terms "metagenome". troublesome! #GSC14"
-4:17 AM - 19 Sep 2012
-
-https://twitter.com/phylogenomics/status/966887584608567297
-Jonathan Eisen on Twitter: "Not sure where you are going with this but I don't think there can be any debate here - the term "metagenome" and its variants like "metagenomics" clearly refer to genome-scale studies and thus there is simply no way a 16S study should be called "metagenomics"… https://t.co/ScdBSzIzlG"
-11:08 PM - 22 Feb 2018
-
-https://phylogenomics.blogspot.com/2012/08/referring-to-16s-surveys-as.html
-The Tree of Life: Referring to 16S surveys as "metagenomics" is misleading and annoying #badomics #OmicMimicry
-
-
 ----------
 ## people
 
@@ -2023,23 +2098,19 @@ We perform a cross-disease meta-analysis of these studies using standardized met
 
 https://researchmap.jp/himori/
 
+2024.03.09
+https://doi.org/10.7875/togotv.2024.011
+メタゲノムのアノテーション @ 遺伝研研究会 Annotathon2023
+11:54
 
 2020.12.12
 https://doi.org/10.7875/togotv.2020.090
 メタゲノム解析 (MicrobeDB.jp) @ AJACSオンライン3 | TogoTV
+57:55
 
-2019.12.16
-https://doi.org/10.7875/ajacs.2019.033
-メタゲノム解析ツール | TogoTV
-講師
-森 宙史
-https://doi.org/10.7875/togotv.2019.203
-メタゲノム解析ツール @ AJACS十勝2 | TogoTV
-
-
+2020年（IIBMP2020）
 https://www.jsbi.org/iibmp2020/program/sponsor.html
 9/2（水）14:45〜16:15	データサイエンティスト養成セッション：実践的オミックス解析
-https://www.jsbi.org/iibmp2020/program/sponsor.html#sp6
 森 宙史（国立遺伝学研究所）
 「メタゲノム解析」
 https://www.youtube.com/watch?v=7mhsOuGYgYM&list=PL_dbAF_dbOEpcBhGhyv9Wvl2XU9MnmFUD&index=5
@@ -2049,6 +2120,13 @@ https://www.youtube.com/watch?v=7mhsOuGYgYM&list=PL_dbAF_dbOEpcBhGhyv9Wvl2XU9Mnm
   - SILVA
   - Greengenes
   - RDP
+
+2019.12.16
+https://doi.org/10.7875/ajacs.2019.033
+メタゲノム解析ツール | TogoTV
+https://doi.org/10.7875/togotv.2019.203
+メタゲノム解析ツール @ AJACS十勝2 | TogoTV
+01:29:00
 
 2019年9月25日
 https://github.com/AJACS-training/AJACS79
