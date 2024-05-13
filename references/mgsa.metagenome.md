@@ -2098,6 +2098,22 @@ We perform a cross-disease meta-analysis of these studies using standardized met
 
 https://researchmap.jp/himori/
 
+
+11:35 AM · May 31, 2023
+https://twitter.com/Tyu_Shi/status/1663736034977521664
+Hiroshi Mori on X: "擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価 https://t.co/X9zWtvGZxQ 論文はこちら https://t.co/PRyZREPTHg" / X
+2023/05/31
+https://www.nig.ac.jp/nig/ja/2023/05/research-highlights_ja/pr20230531.html
+擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価
+https://pubmed.ncbi.nlm.nih.gov/37253538/
+DNA Res
+. 2023 Jun 1;30(3):dsad010. doi: 10.1093/dnares/dsad010.
+Assessment of metagenomic workflows using a newly constructed human gut microbiome mock community
+Hiroshi Mori 1 2, Tamotsu Kato 3 4, Hiroaki Ozawa 3 4, Mitsuo Sakamoto 5, Takumi Murakami 1 2, Todd D Taylor 6, Atsushi Toyoda 1 7, Moriya Ohkuma 5, Ken Kurokawa 1 2, Hiroshi Ohno 3 4 6
+https://academic.oup.com/dnaresearch/article/30/3/dsad010/7179629
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10229288/
+
+
 2024.03.09
 https://doi.org/10.7875/togotv.2024.011
 メタゲノムのアノテーション @ 遺伝研研究会 Annotathon2023
