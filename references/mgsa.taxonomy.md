@@ -8,6 +8,12 @@
 
 ----------
 
+2023/12/05  HOBART
+https://www.youtube.com/watch?v=jN2IB6V6SW4
+SYM08 2 2 Genome Taxonomy Database and SeqCode: Microbial Taxonomy and Nomenclature in the Age of...
+
+Genome Taxonomy Database and SeqCode: Microbial Taxonomy and Nomenclature in the Age of Big Sequence Data. Presented by Maria Chuvochina as part of SYM08 Exchange and reuse of environmental DNA and metabarcoding data at the TDWG 2023 Hybrid Annual Conference in Hobart, Tasmania 9–13 October. See content in TDWG Proceedings 2023: https://doi.org/10.3897/biss.7.111135 and check media tab for slides.
+
 ----------
 
 https://twitter.com/skato_jcm
