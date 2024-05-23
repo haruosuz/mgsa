@@ -45,12 +45,15 @@ Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
 ----------
 ## plasmid
 
-https://www.ncbi.nlm.nih.gov/pubmed/26534993
-Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
-Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
-Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
-plant-associated alphaproteobacterium, Aureimonas sp. AU20
+https://pubmed.ncbi.nlm.nih.gov/26534993/
+Proc Natl Acad Sci U S A
+. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
+Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome
+Mizue Anda 1, Yoshiyuki Ohtsubo 1, Takashi Okubo 1, Masayuki Sugawara 1, Yuji Nagata 1, Masataka Tsuda 1, Kiwamu Minamisawa 2, Hisayuki Mitsui 2
+https://www.pnas.org/doi/10.1073/pnas.1514326112
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
+rRNA is essential for life because of its functional importance in protein synthesis. The rRNA (rrn) operon encoding 16S, 23S, and 5S rRNAs is located on the “main” chromosome in all bacteria documented to date and is frequently used as a marker of chromosomes. Here, our genome analysis of a plant-associated alphaproteobacterium, Aureimonas sp. AU20, indicates that this strain has its sole rrn operon on a small (9.4 kb), high-copy-number replicon. 
+
 Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
 
 https://www.ncbi.nlm.nih.gov/pubmed/14663090
@@ -369,18 +372,9 @@ https://www.jstage.jst.go.jp/article/kagakutoseibutsu/55/6/55_378/_pdf
 予想外なゲノム構造と進化
 唯一のrrnは9.4 kbのレプリコン（pAU20rrn）に存在していた（図1A）．
 
-<<<<<<< HEAD
 https://schaechter.asmblog.org/schaechter/2015/11/your-operating-system-on-a-thumbdrive-a-snippet.html
 Small Things Considered: Your Operating System on a Thumbdrive – A Snippet
 
-=======
-
-
-https://schaechter.asmblog.org/schaechter/2015/11/your-operating-system-on-a-thumbdrive-a-snippet.html
-Small Things Considered: Your Operating System on a Thumbdrive – A Snippet
-
-
->>>>>>> 06ddba06894d8904e44869bcf55afab14e661887
 24 11月 2015
 http://www.microbial-ecology.jp/?p=7070
 日本微生物生態学会 » 染色体上からリボソームRNA遺伝子が消えた細菌を発見 ～ゲノムの常識を覆す～ (PNAS 112)
@@ -389,11 +383,6 @@ http://www.microbial-ecology.jp/?p=7070
 https://www.tohoku.ac.jp/japanese/2015/11/press20151104-01.html
 染色体上からリボソームRNA遺伝子が消えた細菌を発見 ～ゲノムの常識を覆す～
 
-https://www.ncbi.nlm.nih.gov/pubmed/26534993
-Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
-Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome.
-Anda M1, Ohtsubo Y1, Okubo T1, Sugawara M1, Nagata Y1, Tsuda M1, Minamisawa K2, Mitsui H2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
 
 ### miyazaki-kentaro
 宮崎 健太郎
