@@ -2114,6 +2114,9 @@ https://academic.oup.com/dnaresearch/article/30/3/dsad010/7179629
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10229288/
 
 
+
+
+
 2024.03.09
 https://doi.org/10.7875/togotv.2024.011
 メタゲノムのアノテーション @ 遺伝研研究会 Annotathon2023
@@ -2137,6 +2140,22 @@ https://www.youtube.com/watch?v=7mhsOuGYgYM&list=PL_dbAF_dbOEpcBhGhyv9Wvl2XU9Mnm
   - Greengenes
   - RDP
 
+2020.12.12
+https://doi.org/10.7875/togotv.2020.090
+メタゲノム解析 (MicrobeDB.jp) @ AJACSオンライン3
+https://youtu.be/pyoKka5K0Bg?t=2291
+38:12 / 57:54 | VITCOMIC2
+https://youtu.be/pyoKka5K0Bg?t=2559
+42:40 / 57:54 | LEA
+
+2020.01.16
+https://doi.org/10.7875/togotv.2020.016
+微生物統合データベースMicrobeDB.jpの活用法 @ AJACS世田谷 | TogoTV
+本日の統合TVは、2019年11月29日に開催された統合データベース講習会:AJACS世田谷から、国立遺伝学研究所 森 宙史 氏 による「微生物統合データベースMicrobeDB.jpの活用法」をお送りします。約53分です。
+目標:公共の微生物のゲノム・メタゲノム解析データ等をMicrobeDB.jpで検索する方法、および、VITCOMIC2、LEA等を用いて、自分の持つマイクロバイオームのアンプリコンシーケンスデータやメタゲノムシーケンスデータから系統組成を推定し、系統組成が似たMicrobeDB.jp上のメタゲノム解析データを検索する方法がわかる。
+https://youtu.be/SDus42JzFXc?t=2508
+41:48 / 53:45
+
 2019.12.16
 https://doi.org/10.7875/ajacs.2019.033
 メタゲノム解析ツール | TogoTV
@@ -2152,6 +2171,17 @@ https://github.com/AJACS-training/AJACS79
 http://doi.org/10.7875/ajacs.2019.033
 メタゲノム解析ツール｜統合TV(togotv)
 1:28:59
+
+2019年8月7日
+https://doi.org/10.7875/togotv.2019.121
+【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3 | TogoTV
+本日の統合TVは、2019年8月7日に開催された統合データベース講習会:AJACS番町3から、国立遺伝学研究所 森 宙史 助教による「【How to use1】MicrobeDB.jpの使い方」をお送りします。約25分です。
+https://youtu.be/tdKrSdmmSz4?t=882
+14:45 / 25:09
+https://microbedb.jp/
+Rickettsia
+https://github.com/MicrobeDBjp/document/blob/master/Lecture/MicrobeDBjpver2/20180329JSB/lecture-keyword.md
+building associated（建築物関連）
 
 http://doi.org/10.7875/ajacs.2017.016
 開催日時：2017-08-31
