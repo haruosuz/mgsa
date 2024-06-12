@@ -2143,10 +2143,12 @@ https://www.youtube.com/watch?v=7mhsOuGYgYM&list=PL_dbAF_dbOEpcBhGhyv9Wvl2XU9Mnm
 2020.12.12
 https://doi.org/10.7875/togotv.2020.090
 メタゲノム解析 (MicrobeDB.jp) @ AJACSオンライン3
-https://youtu.be/pyoKka5K0Bg?t=2291
-38:12 / 57:54 | VITCOMIC2
-https://youtu.be/pyoKka5K0Bg?t=2559
-42:40 / 57:54 | LEA
+- https://youtu.be/pyoKka5K0Bg?t=2291
+38:12 / 57:54
+VITCOMIC2
+- https://youtu.be/pyoKka5K0Bg?t=2559
+42:40 / 57:54
+LEA
 
 2020.01.16
 https://doi.org/10.7875/togotv.2020.016
