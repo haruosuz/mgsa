@@ -191,6 +191,31 @@ After classifying each rRNA gene pair as linked or unlinked based on the distanc
 
 ### 2019
 
+### 2019-01-28
+https://pubmed.ncbi.nlm.nih.gov/30691394/
+Comparative Study BMC Genomics
+. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment
+Nancy Merino 1 2, Shu Zhang 3 4, Masaru Tomita 5 6, Haruo Suzuki 7 8
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5389-z
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
+
+The diversity level of the 16S rRNA varied greatly between genera. 
+
+Since the advent of high-throughput sequencing, several studies have used amplicon sequencing to gain more information about the microbial community of the BE, including the ribosomal RNA region (e.g., 16S rRNA) for Bacteria and Archaea and the internal transcribed spacer (ITS) region for Fungi [29].
+
+Diversity among common BE genera
+To assess the diversity of the “Common BE genera,” we calculated the mean distance (Dmean) between all pairs of taxa within each genus based on 16S rRNA gene sequences available in the LTP datasets of the SILVA v128 release [58]. The SILVA database was selected over other 16S rRNA databases (e.g. Greengenes [59, 60] and RDP [61]) due to greater alignment quality [62] and because it is continuously updated [63]. 
+
+However, the 16S rRNA gene has its limitations (e.g., sequence heterogeneity [66] and horizontal gene transfer [67]), even though it is widely used as a molecular clock to understand evolution [67–70].
+
+Fig. 1
+Diversity levels in 16S rRNA gene sequences for each bacterial genus commonly found in the built environment. The mean distance (Dmean) between all pairs of bacteria was used as a diversity index [58]
+
+In addition, 16S rRNA amplicon sequencing was the dominant method used to determine the microbial community amongst the 54 publications used in this study. Some publications also conducted culture-based studies (e.g. study on airborne bacteria in Tokyo [112]). This introduces bias from the range of protocols used across publications, including sample collection methods (e.g. swab, wipe, air, and storage method), DNA extraction methods, primers used, 16S rRNA target region (e.g. V3–V4, V4, V6–V8), and sequencing methods [113–115]. With advances in sequencing for 16S rRNA (e.g., full-length [116]), genomes, and metagenomes (e.g., longer contigs, accurate base calling) and increased global research collaboration (e.g., MetaSUB [117]), more specific classification of BE microorganisms can be obtained at the species level, allowing for more accurate descriptions in future studies.
+
+
+
 ### 2018-06-08
 MINI REVIEW ARTICLE
 https://pubmed.ncbi.nlm.nih.gov/29937760/
