@@ -295,9 +295,8 @@ Diversity levels in 16S rRNA gene sequences for each bacterial genus commonly fo
 
 In addition, 16S rRNA amplicon sequencing was the dominant method used to determine the microbial community amongst the 54 publications used in this study. Some publications also conducted culture-based studies (e.g. study on airborne bacteria in Tokyo [112]). This introduces bias from the range of protocols used across publications, including sample collection methods (e.g. swab, wipe, air, and storage method), DNA extraction methods, primers used, 16S rRNA target region (e.g. V3–V4, V4, V6–V8), and sequencing methods [113–115]. With advances in sequencing for 16S rRNA (e.g., full-length [116]), genomes, and metagenomes (e.g., longer contigs, accurate base calling) and increased global research collaboration (e.g., MetaSUB [117]), more specific classification of BE microorganisms can be obtained at the species level, allowing for more accurate descriptions in future studies.
 
-
-
 ### 2018-06-08
+https://colil.dbcls.jp/browse/papers/29937760/1/100/year
 MINI REVIEW ARTICLE
 https://pubmed.ncbi.nlm.nih.gov/29937760/
 Front Microbiol
