@@ -11,7 +11,26 @@
   - [miyazaki-kentaro](#miyazaki-kentaro)
 
 ----------
+
+
+### 2018-03-19
+
+https://github.com/haruosuz/bioinfo/blob/master/2022/CaseStudy.md#vitcomic2
+
+https://pubmed.ncbi.nlm.nih.gov/29560821/
+BMC Syst Biol
+. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
+VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing
+Hiroshi Mori 1, Takayuki Maruyama 2, Masahiro Yano 2, Takuji Yamada 2, Ken Kurokawa 3
+https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0545-2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
+
+
+
+----------
+
 ## unclassified
+
 
 https://ja.wikipedia.org/wiki/16S_rRNA系統解析
 微生物系統学の分野において、この遺伝子配列は系統進化解析によく利用されている[2][3][4][5]。
@@ -68,6 +87,54 @@ Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
 
 ----------
 ## updates
+
+### 2024
+
+### 2024-08
+
+4:56 PM · Aug 5, 2024
+https://x.com/iMetaScience/status/1820368375962317232
+iMeta on X: "Long journey of #16S rRNA‐amplicon #sequencing toward cell‐based functional bacterial #microbiota characterization #iMetaOmics https://t.co/pkDy8HRnok #microbiome #SingleCell @wileymicrobio @wileyinresearch" / X
+https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.9
+Long journey of 16S rRNA‐amplicon sequencing toward cell‐based functional bacterial microbiota characterization - Jin - iMetaOmics - Wiley Online Library
+
+### 2024-07
+
+3:56 PM · Jul 4, 2024
+https://x.com/DaganLab/status/1808756699001495656
+DaganLab on X: "Happy to share our results on #plasmid #evolution. We show that plasmid contribution to gene transfer corresponds mostly to transfer of the plasmid entity rather than gene transfer between plasmids and chromosomes. https://t.co/23FWndfWAj Great work by Samer Kadibalban! https://t.co/XsWiaIgNoE" / X
+https://www.cell.com/current-biology/fulltext/S0960-9822(24)00814-5
+The extent and characteristics of DNA transfer between plasmids and chromosomes: Current Biology
+
+In addition to protein-coding genes, we examined evidence for the transfer of RNA genes between plasmids and chromosomes, which is considered as rare (but exceptions have been reported, e.g., for rRNA genes in Aureimonas plasmids42,43). Our analysis uncovered multiple segments that putatively correspond to transfer of RNA genes. The dataset analyzed here includes overall 197 rRNA genes in 42 plasmids, all of which are shared with the chromosome (Table S4). Out of the total 88 segments comprising rRNA genes, 61 segments correspond to a complete gene set of the rRNA operon. Example is sharing of an rRNA operon between plasmids and chromosomes in several isolates of the sugarcane endophyte Azospirillum brasilense, in agreement with previous reports.44 Additionally, the dataset analyzed here includes 832 tRNA genes in 171 plasmids, of which 239 (29%) genes are shared with the chromosome in 63 plasmid-chromosome pairs (Table S4). An extreme example is a tRNA island comprising 13 tRNA genes in plasmid pBM400 in the soil bacterium Priestia megaterium strain QM B1551.45,46 Using our approach, we uncovered four copies of that region in the host chromosome, in variable levels of sequence conservation. Notably, comparing the pBM400 plasmid genome with similar-sized plasmids from two recently sequenced P. megaterium isolates47 reveals a high conservation of the plasmid-encoded tRNA island (Figure S2). Considering their low frequency, sharing of rRNA and tRNA genes between plasmids and their host chromosomes remains a rather rare phenomenon in the analyzed dataset. The difference in the proportion of shared genes between rRNA genes (all genes) and tRNA genes (ca. 30%) indicates that plasmid tRNAs may supplement the host tRNA repertoire (e.g., as reported for Methanoperedenaceae48).
+
+
+
+Posted June 21, 2024.
+https://www.biorxiv.org/content/10.1101/2024.06.21.600076v1
+RecA is a reliable marker for bacterial taxonomy, even in the Candidate Phyla Radiation | bioRxiv
+
+Culture-independent approaches are commonly used to characterise the taxonomic composition of bacterial communities. Among these approaches, the amplicon-based metagenomics relies on specific genetic markers, such as the 16S rRNA gene, while the shotgun metagenomics annotates the whole bacterial DNA. Despite the 16S being the gold standard marker, studies highlighted its inefficiency in characterising and quantifying divergent bacterial groups such as the Candidate Phyla Radiation.
+
+In perspective, RecA could be considered as a broad-spectrum marker for amplicon-based studies to overcome the limits of 16S rRNA.
+
+
+### 2024-04-11
+
+2:00 AM · Apr 11, 2024
+https://twitter.com/ASMicrobiology/status/1778105814617604253
+ASM on X: "The RDP Classifier is one of the most popular machine learning approaches for taxonomic classification. Researchers updated the RDP taxonomy to incorporate newly described taxa &amp; recent changes in nomenclature for prokaryotes. Learn more in #MRAJournal: https://t.co/2hAFX3KfBj https://t.co/XzIYQuEnpo" / X
+https://pubmed.ncbi.nlm.nih.gov/38436268/
+Microbiol Resour Announc
+. 2024 Apr 11;13(4):e0106323. doi: 10.1128/mra.01063-23. Epub 2024 Mar 4.
+Updated RDP taxonomy and RDP Classifier for more accurate taxonomic classification
+Qiong Wang 1, James R Cole 2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11008197/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
+VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing
+
+A high-quality 16S rRNA gene sequence reference database that includes uncultured taxa was constructed using 16S rRNA gene sequences obtained from the Ribosomal Database Project (RDP) [12].
 
 ### 2023-11-14
 
@@ -130,12 +197,26 @@ mSphere on Twitter: "Amplicon sequence variants artificially split bacterial gen
 https://journals.asm.org/doi/10.1128/mSphere.00191-21
 Amplicon Sequence Variants Artificially Split Bacterial Genomes into Separate Clusters | mSphere
 
+12:51 AM · Jul 22, 2021
+https://x.com/genolib_19/status/1417874862970867717
+Kei on X: "OTUの代わりにASVを利用することは単一のゲノム (特に16Sコピーが複数の場合) を過度に別のものとして認識してしまう可能性があるとのこと | Amplicon Sequence Variants Artificially Split Bacterial Genomes into Separate Clusters | mSphere https://t.co/IBkP5jxUfP" / X
+
 ### 2021-05
 
 6:55 AM · May 11, 2021
 https://twitter.com/mikerappe/status/1391874644332802052
 Michael Rappe on Twitter: "Looking for good citations that reveal genomic heterogeneity between bacteria with identical 16S rRNA genes. Anyone have a favorite to share?" / Twitter
 
+https://pubmed.ncbi.nlm.nih.gov/24505072/
+Int J Syst Evol Microbiol
+. 2014 Feb;64(Pt 2):346-351. doi: 10.1099/ijs.0.059774-0.
+Towards a taxonomic coherence between average nucleotide identity and 16S rRNA gene sequence similarity for species demarcation of prokaryotes
+Mincheol Kim 1, Hyun-Seok Oh 2, Sang-Cheol Park 2, Jongsik Chun 2 1
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.059774-0#tab2
+
+
+
+2021-02-09
 大腸菌リボソームオペロンの遺伝子変換
 https://pubmed.ncbi.nlm.nih.gov/33585862/
 G3 (Bethesda)
@@ -247,26 +328,37 @@ Conclusion
 
 The copy contributing part of the genome may be acquired by horizontal transfer. 16S rRNA sequences have long been used as an “ultimate chronometer” for phylogenetic classification of bacterial species but the effect of multiple rrs in bacterial genomes and their location in chromosomes or plasmids has not been considered.
 
-### 2018-03-19
+### 2017-10-26
 
-https://github.com/haruosuz/bioinfo/blob/master/2022/CaseStudy.md#vitcomic2
+https://pubmed.ncbi.nlm.nih.gov/29073157/
+PLoS One
+. 2017 Oct 26;12(10):e0186393. doi: 10.1371/journal.pone.0186393. eCollection 2017.
+Highly divergent 16S rRNA sequences in ribosomal operons of Scytonema hyalinum (Cyanobacteria)
+Jeffrey R Johansen 1 2, Jan Mareš 2 3 4, Nicole Pietrasiak 5, Markéta Bohunická 4, Jan Zima Jr 4, Lenka Štenclová 2 3, Tomáš Hauer 2 4
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186393
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5658200/
 
-https://pubmed.ncbi.nlm.nih.gov/29560821/
-BMC Syst Biol
-. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
-VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing
-Hiroshi Mori 1, Takayuki Maruyama 2, Masahiro Yano 2, Takuji Yamada 2, Ken Kurokawa 3
-https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0545-2
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
+A nearly complete genome scaffold of Scytonema hyalinum HK-05 was sequenced by other authors (NCBI accession AP018194), and reported with seven separate plasmids, including a 16.3 kb plasmid containing a full ribosomal operon that is discussed in this paper (NCBI accession AP018198).
+
+The localization of the Type 1 operon on a plasmid in HK-05 further supports the HGT hypothesis, as vector-facilitated HGT is more common than direct transfer of chromosomal segments. It is intriguing that this is the first report of an rrn-plasmid in cyanobacteria, and only the second report of an rrn-plasmid in the bacterial domain [48].
 
 
-### 
-https://www.ncbi.nlm.nih.gov/pubmed/29073157
-PLoS One. 2017 Oct 26;12(10):e0186393. doi: 10.1371/journal.pone.0186393. eCollection 2017.
-Highly divergent 16S rRNA sequences in ribosomal operons of Scytonema hyalinum (Cyanobacteria).
-Johansen JR1,2, Mareš J2,3,4, Pietrasiak N5, Bohunická M4, Zima J Jr4, Štenclová L2,3, Hauer T2,4.
+https://www.ncbi.nlm.nih.gov/nuccore/AP018198
+```
+LOCUS       AP018198               16296 bp    DNA     circular BCT 15-DEC-2022
+DEFINITION  Scytonema sp. HK-05 plasmid plasmid4 DNA, complete genome.
+
+     rRNA            complement(10947..13764)
+                     /locus_tag="SAMD00079811_82740"
+                     /product="23S ribosomal RNA"
+
+     rRNA            complement(14188..15678)
+                     /locus_tag="SAMD00079811_82750"
+                     /product="16S ribosomal RNA"
+```
 
 ### 2015-07-27
+https://colil.dbcls.jp/browse/papers/26220935/1/100/year
 https://pubmed.ncbi.nlm.nih.gov/26220935/
 Genome Biol Evol
 . 2015 Jul 27;7(8):2310-20. doi: 10.1093/gbe/evv143.
@@ -274,6 +366,7 @@ Rare Events of Intragenus and Intraspecies Horizontal Transfer of the 16S rRNA G
 Ren-Mao Tian 1, Lin Cai 1, Wei-Peng Zhang 1, Hui-Luo Cao 1, Pei-Yuan Qian 2
 https://academic.oup.com/gbe/article/7/8/2310/558055?login=false
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4558861/
+The 2,143 finished prokaryotic genome sequences (including both chromosomes and plasmids) 
 
 ### 2013-01-01
 https://pubmed.ncbi.nlm.nih.gov/23734299/
