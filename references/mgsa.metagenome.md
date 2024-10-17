@@ -1230,12 +1230,37 @@ https://github.com/haruosuz/statistics/blob/master/README.md#distance
 ## UniFrac
 UniFracは、距離計量 distance metric の要件を満たす。
 
-https://twitter.com/search?q=UniFrac%20lang%3Aja&src=typed_query&f=top
-UniFrac lang:ja
-
 https://en.wikipedia.org/wiki/UniFrac
 This definition satisfies the requirements of a distance metric, being non-negative, zero only when entities are identical, transitive, and conformant to the triangle inequality.
 
+https://twitter.com/search?q=UniFrac%20lang%3Aja&src=typed_query&f=top
+UniFrac lang:ja
+
+### 2023-06-30
+https://pubmed.ncbi.nlm.nih.gov/37387190/
+Bioinformatics
+. 2023 Jun 30;39(39 Suppl 1):i57-i65. doi: 10.1093/bioinformatics/btad238.
+Finding phylogeny-aware and biologically meaningful averages of metagenomic samples: L2UniFrac
+Wei Wei 1, Andrew Millward 2, David Koslicki 1 2 3
+https://academic.oup.com/bioinformatics/article/39/Supplement_1/i57/7210517?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10311324/
+
+2023/01/24
+https://www.youtube.com/watch?v=93vXTm2AJ88
+Applying UniFrac to Whole Genome Shotgun Data - Wei Wei - MICROBIOME - Poster - ISMB 2022
+
+2021/04/28
+17:25 / 36:00
+https://www.youtube.com/watch?v=7H_LhmGafOc
+Beta diversity metrics
+QIIME 2
+The slides in this video can be found here: https://bit.ly/3yTQ8xq
+
+2016/01/30
+https://www.youtube.com/watch?v=M8ylvsS0MHg
+Microbiome Discovery 9: UniFrac
+
+### 2022
 
 1:52 AM · Feb 7, 2022
 https://twitter.com/nishimoto_gut/status/1490367765445681153
@@ -1303,9 +1328,6 @@ Ruth G Wong 1, Jia R Wu 1, Gregory B Gloor 1
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0161196
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025018/
 
-Jan 29, 2016
-https://www.youtube.com/watch?v=M8ylvsS0MHg
-Microbiome Discovery 9: UniFrac - YouTube
 
 2012-08-15
 https://pubmed.ncbi.nlm.nih.gov/22711789/
@@ -2228,8 +2250,19 @@ https://knightlab.ucsd.edu/wordpress/?page_id=25
 https://twitter.com/merenbey/status/999416078446071809
 A. Murat Eren (Meren) on Twitter: "This is unfair to DADA2 😐 When someone as big as Rob Knight says "this is the best practice", it creates a nightmare for younger scientists to promote their tool. I think, from "Deblur" to "Deblur or DADA2" would've added much more than just 9 more characters to this chart. https://t.co/5q71yxh4Yt" / Twitter
 
-### 2018-07
+### 2023-07-27
+https://pubmed.ncbi.nlm.nih.gov/37500913/
+Nat Biotechnol
+. 2023 Jul 27:10.1038/s41587-023-01845-1. doi: 10.1038/s41587-023-01845-1. Online ahead of print.
+Greengenes2 unifies microbial data in a single reference tree
+Daniel McDonald 1, Yueyu Jiang 2, Metin Balaban 3, Kalen Cantrell 4, Qiyun Zhu 5 6, Antonio Gonzalez 1, James T Morton 7, Giorgia Nicolaou 8, Donovan H Parks 9, Søren M Karst 10, Mads Albertsen 11, Philip Hugenholtz 9, Todd DeSantis 12, Se Jin Song 13, Andrew Bartko 13, Aki S Havulinna 14 15, Pekka Jousilahti 14, Susan Cheng 16 17, Michael Inouye 18 19, Teemu Niiranen 14 20, Mohit Jain 21, Veikko Salomaa 14, Leo Lahti 22, Siavash Mirarab 2, Rob Knight 23 24 25 26
+https://www.nature.com/articles/s41587-023-01845-1
 
+ However, UniFrac18, a phylogenetic method, used with our Greengenes2 tree provides better concordance (Fig. 1f and Supplementary Fig. 1d).
+
+Integrating the GTDB and LTP taxonomies
+
+### 2018-07
 https://pubmed.ncbi.nlm.nih.gov/29795328/
 Review Nat Rev Microbiol
 . 2018 Jul;16(7):410-422. doi: 10.1038/s41579-018-0029-9.
@@ -2238,8 +2271,8 @@ Rob Knight 1 2 3, Alison Vrbanac 4, Bryn C Taylor 4, Alexander Aksenov 5, Chris 
 https://www.nature.com/articles/s41579-018-0029-9
 As rodents are coprophagic, cage mate faecal microbiomes become more homogeneous over time, so experiments must be replicated across multiple cages to control for cage effects19.
 
-### 2018-06
 
+### 2018-06
 https://pubmed.ncbi.nlm.nih.gov/29795540/
 Review Nat Microbiol
 . 2018 Jun;3(6):652-661. doi: 10.1038/s41564-018-0156-0. Epub 2018 May 24.
@@ -2248,6 +2281,8 @@ Alex D Washburne # 1, James T Morton # 2 3, Jon Sanders 3, Daniel McDonald 3, Qi
 https://www.nature.com/articles/s41564-018-0156-0
 In this Review Article, we organize the field of phylogenetically structured data analysis by discussing the major classes of methods. We first emphasize a fundamental issue in the field: the imperfection of estimated phylogenies. We then define four classes: (1) comparative methods; (2) ancestral state reconstruction and descendant trait imputation; (3) phylogenetic variables; and (4) phylogeny-aware distances (Table 1); and provide Supplementary Online Tutorials with examples (https://knightlab-analyses.github.io/phylogenetic-tutorials/). 
 
+Fig. 3: Phylogeny-aware distances.
+UniFrac
 
 ----------
 ## Mason CE
