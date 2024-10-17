@@ -24,9 +24,6 @@
 - [primer](#primer)
 - [genome report](#genome-report)
 - [database](#database)
-- [metadata](#metadata)
-  - [source](#source) 分離源
-  - [mediadb](#mediadb)
 - [assembly](#assembly)
   - [unicycler](#unicycler)
   - [de Bruijn Graph](#de-bruijn-graph)
@@ -58,11 +55,12 @@
   - [metathermo](#metathermo) メタゲノム温度計
 - [codon](#codon) コドンバイアス
 - [growth rate](#growth-rate) 増殖速度
+- [metadata](#metadata)
+  - [source](#source) 分離源
+  - [mediadb](#mediadb)
 - [](#)
 
 ----------
-
-
 
 ----------
 
@@ -95,6 +93,418 @@ plasmid
 ２つデータが入っているが、それぞれ、1592バクテリアのCOG (Cluster of Orthologous Genes) を集めたファイルと、933プラスミドのCOGを集めたファイルとなっている。
 
 ----------
+
+
+
+
+----------
+## LEA
+
+https://github.com/haruosuz/bioinfo/blob/master/2019/CaseStudy.md#lea
+
+https://twitter.com/copypasteusa/status/1171355568440655872
+#IIBMP2019 http://leamicrobe.jp
+（LEAの使い方・日本語版はこちら）
+http://133.39.177.105/lea/help_ja.html
+
+https://twitter.com/level3defless/status/1008994650957332481
+Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
+4:47 AM - 19 Jun 2018
+
+https://twitter.com/NIG_idenken/status/1008941881051398144
+国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
+1:17 AM - 19 Jun 2018
+
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
+環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
+
+----------
+## VITCOMIC
+http://vitcomic.org/
+
+https://doi.org/10.7875/togotv.2020.024
+2020-01-24 MicrobeDB.jp version 3の活用法 @ 第42回日本分子生物学会年会
+2019年12月2-4日に開催された第42回日本分子生物学会年会のフォーラム(チュートリアル企画)「生命科学のデータベース活用法2019」から、国立遺伝学研究所 森 宙史 氏 による「MicrobeDB.jp version 3の活用法」をお送りします。約12分です。
+
+https://doi.org/10.7875/togotv.2019.121
+2019-09-18 【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3
+目標:公共の微生物のゲノム・メタゲノム解析データ等をMicrobeDB.jpで検索する方法、および、VITCOMIC2、LEA等を用いて、自分の持つマイクロバイオームのアンプリコンシーケンスデータやメタゲノムシーケンスデータから系統組成を推定し、系統組成が似たMicrobeDB.jp上のメタゲノム解析データを検索する方法がわかる。
+
+https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180613.html
+高速かつ高精度に細菌群集の系統組成を推定するツールVITCOMIC2を開発
+
+https://www.ncbi.nlm.nih.gov/pubmed/29560821
+BMC Syst Biol. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
+VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing.
+Mori H1, Maruyama T2, Yano M2, Yamada T2, Kurokawa K3.
+
+2020年01月15日
+https://qiita.com/danryo_official/items/9861f8140b63b3a5c7e9
+オススメツール VITCOMIC2
+
+----------
+### MicrobeDB
+http://microbedb.jp/MDB/
+
+http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
+MicrobeDB.jpポータル開発 - TogoWiki
+
+----------
+## database
+
+----------
+## metadata
+
+### 2021-07-14
+
+### Refget
+
+https://pubmed.ncbi.nlm.nih.gov/34260694/
+Bioinformatics
+. 2021 Jul 14;btab524. doi: 10.1093/bioinformatics/btab524. Online ahead of print.
+Refget: standardised access to reference sequences
+Andrew D Yates 1 2, Jeremy Adams 3 2, Somesh Chaturvedi 1 4, Robert M Davies 2 5, Matthew Laird 1, Rasko Leinonen 1, Rishi Nag 1 2, Nathan C Sheffield 6, Oliver Hofmann 2 7, Thomas M Keane 1 2
+
+https://github.com/ga4gh/large-scale-genomics-wiki/blob/master/refget.md
+Refget: access to reference sequences
+|
+Python code 
+|
+Getting sequence metadata
+|
+What does an identifier derived from the sequence mean?
+
+### 2021-06-05
+
+https://github.com/bacteria-archaea-traits/bacteria-archaea-traits
+
+https://pubmed.ncbi.nlm.nih.gov/32503990/
+Sci Data
+. 2020 Jun 5;7(1):170. doi: 10.1038/s41597-020-0497-4.
+A synthesis of bacterial and archaeal phenotypic trait data
+Joshua S Madin 1, Daniel A Nielsen 2, Maria Brbic 3 4, Ross Corkrey 5, David Danko 6, Kyle Edwards 7, Martin K M Engqvist 8, Noah Fierer 9, Jemma L Geoghegan 2, Michael Gillings 2, Nikos C Kyrpides 10 11, Elena Litchman 12, Christopher E Mason 6, Lisa Moore 13, Søren L Nielsen 14, Ian T Paulsen 13, Nathan D Price 15, T B K Reddy 10 11, Matthew A Richards 15, Eduardo P C Rocha 16, Thomas M Schmidt 17, Heba Shaaban 6, Maulik Shukla 18, Fran Supek 19 20, Sasha G Tetu 13, Sara Vieira-Silva 21, Alice R Wattam 22, David A Westfall 6, Mark Westoby 2
+https://www.nature.com/articles/s41597-020-0497-4
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7275036/
+
+Fig. 2
+
+Coloured bands represent the presence of traits in the dataset for 14,884 species. In order for the centre outwards, green are habitat traits (isolation source, optimum pH, optimum temperature, growth temperature), blue are organism trait (gram stain, metabolism, metabolic pathways, carbon substrate, sporulation, motility, doubling time, cell shape, any cell diameter), and red are genomic traits (genome size, GC content, coding genes, rRNA16S genes, tRNA genes).
+
+
+Online-only Table 2
+
+Isolation source
+
+Condense traits
+
+Isolation source or habitat information for prokaryotes follows different schemes in different data sources, and often is unstructured, consisting of a string of words or sentences.
+
+
+Code availability
+The complete data workflow was scripted in the programming language R (https://www.R-project.org) and instructions for generating the merged data sets accompanying this data descriptor can be found at GitHub (https://github.com/bacteria-archaea-traits/bacteria-archaea-traits/releases/tag/v1.0.0).
+
+
+
+4:09 PM · Jun 11, 2020
+https://twitter.com/epcrocha/status/1270976361172213760
+Eduardo Rocha on Twitter: "Studies on microbial evolution are hampered by the availability of systematic data. Here's a synthesis led by @jmadin of bacterial and archaeal phenotypic trait data. Proud to be part of it. Paper https://t.co/wF3fNAtLNf Data https://t.co/K8CUyDHfpR Blog https://t.co/QDZzeNdk7n https://t.co/JGK2XW7Wxy" / Twitter
+
+6:09 AM · Jun 11, 2020
+https://twitter.com/mason_lab/status/1270825374306443264
+Chris Mason on Twitter: "Merging all the microbial annotation we can find into one spot! Our new paper: "A synthesis of bacterial and archaeal phenotypic trait data" https://t.co/EjfNZ20iJi from in @ScientificData" / Twitter
+
+
+
+### 2019-02-22
+
+https://pubmed.ncbi.nlm.nih.gov/30853946/
+Review Front Microbiol
+. 2019 Feb 22;10:208. doi: 10.3389/fmicb.2019.00208. eCollection 2019.
+A Comparison of Microbial Genome Web Portals
+Peter D Karp 1, Natalia Ivanova 2, Markus Krummenacker 1, Nikos Kyrpides 2, Mario Latendresse 1, Peter Midford 1, Wai Kit Ong 1, Suzanne Paley 1, Rekha Seshadri 2
+https://www.frontiersin.org/articles/10.3389/fmicb.2019.00208/full
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6395428/
+
+### proGenomes2
+
+http://progenomes.embl.de/
+proGenomes Database v2
+
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1002/5606617
+proGenomes2: an improved database for accurate and consistent habitat, taxonomic and functional annotations of prokaryotic genomes
+
+Habitat information
+three broad (soil-associated, aquatic, host-associated) and additionally five more specific categories (mud/sediment, freshwater, disease-associated, food-associated)
+
+
+### protraits
+http://protraits.irb.hr/
+https://www.ncbi.nlm.nih.gov/pubmed/27915291
+Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
+The landscape of microbial phenotypic traits and associated genes.
+Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26538122
+J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
+The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
+Supek F1,2,3.
+https://link.springer.com/article/10.1007%2Fs00239-015-9714-8
+Regarding prokaryote genomics—databases with microbial phenotypes are scarce, with some annotation provided by GOLD (Reddy et al. 2015) and BacMap (Cruz et al. 2011). We have thus developed a database named ProTraits (Brbić et al. unpublished; http://protraits.irb.hr/) which contains millions of phenotype annotations for ~3000 prokaryotic taxa, inferred by text mining of scientific literature, while requiring independent validation in genomic data.
+
+### BacDive
+
+https://bacdive.dsmz.de/
+BacDive | The Bacterial Diversity Metadatabase
+
+https://bacdive.dsmz.de/tutorials
+Tutorials | BacDive
+
+https://twitter.com/BacDive
+BacDive (@BacDive) | Twitter
+
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab961/6414049
+BacDive in 2022: the knowledge base for standardized bacterial and archaeal data
+
+isolation source
+
+https://twitter.com/BacDive/status/1103238138816839680
+BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
+5:17 AM - 6 Mar 2019
+
+https://twitter.com/BacDive/status/1095559495651115009
+BacDive on Twitter: "Find here an interesting example how @BacDive data can be used to correlate microbial growth temperatues with temperature optima of enzymes: https://t.co/XWenohoc5W #biodiversity #bacteria #microbiology"
+12:45 AM - 13 Feb 2019
+
+2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
+https://www.ncbi.nlm.nih.gov/pubmed/24214959
+Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
+BacDive--the Bacterial Diversity Metadatabase.
+Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
+
+```
+https://bacdive.dsmz.de/search?search=Shewanella&submit=
+
+https://bacdive.dsmz.de/strain/14068
+Shewanella denitrificans OS217 | Type strain | DSM 15013, LMG 21692 | BacDiveID:14068
+[Ref.: #39951]	Temperature range	mesophilic
+Isolation, sampling and environmental information
+	Isolation sources categories	
+#Environmental	#Aquatic	   -   
+
+https://bacdive.dsmz.de/strain/134647
+Shewanella livingstonensis | Type strain | CIP 107390, CECT 5933, LMG 19866 | BacDiveID:134647
+[Ref.: #33120]	Temperature range	psychrophilic	
+Isolation, sampling and environmental information
+
+https://bacdive.dsmz.de/strain/134207
+Shewanella piezotolerans WP3 | Type strain | JCM 13877, CGMCC1.6160 | BacDiveID:134207
+[Ref.: #31844]	Oxygen tolerance	facultative anaerobe	
+Culture and growth conditions
+[Ref.: #31844]	Temperature range	psychrophilic
+Isolation, sampling and environmental information
+[Ref.: #31844]	Sample type/isolated from	marine sediment
+```
+
+http://kazumaxneo.hatenablog.com/entry/2019/07/06/073000
+バクテリアの表現型情報データベース BacDive - macでインフォマティクス
+
+### MetaMetaDB
+http://mmdb.aori.u-tokyo.ac.jp
+MetaMetaDB: To the Habitabilities of Microbes
+
+https://www.ncbi.nlm.nih.gov/pubmed/24475242
+PLoS One. 2014 Jan 27;9(1):e87126. doi: 10.1371/journal.pone.0087126. eCollection 2014.
+MetaMetaDB: a database and analytic system for investigating microbial habitability.
+Yang CC1, Iwasaki W1.
+
+27 Jan 2014
+https://twitter.com/iwasakiw/status/427965935094222849
+Wataru IWASAKI on Twitter: "MetaMetaDBは、様々な環境のメタゲノム（"メタ・メタゲノム"）をまとめ、微生物がどのような環境に生息できるかの指標（"Microbial Habitability"）を簡便に得られるようにしたデータベースです。URLは http://t.co/zfQ8d84v6k"
+
+https://www.jst.go.jp/kisoken/crest/research/nenpou/h25/JST_1111065_11103779_2013_YR.pdf
+遺伝子解析基盤技術グループは、これまでに世界中の様々な環境か ら得られたメタゲノムデータを収集した網羅的メタゲノムデータベース(MetaMetaDB) を開発し、海洋環境中に新たなグループの微生物が見つかった場合にその由来となった環 境を遺伝子情報から迅速に解析し、遺伝子情報に基づいた生態系評価を行うための基盤を 作った。
+
+### BV-BRC
+https://www.bv-brc.org/
+Bacterial and Viral Bioinformatics Resource Center | BV-BRC
+
+11:01 PM · Sep 30, 2022
+https://x.com/PATRICBRC/status/1575848216980955136
+PATRICBRC on X: "New paper by Sharp and Foster used data that they got from PATRIC in their analysis. https://t.co/aJ9FqSdH1F" / X
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9218092/
+Host control and the evolution of cooperation in host microbiomes - PMC
+
+9:08 PM · Sep 15, 2022
+https://x.com/PATRICBRC/status/1570383936345493505
+PATRICBRC on X: "It's official! PATRIC is now BV-BRC. The new site includes more tools, faster loads, improved downloads, and more data. Check it out! https://t.co/1SNqoOkhSt" / X
+
+
+### GOLD
+Genomes OnLine Database
+
+https://gold.jgi.doe.gov/
+```
+Biosamples
+Classification
+Ecosystems
+   Host-associated 74,470
+   Engineered 13,727
+   Environmental 59,735
+```
+
+https://gold.jgi.doe.gov/downloads
+```
+Public Studies/Biosamples/SPs/APs/Organisms Excel Last generated: 16 Oct, 2024
+
+goldData.xlsx
+Biosample
+BIOSAMPLE SAMPLE COLLECTION DATE
+```
+
+https://www.ncbi.nlm.nih.gov/pubmed/27794040
+Nucleic Acids Res. 2017 Jan 4;45(D1):D446-D456. doi: 10.1093/nar/gkw992. Epub 2016 Oct 27.
+Genomes OnLine Database (GOLD) v.6: data updates and feature enhancements.
+
+### NCBI
+https://www.ncbi.nlm.nih.gov/genome/167
+Escherichia coli
+
+	Escherichia coli str. K-12 substr. MG1655
+	Submitter: Univ. Wisconsin
+	Morphology: Gram:Negative, Shape:Bacilli, Motility:Yes
+	Environment: OxygenReq:Facultative, OptimumTemperature:37, TemperatureRange:Mesophilic, Habitat:HostAssociated
+
+### microbe-directory
+
+https://www.biorxiv.org/content/10.1101/2019.12.20.860569v1
+The Microbe Directory v2.0: An Expanded Database of Ecological and Phenotypical Features of Microbes. | bioRxiv
+https://www.biorxiv.org/content/10.1101/2019.12.20.860569v1.full.pdf
+Data Availability and Contribution
+A web interface for the Microbe Directory may be found at https://microbe.directory. Source code
+for collating and cleaning tables along with a CSV spreadsheet version of the database may be found at
+the GitHub repository https://github.com/dcdanko/MD2. 
+
+- https://microbe.directory
+- https://github.com/dcdanko/MD2
+
+
+https://github.com/microbe-directory/microbe-directory
+```
+wget https://raw.githubusercontent.com/microbe-directory/microbe-directory/master/data/microbe-directory.csv
+```
+https://www.ncbi.nlm.nih.gov/pubmed/29630066
+Gates Open Res. 2018 Jan 5;2:3. doi: 10.12688/gatesopenres.12772.1.
+The Microbe Directory: An annotated, searchable inventory of microbes' characteristics.
+Shaaban H#1,2,3, Westfall DA#1,2,4, Mohammad R1,2,5, Danko D1,2, Bezdan D1,2, Afshinnekoo E1,2,6, Segata N7, Mason CE1,2,8.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883067/
+- Such characteristics include, but are not limited to: optimal pH, optimal temperature, Gram stain, biofilm-formation, spore-formation, antimicrobial resistance, and COGEM class risk rating. 
+- Several databases were used to collect this information, including COGEM, MicrobeWiki, BacMap, ATCC, PATRIC, ARDB, GOLD, HOMD, and BEI Resources (see Annotation Tutorial and Guidelines and Links in Supplementary File 1). 
+https://gatesopenresearch.org/articles/2-3/v1
+
+https://www.ncbi.nlm.nih.gov/pubmed/28776041
+mSphere. 2017 Aug 2;2(4). pii: e00237-17. doi: 10.1128/mSphere.00237-17. eCollection 2017 Jul-Aug.
+Hiding in Plain Sight: Mining Bacterial Species Records for Phenotypic Trait Information.
+Barberán A1, Caceres Velazquez H2, Jones S2, Fierer N3,4.
+https://doi.org/10.6084/m9.figshare.4272392
+
+https://github.com/haruosuz/mgsa/tree/master/traitar
+https://www.ncbi.nlm.nih.gov/pubmed/28066816
+mSystems. 2016 Dec 27;1(6). pii: e00101-16. doi: 10.1128/mSystems.00101-16. eCollection 2016 Nov-Dec.
+From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer.
+Weimann A1, Mooren K2, Frank J3, Pope PB3, Bremges A4, McHardy AC1.
+Traitar provides phenotype classifiers to predict 67 traits related to the use of various substrates as carbon and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis, and enzymatic activities.
+
+### MediaDB
+https://www.ncbi.nlm.nih.gov/pubmed/25098325
+PLoS One. 2014 Aug 6;9(8):e103548. doi: 10.1371/journal.pone.0103548. eCollection 2014.
+MediaDB: a database of microbial growth conditions in defined media.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123892/
+Growth Data
+- The Growth_Data table links the tables describing an organism, medium, and literature source, and adds information about temperature, pH, growth rate, product secretion rates, and nutrient uptake rates (whenever reported in the literature source). MediaDB currently contains 765 growth conditions.
+- In many instances, we found rate data associated with a particular growth condition in the form of an experimentally-measured growth rate (μ) measured in h −1.
+
+https://mediadb.systemsbiology.net
+Defined Media Database
+
+```
+https://mediadb.systemsbiology.net/defined_media/growthdata/
+Media database: GrowthData
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/page/5
+Geobacter metallireducens - on Defined freshwater medium (coso4) + 50 mm iron citrate + 113.2 mm acetate
+Geobacter sulfurreducens - on Fwafc
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/3/
+Growth Data: Geobacter sulfurreducens - on Fwafc
+Growth Rate:	0.06 (1/h)
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/page/7
+Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
+
+https://mediadb.systemsbiology.net/defined_media/growthdata/374/
+Growth Data: Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
+Growth Rate:	0.26609 (1/h)
+```
+
+
+----------
+
+
+### source
+分離源
+
+https://www.ncbi.nlm.nih.gov/pubmed/30910818
+G3 (Bethesda). 2019 Mar 25. pii: g3.200978.2018. doi: 10.1534/g3.118.200978. [Epub ahead of print]
+Genomic Analysis of Pseudomonas sp. Strain SCT, an Iodate-Reducing Bacterium Isolated from Marine Sediment, Reveals a Possible Use for Bioremediation.
+Harada M, Ito K, Nakajima N, Yamamura S, Tomita M, Suzuki H, Amachi S.
+https://www.g3journal.org/content/9/5/1321.long#T1
+Table 1. Genomic features of Pseudomonas strains analyzed
+Isolation source
+
+https://www.ncbi.nlm.nih.gov/pubmed/24625962
+Genome Biol Evol. 2014 Apr;6(4):741-53. doi: 10.1093/gbe/evu048.
+Phylogenomics and the dynamic genome evolution of the genus Streptococcus.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007547/table/evu048-T1/
+Table 1
+Genome Sequence Details
+Source
+
+https://www.ncbi.nlm.nih.gov/pubmed/24488312
+J Bacteriol. 2014 Apr;196(7):1458-70. doi: 10.1128/JB.01439-13. Epub 2014 Jan 31.
+Comparative functional genomics of Lactobacillus spp. reveals possible mechanisms for specialization of vaginal lactobacilli to their environment.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/table/T1/
+TABLE 1
+Genomic characteristics of the strains analyzed in this study
+Source
+
+https://www.ncbi.nlm.nih.gov/pubmed/25107967
+Appl Environ Microbiol. 2014 Oct;80(20):6383-94. doi: 10.1128/AEM.02004-14. Epub 2014 Aug 8.
+Investigation of the evolutionary development of the genus Bifidobacterium by comparative genomics.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178631/table/T1/
+TABLE 1
+Bifidobacterium genome list
+Source of isolation
+
+https://www.ncbi.nlm.nih.gov/pubmed/24581150
+BMC Genomics. 2014 Mar 1;15:170. doi: 10.1186/1471-2164-15-170.
+Comparative genomics of the Bifidobacterium breve taxon.
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007704/table/Tab1/
+Table 1
+List of Bifidobacterium breve representatives
+Ecological origin
+
+https://www.ncbi.nlm.nih.gov/pubmed/22031452
+Microb Ecol. 2012 Apr;63(3):651-73. doi: 10.1007/s00248-011-9948-y. Epub 2011 Oct 27.
+Comparative genomics of Bifidobacterium, Lactobacillus and related probiotic genera.
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324989/table/Tab1/
+Table 1
+Genomes selected for analysis
+Strain characteristics
+
+
+
+
+
 
 ----------
 ## temperature
@@ -528,13 +938,6 @@ Earle S. G. et al.. Identifying lineage effects when controlling for population 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049680/
 For example, we investigated associations between fusidic acid resistance and the presence or absence of short 31 bp haplotypes or ‘kmers’ in S. aureus (see Methods and Supplementary Fig. 2). 
 31 bp kmers.
-
-
-
-
-
-
-
 
 
 
@@ -1792,424 +2195,6 @@ https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item
 
 広く利用されている既存の配列クラスタリングツール のひとつに CD-HIT [2] がある.CD-HIT は近似的なクラ スタリング手法を用いることによって比較的大量の配列 を高速に処理することができ，メタゲノムデータのアノ テーションパイプライン中で用いられたり，Uniprot や PDB といった公共データベースにおいて冗長配列を取り 除いてデータベースサイズを圧縮するのにも使われてい る.しかし，1000 万本の配列のクラスタリング処理には 数日かかるという具合に，次世代シーケンサーの出力配 列ほどの規模のデータをクラスタリングする場合，現実 的な時間で処理するのは困難になってくるという問題が ある.
 
-
-----------
-## LEA
-
-https://github.com/haruosuz/bioinfo/blob/master/2019/CaseStudy.md#lea
-
-https://twitter.com/copypasteusa/status/1171355568440655872
-#IIBMP2019 http://leamicrobe.jp
-（LEAの使い方・日本語版はこちら）
-http://133.39.177.105/lea/help_ja.html
-
-https://twitter.com/level3defless/status/1008994650957332481
-Koichi Higashi on Twitter: "論文（やっと）出ました。約3万サンプルの微生物群集構造に関する公共データ（メタ16S、メタゲノム）を対象に自然言語情報と系統の対応関係を調べて、その結果を遊べるようにしたツールです。 #PLOSCompBio: Latent environment allocation of microbial community data https://t.co/YHJSNJVLfx"
-4:47 AM - 19 Jun 2018
-
-https://twitter.com/NIG_idenken/status/1008941881051398144
-国立遺伝学研究所 on Twitter: "遺伝研の研究成果について、新しい記事を公開しました。 ゲノム進化研究室・黒川研究室 「環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～」… "
-1:17 AM - 19 Jun 2018
-
-https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180619.html
-環境と微生物をビッグデータでつなぐ ～「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール「LEA」を開発～
-
-----------
-## VITCOMIC
-http://vitcomic.org/
-
-https://doi.org/10.7875/togotv.2020.024
-2020-01-24 MicrobeDB.jp version 3の活用法 @ 第42回日本分子生物学会年会
-2019年12月2-4日に開催された第42回日本分子生物学会年会のフォーラム(チュートリアル企画)「生命科学のデータベース活用法2019」から、国立遺伝学研究所 森 宙史 氏 による「MicrobeDB.jp version 3の活用法」をお送りします。約12分です。
-
-https://doi.org/10.7875/togotv.2019.121
-2019-09-18 【How to use1】MicrobeDB.jpの使い方 @ AJACS番町3
-目標:公共の微生物のゲノム・メタゲノム解析データ等をMicrobeDB.jpで検索する方法、および、VITCOMIC2、LEA等を用いて、自分の持つマイクロバイオームのアンプリコンシーケンスデータやメタゲノムシーケンスデータから系統組成を推定し、系統組成が似たMicrobeDB.jp上のメタゲノム解析データを検索する方法がわかる。
-
-https://www.nig.ac.jp/nig/ja/2018/06/research-highlights_ja/20180613.html
-高速かつ高精度に細菌群集の系統組成を推定するツールVITCOMIC2を開発
-
-https://www.ncbi.nlm.nih.gov/pubmed/29560821
-BMC Syst Biol. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
-VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing.
-Mori H1, Maruyama T2, Yano M2, Yamada T2, Kurokawa K3.
-
-2020年01月15日
-https://qiita.com/danryo_official/items/9861f8140b63b3a5c7e9
-オススメツール VITCOMIC2
-
-----------
-### MicrobeDB
-http://microbedb.jp/MDB/
-
-http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
-MicrobeDB.jpポータル開発 - TogoWiki
-
-----------
-## database
-
-----------
-## metadata
-
-### 2021-07-14
-
-### Refget
-
-https://pubmed.ncbi.nlm.nih.gov/34260694/
-Bioinformatics
-. 2021 Jul 14;btab524. doi: 10.1093/bioinformatics/btab524. Online ahead of print.
-Refget: standardised access to reference sequences
-Andrew D Yates 1 2, Jeremy Adams 3 2, Somesh Chaturvedi 1 4, Robert M Davies 2 5, Matthew Laird 1, Rasko Leinonen 1, Rishi Nag 1 2, Nathan C Sheffield 6, Oliver Hofmann 2 7, Thomas M Keane 1 2
-
-https://github.com/ga4gh/large-scale-genomics-wiki/blob/master/refget.md
-Refget: access to reference sequences
-|
-Python code 
-|
-Getting sequence metadata
-|
-What does an identifier derived from the sequence mean?
-
-### 2021-06-05
-
-https://github.com/bacteria-archaea-traits/bacteria-archaea-traits
-
-https://pubmed.ncbi.nlm.nih.gov/32503990/
-Sci Data
-. 2020 Jun 5;7(1):170. doi: 10.1038/s41597-020-0497-4.
-A synthesis of bacterial and archaeal phenotypic trait data
-Joshua S Madin 1, Daniel A Nielsen 2, Maria Brbic 3 4, Ross Corkrey 5, David Danko 6, Kyle Edwards 7, Martin K M Engqvist 8, Noah Fierer 9, Jemma L Geoghegan 2, Michael Gillings 2, Nikos C Kyrpides 10 11, Elena Litchman 12, Christopher E Mason 6, Lisa Moore 13, Søren L Nielsen 14, Ian T Paulsen 13, Nathan D Price 15, T B K Reddy 10 11, Matthew A Richards 15, Eduardo P C Rocha 16, Thomas M Schmidt 17, Heba Shaaban 6, Maulik Shukla 18, Fran Supek 19 20, Sasha G Tetu 13, Sara Vieira-Silva 21, Alice R Wattam 22, David A Westfall 6, Mark Westoby 2
-https://www.nature.com/articles/s41597-020-0497-4
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7275036/
-
-Fig. 2
-
-Coloured bands represent the presence of traits in the dataset for 14,884 species. In order for the centre outwards, green are habitat traits (isolation source, optimum pH, optimum temperature, growth temperature), blue are organism trait (gram stain, metabolism, metabolic pathways, carbon substrate, sporulation, motility, doubling time, cell shape, any cell diameter), and red are genomic traits (genome size, GC content, coding genes, rRNA16S genes, tRNA genes).
-
-
-Online-only Table 2
-
-Isolation source
-
-Condense traits
-
-Isolation source or habitat information for prokaryotes follows different schemes in different data sources, and often is unstructured, consisting of a string of words or sentences.
-
-
-Code availability
-The complete data workflow was scripted in the programming language R (https://www.R-project.org) and instructions for generating the merged data sets accompanying this data descriptor can be found at GitHub (https://github.com/bacteria-archaea-traits/bacteria-archaea-traits/releases/tag/v1.0.0).
-
-
-
-4:09 PM · Jun 11, 2020
-https://twitter.com/epcrocha/status/1270976361172213760
-Eduardo Rocha on Twitter: "Studies on microbial evolution are hampered by the availability of systematic data. Here's a synthesis led by @jmadin of bacterial and archaeal phenotypic trait data. Proud to be part of it. Paper https://t.co/wF3fNAtLNf Data https://t.co/K8CUyDHfpR Blog https://t.co/QDZzeNdk7n https://t.co/JGK2XW7Wxy" / Twitter
-
-6:09 AM · Jun 11, 2020
-https://twitter.com/mason_lab/status/1270825374306443264
-Chris Mason on Twitter: "Merging all the microbial annotation we can find into one spot! Our new paper: "A synthesis of bacterial and archaeal phenotypic trait data" https://t.co/EjfNZ20iJi from in @ScientificData" / Twitter
-
-
-
-### 2019-02-22
-
-https://pubmed.ncbi.nlm.nih.gov/30853946/
-Review Front Microbiol
-. 2019 Feb 22;10:208. doi: 10.3389/fmicb.2019.00208. eCollection 2019.
-A Comparison of Microbial Genome Web Portals
-Peter D Karp 1, Natalia Ivanova 2, Markus Krummenacker 1, Nikos Kyrpides 2, Mario Latendresse 1, Peter Midford 1, Wai Kit Ong 1, Suzanne Paley 1, Rekha Seshadri 2
-https://www.frontiersin.org/articles/10.3389/fmicb.2019.00208/full
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6395428/
-
-### proGenomes2
-
-http://progenomes.embl.de/
-proGenomes Database v2
-
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1002/5606617
-proGenomes2: an improved database for accurate and consistent habitat, taxonomic and functional annotations of prokaryotic genomes
-
-Habitat information
-three broad (soil-associated, aquatic, host-associated) and additionally five more specific categories (mud/sediment, freshwater, disease-associated, food-associated)
-
-
-### protraits
-http://protraits.irb.hr/
-https://www.ncbi.nlm.nih.gov/pubmed/27915291
-Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
-The landscape of microbial phenotypic traits and associated genes.
-Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26538122
-J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
-The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
-Supek F1,2,3.
-https://link.springer.com/article/10.1007%2Fs00239-015-9714-8
-Regarding prokaryote genomics—databases with microbial phenotypes are scarce, with some annotation provided by GOLD (Reddy et al. 2015) and BacMap (Cruz et al. 2011). We have thus developed a database named ProTraits (Brbić et al. unpublished; http://protraits.irb.hr/) which contains millions of phenotype annotations for ~3000 prokaryotic taxa, inferred by text mining of scientific literature, while requiring independent validation in genomic data.
-
-### BacDive
-
-https://bacdive.dsmz.de/
-BacDive | The Bacterial Diversity Metadatabase
-
-https://bacdive.dsmz.de/tutorials
-Tutorials | BacDive
-
-https://twitter.com/BacDive
-BacDive (@BacDive) | Twitter
-
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab961/6414049
-BacDive in 2022: the knowledge base for standardized bacterial and archaeal data
-
-isolation source
-
-https://twitter.com/BacDive/status/1103238138816839680
-BacDive on Twitter: "Out now: Our new, powerful isolation source search is online. Filter & analyse bacterial strains based on their isolation source tags. Plot them on the world map or show the distribution within a Krona Plot. https://t.co/QQe6pSFZPJ #bacteria #isolationsource #microorganisms… https://t.co/5URfQNeM6S"
-5:17 AM - 6 Mar 2019
-
-https://twitter.com/BacDive/status/1095559495651115009
-BacDive on Twitter: "Find here an interesting example how @BacDive data can be used to correlate microbial growth temperatues with temperature optima of enzymes: https://t.co/XWenohoc5W #biodiversity #bacteria #microbiology"
-12:45 AM - 13 Feb 2019
-
-2013年9月現在、細菌23,458菌株のメタ情報（分類群、培養条件、分離場所、配列データ）を含む
-https://www.ncbi.nlm.nih.gov/pubmed/24214959
-Nucleic Acids Res. 2014 Jan;42(Database issue):D592-9. doi: 10.1093/nar/gkt1058. Epub 2013 Nov 7.
-BacDive--the Bacterial Diversity Metadatabase.
-Söhngen C1, Bunk B, Podstawka A, Gleim D, Overmann J.
-
-```
-https://bacdive.dsmz.de/search?search=Shewanella&submit=
-
-https://bacdive.dsmz.de/strain/14068
-Shewanella denitrificans OS217 | Type strain | DSM 15013, LMG 21692 | BacDiveID:14068
-[Ref.: #39951]	Temperature range	mesophilic
-Isolation, sampling and environmental information
-	Isolation sources categories	
-#Environmental	#Aquatic	   -   
-
-https://bacdive.dsmz.de/strain/134647
-Shewanella livingstonensis | Type strain | CIP 107390, CECT 5933, LMG 19866 | BacDiveID:134647
-[Ref.: #33120]	Temperature range	psychrophilic	
-Isolation, sampling and environmental information
-
-https://bacdive.dsmz.de/strain/134207
-Shewanella piezotolerans WP3 | Type strain | JCM 13877, CGMCC1.6160 | BacDiveID:134207
-[Ref.: #31844]	Oxygen tolerance	facultative anaerobe	
-Culture and growth conditions
-[Ref.: #31844]	Temperature range	psychrophilic
-Isolation, sampling and environmental information
-[Ref.: #31844]	Sample type/isolated from	marine sediment
-```
-
-http://kazumaxneo.hatenablog.com/entry/2019/07/06/073000
-バクテリアの表現型情報データベース BacDive - macでインフォマティクス
-
-### MetaMetaDB
-http://mmdb.aori.u-tokyo.ac.jp
-MetaMetaDB: To the Habitabilities of Microbes
-
-https://www.ncbi.nlm.nih.gov/pubmed/24475242
-PLoS One. 2014 Jan 27;9(1):e87126. doi: 10.1371/journal.pone.0087126. eCollection 2014.
-MetaMetaDB: a database and analytic system for investigating microbial habitability.
-Yang CC1, Iwasaki W1.
-
-27 Jan 2014
-https://twitter.com/iwasakiw/status/427965935094222849
-Wataru IWASAKI on Twitter: "MetaMetaDBは、様々な環境のメタゲノム（"メタ・メタゲノム"）をまとめ、微生物がどのような環境に生息できるかの指標（"Microbial Habitability"）を簡便に得られるようにしたデータベースです。URLは http://t.co/zfQ8d84v6k"
-
-https://www.jst.go.jp/kisoken/crest/research/nenpou/h25/JST_1111065_11103779_2013_YR.pdf
-遺伝子解析基盤技術グループは、これまでに世界中の様々な環境か ら得られたメタゲノムデータを収集した網羅的メタゲノムデータベース(MetaMetaDB) を開発し、海洋環境中に新たなグループの微生物が見つかった場合にその由来となった環 境を遺伝子情報から迅速に解析し、遺伝子情報に基づいた生態系評価を行うための基盤を 作った。
-
-### BV-BRC
-https://www.bv-brc.org/
-Bacterial and Viral Bioinformatics Resource Center | BV-BRC
-
-11:01 PM · Sep 30, 2022
-https://x.com/PATRICBRC/status/1575848216980955136
-PATRICBRC on X: "New paper by Sharp and Foster used data that they got from PATRIC in their analysis. https://t.co/aJ9FqSdH1F" / X
-https://pmc.ncbi.nlm.nih.gov/articles/PMC9218092/
-Host control and the evolution of cooperation in host microbiomes - PMC
-
-9:08 PM · Sep 15, 2022
-https://x.com/PATRICBRC/status/1570383936345493505
-PATRICBRC on X: "It's official! PATRIC is now BV-BRC. The new site includes more tools, faster loads, improved downloads, and more data. Check it out! https://t.co/1SNqoOkhSt" / X
-
-### PATRIC
-https://patricbrc.org
-
-PATRICBRC on Twitter: "New study by Junqueira examined microbiomes of blowflies and houseflies using the PATRIC metadata on habitat and potential disease associati… https://t.co/hoJoiSB6sK"
-https://www.nature.com/articles/s41598-017-16353-x
-The cross-validated set of 33 species identified in blowfly and housefly microbiomes were categorized according to the habitat from which they have been isolated and assigned to the potential disease association record of the Pathosystems Resource Integration Center (PATRIC)35. 
-
-https://patricbrc.org/view/Taxonomy/2#view_tab=genomes
-Bacteria::Taxonomy Genomes
-
-http://rd-alliance.github.io/metadata-directory/standards/genome-metadata.html
-Genome Metadata
-
-http://enews.patricbrc.org/faqs/2-genome-data-and-tools/genome-metadata-faqs/
-
-### GOLD
-Genomes OnLine Database
-
-https://gold.jgi.doe.gov/
-```
-Biosamples
-Classification
-Ecosystems
-   Host-associated 74,470
-   Engineered 13,727
-   Environmental 59,735
-```
-
-https://gold.jgi.doe.gov/downloads
-```
-Public Studies/Biosamples/SPs/APs/Organisms Excel Last generated: 16 Oct, 2024
-
-goldData.xlsx
-Biosample
-BIOSAMPLE SAMPLE COLLECTION DATE
-```
-
-https://www.ncbi.nlm.nih.gov/pubmed/27794040
-Nucleic Acids Res. 2017 Jan 4;45(D1):D446-D456. doi: 10.1093/nar/gkw992. Epub 2016 Oct 27.
-Genomes OnLine Database (GOLD) v.6: data updates and feature enhancements.
-
-### NCBI
-https://www.ncbi.nlm.nih.gov/genome/167
-Escherichia coli
-
-	Escherichia coli str. K-12 substr. MG1655
-	Submitter: Univ. Wisconsin
-	Morphology: Gram:Negative, Shape:Bacilli, Motility:Yes
-	Environment: OxygenReq:Facultative, OptimumTemperature:37, TemperatureRange:Mesophilic, Habitat:HostAssociated
-
-### microbe-directory
-
-https://www.biorxiv.org/content/10.1101/2019.12.20.860569v1
-The Microbe Directory v2.0: An Expanded Database of Ecological and Phenotypical Features of Microbes. | bioRxiv
-https://www.biorxiv.org/content/10.1101/2019.12.20.860569v1.full.pdf
-Data Availability and Contribution
-A web interface for the Microbe Directory may be found at https://microbe.directory. Source code
-for collating and cleaning tables along with a CSV spreadsheet version of the database may be found at
-the GitHub repository https://github.com/dcdanko/MD2. 
-
-- https://microbe.directory
-- https://github.com/dcdanko/MD2
-
-
-https://github.com/microbe-directory/microbe-directory
-```
-wget https://raw.githubusercontent.com/microbe-directory/microbe-directory/master/data/microbe-directory.csv
-```
-https://www.ncbi.nlm.nih.gov/pubmed/29630066
-Gates Open Res. 2018 Jan 5;2:3. doi: 10.12688/gatesopenres.12772.1.
-The Microbe Directory: An annotated, searchable inventory of microbes' characteristics.
-Shaaban H#1,2,3, Westfall DA#1,2,4, Mohammad R1,2,5, Danko D1,2, Bezdan D1,2, Afshinnekoo E1,2,6, Segata N7, Mason CE1,2,8.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883067/
-- Such characteristics include, but are not limited to: optimal pH, optimal temperature, Gram stain, biofilm-formation, spore-formation, antimicrobial resistance, and COGEM class risk rating. 
-- Several databases were used to collect this information, including COGEM, MicrobeWiki, BacMap, ATCC, PATRIC, ARDB, GOLD, HOMD, and BEI Resources (see Annotation Tutorial and Guidelines and Links in Supplementary File 1). 
-https://gatesopenresearch.org/articles/2-3/v1
-
-https://www.ncbi.nlm.nih.gov/pubmed/28776041
-mSphere. 2017 Aug 2;2(4). pii: e00237-17. doi: 10.1128/mSphere.00237-17. eCollection 2017 Jul-Aug.
-Hiding in Plain Sight: Mining Bacterial Species Records for Phenotypic Trait Information.
-Barberán A1, Caceres Velazquez H2, Jones S2, Fierer N3,4.
-https://doi.org/10.6084/m9.figshare.4272392
-
-https://github.com/haruosuz/mgsa/tree/master/traitar
-https://www.ncbi.nlm.nih.gov/pubmed/28066816
-mSystems. 2016 Dec 27;1(6). pii: e00101-16. doi: 10.1128/mSystems.00101-16. eCollection 2016 Nov-Dec.
-From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer.
-Weimann A1, Mooren K2, Frank J3, Pope PB3, Bremges A4, McHardy AC1.
-Traitar provides phenotype classifiers to predict 67 traits related to the use of various substrates as carbon and energy sources, oxygen requirement, morphology, antibiotic susceptibility, proteolysis, and enzymatic activities.
-
-### MediaDB
-https://www.ncbi.nlm.nih.gov/pubmed/25098325
-PLoS One. 2014 Aug 6;9(8):e103548. doi: 10.1371/journal.pone.0103548. eCollection 2014.
-MediaDB: a database of microbial growth conditions in defined media.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123892/
-Growth Data
-- The Growth_Data table links the tables describing an organism, medium, and literature source, and adds information about temperature, pH, growth rate, product secretion rates, and nutrient uptake rates (whenever reported in the literature source). MediaDB currently contains 765 growth conditions.
-- In many instances, we found rate data associated with a particular growth condition in the form of an experimentally-measured growth rate (μ) measured in h −1.
-
-https://mediadb.systemsbiology.net
-Defined Media Database
-
-```
-https://mediadb.systemsbiology.net/defined_media/growthdata/
-Media database: GrowthData
-
-https://mediadb.systemsbiology.net/defined_media/growthdata/page/5
-Geobacter metallireducens - on Defined freshwater medium (coso4) + 50 mm iron citrate + 113.2 mm acetate
-Geobacter sulfurreducens - on Fwafc
-
-https://mediadb.systemsbiology.net/defined_media/growthdata/3/
-Growth Data: Geobacter sulfurreducens - on Fwafc
-Growth Rate:	0.06 (1/h)
-
-https://mediadb.systemsbiology.net/defined_media/growthdata/page/7
-Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
-
-https://mediadb.systemsbiology.net/defined_media/growthdata/374/
-Growth Data: Shewanella oneidensis MR-1 on Minimal medium (tang et al 2009)
-Growth Rate:	0.26609 (1/h)
-```
-
-
-----------
-
-
-### source
-分離源
-
-https://www.ncbi.nlm.nih.gov/pubmed/30910818
-G3 (Bethesda). 2019 Mar 25. pii: g3.200978.2018. doi: 10.1534/g3.118.200978. [Epub ahead of print]
-Genomic Analysis of Pseudomonas sp. Strain SCT, an Iodate-Reducing Bacterium Isolated from Marine Sediment, Reveals a Possible Use for Bioremediation.
-Harada M, Ito K, Nakajima N, Yamamura S, Tomita M, Suzuki H, Amachi S.
-https://www.g3journal.org/content/9/5/1321.long#T1
-Table 1. Genomic features of Pseudomonas strains analyzed
-Isolation source
-
-https://www.ncbi.nlm.nih.gov/pubmed/24625962
-Genome Biol Evol. 2014 Apr;6(4):741-53. doi: 10.1093/gbe/evu048.
-Phylogenomics and the dynamic genome evolution of the genus Streptococcus.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007547/table/evu048-T1/
-Table 1
-Genome Sequence Details
-Source
-
-https://www.ncbi.nlm.nih.gov/pubmed/24488312
-J Bacteriol. 2014 Apr;196(7):1458-70. doi: 10.1128/JB.01439-13. Epub 2014 Jan 31.
-Comparative functional genomics of Lactobacillus spp. reveals possible mechanisms for specialization of vaginal lactobacilli to their environment.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3993339/table/T1/
-TABLE 1
-Genomic characteristics of the strains analyzed in this study
-Source
-
-https://www.ncbi.nlm.nih.gov/pubmed/25107967
-Appl Environ Microbiol. 2014 Oct;80(20):6383-94. doi: 10.1128/AEM.02004-14. Epub 2014 Aug 8.
-Investigation of the evolutionary development of the genus Bifidobacterium by comparative genomics.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178631/table/T1/
-TABLE 1
-Bifidobacterium genome list
-Source of isolation
-
-https://www.ncbi.nlm.nih.gov/pubmed/24581150
-BMC Genomics. 2014 Mar 1;15:170. doi: 10.1186/1471-2164-15-170.
-Comparative genomics of the Bifidobacterium breve taxon.
-http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4007704/table/Tab1/
-Table 1
-List of Bifidobacterium breve representatives
-Ecological origin
-
-https://www.ncbi.nlm.nih.gov/pubmed/22031452
-Microb Ecol. 2012 Apr;63(3):651-73. doi: 10.1007/s00248-011-9948-y. Epub 2011 Oct 27.
-Comparative genomics of Bifidobacterium, Lactobacillus and related probiotic genera.
-http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324989/table/Tab1/
-Table 1
-Genomes selected for analysis
-Strain characteristics
 
 ----------
 ## harvest
