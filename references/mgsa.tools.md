@@ -40,13 +40,6 @@
 - [Genome alignment](#genome-alignment)
 - [lea](#lea)
 - [vitcomic](#vitcomic)
-- [pipeline](#pipeline)
-  - [Tychus](#tychus)
-  - [scoary](#scoary)
-  - [piggy](#piggy)
-  - [bactopia](#bactopia)
-  - [get_homologues](#get_homologues)
-  - [pirate](#pirate)
 - [unclassified](#unclassified)
 - [updates](#updates)
 - [island](#island)
@@ -69,7 +62,7 @@
 
 ----------
 
-https://github.com/haruosuz/mgsa/blob/master/references/README.pangenome.md
+
 
 ----------
 
@@ -509,8 +502,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6534532/
 
 
 
-
-
 http://www.aeplan.co.jp/sgmj2017/pdf/program_neminar.pdf
 ≪バイオインフォマティクス≫ 11:06~11:54
 3O1-09
@@ -880,6 +871,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6360808/
 
 ### 2018
 
+  - [Tychus](#tychus)
+
 https://www.biorxiv.org/content/early/2018/03/16/283101
 Tychus: a whole genome sequencing pipeline for assembly, annotation and phylogenetics of bacterial genomes
 
@@ -966,159 +959,7 @@ gbk2fna.pl -- Read Genbank to Nucleotide Fasta file.
 https://www.ncbi.nlm.nih.gov/pathogens/isolates/#/search/
 Isolates Browser - Pathogen Detection - NCBI
 
-----------
-### Scoary
 
-https://github.com/AdmiralenOla/Scoary
-
-https://github.com/AdmiralenOla/Scoary/issues/86
-gene_presence_absence.csv file from Roary · Issue #86 · AdmiralenOla/Scoary
-
-https://pubmed.ncbi.nlm.nih.gov/27887642/
-Genome Biol
-. 2016 Nov 25;17(1):238. doi: 10.1186/s13059-016-1108-8.
-Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary
-Ola Brynildsrud 1, Jon Bohlin 2, Lonneke Scheffer 2 3, Vegard Eldholm 2
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1108-8
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124306/
-
-https://sanger-pathogens.github.io/Roary/
-Pan-genome wide association studies
-Ola Brynildsrud has created a python script called scoary which takes in a csv file of traits, and the gene presence and absense spreadsheet, then performs a pan genome wide association analysis. It highlights genes which appear to be linked to the traits and gives lots of stats.
-
-----------
-### piggy
-
-https://github.com/harry-thorpe/piggy
-
-https://pubmed.ncbi.nlm.nih.gov/29635296/
-Gigascience
-. 2018 Apr 1;7(4):1-11. doi: 10.1093/gigascience/giy015.
-Piggy: a rapid, large-scale pan-genome analysis tool for intergenic regions in bacteria
-Harry A Thorpe 1, Sion C Bayliss 1, Samuel K Sheppard 1, Edward J Feil 1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890482/
-
-https://academic.oup.com/gigascience/article/7/4/giy015/4919733
-Roary and Piggy parameter settings
-Roary [4] was run using default parameters except for the following: -e -n (to produce alignments with MAFFT [23]); -i 90 (lower amino acid identity than the default); -s (to keep paralogs together); and -z (to keep intermediate files). 
-
-----------
-### pirate
-https://github.com/SionBayliss/PIRATE
-
-https://pubmed.ncbi.nlm.nih.gov/31598686/
-Gigascience
-. 2019 Oct 1;8(10):giz119. doi: 10.1093/gigascience/giz119.
-PIRATE: A fast and scalable pangenomics toolbox for clustering diverged orthologues in bacteria
-Sion C Bayliss 1, Harry A Thorpe 1, Nicola M Coyle 1, Samuel K Sheppard 1, Edward J Feil 1
-https://academic.oup.com/gigascience/article/8/10/giz119/5584409
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785682/
-For comparison, we chose 2 of the most widely used packages, Roary and PanX [2,6]. 
-
-
-----------
-### GET_HOMOLOGUES
-
-https://github.com/eead-csic-compbio/get_homologues/releases
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7738440/
-A Novel Family of Acinetobacter Mega-Plasmids Are Disseminating Multi-Drug Resistance Across the Globe While Acquiring Location-Specific Accessory Genes
-
-Plasmid pan‐ and core-genome analyses were carried out using Perl scripts available in the GET_HOMOLOGUES v20092018 software package (Contreras-Moreira and Vinuesa, 2013; Vinuesa and Contreras-Moreira, 2015).
-
-Appropriate phylogenetic loci were identified using the GET_PHYLOMARKERS software package (Vinuesa et al., 2018) with default parameters. The GET_PHYLOMARKERS uses the single-copy plasmid core-genome clusters identified by GET_HOMOLOGUES and removes recombinant sequences as well as loci that produce outlier phylogenies. 
-
-https://pubmed.ncbi.nlm.nih.gov/29765358/
-Front Microbiol
-. 2018 May 1;9:771. doi: 10.3389/fmicb.2018.00771. eCollection 2018.
-GET_PHYLOMARKERS, a Software Package to Select Optimal Orthologous Clusters for Phylogenomics and Inferring Pan-Genome Phylogenies, Used for a Critical Geno-Taxonomic Revision of the Genus Stenotrophomonas
-Pablo Vinuesa 1, Luz E Ochoa-Sánchez 1, Bruno Contreras-Moreira 2 3
-https://www.frontiersin.org/articles/10.3389/fmicb.2018.00771/full
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938378/
-The code, a detailed manual and tutorials are freely available for Linux/UNIX servers under the GNU GPLv3 license at https://github.com/vinuesa/get_phylomarkers. A docker image bundling GET_PHYLOMARKERS with GET_HOMOLOGUES is available at https://hub.docker.com/r/csicunam/get_homologues/, which can be easily run on any platform.
-
-
-Materials and methods
-
-Overview of the computational steps performed by the GET_PHYLOMARKERS pipeline
-
-The pipeline is primarily intended to run DNA-based phylogenies (“-R 1 -t DNA”) on a collection of genomes from different species of the same genus or family. However, it can also select optimal markers for population genetics (“-R 2 -t DNA”), when the source genomes belong to the same species (not shown here). For more divergent genomes, the pipeline should be run using protein sequences (“-R 1 -t PROT”). 
-
-These are subsequently scanned with the Phi-test (Bruen et al., 2005) to identify and discard those with significant evidence for recombinant sequences. 
-
-
-Results
-
-Rapid phylogenetic exploration of Stenotrophomonas genome sequences available at NCBI's RefSeq repository running GET_PHYLOMARKERS in fast runmode
-
-Only 79 alignments passed the Phi recombination test.
-
-GET_PHYLOMARKERS in action: benchmarking the performance of FastTree and IQ-tree to select top-scoring markers for phylogenomics
-
-Only 127 alignments (53.14%) passed the Phi-test (Table ​(Table2).2). 
-
-
-Table 2
-
-Alignments passing the Phi recombination test
-
-Discussion
-
-Hence, the first filtering step in the pipeline is the detection of putative recombinant sequences using the very fast, sensitive and robust phi(w) statistic (Bruen et al., 2005). The genus Stenotrophomonas has been previously reported to have high recombination rates (Yu et al., 2016; Ochoa-Sánchez and Vinuesa, 2017). It is therefore not surprising that the phi(w) statistic detected significant evidence for recombination in up to 47% of the orthologous clusters.
-
-
-
-
-
-https://pubmed.ncbi.nlm.nih.gov/28261241/
-Front Plant Sci
-. 2017 Feb 14;8:184. doi: 10.3389/fpls.2017.00184. eCollection 2017.
-Analysis of Plant Pan-Genomes and Transcriptomes with GET_HOMOLOGUES-EST, a Clustering Solution for Sequences of the Same Species
-Bruno Contreras-Moreira 1, Carlos P Cantalapiedra 2, María J García-Pereira 2, Sean P Gordon 3, John P Vogel 3, Ernesto Igartua 2, Ana M Casas 2, Pablo Vinuesa 4
-https://www.frontiersin.org/articles/10.3389/fpls.2017.00184/full
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5306281/
-
-https://pubmed.ncbi.nlm.nih.gov/25343868/
-Methods Mol Biol
-. 2015;1231:203-32. doi: 10.1007/978-1-4939-1720-4_14.
-Robust identification of orthologues and paralogues for microbial pan-genomics using GET_HOMOLOGUES: a case study of pIncA/C plasmids
-Pablo Vinuesa 1, Bruno Contreras-Moreira
-https://link.springer.com/protocol/10.1007%2F978-1-4939-1720-4_14
-https://core.ac.uk/reader/36182144
-
-https://pubmed.ncbi.nlm.nih.gov/24096415/
-Appl Environ Microbiol
-. 2013 Dec;79(24):7696-701. doi: 10.1128/AEM.02411-13. Epub 2013 Oct 4.
-GET_HOMOLOGUES, a versatile software package for scalable and robust microbial pangenome analysis
-Bruno Contreras-Moreira 1, Pablo Vinuesa
-https://journals.asm.org/doi/10.1128/AEM.02411-13
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3837814/
-
-https://bibgraph.hpcr.jp/abst/pubmed/24096415
-get_homoleues、スケーラブルで堅牢な微生物パンゲノーム分析のための多用途のソフトウェアパッケージ。 - Bibgraph（ビブグラフ）| PubMedを日本語で論文検索
-
-https://kazumaxneo.hatenablog.com/entry/2020/05/27/140848
-パンゲノム解析を行う GET HOMOLOGUES - macでインフォマティクス
-
-https://kazumaxneo.hatenablog.com/entry/2017/08/24/163914
-複数のトランスクリプトーム解析からコア遺伝子を探索するGET_HOMOLOGUES-EST - macでインフォマティクス
- GET_HOMOLOGUESの説明は別の記事に移しました。
-
-----------
-### bactopia
-- https://github.com/bactopia/bactopia
-- https://bactopia.github.io/
-
-https://pubmed.ncbi.nlm.nih.gov/32753501/
-mSystems
-. 2020 Aug 4;5(4):e00190-20. doi: 10.1128/mSystems.00190-20.
-Bactopia: a Flexible Pipeline for Complete Analysis of Bacterial Genomes
-Robert A Petit 3rd 1, Timothy D Read 2
-https://msystems.asm.org/content/5/4/e00190-20
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7406220/
-
-http://kazumaxneo.hatenablog.com/entry/2020/03/17/090935
-計算リソースを効率的に使って多数のよく似たバクテリアゲノムを素早く分析する自動化されたパイプライン Bactopia - macでインフォマティクス
 
 ----------
 ### holt Lab
@@ -2022,9 +1863,11 @@ Andrew D Yates 1 2, Jeremy Adams 3 2, Somesh Chaturvedi 1 4, Robert M Davies 2 5
 
 https://github.com/ga4gh/large-scale-genomics-wiki/blob/master/refget.md
 Refget: access to reference sequences
-
+|
+Python code 
+|
 Getting sequence metadata
-
+|
 What does an identifier derived from the sequence mean?
 
 ### 2021-06-05
@@ -2177,6 +2020,20 @@ Wataru IWASAKI on Twitter: "MetaMetaDBは、様々な環境のメタゲノム（
 https://www.jst.go.jp/kisoken/crest/research/nenpou/h25/JST_1111065_11103779_2013_YR.pdf
 遺伝子解析基盤技術グループは、これまでに世界中の様々な環境か ら得られたメタゲノムデータを収集した網羅的メタゲノムデータベース(MetaMetaDB) を開発し、海洋環境中に新たなグループの微生物が見つかった場合にその由来となった環 境を遺伝子情報から迅速に解析し、遺伝子情報に基づいた生態系評価を行うための基盤を 作った。
 
+### BV-BRC
+https://www.bv-brc.org/
+Bacterial and Viral Bioinformatics Resource Center | BV-BRC
+
+11:01 PM · Sep 30, 2022
+https://x.com/PATRICBRC/status/1575848216980955136
+PATRICBRC on X: "New paper by Sharp and Foster used data that they got from PATRIC in their analysis. https://t.co/aJ9FqSdH1F" / X
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9218092/
+Host control and the evolution of cooperation in host microbiomes - PMC
+
+9:08 PM · Sep 15, 2022
+https://x.com/PATRICBRC/status/1570383936345493505
+PATRICBRC on X: "It's official! PATRIC is now BV-BRC. The new site includes more tools, faster loads, improved downloads, and more data. Check it out! https://t.co/1SNqoOkhSt" / X
+
 ### PATRIC
 https://patricbrc.org
 
@@ -2192,18 +2049,10 @@ Genome Metadata
 
 http://enews.patricbrc.org/faqs/2-genome-data-and-tools/genome-metadata-faqs/
 
-### NCBI
-https://www.ncbi.nlm.nih.gov/genome/167
-Escherichia coli
-
-	Escherichia coli str. K-12 substr. MG1655
-	Submitter: Univ. Wisconsin
-	Morphology: Gram:Negative, Shape:Bacilli, Motility:Yes
-	Environment: OxygenReq:Facultative, OptimumTemperature:37, TemperatureRange:Mesophilic, Habitat:HostAssociated
-
 ### GOLD
 Genomes OnLine Database
-https://gold.jgi.doe.gov
+
+https://gold.jgi.doe.gov/
 ```
 Biosamples
 Classification
@@ -2213,9 +2062,27 @@ Ecosystems
    Environmental 59,735
 ```
 
+https://gold.jgi.doe.gov/downloads
+```
+Public Studies/Biosamples/SPs/APs/Organisms Excel Last generated: 16 Oct, 2024
+
+goldData.xlsx
+Biosample
+BIOSAMPLE SAMPLE COLLECTION DATE
+```
+
 https://www.ncbi.nlm.nih.gov/pubmed/27794040
 Nucleic Acids Res. 2017 Jan 4;45(D1):D446-D456. doi: 10.1093/nar/gkw992. Epub 2016 Oct 27.
 Genomes OnLine Database (GOLD) v.6: data updates and feature enhancements.
+
+### NCBI
+https://www.ncbi.nlm.nih.gov/genome/167
+Escherichia coli
+
+	Escherichia coli str. K-12 substr. MG1655
+	Submitter: Univ. Wisconsin
+	Morphology: Gram:Negative, Shape:Bacilli, Motility:Yes
+	Environment: OxygenReq:Facultative, OptimumTemperature:37, TemperatureRange:Mesophilic, Habitat:HostAssociated
 
 ### microbe-directory
 
