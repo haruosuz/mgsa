@@ -1246,8 +1246,15 @@ https://academic.oup.com/bioinformatics/article/39/Supplement_1/i57/7210517?logi
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10311324/
 
 2023/01/24
+5:25
 https://www.youtube.com/watch?v=93vXTm2AJ88
 Applying UniFrac to Whole Genome Shotgun Data - Wei Wei - MICROBIOME - Poster - ISMB 2022
+
+2022/05/10
+https://www.youtube.com/watch?v=EXNOgmUyPfY&t=420s
+Using the mantel test to compare ecological matrices using the vegan R package (CC211)
+Riffomonas Project
+7:00 Importing Unweighted and Weighted Unifrac distances
 
 2021/04/28
 17:25 / 36:00
