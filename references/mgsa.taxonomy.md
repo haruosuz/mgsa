@@ -246,14 +246,13 @@ Genome Taxonomy Database
 
 https://x.com/ace_gtdb
 
-http://gtdb.ecogenomic.org/
-
-https://gtdb.ecogenomic.org/about
+- http://gtdb.ecogenomic.org/
+- https://gtdb.ecogenomic.org/about
 Cite GTDB
-
-https://gtdb.ecogenomic.org/downloads
-https://data.gtdb.ecogenomic.org/
-https://data.gtdb.ecogenomic.org/releases/
+- https://gtdb.ecogenomic.org/downloads
+- https://data.gtdb.ecogenomic.org/
+- https://data.gtdb.ecogenomic.org/releases/
+- https://data.gtdb.ecogenomic.org/releases/latest/FILE_DESCRIPTIONS.txt
 
 https://pubmed.ncbi.nlm.nih.gov/36218463/
 Bioinformatics
