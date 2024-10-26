@@ -246,7 +246,7 @@ Genome Taxonomy Database
 
 https://x.com/ace_gtdb
 
-- http://gtdb.ecogenomic.org/
+- https://gtdb.ecogenomic.org/
 - https://gtdb.ecogenomic.org/about
 Cite GTDB
 - https://gtdb.ecogenomic.org/downloads
