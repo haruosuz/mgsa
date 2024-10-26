@@ -244,12 +244,16 @@ Varghese NJ1, Mukherjee S1, Ivanova N1, Konstantinidis KT2, Mavrommatis K3, Kyrp
 ## gtdb
 Genome Taxonomy Database
 
-http://gtdb.ecogenomic.org/
-
 https://x.com/ace_gtdb
+
+http://gtdb.ecogenomic.org/
 
 https://gtdb.ecogenomic.org/about
 Cite GTDB
+
+https://gtdb.ecogenomic.org/downloads
+https://data.gtdb.ecogenomic.org/
+https://data.gtdb.ecogenomic.org/releases/
 
 https://pubmed.ncbi.nlm.nih.gov/36218463/
 Bioinformatics
