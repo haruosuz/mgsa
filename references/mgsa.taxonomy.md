@@ -252,7 +252,29 @@ Cite GTDB
 - https://gtdb.ecogenomic.org/downloads
 - https://data.gtdb.ecogenomic.org/
 - https://data.gtdb.ecogenomic.org/releases/
-- https://data.gtdb.ecogenomic.org/releases/latest/FILE_DESCRIPTIONS.txt
+- https://data.gtdb.ecogenomic.org/releases/latest/genomic_files_reps/
+
+https://data.gtdb.ecogenomic.org/releases/latest/FILE_DESCRIPTIONS.txt
+```
+* bac120_<release>.tree
+    Bacterial reference tree inferred from the concatenation of 120 proteins and spanning the representative
+    genomes for each bacterial species cluster. This tree is used to curate the GTDB taxonomy. The provided
+    tree is in Newick format, decorated with the GTDB taxonomy, and contains non-parametric bootstrap support
+    values.
+
+* Files in genomic_files_reps are specific to GTDB species representatives:
+    * bac120_marker_genes_reps_<release>.tar.gz
+        Untrimmed and unaligned marker genes used in the concatenated alignment used to infer
+        the bacterial reference tree. Genomes without a marker gene indicate either multiple hits or 
+        no hits were found for that gene. Genes are provided as both nucleotide and amino acid
+        sequences. Trimmed and aligned hits can be found in bac120_msa_marker_genes_reps_<release>.tar.gz.
+
+    * bac120_msa_marker_genes_reps_<release>.tar.gz
+        Trimmed and aligned marker genes for GTDB representative for each of the 120 bacterial proteins.
+        
+    * bac120_msa_reps_<release>.faa.gz
+        Multiple sequence alignment used to infer the bacterial reference tree.
+```
 
 https://pubmed.ncbi.nlm.nih.gov/36218463/
 Bioinformatics
