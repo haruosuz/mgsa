@@ -252,6 +252,7 @@ Cite GTDB
 - https://gtdb.ecogenomic.org/downloads
 - https://data.gtdb.ecogenomic.org/
 - https://data.gtdb.ecogenomic.org/releases/
+- https://data.gtdb.ecogenomic.org/releases/latest/
 - https://data.gtdb.ecogenomic.org/releases/latest/genomic_files_reps/
 
 https://data.gtdb.ecogenomic.org/releases/latest/FILE_DESCRIPTIONS.txt
