@@ -9,6 +9,11 @@
 - [people](#people)
   - [anda](#anda)
   - [miyazaki-kentaro](#miyazaki-kentaro)
+- [book](#book)
+- [data](#data)
+  - [Greengenes](#greengenes)
+  - [RDP](#rdp)
+- [](#)
 
 ----------
 
@@ -28,7 +33,108 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
 
 
 ----------
+## book
 
+### 2018-10-06
+06 October 2018
+
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/188bto4/alma99342392104031
+
+Statistical Analysis of Microbiome Data with R / by Yinglin Xia, Jun Sun, Ding-Geng Chen.
+Xia, Yinglin. author. Sun, Jun. author. Chen, Ding-Geng. author.
+1st ed. 2018.
+Singapore : Springer Nature Singapore : Imprint: Springer, 2018.
+2018
+ICSA Book Series in Statistics,
+
+Ebook Central Perpetual, DDA and Subscription Titles
+
+SpringerLink Books (Series & Reference Works)
+
+9.5 Compare Microbiome Communities Using the GUniFrac Package
+325
+
+Step 3: Read Phylogenetic Tree
+The GUniFrac package requires a rooted tree as input data. We can use the function midpoint() from the phangorn package to obtain the rooted tree.
+```
+> library(phangorn)
+> otu_tree <- midpoint(otu_tree)
+> otu_tree
+```
+
+----------
+## data
+
+- https://x.com/treebase
+- https://www.mg-rast.org/
+- https://qiita.ucsd.edu/
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.taxonomy.md#gtdb
+
+### fasttree
+http://www.microbesonline.org/fasttree/
+16S ribosomal RNA trees and alignments
+http://www.microbesonline.org/fasttree/#16S
+Downloading 16S rRNA trees and alignments
+
+218,348 (all)	186,743	NAST	1.0 (no SPR moves, no ML)	alignment and tree (48 MB)
+http://www.microbesonline.org/fasttree/downloads/Large16S.tar.gz
+
+
+2021-12-13
+https://staffblog.amelieff.jp/entry/metagenome.db
+メタゲノム解析16S rRNA配列の２大データベース - アメリエフの技術ブログ
+SILVA
+Greengenes
+
+----------
+## Greengenes
+
+### 2024-05
+https://pubmed.ncbi.nlm.nih.gov/37500913/
+Nat Biotechnol
+. 2024 May;42(5):715-718. doi: 10.1038/s41587-023-01845-1. Epub 2023 Jul 27.
+Greengenes2 unifies microbial data in a single reference tree
+Daniel McDonald 1, Yueyu Jiang 2, Metin Balaban 3, Kalen Cantrell 4, Qiyun Zhu 5 6, Antonio Gonzalez 1, James T Morton 7, Giorgia Nicolaou 8, Donovan H Parks 9, Søren M Karst 10, Mads Albertsen 11, Philip Hugenholtz 9, Todd DeSantis 12, Se Jin Song 13, Andrew Bartko 13, Aki S Havulinna 14 15, Pekka Jousilahti 14, Susan Cheng 16 17, Michael Inouye 18 19, Teemu Niiranen 14 20, Mohit Jain 21, Veikko Salomaa 14, Leo Lahti 22, Siavash Mirarab 2, Rob Knight 23 24 25 26
+https://www.nature.com/articles/s41587-023-01845-1
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10818020/
+
+However, UniFrac18, a phylogenetic method, used with our Greengenes2 tree provides better concordance (Fig. 1f and Supplementary Fig. 1d).
+
+Integrating the GTDB and LTP taxonomies
+
+----------
+## RDP
+
+### 2024-04-11
+https://pubmed.ncbi.nlm.nih.gov/38436268/
+Microbiol Resour Announc
+. 2024 Apr 11;13(4):e0106323. doi: 10.1128/mra.01063-23. Epub 2024 Mar 4.
+Updated RDP taxonomy and RDP Classifier for more accurate taxonomic classification
+Qiong Wang 1, James R Cole 2
+https://journals.asm.org/doi/full/10.1128/mra.01063-23
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11008197/
+
+2:00 AM · Apr 11, 2024
+https://twitter.com/ASMicrobiology/status/1778105814617604253
+ASM on X: "The RDP Classifier is one of the most popular machine learning approaches for taxonomic classification. Researchers updated the RDP taxonomy to incorporate newly described taxa &amp; recent changes in nomenclature for prokaryotes. Learn more in #MRAJournal: https://t.co/2hAFX3KfBj https://t.co/XzIYQuEnpo" / X
+
+### 2014-01
+Ribosomal Database Project: data and tools for high throughput rRNA analysis.
+Cole JR, Wang Q, Fish JA, Chai B, McGarrell DM, Sun Y, Brown CT, Porras-Alfaro A, Kuske CR, Tiedje JM Nucleic Acids Res. 2014 Jan;42(Database issue):D633-42. PMID:24288368
+    is cited by the following papers.
+合計: 1052, 
+https://pubmed.ncbi.nlm.nih.gov/24288368/
+Nucleic Acids Res
+. 2014 Jan;42(Database issue):D633-42. doi: 10.1093/nar/gkt1244. Epub 2013 Nov 27.
+Ribosomal Database Project: data and tools for high throughput rRNA analysis
+James R Cole 1, Qiong Wang, Jordan A Fish, Benli Chai, Donna M McGarrell, Yanni Sun, C Titus Brown, Andrea Porras-Alfaro, Cheryl R Kuske, James M Tiedje
+https://academic.oup.com/nar/article/42/D1/D633/1063201
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3965039/
+
+https://integbio.jp/dbcatalog/record/nbdc00184
+
+----------
 ## unclassified
 
 
@@ -108,8 +214,6 @@ The extent and characteristics of DNA transfer between plasmids and chromosomes:
 
 In addition to protein-coding genes, we examined evidence for the transfer of RNA genes between plasmids and chromosomes, which is considered as rare (but exceptions have been reported, e.g., for rRNA genes in Aureimonas plasmids42,43). Our analysis uncovered multiple segments that putatively correspond to transfer of RNA genes. The dataset analyzed here includes overall 197 rRNA genes in 42 plasmids, all of which are shared with the chromosome (Table S4). Out of the total 88 segments comprising rRNA genes, 61 segments correspond to a complete gene set of the rRNA operon. Example is sharing of an rRNA operon between plasmids and chromosomes in several isolates of the sugarcane endophyte Azospirillum brasilense, in agreement with previous reports.44 Additionally, the dataset analyzed here includes 832 tRNA genes in 171 plasmids, of which 239 (29%) genes are shared with the chromosome in 63 plasmid-chromosome pairs (Table S4). An extreme example is a tRNA island comprising 13 tRNA genes in plasmid pBM400 in the soil bacterium Priestia megaterium strain QM B1551.45,46 Using our approach, we uncovered four copies of that region in the host chromosome, in variable levels of sequence conservation. Notably, comparing the pBM400 plasmid genome with similar-sized plasmids from two recently sequenced P. megaterium isolates47 reveals a high conservation of the plasmid-encoded tRNA island (Figure S2). Considering their low frequency, sharing of rRNA and tRNA genes between plasmids and their host chromosomes remains a rather rare phenomenon in the analyzed dataset. The difference in the proportion of shared genes between rRNA genes (all genes) and tRNA genes (ca. 30%) indicates that plasmid tRNAs may supplement the host tRNA repertoire (e.g., as reported for Methanoperedenaceae48).
 
-
-
 Posted June 21, 2024.
 https://www.biorxiv.org/content/10.1101/2024.06.21.600076v1
 RecA is a reliable marker for bacterial taxonomy, even in the Candidate Phyla Radiation | bioRxiv
@@ -118,6 +222,16 @@ Culture-independent approaches are commonly used to characterise the taxonomic c
 
 In perspective, RecA could be considered as a broad-spectrum marker for amplicon-based studies to overcome the limits of 16S rRNA.
 
+### 2024-04-20
+https://pubmed.ncbi.nlm.nih.gov/38643216/
+Sci Rep
+. 2024 Apr 20;14(1):9067. doi: 10.1038/s41598-024-59667-3.
+The overlooked evolutionary dynamics of 16S rRNA revises its role as the "gold standard" for bacterial species identification
+Oldřich Bartoš 1, Martin Chmel 2 3, Iva Swierczková 2
+https://www.nature.com/articles/s41598-024-59667-3
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11032355/
+
+saturation
 
 ### 2024-04-11
 
@@ -177,6 +291,8 @@ https://www.k.u-tokyo.ac.jp/information/category/press/10606.html
 https://nbrp.jp/public/news/press/news-231115/
 【研究論文発表｜一般微生物】必須遺伝子が染色体に無くても生物は絶滅しない －数億年前からプラスミドだけでリボソームRNA遺伝子を維持するバクテリアの発見－｜お知らせ・プレスリリース｜NBRP
 
+### 2022
+
 ### 2022-07-08
 
 https://pubmed.ncbi.nlm.nih.gov/35799218/
@@ -186,6 +302,21 @@ Phylogenies of the 16S rRNA gene and its hypervariable regions lack concordance 
 Hayley B Hassler 1, Brett Probert 1, Carson Moore 1, Elizabeth Lawson 1, Richard W Jackson 2, Brook T Russell 3, Vincent P Richards 4
 https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-022-01295-y
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9264627/
+
+### 2002-03
+
+https://colil.dbcls.jp/browse/papers/11931166/1/100/year
+Evolution of the gyrB gene and the molecular phylogeny of Enterobacteriaceae: a model molecule for molecular systematic studies.
+Dauga C Int J Syst Evol Microbiol. 2002 Mar;52(Pt 2):531-47. PMID:11931166
+    is cited by the following papers.
+← 前へ  合計: 18, 
+https://pubmed.ncbi.nlm.nih.gov/11931166/
+Comparative Study Int J Syst Evol Microbiol
+. 2002 Mar;52(Pt 2):531-47. doi: 10.1099/00207713-52-2-531.
+Evolution of the gyrB gene and the molecular phylogeny of Enterobacteriaceae: a model molecule for molecular systematic studies
+Catherine Dauga 1
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-2-531#tab2
+Saturation of gyrB genes was observed by the pairwise comparison of Proteus spp., Providencia alcalifaciens and Morganella morganii sequences.
 
 ### 2021
 
@@ -255,6 +386,7 @@ https://twitter.com/puni2azarashi/status/1270590549414707205
 
 ### 2020-02
 
+https://colil.dbcls.jp/browse/papers/31712737/1/100/year
 https://pubmed.ncbi.nlm.nih.gov/31712737/
 ISME J
 . 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
@@ -328,7 +460,7 @@ Conclusion
 The copy contributing part of the genome may be acquired by horizontal transfer. 16S rRNA sequences have long been used as an “ultimate chronometer” for phylogenetic classification of bacterial species but the effect of multiple rrs in bacterial genomes and their location in chromosomes or plasmids has not been considered.
 
 ### 2017-10-26
-
+https://colil.dbcls.jp/browse/papers/29073157/1/100/year
 https://pubmed.ncbi.nlm.nih.gov/29073157/
 PLoS One
 . 2017 Oct 26;12(10):e0186393. doi: 10.1371/journal.pone.0186393. eCollection 2017.
@@ -355,6 +487,15 @@ DEFINITION  Scytonema sp. HK-05 plasmid plasmid4 DNA, complete genome.
                      /locus_tag="SAMD00079811_82750"
                      /product="16S ribosomal RNA"
 ```
+
+### 2017-03-14
+https://pubmed.ncbi.nlm.nih.gov/28361695/
+Comparative Study BMC Genomics
+. 2017 Mar 14;18(Suppl 2):114. doi: 10.1186/s12864-017-3501-4.
+SILVA, RDP, Greengenes, NCBI and OTT - how do these taxonomies compare?
+Monika Balvočiūtė 1, Daniel H Huson 2
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3501-4
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5374703/
 
 ### 2015-07-27
 https://colil.dbcls.jp/browse/papers/26220935/1/100/year
@@ -395,6 +536,19 @@ Nat Microbiol. 2016 Sep 12;1(11):16160. doi: 10.1038/nmicrobiol.2016.160.
 Exploiting rRNA operon copy number to investigate bacterial reproductive strategies.
 Roller BR1,2, Stoddard SF1, Schmidt TM1,3,4.
 
+### 2014
+
+### 2014-01-14
+https://pubmed.ncbi.nlm.nih.gov/24572375/
+Review RNA Biol
+. 2014;11(3):176-85. doi: 10.4161/rna.27505. Epub 2014 Jan 14.
+Molecular phylogenetics before sequences: oligonucleotide catalogs as k-mer spectra
+Mark A Ragan 1, Guillaume Bernard 1, Cheong Xin Chan 1
+https://www.tandfonline.com/doi/full/10.4161/rna.27505
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4008546/
+Table 1. All 16S ribosomal rRNA sequences used in this study, their GenBank accession numbers, and their inclusion in our re-analysis of rRNAs from (A) three kingdoms74 and (B) proteobacteria (Fig. 4 of ref. 40). For proteobacteria in our analysis B, we identify class (α, β, γ, or Δ-proteobacteria).
+Source organism	GenBank accession	Analysis
+
 ### 2013
 
 https://www.ncbi.nlm.nih.gov/pubmed/23872556
@@ -429,7 +583,6 @@ Microbiol Res. 2011 Feb 20;166(2):99-110. doi: 10.1016/j.micres.2010.02.003. Epu
 Microbial phylogeny and diversity: small subunit ribosomal RNA sequence analysis and beyond.
 Rajendhran J1, Gunasekaran P.
 
-
 ### 2010
 
 https://www.ncbi.nlm.nih.gov/pubmed/20418441
@@ -456,6 +609,17 @@ Borrelia afzelii contains two 16S rRNA genes found on two separate chromosomes t
 DISCUSSION
 
 Of the two 16S rRNA genes in B. afzelii, the pseudogene has a much lower GC content (38.1%) than the functional copy (46.5%). It appears the random mutations in the pseudogene have been bringing its GC content toward the baseline for the whole genome (28%).
+
+### 2009-07-01
+
+Published: 01 July 2009
+https://academic.oup.com/jcb/article/29/3/400/2548067
+16S and 28S rDNA Sequences in Phylogenetic Analyses of Freshwater Prawns (Macrobrachium Bate, 1868) from Taiwan | Journal of Crustacean Biology | Oxford Academic
+
+Table 1
+The sources of 16S rDNA and 28S rDNA sequences of freshwater prawns (Macrobrachium) used in this study (NCBI accession numbers: EU from this study, DQ from GenBank).
+
+saturation
 
 ### 2003
 
