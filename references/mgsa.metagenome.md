@@ -73,13 +73,6 @@ A global metagenomic map of urban microbiomes and antimicrobial resistance
 
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
 
-
-
-
-
-
-
-
 ----------
 
 ## updates
@@ -156,13 +149,13 @@ https://twitter.com/gggtta/status/1215107137476513792
 ### 2019
 
 https://qiita.com/advent-calendar/2019/metagenome
-メタゲノム Advent Calendar 2019 - Qiita
+メタゲノム Advent Calendar 2019
 
 https://qiita.com/hi-mori/items/a1d3e0923f2cc85edb84
-メタゲノムの情報解析が学べるWeb教材（スライドや動画） - Qiita
+メタゲノムの情報解析が学べるWeb教材（スライドや動画）
 
 https://qiita.com/Yohei__K/items/dffc8767581bfbaad812
-メタゲノムのイケてるネットワーク解析手法、WGCNA解説 - Qiita
+メタゲノムのイケてるネットワーク解析手法、WGCNA解説
 R packageに関して
 
 https://www.ncbi.nlm.nih.gov/pubmed/31848574/
@@ -718,45 +711,14 @@ Abundance-weighted phylogenetic diversity measures distinguish microbial communi
 
 In microbial ecology studies, the most commonly used ways of investigating alpha (within-sample) diversity are either to apply non-phylogenetic measures such as Simpson’s index to Operational Taxonomic Unit (OTU) groupings, or to use classical phylogenetic diversity (PD), which is not abundance-weighted. 
 
-As of the publication of this paper, no abundance-weighted phylogenetic alpha diversity measures are implemented in either mothur (Schloss et al., 2009) or QIIME (Caporaso et al., 2010), two of the most popular tools for analysis of microbial ecology data. 
-
-
-----------
-## Greengenes
-
-http://greengenes.secondgenome.com
-The Greengenes Database
-
-http://greengenes.secondgenome.com/downloads
-Download Area
-
-----------
-## RDP
-
-https://www.ncbi.nlm.nih.gov/pubmed/24288368
-Nucleic Acids Res. 2014 Jan;42(Database issue):D633-42. doi: 10.1093/nar/gkt1244. Epub 2013 Nov 27.
-Ribosomal Database Project: data and tools for high throughput rRNA analysis.
-Cole JR1, Wang Q, Fish JA, Chai B, McGarrell DM, Sun Y, Brown CT, Porras-Alfaro A, Kuske CR, Tiedje JM.
-
-http://rdp.cme.msu.edu
-RDP Release 11 -- Sequence Analysis Tools
-
-http://rdp.cme.msu.edu/misc/resources.jsp
-RDP Resource Download Area
+As of the publication of this paper, no abundance-weighted phylogenetic alpha diversity measures are implemented in either mothur (Schloss et al., 2009) or QIIME (Caporaso et al., 2010), two of the most popular tools for analysis of microbial ecology data.
 
 ----------
 ## 16S
 
-https://www.biorxiv.org/content/early/2018/10/13/441576
+Posted October 13, 2018.
+https://www.biorxiv.org/content/10.1101/441576v1
 Nomenclature Errors in Public 16S rRNA Gene Reference Databases
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/29688343
-FEMS Microbiol Lett. 2018 May 1;365(10). doi: 10.1093/femsle/fny104.
-A town on fire! Integrating 16S rRNA gene amplicon analyses into an undergraduate microbiology lecture class.
-Tobin TC1, Shade A2.
-
 
 https://pubmed.ncbi.nlm.nih.gov/29688343/
 FEMS Microbiol Lett
@@ -1915,7 +1877,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053813/
 
 更新日 2020年11月25日
 https://qiita.com/Adaachill/items/ec08e7701c9975616f36
-metagenome シークエンスから高速に各readの系統を推定するKraken2[環境構築] - Qiita
+metagenome シークエンスから高速に各readの系統を推定するKraken2[環境構築]
 
 https://kazumaxneo.hatenablog.com/entry/2017/08/28/235248
 メタゲノムデータの高速なtaxonomy assignmentを行う kraken - macでインフォマティクス
@@ -2253,21 +2215,14 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
 
 https://knightlab.ucsd.edu/wordpress/?page_id=25
 
-7:25 AM · May 24, 2018
-https://twitter.com/merenbey/status/999416078446071809
-A. Murat Eren (Meren) on Twitter: "This is unfair to DADA2 😐 When someone as big as Rob Knight says "this is the best practice", it creates a nightmare for younger scientists to promote their tool. I think, from "Deblur" to "Deblur or DADA2" would've added much more than just 9 more characters to this chart. https://t.co/5q71yxh4Yt" / Twitter
-
-### 2023-07-27
+### 2024-05
 https://pubmed.ncbi.nlm.nih.gov/37500913/
 Nat Biotechnol
-. 2023 Jul 27:10.1038/s41587-023-01845-1. doi: 10.1038/s41587-023-01845-1. Online ahead of print.
+. 2024 May;42(5):715-718. doi: 10.1038/s41587-023-01845-1. Epub 2023 Jul 27.
 Greengenes2 unifies microbial data in a single reference tree
 Daniel McDonald 1, Yueyu Jiang 2, Metin Balaban 3, Kalen Cantrell 4, Qiyun Zhu 5 6, Antonio Gonzalez 1, James T Morton 7, Giorgia Nicolaou 8, Donovan H Parks 9, Søren M Karst 10, Mads Albertsen 11, Philip Hugenholtz 9, Todd DeSantis 12, Se Jin Song 13, Andrew Bartko 13, Aki S Havulinna 14 15, Pekka Jousilahti 14, Susan Cheng 16 17, Michael Inouye 18 19, Teemu Niiranen 14 20, Mohit Jain 21, Veikko Salomaa 14, Leo Lahti 22, Siavash Mirarab 2, Rob Knight 23 24 25 26
 https://www.nature.com/articles/s41587-023-01845-1
-
- However, UniFrac18, a phylogenetic method, used with our Greengenes2 tree provides better concordance (Fig. 1f and Supplementary Fig. 1d).
-
-Integrating the GTDB and LTP taxonomies
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10818020/
 
 ### 2018-07
 https://pubmed.ncbi.nlm.nih.gov/29795328/
@@ -2278,6 +2233,9 @@ Rob Knight 1 2 3, Alison Vrbanac 4, Bryn C Taylor 4, Alexander Aksenov 5, Chris 
 https://www.nature.com/articles/s41579-018-0029-9
 As rodents are coprophagic, cage mate faecal microbiomes become more homogeneous over time, so experiments must be replicated across multiple cages to control for cage effects19.
 
+7:25 AM · May 24, 2018
+https://twitter.com/merenbey/status/999416078446071809
+A. Murat Eren (Meren) on Twitter: "This is unfair to DADA2 😐 When someone as big as Rob Knight says "this is the best practice", it creates a nightmare for younger scientists to promote their tool. I think, from "Deblur" to "Deblur or DADA2" would've added much more than just 9 more characters to this chart. https://t.co/5q71yxh4Yt" / Twitter
 
 ### 2018-06
 https://pubmed.ncbi.nlm.nih.gov/29795540/
