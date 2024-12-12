@@ -17,7 +17,6 @@
 
 ----------
 
-
 ### 2018-03-19
 
 https://github.com/haruosuz/bioinfo/blob/master/2022/CaseStudy.md#vitcomic2
@@ -33,11 +32,48 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
 ----------
 ## book
 
+### 2020.02
+https://sakuhinsha.com/nonfiction/27969.html
+生命の〈系統樹〉はからみあう
+ゲノムに刻まれたまったく新しい進化史
+
+https://www.ivis.co.jp/text/20221012.pdf
+2022年10月12日 わかみず会
+鈴木 勝
+
+• カール・ウーズ（米国の微生物学者、1928-2012）は、タンパク質を合成するリボソーム
+を構成するRNA（原核生物の”16S rRNA”と真核生物の”18S rRNA”）に着目し、種々の
+細菌（原核生物）や単細胞生物（真核生物）の間の違いを調査した（図2-1）。その結果、
+従来は細菌と思われていたメタン生成菌が、他の生物の細胞壁が含むペプチドグリカ
+ンという脂質を含まないなど、原核生物や真核生物とは別形態の特徴を持つことを発
+見した。
+
+• カール・ウーズと共同研究者のジョージ・フォックス（米国の生物学者、1945-）ら
+は1980年の論文で、すべての生物を「細菌/アーキア/真核生物」の三つに分類 する「ビッグ・ツリー」を提唱した（図4-4）が、それらの根元は「共通祖先状態」と
+曖昧に表現されていた。
+• その後の研究で、すべての生物の祖先はRNAによる自己複製機能に由来する
+という考え方が拡がった。また、アーキアは細菌よりも真核生物との共通性が高 いと思われるようになり、ウーズらは1990年の論文でこれらを反映した系統樹を
+提案した（図4-6）。「古細菌」は「アーキア」に改名され、また「原核生物」という
+分類は消滅している。
+
+### 2018
+https://davidquammen.com/the-tangled-tree/
+The Tangled Tree - David Quammen
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/188bto4/alma9926392103104034
+The Tangled Tree : A Radical New History of Life / David Quammen.
+
+The_Tangled_Tree_A_Radical_New_History_of_Life_----_(Chapter_47).pdf
+
+Woese’s unrooted tree, 1987, and the “progenote.” Redrawn and modified, from Woese (1987), by Patricia J. Wynne.
+
+The_Tangled_Tree_A_Radical_New_History_of_Life_----_(Chapter_48).pdf
+
+The “Natural System” tree of Woese, Kandler, and Wheelis, 1990.
+
 ### 2018-10-06
 06 October 2018
 
 https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/188bto4/alma99342392104031
-
 Statistical Analysis of Microbiome Data with R / by Yinglin Xia, Jun Sun, Ding-Geng Chen.
 Xia, Yinglin. author. Sun, Jun. author. Chen, Ding-Geng. author.
 1st ed. 2018.
@@ -59,6 +95,16 @@ The GUniFrac package requires a rooted tree as input data. We can use the functi
 > otu_tree <- midpoint(otu_tree)
 > otu_tree
 ```
+
+### 2015
+https://yalebooks.yale.edu/book/9780300223507/welcome-to-the-microbiome/
+Welcome to the Microbiome
+Getting to Know the Trillions of Bacteria and Other Microbes In, On, and Around You
+by Rob DeSalle and Susan L. Perkins
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/188bto4/alma99275963904031
+Ebook Central Perpetual, DDA and Subscription Titles
+
+
 
 ----------
 ## data
@@ -368,8 +414,6 @@ Int J Syst Evol Microbiol
 Towards a taxonomic coherence between average nucleotide identity and 16S rRNA gene sequence similarity for species demarcation of prokaryotes
 Mincheol Kim 1, Hyun-Seok Oh 2, Sang-Cheol Park 2, Jongsik Chun 2 1
 https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.059774-0#tab2
-
-
 
 2021-02-09
 大腸菌リボソームオペロンの遺伝子変換
@@ -686,6 +730,44 @@ Fig. 1. Maximum likelihood tree reconstructed from 40 LSU rRNA sequences (17).
 Fig. 2. Correlation between optimal growth temperature and rRNA G+C content in prokaryotes.
 
 The rRNA ancestral G+C contents as estimated above are close to the average G+C contents in the compared sequences (LSU, 53.2%; SSU, 55.3%).
+
+### 1990
+https://pubmed.ncbi.nlm.nih.gov/2112744/
+Proc Natl Acad Sci U S A
+. 1990 Jun;87(12):4576-9. doi: 10.1073/pnas.87.12.4576.
+Towards a natural system of organisms: proposal for the domains Archaea, Bacteria, and Eucarya
+C R Woese 1, O Kandler, M L Wheelis
+https://pmc.ncbi.nlm.nih.gov/articles/PMC54159/
+https://pmc.ncbi.nlm.nih.gov/articles/instance/54159/pdf/pnas01037-0173.pdf
+
+以下の文章は、rRNA に関連する部分を抜粋し、適切にスペースを入れて可読性を向上させたものです：
+
+It is only on the molecular level that we see the living world divide into three distinct primary groups. For every well-characterized molecular system, there exists a characteristic eubacterial, archaebacterial, and eukaryotic version, which all members of each group share. Ribosomal RNAs provide an excellent example (in part because they have been so thoroughly studied). 
+
+One structural feature in the small subunit rRNA by which the eubacteria can be distinguished from archaebacteria and eukaryotes is the hairpin loop lying between positions 500 and 545 (18), which has a side bulge protruding from the stalk of the structure. In all eubacterial cases (over 400 known), the side bulge comprises six nucleotides (of a characteristic composition), and it protrudes from the "upstream" strand of the stalk between the fifth and sixth base pair. In both archaebacteria and eukaryotes, however, the corresponding bulge comprises seven nucleotides (of a different characteristic composition), and it protrudes from the stalk between the sixth and seventh pair (18, 19). 
+
+The small subunit rRNA of eukaryotes, on the other hand, is readily identified by the region between positions 585 and 655 (E. coli numbering), because both prokaryotic groups exhibit a common characteristic structure here that is never seen in eukaryotes (18, 19). Finally, archaebacterial 16S rRNAs are readily identified by the unique structure they show in the region between positions 180 and 197 or that between positions 405 and 498 (18, 19). 
+
+Many other examples of group-invariant rRNA characteristics exist; see refs. 2, 18, and 19. [The reader wishing to gain a broader and more detailed appreciation for the molecular definition of the three groups can consult refs. 2, 20, and 21 and the proceedings of the most recent conference on archaebacteria (2).]
+
+Fig. 1 is a universal phylogenetic tree, showing the relationships among the primary groups. The root of the tree is seen to separate the eubacteria from the other two primary groups, making the archaebacteria and eukaryotes specific (but distant) relatives.
+
+A relationship between archaebacteria and eukaryotes is not overly surprising, for with few exceptions (the rRNA being one), the archaebacterial versions of molecules resemble their eukaryotic homologs more than their eubacterial ones (24, 29, 30).
+
+FIG. 1. Universal phylogenetic tree in rooted form, showing the three domains. Branching order and branch lengths are based upon rRNA sequence comparisons (and have been taken from figure 4 of ref. 2).
+
+### 1987
+https://pubmed.ncbi.nlm.nih.gov/2439888/
+Review Microbiol Rev. 1987 Jun;51(2):221-71. doi: 10.1128/mr.51.2.221-271.1987.
+Bacterial evolution
+C R Woese
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC373105/
+
+### 1980
+https://pubmed.ncbi.nlm.nih.gov/6771870/
+Science. 1980 Jul 25;209(4455):457-63. doi: 10.1126/science.6771870.
+The phylogeny of prokaryotes
+G E Fox, E Stackebrandt, R B Hespell, J Gibson, J Maniloff, T A Dyer, R S Wolfe, W E Balch, R S Tanner, L J Magrum, L B Zablen, R Blakemore, R Gupta, L Bonen, B J Lewis, D A Stahl, K R Luehrsen, K N Chen, C R Woese
 
 ----------
 ## people
