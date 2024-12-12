@@ -1,11 +1,11 @@
 # mgsa.rRNA
 
 ## Table of Contents
-- [microbiome](#microbiome)
 - [unclassified](#unclassified)
-- [updates](#updates)
+- [microbiome](#microbiome)
 - [phage](#phage)
 - [plasmid](#plasmid)
+- [updates](#updates)
 - [people](#people)
   - [anda](#anda)
   - [miyazaki-kentaro](#miyazaki-kentaro)
@@ -17,17 +17,71 @@
 
 ----------
 
-### 2018-03-19
+----------
+## unclassified
 
-https://github.com/haruosuz/bioinfo/blob/master/2022/CaseStudy.md#vitcomic2
+https://ja.wikipedia.org/wiki/16S_rRNA系統解析
+微生物系統学の分野において、この遺伝子配列は系統進化解析によく利用されている[2][3][4][5]。
 
-https://pubmed.ncbi.nlm.nih.gov/29560821/
-BMC Syst Biol
-. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
-VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing
-Hiroshi Mori 1, Takayuki Maruyama 2, Masahiro Yano 2, Takuji Yamada 2, Ken Kurokawa 3
-https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0545-2
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
+解析における注意点
+細菌が持つ16S rRNA遺伝子配列は一つとは限らず、複数の16S rRNA遺伝子がゲノム中にマルチコピーで含まれることが多い[35]。
+
+16S rRNA遺伝子の交雑
+進化が垂直伝達によって駆動されるという仮定の下では、16S rRNA遺伝子は種特異的であるみなすことができ、原核生物間の系統関係を推測する確実な遺伝的マーカーであると長年考えられてきた。しかしながら、研究が進むに連れ、これらの遺伝子においても遺伝子の水平伝播が発生していることが分かってきた。
+
+2022/12/12
+
+https://rpubs.com/hiroiwata/981939
+バイオメトリックス第9回　系統樹作成
+岩田洋佳
+はじめに
+　ここでは、微生物叢のメタゲノムデータの解析（https://www.biorxiv.org/content/10.1101/2021.10.04.462986v2.full.pdf ）に用いられた、ダイズの根圏微生物の16S rRNA（リボゾーマルRNA）のデータの一部を用いて解析を行う。なお、rRNAは、ウィルスを除く全生物に存在して、進化速度が比較的遅いことから、種分類などによく用いられている。メタゲノム解析では、微生物叢の多様性と系統間の関係を把握するために16S rRNAを用いられることが多い（
+https://bifidus-fund.jp/keyword/kw009.shtml
+16S rRNA・16S rDNA｜用語集｜腸内細菌学会
+
+----------
+## microbiome
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.metagenome.md
+
+The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
+
+----------
+## phage
+
+https://www.ncbi.nlm.nih.gov/pubmed/22902729
+Microbiology. 2012 Nov;158(Pt 11):2789-95. doi: 10.1099/mic.0.057943-0. Epub 2012 Aug 17.
+Evidence of bacteriophage-mediated horizontal transfer of bacterial 16S rRNA genes in the viral metagenome of the marine sponge Hymeniacidon perlevis.
+Harrington C1, Del Casale A, Kennedy J, Neve H, Picton BE, Mooij MJ, O'Gara F, Kulakov LA, Larkin MJ, Dobson AD.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21666016
+Appl Environ Microbiol. 2011 Aug;77(15):5529-32. doi: 10.1128/AEM.00457-11. Epub 2011 Jun 10.
+Extent and variation of phage-borne bacterial 16S rRNA gene sequences in wastewater environments.
+Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
+
+----------
+## plasmid
+
+https://pubmed.ncbi.nlm.nih.gov/26534993/
+Proc Natl Acad Sci U S A
+. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
+Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome
+Mizue Anda 1, Yoshiyuki Ohtsubo 1, Takashi Okubo 1, Masayuki Sugawara 1, Yuji Nagata 1, Masataka Tsuda 1, Kiwamu Minamisawa 2, Hisayuki Mitsui 2
+https://www.pnas.org/doi/10.1073/pnas.1514326112
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
+rRNA is essential for life because of its functional importance in protein synthesis. The rRNA (rrn) operon encoding 16S, 23S, and 5S rRNAs is located on the “main” chromosome in all bacteria documented to date and is frequently used as a marker of chromosomes. Here, our genome analysis of a plant-associated alphaproteobacterium, Aureimonas sp. AU20, indicates that this strain has its sole rrn operon on a small (9.4 kb), high-copy-number replicon. 
+
+Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
+
+https://www.ncbi.nlm.nih.gov/pubmed/14663090
+Microbiology. 2003 Dec;149(Pt 12):3587-93.
+A functional plasmid-borne rrn operon in soil isolates belonging to the genus Paracoccus.
+Battermann A1, Disse-Krömker C, Dreiseikelmann B.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11251820
+Mol Microbiol. 2001 Feb;39(4):1010-21.
+Analysis of the replicon region and identification of an rRNA operon on pBM400 of Bacillus megaterium QM B1551.
+Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
 
 ----------
 ## book
@@ -104,26 +158,8 @@ by Rob DeSalle and Susan L. Perkins
 https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/188bto4/alma99275963904031
 Ebook Central Perpetual, DDA and Subscription Titles
 
-
-
 ----------
 ## data
-
-- https://x.com/treebase
-- https://www.mg-rast.org/
-- https://qiita.ucsd.edu/
-
-https://github.com/haruosuz/mgsa/blob/master/references/mgsa.taxonomy.md#gtdb
-
-### fasttree
-http://www.microbesonline.org/fasttree/
-16S ribosomal RNA trees and alignments
-http://www.microbesonline.org/fasttree/#16S
-Downloading 16S rRNA trees and alignments
-
-218,348 (all)	186,743	NAST	1.0 (no SPR moves, no ML)	alignment and tree (48 MB)
-http://www.microbesonline.org/fasttree/downloads/Large16S.tar.gz
-
 
 2021-12-13
 https://staffblog.amelieff.jp/entry/metagenome.db
@@ -132,7 +168,7 @@ SILVA
 Greengenes
 
 ----------
-## Greengenes
+### Greengenes
 
 ### 2024-05
 https://pubmed.ncbi.nlm.nih.gov/37500913/
@@ -148,7 +184,7 @@ However, UniFrac18, a phylogenetic method, used with our Greengenes2 tree provid
 Integrating the GTDB and LTP taxonomies
 
 ----------
-## RDP
+### RDP
 
 ### 2024-04-11
 https://pubmed.ncbi.nlm.nih.gov/38436268/
@@ -179,61 +215,20 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC3965039/
 https://integbio.jp/dbcatalog/record/nbdc00184
 
 ----------
-## unclassified
+### VITCOMIC2
 
+https://github.com/haruosuz/bioinfo/blob/master/2022/CaseStudy.md#vitcomic2
 
-https://ja.wikipedia.org/wiki/16S_rRNA系統解析
-微生物系統学の分野において、この遺伝子配列は系統進化解析によく利用されている[2][3][4][5]。
-
-解析における注意点
-細菌が持つ16S rRNA遺伝子配列は一つとは限らず、複数の16S rRNA遺伝子がゲノム中にマルチコピーで含まれることが多い[35]。
-
-16S rRNA遺伝子の交雑
-進化が垂直伝達によって駆動されるという仮定の下では、16S rRNA遺伝子は種特異的であるみなすことができ、原核生物間の系統関係を推測する確実な遺伝的マーカーであると長年考えられてきた。しかしながら、研究が進むに連れ、これらの遺伝子においても遺伝子の水平伝播が発生していることが分かってきた。
-
-----------
-## microbiome
-
-https://github.com/haruosuz/mgsa/blob/master/references/mgsa.metagenome.md
-
-The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
-
-----------
-## phage
-
-https://www.ncbi.nlm.nih.gov/pubmed/22902729
-Microbiology. 2012 Nov;158(Pt 11):2789-95. doi: 10.1099/mic.0.057943-0. Epub 2012 Aug 17.
-Evidence of bacteriophage-mediated horizontal transfer of bacterial 16S rRNA genes in the viral metagenome of the marine sponge Hymeniacidon perlevis.
-Harrington C1, Del Casale A, Kennedy J, Neve H, Picton BE, Mooij MJ, O'Gara F, Kulakov LA, Larkin MJ, Dobson AD.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21666016
-Appl Environ Microbiol. 2011 Aug;77(15):5529-32. doi: 10.1128/AEM.00457-11. Epub 2011 Jun 10.
-Extent and variation of phage-borne bacterial 16S rRNA gene sequences in wastewater environments.
-Del Casale A1, Flanagan PV, Larkin MJ, Allen CC, Kulakov LA.
-
-----------
-## plasmid
-
-https://pubmed.ncbi.nlm.nih.gov/26534993/
-Proc Natl Acad Sci U S A
-. 2015 Nov 17;112(46):14343-7. doi: 10.1073/pnas.1514326112. Epub 2015 Nov 3.
-Bacterial clade with the ribosomal RNA operon on a small plasmid rather than the chromosome
-Mizue Anda 1, Yoshiyuki Ohtsubo 1, Takashi Okubo 1, Masayuki Sugawara 1, Yuji Nagata 1, Masataka Tsuda 1, Kiwamu Minamisawa 2, Hisayuki Mitsui 2
-https://www.pnas.org/doi/10.1073/pnas.1514326112
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655564/
-rRNA is essential for life because of its functional importance in protein synthesis. The rRNA (rrn) operon encoding 16S, 23S, and 5S rRNAs is located on the “main” chromosome in all bacteria documented to date and is frequently used as a marker of chromosomes. Here, our genome analysis of a plant-associated alphaproteobacterium, Aureimonas sp. AU20, indicates that this strain has its sole rrn operon on a small (9.4 kb), high-copy-number replicon. 
-
-Therefore, pAU20rrn represents a distinct class of replicons, which we designated the rrn-plasmid, which is coupled with an rrn-lacking chromosome (RLC).
-
-https://www.ncbi.nlm.nih.gov/pubmed/14663090
-Microbiology. 2003 Dec;149(Pt 12):3587-93.
-A functional plasmid-borne rrn operon in soil isolates belonging to the genus Paracoccus.
-Battermann A1, Disse-Krömker C, Dreiseikelmann B.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11251820
-Mol Microbiol. 2001 Feb;39(4):1010-21.
-Analysis of the replicon region and identification of an rRNA operon on pBM400 of Bacillus megaterium QM B1551.
-Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
+### 2018-03-19
+https://pubmed.ncbi.nlm.nih.gov/29560821/
+BMC Syst Biol
+. 2018 Mar 19;12(Suppl 2):30. doi: 10.1186/s12918-018-0545-2.
+VITCOMIC2: visualization tool for the phylogenetic composition of microbial communities based on 16S rRNA gene amplicons and metagenomic shotgun sequencing
+Hiroshi Mori 1, Takayuki Maruyama 2, Masahiro Yano 2, Takuji Yamada 2, Ken Kurokawa 3
+https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0545-2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
+Construction of a high-quality 16S rRNA gene sequence reference database including uncultured taxa
+A high-quality 16S rRNA gene sequence reference database that includes uncultured taxa was constructed using 16S rRNA gene sequences obtained from the Ribosomal Database Project (RDP) [12].
 
 ----------
 ## updates
