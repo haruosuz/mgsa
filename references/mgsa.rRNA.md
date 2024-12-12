@@ -30,8 +30,6 @@ Hiroshi Mori 1, Takayuki Maruyama 2, Masahiro Yano 2, Takuji Yamada 2, Ken Kurok
 https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-018-0545-2
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861490/
 
-
-
 ----------
 ## book
 
@@ -196,6 +194,14 @@ Kunnimalaiyaan M1, Stevenson DM, Zhou Y, Vary PS.
 
 ### 2024
 
+### 2024-11
+
+9:08 AM · Nov 5, 2024
+https://x.com/nkjmu/status/1853590048253599786
+Yu Nakajima on X: "@M_Banba_ それの簡便な判定として、16S rRNAの類似度が97%(近年、98.65としているものもありますが)ですかね ただ、97%以下なら別種(DNADNAハイブリ70%以下)を満たしますが、逆はそうではないという… (以前使ったスライドです) https://t.co/wC7FklXep9" / X
+
+
+
 ### 2024-08
 
 4:56 PM · Aug 5, 2024
@@ -204,15 +210,20 @@ iMeta on X: "Long journey of #16S rRNA‐amplicon #sequencing toward cell‐base
 https://onlinelibrary.wiley.com/doi/full/10.1002/imo2.9
 Long journey of 16S rRNA‐amplicon sequencing toward cell‐based functional bacterial microbiota characterization - Jin - iMetaOmics - Wiley Online Library
 
-### 2024-07
+### 2024-07-22
 
 3:56 PM · Jul 4, 2024
 https://x.com/DaganLab/status/1808756699001495656
 DaganLab on X: "Happy to share our results on #plasmid #evolution. We show that plasmid contribution to gene transfer corresponds mostly to transfer of the plasmid entity rather than gene transfer between plasmids and chromosomes. https://t.co/23FWndfWAj Great work by Samer Kadibalban! https://t.co/XsWiaIgNoE" / X
-https://www.cell.com/current-biology/fulltext/S0960-9822(24)00814-5
-The extent and characteristics of DNA transfer between plasmids and chromosomes: Current Biology
 
-In addition to protein-coding genes, we examined evidence for the transfer of RNA genes between plasmids and chromosomes, which is considered as rare (but exceptions have been reported, e.g., for rRNA genes in Aureimonas plasmids42,43). Our analysis uncovered multiple segments that putatively correspond to transfer of RNA genes. The dataset analyzed here includes overall 197 rRNA genes in 42 plasmids, all of which are shared with the chromosome (Table S4). Out of the total 88 segments comprising rRNA genes, 61 segments correspond to a complete gene set of the rRNA operon. Example is sharing of an rRNA operon between plasmids and chromosomes in several isolates of the sugarcane endophyte Azospirillum brasilense, in agreement with previous reports.44 Additionally, the dataset analyzed here includes 832 tRNA genes in 171 plasmids, of which 239 (29%) genes are shared with the chromosome in 63 plasmid-chromosome pairs (Table S4). An extreme example is a tRNA island comprising 13 tRNA genes in plasmid pBM400 in the soil bacterium Priestia megaterium strain QM B1551.45,46 Using our approach, we uncovered four copies of that region in the host chromosome, in variable levels of sequence conservation. Notably, comparing the pBM400 plasmid genome with similar-sized plasmids from two recently sequenced P. megaterium isolates47 reveals a high conservation of the plasmid-encoded tRNA island (Figure S2). Considering their low frequency, sharing of rRNA and tRNA genes between plasmids and their host chromosomes remains a rather rare phenomenon in the analyzed dataset. The difference in the proportion of shared genes between rRNA genes (all genes) and tRNA genes (ca. 30%) indicates that plasmid tRNAs may supplement the host tRNA repertoire (e.g., as reported for Methanoperedenaceae48).
+https://pubmed.ncbi.nlm.nih.gov/38964320/
+Curr Biol
+. 2024 Jul 22;34(14):3189-3200.e5. doi: 10.1016/j.cub.2024.06.030. Epub 2024 Jul 3.
+The extent and characteristics of DNA transfer between plasmids and chromosomes
+A Samer Kadibalban 1, Giddy Landan 1, Tal Dagan 2
+https://www.cell.com/current-biology/fulltext/S0960-9822(24)00814-5
+https://www.sciencedirect.com/science/article/pii/S0960982224008145
+In addition to protein-coding genes, we examined evidence for the transfer of RNA genes between plasmids and chromosomes, which is considered as rare (but exceptions have been reported, e.g., for rRNA genes in Aureimonas plasmids42,43). Our analysis uncovered multiple segments that putatively correspond to transfer of RNA genes. The dataset analyzed here includes overall 197 rRNA genes in 42 plasmids, all of which are shared with the chromosome (Table S4). Out of the total 88 segments comprising rRNA genes, 61 segments correspond to a complete gene set of the rRNA operon. Example is sharing of an rRNA operon between plasmids and chromosomes in several isolates of the sugarcane endophyte Azospirillum brasilense, in agreement with previous reports.44 
 
 Posted June 21, 2024.
 https://www.biorxiv.org/content/10.1101/2024.06.21.600076v1
@@ -292,6 +303,19 @@ https://nbrp.jp/public/news/press/news-231115/
 【研究論文発表｜一般微生物】必須遺伝子が染色体に無くても生物は絶滅しない －数億年前からプラスミドだけでリボソームRNA遺伝子を維持するバクテリアの発見－｜お知らせ・プレスリリース｜NBRP
 
 ### 2022
+
+### 2022-08-03
+
+https://pubmed.ncbi.nlm.nih.gov/36304264/
+Front Bioinform
+. 2022 Aug 3:2:905489. doi: 10.3389/fbinf.2022.905489. eCollection 2022.
+16S-ITGDB: An Integrated Database for Improving Species Classification of Prokaryotic 16S Ribosomal RNA Sequences
+Yu-Peng Hsieh 1, Yuan-Mao Hung 2, Mong-Hsun Tsai 3 4, Liang-Chuan Lai 5 4, Eric Y Chuang 1 2 6 4
+https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2022.905489/full
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9580931/
+RDP, SILVA, and Greengenes are the most widely used 16S rRNA databases. Many 16S rRNA classifiers have used these databases as a reference for taxonomic assignment tasks. However, some of the prokaryotic taxonomies only exist in one of the three databases. Furthermore, Greengenes and SILVA include a considerable number of taxonomies that do not have the resolution to the species level, which has limited the classifiers' performance.
+
+https://github.com/yphsieh/16S-ITGDB
 
 ### 2022-07-08
 
@@ -623,14 +647,45 @@ saturation
 
 ### 2003
 
-2003-10-20
+### 2003-10-20
+20-Oct-2003
+https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/97613
+最尤法による生物の系統関係推定について(数学者のための分子生物学入門,研究会報告)
+加藤, 和貴
 https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/97613/1/KJ00004705532.pdf
-https://dl.ndl.go.jp/view/prepareDownload?itemId=info%3Andljp%2Fpid%2F10940560&contentNo=1
-https://dl.ndl.go.jp/view/download/digidepo_10940560_po_ART0008411553.pdf?contentNo=1&alternativeNo=
-最尤 法に よ る 生 物 の 系統 関係 推定 につ い て
-加 藤 和貴
-SSU rRNAを用いた系統推定の問題点として、「進化速度が他種に比べ早い種」「GC含量3の高い種」の系統的位置の推定を間違えやすいことが挙げられる。
-先の例において、SSU rRNAを用いた系統樹では真核生物に至る枝は、真正細菌/古細菌に比べて明らかに長くなる。このことは、SSU rRNAを用いた推定が誤った結論を導いている可能性を示唆する。
+｡ここでは､1970年代にWooseらによって行われた､SSUrRNA(ribosomalRNAのsmallsub-unit)を使った結果を紹介する｡rRNAには遺伝子重複がほとんどなく､生物の系統関係を推定する上で非常に都合のよい分子と言える(
+
+SSUrRNAを用いた系統推定の問題点として､｢進化速度が他種に比べ早い種｣｢GC含量3の高い種｣の系統的位置の推定を間違えやすいことが挙げられる｡
+
+先の例において､SSUrRNAを用いた系統樹では真核生物に至る枝は､真正細菌/古細菌に比べて明らかに長くなる｡このことは､SSUrRNAを用いた推定が誤った結論を導いている可能性を示唆する｡
+
+図 3:パラロガスな遺伝子を用いたルー トの特定
+
+　例えば､最尤法によって祖先型を推定すると共通祖先のSSUrRNAのGC含量は低いと結論される5｡また､その論への反論として最節約法によると祖先型のrRNAのGC含量は高いと推定されるとの主張6 もあり､未だ解決には至っていない｡
+
+5Galtier(1999) 
+6DiGiulioTheunwersalancestorlivedinathermophilicorhyperthermophilicenvironment.(2000)
+
+https://colil.dbcls.jp/browse/papers/9880254/1/100/year
+A nonhyperthermophilic common ancestor to extant life forms.
+Galtier N, Tourasse N, Gouy M Science. 1999 Jan 8;283(5399):220-1. PMID:9880254
+    is cited by the following papers.
+  合計: 42, 
+https://pubmed.ncbi.nlm.nih.gov/9880254/
+Science
+. 1999 Jan 8;283(5399):220-1. doi: 10.1126/science.283.5399.220.
+A nonhyperthermophilic common ancestor to extant life forms
+N Galtier 1, N Tourasse, M Gouy
+
+https://fire.biol.wwu.edu//cmoyer/zztemp_fire/biol345_S99/cold.pdf
+
+Substitution rates are highly variable among sites in rRNA molecules as a consequence of unequal selective constraints (6).
+
+Fig. 1. Maximum likelihood tree reconstructed from 40 LSU rRNA sequences (17). 
+
+Fig. 2. Correlation between optimal growth temperature and rRNA G+C content in prokaryotes.
+
+The rRNA ancestral G+C contents as estimated above are close to the average G+C contents in the compared sequences (LSU, 53.2%; SSU, 55.3%).
 
 ----------
 ## people
@@ -663,7 +718,6 @@ http://www.microbial-ecology.jp/?p=7070
 2015年11月4日
 https://www.tohoku.ac.jp/japanese/2015/11/press20151104-01.html
 染色体上からリボソームRNA遺伝子が消えた細菌を発見 ～ゲノムの常識を覆す～
-
 
 ### miyazaki-kentaro
 宮崎 健太郎
@@ -716,3 +770,6 @@ https://www.aist.go.jp/aist_j/press_release/pr2012/pr20121030/pr20121030.html
 －バクテリアの系統分類学の根本に疑問を投げかける－
 
 ----------
+
+
+
