@@ -88,17 +88,9 @@ https://www.sgmj.org/pdf/newsletter/sgmj_no25.pdf
 
 ----------
 
-## 2024-08
-
-https://pubmed.ncbi.nlm.nih.gov/39095498/
-Nat Microbiol
-. 2024 Aug;9(8):1906-1908. doi: 10.1038/s41564-024-01768-w.
-The ever-changing tree of life
-Laura A Hug 1
-https://www.nature.com/articles/s41564-024-01768-w
-The ever-changing tree of life | Nature Microbiology
-https://www.nature.com/articles/s41564-024-01768-w/figures/1
-Fig. 1: Key updates to the 2016 new view of the tree of life.
+----------
+## ToL
+tree of life
 
 2:09 AM · Aug 6, 2024
 https://x.com/miangoar/status/1820507357300002884
@@ -116,8 +108,17 @@ GAMA Miguel Angel on X: "Fun fact: there is no presentation where you talk about
 https://x.com/SGribaldo/status/1628431492459241472
 Simonetta Gribaldo on X: "Need an up-to-date #TreeofLife for teaching/conferences/wall paper? Talented PhD student @BasileBeaud drew a schematic consensus ToL from the most recently published phylogenies. Hope this is useful! Downloadable version in the thread👇 https://t.co/92GFL610zJ" / X
 
+## 2024-08
 
-----------
+https://pubmed.ncbi.nlm.nih.gov/39095498/
+Nat Microbiol
+. 2024 Aug;9(8):1906-1908. doi: 10.1038/s41564-024-01768-w.
+The ever-changing tree of life
+Laura A Hug 1
+https://www.nature.com/articles/s41564-024-01768-w
+The ever-changing tree of life | Nature Microbiology
+https://www.nature.com/articles/s41564-024-01768-w/figures/1
+Fig. 1: Key updates to the 2016 new view of the tree of life.
 
 ### 2016-04-11
 
@@ -127,7 +128,6 @@ Nat Microbiol
 A new view of the tree of life
 Laura A Hug 1, Brett J Baker 2, Karthik Anantharaman 1, Christopher T Brown 3, Alexander J Probst 1, Cindy J Castelle 1, Cristina N Butterfield 1, Alex W Hernsdorf 3, Yuki Amano 4, Kotaro Ise 4, Yohey Suzuki 5, Natasha Dudek 6, David A Relman 7 8, Kari M Finstad 9, Ronald Amundson 9, Brian C Thomas 1, Jillian F Banfield 1 9
 https://www.nature.com/articles/nmicrobiol201648
-
 
 ----------
 
