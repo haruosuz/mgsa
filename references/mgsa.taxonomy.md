@@ -88,15 +88,8 @@ https://www.sgmj.org/pdf/newsletter/sgmj_no25.pdf
 
 ----------
 
+## 2024-08
 
-
-
-----------
-
-
-----------
-
-Hug. Nat Microbiol. 2024 Aug;9(8):1906-1908. "The ever-changing tree of life"
 https://pubmed.ncbi.nlm.nih.gov/39095498/
 Nat Microbiol
 . 2024 Aug;9(8):1906-1908. doi: 10.1038/s41564-024-01768-w.
@@ -111,41 +104,22 @@ Fig. 1: Key updates to the 2016 new view of the tree of life.
 https://x.com/miangoar/status/1820507357300002884
 GAMA Miguel Angel on X: "Who was? 👀 "The tree is featured on the Wikipedia [...], has been included in three museum exhibitions, in murals, on university swag and as 𝘁𝗮𝘁𝘁𝗼𝗼𝘀 𝗼𝗻 𝗮𝘁 𝗹𝗲𝗮𝘀𝘁 𝘁𝗵𝗿𝗲𝗲 𝗽𝗲𝗼𝗽𝗹𝗲" The ever-changing tree of life https://t.co/RWFXQ10GCv" / X
 
-
 3:04 AM · Sep 9, 2023
 https://x.com/miangoar/status/1700208600084271271
 GAMA Miguel Angel on X: "@archaeal And you did it! 🎉Congrats for that, it's a seminal work :) To my knowledge this is the last version of the tree of life with emphasis in uncultured species https://t.co/9LF5sBgMdY" / X
 
-
-
-
-
 2:54 AM · Sep 9, 2023
 https://x.com/miangoar/status/1700205995148898674
 GAMA Miguel Angel on X: "Fun fact: there is no presentation where you talk about the new microbial species discovered by #metagenomics and not show the tree of Hug et al. If you don't put it into your slides, the 🦠law will come for you. (2016) A new view of the tree of life https://t.co/ZREJ3tG01B https://t.co/qwm72rA47e" / X
-
 
 1:28 AM · Feb 23, 2023
 https://x.com/SGribaldo/status/1628431492459241472
 Simonetta Gribaldo on X: "Need an up-to-date #TreeofLife for teaching/conferences/wall paper? Talented PhD student @BasileBeaud drew a schematic consensus ToL from the most recently published phylogenies. Hope this is useful! Downloadable version in the thread👇 https://t.co/92GFL610zJ" / X
 
 
-
-
-
-2023-09-09_miangoar https://x.com/miangoar/status/1700205995148898674 GAMA Miguel Angel on X: "Fun fact: there is no presentation where you talk about the new microbial species discovered by #metagenomics and not show the tree of Hug et al. If you don't put it into your slides, the 🦠law will come for you. (2016) A new view of the tree of life
-
-
-
-2023-02-23 https://x.com/SGribaldo/status/1628431492459241472 Simonetta Gribaldo on X: "Need an up-to-date #TreeofLife for teaching/conferences/wall paper? Talented PhD student @BasileBeaud drew a schematic consensus ToL from the most recently published phylogenies. Hope this is useful! Downloadable version in the thread
-
-
-
-
-
-
 ----------
 
+### 2016-04-11
 
 https://pubmed.ncbi.nlm.nih.gov/27572647/
 Nat Microbiol
@@ -153,34 +127,6 @@ Nat Microbiol
 A new view of the tree of life
 Laura A Hug 1, Brett J Baker 2, Karthik Anantharaman 1, Christopher T Brown 3, Alexander J Probst 1, Cindy J Castelle 1, Cristina N Butterfield 1, Alex W Hernsdorf 3, Yuki Amano 4, Kotaro Ise 4, Yohey Suzuki 5, Natasha Dudek 6, David A Relman 7 8, Kari M Finstad 9, Ronald Amundson 9, Brian C Thomas 1, Jillian F Banfield 1 9
 https://www.nature.com/articles/nmicrobiol201648
-
-
-Supplementary information
-Supplementary information
-Legends for Supplementary Figures 1 and 2, Table 1 and Datasets 1-4. (PDF 170 kb)
-
-Supplementary Figure 1
-Full rectangular view of the concatenated ribosomal protein tree presented in Figure 1, with major lineages colored as in the main text Figure 1. Organisms are named with all relevant taxonomic ranks. Bootstrap support values above 50 are displayed on the nodes. This concatenated ribosomal protein tree is available in newick format as Supplementary Dataset 2. (PDF 559 kb)
-
-Supplementary Figure 2
-Condensed maximum likelihood tree based on an alignment of SSU rRNA gene sequences. Major lineages are collapsed and labeled as in Figure 1, with well-defined lineages named using italic font and lineages lacking an isolated representative named in regular font and highlighted with red dots. Bootstrap support values are indicated by circles on nodes - black for support of 85% and above, grey for support from 50% to 84%. The full SSU rRNA gene tree is available in newick format as Supplementary Dataset 4. (PDF 431 kb)
-
-Supplementary Table 1
-Accession numbers for all genomes included in this study. Genomes were mined for bacterial-type (P-type) ribosomal proteins L2, L3, L4, L5, L6, L14, L15, L16, L18, L22, L24, S3, S8, S10, S17, and S19 (all single-copy genes), and one representative SSU rRNA gene. (TXT 327 kb)
-
-Supplementary Dataset 1
-Concatenated ribosomal protein alignment used for inferring tree in main text Figures 1 and 2, as well as Supplementary Figure 1, in fasta format. (TXT 8103 kb)
-
-Supplementary Dataset 2
-Maximum likelihood tree based on concatenated ribosomal protein alignment (Supplementary Dataset 1), basis for main text Figures 1 and 2, and Supplementary Figure 1, in newick format. (TXT 367 kb)
-
-Supplementary Dataset 3
-SSU rRNA alignment used for inferring tree in Supplementary Figure 2, in fasta format. (TXT 3751 kb)
-
-Supplementary Dataset 4
-Maximum likelihood tree based on SSU rRNA alignment (Supplementary Dataset 3), basis for Supplementary Figure 2, in newick format. (TXT 285 kb)
-
-
 
 
 ----------
