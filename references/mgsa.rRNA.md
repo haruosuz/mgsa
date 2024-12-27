@@ -168,6 +168,17 @@ SILVA
 Greengenes
 
 ----------
+### ltp
+
+https://pubmed.ncbi.nlm.nih.gov/34111737/
+Syst Appl Microbiol
+. 2021 Jul;44(4):126218. doi: 10.1016/j.syapm.2021.126218. Epub 2021 May 24.
+Release LTP_12_2020, featuring a new ARB alignment and improved 16S rRNA tree for prokaryotic type strains
+Wolfgang Ludwig 1, Tomeu Viver 2, Ralf Westram 3, Juan Francisco Gago 2, Esteban Bustos-Caparros 2, Katrin Knittel 1, Rudolf Amann 1, Ramon Rossello-Mora 4
+https://www.sciencedirect.com/science/article/pii/S0723202021000412
+https://imedea.uib-csic.es/mmg/ltp/#Downloads
+
+----------
 ### Greengenes
 
 ### 2024-05
@@ -366,7 +377,8 @@ Microbiome
 Phylogenies of the 16S rRNA gene and its hypervariable regions lack concordance with core genome phylogenies
 Hayley B Hassler 1, Brett Probert 1, Carson Moore 1, Elizabeth Lawson 1, Richard W Jackson 2, Brook T Russell 3, Vincent P Richards 4
 https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-022-01295-y
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9264627/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9264627/
+
 
 ### 2002-03
 
