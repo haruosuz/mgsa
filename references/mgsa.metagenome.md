@@ -16,14 +16,11 @@
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 - [batch effect](#batch-effect)
 - [meta-analysis](#meta-analysis)
+  - [qiita](#qiita)
 - [people](#people)
 [duvallet](#duvallet) Claire Duvallet
 [Mori](#mori)
 [Rocha](#rocha)
-- [mothur-qiime](#mothur-qiime)
-- [16S](#16s)
-- [amplicon-shotgun](#amplicon-shotgun)
-- [rRNA](#rrna)
 - [metabolic inference](#metabolic-inference)
   - [PICRUSt](#picrust)
   - [Tax4Fun](#tax4fun)
@@ -52,12 +49,18 @@
   - [MDMcleaner](#mdmcleaner)
   - [MetaWRAP](#metawrap)
   - [](#)
-- [](#)
-- [PhyloSift](#PhyloSift)
-- [](#)
 - [unifrac](#unifrac)
 - [LEfSe](#lefse)
 - [diversity index](#diversity-index) 多様性指数
+- [EzBioCloud](#ezbiocloud)
+- [PhyloSift](#PhyloSift)
+- [](#)
+- [mothur-qiime](#mothur-qiime)
+- [16S](#16s)
+- [amplicon-shotgun](#amplicon-shotgun)
+- [rRNA](#rrna)
+- [Hi-C](#hi-c)
+- [](#)
 
 ----------
 
@@ -72,6 +75,101 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238498/
 A global metagenomic map of urban microbiomes and antimicrobial resistance
 
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
+
+----------
+## rRNA
+
+https://kazumaxneo.hatenablog.com/archive/category/rRNA
+rRNA カテゴリーの記事一覧 - macでインフォマティクス
+
+https://kazumaxneo.hatenablog.com/entry/2022/06/24/011756
+ペアエンドシークエンシングリードを使ってメタゲノムアセンブリゲノムと16S rRNAマーカー遺伝子を結び付ける MarkerMAG - macでインフォマティクス
+
+https://kazumaxneo.hatenablog.com/entry/2022/03/09/233539
+メタゲノム、メタトランススクリプトーム、ncRNAのシークエンシングデータからrRNA配列を正確かつ高速に検出・除去する RiboDetector - macでインフォマティクス
+
+
+MATAM紹介
+
+https://kazumaxneo.hatenablog.com/entry/2018/09/18/162843
+メタゲノムから16Sなどのターゲットアセンブリを行う MATAM - macでインフォマティクス
+
+https://pubmed.ncbi.nlm.nih.gov/29040406/
+Bioinformatics
+. 2018 Feb 15;34(4):585-591. doi: 10.1093/bioinformatics/btx644.
+MATAM: reconstruction of phylogenetic marker genes from short sequencing reads in metagenomes
+Pierre Pericard 1 2, Yoann Dufresne 1 2, Loïc Couderc 1 3, Samuel Blanquart 1 2, Hélène Touzet 1 2
+https://academic.oup.com/bioinformatics/article/34/4/585/4457361
+
+https://github.com/bonsai-team/matam
+
+
+----------
+### phyloFlash
+
+https://hrgv.github.io/phyloFlash/
+
+https://kazumaxneo.hatenablog.com/entry/2019/02/12/073000
+メタゲノムデータからrRNAをターゲットアセンブリし、系統アサイン、定量、比較する phyloFlash - macでインフォマティクス
+
+イメージングベース分析における価値と共に、水平伝播の速度が遅いため、SSU rRNA遺伝子は系統発生的多様性の観点から最も優れたサンプリングマーカーとなっている（ref.21）。現在のメタゲノム解析の進歩（22）では、メタゲノムアセンブリから微生物ゲノムのドラフトを自動的に抽出 (“binned”) することができるが、SSU rRNA遺伝子は同じ本質的な役割を持ち、系統学、イメージング、および実験的検証に不可欠になっている。しかし、自動ビニングの進歩にもかかわらず（ref.23）、ほとんどのmetagenome assembled genomes (MAGs) は、SSU rRNA遺伝子の断片さえ含んでいない、また全遺伝子は言うまでもなく含んでいない（ref.1、24）。
+
+　理想的には、既存の膨大なSSU rRNA遺伝子のナレッジベースを（メタ）ゲノミクスプロジェクトで活用して、いくつかの異なる結果を得たいと考えている：アセンブリなしの分類学的プロファイリング（ref.6、7）、系統学のための全長配列のターゲットアセンブリと、それよるプローブ設計（ref.15、16、25、26）、およびSSU rRNA配列を完全なゲノムへリンクさせる（ref.27）。これらの各目的のために、それぞれ独自の長所と短所を持つ別々のソフトウェアツールがすでに開発されている（ref.16）（MATAM紹介）。ただし、これらは同じ問題の最終的には異なる側面であるため、一緒に検討する必要がある。
+
+https://pubmed.ncbi.nlm.nih.gov/33109753/
+mSystems
+. 2020 Oct 27;5(5):e00920-20. doi: 10.1128/mSystems.00920-20.
+phyloFlash: Rapid Small-Subunit rRNA Profiling and Targeted Assembly from Metagenomes
+Harald R Gruber-Vodicka # 1, Brandon K B Seah # 2, Elmar Pruesse 3
+https://journals.asm.org/doi/10.1128/msystems.00920-20
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7593591/
+
+
+https://pubmed.ncbi.nlm.nih.gov/39693444/
+Comparative Study Sci Adv
+. 2024 Dec 20;10(51):eadq0645. doi: 10.1126/sciadv.adq0645. Epub 2024 Dec 18.
+A global comparison of surface and subsurface microbiomes reveals large-scale biodiversity gradients, and a marine-terrestrial divide
+https://www.science.org/doi/full/10.1126/sciadv.adq0645
+
+The metagenomes were used for taxonomic analyses based on two different taxonomic markers, 16S rRNA gene sequences retrieved by phyloFlash (pF16S; before read assembly) and ribosomal protein S3 (rpS3) genes (after read assembly). 
+
+Metagenomic short reads were mapped to the SILVA SSU reference database (144) to assign nearest taxonomic units, and full-length 16S/18S rRNA gene sequences were reconstructed from metagenomes using phyloFlash v3.4 (155). 
+
+----------
+
+
+----------
+### PhyloSift
+
+https://pubmed.ncbi.nlm.nih.gov/35749534/
+PLoS One
+. 2022 Jun 24;17(6):e0270372. doi: 10.1371/journal.pone.0270372. eCollection 2022.
+Phylogenetic diversity analysis of shotgun metagenomic reads describes gut microbiome development and treatment effects in the post-weaned pig
+Daniela Gaio 1, Matthew Z DeMaere 1, Kay Anantanawat 1, Graeme J Eamens 2, Linda Falconer 2, Toni A Chapman 2, Steven Djordjevic 1, Aaron E Darling 1
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270372
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9232140/
+
+----------
+### EzBioCloud
+
+https://www.ezbiocloud.net/
+
+https://pubmed.ncbi.nlm.nih.gov/38888585/
+Int J Syst Evol Microbiol
+. 2024 Jun;74(6):006421. doi: 10.1099/ijsem.0.006421.
+EzBioCloud: a genome-driven database and platform for microbiome identification and discovery
+Mauricio Chalita 1, Yeong Ouk Kim 1 2, Sein Park 1 2, Hyun-Seok Oh 1, Jae Hyoung Cho 1, Jeongsup Moon 1, Nuga Baek 1, Changsik Moon 1, Kihyun Lee 1, Junwon Yang 1 2, Gi Gyun Nam 1, Yeonjae Jung 1 2, Seong-In Na 1, Michael James Bailey 1, Jongsik Chun 1
+
+
+https://pubmed.ncbi.nlm.nih.gov/28005526/
+Int J Syst Evol Microbiol
+. 2017 May;67(5):1613-1617. doi: 10.1099/ijsem.0.001755. Epub 2017 May 30.
+Introducing EzBioCloud: a taxonomically united database of 16S rRNA gene sequences and whole-genome assemblies
+Seok-Hwan Yoon 1, Sung-Min Ha 1, Soonjae Kwon 1, Jeongmin Lim 1, Yeseul Kim 1, Hyungseok Seo 1, Jongsik Chun 1
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5563544/
+
+https://kazumaxneo.hatenablog.com/entry/2019/01/30/073000
+バクテリアとアーキアのデータベース EzBioCloud - macでインフォマティクス
 
 ----------
 
@@ -523,8 +621,6 @@ Code availability
 The R package ConQuR47 is available at https://github.com/wdl2459/ConQuR in formats appropriate for Macintosh, Windows, or Linux systems. A vignette demonstrating use of the package (a full analysis pipeline, including the standard fitting strategy, penalized fitting strategy, the fine-tuned result, and investigations on the original and batch-removed taxa read count tables) is included (https://wdl2459.github.io/ConQuR/ConQuR.Vignette.html).
 
 
-
-
 1:15 AM · May 23, 2021
 https://twitter.com/phylogenomics/status/1396137556345974788
 Jonathan Eisen on X: "This is really a phenomenally useful paper that I think everyone interested in #microbiome studies should read: "Identifying biases and their potential solutions in human microbiome studies" by @JTNearing et al. https://t.co/dhWrS1sj1E https://t.co/Icn6HWhkrN" / X
@@ -535,9 +631,6 @@ Identifying biases and their potential solutions in human microbiome studies
 Jacob T Nearing 1, André M Comeau 2, Morgan G I Langille 3 4
 https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01059-0
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8132403/
-
-
-
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/30388197
@@ -583,6 +676,16 @@ We performed a meta-analysis of five publicly available datasets and two new coh
 ### Qiita
 ### 2018-10
 
+https://github.com/qiita-spots/qiita
+
+https://pubmed.ncbi.nlm.nih.gov/30275573/
+Meta-Analysis Nat Methods
+. 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.
+Qiita: rapid, web-enabled microbiome meta-analysis
+Antonio Gonzalez 1, Jose A Navas-Molina 1 2 3, Tomasz Kosciolek 1, Daniel McDonald 1, Yoshiki Vázquez-Baeza 1, Gail Ackermann 1, Jeff DeReus 1, Stefan Janssen 1, Austin D Swafford 4, Stephanie B Orchanian 4, Jon G Sanders 1, Joshua Shorenstein 1 5, Hannes Holste 1 2, Semar Petrus 6, Adam Robbins-Pianka 7, Colin J Brislawn 8, Mingxun Wang 9, Jai Ram Rideout 10, Evan Bolyen 10, Matthew Dillon 10, J Gregory Caporaso 10 11, Pieter C Dorrestein 1 4 9, Rob Knight 12 13 14
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235622/
+Despite these challenges, meta-analyses of microbiomes have a rich history of success, identifying the major global drivers of diversity in microbial communities4, characterizing the evolution of the vertebrate gut microbiome5, and surveying specialized fields such as the built environment6. Meta-analyses also enable scientists to identify important biases such as DNA extraction, primers, or analytical pipelines7,8, which need to be controlled to generate biological discoveries.
+
 10:30 PM · Oct 4, 2018
 https://twitter.com/strnr/status/1047841444214558720
 Stephen Turner on Twitter: "Qiita (pronounced chee-tah): rapid, web-enabled microbiome meta-analysis Paper: https://t.co/aXTv0cTCND Web: https://t.co/XfwpO4bP0I Docs: https://t.co/CKEEffUSCW Source: https://t.co/HWOT2qYHeZ https://t.co/d13hW5GJ3n" / Twitter
@@ -592,14 +695,6 @@ https://twitter.com/gibbological/status/1046878477981343744
 Sean Gibbons 🦠💩 @gibbological@mstdn.science on Twitter: "Qiita: rapid, web-enabled microbiome meta-analysis https://t.co/4Osl11rR8X from @KnightLabNews @gregcaporaso and @Pdorrestein1 labs. Useful tool for all us 'data parasites' :)" / Twitter
 https://twitter.com/inschool4life/status/1047107731327467521
 Did they comment on batch effects?
-
-https://pubmed.ncbi.nlm.nih.gov/30275573/
-Meta-Analysis Nat Methods
-. 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.
-Qiita: rapid, web-enabled microbiome meta-analysis
-Antonio Gonzalez 1, Jose A Navas-Molina 1 2 3, Tomasz Kosciolek 1, Daniel McDonald 1, Yoshiki Vázquez-Baeza 1, Gail Ackermann 1, Jeff DeReus 1, Stefan Janssen 1, Austin D Swafford 4, Stephanie B Orchanian 4, Jon G Sanders 1, Joshua Shorenstein 1 5, Hannes Holste 1 2, Semar Petrus 6, Adam Robbins-Pianka 7, Colin J Brislawn 8, Mingxun Wang 9, Jai Ram Rideout 10, Evan Bolyen 10, Matthew Dillon 10, J Gregory Caporaso 10 11, Pieter C Dorrestein 1 4 9, Rob Knight 12 13 14
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235622/
-Despite these challenges, meta-analyses of microbiomes have a rich history of success, identifying the major global drivers of diversity in microbial communities4, characterizing the evolution of the vertebrate gut microbiome5, and surveying specialized fields such as the built environment6. Meta-analyses also enable scientists to identify important biases such as DNA extraction, primers, or analytical pipelines7,8, which need to be controlled to generate biological discoveries.
 
 ### almlab
 ### 2018-04-23
@@ -932,51 +1027,111 @@ https://twitter.com/BioMickWatson/status/968147242401058817
 Mick W@tson 🐄 on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW" / Twitter
 
 
-
 ----------
-## rRNA
+## Hi-C
 
-https://kazumaxneo.hatenablog.com/archive/category/rRNA
-rRNA カテゴリーの記事一覧 - macでインフォマティクス
+https://phasegenomics.com/hi-c-solves-the-problem-of-linking-plasmids-to-host-cells-in-a-mixed-sample/
+Hi-C solves the problem of linking plasmids to hosts in microbiome samples - Phase Genomics
 
-https://kazumaxneo.hatenablog.com/entry/2022/06/24/011756
-ペアエンドシークエンシングリードを使ってメタゲノムアセンブリゲノムと16S rRNAマーカー遺伝子を結び付ける MarkerMAG - macでインフォマティクス
+https://filgen.jp/Product/Bioscience5-seq/index50.html
+次世代シークエンシング(次世代シーケンシング/NGS)サービス / Proximo(TM)Hi-Cゲノムスキャフォールディング受託解析　：：フィルジェン株式会社：：
 
-https://kazumaxneo.hatenablog.com/entry/2022/03/09/233539
-メタゲノム、メタトランススクリプトーム、ncRNAのシークエンシングデータからrRNA配列を正確かつ高速に検出・除去する RiboDetector - macでインフォマティクス
+https://filgen.jp/Product/Bioscience4/Phase_Genomics/index.html
+Phase Genomics社製 Hi-C解析用サンプル調整キット　：：フィルジェン株式会社：：
 
-https://kazumaxneo.hatenablog.com/entry/2019/02/12/073000
-メタゲノムデータからrRNAをターゲットアセンブリし、系統アサイン、定量、比較する phyloFlash - macでインフォマティクス
+、どのプラスミドがどの宿主ゲノムに関連するか（例：菌株中の抗菌抵抗性プラスミドの同定）などのデータが得られます。
 
-イメージングベース分析における価値と共に、水平伝播の速度が遅いため、SSU rRNA遺伝子は系統発生的多様性の観点から最も優れたサンプリングマーカーとなっている（ref.21）。現在のメタゲノム解析の進歩（22）では、メタゲノムアセンブリから微生物ゲノムのドラフトを自動的に抽出 (“binned”) することができるが、SSU rRNA遺伝子は同じ本質的な役割を持ち、系統学、イメージング、および実験的検証に不可欠になっている。しかし、自動ビニングの進歩にもかかわらず（ref.23）、ほとんどのmetagenome assembled genomes (MAGs) は、SSU rRNA遺伝子の断片さえ含んでいない、また全遺伝子は言うまでもなく含んでいない（ref.1、24）。
+・プラスミド - 宿主にプラスミドを割り当てることができる。
 
-　理想的には、既存の膨大なSSU rRNA遺伝子のナレッジベースを（メタ）ゲノミクスプロジェクトで活用して、いくつかの異なる結果を得たいと考えている：アセンブリなしの分類学的プロファイリング（ref.6、7）、系統学のための全長配列のターゲットアセンブリと、それよるプローブ設計（ref.15、16、25、26）、およびSSU rRNA配列を完全なゲノムへリンクさせる（ref.27）。これらの各目的のために、それぞれ独自の長所と短所を持つ別々のソフトウェアツールがすでに開発されている（ref.16）（MATAM紹介）。ただし、これらは同じ問題の最終的には異なる側面であるため、一緒に検討する必要がある。
+Posted November 30, 2023.
+https://www.biorxiv.org/content/10.1101/2023.11.30.569469v1
+Detection of rare plasmid hosts using a targeted Hi-C approach
+https://www.biorxiv.org/content/10.1101/2023.11.30.569469v1.full
+https://www.biorxiv.org/content/10.1101/2023.11.30.569469v1.full.pdf
+Salvador Castaneda-Barba1,2,3, Benjamin J. Ridenhour1,3,4, Eva M. Top1,2,3,4 8 *†, Thibault
+Stalder1,2,3,4 9 *†,
 
-https://pubmed.ncbi.nlm.nih.gov/33109753/
-mSystems
-. 2020 Oct 27;5(5):e00920-20. doi: 10.1128/mSystems.00920-20.
-phyloFlash: Rapid Small-Subunit rRNA Profiling and Targeted Assembly from Metagenomes
-Harald R Gruber-Vodicka # 1, Brandon K B Seah # 2, Elmar Pruesse 3
-https://journals.asm.org/doi/10.1128/msystems.00920-20
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7593591/
+2020
+https://www.jseb.jp/環境バイオテクノロジー学会誌%E3%80%8020巻1号/
+環境中の微生物群集内におけるプラスミド伝播の実態の解明に向けて
+Behaviors of Plasmids in Various Environmental Microcosms
+新谷 政己，金原 和秀
+https://www.jseb.jp/wordpress/wp-content/uploads/IL0069_12_ST_shintani.indd_.pdf
+
+4.　環境細菌群集内におけるプラスミドの宿主域
+
+図 3．Hi-C テクノロジーを利用したプラスミドや対象遺伝子の帰属方法
+
+Hi-C テクノロジーを利用した方法である。プラスミド
+と染色体 DNA を，細胞内でホルムアルデヒドを用いて
+共有結合させた後，制限酵素処理した断片を環状化し，
+ペアエンドリードをシークエンスする。これを，メタゲ
+ノム配列とすり合わせることでプラスミドの宿主を同定
+する（図 3） 38)。いずれも，プラスミドや薬剤耐性遺伝
+子をもつ微生物の種類を一定数同定することができ，こ
+れらの手法の有用性は示されている 37,38)。
+
+37) Hultman, J., M. Tamminen, K. Pärnänen, J. Cairns, A.
+Karkman, and M. Virta. 2018. Host range of antibiotic resistance genes in wastewater treatment plant influent and effluent. FEMS Microbiol. Ecol. 94: (4). doi: 10.1093/femsec/
+fiy038.
+38) Stalder, T., M.O. Press, S. Sullivan, I. Liachko, and E.M. Top.
+2019. Linking the resistome and plasmidome to the microbiome. ISME J. 13: 2437–2446.
 
 
-MATAM紹介
+https://www.jst.go.jp/report/2017/170925.html
+JSTトピックス：2017NGSハンズオン講習会 開催報告
 
-https://kazumaxneo.hatenablog.com/entry/2018/09/18/162843
-メタゲノムから16Sなどのターゲットアセンブリを行う MATAM - macでインフォマティクス
+2017NGSハンズオン講習会 開催報告
+2017年08月28日～09月01日　東京大学
 
-https://pubmed.ncbi.nlm.nih.gov/29040406/
-Bioinformatics
-. 2018 Feb 15;34(4):585-591. doi: 10.1093/bioinformatics/btx644.
-MATAM: reconstruction of phylogenetic marker genes from short sequencing reads in metagenomes
-Pierre Pericard 1 2, Yoann Dufresne 1 2, Loïc Couderc 1 3, Samuel Blanquart 1 2, Hélène Touzet 1 2
-https://academic.oup.com/bioinformatics/article/34/4/585/4457361
+「Hi-C解析」（国立遺伝学研究所 東 光一研究員）
 
-https://github.com/bonsai-team/matam
+https://biosciencedbc.jp/gadget/human/170901_higashi_170831.pdf
+平成29年度
+NGSハンズオン講習会
+Hi-C解析
+2017年9月1日
+国立遺伝学研究所 東光一
 
+https://togotv.dbcls.jp/ajacs2017017.html
+NGS解析(初〜中級) Hi-C解析 | TogoTV
 
-----------
+https://biosciencedbc.jp/event/ngs/2017.html
+NGSハンズオン講習会2017 - NBDC
+
+Hi-C解析
+東 光一
+Chromosome Conformation Capture 実験で生成されたデータの情報解析について講習を行う予定です。ヒトゲノムを対象としたHi-Cデータを用いて、マッピング、フィルタリング、コンタクトマップ生成、正規化処理、染色体三次元構造再構成など、各種ツールやPythonスクリプトなどを用いて行う予定です。
+
+講義動画 スライド(11.6MB)
+関連情報 (2024年11月付記)
+
+データ解析講習会：AJACS「Hi-C解析を知って・学んで・使う」
+日にち：2025年1月16日 13:30-15:50
+講師：国立遺伝学研究所 東 光一氏
+
+https://biosciencedbc.jp/event/ajacs/ajacs2025-01-16-Hi-C.html
+AJACS「Hi-C解析を知って・学んで・使う」 - NBDC
+
+染色体の立体構造の解析手法である Hi-C (High-throughput chromosome conformation capture) 解析の原理、実際の解析の流れを学びます。
+
+13:40～14:40
+
+Hi-C解析を知る
+
+東 光一氏 (国立遺伝学研究所)
+
+Hi-C解析の原理と染色体高次構造の基礎を解説する。染色体相互作用の研究例や実験手法の概要を示し、Hi-C解析の可能性と課題を理解するための基礎知識を提供する。
+
+14:50～15:50
+
+Hi-Cデータを使う
+
+東 光一氏 (国立遺伝学研究所)
+
+Hi-Cデータ解析の流れを紹介し、可視化手法や他のエピジェネティクスデータとの比較例を示す。公開データを用いたデモを通じて、実践的な解析方法を学ぶ機会を提供する。
+
+日時	2025年1月16日 (木) 13:30-15:50
 
 ----------
 ## diversity index
@@ -1297,6 +1452,14 @@ Ruth G Wong 1, Jia R Wu 1, Gregory B Gloor 1
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0161196
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025018/
 
+2015-07-07
+https://pubmed.ncbi.nlm.nih.gov/26150095/
+BMC Bioinformatics
+. 2015 Jul 7;16(1):211. doi: 10.1186/s12859-015-0640-y.
+The UniFrac significance test is sensitive to tree topology
+Catherine A Lozupone 1, Rob Knight 2
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0640-y
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4492014/
 
 2012-08-15
 https://pubmed.ncbi.nlm.nih.gov/22711789/
@@ -1565,17 +1728,6 @@ Author(s) 岡崎, 友輔
 深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
 た。
 
-
-----------
-### PhyloSift
-
-https://pubmed.ncbi.nlm.nih.gov/35749534/
-PLoS One
-. 2022 Jun 24;17(6):e0270372. doi: 10.1371/journal.pone.0270372. eCollection 2022.
-Phylogenetic diversity analysis of shotgun metagenomic reads describes gut microbiome development and treatment effects in the post-weaned pig
-Daniela Gaio 1, Matthew Z DeMaere 1, Kay Anantanawat 1, Graeme J Eamens 2, Linda Falconer 2, Toni A Chapman 2, Steven Djordjevic 1, Aaron E Darling 1
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270372
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9232140/
 
 ----------
 ### kazumaxneo
