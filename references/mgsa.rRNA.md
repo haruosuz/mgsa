@@ -14,6 +14,7 @@
   - [Greengenes](#greengenes)
   - [RDP](#rdp)
 - [](#)
+- [hypervariable region](#hypervariable-region)
 
 ----------
 
@@ -45,6 +46,43 @@ https://bifidus-fund.jp/keyword/kw009.shtml
 https://github.com/haruosuz/mgsa/blob/master/references/mgsa.metagenome.md
 
 The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies.
+
+----------
+## hypervariable region
+
+### 2024-10-23
+https://pubmed.ncbi.nlm.nih.gov/39597509/
+Microorganisms
+. 2024 Oct 23;12(11):2119. doi: 10.3390/microorganisms12112119.
+Effect of the 16S rRNA Gene Hypervariable Region on the Microbiome Taxonomic Profile and Diversity in the Endangered Fish Totoaba macdonaldi
+Itzel Soledad Pérez-Bustamante 1, Roberto Cruz-Flores 1, Jesús Antonio López-Carvallo 2, Samuel Sánchez-Serrano 3
+https://www.mdpi.com/2076-2607/12/11/2119
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11596169/
+Figure 1.
+Representation of the 16S rRNA gene hypervariable regions. The positions of the utilized primers (forward and reverse) for the amplification of four hypervariable regions are shown. The start and finish of the V1–V2 (aqua), V2–V3 (purple), V3–V4 (pink), and V5–V7 (green) regions are highlighted. The positioning is based on the E. coli strain U 5/41 16S rRNA gene.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11596169/figure/microorganisms-12-02119-f001/
+
+### 2024-03-08
+https://pubmed.ncbi.nlm.nih.gov/38559569/
+ISME Commun
+. 2024 Mar 8;4(1):ycae034. doi: 10.1093/ismeco/ycae034. eCollection 2024 Jan.
+Taxonomic resolution of different 16S rRNA variable regions varies strongly across plant-associated bacteria
+Katarina Hrovat 1, Bas E Dutilh 2 3 4, Marnix H Medema 1, Chrats Melkonian 1 2
+https://academic.oup.com/ismecommun/article/4/1/ycae034/7624640
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10980831/
+
+### 2023-03-09
+https://pubmed.ncbi.nlm.nih.gov/36894603/
+Sci Rep
+. 2023 Mar 9;13(1):3974. doi: 10.1038/s41598-023-30764-z.
+Determining the most accurate 16S rRNA hypervariable region for taxonomic identification from respiratory samples
+Ruben López-Aladid # 1 2 3, Laia Fernández-Barat # 4 5 6, Victoria Alcaraz-Serrano 1 2 3, Leticia Bueno-Freire 1 2 3, Nil Vázquez 1 2 3, Roque Pastor-Ibáñez 7, Andrea Palomeque 1 2 3, Patricia Oscanoa 1 2 3, Antoni Torres 8 9 10
+https://www.nature.com/articles/s41598-023-30764-z
+https://www.nature.com/articles/s41598-023-30764-z/figures/1
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9998635/
+Figure 1.
+Hypervariable region strategy on 16S rRNA. A summary of the four hypervariable region strategies for amplification of variable regions V1–V2, V3–V4, V5–V7, and V7–V9 in the 16S rRNA gene (positioning is based on the E.coli 16S rRNA gene).
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9998635/figure/Fig1/
 
 ----------
 ## phage
