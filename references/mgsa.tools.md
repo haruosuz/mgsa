@@ -62,40 +62,13 @@
 
 ----------
 
-----------
-
-### CSBFinder
-
-Nov 9, 2021
-https://github.com/dinasv/CSBFinder
-dinasv/CSBFinder: A Java Desktop application with a graphical user interface for the discovery of colinear syntenic blocks across thousands microbial genomes
-
-plasmid_genomes.fasta
-Plasmid dataset - 471 prokaryotic genomes with at least one plasmid, chromosomes were removed.
-chromosomal_genomes.fasta
-Chromosomal dataset - 1,485 prokaryotic genomes with at least one chromosome, plasmids were removed.
-
-https://twitter.com/dina_svet
-
-12:48 AM · Jan 4, 2021
-https://twitter.com/dina_svet/status/1345759002676887553
-Dina Svetlitsky on Twitter: "Watch my talk from ISMB2020 to learn how the tool CSBFinder-S discovers conserved groups of genes across large datasets microbial genomes, and some possible applications. https://t.co/Z4VWJuf6a1" / Twitter
-
-https://pubmed.ncbi.nlm.nih.gov/30321308/
-Bioinformatics
-. 2019 May 15;35(10):1634-1643. doi: 10.1093/bioinformatics/bty861.
-CSBFinder: discovery of colinear syntenic blocks across thousands of prokaryotic genomes
-Dina Svetlitsky 1, Tal Dagan 2, Vered Chalifa-Caspi 3, Michal Ziv-Ukelson 1
-
-https://kazumaxneo.hatenablog.com/entry/2018/10/24/080000
-バクテリア間で保存されたシンテシーブロックを探す CSBFinder - macでインフォマティクス
-plasmid
-２つデータが入っているが、それぞれ、1592バクテリアのCOG (Cluster of Orthologous Genes) を集めたファイルと、933プラスミドのCOGを集めたファイルとなっている。
 
 ----------
+## MicrobeDB
+http://microbedb.jp/MDB/
 
-
-
+http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
+MicrobeDB.jpポータル開発 - TogoWiki
 
 ----------
 ## LEA
@@ -142,12 +115,117 @@ Mori H1, Maruyama T2, Yano M2, Yamada T2, Kurokawa K3.
 https://qiita.com/danryo_official/items/9861f8140b63b3a5c7e9
 オススメツール VITCOMIC2
 
-----------
-### MicrobeDB
-http://microbedb.jp/MDB/
 
-http://wiki.lifesciencedb.jp/mw/SPARQLthon59/MicrobeDB.jp
-MicrobeDB.jpポータル開発 - TogoWiki
+----------
+
+https://www.nig.ac.jp/nig/ja/research-infrastructure-collaboration/methods-lab
+
+・ゲノム進化研究室・黒川研究室
+　　メタゲノム配列の遺伝情報から環境温度を予測する技術（メタゲノム温度計)
+　　高速かつ高精度に細菌群集の系統組成を推定するツール（VITCOMIC2）
+　　「環境」から微生物を検索し、微生物から「環境」を予測するウェブツール（LEA）
+　　膨大なメタゲノムデータの相同性検索システム（PZLAST）※理化学研究所との共同開発
+
+・ゲノム多様性研究室・森研究室
+　　メタゲノム配列の遺伝情報から環境温度を予測する技術（メタゲノム温度計)
+　　膨大なメタゲノムデータの相同性検索システム（PZLAST）※理化学研究所との共同開発
+
+
+----------
+## temperature
+optimum growth temperature
+最適増殖温度
+
+### 
+
+
+### metathermo
+メタゲノム温度計
+
+http://metathermo.jp/
+
+2023-12-01
+https://pubmed.ncbi.nlm.nih.gov/37940329/
+DNA Res
+. 2023 Dec 1;30(6):dsad024. doi: 10.1093/dnares/dsad024.
+Metagenomic Thermometer
+Masaomi Kurokawa 1, Koichi Higashi 1 2, Keisuke Yoshida 2, Tomohiko Sato 3, Shigenori Maruyama 3, Hiroshi Mori 1 4 2, Ken Kurokawa 1 2 3
+https://academic.oup.com/dnaresearch/article/30/6/dsad024/7368459
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10660216/
+
+FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate metagenomic predicted temperature (MPT) instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
+
+https://www.nig.ac.jp/nig/ja/2023/11/research-highlights_ja/pr20231122.html
+環境温度は微生物群集をどのように規定するか〜環境中の微生物が持つ遺伝情報と環境温度を繋ぐ数理法則を発見〜 | 国立遺伝学研究所
+
+### tempura
+http://togodb.org/db/tempura
+
+2020
+https://pubmed.ncbi.nlm.nih.gov/32727974/
+Microbes Environ
+. 2020;35(3):ME20074. doi: 10.1264/jsme2.ME20074.
+TEMPURA: Database of Growth TEMPeratures of Usual and RAre Prokaryotes
+Yu Sato 1, Kenji Okano 1, Hiroyuki Kimura 2 3, Kohsuke Honda 1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7511790/
+https://www.jstage.jst.go.jp/article/jsme2/35/3/35_ME20074/_html/-char/en
+
+### 2019-09-15
+
+https://pubmed.ncbi.nlm.nih.gov/30689741/
+Bioinformatics
+. 2019 Sep 15;35(18):3224-3231. doi: 10.1093/bioinformatics/btz059.
+Predicting the optimal growth temperatures of prokaryotes using only genome derived features
+David B Sauer 1, Da-Neng Wang 1
+https://academic.oup.com/bioinformatics/article/35/18/3224/5301315
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/
+Optimal growth temperatures were predicted by multiple linear regression against the quantitative genomic, tRNA, rRNA, ORF and proteome features. Only those features with an absolute value of r greater than 0.3 were used as predictor variables for multiple linear regression (Supplementary Table S1). 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/#sup1
+btz059_supplementary_data.pdf
+Table S1. Correlation of features to OGT. Features with |r| > 0.3 are shown in bold.
+
+### 2007-01-12
+
+https://pubmed.ncbi.nlm.nih.gov/17222055/
+PLoS Comput Biol
+. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
+Protein and DNA sequence determinants of thermophilic adaptation
+Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
+
+
+----------
+
+### CSBFinder
+
+Nov 9, 2021
+https://github.com/dinasv/CSBFinder
+dinasv/CSBFinder: A Java Desktop application with a graphical user interface for the discovery of colinear syntenic blocks across thousands microbial genomes
+
+plasmid_genomes.fasta
+Plasmid dataset - 471 prokaryotic genomes with at least one plasmid, chromosomes were removed.
+chromosomal_genomes.fasta
+Chromosomal dataset - 1,485 prokaryotic genomes with at least one chromosome, plasmids were removed.
+
+https://twitter.com/dina_svet
+
+12:48 AM · Jan 4, 2021
+https://twitter.com/dina_svet/status/1345759002676887553
+Dina Svetlitsky on Twitter: "Watch my talk from ISMB2020 to learn how the tool CSBFinder-S discovers conserved groups of genes across large datasets microbial genomes, and some possible applications. https://t.co/Z4VWJuf6a1" / Twitter
+
+https://pubmed.ncbi.nlm.nih.gov/30321308/
+Bioinformatics
+. 2019 May 15;35(10):1634-1643. doi: 10.1093/bioinformatics/bty861.
+CSBFinder: discovery of colinear syntenic blocks across thousands of prokaryotic genomes
+Dina Svetlitsky 1, Tal Dagan 2, Vered Chalifa-Caspi 3, Michal Ziv-Ukelson 1
+
+https://kazumaxneo.hatenablog.com/entry/2018/10/24/080000
+バクテリア間で保存されたシンテシーブロックを探す CSBFinder - macでインフォマティクス
+plasmid
+２つデータが入っているが、それぞれ、1592バクテリアのCOG (Cluster of Orthologous Genes) を集めたファイルと、933プラスミドのCOGを集めたファイルとなっている。
+
+----------
 
 ----------
 ## database
@@ -500,124 +578,6 @@ http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324989/table/Tab1/
 Table 1
 Genomes selected for analysis
 Strain characteristics
-
-
-
-
-
-
-----------
-## temperature
-optimum growth temperature
-最適増殖温度
-
-### tempura
-http://togodb.org/db/tempura
-### 2020
-https://pubmed.ncbi.nlm.nih.gov/32727974/
-Microbes Environ
-. 2020;35(3):ME20074. doi: 10.1264/jsme2.ME20074.
-TEMPURA: Database of Growth TEMPeratures of Usual and RAre Prokaryotes
-Yu Sato 1, Kenji Okano 1, Hiroyuki Kimura 2 3, Kohsuke Honda 1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7511790/
-https://www.jstage.jst.go.jp/article/jsme2/35/3/35_ME20074/_html/-char/en
-
-### 2019-09-15
-
-https://pubmed.ncbi.nlm.nih.gov/30689741/
-Bioinformatics
-. 2019 Sep 15;35(18):3224-3231. doi: 10.1093/bioinformatics/btz059.
-Predicting the optimal growth temperatures of prokaryotes using only genome derived features
-David B Sauer 1, Da-Neng Wang 1
-https://academic.oup.com/bioinformatics/article/35/18/3224/5301315
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/
-Optimal growth temperatures were predicted by multiple linear regression against the quantitative genomic, tRNA, rRNA, ORF and proteome features. Only those features with an absolute value of r greater than 0.3 were used as predictor variables for multiple linear regression (Supplementary Table S1). 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/#sup1
-btz059_supplementary_data.pdf
-Table S1. Correlation of features to OGT. Features with |r| > 0.3 are shown in bold.
-
-### 2007-01-12
-
-https://pubmed.ncbi.nlm.nih.gov/17222055/
-PLoS Comput Biol
-. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
-Protein and DNA sequence determinants of thermophilic adaptation
-Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
-
-### metathermo
-
-http://metathermo.jp/
-
-メタゲノム温度計
-
-Metagenomic Thermometer
-Masaomi Kurokawa, Koichi Higashi, Keisuke Yoshida, Tomohiko Sato, Shigenori Maruyama, Hiroshi Mori, Ken Kurokawa
-doi: https://doi.org/10.1101/2022.07.14.499854
-
-https://www.biorxiv.org/content/10.1101/2022.07.14.499854v1.full
-
-FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate MPT instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
-
-https://www.sgmj.org/index.php?page=workshop_index
-
-https://sgmj.nig.ac.jp/
-HOME｜第17回日本ゲノム微生物学会年会
-https://sgmj.nig.ac.jp/program.html
-プログラム｜第17回日本ゲノム微生物学会年会
-プログラム（PDFファイル、540KB）
-https://sgmj.nig.ac.jp/images/SGMJ2023Program.v1.pdf
-14:12 3O2-07 メタゲノム温度計の応用 -その群集はその環境に適応しているのか-
-○⿊川 真⾂ 1
-、森 宙史 1
-、東 光⼀ 1
-、吉⽥ 圭佑 2
-、佐藤 友彦 2
-、丸⼭ 茂徳
-2
-、⿊川 顕 1
-1)国⽴遺伝学研究所、2)東京⼯業⼤学
-
-https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/
-HOME｜第16回日本ゲノム微生物学会年会
-https://www2.rikkyo.ac.jp/web/sgmj2022-rikkyo/docs/program.pdf
-P-41A*
-メタゲノム温度計
-○⿊川 真⾂ 1
-、森 宙史 1
-、東 光⼀ 1
-、吉⽥ 圭佑 2
-、佐藤 友彦 2
-、丸⼭ 茂徳 2
-、⿊川 顕 1
-1) 国⽴遺伝学研究所 2) 東京⼯業⼤学
-
-----------
-
-https://sgmj.nig.ac.jp/
-HOME｜第17回日本ゲノム微生物学会年会
-https://sgmj.nig.ac.jp/program.html
-プログラム｜第17回日本ゲノム微生物学会年会
-
-プログラム（PDFファイル、540KB）
-https://sgmj.nig.ac.jp/images/SGMJ2023Program.v1.pdf
-ショートトーク２ (2St1) 14:40-15:20 -XX はポスター番号と共通 *はポスター賞応募演題
-14:40 2St1-31* 細菌の低温環境への適応シグナルは開始・終止コドン周辺に存在する
-か？
-○⼟岐 誠司 1
-、松井 求 2
-、岩崎 渉 1,2
-1)東⼤・理、2)東⼤・院新領域
-
-ポスター発表リスト（PDFファイル、540KB）
-https://sgmj.nig.ac.jp/images/SGMJ2023PosterList.v1.pdf
-P-31* 細菌の低温環境への適応シグナルは開始・終止コドン周辺に存在する
-か？
-○⼟岐 誠司 1
-、松井 求 2
-、岩崎 渉 1,2
-1)東⼤・理、2)東⼤・院新領域
 
 ----------
 ### codon bias
