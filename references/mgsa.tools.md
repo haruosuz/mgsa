@@ -580,7 +580,7 @@ Genomes selected for analysis
 Strain characteristics
 
 ----------
-### codon bias
+### codon
 
 https://github.com/haruosuz/codon
 
