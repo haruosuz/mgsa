@@ -254,6 +254,8 @@ What does an identifier derived from the sequence mean?
 
 ### 2021-06-05
 
+https://github.com/bacteria-archaea-traits
+
 https://github.com/bacteria-archaea-traits/bacteria-archaea-traits
 
 https://pubmed.ncbi.nlm.nih.gov/32503990/
@@ -1052,15 +1054,29 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4326465/
 https://github.com/haruosuz/microbe/blob/master/references/microbe.COVID-19.md#tree
 https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473
 
+----------
+
+https://github.com/haruosuz/r4bioinfo/blob/master/R_tree/README.md#bactdating
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6294524/
+Bayesian inference of ancestral dates on bacterial phylogenetic trees
+
+ClonalFrameML (29) or Gubbins (30)
 
 ----------
 ## gubbins
 
-https://github.com/sanger-pathogens/gubbins
-Genealogies Unbiased By recomBinations In Nucleotide Sequences
+https://nickjcroucher.github.io/gubbins/
+Gubbins - Genealogies Unbiased By recomBinations In Nucleotide Sequences
 
-- Midpoint rerooting
-- Ancestral sequence reconstruction
+https://github.com/nickjcroucher/gubbins
+nickjcroucher/gubbins: Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins
+
+Midpoint rerooting
+
+Ancestral sequence reconstruction
+
+https://github.com/nickjcroucher/gubbins/issues/236
+install gubbins · Issue #236 · nickjcroucher/gubbins
 
 https://pubmed.ncbi.nlm.nih.gov/25414349/
 Nucleic Acids Res
