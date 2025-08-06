@@ -680,7 +680,6 @@ https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05252-w
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10155362/
 
 ### PLSDAbatch
-https://github.com/EvaYiwenWang/PLSDAbatch
 https://pubmed.ncbi.nlm.nih.gov/36653900/
 Brief Bioinform
 . 2023 Mar 19;24(2):bbac622. doi: 10.1093/bib/bbac622.
@@ -688,6 +687,8 @@ PLSDA-batch: a multivariate framework to correct for batch effects in microbiome
 Yiwen Wang 1 2, Kim-Anh Lê Cao 2
 https://academic.oup.com/bib/article/24/2/bbac622/6991121
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10025448/
+Data availability
+The R package ‘PLSDAbatch’ along with the case study datasets, simulations and all analyses are fully reproducible and available on GitHub: https://github.com/EvaYiwenWang/PLSDAbatch.
 
 review
 https://pubmed.ncbi.nlm.nih.gov/31776547/
@@ -696,8 +697,18 @@ Brief Bioinform
 Managing batch effects in microbiome data
 Yiwen Wang 1, Kim-Anh LêCao 1
 https://academic.oup.com/bib/article/21/6/1954/5643537
-2019-10-22
+Data Availability Statement
+All analyses are fully reproducible and available as a bookdown document on the gitHub link, https://evayiwenwang.github.io/Managing_batch_effects/.
+
 https://evayiwenwang.github.io/Managing_batch_effects/
+Managing Batch Effects in Microbiome Data
+Yiwen Wang, Kim-Anh Lê Cao
+2019-10-22
+
+https://colil.dbcls.jp/browse/papers/31776547/1/100/year
+Managing batch effects in microbiome data.
+Wang Y, LeCao KA Brief Bioinform. 2020 Dec 1;21(6):1954-1970. PMID:31776547
+    is cited by the following papers.
 
 ### ConQuR
 ### 2022-09-15
