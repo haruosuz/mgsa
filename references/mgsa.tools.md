@@ -1090,6 +1090,20 @@ http://kazumaxneo.hatenablog.com/entry/2017/12/10/211129
 近縁な何百~何千のバクテリアの系統解析を行うGubbins - macでインフォマティクス
 ランにはマルチプルアライメント実行済みのファイルを使う。マニュアルではゲノムのマルチプルアライメントのツール例としてSnippyが挙げられている（Snippyの使い方）。
 
+
+https://pubmed.ncbi.nlm.nih.gov/31623552/
+BMC Genomics
+. 2019 Oct 17;20(1):752. doi: 10.1186/s12864-019-6078-2.
+The recombination-cold region as an epidemiological marker of recombinogenic opportunistic pathogen Mycobacterium avium
+Hirokazu Yano 1, Haruo Suzuki 2, Fumito Maruyama 3, Tomotada Iwamoto 4
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6078-2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6798384/
+
+For this data set, we used Gubbins software [36], which produces recombination-free SNPs alignments and simultaneously infers phylogenetic trees. 
+
+Filtered polymorphic sites of this SC2/SC4 dataset, obtained as described above, were used for phylogenetic analysis and recombination detection using Gubbins software [36]. This software is more suitable for the genealogical analysis of a population consisting of closely-related haplotypes than fastGEAR, and is useful as it generates multiple sequence alignment of recombination-free polymorphic sites [36]. Recombination-cold regions that can distinguish between SC2 and SC4 were screened manually using fasta and vcf files of the Gubbins outputs.
+
+
 ----------
 ## fastGEAR
 https://users.ics.aalto.fi/~pemartti/fastGEAR/
