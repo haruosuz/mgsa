@@ -38,13 +38,6 @@
 - [MEDUSA](#medusa)
 - [recentrifuge](#recentrifuge)
 - [centrifuge](#centrifuge)
-- [](#)
-- [MAG](#mag) Metagenome Assembled Genome
-- [MAG](#mag) Metagenome-Assembled Genome
-  - [MAGNETO](#magneto)
-  - [MDMcleaner](#mdmcleaner)
-  - [MetaWRAP](#metawrap)
-  - [](#)
 - [unifrac](#unifrac)
 - [LEfSe](#lefse)
 - [diversity index](#diversity-index) 多様性指数
@@ -66,10 +59,16 @@
 [rebean](#rebean)
 - [CoverM](#Coverm)
 - [](#)
+- [MAG](#mag) Metagenome Assembled Genome
+  - [MAGNETO](#magneto)
+  - [MDMcleaner](#mdmcleaner)
+  - [MetaWRAP](#metawrap)
+  - [](#)
+- [](#)
 
 ----------
 
-https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
+
 
 ----------
 ### 
@@ -81,6 +80,175 @@ A global metagenomic map of urban microbiomes and antimicrobial resistance
 
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
 
+
+
+
+
+
+----------
+
+## MAG
+Metagenome Assembled Genome (MAG)
+
+https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
+DDBJ Qualifier key
+metagenome_source
+定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
+
+----------
+
+### 2022-06-15
+### MAGNETO
+
+https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
+
+https://kazumaxneo.hatenablog.com/entry/2022/06/17/013547
+メタゲノム解析のための自動化されたワークフロー MAGNETO - macでインフォマティクス
+
+https://pubmed.ncbi.nlm.nih.gov/35703559/
+mSystems
+. 2022 Aug 30;7(4):e0043222. doi: 10.1128/msystems.00432-22. Epub 2022 Jun 15.
+MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics
+Benjamin Churcheward 1, Maxime Millet 1, Audrey Bihouée 2 3, Guillaume Fertin 1, Samuel Chaffron 1 4
+https://europepmc.org/article/MED/35703559
+https://journals.asm.org/doi/10.1128/msystems.00432-22
+
+11:20 PM · Jun 24, 2022
+https://twitter.com/schaffron/status/1540338989240033282
+Samuel Chaffron on Twitter: "Have you ever wondered how to group metagenomic samples for co-assembly to improve MAGs recovery? Check out our solution implemented in MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems https://t.co/zykKasJwIq" / Twitter
+
+----------
+### 2022-05-10
+### MDMcleaner
+
+https://pubmed.ncbi.nlm.nih.gov/35536293/
+Nucleic Acids Res
+. 2022 May 10;gkac294. doi: 10.1093/nar/gkac294. Online ahead of print.
+How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner
+John Vollmers 1, Sandra Wiegand 1, Florian Lenk 1, Anne-Kristin Kaster 1
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac294/6583244
+
+8:05 PM · May 20, 2022
+https://twitter.com/kasterlab/status/1527606371872546818
+Kaster Lab on Twitter: "Our genome assessment pipeline for microbial dark matter, MDMcleaner, is now available via Pip & Conda! Also check out the corresponding publication at NAR: https://t.co/8lqdLnNQfD" / Twitter
+
+6:13 PM · May 16, 2022
+https://twitter.com/BioMickWatson/status/1526128600617046022
+Mick W@tson on Twitter: "Another taxonomy-based approach to MAG contamination: How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner | Nucleic Acids Research | Oxford Academic https://t.co/Fpl1iHhR4K" / Twitter
+
+In our experience these really don't work very well especially for MAGs distant from the reference DB
+
+And if your MAGs are not distant from the reference DB, why are you creating them>
+
+I mean if your microbiome contains known genomes (which you can find out using containment queries), you don't need to create MAGs
+
+
+----------
+### 2018-09-15
+### MetaWRAP
+
+https://kazumaxneo.hatenablog.com/entry/2018/10/07/073000
+複数のbiningツールを統合し、包括的なメタゲノム解析を行うパイプライン metaWRAP - macでインフォマティクス
+https://github.com/bxlab/metaWRAP
+https://pubmed.ncbi.nlm.nih.gov/30219103/
+Microbiome
+. 2018 Sep 15;6(1):158. doi: 10.1186/s40168-018-0541-1.
+MetaWRAP-a flexible pipeline for genome-resolved metagenomic data analysis
+Gherman V Uritskiy 1, Jocelyne DiRuggiero 2, James Taylor 3
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138922/
+
+
+
+
+2019年4月25日
+https://www.natureasia.com/ja-jp/nature/highlights/98543
+Nature ハイライト：ヒト腸内微生物相の構成をこれまでにない分解能で明らかにする
+、1万1850のヒト腸のマイクロバイオームから、9万2143のメタゲノムアセンブリーによる再構築ゲノム（MAG）を得て、1952種の未培養の候補細菌を特定した。
+、系統発生学的多様性を281％増大させた。
+、数百の新しい生合成遺伝子クラスターをコードしていることが分かった。
+https://www.nature.com/articles/s41586-019-0965-1
+A new genomic blueprint of the human gut microbiota | Nature
+Phylogenetic diversity was quantified by the sum of branch lengths using the phytools R package59.
+
+
+https://twitter.com/jgi/status/1106429999974772736
+Joint Genome Inst. on Twitter: "Read "Novel insights from uncultivated genomes of the global human gut #microbiome" in @nature from @BerkeleyLab @LBNLBioSci @jgi and @GladstoneInst @UCSF @czbiohub researchers: https://t.co/5dUrX7zHzd #BioEGSB #DataScience… https://t.co/ExoEkSqpRp"
+1:40 AM - 15 Mar 2019
+![](https://pbs.twimg.com/media/D1rUODCUgAA8bDz.jpg)
+
+https://twitter.com/TrendsMicrobiol/status/1106251713122578433
+Trends Microbiol on Twitter: "Sam Minot spotlights how de novo assembly vastly expands the known microbial universe of the gut microbiome https://t.co/kyUgu6tu1Q"
+1:52 PM - 14 Mar 2019
+https://www.sciencedirect.com/science/article/pii/S0966842X19300587
+
+https://www.ncbi.nlm.nih.gov/pubmed/30867587
+Nature. 2019 Mar 13. doi: 10.1038/s41586-019-1058-x. [Epub ahead of print]
+Novel insights from uncultivated genomes of the global human gut microbiome.
+Nayfach S1,2, Shi ZJ3,4, Seshadri R5,6, Pollard KS3,4,7, Kyrpides N8,9.
+
+2019Feb28
+https://bibgraph.hpcr.jp/abst/pubmed/30816235
+メタゲノム集合ゲノムはロシアのカムチャツカにおける2つの温泉プールの微生物多様性への新しい洞察を提供する - Bibgraph（ビブグラフ）| PubMedを日本語で論文検索
+
+再現性のあるパイプライン
+https://github.com/WatsonLab/MAGpy
+https://www.ncbi.nlm.nih.gov/pubmed/30418481
+Bioinformatics. 2018 Nov 10. doi: 10.1093/bioinformatics/bty905. [Epub ahead of print]
+MAGpy: a reproducible pipeline for the downstream analysis of metagenome-assembled genomes (MAGs).
+Stewart RD1, Auffret M2, Snelling TJ3, Roehe R2, Watson M1.
+
+未培養原核生物のゲノム
+https://www.ncbi.nlm.nih.gov/pubmed/30266101
+Microbiome. 2018 Sep 28;6(1):173. doi: 10.1186/s40168-018-0550-0.
+Genomes from uncultivated prokaryotes: a comparison of metagenome-assembled and single-amplified genomes.
+Alneberg J1, Karlsson CMG2, Divne AM3, Bergin C3, Homa F3, Lindh MV2,4, Hugerth LW1,5, Ettema TJG3, Bertilsson S6, Andersson AF7, Pinhassi J8.
+
+http://kazumaxneo.hatenablog.com/entry/2018/10/09/003000
+NGSデータまたはアセンブリからバクテリアやアーキアのtaxanomic assignmentを行い、ゲノムのnoveltyなどを評価する MIGA - macでインフォマティクス
+　微生物ゲノムアトラス（MiGA）プロジェクトは、ANIに基づいてクエリーゲノムまたはアセンブリされたコンティグ配列の頑強な分類学的分類を提供する。
+　さらに、クエリーゲノム配列は、単離されたが分類されていないゲノムや、metagenome-assembled genomes（MAG）およびsingle-cell amplified genome（SAG）コレクションに対して検索し、
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/08/212758
+クラスタを自動で決めてビニングする BinSanity - macでインフォマティクス
+。Metagenome-assembled genomes （MAG）にcontigを分類することは、メタゲノムデータを分析する際に直面するハードルの1つである。
+
+https://www.ncbi.nlm.nih.gov/pubmed/29234139
+Nat Microbiol. 2018 Feb;3(2):253. doi: 10.1038/s41564-017-0083-5.
+Author Correction: Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
+Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28894102
+Nat Microbiol. 2017 Nov;2(11):1533-1542. doi: 10.1038/s41564-017-0012-7. Epub 2017 Sep 11.
+Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
+Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
+
+2017年09月12日
+http://crisp-bio.blog.jp/archives/3772216.html
+メタゲノムからアッセンブルしたゲノムにより微生物系統樹30％以上拡張
+
+2017-03
+https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227988/1/scr_2017_56.pdf
+Title 琵琶湖沖に生息する細菌・ウイルスのメタゲノム解析
+Author(s) 岡崎, 友輔
+細菌メタゲノムにおいては、SPAdes でアセンブリされた塩基配列断片に対し、4-mer および
+サンプル間のカバレッジの差異を用いてクラスタリングする手法(binning) を用いた。これによ
+り、各細菌系統の MAG(Metagenome Assembled Genome)を構築し、琵琶湖の表水層および
+深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
+た。
+
+
+----------
+### kazumaxneo
+
+http://kazumaxneo.hatenablog.com/archive/category/metagenome
+metagenome カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
+メタゲノム解析ツール - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
+メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
 
 
 ----------
@@ -1697,162 +1865,6 @@ LEfSeを実際にやってみる - Note of Pediatric Surgery
 
 https://www.pediatricsurgery.site/entry/2016/10/31/210537
 LEfSeをインストールする - Note of Pediatric Surgery
-
-----------
-
-## MAG
-Metagenome Assembled Genome (MAG)
-
-https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
-DDBJ Qualifier key
-metagenome_source
-定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
-
-----------
-
-### 2022-06-15
-### MAGNETO
-
-https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
-
-11:20 PM · Jun 24, 2022
-https://twitter.com/schaffron/status/1540338989240033282
-Samuel Chaffron on Twitter: "Have you ever wondered how to group metagenomic samples for co-assembly to improve MAGs recovery? Check out our solution implemented in MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems https://t.co/zykKasJwIq" / Twitter
-https://journals.asm.org/doi/10.1128/msystems.00432-22
-MAGNETO: An Automated Workflow for Genome-Resolved Metagenomics | mSystems
-
-----------
-### 2022-05-10
-### MDMcleaner
-
-https://pubmed.ncbi.nlm.nih.gov/35536293/
-Nucleic Acids Res
-. 2022 May 10;gkac294. doi: 10.1093/nar/gkac294. Online ahead of print.
-How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner
-John Vollmers 1, Sandra Wiegand 1, Florian Lenk 1, Anne-Kristin Kaster 1
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac294/6583244
-
-8:05 PM · May 20, 2022
-https://twitter.com/kasterlab/status/1527606371872546818
-Kaster Lab on Twitter: "Our genome assessment pipeline for microbial dark matter, MDMcleaner, is now available via Pip & Conda! Also check out the corresponding publication at NAR: https://t.co/8lqdLnNQfD" / Twitter
-
-6:13 PM · May 16, 2022
-https://twitter.com/BioMickWatson/status/1526128600617046022
-Mick W@tson on Twitter: "Another taxonomy-based approach to MAG contamination: How clear is our current view on microbial dark matter? (Re-)assessing public MAG & SAG datasets with MDMcleaner | Nucleic Acids Research | Oxford Academic https://t.co/Fpl1iHhR4K" / Twitter
-
-In our experience these really don't work very well especially for MAGs distant from the reference DB
-
-And if your MAGs are not distant from the reference DB, why are you creating them>
-
-I mean if your microbiome contains known genomes (which you can find out using containment queries), you don't need to create MAGs
-
-
-----------
-### 2018-09-15
-### MetaWRAP
-
-https://kazumaxneo.hatenablog.com/entry/2018/10/07/073000
-複数のbiningツールを統合し、包括的なメタゲノム解析を行うパイプライン metaWRAP - macでインフォマティクス
-https://github.com/bxlab/metaWRAP
-https://pubmed.ncbi.nlm.nih.gov/30219103/
-Microbiome
-. 2018 Sep 15;6(1):158. doi: 10.1186/s40168-018-0541-1.
-MetaWRAP-a flexible pipeline for genome-resolved metagenomic data analysis
-Gherman V Uritskiy 1, Jocelyne DiRuggiero 2, James Taylor 3
-https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138922/
-
-
-
-
-2019年4月25日
-https://www.natureasia.com/ja-jp/nature/highlights/98543
-Nature ハイライト：ヒト腸内微生物相の構成をこれまでにない分解能で明らかにする
-、1万1850のヒト腸のマイクロバイオームから、9万2143のメタゲノムアセンブリーによる再構築ゲノム（MAG）を得て、1952種の未培養の候補細菌を特定した。
-、系統発生学的多様性を281％増大させた。
-、数百の新しい生合成遺伝子クラスターをコードしていることが分かった。
-https://www.nature.com/articles/s41586-019-0965-1
-A new genomic blueprint of the human gut microbiota | Nature
-Phylogenetic diversity was quantified by the sum of branch lengths using the phytools R package59.
-
-
-https://twitter.com/jgi/status/1106429999974772736
-Joint Genome Inst. on Twitter: "Read "Novel insights from uncultivated genomes of the global human gut #microbiome" in @nature from @BerkeleyLab @LBNLBioSci @jgi and @GladstoneInst @UCSF @czbiohub researchers: https://t.co/5dUrX7zHzd #BioEGSB #DataScience… https://t.co/ExoEkSqpRp"
-1:40 AM - 15 Mar 2019
-![](https://pbs.twimg.com/media/D1rUODCUgAA8bDz.jpg)
-
-https://twitter.com/TrendsMicrobiol/status/1106251713122578433
-Trends Microbiol on Twitter: "Sam Minot spotlights how de novo assembly vastly expands the known microbial universe of the gut microbiome https://t.co/kyUgu6tu1Q"
-1:52 PM - 14 Mar 2019
-https://www.sciencedirect.com/science/article/pii/S0966842X19300587
-
-https://www.ncbi.nlm.nih.gov/pubmed/30867587
-Nature. 2019 Mar 13. doi: 10.1038/s41586-019-1058-x. [Epub ahead of print]
-Novel insights from uncultivated genomes of the global human gut microbiome.
-Nayfach S1,2, Shi ZJ3,4, Seshadri R5,6, Pollard KS3,4,7, Kyrpides N8,9.
-
-2019Feb28
-https://bibgraph.hpcr.jp/abst/pubmed/30816235
-メタゲノム集合ゲノムはロシアのカムチャツカにおける2つの温泉プールの微生物多様性への新しい洞察を提供する - Bibgraph（ビブグラフ）| PubMedを日本語で論文検索
-
-再現性のあるパイプライン
-https://github.com/WatsonLab/MAGpy
-https://www.ncbi.nlm.nih.gov/pubmed/30418481
-Bioinformatics. 2018 Nov 10. doi: 10.1093/bioinformatics/bty905. [Epub ahead of print]
-MAGpy: a reproducible pipeline for the downstream analysis of metagenome-assembled genomes (MAGs).
-Stewart RD1, Auffret M2, Snelling TJ3, Roehe R2, Watson M1.
-
-未培養原核生物のゲノム
-https://www.ncbi.nlm.nih.gov/pubmed/30266101
-Microbiome. 2018 Sep 28;6(1):173. doi: 10.1186/s40168-018-0550-0.
-Genomes from uncultivated prokaryotes: a comparison of metagenome-assembled and single-amplified genomes.
-Alneberg J1, Karlsson CMG2, Divne AM3, Bergin C3, Homa F3, Lindh MV2,4, Hugerth LW1,5, Ettema TJG3, Bertilsson S6, Andersson AF7, Pinhassi J8.
-
-http://kazumaxneo.hatenablog.com/entry/2018/10/09/003000
-NGSデータまたはアセンブリからバクテリアやアーキアのtaxanomic assignmentを行い、ゲノムのnoveltyなどを評価する MIGA - macでインフォマティクス
-　微生物ゲノムアトラス（MiGA）プロジェクトは、ANIに基づいてクエリーゲノムまたはアセンブリされたコンティグ配列の頑強な分類学的分類を提供する。
-　さらに、クエリーゲノム配列は、単離されたが分類されていないゲノムや、metagenome-assembled genomes（MAG）およびsingle-cell amplified genome（SAG）コレクションに対して検索し、
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/08/212758
-クラスタを自動で決めてビニングする BinSanity - macでインフォマティクス
-。Metagenome-assembled genomes （MAG）にcontigを分類することは、メタゲノムデータを分析する際に直面するハードルの1つである。
-
-https://www.ncbi.nlm.nih.gov/pubmed/29234139
-Nat Microbiol. 2018 Feb;3(2):253. doi: 10.1038/s41564-017-0083-5.
-Author Correction: Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
-Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/28894102
-Nat Microbiol. 2017 Nov;2(11):1533-1542. doi: 10.1038/s41564-017-0012-7. Epub 2017 Sep 11.
-Recovery of nearly 8,000 metagenome-assembled genomes substantially expands the tree of life.
-Parks DH1, Rinke C1, Chuvochina M1, Chaumeil PA1, Woodcroft BJ1, Evans PN1, Hugenholtz P2, Tyson GW3.
-
-2017年09月12日
-http://crisp-bio.blog.jp/archives/3772216.html
-メタゲノムからアッセンブルしたゲノムにより微生物系統樹30％以上拡張
-
-2017-03
-https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/227988/1/scr_2017_56.pdf
-Title 琵琶湖沖に生息する細菌・ウイルスのメタゲノム解析
-Author(s) 岡崎, 友輔
-細菌メタゲノムにおいては、SPAdes でアセンブリされた塩基配列断片に対し、4-mer および
-サンプル間のカバレッジの差異を用いてクラスタリングする手法(binning) を用いた。これによ
-り、各細菌系統の MAG(Metagenome Assembled Genome)を構築し、琵琶湖の表水層および
-深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
-た。
-
-
-----------
-### kazumaxneo
-
-http://kazumaxneo.hatenablog.com/archive/category/metagenome
-metagenome カテゴリーの記事一覧 - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
-メタゲノム解析ツール - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
-メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
 
 
 ----------
