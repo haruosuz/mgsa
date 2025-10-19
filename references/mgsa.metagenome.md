@@ -68,8 +68,6 @@
 
 ----------
 
-
-
 ----------
 ### 
 
@@ -80,8 +78,68 @@ A global metagenomic map of urban microbiomes and antimicrobial resistance
 
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
 
+----------
+### SingleM
 
+https://github.com/wwood/singlem
 
+https://wwood.github.io/singlem/tools/pipe
+
+Please use raw metagenomic reads, not quality trimmed reads, if possible. Quality trimming with e.g. Trimmomatic reads can make them too short for SingleM to use, particularly if they are trimmed to be shorter than 100 bp. Adapter trimming is unlikely to be detrimental, but is not needed.
+
+https://pubmed.ncbi.nlm.nih.gov/40670710/
+Nat Biotechnol
+. 2025 Jul 16. doi: 10.1038/s41587-025-02738-1. Online ahead of print.
+Comprehensive taxonomic identification of microbial species in metagenomic data using SingleM and Sandpiper
+Ben J Woodcroft 1, Samuel T N Aroney 2, Rossen Zhao 2, Mitchell Cunningham 3, Joshua A M Mitchell 2, Rizky Nurdiansyah 2, Linda Blackall 3, Gene W Tyson 2
+https://www.nature.com/articles/s41587-025-02738-1
+
+https://kazumaxneo.hatenablog.com/entry/2022/05/04/131449
+メタゲノムのOTU解析を行う singleM - macでインフォマティクス
+
+実行方法
+
+メタゲノムのシークエンシングリードを指定する。Qualityトリミングされて短くなったリードではなく生のリードを使うことが推奨されている。
+
+----------
+
+### 2025-09-26
+### MetaCompass
+https://github.com/marbl/MetaCompass
+
+https://pubmed.ncbi.nlm.nih.gov/41015028/
+Cell Rep Methods
+. 2025 Sep 26:101186. doi: 10.1016/j.crmeth.2025.101186. Online ahead of print.
+Reference-guided assembly of metagenomes with MetaCompass
+Tu Luan 1, Victoria P Cepeda-Espinoza 1, Bo Liu 1, Zac Bowen 2, Ujjwal Ayyangar 2, Mathieu Almeida 3, Sergey Koren 4, Todd J Treangen 5, Adam Porter 6, Mihai Pop 7
+https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(25)00222-X
+
+Quality of MetaCompass assemblies of individual genomes
+
+Metagenomics-assembled contigs (MAGs)
+
+8:35 AM · Sep 27, 2025
+https://x.com/CellRepMethods/status/1971720328146784643
+Cell Reports Methods on X: "Reference-guided assembly of metagenomes with MetaCompass https://t.co/hLmYQEUMhM" / X
+
+3 Mar 2024
+https://arxiv.org/abs/2403.01578
+[2403.01578] MetaCompass: Reference-guided Assembly of Metagenomes
+
+https://kazumaxneo.hatenablog.com/entry/2018/05/25/200236
+メタゲノムのリファレンスガイドアセンブリを行う MetaCompass - macでインフォマティクス
+
+----------
+### kazumaxneo
+
+http://kazumaxneo.hatenablog.com/archive/category/metagenome
+metagenome カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
+メタゲノム解析ツール - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
+メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
 
 
 
@@ -94,6 +152,9 @@ https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
 DDBJ Qualifier key
 metagenome_source
 定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
+
+----------
+
 
 ----------
 
@@ -236,19 +297,6 @@ Author(s) 岡崎, 友輔
 り、各細菌系統の MAG(Metagenome Assembled Genome)を構築し、琵琶湖の表水層および
 深水層に生息する優占的な細菌系統のゲノムを 90％以上の Completeness で得ることができ
 た。
-
-
-----------
-### kazumaxneo
-
-http://kazumaxneo.hatenablog.com/archive/category/metagenome
-metagenome カテゴリーの記事一覧 - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
-メタゲノム解析ツール - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
-メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
 
 
 ----------
