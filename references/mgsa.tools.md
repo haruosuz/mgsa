@@ -139,6 +139,30 @@ optimum growth temperature
 ### 
 
 
+### 2025-10-24
+https://pubmed.ncbi.nlm.nih.gov/41136894/
+BMC Genomics
+. 2025 Oct 24;26(1):957. doi: 10.1186/s12864-025-12162-z.
+Machine learning prediction of bacterial optimal growth temperature from protein domain signatures reveals thermoadaptation mechanisms
+Haida Liu # 1, Geyi Zhu # 1, Lijuan Chen 2, Hui Ye 3, Yunhua Zhang 4, Guomin Han 5 6
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12162-z
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12553261/
+
+### 
+
+Posted May 12, 2025.
+https://www.biorxiv.org/content/10.1101/2025.03.03.640802v2.full
+Machine learning for optimal growth temperature prediction of prokaryotes using amino acid descriptors | bioRxiv
+
+### 2024-12-29
+https://pubmed.ncbi.nlm.nih.gov/39739114/
+Commun Biol
+. 2024 Dec 29;7(1):1709. doi: 10.1038/s42003-024-07436-3.
+Accurately predicting optimal conditions for microorganism proteins through geometric graph learning and language model
+Mingming Zhu # 1, Yidong Song # 1, Qianmu Yuan 1 2, Yuedong Yang 3 4
+https://www.nature.com/articles/s42003-024-07436-3
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11683147/
+
 ### metathermo
 メタゲノム温度計
 
@@ -158,6 +182,15 @@ FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was a
 https://www.nig.ac.jp/nig/ja/2023/11/research-highlights_ja/pr20231122.html
 環境温度は微生物群集をどのように規定するか〜環境中の微生物が持つ遺伝情報と環境温度を繋ぐ数理法則を発見〜 | 国立遺伝学研究所
 
+### 2022-05-26
+https://pubmed.ncbi.nlm.nih.gov/35460223/
+Bioinformatics
+. 2022 May 26;38(11):3106-3108. doi: 10.1093/bioinformatics/btac289.
+CnnPOGTP: a novel CNN-based predictor for identifying the optimal growth temperatures of prokaryotes using only genomic k-mers distribution
+Shaojing Wang 1, Guoqiang Li 1, Zitong Liao 1, Yunke Cao 1, Yuan Yun 1, Zhaoying Su 1, Xuefeng Tian 1, Ziyu Gui 1, Ting Ma 1
+https://academic.oup.com/bioinformatics/article/38/11/3106/6572810
+
+### 2022-04-23
 ### tempura
 http://togodb.org/db/tempura
 
@@ -178,7 +211,7 @@ Bioinformatics
 Predicting the optimal growth temperatures of prokaryotes using only genome derived features
 David B Sauer 1, Da-Neng Wang 1
 https://academic.oup.com/bioinformatics/article/35/18/3224/5301315
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6748728/
 Optimal growth temperatures were predicted by multiple linear regression against the quantitative genomic, tRNA, rRNA, ORF and proteome features. Only those features with an absolute value of r greater than 0.3 were used as predictor variables for multiple linear regression (Supplementary Table S1). 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/#sup1
 btz059_supplementary_data.pdf
