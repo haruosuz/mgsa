@@ -1836,7 +1836,11 @@ https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_article/-char/ja
 https://www.jstage.jst.go.jp/article/jsci/37/5/37_412/_pdf/-char/ja
 二つ目は検出された OTU 間の配列類似度から各細菌叢の系統樹を作成し，その系統樹の類似性（比較する細菌叢との系統樹間で共有する枝の長さとそれぞれの細菌叢に固有な枝の割合）から，細菌叢間の全体構造の相違の程度を求める．この解析を UniFrac 解析と言い，細菌叢間の類似性を 0（100% 類似する）～ 1（100% 類似しない）の距離（UniFrac 距離）で表す6）．UniFrac 解析にはOTU に含まれるリード数（組成比）を考慮しないunweighted と考慮した weighted UniFrac 解析がある．前者は菌種の有無だけが，後者は同一菌種の組成比の相違が両細菌叢間の類似性の距離に反映される．
 
+
+
+
 ----------
+2015-03-27
 
 https://www.ncbi.nlm.nih.gov/pubmed/25815895
 PLoS Comput Biol. 2015 Mar 27;11(3):e1004186. doi: 10.1371/journal.pcbi.1004186. eCollection 2015 Mar.
@@ -1863,6 +1867,53 @@ PhyloRelief is implemented in Python (http://www.python.org), and requires Pytho
 linear discriminant analysis (LDA) effect size (LEfSe) 
 線形判別分析（LDA）効果量（LEfSe）
 
+### 2025-02-17
+Commonly used compositional data analysis implementations are not advantageous in microbial differential abundance analyses benchmarked against biological ground truth
+Samuel D. Gamboa-Tuz, Marcel Ramos, Eric Franzosa, Curtis Huttenhower, Nicola Segata, Sehyun Oh, Levi Waldron
+bioRxiv 2025.02.13.638109; doi: https://doi.org/10.1101/2025.02.13.638109
+This article is a preprint and has not been certified by peer review [what does this mean?].
+https://www.biorxiv.org/content/10.1101/2025.02.13.638109v1.full
+https://www.biorxiv.org/content/10.1101/2025.02.13.638109v1.full.pdf
+
+### lefser
+### 2024-11-28
+https://github.com/waldronlab/lefser
+https://pubmed.ncbi.nlm.nih.gov/39585730/
+Bioinformatics
+. 2024 Nov 28;40(12):btae707. doi: 10.1093/bioinformatics/btae707.
+lefser: implementation of metagenomic biomarker discovery tool, LEfSe, in R
+Asya Khleborodova 1 2, Samuel D Gamboa-Tuz 1 2, Marcel Ramos 1 2, Nicola Segata 3 4, Levi Waldron 1 2, Sehyun Oh 1 2
+https://academic.oup.com/bioinformatics/article/40/12/btae707/7908399
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11665633/
+
+### 2022
+
+9:00 PM · May 19, 2022
+https://x.com/Tyu_Shi/status/1527257881632210944
+Hiroshi Mori on X: "LEfSeは非常によく使われていますが、LEfSeの結果について多重検定の補正がどのような場合に必要かはLEfSeのアルゴリズム（Kruskal-Wallis test、Mann-Whitney U test, 線型判別分析、の3つの統計手法をどのように組み合わせるのか）を理解した上で慎重に考える必要があります。" / X
+
+9:05 PM · May 19, 2022
+https://x.com/Tyu_Shi/status/1527259100643749888
+Hiroshi Mori on X: "LEfSeも含めてマイクロバイオームの群間比較の統計手法には様々なものがあり未だ活発に研究が行われていますが、例えば　https://t.co/Y5G276ySvt　等を読んで各手法の特性や注意点等についてイメージを持っておくと良いです。" / X
+
+9:19 PM · May 19, 2022
+https://x.com/Tyu_Shi/status/1527262591109988352
+Hiroshi Mori on X: "LEfSeと多重検定補正との関係については、LEfSeが何段階かに分けて検定を行いさらにその後線型判別分析を行なってeffect sizeを出力することもあってわかりにくく、https://t.co/1BjIhZOLyi　のように度々開発者達とユーザーとの間で議論になっています。" / X
+
+2022-01-17
+https://pubmed.ncbi.nlm.nih.gov/35039521/
+Nat Commun
+. 2022 Jan 17;13(1):342. doi: 10.1038/s41467-022-28034-z.
+Microbiome differential abundance methods produce different results across 38 datasets
+Jacob T Nearing # 1, Gavin M Douglas # 2, Molly G Hayes 3, Jocelyn MacDonald 4, Dhwani K Desai 5, Nicole Allward 6, Casey M A Jones 7, Robyn J Wright 7, Akhilesh S Dhanani 5, André M Comeau 5, Morgan G I Langille 5 7
+https://www.nature.com/articles/s41467-022-28034-z
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8763921/
+
+Mar 2020
+https://forum.biobakery.org/t/multiple-comparison-correcting/258
+Multiple comparison correcting - Downstream analysis and statistics / LEfSe - The bioBakery help forum
+
+### 2011-06-24
 https://www.ncbi.nlm.nih.gov/pubmed/21702898
 Genome Biol. 2011 Jun 24;12(6):R60. doi: 10.1186/gb-2011-12-6-r60.
 Metagenomic biomarker discovery and explanation.
@@ -1886,33 +1937,26 @@ LEfSe uses a table of relative abundances which also includes sample identifiers
 https://picrust.github.io/picrust/tutorials/humann_tutorial.html#differential-abundance-analysis-with-lefse
 Differential abundance analysis with LEfSe
 
+https://doi.org/10.7875/togotv.2019.102
+2019-04-12 LEfSeを使って細菌叢(Microbiome)の群間比較解析とバイオマーカー探索を行う
+Galaxy
+
 2020/01/11
 https://note.com/ytomy/n/n39b64afd3862
 LEfSeの使用法
 Galaxy
 
-https://doi.org/10.7875/togotv.2019.102
-2019-04-12 LEfSeを使って細菌叢(Microbiome)の群間比較解析とバイオマーカー探索を行う
-Galaxy
-
-27 April 2017
-http://wiki.pitagora-galaxy.org/wiki/index.php/Huttenhower_Lab_Workflows#LEfSe_.28Galaxy.29
-LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
-
-https://www.pediatricsurgery.site/archive/category/菌叢解析
-菌叢解析
-
+https://pediatricsurgery.hatenadiary.jp/archive/category/菌叢解析
+2020-09-21
+Dockerを使ってLEfSeを超簡単に実行する
 2016-10-31
 LEfSeを実際にやってみる
-
 2016-10-31
 LEfSeをインストールする
 
-https://www.pediatricsurgery.site/entry/2016/10/31/214233
-LEfSeを実際にやってみる - Note of Pediatric Surgery
-
-https://www.pediatricsurgery.site/entry/2016/10/31/210537
-LEfSeをインストールする - Note of Pediatric Surgery
+27 April 2017
+https://pitagora-network.org/docs/galaxy-community-japan/Notes/Huttenhower_Lab_Workflows.html
+LEfSe (Linear discriminant analysis Effect Size) は、クラス間の違いを説明する可能性が最も高い 特徴（生物、クレード、OTU、遺伝子、機能）を決定する。
 
 
 ----------
