@@ -58,12 +58,13 @@
 [mi-faser](#mi-faser)
 [rebean](#rebean)
 - [CoverM](#Coverm)
-- [](#)
 - [MAG](#mag) Metagenome Assembled Genome
+  - [MetaCompass](#metacompass)
   - [MAGNETO](#magneto)
   - [MDMcleaner](#mdmcleaner)
   - [MetaWRAP](#metawrap)
-  - [](#)
+- [MSR](#msr) Microbial Source Tracking
+- [compositional](#compositional)
 - [](#)
 
 ----------
@@ -102,6 +103,179 @@ https://kazumaxneo.hatenablog.com/entry/2022/05/04/131449
 メタゲノムのシークエンシングリードを指定する。Qualityトリミングされて短くなったリードではなく生のリードを使うことが推奨されている。
 
 ----------
+## MSR
+Microbial Source Tracking
+
+### 2024-06-28
+https://pubmed.ncbi.nlm.nih.gov/38940128/
+Bioinformatics
+. 2024 Jun 28;40(Suppl 1):i68-i78. doi: 10.1093/bioinformatics/btae227.
+Towards more accurate microbial source tracking via non-negative matrix factorization (NMF)
+Ziyi Huang 1, Dehan Cai 1, Yanni Sun 1
+https://academic.oup.com/bioinformatics/article/40/Supplement_1/i68/7700851
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11256951/
+
+### 2020-07-23
+https://pubmed.ncbi.nlm.nih.gov/32702000/
+PLoS One
+. 2020 Jul 23;15(7):e0236082. doi: 10.1371/journal.pone.0236082. eCollection 2020.
+Microbial community dissimilarity for source tracking with application in forensic studies
+Kyle M Carter 1, Meng Lu 1, Qianwen Luo 2, Hongmei Jiang 3, Lingling An 1 2 4
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236082
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7377425/
+https://github.com/anlingUA/RAD
+
+### 2024-06-28
+https://pubmed.ncbi.nlm.nih.gov/38940128/
+Bioinformatics
+. 2024 Jun 28;40(Suppl 1):i68-i78. doi: 10.1093/bioinformatics/btae227.
+Towards more accurate microbial source tracking via non-negative matrix factorization (NMF)
+Ziyi Huang 1, Dehan Cai 1, Yanni Sun 1
+https://academic.oup.com/bioinformatics/article/40/Supplement_1/i68/7700851
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11256951/
+
+### 2023-01-05
+https://pubmed.ncbi.nlm.nih.gov/38868341/
+Imeta
+. 2023 Jan 5;2(1):e75. doi: 10.1002/imt2.75. eCollection 2023 Feb.
+Ecological dynamics imposes fundamental challenges in community-based microbial source tracking
+Xu-Wen Wang 1, Lu Wu 2, Lei Dai 2 3, Xiaole Yin 4, Tong Zhang 4, Scott T Weiss 1, Yang-Yu Liu 1 5
+https://onlinelibrary.wiley.com/doi/full/10.1002/imt2.75
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10989786/
+Both SourceTracker and FEAST have shown promising performance in synthetic datasets and offered biologically meaningful interpretations when applied to real datasets under certain contexts.
+
+### 2022-10-26
+https://pubmed.ncbi.nlm.nih.gov/36047699/
+mSystems
+. 2022 Oct 26;7(5):e0099521. doi: 10.1128/msystems.00995-21. Epub 2022 Sep 1.
+STENSL: Microbial Source Tracking with ENvironment SeLection
+Ulzee An # 1, Liat Shenhav # 2, Christine A Olson # 3, Elaine Y Hsiao # 3, Eran Halperin # 1 4 5 6, Sriram Sankararaman # 1 4 5
+https://journals.asm.org/doi/10.1128/msystems.00995-21
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9599664/
+We use simulations to compare the accuracy of STENSL to FEAST, SourceTracker2, and RAD, methods previously suggested for microbial source tracking.
+
+### 2020-07-23
+https://pubmed.ncbi.nlm.nih.gov/32702000/
+PLoS One
+. 2020 Jul 23;15(7):e0236082. doi: 10.1371/journal.pone.0236082. eCollection 2020.
+Microbial community dissimilarity for source tracking with application in forensic studies
+Kyle M Carter 1, Meng Lu 1, Qianwen Luo 2, Hongmei Jiang 3, Lingling An 1 2 4
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236082
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7377425/
+https://github.com/anlingUA/RAD
+
+### 2018-06-06
+https://pubmed.ncbi.nlm.nih.gov/29874232/
+PLoS Comput Biol. 2018 Jun 6;14(6):e1006143. doi: 10.1371/journal.pcbi.1006143. eCollection 2018 Jun.
+Latent environment allocation of microbial community data
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006143
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6005635/
+LEA (Latent Environment Allocation)
+https://github.com/haruosuz/bioinfo/blob/main/2022/CaseStudy.md#lea
+
+----------
+## Compositional
+
+### 2025-12-31
+https://pubmed.ncbi.nlm.nih.gov/41328030/
+Gut Microbes
+. 2025 Dec 31;17(1):2590841. doi: 10.1080/19490976.2025.2590841. Epub 2025 Dec 2.
+Impact of data compositionality on the detection of microbiota responses
+Brandon Hickman 1, Katri Korpela 1 2
+https://www.tandfonline.com/doi/10.1080/19490976.2025.2590841
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12674323/
+
+### 2025-02-17
+Commonly used compositional data analysis implementations are not advantageous in microbial differential abundance analyses benchmarked against biological ground truth
+Samuel D. Gamboa-Tuz, Marcel Ramos, Eric Franzosa, Curtis Huttenhower, Nicola Segata, Sehyun Oh, Levi Waldron
+bioRxiv 2025.02.13.638109; doi: https://doi.org/10.1101/2025.02.13.638109
+This article is a preprint and has not been certified by peer review [what does this mean?].
+https://www.biorxiv.org/content/10.1101/2025.02.13.638109v1.full
+LEfSe (implemented as the lefser package (version 1.14.0))
+
+### 2017-11-15
+https://pubmed.ncbi.nlm.nih.gov/29187837/
+Review Front Microbiol
+. 2017 Nov 15:8:2224. doi: 10.3389/fmicb.2017.02224. eCollection 2017.
+Microbiome Datasets Are Compositional: And This Is Not Optional
+Gregory B Gloor 1, Jean M Macklaim 1, Vera Pawlowsky-Glahn 2, Juan J Egozcue 3
+https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2017.02224/full
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5695134/
+
+https://www.microbe.net/2017/11/15/nice-title-nice-paper-microbiome-datasets-are-compositional-and-this-is-not-optional/
+Nice title, nice paper: Microbiome Datasets Are Compositional: And This Is Not Optional  – microBEnet: the microbiology of the Built Environment network
+
+### book_video_
+
+2023-05-16
+https://link.springer.com/chapter/10.1007/978-3-031-21391-5_14
+Bioinformatic and Statistical Analysis of Microbiome Data: From Raw Sequences to Advanced Modeling with QIIME 2 and R | 
+Compositional Analysis of Microbiome Data
+Yinglin Xia, Jun Sun
+Pages 491-556
+https://link.springer.com/chapter/10.1007/978-3-031-21391-5_14
+
+2021-04-24
+https://link.springer.com/book/10.1007/978-3-030-73351-3
+Statistical Analysis of Microbiome Data | 
+the inherently compositional nature of the data;
+
+Joint Models for Repeatedly Measured Compositional and Normally Distributed Outcomes
+Ivonne Martin, Hae-Won Uh, Jeanine Houwing-Duistermaat
+Pages 131-173
+https://link.springer.com/chapter/10.1007/978-3-030-73351-3_6
+
+Networks for Compositional Data
+Jing Ma, Kun Yue, Ali Shojaie
+Pages 311-336
+https://link.springer.com/chapter/10.1007/978-3-030-73351-3_13
+
+
+2018-10-07
+https://link.springer.com/book/10.1007/978-981-13-1534-3
+Statistical Analysis of Microbiome Data with R | 
+Compositional Analysis of Microbiome Data
+Yinglin Xia, Jun Sun, Ding-Geng Chen
+Pages 331-393
+https://link.springer.com/chapter/10.1007/978-981-13-1534-3_10
+
+2016/04/02
+https://www.youtube.com/watch?v=X60nFYpLWRs&list=PLOPiWVjg6aTzsA53N19YqJQeZpSCH9QPc&index=21
+Microbiome Discovery 19: Compositionality
+Dan Knights
+
+
+----------
+
+
+
+
+----------
+### kazumaxneo
+
+http://kazumaxneo.hatenablog.com/archive/category/metagenome
+metagenome カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
+メタゲノム解析ツール - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
+メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
+
+----------
+
+## MAG
+Metagenome Assembled Genome (MAG)
+
+https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
+DDBJ Qualifier key
+metagenome_source
+定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
+
+----------
+
+
+----------
 
 ### 2025-09-26
 ### MetaCompass
@@ -128,32 +302,6 @@ https://arxiv.org/abs/2403.01578
 
 https://kazumaxneo.hatenablog.com/entry/2018/05/25/200236
 メタゲノムのリファレンスガイドアセンブリを行う MetaCompass - macでインフォマティクス
-
-----------
-### kazumaxneo
-
-http://kazumaxneo.hatenablog.com/archive/category/metagenome
-metagenome カテゴリーの記事一覧 - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2017/05/22/164017
-メタゲノム解析ツール - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2019/02/15/073000
-メタゲノムのアセンブリcontig.fastaに精度の高い系統情報をアサインするCATと、binned.fastaに精度の高い系統情報をアサインするBAT - macでインフォマティクス
-
-
-
-----------
-
-## MAG
-Metagenome Assembled Genome (MAG)
-
-https://www.ddbj.nig.ac.jp/ddbj/qualifiers.html
-DDBJ Qualifier key
-metagenome_source
-定義	Metagenome Assembled Genome (MAG) として得られた配列、すなわち、metagenome から単一 taxon として assemble された場合に、その由来となった metagenome を記載します。
-
-----------
 
 
 ----------
@@ -483,7 +631,10 @@ https://kazumaxneo.hatenablog.com/entry/2019/01/30/073000
 
 ## updates
 
-### 2022
+## 2025
+
+
+## 2022
 
 ### 2022-11-28
 
@@ -665,9 +816,6 @@ Oulas A1, Pavloudi C2, Polymenakou P1, Pavlopoulos GA3, Papanikolaou N3, Kotoula
 
 
 ### 2017
-
-https://www.microbe.net/2017/11/15/nice-title-nice-paper-microbiome-datasets-are-compositional-and-this-is-not-optional/
-Nice title, nice paper: Microbiome Datasets Are Compositional: And This Is Not Optional  – microBEnet: the microbiology of the Built Environment network
 
 1:39 PM - 18 Dec 2017
 https://twitter.com/Tyu_Shi/status/942826707022520320
@@ -1866,14 +2014,6 @@ PhyloRelief is implemented in Python (http://www.python.org), and requires Pytho
 ## LEfSe
 linear discriminant analysis (LDA) effect size (LEfSe) 
 線形判別分析（LDA）効果量（LEfSe）
-
-### 2025-02-17
-Commonly used compositional data analysis implementations are not advantageous in microbial differential abundance analyses benchmarked against biological ground truth
-Samuel D. Gamboa-Tuz, Marcel Ramos, Eric Franzosa, Curtis Huttenhower, Nicola Segata, Sehyun Oh, Levi Waldron
-bioRxiv 2025.02.13.638109; doi: https://doi.org/10.1101/2025.02.13.638109
-This article is a preprint and has not been certified by peer review [what does this mean?].
-https://www.biorxiv.org/content/10.1101/2025.02.13.638109v1.full
-https://www.biorxiv.org/content/10.1101/2025.02.13.638109v1.full.pdf
 
 ### lefser
 ### 2024-11-28
