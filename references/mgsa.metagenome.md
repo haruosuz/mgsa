@@ -63,7 +63,7 @@
   - [MAGNETO](#magneto)
   - [MDMcleaner](#mdmcleaner)
   - [MetaWRAP](#metawrap)
-- [MSR](#msr) Microbial Source Tracking
+- [mst](#mst) Microbial Source Tracking
 - [compositional](#compositional)
 - [](#)
 
@@ -103,7 +103,7 @@ https://kazumaxneo.hatenablog.com/entry/2022/05/04/131449
 メタゲノムのシークエンシングリードを指定する。Qualityトリミングされて短くなったリードではなく生のリードを使うことが推奨されている。
 
 ----------
-## MSR
+## mst
 Microbial Source Tracking
 
 ### 2024-06-28
