@@ -106,7 +106,8 @@ https://twitter.com/skato_jcm/status/1746697436234662105
 ----------
 ## japanese
 
-### 
+
+## 2023-03-06
 2023年3月6日（月）
 https://www.jsmrs.jp/ja/#jsmrs_sympo2023
 公益財団法人発酵研究所 学会・研究部会助成 駒形和男先生追悼公開シンポジウム
@@ -115,7 +116,7 @@ https://www.jsmrs.jp/ja/#jsmrs_sympo2023
 要旨集はこちら 
 https://www.jsmrs.jp/event/sympo2023/proceedings_hp.pdf
 
-### 
+## 2023-01-11
 2023 年 1 月 11 日
 日本ゲノム微生物学会ニュースレター No.26
 (PDF: 6.33 MB)
@@ -123,7 +124,7 @@ https://www.sgmj.org/pdf/newsletter/sgmj_no26.pdf
 ー原核生物　命名法　Q&A
 市川 夏子、伊藤 隆、岩崎 渉、玉木 秀幸、布浦 拓郎、ニュースレター編集委員
 
-### 
+## 2022
 2022 年 7 月 22 日
 日本ゲノム微生物学会ニュースレター No.25
 (PDF: 4.67 MB)
@@ -208,9 +209,6 @@ https://www.nature.com/articles/nmicrobiol201648
 
 ----------
 
-
-
-
 ----------
 ## updates
 
@@ -235,7 +233,6 @@ Roth E Conrad # 1, Catherine E Brink # 1, Tomeu Viver 2 3, Luis M Rodriguez-R 4,
 https://www.nature.com/articles/s41467-024-53787-0
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11568254/
 
-
 ## 2024-07-28
 
 12:48 PM · Jul 27, 2024
@@ -253,35 +250,10 @@ Borja Aldeguer-Riquelme 1, Roth E Conrad 1, Josefa Antón 2, Ramon Rossello-Mora
 https://x.com/BISMiS_/status/1792428966797848989
 Bergey's Intl. Society for Microbial Systematics on X: "If you missed the talks and discussion from #BISMiSLive on the proposal to integrate Candidatus into ICNP, watch them now at https://t.co/CtJKsr9d0A @ICSP_news @seq_code @jangidk_ #TaxonomyIsFun @mcm_aripune @CCUG_Sweden @Leibniz_DSMZ_en @LPSN_DSMZ @MicrobioSoc @ISMEJournal" / X
 
-## 2024-05
-
-Begin forwarded message:
-
-From: 日本微生物生態学会　事務局 <office@microbial-ecology.jp>
-Subject: SeqCodeに基づく命名規約について（続報）
-Date: May 24, 2024 at 14:54:43 JST
-
-日本微生物生態学会会員の皆様
-
-未培養系統群に関する命名規約について議論がなされているところですが、Bergey's International Society for Microbial Systematics (BISMiS)から意見が発信されています。会員皆様へご案内致します。
-
-BISMiS YouTube channel: https://www.youtube.com/watch?v=1ot1DR65Tbg&t=937s&authuser=0
-
-Begin forwarded message:
-
-From: 日本微生物生態学会　事務局 <office@microbial-ecology.jp>
-Subject: SeqCodeに基づく命名規約について
-Date: May 1, 2024 at 14:03:09 JST
-
-日本微生物生態学会会員の皆様
-
-未培養系統群に関する命名規約の対応について
-ICNPはISMEが進めるSeqCodeを認めてはおりませんが、未培養系統群へのCandidatus nameへの付与がなされ、
-https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.005821?crawler=true
-さらにこの提案を進める提案が今年に入って公表されました。
-https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006188
-現在、これに関する議論がSlack上で行われています（ICSP Slack channel: https://icnp-revision.slack.com ）
-一方で、この提案に反対する国際的な署名集めも行われております。
+2024/05/18
+https://www.youtube.com/watch?v=1ot1DR65Tbg
+BISMiS Live - 34th Session on Integration of Candidatus into ICNP Part 1/2
+34th session of BISMi
 
 ### 2024-01-16
 
