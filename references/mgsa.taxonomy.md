@@ -106,6 +106,37 @@ https://twitter.com/skato_jcm/status/1746697436234662105
 ----------
 ## japanese
 
+https://www.microbial-ecology.jp/?page_id=12548
+日本微生物生態学会 » 微生物命名法に関する課題検討委員会
+
+## 2025
+
+12 2月 2025
+https://www.microbial-ecology.jp/?p=12252
+日本微生物生態学会 » ISME SeqCode ならびにICSP対応WGの設置と参加者募集について
+
+## 2023
+
+2023 年 39 巻 2 号 p. 61-68
+https://www.jstage.jst.go.jp/article/microresys/39/2/39_61/_article/-char/ja
+総説
+アーキアの発見からSeqCodeにいたるまで
+─ゲノム情報と微生物分類の歴史を振り返る─
+布浦 拓郎
+https://www.jstage.jst.go.jp/article/microresys/39/2/39_61/_pdf/-char/ja
+はじめに
+|
+rRNA による分類の発見とその分類への適用の歴史
+|
+次世代シーケンサーの普及とゲノムの直接的な分類への適用
+|
+未培養微生物ゲノム解析の歴史
+1）rRNA 遺伝子配列の解析
+2）メタゲノム解析・1 細胞ゲノム解析（環境ゲノム解析）
+|
+ゲノム分類の未培養微生物への適用の提案
+1）アーキアにおける高次レベルの分類提案の歴史
+2）GTDB と SeqCode
 
 ## 2023-03-06
 2023年3月6日（月）
@@ -124,13 +155,23 @@ https://www.sgmj.org/pdf/newsletter/sgmj_no26.pdf
 ー原核生物　命名法　Q&A
 市川 夏子、伊藤 隆、岩崎 渉、玉木 秀幸、布浦 拓郎、ニュースレター編集委員
 
-## 2022
+## 2022-07-22
 2022 年 7 月 22 日
 日本ゲノム微生物学会ニュースレター No.25
 (PDF: 4.67 MB)
 https://www.sgmj.org/pdf/newsletter/sgmj_no25.pdf
 ー原核生物 Prokaryote 命名法 Q&A
 市川 夏子、伊藤 隆、岩崎 渉、玉木 秀幸、布浦 拓郎、ニュースレター編集委員
+
+## 2022
+
+2022 年 33 巻 2 号 p. 77-85
+https://www.jstage.jst.go.jp/article/jslab/33/2/33_77/_article/-char/ja/
+総説
+データベースから探る乳酸菌の多様性
+谷澤 靖洋
+
+42) Parks DH, Chuvochina M, Reeves PR, Beatson SA, Hugenholtz P. (2021) Reclassification of Shigella species as later heterotypic synonyms of Escherichia coli in the Genome Taxonomy Database. bioRxiv. doi: https://doi.org/10.1101/2021.09.22.461432
 
 ----------
 
@@ -279,7 +320,6 @@ An ANI gap within bacterial species that advances the definitions of intra-speci
 Luis M Rodriguez-R # 1, Roth E Conrad # 2, Tomeu Viver 3, Dorian J Feistel 2, Blake G Lindner 2, Stephanus N Venter 4, Luis H Orellana 5, Rudolf Amann 5, Ramon Rossello-Mora 3, Konstantinos T Konstantinidis 2
 https://journals.asm.org/doi/10.1128/mbio.02696-23
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10790751/
-
 Intermediate identity genotypes, for example, sharing 85%–95% ANI, when present, are generally ecologically differentiated and scarcer in abundance, and thus should probably be considered distinct species (6, 13, 14) rather than representing cultivation or other sampling biases (15). 
 
 ## 2023-01-04
@@ -295,13 +335,17 @@ We evaluated all complete genomes assigned to E. coli and its closest relatives 
 
 ## 2022
 
-2022 年 33 巻 2 号 p. 77-85
-https://www.jstage.jst.go.jp/article/jslab/33/2/33_77/_article/-char/ja/
-総説
-データベースから探る乳酸菌の多様性
-谷澤 靖洋
+## 2022-10
 
-42) Parks DH, Chuvochina M, Reeves PR, Beatson SA, Hugenholtz P. (2021) Reclassification of Shigella species as later heterotypic synonyms of Escherichia coli in the Genome Taxonomy Database. bioRxiv. doi: https://doi.org/10.1101/2021.09.22.461432
+https://pubmed.ncbi.nlm.nih.gov/36123442/
+Nat Microbiol
+. 2022 Oct;7(10):1702-1708. doi: 10.1038/s41564-022-01214-9. Epub 2022 Sep 19.
+SeqCode: a nomenclatural code for prokaryotes described from sequence data
+Brian P Hedlund 1, Maria Chuvochina 2, Philip Hugenholtz 2, Konstantinos T Konstantinidis 3, Alison E Murray 4, Marike Palmer 1, Donovan H Parks 2, Alexander J Probst 5, Anna-Louise Reysenbach 6, Luis M Rodriguez-R 7, Ramon Rossello-Mora 8, Iain C Sutcliffe 9, Stephanus N Venter 10, William B Whitman 11
+https://www.nature.com/articles/s41564-022-01214-9
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9519449/
+
+## 
 
 ## 2021-09-22
 
