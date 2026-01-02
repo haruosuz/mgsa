@@ -3,16 +3,20 @@
 ## Table of Contents
 - [people](#people)
 - [video](#video)
-- [updates](#updates)
+- [ToL](#tol) Tree of Life
 - [GTDB](#gtdb) Genome Taxonomy Database
+- [SeqCode](#SeqCode)
 - [PhyloCode](#phylocode) International Code of Phylogenetic Nomenclature（国際系統命名規約）
+- [updates](#updates)
 - [tag](#tag)
   - [folksonomy](#folksonomy)
-- [ToL](#tol) Tree of Life
 - [people](#people)
 - [japanese](#japanese)
 - [video](#video)
 - [](#)
+- [](#)
+- [](#)
+
 
 ----------
 
@@ -193,9 +197,6 @@ Microbiome Virtual International Forum
 Title of the presentation: Does genome contamination compromise the GTDB taxonomy?
 Speaker: Phil Hugenholtz
 
-----------
-
-
 
 ----------
 ## ToL
@@ -249,6 +250,236 @@ Laura A Hug 1, Brett J Baker 2, Karthik Anantharaman 1, Christopher T Brown 3, A
 https://www.nature.com/articles/nmicrobiol201648
 
 ----------
+## GTDB
+Genome Taxonomy Database
+
+https://x.com/ace_gtdb
+
+- https://gtdb.ecogenomic.org/
+- https://gtdb.ecogenomic.org/about
+Cite GTDB
+- https://gtdb.ecogenomic.org/downloads
+- https://data.gtdb.ecogenomic.org/
+- https://data.gtdb.ecogenomic.org/releases/
+- https://data.gtdb.ecogenomic.org/releases/latest/
+- https://data.gtdb.ecogenomic.org/releases/latest/genomic_files_reps/
+
+https://data.gtdb.ecogenomic.org/releases/latest/FILE_DESCRIPTIONS.txt
+```
+* bac120_<release>.tree
+    Bacterial reference tree inferred from the concatenation of 120 proteins and spanning the representative
+    genomes for each bacterial species cluster. This tree is used to curate the GTDB taxonomy. The provided
+    tree is in Newick format, decorated with the GTDB taxonomy, and contains non-parametric bootstrap support
+    values.
+
+* Files in genomic_files_reps are specific to GTDB species representatives:
+    * bac120_marker_genes_reps_<release>.tar.gz
+        Untrimmed and unaligned marker genes used in the concatenated alignment used to infer
+        the bacterial reference tree. Genomes without a marker gene indicate either multiple hits or 
+        no hits were found for that gene. Genes are provided as both nucleotide and amino acid
+        sequences. Trimmed and aligned hits can be found in bac120_msa_marker_genes_reps_<release>.tar.gz.
+
+    * bac120_msa_marker_genes_reps_<release>.tar.gz
+        Trimmed and aligned marker genes for GTDB representative for each of the 120 bacterial proteins.
+        
+    * bac120_msa_reps_<release>.faa.gz
+        Multiple sequence alignment used to infer the bacterial reference tree.
+```
+
+2025-10-22
+https://pubmed.ncbi.nlm.nih.gov/41123020/
+Nucleic Acids Res
+. 2025 Oct 22:gkaf1040. doi: 10.1093/nar/gkaf1040. Online ahead of print.
+GTDB release 10: a complete and systematic taxonomy for 715 230 bacterial and 17 245 archaeal genomes
+Donovan H Parks 1 2, Pierre-Alain Chaumeil 1 2, Aaron J Mussig 1, Christian Rinke 3, Maria Chuvochina 2 4, Philip Hugenholtz 1
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaf1040/8296754
+
+2024-05
+https://pubmed.ncbi.nlm.nih.gov/38809778/
+Microb Genom
+. 2024 May;10(5):001256. doi: 10.1099/mgen.0.001256.
+Putative genome contamination has minimal impact on the GTDB taxonomy
+Aaron J Mussig 1, Pierre-Alain Chaumeil 1, Maria Chuvochina 1, Christian Rinke 1 2, Donovan H Parks 1, Philip Hugenholtz 1
+https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001256#tab2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11261887/
+
+2022-11-30
+https://pubmed.ncbi.nlm.nih.gov/36218463/
+Bioinformatics
+. 2022 Nov 30;38(23):5315-5316. doi: 10.1093/bioinformatics/btac672.
+GTDB-Tk v2: memory friendly classification with the genome taxonomy database
+Pierre-Alain Chaumeil 1 2, Aaron J Mussig 1, Philip Hugenholtz 1, Donovan H Parks 1
+https://academic.oup.com/bioinformatics/article/38/23/5315/6758240?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9710552/
+
+2022-01-07
+https://pubmed.ncbi.nlm.nih.gov/34520557/
+Nucleic Acids Res
+. 2022 Jan 7;50(D1):D785-D794. doi: 10.1093/nar/gkab776.
+GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized and complete genome-based taxonomy
+Donovan H Parks 1, Maria Chuvochina 1, Christian Rinke 1, Aaron J Mussig 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
+https://academic.oup.com/nar/article/50/D1/D785/6370255
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728215/
+DATA AVAILABILITY
+The GTDB can be accessed at https://gtdb.ecogenomic.org/ and data files for each GTDB release are available from https://data.gtdb.ecogenomic.org/. Genomes comprising the GTDB are obtained from the NCBI Assembly database (www.ncbi.nlm.nih.gov/assembly). GTDB species clusters are updated using the Python code at https://github.com/Ecogenomics/gtdb-species-clusters which is made available under the GNU GPL v3.0.
+
+2019-11-15
+https://pubmed.ncbi.nlm.nih.gov/31730192/
+Bioinformatics
+. 2019 Nov 15;36(6):1925-1927. doi: 10.1093/bioinformatics/btz848. Online ahead of print.
+GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database
+Pierre-Alain Chaumeil 1, Aaron J Mussig 1, Philip Hugenholtz 1, Donovan H Parks 1
+https://academic.oup.com/bioinformatics/article/36/6/1925/5626182?login=false
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7703759/
+
+2018-11
+https://pubmed.ncbi.nlm.nih.gov/30148503/
+Nat Biotechnol
+. 2018 Nov;36(10):996-1004. doi: 10.1038/nbt.4229. Epub 2018 Aug 27.
+A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life
+Donovan H Parks 1, Maria Chuvochina 1, David W Waite 1, Christian Rinke 1, Adam Skarshewski 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
+https://www.nature.com/articles/nbt.4229
+
+relative evolutionary divergence (RED)
+
+Figure 1: Rank normalization through RED.
+
+https://kazumaxneo.hatenablog.com/entry/2022/04/13/025100
+GTDB-Tkのversion 2 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2019/10/29/143024
+GTDBのオンライン系統樹 AnnoTree - macでインフォマティクス
+
+7:30 AM · Oct 28, 2019
+https://twitter.com/kazumachack/status/1188583676772093952
+Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。
+https://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
+普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
+
+----------
+
+2024-01
+https://pubmed.ncbi.nlm.nih.gov/38180015/
+Int J Syst Evol Microbiol
+. 2024 Jan;74(1). doi: 10.1099/ijsem.0.006188.
+The best of both worlds: a proposal for further integration of Candidatus names into the International Code of Nomenclature of Prokaryotes
+David Arahal 1, Magne Bisgaard 2, Henrik Christensen 3, Dominique Clermont 4, Lenie Dijkshoorn 5, Birgitta Duim 6, Stefan Emler 7, Marian Figge 8, Markus Göker 9, Edward R B Moore 10, Alexandr Nemec 11 12, Niels Nørskov-Lauritsen 13, Ulrich Nübel 9 14 15, Stephen L W On 16, Peter Vandamme 17, Antonio Ventosa 18
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006188#tab2
+Such ambiguity is expected to result from the establishment of the ‘Code of Nomenclature of Prokaryotes Described from DNA Sequence Data’ (‘SeqCode’), which is in general and specific conflict with the ICNP and the ICN. 
+
+----------
+## SeqCode
+
+2024-01-08
+https://pubmed.ncbi.nlm.nih.gov/38896025/
+ISME J
+. 2024 Jan 8;18(1):wrae109. doi: 10.1093/ismejo/wrae109.
+SeqCode in the golden age of prokaryotic systematics
+Diego Javier Jiménez 1, Alexandre Soares Rosado 1
+https://academic.oup.com/ismej/article/18/1/wrae109/7696152?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11384910/
+The present article provides an independent view about the SeqCode,
+
+## 2024-11
+https://pubmed.ncbi.nlm.nih.gov/39305564/
+Syst Appl Microbiol
+. 2024 Nov;47(6):126554. doi: 10.1016/j.syapm.2024.126554. Epub 2024 Sep 19.
+Options and considerations for validation of prokaryotic names under the SeqCode
+Stephanus N Venter 1, Luis M Rodriguez-R 2, Maria Chuvochina 3, Marike Palmer 4, Philip Hugenholtz 3, Emma T Steenkamp 5
+https://www.sciencedirect.com/science/article/pii/S0723202024000687
+
+## 2024-02-07
+https://pubmed.ncbi.nlm.nih.gov/38827511/
+mLife
+. 2024 Feb 7;3(1):1-13. doi: 10.1002/mlf2.12092. eCollection 2024 Mar.
+Why and how to use the SeqCode
+William B Whitman 1, Maria Chuvochina 2, Brian P Hedlund 3, Konstantinos T Konstantinidis 4, Marike Palmer 5 6, Luis M Rodriguez-R 7, Iain Sutcliffe 8, Fengping Wang 9
+https://onlinelibrary.wiley.com/doi/full/10.1002/mlf2.12092
+PERSPECTIVE
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11139209/
+
+
+## 2023-07-21
+https://asm.org/articles/2023/july/seqcode-provides-a-path-to-name-uncultivated-proka
+SeqCode Provides a Path to Name Uncultivated Prokaryotes
+Brian P. Hedlund, Ph.D.
+William "Barny" Whitman, Ph.D.
+Published: July 21, 2023
+
+## 2022-10
+https://pubmed.ncbi.nlm.nih.gov/36123442/
+Nat Microbiol
+. 2022 Oct;7(10):1702-1708. doi: 10.1038/s41564-022-01214-9. Epub 2022 Sep 19.
+SeqCode: a nomenclatural code for prokaryotes described from sequence data
+Brian P Hedlund 1, Maria Chuvochina 2, Philip Hugenholtz 2, Konstantinos T Konstantinidis 3, Alison E Murray 4, Marike Palmer 1, Donovan H Parks 2, Alexander J Probst 5, Anna-Louise Reysenbach 6, Luis M Rodriguez-R 7, Ramon Rossello-Mora 8, Iain C Sutcliffe 9, Stephanus N Venter 10, William B Whitman 11
+11Department of Microbiology, University of Georgia, Athens, GA, USA. whitman@uga.edu.
+https://www.nature.com/articles/s41564-022-01214-9
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9519449/
+
+## 2022-09
+https://pubmed.ncbi.nlm.nih.gov/36049255/
+Review Syst Appl Microbiol
+. 2022 Sep;45(5):126305. doi: 10.1016/j.syapm.2022.126305. Epub 2022 Jul 20.
+Development of the SeqCode: A proposed nomenclatural code for uncultivated prokaryotes with DNA sequences as type
+William B Whitman 1, Maria Chuvochina 2, Brian P Hedlund 3, Philip Hugenholtz 2, Konstantinos T Konstantinidis 4, Alison E Murray 5, Marike Palmer 3, Donovan H Parks 2, Alexander J Probst 6, Anna-Louise Reysenbach 7, Luis M Rodriguez-R 8, Ramon Rossello-Mora 9, Iain Sutcliffe 10, Stephanus N Venter 11
+1Department of Microbiology, University of Georgia, Athens, GA, USA. Electronic address: whitman@uga.edu.
+https://www.sciencedirect.com/science/article/pii/S0723202022000121?via%3Dihub
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9489671/
+
+
+----------
+## PhyloCode
+
+http://phylonames.org/
+Welcome to the website of the
+International Society for Phylogenetic Nomenclature.
+
+The ISPN encourages the development and use of phylogenetic nomenclature and oversees the implementation of a code of rules to govern phylogenetic nomenclature — the PhyloCode.
+http://phylonames.org/code/
+
+https://ja.wikipedia.org/wiki/PhyloCode
+PhyloCode (ファイロコード) は、正式名称を International Code of Phylogenetic Nomenclature（国際系統命名規約）といい、系統発生に基づいた命名に関する規約である[1]。特にクレードの命名を規定することに主眼が置かれている。
+
+https://twitter.com/search?q=phylocode%20lang%3Aja&src=typed_query
+
+6:38 PM · Feb 4, 2024
+https://twitter.com/kaisekiriu/status/1754076889566859658
+カイセキリュウ on X: ""系統関係のみに基づく定義"／"系統関係以外の情報にも基づく定義"は良い線いってる気もするけど、じゃあPhyloCodeのいう"apomorphy modified crown clade"はどっちなんですか？みたいなところもある。" / X
+
+3:41 PM · Jan 26, 2021
+https://twitter.com/leeswijzer/status/1353956139587629058
+Minaka Nobuhiro 〈みなか食堂〉店主 on X: "［蒐書日誌］Philip D. Cantino and Kevin de Queiroz 2020. International Code of Phylogenetic Nomenclature (PhyloCode). CRC Press, Boca Raton. https://t.co/v432Uigndy ※序文40ページを読んだが，1990年の立ち上げ以来，ファイロコードがたどった “苦難の道” がしのばれる． https://t.co/TTNKjuol1x" / X
+
+続）先日の本屋B&Bでの夜噺でも言及したが，分類を系統に “従属” させようとするファイロコード派の野望は内外の抵抗にすり減ってきているような気がするんだけど．ワタクシが知っている1990年代初頭のファイロコード胎動期は既存のリンネ命名規約を置き換えようとする鼻息の荒さを感じた．
+
+続）そういえば，キャロル・ケスク・ユン［三中信宏・野中香方子訳］『自然を名づける：なぜ生物分類では直感と科学が衝突するのか 』 http://leeswijzer.org/files/NamingNature.html にも，ファイロコード派をめぐる抗争への言及があったな．
+
+続）「ファイロコードというプロジェクトは，ヘニックが主張した厳密な分岐学的な命名方法をすべての生物に当てはめようとする」（p. 321）；「真の問題点はファイロコードが分類学者による命名法に根本的な変更を迫っただけではなく，環世界センスへの配慮がいっさいなかった点にある」（p. 322）．
+
+
+2002 年 12 巻 p. 2-7
+https://www.jstage.jst.go.jp/article/taxa/12/0/12_KJ00003894952/_article/-char/ja/
+コミュニケーション媒体としてのタクソン名 : PhyloCodeの潮は引いたか?
+小島 純一
+https://www.jstage.jst.go.jp/article/taxa/12/0/12_KJ00003894952/_pdf/-char/ja
+
+2001 年 11 巻 p. 1-7
+https://www.jstage.jst.go.jp/article/taxa/11/0/11_KJ00003894894/_article/-char/ja/
+PhyloCodeと"伝統的"分類学
+小島 純一
+https://www.jstage.jst.go.jp/article/taxa/11/0/11_KJ00003894894/_pdf/-char/ja
+
+https://pubmed.ncbi.nlm.nih.gov/34892874/
+Cladistics
+. 2006 Apr;22(2):186-197. doi: 10.1111/j.1096-0031.2006.00097.x.
+The PhyloCode: a critical discussion of its theoretical foundation
+https://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2006.00097.x
+
+
+
+
+
+
 
 ----------
 ## updates
@@ -334,16 +565,6 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC9830988/
 We evaluated all complete genomes assigned to E. coli and its closest relatives according to the biological species concept (BSC), using evidence of reproductive isolation and gene flow (i.e., homologous recombination in the case of asexual bacteria) to ascertain species boundaries.
 
 ## 2022
-
-## 2022-10
-
-https://pubmed.ncbi.nlm.nih.gov/36123442/
-Nat Microbiol
-. 2022 Oct;7(10):1702-1708. doi: 10.1038/s41564-022-01214-9. Epub 2022 Sep 19.
-SeqCode: a nomenclatural code for prokaryotes described from sequence data
-Brian P Hedlund 1, Maria Chuvochina 2, Philip Hugenholtz 2, Konstantinos T Konstantinidis 3, Alison E Murray 4, Marike Palmer 1, Donovan H Parks 2, Alexander J Probst 5, Anna-Louise Reysenbach 6, Luis M Rodriguez-R 7, Ramon Rossello-Mora 8, Iain C Sutcliffe 9, Stephanus N Venter 10, William B Whitman 11
-https://www.nature.com/articles/s41564-022-01214-9
-https://pmc.ncbi.nlm.nih.gov/articles/PMC9519449/
 
 ## 
 
@@ -446,147 +667,9 @@ Nucleic Acids Res. 2015 Aug 18;43(14):6761-71. doi: 10.1093/nar/gkv657. Epub 201
 Microbial species delineation using whole genome sequences.
 Varghese NJ1, Mukherjee S1, Ivanova N1, Konstantinidis KT2, Mavrommatis K3, Kyrpides NC4, Pati A4.
 
-----------
-## gtdb
-Genome Taxonomy Database
-
-https://x.com/ace_gtdb
-
-- https://gtdb.ecogenomic.org/
-- https://gtdb.ecogenomic.org/about
-Cite GTDB
-- https://gtdb.ecogenomic.org/downloads
-- https://data.gtdb.ecogenomic.org/
-- https://data.gtdb.ecogenomic.org/releases/
-- https://data.gtdb.ecogenomic.org/releases/latest/
-- https://data.gtdb.ecogenomic.org/releases/latest/genomic_files_reps/
-
-https://data.gtdb.ecogenomic.org/releases/latest/FILE_DESCRIPTIONS.txt
-```
-* bac120_<release>.tree
-    Bacterial reference tree inferred from the concatenation of 120 proteins and spanning the representative
-    genomes for each bacterial species cluster. This tree is used to curate the GTDB taxonomy. The provided
-    tree is in Newick format, decorated with the GTDB taxonomy, and contains non-parametric bootstrap support
-    values.
-
-* Files in genomic_files_reps are specific to GTDB species representatives:
-    * bac120_marker_genes_reps_<release>.tar.gz
-        Untrimmed and unaligned marker genes used in the concatenated alignment used to infer
-        the bacterial reference tree. Genomes without a marker gene indicate either multiple hits or 
-        no hits were found for that gene. Genes are provided as both nucleotide and amino acid
-        sequences. Trimmed and aligned hits can be found in bac120_msa_marker_genes_reps_<release>.tar.gz.
-
-    * bac120_msa_marker_genes_reps_<release>.tar.gz
-        Trimmed and aligned marker genes for GTDB representative for each of the 120 bacterial proteins.
-        
-    * bac120_msa_reps_<release>.faa.gz
-        Multiple sequence alignment used to infer the bacterial reference tree.
-```
-
-https://pubmed.ncbi.nlm.nih.gov/41123020/
-Nucleic Acids Res
-. 2025 Oct 22:gkaf1040. doi: 10.1093/nar/gkaf1040. Online ahead of print.
-GTDB release 10: a complete and systematic taxonomy for 715 230 bacterial and 17 245 archaeal genomes
-Donovan H Parks 1 2, Pierre-Alain Chaumeil 1 2, Aaron J Mussig 1, Christian Rinke 3, Maria Chuvochina 2 4, Philip Hugenholtz 1
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaf1040/8296754
-
-https://pubmed.ncbi.nlm.nih.gov/36218463/
-Bioinformatics
-. 2022 Nov 30;38(23):5315-5316. doi: 10.1093/bioinformatics/btac672.
-GTDB-Tk v2: memory friendly classification with the genome taxonomy database
-Pierre-Alain Chaumeil 1 2, Aaron J Mussig 1, Philip Hugenholtz 1, Donovan H Parks 1
-https://academic.oup.com/bioinformatics/article/38/23/5315/6758240?login=false
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9710552/
-
-https://pubmed.ncbi.nlm.nih.gov/34520557/
-Nucleic Acids Res
-. 2022 Jan 7;50(D1):D785-D794. doi: 10.1093/nar/gkab776.
-GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized and complete genome-based taxonomy
-Donovan H Parks 1, Maria Chuvochina 1, Christian Rinke 1, Aaron J Mussig 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
-https://academic.oup.com/nar/article/50/D1/D785/6370255
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728215/
-DATA AVAILABILITY
-The GTDB can be accessed at https://gtdb.ecogenomic.org/ and data files for each GTDB release are available from https://data.gtdb.ecogenomic.org/. Genomes comprising the GTDB are obtained from the NCBI Assembly database (www.ncbi.nlm.nih.gov/assembly). GTDB species clusters are updated using the Python code at https://github.com/Ecogenomics/gtdb-species-clusters which is made available under the GNU GPL v3.0.
-
-https://pubmed.ncbi.nlm.nih.gov/31730192/
-Bioinformatics
-. 2019 Nov 15;36(6):1925-1927. doi: 10.1093/bioinformatics/btz848. Online ahead of print.
-GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database
-Pierre-Alain Chaumeil 1, Aaron J Mussig 1, Philip Hugenholtz 1, Donovan H Parks 1
-https://academic.oup.com/bioinformatics/article/36/6/1925/5626182?login=false
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7703759/
-
-2018-11
-https://pubmed.ncbi.nlm.nih.gov/30148503/
-Nat Biotechnol
-. 2018 Nov;36(10):996-1004. doi: 10.1038/nbt.4229. Epub 2018 Aug 27.
-A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life
-Donovan H Parks 1, Maria Chuvochina 1, David W Waite 1, Christian Rinke 1, Adam Skarshewski 1, Pierre-Alain Chaumeil 1, Philip Hugenholtz 1
-https://www.nature.com/articles/nbt.4229
-
-relative evolutionary divergence (RED)
-
-Figure 1: Rank normalization through RED.
-
-https://kazumaxneo.hatenablog.com/entry/2022/04/13/025100
-GTDB-Tkのversion 2 - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2019/10/29/143024
-GTDBのオンライン系統樹 AnnoTree - macでインフォマティクス
-
-7:30 AM · Oct 28, 2019
-https://twitter.com/kazumachack/status/1188583676772093952
-Kazuma Uesaka on Twitter: "従来の分類法ではなく、共通して存在する遺伝子群を元にしたバクテリア、アーキアの分類を提案するデータベースとツールの紹介です。ツールの方は既に複数のツールに組み込まれています。
-https://kazumaxneo.hatenablog.com/entry/2019/07/13/235653
-普遍的な single-copy proteinsに基づいてバクテリアとアーキアを分類するGenome Taxonomy Database (GTDB) とその分類ツール GTDB-Tk - macでインフォマティクス
-
-----------
-## PhyloCode
-
-http://phylonames.org/
-Welcome to the website of the
-International Society for Phylogenetic Nomenclature.
-
-The ISPN encourages the development and use of phylogenetic nomenclature and oversees the implementation of a code of rules to govern phylogenetic nomenclature — the PhyloCode.
-http://phylonames.org/code/
-
-https://ja.wikipedia.org/wiki/PhyloCode
-PhyloCode (ファイロコード) は、正式名称を International Code of Phylogenetic Nomenclature（国際系統命名規約）といい、系統発生に基づいた命名に関する規約である[1]。特にクレードの命名を規定することに主眼が置かれている。
-
-https://twitter.com/search?q=phylocode%20lang%3Aja&src=typed_query
-
-6:38 PM · Feb 4, 2024
-https://twitter.com/kaisekiriu/status/1754076889566859658
-カイセキリュウ on X: ""系統関係のみに基づく定義"／"系統関係以外の情報にも基づく定義"は良い線いってる気もするけど、じゃあPhyloCodeのいう"apomorphy modified crown clade"はどっちなんですか？みたいなところもある。" / X
-
-3:41 PM · Jan 26, 2021
-https://twitter.com/leeswijzer/status/1353956139587629058
-Minaka Nobuhiro 〈みなか食堂〉店主 on X: "［蒐書日誌］Philip D. Cantino and Kevin de Queiroz 2020. International Code of Phylogenetic Nomenclature (PhyloCode). CRC Press, Boca Raton. https://t.co/v432Uigndy ※序文40ページを読んだが，1990年の立ち上げ以来，ファイロコードがたどった “苦難の道” がしのばれる． https://t.co/TTNKjuol1x" / X
-
-続）先日の本屋B&Bでの夜噺でも言及したが，分類を系統に “従属” させようとするファイロコード派の野望は内外の抵抗にすり減ってきているような気がするんだけど．ワタクシが知っている1990年代初頭のファイロコード胎動期は既存のリンネ命名規約を置き換えようとする鼻息の荒さを感じた．
-
-続）そういえば，キャロル・ケスク・ユン［三中信宏・野中香方子訳］『自然を名づける：なぜ生物分類では直感と科学が衝突するのか 』 http://leeswijzer.org/files/NamingNature.html にも，ファイロコード派をめぐる抗争への言及があったな．
-
-続）「ファイロコードというプロジェクトは，ヘニックが主張した厳密な分岐学的な命名方法をすべての生物に当てはめようとする」（p. 321）；「真の問題点はファイロコードが分類学者による命名法に根本的な変更を迫っただけではなく，環世界センスへの配慮がいっさいなかった点にある」（p. 322）．
 
 
-2002 年 12 巻 p. 2-7
-https://www.jstage.jst.go.jp/article/taxa/12/0/12_KJ00003894952/_article/-char/ja/
-コミュニケーション媒体としてのタクソン名 : PhyloCodeの潮は引いたか?
-小島 純一
-https://www.jstage.jst.go.jp/article/taxa/12/0/12_KJ00003894952/_pdf/-char/ja
 
-2001 年 11 巻 p. 1-7
-https://www.jstage.jst.go.jp/article/taxa/11/0/11_KJ00003894894/_article/-char/ja/
-PhyloCodeと"伝統的"分類学
-小島 純一
-https://www.jstage.jst.go.jp/article/taxa/11/0/11_KJ00003894894/_pdf/-char/ja
-
-https://pubmed.ncbi.nlm.nih.gov/34892874/
-Cladistics
-. 2006 Apr;22(2):186-197. doi: 10.1111/j.1096-0031.2006.00097.x.
-The PhyloCode: a critical discussion of its theoretical foundation
-https://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2006.00097.x
 
 ----------
 ## tag
