@@ -31,9 +31,6 @@
   - [QUAST](#quast)
   - [CheckM](#checkm)
   - [BUSCO](#busco)
-- [ANI](#ani) Average Nucleotide Identity
-- [Mash](#mash)
-- [MinHash](#minhash)
 - [Genome alignment](#genome-alignment)
 - [lea](#lea)
 - [vitcomic](#vitcomic)
@@ -59,8 +56,188 @@
   - [source](#source) 分離源
   - [mediadb](#mediadb)
 - [](#)
+- [ANI](#ani) Average Nucleotide Identity
+- [Mash](#mash)
+- [MinHash](#minhash)
+- [](#)
 
 ----------
+
+
+
+----------
+## MinHash
+
+http://kazumaxneo.hatenablog.com/entry/2018/05/09/193021
+MinHashを使いfasta / fastqから生物種を高速推定する BBSketch - macでインフォマティクス
+
+http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
+Min HashによるJaccard係数の近似実験
+
+http://blog.createfield.com/entry/2015/12/24/120849
+Groongaでb Bit MinHashを使って高速に類似検索 - CreateField Blog
+
+http://yebisupress.dac.co.jp/2015/06/26/hivemall-minhash/
+HivemallでMinhash！〜似てる記事を探し出そう。〜 | DACエンジニアブログ：アドテクゑびす界
+
+https://developer.smartnews.com/blog/2013/08/05/efficient-similarity-estimation-using-b-bit-minhash/
+b-Bit MinHashによる高速かつ省スペースな類似度判定 - SmartNews Engineering Blog
+
+https://research.preferred.jp/2011/02/minhash/
+MinHashによる高速な類似検索 | Preferred Research
+
+----------
+## Mash
+
+https://github.com/marbl/mash
+Mash: fast genome and metagenome distance estimation using MinHash
+
+2016-06-20
+https://pubmed.ncbi.nlm.nih.gov/27323842/
+Genome Biol
+. 2016 Jun 20;17(1):132. doi: 10.1186/s13059-016-0997-x.
+Mash: fast genome and metagenome distance estimation using MinHash
+Brian D Ondov 1, Todd J Treangen 1, Páll Melsted 2, Adam B Mallonee 1, Nicholas H Bergman 1, Sergey Koren 3, Adam M Phillippy 4
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4915045/
+
+9:58 AM - 21 Jun 2016
+https://twitter.com/aphillippy/status/745254551947714561
+Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
+
+https://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
+MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
+
+### MashMap
+https://github.com/marbl/MashMap
+
+https://www.ncbi.nlm.nih.gov/pubmed/30423094
+Bioinformatics. 2018 Sep 1;34(17):i748-i756. doi: 10.1093/bioinformatics/bty597.
+A fast adaptive algorithm for computing whole-genome homology maps.
+Jain C1,2, Koren S2, Dilthey A2,3, Phillippy AM2, Aluru S1.
+
+http://kazumaxneo.hatenablog.com/entry/2018/06/19/194715
+MinHashを利用した長い配列（ゲノムやロングリード）のアライナー MashMap - macでインフォマティクス
+
+### Mash Screen
+
+2019-11-05
+https://pubmed.ncbi.nlm.nih.gov/31690338/
+Genome Biol
+. 2019 Nov 5;20(1):232. doi: 10.1186/s13059-019-1841-x.
+Mash Screen: high-throughput sequence containment estimation for genome discovery
+Brian D Ondov 1 2, Gabriel J Starrett 3, Anna Sappington 4, Aleksandra Kostic 5, Sergey Koren 6, Christopher B Buck 3, Adam M Phillippy 6
+https://link.springer.com/article/10.1186/s13059-019-1841-x
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6833257/
+
+https://twitter.com/aphillippy/status/1191818906257612800
+Adam Phillippy on Twitter: ""Mash Screen: High-throughput sequence containment estimation for genome discovery" is published! Two years after I blogged about it, and 8 months after the preprint. I thank @BrianOndov for his patience and the reviewers for some key corrections https://t.co/boAWvvpnn5"
+5:45 AM · Nov 6, 2019
+
+http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
+サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
+
+### fastANI
+https://github.com/ParBLiSS/FastANI
+
+2018-11-30
+https://pubmed.ncbi.nlm.nih.gov/30504855/
+Nat Commun
+. 2018 Nov 30;9(1):5114. doi: 10.1038/s41467-018-07641-9.
+High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries
+Chirag Jain 1 2, Luis M Rodriguez-R 3 4, Adam M Phillippy 2, Konstantinos T Konstantinidis 5 6, Srinivas Aluru 7 8
+https://www.nature.com/articles/s41467-018-07641-9
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6269478/
+
+https://twitter.com/WvSchaik/status/1069298727238713346
+Willem van Schaik on Twitter: "Spoiler: microbial species are a thing.… "
+1:34 PM - 2 Dec 2018
+https://twitter.com/aphillippy/status/1068497439617966080
+Adam Phillippy on Twitter: "Our latest: Are microbial species actually a thing? FastANI gives us a peek. More great work from @chirgjain. Great to see this published! https://t.co/2igLJex2rA"
+8:30 AM - 30 Nov 2018
+
+https://kazumaxneo.hatenablog.com/entry/2018/09/14/141442
+MinHashを使った高速なANI計算ツール fastANI - macでインフォマティクス
+
+----------
+## ANI
+
+https://img.jgi.doe.gov/docs/ANI.pdf
+Average Nucleotide Identity (ANI)
+
+https://en.wikipedia.org/wiki/Bacterial_genome
+The Average Nucleotide Identity method quantifies genetic distance between entire genomes by taking advantage of regions of about 10,000 bp. With enough data from genomes of one genus, algorithms are executed to categorize species. This has been done for the Pseudomonas avellanae species in 2013.[5]
+
+5:50 AM · Mar 21, 2019
+https://twitter.com/ChristianRinke/status/1108470780348649472
+Chris Rinke on Twitter: "NCBI will use average nucleotide identity (ANI) analysis to correct existing public records in GenBank. https://t.co/Qis6BSy2Y1"
+https://ncbiinsights.ncbi.nlm.nih.gov/2019/02/06/correct-existing-taxonomic-info-genbank-ani-analysis/amp/
+NCBI Insights : NCBI to correct existing taxonomic information on public GenBank records with average nucleotide identity analysis
+A paper in the International Journal of Systematic and Evolutionary Microbiology presents the method NCBI scientists used to review all prokaryotic genome assemblies in GenBank, as well as the current status of GenBank verifications and recent developments in confirming species assignments in new genome submissions.
+https://www.ncbi.nlm.nih.gov/pubmed/29792589
+Int J Syst Evol Microbiol. 2018 Jul;68(7):2386-2392. doi: 10.1099/ijsem.0.002809. Epub 2018 May 24.
+Using average nucleotide identity to improve taxonomic assignments in prokaryotic genomes at the NCBI.
+Ciufo S1, Kannan S1, Sharma S1, Badretdin A1, Clark K1, Turner S1, Brover S1, Schoch CL1, Kimchi A1, DiCuccio M1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6978984/
+Determining ANI cutoffs
+Initial surveys of ANI relationships between type assemblies supported the use of a 96 % ANI cutoff to define species boundaries.
+Table 2.
+Determination of the default cutoff of 96 %, based on current taxa for which we can determine both concordant and discordant ANI values
+Table 3.
+Exceptions to ANI cutoff values: for most taxonomic groups, the assembly is considered a match when the ANI value shows a 96 % identity
+
+Oct 13, 2017
+https://github.com/rprops/MetaG_analysis_workflow/wiki/13.-Compute-Average-Nucleotide-Identity-(ANI)
+13. Compute Average Nucleotide Identity (ANI)
+
+http://kazumaxneo.hatenablog.com/archive/category/ANI
+ANI カテゴリーの記事一覧 - macでインフォマティクス
+
+http://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
+gANIを計算するツール ANIcalculator - macでインフォマティクス
+- 微生物は数と多様性の両方で生命の樹木を支配しており、その自然分類を困難かつ重要なものにしている。動物では、種は一般に交配可能な生物群と定義されるが（biological species concept）、この定義は無性生物の集合体に直接適用することはできない。結果として、微生物分類学は、生物に関する遺伝子型、表現型および化学感受性の情報を統合し、利用可能なデータのコンセンサスに基づいて微生物種を描写する多相性のアプローチ（論文よりref.2,3）を採用する。
+- Whole-genome based Average Nucleotide Identity (gANI) は、KonstantinidisとTiedjeにより、2ゲノム間の類似性の尺度として提案された（ref.4）。
+
+http://kazumaxneo.hatenablog.com/entry/2018/09/10/201205
+ANItoolsをwebで実行できるANItools web - macでインフォマティクス
+
+https://www.tecsrg.co.jp/services/microbiological/other/average-nucleotide-identity/
+ANI 解析は、対象株（検体）と比較株のゲノム配列の類似度（ANI：相同値）をコンピュータ上で計算し、種の異同を判
+断します。ANI 値が95%以上であれば同種、95%未満であれば別種と判定します。DNA-DNA ハイブリッド形成試験とANI 解析には正の相関があり、DNA-DNA ハイブリッド形成試験における種の境界値「70%」は、ANI 値で「95%」に相当します（Goriset al. 2007）。
+
+https://www.nite.go.jp/nbrc/safety/risk_assessment.html
+微生物利用におけるリスク評価に関する技術情報の提供 | バイオテクノロジー | 製品評価技術基盤機構
+菌種の同定法　～ Average Nucleotide Identity （ANI）について～
+　急速な細菌ゲノム情報の蓄積を背景として、菌株間のゲノム配列の類似度をコンピューター上で計算し、簡便・迅速に菌種の同定を行う、Average Nucleotide Identity (ANI)法がDNA-DNA Hybridization (DDH)法にかわる方法として評価されてきています(Goris et al. 2007, IJSEM 57: 81; Richter and Rosselló-Móra 2009, PNAS 10: 105; 図1)。DDHにおける菌種判定の閾値である類似度70%は、ANIにおいて95-96%に相当すると報告されています。このことから、近年では、DDHの代替としてANIに基づく新種の提案が行われてきています(Baek et al. 2015, IJSEM 65: 504; Shahraki et al. 2015, IJSEM 65: 504)。
+
+![](https://www.nite.go.jp/data/000060544.png)
+
+https://katosei.jsbba.or.jp/view_html.php?aid=1007
+Kagaku to Seibutsu 56(7): 459-460 (2018)
+データベースから発見されたガセリ菌のサブグループ
+Published: 2018-06-20
+ただ，DDHや生化学試験は手間がかかるうえに，結果の判断も難しい．補足情報として16S rRNA遺伝子配列もよく使われるが，配列の保存度が高すぎる．配列が99％以上一致しても別種であることが少なくない．そこで最近脚光を浴びているのが，Average nucleotide identity（ANI）と呼ばれる全ゲノム配列に基づく指標である．この手法では，ゲノム全体を1,020 bpのフラグメントに分断し，配列検索アルゴリズムで30％以上一致するフラグメントの平均一致度を出す(2)．全ゲノムを使うので結果が偏りにくく，Multilocus sequencing analysis（MLSA）のように，利用する遺伝子配列を選別する必要もない．ゲノム情報さえあれば計算機上で簡単に実施できる点が画期的である．現在では公共データベースに多くのゲノム情報が蓄積されており，それらを再利用できる点でも利便性が高い．一般には，DDH 70％の一致度がANI 95～96％に相当するとされる．
+
+https://www.nite.go.jp/nbrc/cultures/others/nbrcnews/news_vol43.html#news43_3
+NBRCニュース No. 43（2017.2.1）
+　３．バイテク分析法（3）細菌の分類同定における全ゲノム配列の利用
+　現在、OGRIで利用されている手法として、ゲノム配列の相同性をコンピューター上で解
+析するin silico DDH法があります。その中でも、2つのゲノム配列上のオーソログな領域
+における相同値の平均値を計算する方法であるANI（Average Nucleotide Identity）が最
+も利用されており、ANI値とDDH相同値には高い相関が確認されています(4)。
+
+https://www.ncbi.nlm.nih.gov/pubmed/17220447
+Int J Syst Evol Microbiol. 2007 Jan;57(Pt 1):81-91.
+DNA-DNA hybridization values and their relationship to whole-genome sequence similarities.
+Goris J1, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15701695
+Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2567-72. Epub 2005 Feb 8.
+Genomic insights that advance the species definition for prokaryotes.
+Konstantinidis KT1, Tiedje JM.
+
+
+
 
 
 ----------
@@ -721,13 +898,14 @@ Community- and subspecies-level in situ growth rate inference
 Growth Rate InDex (GRiD), a growth rate estimation method based on coverage ratios between ori and ter regions [28], was used to infer bacterial growth within the public transit air community.
 
 ### 2020-02
+
 https://pubmed.ncbi.nlm.nih.gov/31712737/
 ISME J
 . 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
 Unlinked rRNA genes are widespread among bacteria and archaea
 Tess E Brewer 1 2, Mads Albertsen 3, Arwyn Edwards 4, Rasmus H Kirkegaard 3, Eduardo P C Rocha 5, Noah Fierer 6 7
 https://www.nature.com/articles/s41396-019-0552-3
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976660/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6976660/
 To determine if taxa with unlinked rRNA genes have a lower predicted growth rate, we calculated the codon usage proxy ΔENC′ [33, 34], which provides an estimate of minimum generation times [35].
 
 Fig. 5
@@ -735,10 +913,28 @@ c Genomes with unlinked rRNA genes are predicted to have longer average generati
 
 We also calculated ΔENC′ for each complete genome—a measure of codon usage bias that is negatively correlated with minimum generation time in bacteria and archaea [35].
 
-
-2019年12月23日
+2019年12月23日に投稿
 https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
-【論文紹介】メタゲノムでやってよかったよね感が出た面白い結果 - Qiita
+【論文紹介】メタゲノムでやってよかったよね感が出た面白い結果 #メタゲノム - Qiita
+この記事は最終更新日から5年以上が経過しています。
+23日目
+メタゲノム Advent Calendar 2019
+
+codon usage proxy
+初めて聞いた。論文調べてみると、"codon usage bias (ΔENC’)" って出てきますね。
+
+Nearly Neutrality and the Evolution of Codon Usage Bias in Eukaryotic Genomes (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/)
+
+Fig.1Cに真核まで含めてプロットしたものがある。たしかに、generation timeの目安になりそう？
+
+https://www.ncbi.nlm.nih.gov/pubmed/18430960
+Genetics. 2008 Apr;178(4):2429-32. doi: 10.1534/genetics.107.086405.
+Nearly neutrality and the evolution of codon usage bias in eukaryotic genomes.
+Subramanian S1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/
+Figure 1.—
+Relationship between codon usage bias and generation time of eukaryotes. 
+
 
 ### 2020-01
 https://pubmed.ncbi.nlm.nih.gov/32939027/
@@ -762,26 +958,34 @@ Materials and methods
 Growth rate indices: codon usage bias and peak-to-trough ratio
 The maximum growth rate of each MAG was predicted using a customized growthpred v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m) and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
 
-#### 2019
+### 2019
 
-03 May 2019
+### 2019-09
+https://pubmed.ncbi.nlm.nih.gov/31053828/
+ISME J
+. 2019 Sep;13(9):2162-2172. doi: 10.1038/s41396-019-0422-z. Epub 2019 May 3.
+Predictive genomic traits for bacterial growth in culture versus actual growth in soil
+Junhui Li 1, Rebecca L Mau 1, Paul Dijkstra 1 2, Benjamin J Koch 1 2, Egbert Schwartz 1 2, Xiao-Jun Allen Liu 1 2, Ember M Morrissey 3, Steven J Blazewicz 4, Jennifer Pett-Ridge 4, Bram W Stone 1, Michaela Hayer 1, Bruce A Hungate 5 6
+https://academic.oup.com/ismej/article/13/9/2162/7475251
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6776108/
 https://www.nature.com/articles/s41396-019-0422-z
-Predictive genomic traits for bacterial growth in culture versus actual growth in soil | The ISME Journal
 
+### 
+1:40 PM - 26 Feb 2019
 https://twitter.com/MattagenOlmics/status/1100465734046498816
 Matt Olm on Twitter: "(https://t.co/uHTZlq8Mf7), secondary metabolite gene clusters using antismash (https://t.co/nQrEixuomA), BoNTs using BoNTbase (https://t.co/QEOvEieBC3), and metabolisms using KEGG modules (https://t.co/7d6QwbVOQI). Growth rates of bacteria were calculated using iRep (5/7)"
-1:40 PM - 26 Feb 2019
 
-https://twitter.com/_biogeek/status/1098660591009357824
-Dr Ashish Malik on Twitter: "Two cool papers just out shedding light on "extremely" slow growing bacteria: Extreme slow growth as alternative strategy to survive deep starvation https://t.co/EzNmWhQZAF Quantifying population-specific growth in benthic communities under low oxygen https://t.co/x5g2rycDy9"
-2:07 PM - 21 Feb 2019
+### 2019-02-21
+https://pubmed.ncbi.nlm.nih.gov/30792386/
+Nat Commun
+. 2019 Feb 21;10(1):890. doi: 10.1038/s41467-019-08719-8.
+Extreme slow growth as alternative strategy to survive deep starvation in bacteria
+Declan A Gray 1, Gaurav Dugar 2, Pamela Gamba 1, Henrik Strahl 1, Martijs J Jonker 3, Leendert W Hamoen 4
+https://www.nature.com/articles/s41467-019-08719-8
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6385201/
 
-非胞子形成状態の枯草菌が飢餓状態（純水中）で数カ月生存可能。様々なストレス（抗生物質）に耐性、定常期と異なるトランスクリプトーム・プロファイルを示す。倍加時間4日。一万倍希釈LB培地。低栄養増殖状態（oligotrophic growth state）と命名。
-https://www.ncbi.nlm.nih.gov/pubmed/30792386
-Nat Commun. 2019 Feb 21;10(1):890. doi: 10.1038/s41467-019-08719-8.
-Extreme slow growth as alternative strategy to survive deep starvation in bacteria.
-Gray DA1, Dugar G2, Gamba P1, Strahl H1, Jonker MJ3, Hamoen LW4.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6385201/
+### 
+
 
 https://twitter.com/MicrobiomDigest/status/1090641480144711681
 Elisabeth Bik on Twitter: "Metagenome – Inferred bacterial replication rates in cystic fibrosis airways https://t.co/9mBQ5cyllD Note: this sounds similar to the iRep algorithm developed by @BanfieldLab but paywalled, so not sure.… https://t.co/XIlg0NuO3O"
@@ -1574,160 +1778,10 @@ http://kazumaxneo.hatenablog.com/entry/2017/06/23/122010
 ![http://darlinglab.org/mauve/user-guide/screenshots.html](http://darlinglab.org/mauve/user-guide/rearrangements.jpg)
 
 
-----------
-## MinHash
 
-http://kazumaxneo.hatenablog.com/entry/2018/05/09/193021
-MinHashを使いfasta / fastqから生物種を高速推定する BBSketch - macでインフォマティクス
 
-http://camberbridge.github.io/2016/10/05/Min-HashによるJaccard係数の近似実験/
-Min HashによるJaccard係数の近似実験
 
-http://blog.createfield.com/entry/2015/12/24/120849
-Groongaでb Bit MinHashを使って高速に類似検索 - CreateField Blog
 
-http://yebisupress.dac.co.jp/2015/06/26/hivemall-minhash/
-HivemallでMinhash！〜似てる記事を探し出そう。〜 | DACエンジニアブログ：アドテクゑびす界
-
-https://developer.smartnews.com/blog/2013/08/05/efficient-similarity-estimation-using-b-bit-minhash/
-b-Bit MinHashによる高速かつ省スペースな類似度判定 - SmartNews Engineering Blog
-
-https://research.preferred.jp/2011/02/minhash/
-MinHashによる高速な類似検索 | Preferred Research
-
-## Mash
-
-https://github.com/marbl/mash
-Mash: fast genome and metagenome distance estimation using MinHash
-
-https://www.ncbi.nlm.nih.gov/pubmed/27323842
-Genome Biol. 2016 Jun 20;17(1):132. doi: 10.1186/s13059-016-0997-x.
-Mash: fast genome and metagenome distance estimation using MinHash.
-Ondov BD1, Treangen TJ1, Melsted P2, Mallonee AB1, Bergman NH1, Koren S3, Phillippy AM4.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/
-
-https://twitter.com/aphillippy/status/745254551947714561
-Adam Phillippy on Twitter: "Our latest "Mash: fast genome and metagenome distance estimation using MinHash" now published in @GenomeBiology https://t.co/KONRKwjlF8"
-9:58 AM - 21 Jun 2016
-
-http://kazumaxneo.hatenablog.com/entry/2018/05/11/180244
-MinHashを使い高速にゲノムを比較する MASH - macでインフォマティクス
-
-### MashMap
-https://github.com/marbl/MashMap
-
-https://www.ncbi.nlm.nih.gov/pubmed/30423094
-Bioinformatics. 2018 Sep 1;34(17):i748-i756. doi: 10.1093/bioinformatics/bty597.
-A fast adaptive algorithm for computing whole-genome homology maps.
-Jain C1,2, Koren S2, Dilthey A2,3, Phillippy AM2, Aluru S1.
-
-http://kazumaxneo.hatenablog.com/entry/2018/06/19/194715
-MinHashを利用した長い配列（ゲノムやロングリード）のアライナー MashMap - macでインフォマティクス
-
-### Mash Screen
-
-https://twitter.com/aphillippy/status/1191818906257612800
-Adam Phillippy on Twitter: ""Mash Screen: High-throughput sequence containment estimation for genome discovery" is published! Two years after I blogged about it, and 8 months after the preprint. I thank @BrianOndov for his patience and the reviewers for some key corrections https://t.co/boAWvvpnn5"
-5:45 AM · Nov 6, 2019
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1841-x
-
-http://kazumaxneo.hatenablog.com/entry/2019/03/06/073000
-サンプルのコンタミネーションを見積もる Mash Screen - macでインフォマティクス
-
-### fastANI
-https://github.com/ParBLiSS/FastANI
-
-https://www.ncbi.nlm.nih.gov/pubmed/30504855
-Nat Commun. 2018 Nov 30;9(1):5114. doi: 10.1038/s41467-018-07641-9.
-High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries.
-Jain C1,2, Rodriguez-R LM3,4, Phillippy AM2, Konstantinidis KT5,6, Aluru S7,8.
-
-https://twitter.com/WvSchaik/status/1069298727238713346
-Willem van Schaik on Twitter: "Spoiler: microbial species are a thing.… "
-1:34 PM - 2 Dec 2018
-https://twitter.com/aphillippy/status/1068497439617966080
-Adam Phillippy on Twitter: "Our latest: Are microbial species actually a thing? FastANI gives us a peek. More great work from @chirgjain. Great to see this published! https://t.co/2igLJex2rA"
-8:30 AM - 30 Nov 2018
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/14/141442
-MinHashを使った高速なANI計算ツール fastANI - macでインフォマティクス
-
-----------
-## ANI
-
-https://img.jgi.doe.gov/docs/ANI.pdf
-Average Nucleotide Identity (ANI)
-
-https://en.wikipedia.org/wiki/Bacterial_genome
-The Average Nucleotide Identity method quantifies genetic distance between entire genomes by taking advantage of regions of about 10,000 bp. With enough data from genomes of one genus, algorithms are executed to categorize species. This has been done for the Pseudomonas avellanae species in 2013.[5]
-
-5:50 AM · Mar 21, 2019
-https://twitter.com/ChristianRinke/status/1108470780348649472
-Chris Rinke on Twitter: "NCBI will use average nucleotide identity (ANI) analysis to correct existing public records in GenBank. https://t.co/Qis6BSy2Y1"
-https://ncbiinsights.ncbi.nlm.nih.gov/2019/02/06/correct-existing-taxonomic-info-genbank-ani-analysis/amp/
-NCBI Insights : NCBI to correct existing taxonomic information on public GenBank records with average nucleotide identity analysis
-A paper in the International Journal of Systematic and Evolutionary Microbiology presents the method NCBI scientists used to review all prokaryotic genome assemblies in GenBank, as well as the current status of GenBank verifications and recent developments in confirming species assignments in new genome submissions.
-https://www.ncbi.nlm.nih.gov/pubmed/29792589
-Int J Syst Evol Microbiol. 2018 Jul;68(7):2386-2392. doi: 10.1099/ijsem.0.002809. Epub 2018 May 24.
-Using average nucleotide identity to improve taxonomic assignments in prokaryotic genomes at the NCBI.
-Ciufo S1, Kannan S1, Sharma S1, Badretdin A1, Clark K1, Turner S1, Brover S1, Schoch CL1, Kimchi A1, DiCuccio M1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6978984/
-Determining ANI cutoffs
-Initial surveys of ANI relationships between type assemblies supported the use of a 96 % ANI cutoff to define species boundaries.
-Table 2.
-Determination of the default cutoff of 96 %, based on current taxa for which we can determine both concordant and discordant ANI values
-Table 3.
-Exceptions to ANI cutoff values: for most taxonomic groups, the assembly is considered a match when the ANI value shows a 96 % identity
-
-Oct 13, 2017
-https://github.com/rprops/MetaG_analysis_workflow/wiki/13.-Compute-Average-Nucleotide-Identity-(ANI)
-13. Compute Average Nucleotide Identity (ANI)
-
-http://kazumaxneo.hatenablog.com/archive/category/ANI
-ANI カテゴリーの記事一覧 - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
-gANIを計算するツール ANIcalculator - macでインフォマティクス
-- 微生物は数と多様性の両方で生命の樹木を支配しており、その自然分類を困難かつ重要なものにしている。動物では、種は一般に交配可能な生物群と定義されるが（biological species concept）、この定義は無性生物の集合体に直接適用することはできない。結果として、微生物分類学は、生物に関する遺伝子型、表現型および化学感受性の情報を統合し、利用可能なデータのコンセンサスに基づいて微生物種を描写する多相性のアプローチ（論文よりref.2,3）を採用する。
-- Whole-genome based Average Nucleotide Identity (gANI) は、KonstantinidisとTiedjeにより、2ゲノム間の類似性の尺度として提案された（ref.4）。
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/10/201205
-ANItoolsをwebで実行できるANItools web - macでインフォマティクス
-
-https://www.tecsrg.co.jp/services/microbiological/other/average-nucleotide-identity/
-ANI 解析は、対象株（検体）と比較株のゲノム配列の類似度（ANI：相同値）をコンピュータ上で計算し、種の異同を判
-断します。ANI 値が95%以上であれば同種、95%未満であれば別種と判定します。DNA-DNA ハイブリッド形成試験とANI 解析には正の相関があり、DNA-DNA ハイブリッド形成試験における種の境界値「70%」は、ANI 値で「95%」に相当します（Goriset al. 2007）。
-
-https://www.nite.go.jp/nbrc/safety/risk_assessment.html
-微生物利用におけるリスク評価に関する技術情報の提供 | バイオテクノロジー | 製品評価技術基盤機構
-菌種の同定法　～ Average Nucleotide Identity （ANI）について～
-　急速な細菌ゲノム情報の蓄積を背景として、菌株間のゲノム配列の類似度をコンピューター上で計算し、簡便・迅速に菌種の同定を行う、Average Nucleotide Identity (ANI)法がDNA-DNA Hybridization (DDH)法にかわる方法として評価されてきています(Goris et al. 2007, IJSEM 57: 81; Richter and Rosselló-Móra 2009, PNAS 10: 105; 図1)。DDHにおける菌種判定の閾値である類似度70%は、ANIにおいて95-96%に相当すると報告されています。このことから、近年では、DDHの代替としてANIに基づく新種の提案が行われてきています(Baek et al. 2015, IJSEM 65: 504; Shahraki et al. 2015, IJSEM 65: 504)。
-
-![](https://www.nite.go.jp/data/000060544.png)
-
-https://katosei.jsbba.or.jp/view_html.php?aid=1007
-Kagaku to Seibutsu 56(7): 459-460 (2018)
-データベースから発見されたガセリ菌のサブグループ
-Published: 2018-06-20
-ただ，DDHや生化学試験は手間がかかるうえに，結果の判断も難しい．補足情報として16S rRNA遺伝子配列もよく使われるが，配列の保存度が高すぎる．配列が99％以上一致しても別種であることが少なくない．そこで最近脚光を浴びているのが，Average nucleotide identity（ANI）と呼ばれる全ゲノム配列に基づく指標である．この手法では，ゲノム全体を1,020 bpのフラグメントに分断し，配列検索アルゴリズムで30％以上一致するフラグメントの平均一致度を出す(2)．全ゲノムを使うので結果が偏りにくく，Multilocus sequencing analysis（MLSA）のように，利用する遺伝子配列を選別する必要もない．ゲノム情報さえあれば計算機上で簡単に実施できる点が画期的である．現在では公共データベースに多くのゲノム情報が蓄積されており，それらを再利用できる点でも利便性が高い．一般には，DDH 70％の一致度がANI 95～96％に相当するとされる．
-
-https://www.nite.go.jp/nbrc/cultures/others/nbrcnews/news_vol43.html#news43_3
-NBRCニュース No. 43（2017.2.1）
-　３．バイテク分析法（3）細菌の分類同定における全ゲノム配列の利用
-　現在、OGRIで利用されている手法として、ゲノム配列の相同性をコンピューター上で解
-析するin silico DDH法があります。その中でも、2つのゲノム配列上のオーソログな領域
-における相同値の平均値を計算する方法であるANI（Average Nucleotide Identity）が最
-も利用されており、ANI値とDDH相同値には高い相関が確認されています(4)。
-
-https://www.ncbi.nlm.nih.gov/pubmed/17220447
-Int J Syst Evol Microbiol. 2007 Jan;57(Pt 1):81-91.
-DNA-DNA hybridization values and their relationship to whole-genome sequence similarities.
-Goris J1, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15701695
-Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2567-72. Epub 2005 Feb 8.
-Genomic insights that advance the species definition for prokaryotes.
-Konstantinidis KT1, Tiedje JM.
 
 ----------
 
