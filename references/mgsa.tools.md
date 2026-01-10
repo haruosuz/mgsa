@@ -159,6 +159,38 @@ Adam Phillippy on Twitter: "Our latest: Are microbial species actually a thing? 
 https://kazumaxneo.hatenablog.com/entry/2018/09/14/141442
 MinHashを使った高速なANI計算ツール fastANI - macでインフォマティクス
 
+
+----------
+
+https://kazumaxneo.hatenablog.com/archive/category/ANI
+ANI カテゴリーの記事一覧 - macでインフォマティクス
+
+
+https://kazumaxneo.hatenablog.com/entry/2024/03/04/052056
+ANIについて - macでインフォマティクス
+|
+Pyaniは、ANI比較を総当たりで行い、階層的クラスタリングしたヒートマップで視覚化する人気のpython実装です（pyani、star数175）。Pyaniを使用したと思われる論文はよく見ます。
+|
+
+https://kazumaxneo.hatenablog.com/entry/2019/02/11/073000
+ゲノムをダウンロードして総当たりANI比較を実行する pyani - macでインフォマティクス
+
+
+
+https://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
+gANIを計算するツール ANIcalculator - macでインフォマティクス
+|
+微生物は数と多様性の両方で生命の樹木を支配しており、その自然分類を困難かつ重要なものにしている。動物では、種は一般に交配可能な生物群と定義されるが（biological species concept）、この定義は無性生物の集合体に直接適用することはできない。結果として、微生物分類学は、生物に関する遺伝子型、表現型および化学感受性の情報を統合し、利用可能なデータのコンセンサスに基づいて微生物種を描写する多相性のアプローチ（論文よりref.2,3）を採用する。
+|
+Whole-genome based Average Nucleotide Identity (gANI) は、KonstantinidisとTiedjeにより、2ゲノム間の類似性の尺度として提案された（ref.4）。
+
+https://kazumaxneo.hatenablog.com/entry/2018/09/10/201205
+ANItoolsをwebで実行できるANItools web - macでインフォマティクス
+
+----------
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.taxonomy.md
+
 ----------
 ## ANI
 
@@ -167,6 +199,18 @@ Average Nucleotide Identity (ANI)
 
 https://en.wikipedia.org/wiki/Bacterial_genome
 The Average Nucleotide Identity method quantifies genetic distance between entire genomes by taking advantage of regions of about 10,000 bp. With enough data from genomes of one genus, algorithms are executed to categorize species. This has been done for the Pseudomonas avellanae species in 2013.[5]
+
+### 2024-01-16
+
+https://pubmed.ncbi.nlm.nih.gov/38085031/
+mBio
+. 2024 Jan 16;15(1):e0269623. doi: 10.1128/mbio.02696-23. Epub 2023 Dec 12.
+An ANI gap within bacterial species that advances the definitions of intra-species units
+Luis M Rodriguez-R # 1, Roth E Conrad # 2, Tomeu Viver 3, Dorian J Feistel 2, Blake G Lindner 2, Stephanus N Venter 4, Luis H Orellana 5, Rudolf Amann 5, Ramon Rossello-Mora 3, Konstantinos T Konstantinidis 2
+https://journals.asm.org/doi/10.1128/mbio.02696-23
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10790751/
+
+### 2019
 
 5:50 AM · Mar 21, 2019
 https://twitter.com/ChristianRinke/status/1108470780348649472
@@ -189,54 +233,6 @@ Exceptions to ANI cutoff values: for most taxonomic groups, the assembly is cons
 Oct 13, 2017
 https://github.com/rprops/MetaG_analysis_workflow/wiki/13.-Compute-Average-Nucleotide-Identity-(ANI)
 13. Compute Average Nucleotide Identity (ANI)
-
-http://kazumaxneo.hatenablog.com/archive/category/ANI
-ANI カテゴリーの記事一覧 - macでインフォマティクス
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/11/234212
-gANIを計算するツール ANIcalculator - macでインフォマティクス
-- 微生物は数と多様性の両方で生命の樹木を支配しており、その自然分類を困難かつ重要なものにしている。動物では、種は一般に交配可能な生物群と定義されるが（biological species concept）、この定義は無性生物の集合体に直接適用することはできない。結果として、微生物分類学は、生物に関する遺伝子型、表現型および化学感受性の情報を統合し、利用可能なデータのコンセンサスに基づいて微生物種を描写する多相性のアプローチ（論文よりref.2,3）を採用する。
-- Whole-genome based Average Nucleotide Identity (gANI) は、KonstantinidisとTiedjeにより、2ゲノム間の類似性の尺度として提案された（ref.4）。
-
-http://kazumaxneo.hatenablog.com/entry/2018/09/10/201205
-ANItoolsをwebで実行できるANItools web - macでインフォマティクス
-
-https://www.tecsrg.co.jp/services/microbiological/other/average-nucleotide-identity/
-ANI 解析は、対象株（検体）と比較株のゲノム配列の類似度（ANI：相同値）をコンピュータ上で計算し、種の異同を判
-断します。ANI 値が95%以上であれば同種、95%未満であれば別種と判定します。DNA-DNA ハイブリッド形成試験とANI 解析には正の相関があり、DNA-DNA ハイブリッド形成試験における種の境界値「70%」は、ANI 値で「95%」に相当します（Goriset al. 2007）。
-
-https://www.nite.go.jp/nbrc/safety/risk_assessment.html
-微生物利用におけるリスク評価に関する技術情報の提供 | バイオテクノロジー | 製品評価技術基盤機構
-菌種の同定法　～ Average Nucleotide Identity （ANI）について～
-　急速な細菌ゲノム情報の蓄積を背景として、菌株間のゲノム配列の類似度をコンピューター上で計算し、簡便・迅速に菌種の同定を行う、Average Nucleotide Identity (ANI)法がDNA-DNA Hybridization (DDH)法にかわる方法として評価されてきています(Goris et al. 2007, IJSEM 57: 81; Richter and Rosselló-Móra 2009, PNAS 10: 105; 図1)。DDHにおける菌種判定の閾値である類似度70%は、ANIにおいて95-96%に相当すると報告されています。このことから、近年では、DDHの代替としてANIに基づく新種の提案が行われてきています(Baek et al. 2015, IJSEM 65: 504; Shahraki et al. 2015, IJSEM 65: 504)。
-
-![](https://www.nite.go.jp/data/000060544.png)
-
-https://katosei.jsbba.or.jp/view_html.php?aid=1007
-Kagaku to Seibutsu 56(7): 459-460 (2018)
-データベースから発見されたガセリ菌のサブグループ
-Published: 2018-06-20
-ただ，DDHや生化学試験は手間がかかるうえに，結果の判断も難しい．補足情報として16S rRNA遺伝子配列もよく使われるが，配列の保存度が高すぎる．配列が99％以上一致しても別種であることが少なくない．そこで最近脚光を浴びているのが，Average nucleotide identity（ANI）と呼ばれる全ゲノム配列に基づく指標である．この手法では，ゲノム全体を1,020 bpのフラグメントに分断し，配列検索アルゴリズムで30％以上一致するフラグメントの平均一致度を出す(2)．全ゲノムを使うので結果が偏りにくく，Multilocus sequencing analysis（MLSA）のように，利用する遺伝子配列を選別する必要もない．ゲノム情報さえあれば計算機上で簡単に実施できる点が画期的である．現在では公共データベースに多くのゲノム情報が蓄積されており，それらを再利用できる点でも利便性が高い．一般には，DDH 70％の一致度がANI 95～96％に相当するとされる．
-
-https://www.nite.go.jp/nbrc/cultures/others/nbrcnews/news_vol43.html#news43_3
-NBRCニュース No. 43（2017.2.1）
-　３．バイテク分析法（3）細菌の分類同定における全ゲノム配列の利用
-　現在、OGRIで利用されている手法として、ゲノム配列の相同性をコンピューター上で解
-析するin silico DDH法があります。その中でも、2つのゲノム配列上のオーソログな領域
-における相同値の平均値を計算する方法であるANI（Average Nucleotide Identity）が最
-も利用されており、ANI値とDDH相同値には高い相関が確認されています(4)。
-
-https://www.ncbi.nlm.nih.gov/pubmed/17220447
-Int J Syst Evol Microbiol. 2007 Jan;57(Pt 1):81-91.
-DNA-DNA hybridization values and their relationship to whole-genome sequence similarities.
-Goris J1, Konstantinidis KT, Klappenbach JA, Coenye T, Vandamme P, Tiedje JM.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15701695
-Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2567-72. Epub 2005 Feb 8.
-Genomic insights that advance the species definition for prokaryotes.
-Konstantinidis KT1, Tiedje JM.
-
-
 
 
 
@@ -313,9 +309,6 @@ https://www.nig.ac.jp/nig/ja/research-infrastructure-collaboration/methods-lab
 optimum growth temperature
 最適増殖温度
 
-### 
-
-
 ### 2025-10-24
 https://pubmed.ncbi.nlm.nih.gov/41136894/
 BMC Genomics
@@ -324,6 +317,7 @@ Machine learning prediction of bacterial optimal growth temperature from protein
 Haida Liu # 1, Geyi Zhu # 1, Lijuan Chen 2, Hui Ye 3, Yunhua Zhang 4, Guomin Han 5 6
 https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12162-z
 https://pmc.ncbi.nlm.nih.gov/articles/PMC12553261/
+Predicting microbial physiological traits from genomes is a rapidly developing field. Various genomic features, such as codon usage [13], GC content [14], k-mer distributions [15], CRISPR-Cas content [16], and protein domain frequencies [17, 18], have been combined with multiple machine learning models (e.g., Random Forest, Support Vector Machines, Convolutional Neural Networks) and proven effective for predicting phenotypes like pH preference [19], oxygen requirements [20], growth rate (minimal doubling time) [13], and growth temperature [15]. For instance, tools based on codon usage bias, such as gRodon [13] and its improved hybrid version Phydon [21], can accurately estimate growth rates and have been used to predict this trait for as many as 111,349 microbial species.
 
 ### 
 
@@ -885,6 +879,15 @@ p.206: 自然界での増殖と生産の測定
 
 ### gRodon
 https://github.com/haruosuz/r4bioinfo/blob/master/R_codon/README.md#grodon
+
+### 2025-01-21
+https://pubmed.ncbi.nlm.nih.gov/39805015/
+Proc Natl Acad Sci U S A
+. 2025 Jan 21;122(3):e2413032122. doi: 10.1073/pnas.2413032122. Epub 2025 Jan 13.
+Codon bias, nucleotide selection, and genome size predict in situ bacterial growth rate and transcription in rewetted soil
+Peter F Chuckran 1, Katerina Estera-Molina 1 2, Alexa M Nicolas 1 3 4, Ella T Sieradzki 1 5, Paul Dijkstra 6, Mary K Firestone 1, Jennifer Pett-Ridge 2 7 8, Steven J Blazewicz 2
+https://www.pnas.org/doi/10.1073/pnas.2413032122
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11761963/
 
 ### 2021-05-26
 https://pubmed.ncbi.nlm.nih.gov/34039416/
