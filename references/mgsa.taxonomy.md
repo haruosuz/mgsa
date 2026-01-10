@@ -14,9 +14,6 @@
 - [japanese](#japanese)
 - [video](#video)
 - [](#)
-- [](#)
-- [](#)
-
 
 ----------
 
@@ -364,7 +361,7 @@ Int J Syst Evol Microbiol
 . 2024 Jan;74(1). doi: 10.1099/ijsem.0.006188.
 The best of both worlds: a proposal for further integration of Candidatus names into the International Code of Nomenclature of Prokaryotes
 David Arahal 1, Magne Bisgaard 2, Henrik Christensen 3, Dominique Clermont 4, Lenie Dijkshoorn 5, Birgitta Duim 6, Stefan Emler 7, Marian Figge 8, Markus Göker 9, Edward R B Moore 10, Alexandr Nemec 11 12, Niels Nørskov-Lauritsen 13, Ulrich Nübel 9 14 15, Stephen L W On 16, Peter Vandamme 17, Antonio Ventosa 18
-https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006188#tab2
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006188
 Such ambiguity is expected to result from the establishment of the ‘Code of Nomenclature of Prokaryotes Described from DNA Sequence Data’ (‘SeqCode’), which is in general and specific conflict with the ICNP and the ICN. 
 
 ----------
@@ -398,7 +395,6 @@ https://onlinelibrary.wiley.com/doi/full/10.1002/mlf2.12092
 PERSPECTIVE
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11139209/
 
-
 ## 2023-07-21
 https://asm.org/articles/2023/july/seqcode-provides-a-path-to-name-uncultivated-proka
 SeqCode Provides a Path to Name Uncultivated Prokaryotes
@@ -425,7 +421,6 @@ William B Whitman 1, Maria Chuvochina 2, Brian P Hedlund 3, Philip Hugenholtz 2,
 1Department of Microbiology, University of Georgia, Athens, GA, USA. Electronic address: whitman@uga.edu.
 https://www.sciencedirect.com/science/article/pii/S0723202022000121?via%3Dihub
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9489671/
-
 
 ----------
 ## PhyloCode
@@ -475,18 +470,14 @@ Cladistics
 The PhyloCode: a critical discussion of its theoretical foundation
 https://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2006.00097.x
 
-
-
-
-
-
-
 ----------
 ## updates
 
-
 ----------
+## 2025
+
 ## 2025-09
+
 https://pubmed.ncbi.nlm.nih.gov/40811873/
 Review Curr Opin Microbiol
 . 2025 Sep:87:102654. doi: 10.1016/j.mib.2025.102654. Epub 2025 Aug 13.
@@ -494,7 +485,26 @@ Investigating bacterial evolution in nature with metagenomics
 Abigayle Mr Simpson 1, Alexander B Chase 2, Alejandra Rodríguez-Verdugo 3, Jennifer Bh Martiny 3
 https://www.sciencedirect.com/science/article/pii/S1369527425000761
 
+Hereafter, we refer to this as a biological (or recombining) population.
+
+Hereafter, we refer to this definition as a metagenomic population. 
+
+Depending on the method, similarity of a metagenomic population may reach as low as 87.5% ANI [18], much more dissimilar than bacterial species [19]. Thus, a metagenomic population may encompass several biological populations with divergent evolutionary trajectories, if not several species (Figure 2).
+
+Figure 2. Terms for intraspecific diversity. 
+
+19
+M. Richter, R. Rosselló-Móra
+Shifting the genomic gold standard for the prokaryotic species definition
+Proc Natl Acad Sci USA, 106 (2009), pp. 19126-19131
+
+20
+F.M. Cohan
+Bacterial species and speciation
+Syst Biol, 50 (2001), pp. 513-524
+
 ----------
+## 2024
 
 ## 2024-11-15
 https://pubmed.ncbi.nlm.nih.gov/39548060/
@@ -504,6 +514,13 @@ Microbial species and intraspecies units exist and are maintained by ecological 
 Roth E Conrad # 1, Catherine E Brink # 1, Tomeu Viver 2 3, Luis M Rodriguez-R 4, Borja Aldeguer-Riquelme 1, Janet K Hatt 1, Stephanus N Venter 5, Ramon Rossello-Mora 6, Rudolf Amann 7, Konstantinos T Konstantinidis 8
 https://www.nature.com/articles/s41467-024-53787-0
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11568254/
+To better describe and model these diversity patterns, it is imperative to understand what mechanisms underlie the creation and maintenance of sequence-discrete species and genomovars; that is, how members of a sequence-discrete unit cohere together. Several competing hypotheses based on functional differentiation (ecological species), recombination frequency (recombinogenic species), or variations of these hypotheses, have been advanced to explain the 95% ANI species gap (or the newer 99.5% ANI gap within species) [reviewed in refs. 4,17,18]. 
+
+4.Konstantinidis, K. T. Sequence‐discrete species for Prokaryotes and other microbes: a historical perspective and pending issues. mLife10.1002/mlf2.12088 (2023). [DOI] [PMC free article] [PubMed]
+
+17.Shapiro, B. J. & Polz, M. F. Microbial speciation. Cold Spring Harb. Perspect. Biol.7, a018143 (2015). [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+18.Fraser, C., Hanage, W. P. & Spratt, B. G. Recombination and the nature of bacterial speciation. Science315, 476–480 (2007). [DOI] [PMC free article] [PubMed] [Google Scholar]
 
 ## 2024-07-28
 
@@ -551,7 +568,25 @@ An ANI gap within bacterial species that advances the definitions of intra-speci
 Luis M Rodriguez-R # 1, Roth E Conrad # 2, Tomeu Viver 3, Dorian J Feistel 2, Blake G Lindner 2, Stephanus N Venter 4, Luis H Orellana 5, Rudolf Amann 5, Ramon Rossello-Mora 3, Konstantinos T Konstantinidis 2
 https://journals.asm.org/doi/10.1128/mbio.02696-23
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10790751/
-Intermediate identity genotypes, for example, sharing 85%–95% ANI, when present, are generally ecologically differentiated and scarcer in abundance, and thus should probably be considered distinct species (6, 13, 14) rather than representing cultivation or other sampling biases (15). 
+
+INTRODUCTION
+
+Intermediate identity genotypes, for example, sharing 85%–95% ANI, when present, are generally ecologically differentiated and scarcer in abundance, and thus should probably be considered distinct species (6, 13, 14) rather than representing cultivation or other sampling biases (15).
+
+RESULTS AND DISCUSSION
+
+Fig 4.
+
+What are the underlying mechanisms for the 99.5% ANI gap?
+
+(i.e., the biological or sexual species concept) (34)
+
+(i.e., the ecological species concept) (35–37).
+
+Conclusions
+
+----------
+## 2023
 
 ## 2023-01-04
 
@@ -564,9 +599,14 @@ https://academic.oup.com/mbe/article/40/1/msac273/6966034
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9830988/
 We evaluated all complete genomes assigned to E. coli and its closest relatives according to the biological species concept (BSC), using evidence of reproductive isolation and gene flow (i.e., homologous recombination in the case of asexual bacteria) to ascertain species boundaries.
 
+To resolve these incongruencies, and to apply consistent and objective criteria to identifying species boundaries, we analyze and classify a comprehensive set of Escherichia and Shigella genomes according to the biological species concept (BSC) (Mayr 1942), a universally accepted procedure that circumscribes species based on homologous gene exchange.
+
+----------
 ## 2022
 
-## 
+
+----------
+## 2021
 
 ## 2021-09-22
 
@@ -601,7 +641,10 @@ In the final paragraphs the authors make theoretical arguments against using met
 
 https://www.biorxiv.org/content/10.1101/2020.07.27.223511v1#comment-5010354002
 
-### 2020-01-14
+----------
+## 2020
+
+## 2020-01-14
 
 https://pubmed.ncbi.nlm.nih.gov/31937678/
 mSystems
@@ -610,6 +653,9 @@ Consistent Metagenome-Derived Metrics Verify and Delineate Bacterial Species Bou
 Matthew R Olm 1 2, Alexander Crits-Christoph 2, Spencer Diamond 1, Adi Lavy 1, Paula B Matheus Carnevali 1, Jillian F Banfield 3 4 5 6
 https://journals.asm.org/doi/10.1128/msystems.00731-19
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6967389/
+
+----------
+## 2019
 
 ## 2019-11-28
 
@@ -630,42 +676,115 @@ Frederick M Cohan 1
 https://www.cell.com/current-biology/fulltext/S0960-9822(19)30062-4
 https://www.sciencedirect.com/science/article/pii/S0960982219300624
 
-### 2018-01-03
+----------
+## 2018
 
+## 2018-11-30
+
+https://pubmed.ncbi.nlm.nih.gov/30504855/
+Nat Commun
+. 2018 Nov 30;9(1):5114. doi: 10.1038/s41467-018-07641-9.
+High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries
+Chirag Jain 1 2, Luis M Rodriguez-R 3 4, Adam M Phillippy 2, Konstantinos T Konstantinidis 5 6, Srinivas Aluru 7 8
+https://www.nature.com/articles/s41467-018-07641-9
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6269478/
+
+## 2018-10-03
 https://pubmed.ncbi.nlm.nih.gov/30285620/
 BMC Genomics
 . 2018 Oct 3;19(1):724. doi: 10.1186/s12864-018-5099-6.
 Exclusivity offers a sound yet practical species criterion for bacteria despite abundant gene flow
 Erik S Wright 1 2, David A Baum 3
 https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5099-6
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6171291/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6171291/
+Nucleotide sequences were aligned based on their amino acid translations using the AlignTranslation function in the DECIPHER package (v2.0) in R [46, 47].
 
 7:46 AM · Oct 4, 2018
 https://twitter.com/digitalwright/status/1047618983497818114
 Erik Wright on X: "Is "species" a real thing for bacteria? @baobabbaum and I did a deep dive into thousands of bacterial genomes to figure it out. Turns out the answer is yes and no. Check it out in #BMCGenomics: https://t.co/COJRzSpbs5 https://t.co/FmYMJSuKQF" / X
 
+## 2018-01-01
+https://pubmed.ncbi.nlm.nih.gov/29292687/
+Int J Syst Evol Microbiol
+. 2018 Jan;68(1):461-466. doi: 10.1099/ijsem.0.002516.
+Proposed minimal standards for the use of genome data for the taxonomy of prokaryotes
+Jongsik Chun 1, Aharon Oren 2, Antonio Ventosa 3, Henrik Christensen 4, David Ruiz Arahal 5, Milton S da Costa 6, Alejandro P Rooney 7, Hana Yi 8, Xue-Wei Xu 9, Sofie De Meyer 10, Martha E Trujillo 11
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.002516
+
+----------
 ## 2017
 
-https://www.ncbi.nlm.nih.gov/pubmed/28731467
-ISME J. 2017 Nov;11(11):2399-2406. doi: 10.1038/ismej.2017.113. Epub 2017 Jul 21.
-Uncultivated microbes in need of their own taxonomy.
-Konstantinidis KT1, Rosselló-Móra R2, Amann R3.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/
-Table 1
-Proposed standards for high-quality taxa descriptions of uncultivated Bacteria and Archaea
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649169/table/tbl1/?report=objectonly
+## 2017-11
+https://pubmed.ncbi.nlm.nih.gov/28731467/
+ISME J
+. 2017 Nov;11(11):2399-2406. doi: 10.1038/ismej.2017.113. Epub 2017 Jul 21.
+Uncultivated microbes in need of their own taxonomy
+Konstantinos T Konstantinidis 1, Ramon Rosselló-Móra 2, Rudolf Amann 3
+https://academic.oup.com/ismej/article/11/11/2399/7537822
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5649169/
+Table 1. Proposed standards for high-quality taxa descriptions of uncultivated Bacteria and Archaea.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5649169/table/tbl1/
 
-
+## 2017-01-16
 January 16, 2017
 http://schaechter.asmblog.org/schaechter/2017/01/do-bacterial-species-really-exist-and-why-should-we-care.html
 Small Things Considered: Do bacterial species really exist and why should we care?
+by Kostas Konstantinidis and Roberto Kolter
 
 ## 2015
 
-https://www.ncbi.nlm.nih.gov/pubmed/26150420
-Nucleic Acids Res. 2015 Aug 18;43(14):6761-71. doi: 10.1093/nar/gkv657. Epub 2015 Jul 6.
-Microbial species delineation using whole genome sequences.
-Varghese NJ1, Mukherjee S1, Ivanova N1, Konstantinidis KT2, Mavrommatis K3, Kyrpides NC4, Pati A4.
+## 2015-09-09
+https://pubmed.ncbi.nlm.nih.gov/26354896/
+Review Cold Spring Harb Perspect Biol
+. 2015 Sep 9;7(10):a018143. doi: 10.1101/cshperspect.a018143.
+Microbial Speciation
+B Jesse Shapiro 1, Martin F Polz 2
+https://cshperspectives.cshlp.org/content/7/10/a018143.long
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4588065/
+
+## 2015-08-18
+https://pubmed.ncbi.nlm.nih.gov/26150420/
+Nucleic Acids Res
+. 2015 Aug 18;43(14):6761-71. doi: 10.1093/nar/gkv657. Epub 2015 Jul 6.
+Microbial species delineation using whole genome sequences
+Neha J Varghese 1, Supratim Mukherjee 1, Natalia Ivanova 1, Konstantinos T Konstantinidis 2, Kostas Mavrommatis 3, Nikos C Kyrpides 4, Amrita Pati 4
+https://academic.oup.com/nar/article/43/14/6761/2903001
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4538840/
+
+## 2014
+
+## 2014-06
+https://pubmed.ncbi.nlm.nih.gov/24706738/
+J Bacteriol
+. 2014 Jun;196(12):2210-5. doi: 10.1128/JB.01688-14. Epub 2014 Apr 4.
+A proposed genus boundary for the prokaryotes based on genomic insights
+Qi-Long Qin 1, Bin-Bin Xie 1, Xi-Ying Zhang 1, Xiu-Lan Chen 1, Bai-Cheng Zhou 2, Jizhong Zhou 3, Aharon Oren 4, Yu-Zhong Zhang 5
+https://journals.asm.org/doi/10.1128/jb.01688-14
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4054180/
+
+
+## 2007
+
+## 2007-01-26
+https://pubmed.ncbi.nlm.nih.gov/17255503/
+Review Science
+. 2007 Jan 26;315(5811):476-80. doi: 10.1126/science.1127573.
+Recombination and the nature of bacterial speciation
+Christophe Fraser 1, William P Hanage, Brian G Spratt
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2220085/
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_2220085
+American Association for the Advancement of Science
+
+## 2005-02-15
+https://pubmed.ncbi.nlm.nih.gov/15701695/
+Proc Natl Acad Sci U S A
+. 2005 Feb 15;102(7):2567-72. doi: 10.1073/pnas.0409727102. Epub 2005 Feb 8.
+Genomic insights that advance the species definition for prokaryotes
+Konstantinos T Konstantinidis 1, James M Tiedje
+https://www.pnas.org/doi/10.1073/pnas.0409727102
+https://pmc.ncbi.nlm.nih.gov/articles/PMC549018/
+
+----------
 
 
 
