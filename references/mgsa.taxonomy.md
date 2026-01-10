@@ -775,6 +775,20 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC2220085/
 https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_2220085
 American Association for the Advancement of Science
 
+## 2007-01
+https://pubmed.ncbi.nlm.nih.gov/17220447/
+Comparative Study Int J Syst Evol Microbiol
+. 2007 Jan;57(Pt 1):81-91. doi: 10.1099/ijs.0.64483-0.
+DNA-DNA hybridization values and their relationship to whole-genome sequence similarities
+Johan Goris 1, Konstantinos T Konstantinidis 1, Joel A Klappenbach 1, Tom Coenye 2, Peter Vandamme 2, James M Tiedje 1
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.64483-0#tab2
+|
+DNA-DNA hybridization (DDH) values have been used by bacterial taxonomists since the 1960s to determine relatedness between strains and are still the most important criterion in the delineation of bacterial species.
+|
+The recommended cut-off point of 70 % DDH for species delineation corresponded to 95 % ANI and 69 % conserved DNA.
+|
+These results reveal extensive gene diversity within the current concept of "species". 
+
 ## 2005-02-15
 https://pubmed.ncbi.nlm.nih.gov/15701695/
 Proc Natl Acad Sci U S A
@@ -783,6 +797,9 @@ Genomic insights that advance the species definition for prokaryotes
 Konstantinos T Konstantinidis 1, James M Tiedje
 https://www.pnas.org/doi/10.1073/pnas.0409727102
 https://pmc.ncbi.nlm.nih.gov/articles/PMC549018/
+average nucleotide identity (ANI)
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.tools.md#ani
 
 ----------
 
