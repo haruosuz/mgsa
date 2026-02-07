@@ -26,15 +26,6 @@
 - [MGnify](#mgnify) EBI metagenomics
 - [kazumaxneo](#kazumaxneo)
 - [](#)
-- [kaiju](#kaiju)
-- [](#)
-- [web-tool](#web-tool)
-  - [MANTA](#manta) 水口賢司研究室
-  - [pavian](#pavian)
-  - [taxonomer](#taxonomer)
-- [MEDUSA](#medusa)
-- [recentrifuge](#recentrifuge)
-- [centrifuge](#centrifuge)
 - [unifrac](#unifrac)
 - [LEfSe](#lefse)
 - [diversity index](#diversity-index) 多様性指数
@@ -60,12 +51,23 @@
   - [MAGNETO](#magneto)
   - [MDMcleaner](#mdmcleaner)
   - [MetaWRAP](#metawrap)
-- [mst](#mst) Microbial Source Tracking
-- [compositional](#compositional)
+- [](#)
+- [kaiju](#kaiju)
+- [](#)
+- [web-tool](#web-tool)
+  - [MANTA](#manta) 水口賢司研究室
+  - [pavian](#pavian)
+  - [taxonomer](#taxonomer)
+- [MEDUSA](#medusa)
+- [recentrifuge](#recentrifuge)
+- [centrifuge](#centrifuge)
 - [](#)
 - [benchmark](#benchmark)
-- [](#)
 - [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
+- [](#)
+- [mst](#mst) Microbial Source Tracking
+- [compositional](#compositional)
+
 
 ----------
 
@@ -78,6 +80,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238498/
 A global metagenomic map of urban microbiomes and antimicrobial resistance
 
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
+
+
+----------
+
 
 ----------
 ## benchmark
@@ -104,7 +110,7 @@ https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6716367/
 Several groups have previously benchmarked metagenomic tools (Lindgreen et al., 2016, Mavromatis et al., 2007, McIntyre et al., 2017, Meyer et al., 2019, Sczyrba et al., 2017), but the continual introduction of newer tools requires ongoing evaluation to compare them against established tools. 
 
 Evaluating the precision-recall of 20 classifiers
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6716367/#S4title
+|
 Here we benchmarked 20 metagenomic classifiers to compare performance in classification precision, recall, F1, speed, and other metrics using a uniform database to eliminate any confounding effects of differences in default databases. DNA to DNA classifiers evaluated here were Kraken (and its add-on for more accurate abundance quantification Bracken), Kraken2, KrakenUniq, k-SLAM, MegaBLAST, metaOthello, CLARK, CLARK-S, GOTTCHA, taxMaps, prophyle, PathSeq, Centrifuge, and Karp. DNA to Protein classifiers evaluated were DIAMOND, Kaiju, and MMseqs2. We
 
 https://scholar.google.co.jp/scholar?cites=6688630901807222522&as_sdt=2005&sciodt=0,5&hl=ja
@@ -188,6 +194,87 @@ https://kazumaxneo.hatenablog.com/entry/2022/05/04/131449
 実行方法
 
 メタゲノムのシークエンシングリードを指定する。Qualityトリミングされて短くなったリードではなく生のリードを使うことが推奨されている。
+
+----------
+## Kraken
+### 2022-09-28
+https://pubmed.ncbi.nlm.nih.gov/36171387/
+Review Nat Protoc
+. 2022 Dec;17(12):2815-2839. doi: 10.1038/s41596-022-00738-y. Epub 2022 Sep 28.
+Metagenome analysis using the Kraken software suite
+Jennifer Lu # 1 2, Natalia Rincon # 3 4, Derrick E Wood 4 5, Florian P Breitwieser 4, Christopher Pockrandt 4, Ben Langmead 5, Steven L Salzberg 3 4 5 6, Martin Steinegger 7
+https://www.nature.com/articles/s41596-022-00738-y
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9725748/
+These tools include Kraken 2, KrakenUniq 3, Kraken 24, Kraken2Uniq (based on KrakenUniq), Bracken 5, KrakenTools, and Pavian 6.
+
+----------
+### 2020-12
+### kraken2
+
+https://ccb.jhu.edu/software/kraken2/
+2020/12 UPDATE
+https://ccb.jhu.edu/software/kraken2/index.shtml?t=downloads
+2020/06 UPDATE
+
+https://pubmed.ncbi.nlm.nih.gov/31779668/
+Genome Biol
+. 2019 Nov 28;20(1):257. doi: 10.1186/s13059-019-1891-0.
+Improved metagenomic analysis with Kraken 2
+Derrick E Wood 1 2, Jennifer Lu 2 3, Ben Langmead 4 5
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1891-0
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6883579/
+
+https://pubmed.ncbi.nlm.nih.gov/24580807/
+Comparative Study Genome Biol
+. 2014 Mar 3;15(3):R46. doi: 10.1186/gb-2014-15-3-r46.
+Kraken: ultrafast metagenomic sequence classification using exact alignments
+Derrick E Wood, Steven L Salzberg
+https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-3-r46
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053813/
+
+
+更新日 2020年11月25日
+https://qiita.com/Adaachill/items/ec08e7701c9975616f36
+metagenome シークエンスから高速に各readの系統を推定するKraken2[環境構築]
+
+https://kazumaxneo.hatenablog.com/entry/2017/08/28/235248
+メタゲノムデータの高速なtaxonomy assignmentを行う kraken - macでインフォマティクス
+
+----------
+### 2021-10-09
+### krakenuniq
+
+https://github.com/fbreitwieser/krakenuniq
+
+https://github.com/fbreitwieser/krakenuniq/blob/master/MANUAL.md
+Pavian works great for visualizing and analyzing KrakenUniq results!
+
+https://pubmed.ncbi.nlm.nih.gov/30445993/
+Genome Biol
+. 2018 Nov 16;19(1):198. doi: 10.1186/s13059-018-1568-0.
+KrakenUniq: confident and fast metagenomics classification using unique k-mer counts
+F P Breitwieser 1, D N Baker 2 3, S L Salzberg 4 5 6
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1568-0
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238331/
+
+https://kazumaxneo.hatenablog.com/entry/2019/01/16/073000
+KrakenUniq - macでインフォマティクス
+
+----------
+### 2019-08-07
+### bracken
+
+http://ccb.jhu.edu/software/bracken/
+08/07/2019 - v2.5.0 release
+
+https://peerj.com/articles/cs-104/
+Bracken: estimating species abundance in metagenomics data [PeerJ]
+
+Software and data availability
+Bracken is written in Perl and Python and is freely available for download at http://ccb.jhu.edu/software/bracken/. The reads from the skin microbiome experiment are freely available from NCBI under BioProject PRJNA316735.
+
+https://kazumaxneo.hatenablog.com/entry/2019/02/01/073000
+Bracken - macでインフォマティクス
 
 ----------
 ## mst
@@ -2487,78 +2574,6 @@ Centrifuge is available as free, open-source software from https://github.com/in
 
 https://kazumaxneo.hatenablog.com/entry/2018/05/30/150433
 メタゲノムのリードの系統アサインメントを行う Centrifuge - macでインフォマティクス
-
-
-
-----------
-### 2020-12
-### kraken2
-
-https://ccb.jhu.edu/software/kraken2/
-2020/12 UPDATE
-https://ccb.jhu.edu/software/kraken2/index.shtml?t=downloads
-2020/06 UPDATE
-
-
-https://pubmed.ncbi.nlm.nih.gov/31779668/
-Genome Biol
-. 2019 Nov 28;20(1):257. doi: 10.1186/s13059-019-1891-0.
-Improved metagenomic analysis with Kraken 2
-Derrick E Wood 1 2, Jennifer Lu 2 3, Ben Langmead 4 5
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1891-0
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6883579/
-
-https://pubmed.ncbi.nlm.nih.gov/24580807/
-Comparative Study Genome Biol
-. 2014 Mar 3;15(3):R46. doi: 10.1186/gb-2014-15-3-r46.
-Kraken: ultrafast metagenomic sequence classification using exact alignments
-Derrick E Wood, Steven L Salzberg
-https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-3-r46
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053813/
-
-
-更新日 2020年11月25日
-https://qiita.com/Adaachill/items/ec08e7701c9975616f36
-metagenome シークエンスから高速に各readの系統を推定するKraken2[環境構築]
-
-https://kazumaxneo.hatenablog.com/entry/2017/08/28/235248
-メタゲノムデータの高速なtaxonomy assignmentを行う kraken - macでインフォマティクス
-
-----------
-### 2021-10-09
-### krakenuniq
-
-https://github.com/fbreitwieser/krakenuniq
-
-https://github.com/fbreitwieser/krakenuniq/blob/master/MANUAL.md
-Pavian works great for visualizing and analyzing KrakenUniq results!
-
-https://pubmed.ncbi.nlm.nih.gov/30445993/
-Genome Biol
-. 2018 Nov 16;19(1):198. doi: 10.1186/s13059-018-1568-0.
-KrakenUniq: confident and fast metagenomics classification using unique k-mer counts
-F P Breitwieser 1, D N Baker 2 3, S L Salzberg 4 5 6
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1568-0
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6238331/
-
-https://kazumaxneo.hatenablog.com/entry/2019/01/16/073000
-KrakenUniq - macでインフォマティクス
-
-----------
-### 2019-08-07
-### bracken
-
-http://ccb.jhu.edu/software/bracken/
-08/07/2019 - v2.5.0 release
-
-https://peerj.com/articles/cs-104/
-Bracken: estimating species abundance in metagenomics data [PeerJ]
-
-Software and data availability
-Bracken is written in Perl and Python and is freely available for download at http://ccb.jhu.edu/software/bracken/. The reads from the skin microbiome experiment are freely available from NCBI under BioProject PRJNA316735.
-
-https://kazumaxneo.hatenablog.com/entry/2019/02/01/073000
-Bracken - macでインフォマティクス
 
 
 ----------
