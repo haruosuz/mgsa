@@ -13,7 +13,6 @@
 - [Metagenomic Assembly]
 - [book](#book)
 - [video](#video)
-- [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 - [batch effect](#batch-effect)
 - [meta-analysis](#meta-analysis)
   - [qiita](#qiita)
@@ -26,8 +25,6 @@
 - [HGT](#hgt)
 - [MGnify](#mgnify) EBI metagenomics
 - [kazumaxneo](#kazumaxneo)
-- [](#)
-- [benchmark](#benchmark)
 - [](#)
 - [kaiju](#kaiju)
 - [](#)
@@ -66,6 +63,9 @@
 - [mst](#mst) Microbial Source Tracking
 - [compositional](#compositional)
 - [](#)
+- [benchmark](#benchmark)
+- [](#)
+- [CAMI_challenge](#cami) Critical Assessment of Metagenome Interpretation
 
 ----------
 
@@ -78,6 +78,93 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238498/
 A global metagenomic map of urban microbiomes and antimicrobial resistance
 
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
+
+----------
+## benchmark
+
+### 2022-03-24
+https://pubmed.ncbi.nlm.nih.gov/35356467/
+PeerJ
+. 2022 Mar 24;10:e12784. doi: 10.7717/peerj.12784. eCollection 2022.
+Benchmarking metagenomics classifiers on ancient viral DNA: a simulation study
+Yami Ommar Arizmendi Cárdenas 1 2, Samuel Neuenschwander 1 3, Anna-Sapfo Malaspinas 1 2
+https://peerj.com/articles/12784/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8958974/
+We compared the performance of four widely used classifiers, namely Centrifuge, Kraken2, DIAMOND and MetaPhlAn2, in correctly assigning sequencing reads to the corresponding viruses.
+
+### 2019-08-08
+https://pubmed.ncbi.nlm.nih.gov/31398336/
+Review Cell
+. 2019 Aug 8;178(4):779-794. doi: 10.1016/j.cell.2019.07.010.
+Benchmarking Metagenomics Tools for Taxonomic Classification
+Simon H Ye 1, Katherine J Siddle 2, Daniel J Park 3, Pardis C Sabeti 4
+https://www.sciencedirect.com/science/article/pii/S0092867419307755
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6716367/
+
+Several groups have previously benchmarked metagenomic tools (Lindgreen et al., 2016, Mavromatis et al., 2007, McIntyre et al., 2017, Meyer et al., 2019, Sczyrba et al., 2017), but the continual introduction of newer tools requires ongoing evaluation to compare them against established tools. 
+
+Evaluating the precision-recall of 20 classifiers
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6716367/#S4title
+Here we benchmarked 20 metagenomic classifiers to compare performance in classification precision, recall, F1, speed, and other metrics using a uniform database to eliminate any confounding effects of differences in default databases. DNA to DNA classifiers evaluated here were Kraken (and its add-on for more accurate abundance quantification Bracken), Kraken2, KrakenUniq, k-SLAM, MegaBLAST, metaOthello, CLARK, CLARK-S, GOTTCHA, taxMaps, prophyle, PathSeq, Centrifuge, and Karp. DNA to Protein classifiers evaluated were DIAMOND, Kaiju, and MMseqs2. We
+
+https://scholar.google.co.jp/scholar?cites=6688630901807222522&as_sdt=2005&sciodt=0,5&hl=ja
+
+### 2017-09-21
+https://pubmed.ncbi.nlm.nih.gov/28934964/
+Genome Biol
+. 2017 Sep 21;18(1):182. doi: 10.1186/s13059-017-1299-7.
+Comprehensive benchmarking and ensemble approaches for metagenomic classifiers
+Alexa B R McIntyre 1 2 3, Rachid Ounit 4, Ebrahim Afshinnekoo 2 3 5, Robert J Prill 6, Elizabeth Hénaff 2 3, Noah Alexander 2 3, Samuel S Minot 7, David Danko 1 2 3, Jonathan Foox 2 3, Sofia Ahsanuddin 2 3, Scott Tighe 8, Nur A Hasan 9 10, Poorani Subramanian 9, Kelly Moffat 9, Shawn Levy 11, Stefano Lonardi 4, Nick Greenfield 7, Rita R Colwell 9 12, Gail L Rosen 13, Christopher E Mason 14 15 16
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1299-7
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609029/
+Overall, pairing tools with different classification strategies (k-mer, alignment, marker) can combine their respective advantages.
+
+https://scholar.google.co.jp/scholar?cites=8605030642958534701&as_sdt=2005&sciodt=0,5&hl=ja
+
+----------
+## CAMI
+Critical Assessment of Metagenome Interpretation
+
+https://twitter.com/CAMI_challenge
+
+2025-07-07
+https://pubmed.ncbi.nlm.nih.gov/40331433/
+Nucleic Acids Res
+. 2025 Jul 7;53(W1):W102-W109. doi: 10.1093/nar/gkaf369.
+CAMI Benchmarking Portal: online evaluation and ranking of metagenomic software
+Fernando Meyer 1 2 3, Gary Robertson 1 2 3, Zhi-Luo Deng 1 2 3, David Koslicki 3 4 5, Alexey Gurevich 3 6 7, Alice C McHardy 1 2 3 8 9
+https://academic.oup.com/nar/article/53/W1/W102/8126258?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12230735/
+Figure 2.
+Genome (A and B) and taxonomic binning results (C) from the CAMI Benchmarking Portal for the CAMI II marine dataset. 
+ taxonomic assignments of the gold standard assembly by Kraken 2.1.3 and MEGAN 6.15.2. 
+
+https://pubmed.ncbi.nlm.nih.gov/35396482/
+Nat Methods
+. 2022 Apr;19(4):429-440. doi: 10.1038/s41592-022-01431-4. Epub 2022 Apr 8.
+Critical Assessment of Metagenome Interpretation: the second round of challenges
+https://www.nature.com/articles/s41592-022-01431-4
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/
+Fig. 4. Taxonomic profiling results for the marine and strain-madness datasets at genus level.
+
+
+2018-07-10
+https://pubmed.ncbi.nlm.nih.gov/30003143/
+Editorial mSystems
+. 2018 Jul 10;3(4):e00103-18. doi: 10.1128/mSystems.00103-18. eCollection 2018 Jul-Aug.
+Critical Assessment of Metagenome Interpretation Enters the Second Round
+Andreas Bremges 1 2, Alice C McHardy 1
+https://journals.asm.org/doi/10.1128/msystems.00103-18
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6040144/
+
+2017-10-02
+https://pubmed.ncbi.nlm.nih.gov/28967888/
+Nat Methods
+. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
+Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software
+https://www.nature.com/articles/nmeth.4458
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5903868/
+Results for five genome binners and four taxonomic binners were submitted together with bioboxes of the respective programs in the CAMI challenge, namely for MyCC19, MaxBin 2.020, MetaBAT21, MetaWatt-3.522, CONCOCT23, PhyloPythiaS+24, taxatortk25, MEGAN 626 and Kraken27.
 
 ----------
 ### SingleM
@@ -106,24 +193,15 @@ https://kazumaxneo.hatenablog.com/entry/2022/05/04/131449
 ## mst
 Microbial Source Tracking
 
-### 2024-06-28
-https://pubmed.ncbi.nlm.nih.gov/38940128/
-Bioinformatics
-. 2024 Jun 28;40(Suppl 1):i68-i78. doi: 10.1093/bioinformatics/btae227.
-Towards more accurate microbial source tracking via non-negative matrix factorization (NMF)
-Ziyi Huang 1, Dehan Cai 1, Yanni Sun 1
-https://academic.oup.com/bioinformatics/article/40/Supplement_1/i68/7700851
-https://pmc.ncbi.nlm.nih.gov/articles/PMC11256951/
-
-### 2020-07-23
-https://pubmed.ncbi.nlm.nih.gov/32702000/
-PLoS One
-. 2020 Jul 23;15(7):e0236082. doi: 10.1371/journal.pone.0236082. eCollection 2020.
-Microbial community dissimilarity for source tracking with application in forensic studies
-Kyle M Carter 1, Meng Lu 1, Qianwen Luo 2, Hongmei Jiang 3, Lingling An 1 2 4
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236082
-https://pmc.ncbi.nlm.nih.gov/articles/PMC7377425/
-https://github.com/anlingUA/RAD
+### 2025-10-27
+https://pubmed.ncbi.nlm.nih.gov/41180493/
+PeerJ
+. 2025 Oct 27:13:e20161. doi: 10.7717/peerj.20161. eCollection 2025.
+FastST: an efficient tool for inferring decomposition and directionality of microbial communities
+Joung Min Choi # 1, Xiaowei Wu # 2, Liqing Zhang 1
+https://peerj.com/articles/20161/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12574587/
+The most recent approaches for microbial source tracking includes SourceTracker2 (Knights et al., 2011), FEAST (Shenhav et al., 2019), STENSL (An et al., 2022), and SourceID-NMF (Huang, Cai & Sun, 2024) methods. 
 
 ### 2024-06-28
 https://pubmed.ncbi.nlm.nih.gov/38940128/
@@ -163,6 +241,7 @@ Kyle M Carter 1, Meng Lu 1, Qianwen Luo 2, Hongmei Jiang 3, Lingling An 1 2 4
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236082
 https://pmc.ncbi.nlm.nih.gov/articles/PMC7377425/
 https://github.com/anlingUA/RAD
+RAD (Relative Aitchison Difference) for source tracking:
 
 ### 2018-06-06
 https://pubmed.ncbi.nlm.nih.gov/29874232/
@@ -633,6 +712,56 @@ https://kazumaxneo.hatenablog.com/entry/2019/01/30/073000
 
 ## 2025
 
+## 2025-12
+https://pubmed.ncbi.nlm.nih.gov/41326814/
+Review Nat Microbiol
+. 2025 Dec;10(12):3059-3068. doi: 10.1038/s41564-025-02186-2. Epub 2025 Dec 1.
+STREAMS guidelines: standards for technical reporting in environmental and host-associated microbiome studies
+Julia M Kelliher 1 2 3, Chloe Mirzayi 4, Sarah R Bordenstein 5 6, Aaron Oliver 7, Christina A Kellogg 8, Eneida L Hatcher 9, Maureen Berg 10, Petr Baldrian 11, Mashael Aljumaah 12 13, Cassandra Maria Luz Miller 14, Christopher Mungall 15, Vlastimil Novak 15, Alexis Palucki 16, Ethan Smith 17, Nazifa Tabassum 18, Gregory Bonito 19, J Rodney Brister 9, Patrick S G Chain 20, Mingfei Chen 15, Samuel Degregori 21, Jose Pablo Dundore-Arias 22, Joanne B Emerson 23, Vanessa Moreira C Fernandes 24, Roberto Flores 25, Antonio Gonzalez 21, Zoe A Hansen 26, Scott A Jackson 27, Ahmed M Moustafa 28 29 30, Trent R Northen 15, Nonia Pariente 31 32, Jennifer Pett-Ridge 33 34 35, Sydne Record 36 37, Linta Reji 38, Anna-Louise Reysenbach 39, Virginia I Rich 40 41, Lorna Richardson 42, Simon Roux 15, Lynn M Schriml 43, Reed S Shabman 44, Maria A Sierra 45, Matthew B Sullivan 40 41, Punithavathi Sundaramurthy 46, Katherine M Thibault 47, Luke R Thompson 48 49, Scott Tighe 50, Ethell Vereen 51; STREAMS Consortium; Emiley A Eloe-Fadrosh 52
+https://www.nature.com/articles/s41564-025-02186-2
+standards for technical reporting in environmental and host-associated microbiome studies (STREAMS) guidelines
+
+## 2021-11
+https://pubmed.ncbi.nlm.nih.gov/34789871/
+Review Nat Med
+. 2021 Nov;27(11):1885-1892. doi: 10.1038/s41591-021-01552-x. Epub 2021 Nov 17.
+Reporting guidelines for human microbiome research: the STORMS checklist
+Chloe Mirzayi 1, Audrey Renson 2; Genomic Standards Consortium; Massive Analysis and Quality Control Society; Fatima Zohra 1, Shaimaa Elsafoury 1, Ludwig Geistlinger 1, Lora J Kasselman 1, Kelly Eckenrode 1, Janneke van de Wijgert 3, Amy Loughman 4, Francine Z Marques 5, David A MacIntyre 6, Manimozhiyan Arumugam 7, Rimsha Azhar 1, Francesco Beghini 8, Kirk Bergstrom 9, Ami Bhatt 10, Jordan E Bisanz 11, Jonathan Braun 12, Hector Corrada Bravo 13, Gregory A Buck 14, Frederic Bushman 15, David Casero 16, Gerard Clarke 17, Maria Carmen Collado 18, Paul D Cotter 19 20 21, John F Cryan 20 22, Ryan T Demmer 23, Suzanne Devkota 16, Eran Elinav 24 25, Juan S Escobar 26, Jennifer Fettweis 14, Robert D Finn 27, Anthony A Fodor 28, Sofia Forslund 29, Andre Franke 30, Cesare Furlanello 31, Jack Gilbert 32, Elizabeth Grice 33, Benjamin Haibe-Kains 34, Scott Handley 35, Pamela Herd 36, Susan Holmes 37, Jonathan P Jacobs 38, Lisa Karstens 39, Rob Knight 40, Dan Knights 41 42, Omry Koren 43, Douglas S Kwon 44, Morgan Langille 45, Brianna Lindsay 46, Dermot McGovern 16, Alice C McHardy 47, Shannon McWeeney 48, Noel T Mueller 49, Luigi Nezi 50, Matthew Olm 51, Noah Palm 52, Edoardo Pasolli 53, Jeroen Raes 54, Matthew R Redinbo 55, Malte Rühlemann 56, R Balfour Sartor 57, Patrick D Schloss 58, Lynn Schriml 59, Eran Segal 60, Michelle Shardell 59, Thomas Sharpton 61, Ekaterina Smirnova 62, Harry Sokol 63, Justin L Sonnenburg 51, Sujatha Srinivasan 64, Louise B Thingholm 56, Peter J Turnbaugh 65, Vaibhav Upadhyay 65, Ramona L Walls 66, Paul Wilmes 67 68, Takuji Yamada 69, Georg Zeller 70, Mingyu Zhang 49, Ni Zhao 71, Liping Zhao 72, Wenjun Bao 73, Aedin Culhane 74, Viswanath Devanarayan 75, Joaquin Dopazo 76, Xiaohui Fan 77, Matthias Fischer 78 79, Wendell Jones 80, Rebecca Kusko 81, Christopher E Mason 82, Tim R Mercer 83, Susanna-Assunta Sansone 84, Andreas Scherer 85, Leming Shi 86, Shraddha Thakkar 87, Weida Tong 88, Russ Wolfinger 89, Christopher Hunter 90, Nicola Segata 8 50, Curtis Huttenhower # 91, Jennifer B Dowd # 92, Heidi E Jones # 1, Levi Waldron # 93
+https://www.nature.com/articles/s41591-021-01552-x
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9105086/
+Strengthening The Organization and Reporting of Microbiome Studies (STORMS)
+
+## 2025-04-08
+https://pubmed.ncbi.nlm.nih.gov/40200306/
+Editorial Microbiome
+. 2025 Apr 8;13(1):95. doi: 10.1186/s40168-025-02091-0.
+A blueprint for contemporary studies of microbiomes
+Laure B Bindels 1 2, Joy E M Watts 3, Kevin R Theis 4, Víctor J Carrion 5 6 7 8, Adam Ossowicki 5 6, Jana Seifert 9, Julia Oh 10, Yongqi Shao 11, Markus Hilty 12, Purnima Kumar 13, Falk Hildebrand 14 15, Connie Lovejoy 16, Paul Wigley 17, Ke Yu 18, Meiling Zhang 19, Tong Zhang 20 21, Jens Walter 22, Mahesh S Desai 23, Sharon Ann Huws 24, Lynn M Schriml 25, Jacques Ravel 26 27, W Florian Fricke 28 29, Emiley A Eloe-Fadrosh 30, Charles K Lee 31 32, Thomas Clavel 33
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-025-02091-0
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11977902/
+On the importance of accurate terminology
+
+## 2024
+## 2024-01-08
+
+https://pubmed.ncbi.nlm.nih.gov/38869966/
+ISME J
+. 2024 Jan 8;18(1):wrae106. doi: 10.1093/ismejo/wrae106.
+Nonparametric richness estimators Chao1 and ACE must not be used with amplicon sequence variant data
+Yongcui Deng 1 2, Alexander K Umbach 2, Josh D Neufeld 2
+https://academic.oup.com/ismej/article/18/1/wrae106/7692950?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/
+
+## 2023
+## 2023-08 
+https://pubmed.ncbi.nlm.nih.gov/37524974/
+Review Nat Microbiol
+. 2023 Aug;8(8):1392-1396. doi: 10.1038/s41564-023-01426-7. Epub 2023 Jul 31.
+Human microbiome myths and misconceptions
+Alan W Walker 1, Lesley Hoyles 2
+https://www.nature.com/articles/s41564-023-01426-7
+
+
 
 ## 2022
 
@@ -976,23 +1105,6 @@ COGNIZER: A Framework for Functional Annotation of Metagenomic Datasets.
 Bose T1, Haque MM1, Reddy C1, Mande SS1.
 The COGNIZER framework includes a cross-mapping database that enables end-users to simultaneously derive/infer KEGG, Pfam, GO, and SEED subsystem information from the COG annotations.
 
-
-
-
-----------
-## CAMI
-Critical Assessment of Metagenome Interpretation
-
-https://twitter.com/CAMI_challenge
-
-https://msystems.asm.org/content/3/4/e00103-18
-Critical Assessment of Metagenome Interpretation Enters the Second Round | mSystems
-
-Currently, CAMI is preparing for a second round of challenges, tentatively planned to open later this year. CAMI will provide data sets representing different environments and again offer assembly, taxonomic and genomic binning, as well as taxonomic profiling challenges (Fig. 1). Two multisample “toy” data sets representing microbial communities from different human body sites and from mouse gut are already provided to allow participants to prepare for the challenges (https://data.cami-challenge.org/participate).
-
-https://www.ncbi.nlm.nih.gov/pubmed/28967888
-Nat Methods. 2017 Nov;14(11):1063-1071. doi: 10.1038/nmeth.4458. Epub 2017 Oct 2.
-Critical Assessment of Metagenome Interpretation-a benchmark of metagenomics software.
 
 ----------
 ## batch effect
@@ -1477,7 +1589,7 @@ mBio
 Identifying and Overcoming Threats to Reproducibility, Replicability, Robustness, and Generalizability in Microbiome Research
 Patrick D Schloss 1
 https://journals.asm.org/doi/10.1128/mBio.00525-18
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5989067/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5989067/
 
  replicability
  confounding variable
@@ -1493,7 +1605,7 @@ Review Appl Environ Microbiol
 The Madness of Microbiome: Attempting To Find Consensus "Best Practice" for 16S Microbiome Studies
 Jolinda Pollock # 1 2, Laura Glendinning # 2, Trong Wisedchanwet 2, Mick Watson 2
 https://journals.asm.org/doi/full/10.1128/AEM.02627-17
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5861821/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5861821/
 Of the three most commonly used alignments which are guided by secondary structure (i.e., Greengenes [73], RDP [74], and SILVA [75]), the Greengenes alignment was observed to be of poor quality, leading to significantly greater richness and diversity estimates.
 
 https://www.microbe.net/2018/03/03/the-attempt-to-find-best-practice-for-16s-studies/
@@ -1502,7 +1614,6 @@ The attempt to find “best practice” for 16S studies – microBEnet: the micr
 12:34 AM · Feb 27, 2018
 https://twitter.com/BioMickWatson/status/968147242401058817
 Mick W@tson 🐄 on Twitter: "If you're working in 16S microbiome research, please read our paper which tries to suggest best practices! https://t.co/XWVRxUKFRW" / Twitter
-
 
 ----------
 ## Hi-C
@@ -2026,6 +2137,27 @@ Asya Khleborodova 1 2, Samuel D Gamboa-Tuz 1 2, Marcel Ramos 1 2, Nicola Segata 
 https://academic.oup.com/bioinformatics/article/40/12/btae707/7908399
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11665633/
 
+### 2023
+
+https://link.springer.com/book/10.1007/978-1-0716-2986-4
+Statistical Genomics
+https://link.springer.com/protocol/10.1007/978-1-0716-2986-4_10
+Bioinformatic and Statistical Analysis of Microbiome Data
+Youngchul Kim
+Pages 183-229
+3.4.8 Microbiome-Wide Association Analysis
+3.4.10 Community-Level Association Analysis Based on Beta Diversity
+3.4.11 Biodiversity-Free Test of Microbiome Community Association
+3.4.12 Univariate Feature-Wise Associated Analysis Methods
+3.4.13 Visualization of Univariate Association Analysis
+Figure 11
+Fig. 11
+Visualization of feature-level association analysis and biomarker discovery results
+3.4.14 Machine Learning Methods for Microbial Biomarker Discovery
+Here, we introduce and illustrate three representative microbial biomarker discovery methods, 1) LEfSE, 2) Random Forest, and 3) MaASLin, based on the supervised ML algorithms.
+
+First, LEfSe (linear discriminant analysis effect size) is one of most widely used methods for a microbiome biomarker discovery. 
+
 ### 2022
 
 9:00 PM · May 19, 2022
@@ -2504,54 +2636,6 @@ https://kazumaxneo.hatenablog.com/entry/2018/05/31/170700
 　Taxonomerは、超高速、ユーザーフレンドリーなウェブベースのメタゲノム配列解析ツールである。
 
 Taxonomer webサービスにアクセスする。使用するにはSign upが必要になる。Sign up for freeから登録する。
-
-----------
-## benchmark
-
-### 2022-03-24
-
-古代ウイルスDNAに関するメタゲノム分類法のベンチマーク。4つの分類法（Centrifuge、Kraken2、DIAMOND、MetaPhlAn2）について、リード配列の由来するウイルスを同定する性能を評価した結果、Centrifugeが最高の感度と精度を達成した推奨ツール。
-The authors compared Centrifuge, Kraken2, DIAMOND and MetaPhlAn2. Centrifuge is their recommended tool.
-https://pubmed.ncbi.nlm.nih.gov/35356467/
-PeerJ
-. 2022 Mar 24;10:e12784. doi: 10.7717/peerj.12784. eCollection 2022.
-Benchmarking metagenomics classifiers on ancient viral DNA: a simulation study
-Yami Ommar Arizmendi Cárdenas 1 2, Samuel Neuenschwander 1 3, Anna-Sapfo Malaspinas 1 2
-https://peerj.com/articles/12784/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8958974/
-Across most simulations, more than 228 out of the 233 simulated viruses were recovered by Centrifuge, Kraken2 and DIAMOND, in contrast to MetaPhlAn2 which recovered only around one third. Overall, Centrifuge and Kraken2 had the best performance with the highest values of sensitivity and precision. We found that deamination damage had little impact on the performance of the classifiers, less than the sequencing error and the length of the reads. Since Centrifuge can handle short reads (in contrast to DIAMOND and Kraken2 with default settings) and since it achieve the highest sensitivity and precision at the species level across all the simulations performed, it is our recommended tool. 
-
-### 2019-08-08
-### Ye_2019
-
-https://pubmed.ncbi.nlm.nih.gov/31398336/
-Review Cell
-. 2019 Aug 8;178(4):779-794. doi: 10.1016/j.cell.2019.07.010.
-Benchmarking Metagenomics Tools for Taxonomic Classification
-Simon H Ye 1, Katherine J Siddle 2, Daniel J Park 3, Pardis C Sabeti 4
-https://www.sciencedirect.com/science/article/pii/S0092867419307755
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6716367/
-
-Several groups have previously benchmarked metagenomic tools (Lindgreen et al., 2016, Mavromatis et al., 2007, McIntyre et al., 2017, Meyer et al., 2019, Sczyrba et al., 2017), but the continual introduction of newer tools requires ongoing evaluation to compare them against established tools. 
-
-Evaluating the precision-recall of 20 classifiers
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6716367/#S4title
-Here we benchmarked 20 metagenomic classifiers to compare performance in classification precision, recall, F1, speed, and other metrics using a uniform database to eliminate any confounding effects of differences in default databases. DNA to DNA classifiers evaluated here were Kraken (and its add-on for more accurate abundance quantification Bracken), Kraken2, KrakenUniq, k-SLAM, MegaBLAST, metaOthello, CLARK, CLARK-S, GOTTCHA, taxMaps, prophyle, PathSeq, Centrifuge, and Karp. DNA to Protein classifiers evaluated were DIAMOND, Kaiju, and MMseqs2. We
-
-https://scholar.google.co.jp/scholar?cites=6688630901807222522&as_sdt=2005&sciodt=0,5&hl=ja
-
-### 2017-09-21
-https://pubmed.ncbi.nlm.nih.gov/28934964/
-Genome Biol
-. 2017 Sep 21;18(1):182. doi: 10.1186/s13059-017-1299-7.
-Comprehensive benchmarking and ensemble approaches for metagenomic classifiers
-Alexa B R McIntyre 1 2 3, Rachid Ounit 4, Ebrahim Afshinnekoo 2 3 5, Robert J Prill 6, Elizabeth Hénaff 2 3, Noah Alexander 2 3, Samuel S Minot 7, David Danko 1 2 3, Jonathan Foox 2 3, Sofia Ahsanuddin 2 3, Scott Tighe 8, Nur A Hasan 9 10, Poorani Subramanian 9, Kelly Moffat 9, Shawn Levy 11, Stefano Lonardi 4, Nick Greenfield 7, Rita R Colwell 9 12, Gail L Rosen 13, Christopher E Mason 14 15 16
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1299-7
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5609029/
-Overall, pairing tools with different classification strategies (k-mer, alignment, marker) can combine their respective advantages.
-
-https://scholar.google.co.jp/scholar?cites=8605030642958534701&as_sdt=2005&sciodt=0,5&hl=ja
-
 
 ----------
 ## people
