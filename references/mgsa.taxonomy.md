@@ -474,6 +474,19 @@ https://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2006.00097.x
 ## updates
 
 ----------
+## 2026
+
+## 2026-01-27
+Meyer_2026-01_trends-ecology-evolution_Taxonomic_uncertainty
+
+https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(25)00356-8
+Taxonomic uncertainty: causes, consequences, and metrics: Trends in Ecology & Evolution
+
+10:51 PM · Jan 28, 2026
+https://x.com/Trends_Ecol_Evo/status/2016509398840143900
+Trends in Ecology & Evolution on X: "Online now: Taxonomic uncertainty: causes, consequences, and metrics https://t.co/zaijKAqXhu https://t.co/2aaY39VbUF" / X
+
+----------
 ## 2025
 
 ## 2025-09
@@ -502,6 +515,28 @@ Proc Natl Acad Sci USA, 106 (2009), pp. 19126-19131
 F.M. Cohan
 Bacterial species and speciation
 Syst Biol, 50 (2001), pp. 513-524
+
+
+## 2025-04
+https://pubmed.ncbi.nlm.nih.gov/40197908/
+Int J Syst Evol Microbiol
+. 2025 Apr;75(4):006747. doi: 10.1099/ijsem.0.006747.
+Setting new boundaries of 16S rRNA gene identity for prokaryotic taxonomy
+Timothy J Hackmann 1
+https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006747#tab2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12281934/
+
+Apr 9, 2025
+https://x.com/jcamthrash/status/1909951818832208265
+Cameron Thrash
+See Yarza et al. 2014 for comparison
+
+https://pubmed.ncbi.nlm.nih.gov/25118885/
+Review Nat Rev Microbiol
+. 2014 Sep;12(9):635-45. doi: 10.1038/nrmicro3330.
+Uniting the classification of cultured and uncultured bacteria and archaea using 16S rRNA gene sequences
+Pablo Yarza 1, Pelin Yilmaz 2, Elmar Pruesse 2, Frank Oliver Glöckner 3, Wolfgang Ludwig 4, Karl-Heinz Schleifer 4, William B Whitman 5, Jean Euzéby 6, Rudolf Amann 2, Ramon Rosselló-Móra 7
+https://www.nature.com/articles/nrmicro3330
 
 ----------
 ## 2024
