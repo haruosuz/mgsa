@@ -889,6 +889,22 @@ Peter F Chuckran 1, Katerina Estera-Molina 1 2, Alexa M Nicolas 1 3 4, Ella T Si
 https://www.pnas.org/doi/10.1073/pnas.2413032122
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11761963/
 
+### 2024-11-02
+https://pubmed.ncbi.nlm.nih.gov/39488524/
+Nat Commun
+. 2024 Nov 2;15(1):9472. doi: 10.1038/s41467-024-53753-w.
+The biogeography of soil microbiome potential growth rates
+Zhenghu Zhou 1 2, Chuankuan Wang 1, Xinyu Cha 3, Tao Zhou 1 2, Xuesen Pang 1 2, Fazhu Zhao 4, Xinhui Han 3, Gaihe Yang 3, Gehong Wei 5, Chengjie Ren 6
+https://www.nature.com/articles/s41467-024-50382-1
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11531530/
+
+Additionally, maximum potential growth rates estimated through genomic analyses or culture-based experiments64,65 may not accurately reflect actual growth rates in situ soils26,29,60. 
+
+60.Li, J. et al. Predictive genomic traits for bacterial growth in culture versus actual growth in soil. ISME J.13, 2162–2172 (2019). [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+65.Weissman, J. L., Hou, S. & Fuhrman, J. A. Estimating maximal microbial growth rates from cultures, metagenomes, and single cells via codon usage patterns. Proc. Natl. Acad. Sci. USA118, e2016810118 (2021). [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
 ### 2021-05-26
 https://pubmed.ncbi.nlm.nih.gov/34039416/
 Microbiome
@@ -934,10 +950,9 @@ https://www.ncbi.nlm.nih.gov/pubmed/18430960
 Genetics. 2008 Apr;178(4):2429-32. doi: 10.1534/genetics.107.086405.
 Nearly neutrality and the evolution of codon usage bias in eukaryotic genomes.
 Subramanian S1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2323827/
 Figure 1.—
 Relationship between codon usage bias and generation time of eukaryotes. 
-
 
 ### 2020-01
 https://pubmed.ncbi.nlm.nih.gov/32939027/
@@ -963,20 +978,30 @@ The maximum growth rate of each MAG was predicted using a customized growthpred 
 
 ### 2019
 
+### 2019-12-11
+
+https://pubmed.ncbi.nlm.nih.gov/31844663/
+Sci Adv
+. 2019 Dec 11;5(12):eaax5727. doi: 10.1126/sciadv.aax5727. eCollection 2019 Dec.
+Necrotizing enterocolitis is preceded by increased gut bacterial replication, Klebsiella, and fimbriae-encoding bacteria
+Matthew R Olm 1, Nicholas Bhattacharya 2, Alexander Crits-Christoph 1, Brian A Firek 3, Robyn Baker 4, Yun S Song 5 6 7, Michael J Morowitz 3, Jillian F Banfield 7 8 9 10
+https://www.science.org/doi/10.1126/sciadv.aax5727
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6905865/
+We performed extensive computational analyses on all samples to recover genomes de novo and determine their phylogeny, metabolic potential, and replication rates [index of replication (iRep) (7)].
+
+1:40 PM - 26 Feb 2019
+https://twitter.com/MattagenOlmics/status/1100465734046498816
+Matt Olm on Twitter: "(https://t.co/uHTZlq8Mf7), secondary metabolite gene clusters using antismash (https://t.co/nQrEixuomA), BoNTs using BoNTbase (https://t.co/QEOvEieBC3), and metabolisms using KEGG modules (https://t.co/7d6QwbVOQI). Growth rates of bacteria were calculated using iRep (5/7)"
+
 ### 2019-09
 https://pubmed.ncbi.nlm.nih.gov/31053828/
 ISME J
 . 2019 Sep;13(9):2162-2172. doi: 10.1038/s41396-019-0422-z. Epub 2019 May 3.
 Predictive genomic traits for bacterial growth in culture versus actual growth in soil
 Junhui Li 1, Rebecca L Mau 1, Paul Dijkstra 1 2, Benjamin J Koch 1 2, Egbert Schwartz 1 2, Xiao-Jun Allen Liu 1 2, Ember M Morrissey 3, Steven J Blazewicz 4, Jennifer Pett-Ridge 4, Bram W Stone 1, Michaela Hayer 1, Bruce A Hungate 5 6
-https://academic.oup.com/ismej/article/13/9/2162/7475251
+https://academic.oup.com/ismej/article/13/9/2162/7475251?login=false
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6776108/
 https://www.nature.com/articles/s41396-019-0422-z
-
-### 
-1:40 PM - 26 Feb 2019
-https://twitter.com/MattagenOlmics/status/1100465734046498816
-Matt Olm on Twitter: "(https://t.co/uHTZlq8Mf7), secondary metabolite gene clusters using antismash (https://t.co/nQrEixuomA), BoNTs using BoNTbase (https://t.co/QEOvEieBC3), and metabolisms using KEGG modules (https://t.co/7d6QwbVOQI). Growth rates of bacteria were calculated using iRep (5/7)"
 
 ### 2019-02-21
 https://pubmed.ncbi.nlm.nih.gov/30792386/
@@ -988,7 +1013,6 @@ https://www.nature.com/articles/s41467-019-08719-8
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6385201/
 
 ### 
-
 
 https://twitter.com/MicrobiomDigest/status/1090641480144711681
 Elisabeth Bik on Twitter: "Metagenome – Inferred bacterial replication rates in cystic fibrosis airways https://t.co/9mBQ5cyllD Note: this sounds similar to the iRep algorithm developed by @BanfieldLab but paywalled, so not sure.… https://t.co/XIlg0NuO3O"
