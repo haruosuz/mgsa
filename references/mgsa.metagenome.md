@@ -2928,38 +2928,22 @@ https://www.jstage.jst.go.jp/article/kagakutoseibutsu/51/12/51_802/_pdf
 メタ16Sからメタゲノム機能推定
 functional prediction
 
-日本語のツイート
-https://twitter.com/search?q=lang%3Aja%20(PICRUSt%20OR%20Tax4Fun%20OR%20Piphillin)&src=typed_query&f=live
-
 https://doi.org/10.7875/togotv.2019.203
 2019-12-16 メタゲノム解析ツール @ AJACS十勝2
 1:10:50 / 1:28:59
 アンプリコン解析データからの遺伝子機能組成推定
 
 ### PICRUSt
-
-01 June 2020
+2020-06
+https://pubmed.ncbi.nlm.nih.gov/32483366/
+Nat Biotechnol
+. 2020 Jun;38(6):685-688. doi: 10.1038/s41587-020-0548-6.
+PICRUSt2 for prediction of metagenome functions
+Gavin M Douglas 1, Vincent J Maffei 2, Jesse R Zaneveld 3, Svetlana N Yurgel 4, James R Brown 5, Christopher M Taylor 2, Curtis Huttenhower 6, Morgan G I Langille 7 8
 https://www.nature.com/articles/s41587-020-0548-6
-PICRUSt2 for prediction of metagenome functions | Nature Biotechnology
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7365738/
 
-11:32 AM · Jun 5, 2020
-https://twitter.com/maskot1977/status/1268732318077693952
-微生物群集のマーカー遺伝子シークエンシングの限界の一つは、サンプリングされた群集の機能的構成に関する情報が得られないことである。
-PICRUSt1は2013年に開発され、マーカー遺伝子シークエンシングプロファイルに基づいて細菌群集の機能的可能性を予測するために開発されましたが、この度、オリジナルの手法を改良したPICRUSt2（https://github.com/picrust/picrust2）を発表します。
-具体的には、PICRUSt2は、遺伝子ファミリーと参照ゲノムの更新された大規模なデータベースを含み、任意のオペレーショナル・タクソノミック・ユニット（OTU）ピッキングまたはデノアイジング・アルゴリズムとの相互運用性を提供し、表現型予測を可能にします。
-ベンチマークでは、PICRUSt2はPICRUStや他の競合する手法よりも全体的に精度が高いことが示されています。PICRUSt2では、カスタムの参照データベースを追加することも可能です。これらの改善点と、予測されたメタゲノムの使用に関する重要な注意点を強調しています。
-
-https://twitter.com/NoahFierer/status/1179101529044766720
-Noah Fierer on Twitter: "PiCrust2: when you want to predict metagenomes slightly better than random (sometimes) https://t.co/4FGgo4oAHN" / Twitter
-3:31 AM · Oct 2, 2019
-
-Posted June 15, 2019.
-https://www.biorxiv.org/content/10.1101/672295v1
-PICRUSt2: An improved and extensible approach for metagenome inference | bioRxiv
 https://github.com/picrust/picrust2
-Please note that PICRUSt2 is currently in beta.
-https://github.com/picrust/picrust2/wiki
-PICRUSt2 (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States) is a software for predicting functional abundances based only on marker gene sequences.
 
 https://en.wikipedia.org/wiki/PICRUSt
 
@@ -3057,7 +3041,6 @@ http://blog.goo.ne.jp/gooquruquru/e/72dd0c0494c54e0f2be827b54af33ba7
 
 ### 
 
-
 https://twitter.com/sai_kai_cs/status/1115428029235322880
 腸内細菌の16Sとメタゲノム比較論文。ちゃんと読んでないけど、PICRUStはPathwayレベルで相関係数0.80くらいのようだ 似てる経路もあれば似てない経路もある様子
 https://www.ncbi.nlm.nih.gov/pubmed/27148170
@@ -3084,11 +3067,5 @@ Okuda S1, Tsuchiya Y, Kiriyama C, Itoh M, Morisaki H.
 
 
 ----------
-
-
-
-
-
-
 
 
