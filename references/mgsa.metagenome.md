@@ -1261,17 +1261,11 @@ Managing batch effects in microbiome data
 Yiwen Wang 1, Kim-Anh LêCao 1
 https://academic.oup.com/bib/article/21/6/1954/5643537
 Data Availability Statement
-All analyses are fully reproducible and available as a bookdown document on the gitHub link, https://evayiwenwang.github.io/Managing_batch_effects/.
-
+All analyses are fully reproducible and available as a bookdown document on the gitHub link, 
 https://evayiwenwang.github.io/Managing_batch_effects/
 Managing Batch Effects in Microbiome Data
 Yiwen Wang, Kim-Anh Lê Cao
 2019-10-22
-
-https://colil.dbcls.jp/browse/papers/31776547/1/100/year
-Managing batch effects in microbiome data.
-Wang Y, LeCao KA Brief Bioinform. 2020 Dec 1;21(6):1954-1970. PMID:31776547
-    is cited by the following papers.
 
 ### ConQuR
 ### 2022-09-15
@@ -1292,7 +1286,6 @@ The R package ConQuR47 is available at https://github.com/wdl2459/ConQuR in form
 https://x.com/AhmedMoustafa/status/1649777593330159619
 Ahmed Moustafa on X: "Pretty good job reducing batch effect in #microbiome data by ConQuR in a single line of R code 👌🏻 #RStats #Bioinformatics https://t.co/gyk8lSHUYt https://t.co/AJqyYDd1j4" / X
 
-
 ### 2021-05-18
 https://pubmed.ncbi.nlm.nih.gov/34006335/
 Review Microbiome
@@ -1306,8 +1299,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8132403/
 https://twitter.com/phylogenomics/status/1396137556345974788
 Jonathan Eisen on X: "This is really a phenomenally useful paper that I think everyone interested in #microbiome studies should read: "Identifying biases and their potential solutions in human microbiome studies" by @JTNearing et al. https://t.co/dhWrS1sj1E https://t.co/Icn6HWhkrN" / X
 
-
-### 
+### 2019-07-01
 
 https://www.ncbi.nlm.nih.gov/pubmed/30388197
 Bioinformatics. 2019 Jul 1;35(13):2348. doi: 10.1093/bioinformatics/bty874.
@@ -1321,6 +1313,37 @@ A Metagenomic Meta-analysis Reveals Functional Signatures of Health and Disease 
 Armour CR1,2, Nayfach S3,4, Pollard KS4,5,6, Sharpton TJ7,8.
 https://msystems.asm.org/content/4/4/e00332-18
 "certain study effects (i.e., batch effects) are unlikely to be the source of variance between samples."
+
+### 2018-06-05
+
+https://pubmed.ncbi.nlm.nih.gov/29871915/
+mBio
+. 2018 Jun 5;9(3):e00525-18. doi: 10.1128/mBio.00525-18.
+Identifying and Overcoming Threats to Reproducibility, Replicability, Robustness, and Generalizability in Microbiome Research
+Patrick D Schloss 1
+https://journals.asm.org/doi/10.1128/mBio.00525-18
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5989067/
+
+ replicability
+ confounding variable
+ samples are not randomized across sequencing runs.
+ batch effects
+
+In sequence-based analyses, threats to replicability are encountered when samples are not randomized across sequencing runs. These so-called batch effects have been a problem with a large number of analytic techniques beyond sequencing (41).
+
+41.Leek JT, Scharpf RB, Bravo HC, Simcha D, Langmead B, Johnson WE, Geman D, Baggerly K, Irizarry RA. 2010. Tackling the widespread and critical impact of batch effects in high-throughput data. Nat Rev Genet 11:733–739. doi: 10.1038/nrg2825. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+----------
+
+https://pubmed.ncbi.nlm.nih.gov/20838408/
+Review Nat Rev Genet
+. 2010 Oct;11(10):733-9. doi: 10.1038/nrg2825. Epub 2010 Sep 14.
+Tackling the widespread and critical impact of batch effects in high-throughput data
+Jeffrey T Leek 1, Robert B Scharpf, Héctor Corrada Bravo, David Simcha, Benjamin Langmead, W Evan Johnson, Donald Geman, Keith Baggerly, Rafael A Irizarry
+https://www.nature.com/articles/nrg2825
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3880143/
+
+
 
 ----------
 ## meta-analysis
@@ -1665,23 +1688,6 @@ Jonathan Eisen on Twitter: "Not sure where you are going with this but I don't t
 
 https://phylogenomics.blogspot.com/2012/08/referring-to-16s-surveys-as.html
 The Tree of Life: Referring to 16S surveys as "metagenomics" is misleading and annoying #badomics #OmicMimicry
-
-----------
-
-### 2018-06-05
-
-https://pubmed.ncbi.nlm.nih.gov/29871915/
-mBio
-. 2018 Jun 5;9(3):e00525-18. doi: 10.1128/mBio.00525-18.
-Identifying and Overcoming Threats to Reproducibility, Replicability, Robustness, and Generalizability in Microbiome Research
-Patrick D Schloss 1
-https://journals.asm.org/doi/10.1128/mBio.00525-18
-https://pmc.ncbi.nlm.nih.gov/articles/PMC5989067/
-
- replicability
- confounding variable
- samples are not randomized across sequencing runs.
- batch effects
 
 ----------
 
