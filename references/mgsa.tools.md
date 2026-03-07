@@ -347,10 +347,33 @@ Masaomi Kurokawa 1, Koichi Higashi 1 2, Keisuke Yoshida 2, Tomohiko Sato 3, Shig
 https://academic.oup.com/dnaresearch/article/30/6/dsad024/7368459
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10660216/
 
+2.9. Prediction of OGT
+The OGT for each bacterial species was predicted based on the method reported by Zeldovich et al.11 
+
+O⁢G⁡T=937×𝐹𝐼⁢𝑉⁢𝑌⁢𝑊⁢𝑅⁢𝐸⁢𝐿 −335
+
+2.10. Calculation of the metagenomic predicted temperature and implementation of web application
+
 FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate metagenomic predicted temperature (MPT) instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
 
 https://www.nig.ac.jp/nig/ja/2023/11/research-highlights_ja/pr20231122.html
 環境温度は微生物群集をどのように規定するか〜環境中の微生物が持つ遺伝情報と環境温度を繋ぐ数理法則を発見〜 | 国立遺伝学研究所
+
+### 2007-01-12
+https://pubmed.ncbi.nlm.nih.gov/17222055/
+PLoS Comput Biol
+. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
+Protein and DNA sequence determinants of thermophilic adaptation
+Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1769408/
+
+Results
+Sequence Determinants of Thermal Adaptation of Soluble Proteins
+
+Figure 1. Correlation between the Sum F of Fractions of Ile, Val, Tyr, Trp, Arg, Glu, and Leu (IVYWREL) Amino Acids in 86 Proteomes and the OGT of Organisms T opt .
+
+The linear regression (red line) corresponds to the correlation coefficient R = 0.93. The OGT Topt (in degrees Celsius) can be calculated from the total fraction F of IVYWREL in the proteome according to Topt = 937F-335. 
 
 ### 2022-05-26
 https://pubmed.ncbi.nlm.nih.gov/35460223/
@@ -374,7 +397,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7511790/
 https://www.jstage.jst.go.jp/article/jsme2/35/3/35_ME20074/_html/-char/en
 
 ### 2019-09-15
-
 https://pubmed.ncbi.nlm.nih.gov/30689741/
 Bioinformatics
 . 2019 Sep 15;35(18):3224-3231. doi: 10.1093/bioinformatics/btz059.
@@ -383,20 +405,12 @@ David B Sauer 1, Da-Neng Wang 1
 https://academic.oup.com/bioinformatics/article/35/18/3224/5301315
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6748728/
 Optimal growth temperatures were predicted by multiple linear regression against the quantitative genomic, tRNA, rRNA, ORF and proteome features. Only those features with an absolute value of r greater than 0.3 were used as predictor variables for multiple linear regression (Supplementary Table S1). 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748728/#sup1
-btz059_supplementary_data.pdf
+
+Supplementary Material
+btz059_Supplementary_Data
+Click here for additional data file. (54.5MB, pdf)
+https://pmc.ncbi.nlm.nih.gov/articles/instance/6748728/bin/btz059_supplementary_data.pdf
 Table S1. Correlation of features to OGT. Features with |r| > 0.3 are shown in bold.
-
-### 2007-01-12
-
-https://pubmed.ncbi.nlm.nih.gov/17222055/
-PLoS Comput Biol
-. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
-Protein and DNA sequence determinants of thermophilic adaptation
-Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
-
 
 ----------
 
