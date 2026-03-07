@@ -319,8 +319,7 @@ https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12162-z
 https://pmc.ncbi.nlm.nih.gov/articles/PMC12553261/
 Predicting microbial physiological traits from genomes is a rapidly developing field. Various genomic features, such as codon usage [13], GC content [14], k-mer distributions [15], CRISPR-Cas content [16], and protein domain frequencies [17, 18], have been combined with multiple machine learning models (e.g., Random Forest, Support Vector Machines, Convolutional Neural Networks) and proven effective for predicting phenotypes like pH preference [19], oxygen requirements [20], growth rate (minimal doubling time) [13], and growth temperature [15]. For instance, tools based on codon usage bias, such as gRodon [13] and its improved hybrid version Phydon [21], can accurately estimate growth rates and have been used to predict this trait for as many as 111,349 microbial species.
 
-### 
-
+### 2025-05-12
 Posted May 12, 2025.
 https://www.biorxiv.org/content/10.1101/2025.03.03.640802v2.full
 Machine learning for optimal growth temperature prediction of prokaryotes using amino acid descriptors | bioRxiv
