@@ -309,30 +309,6 @@ https://www.nig.ac.jp/nig/ja/research-infrastructure-collaboration/methods-lab
 optimum growth temperature
 最適増殖温度
 
-### 2025-10-24
-https://pubmed.ncbi.nlm.nih.gov/41136894/
-BMC Genomics
-. 2025 Oct 24;26(1):957. doi: 10.1186/s12864-025-12162-z.
-Machine learning prediction of bacterial optimal growth temperature from protein domain signatures reveals thermoadaptation mechanisms
-Haida Liu # 1, Geyi Zhu # 1, Lijuan Chen 2, Hui Ye 3, Yunhua Zhang 4, Guomin Han 5 6
-https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12162-z
-https://pmc.ncbi.nlm.nih.gov/articles/PMC12553261/
-Predicting microbial physiological traits from genomes is a rapidly developing field. Various genomic features, such as codon usage [13], GC content [14], k-mer distributions [15], CRISPR-Cas content [16], and protein domain frequencies [17, 18], have been combined with multiple machine learning models (e.g., Random Forest, Support Vector Machines, Convolutional Neural Networks) and proven effective for predicting phenotypes like pH preference [19], oxygen requirements [20], growth rate (minimal doubling time) [13], and growth temperature [15]. For instance, tools based on codon usage bias, such as gRodon [13] and its improved hybrid version Phydon [21], can accurately estimate growth rates and have been used to predict this trait for as many as 111,349 microbial species.
-
-### 2025-05-12
-Posted May 12, 2025.
-https://www.biorxiv.org/content/10.1101/2025.03.03.640802v2.full
-Machine learning for optimal growth temperature prediction of prokaryotes using amino acid descriptors | bioRxiv
-
-### 2024-12-29
-https://pubmed.ncbi.nlm.nih.gov/39739114/
-Commun Biol
-. 2024 Dec 29;7(1):1709. doi: 10.1038/s42003-024-07436-3.
-Accurately predicting optimal conditions for microorganism proteins through geometric graph learning and language model
-Mingming Zhu # 1, Yidong Song # 1, Qianmu Yuan 1 2, Yuedong Yang 3 4
-https://www.nature.com/articles/s42003-024-07436-3
-https://pmc.ncbi.nlm.nih.gov/articles/PMC11683147/
-
 ### metathermo
 メタゲノム温度計
 
@@ -375,6 +351,30 @@ Figure 1. Correlation between the Sum F of Fractions of Ile, Val, Tyr, Trp, Arg,
 
 The linear regression (red line) corresponds to the correlation coefficient R = 0.93. The OGT Topt (in degrees Celsius) can be calculated from the total fraction F of IVYWREL in the proteome according to Topt = 937F-335. 
 
+### 2025-10-24
+https://pubmed.ncbi.nlm.nih.gov/41136894/
+BMC Genomics
+. 2025 Oct 24;26(1):957. doi: 10.1186/s12864-025-12162-z.
+Machine learning prediction of bacterial optimal growth temperature from protein domain signatures reveals thermoadaptation mechanisms
+Haida Liu # 1, Geyi Zhu # 1, Lijuan Chen 2, Hui Ye 3, Yunhua Zhang 4, Guomin Han 5 6
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12162-z
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12553261/
+Predicting microbial physiological traits from genomes is a rapidly developing field. Various genomic features, such as codon usage [13], GC content [14], k-mer distributions [15], CRISPR-Cas content [16], and protein domain frequencies [17, 18], have been combined with multiple machine learning models (e.g., Random Forest, Support Vector Machines, Convolutional Neural Networks) and proven effective for predicting phenotypes like pH preference [19], oxygen requirements [20], growth rate (minimal doubling time) [13], and growth temperature [15]. For instance, tools based on codon usage bias, such as gRodon [13] and its improved hybrid version Phydon [21], can accurately estimate growth rates and have been used to predict this trait for as many as 111,349 microbial species.
+
+### 2025-05-12
+Posted May 12, 2025.
+https://www.biorxiv.org/content/10.1101/2025.03.03.640802v2.full
+Machine learning for optimal growth temperature prediction of prokaryotes using amino acid descriptors | bioRxiv
+
+### 2024-12-29
+https://pubmed.ncbi.nlm.nih.gov/39739114/
+Commun Biol
+. 2024 Dec 29;7(1):1709. doi: 10.1038/s42003-024-07436-3.
+Accurately predicting optimal conditions for microorganism proteins through geometric graph learning and language model
+Mingming Zhu # 1, Yidong Song # 1, Qianmu Yuan 1 2, Yuedong Yang 3 4
+https://www.nature.com/articles/s42003-024-07436-3
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11683147/
+
 ### 2022-05-26
 https://pubmed.ncbi.nlm.nih.gov/35460223/
 Bioinformatics
@@ -383,18 +383,20 @@ CnnPOGTP: a novel CNN-based predictor for identifying the optimal growth tempera
 Shaojing Wang 1, Guoqiang Li 1, Zitong Liao 1, Yunke Cao 1, Yuan Yun 1, Zhaoying Su 1, Xuefeng Tian 1, Ziyu Gui 1, Ting Ma 1
 https://academic.oup.com/bioinformatics/article/38/11/3106/6572810
 
-### 2022-04-23
-### tempura
-http://togodb.org/db/tempura
-
-2020
+### 2020-07-29
 https://pubmed.ncbi.nlm.nih.gov/32727974/
 Microbes Environ
 . 2020;35(3):ME20074. doi: 10.1264/jsme2.ME20074.
 TEMPURA: Database of Growth TEMPeratures of Usual and RAre Prokaryotes
 Yu Sato 1, Kenji Okano 1, Hiroyuki Kimura 2 3, Kohsuke Honda 1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7511790/
 https://www.jstage.jst.go.jp/article/jsme2/35/3/35_ME20074/_html/-char/en
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7511790/
+http://togodb.org/db/tempura
+
+You can download all 16S rRNA gene seqeunces in this database here
+
+CSV
+http://togodb.org/release/200617_TEMPURA.csv
 
 ### 2019-09-15
 https://pubmed.ncbi.nlm.nih.gov/30689741/
