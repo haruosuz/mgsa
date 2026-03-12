@@ -67,7 +67,7 @@
 - [](#)
 - [mst](#mst) Microbial Source Tracking
 - [compositional](#compositional)
-
+- [rarefaction](#rarefaction)
 
 ----------
 
@@ -83,7 +83,72 @@ Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as
 
 
 ----------
+## rarefaction
 
+### 2024-02-28
+https://pubmed.ncbi.nlm.nih.gov/38251877/
+mSphere
+. 2024 Feb 28;9(2):e0035423. doi: 10.1128/msphere.00354-23. Epub 2024 Jan 22.
+Rarefaction is currently the best approach to control for uneven sequencing effort in amplicon sequence analyses
+Patrick D Schloss 1
+https://journals.asm.org/doi/10.1128/msphere.00354-23
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10900887/
+rarefaction is the most robust approach to control for uneven sequencing effort.
+
+Reproducible data analysis
+https://github.com/SchlossLab/Schloss_Rarefaction_mSphere_2024
+https://www.youtube.com/playlist?list=PLmNrK_nkqBpJuhS93PYC-Xr5oqur7IIWf
+動画
+
+### 2016/01/20
+https://youtu.be/9ZvoR89HYP8?list=PLOPiWVjg6aTzsA53N19YqJQeZpSCH9QPc&t=755
+Microbiome Discovery 7: Alpha Diversity
+Dan Knights
+
+### 2021-11-02
+https://pubmed.ncbi.nlm.nih.gov/34724986/
+Microbiome
+. 2021 Nov 2;9(1):213. doi: 10.1186/s40168-021-01166-y.
+M﻿etagenomic insights into the microbial communities of inert and oligotrophic outdoor pier surfaces of a coastal city
+Xinzhao Tong 1, Marcus H Y Leung 1, Zhiyong Shen 1, Justin Y Y Lee 1, Christopher E Mason 2 3 4 5, Patrick K H Lee 6 7
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01166-y
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8562002/
+
+Alpha- and beta-diversity analyses
+rarefied
+rarefaction
+
+### 2019-12-19
+https://pubmed.ncbi.nlm.nih.gov/31856911/
+Microbiome
+. 2019 Dec 19;7(1):160. doi: 10.1186/s40168-019-0772-9.
+The subway microbiome: seasonal dynamics and direct comparison of air and surface bacterial communities
+Jostein Gohli 1, Kari Oline Bøifot 2 3, Line Victoria Moen 2, Paulina Pastuszek 4, Gunnar Skogan 2, Klas I Udekwu 5, Marius Dybwad 2 3
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-019-0772-9
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6924074/
+
+Reads not assigned to the phylum level were removed before rarefication. All samples were rarified to the lowest read depth after assessing rarefication curves with observed diversity and Shannon’s diversity index. The data set was split into air and surface samples, and into surface types, before summarizing the most abundant phyla, families, and genera in both subsets.
+
+Rarefication curves for observed diversity and Shannon’s diversity index (Additional file 1: Figure S4) were evaluated before rarefying all samples to a common read depth of 6358, which removed only three samples.
+
+### 2025-12-01
+https://統計解析.com/column/2025-12-01-100/
+Rによる多様性指数の算出
+3.3 Rarefaction (レアファクション)
+4 Rで多様性指数を算出する (公開データセット)
+それでは、実際にRを使用して多様性指数を算出します。今回は、phyloseqパッケージ、microbiomeパッケージを使用して多様性指数を算出します。
+
+### 2019-05-20
+https://repository.kulib.kyoto-u.ac.jp/items/0c3a24d7-54cb-462b-856d-c099ccaf1e30
+生態学におけるビッグデータ解析の手法 --生物群集解析の基礎理論--
+https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/6a680105-6048-431b-a9a4-4b3ae4021a1a/content
+https://www.jstage.jst.go.jp/article/jriet/48/3/48_126/_pdf/-char/ja
+希釈法（rarefaction）
+図2 希釈化曲線
+
+### 2018.01.27
+https://stats.biopapyrus.jp/stats/rarefaction-curve.html
+希薄化曲線 | 多様性の解析などに利用する希薄化曲線
 
 ----------
 ## benchmark
@@ -231,7 +296,6 @@ Kraken: ultrafast metagenomic sequence classification using exact alignments
 Derrick E Wood, Steven L Salzberg
 https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-3-r46
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053813/
-
 
 更新日 2020年11月25日
 https://qiita.com/Adaachill/items/ec08e7701c9975616f36
