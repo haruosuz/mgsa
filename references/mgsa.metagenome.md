@@ -86,6 +86,8 @@ Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as
 ----------
 ## mock community
 
+### NBRC
+
 https://www.nite.go.jp/nbrc/cultures/cocktail/index.html
 NBRC微生物カクテルの提供 | バイオテクノロジー | 製品評価技術基盤機構
 
@@ -116,7 +118,6 @@ https://www.yodosha.co.jp/yodobook/book/9784758122832/
 https://www.nite.go.jp/nbrc/industry/microbiome/cocktail20220113.html
 NBRCヒト常在微生物カクテル | バイオテクノロジー | 製品評価技術基盤機構
 
-
 ### 2024
 https://www.jstage.jst.go.jp/article/jslab/35/1/35_31/_article/-char/ja
 総説
@@ -135,7 +136,6 @@ NITE 改良版 NBRC 微生物菌体カクテル ○ 15 汎用、均一な混合
 NITE 改良版 NBRC 微生物 DNA カクテル ○ 15 汎用、均一な混合
 NITE NBRC ヒト常在菌菌体カクテル ○ 18 ヒト腸内細菌叢、均一な混合
 NITE NBRC ヒト常在菌 DNA カクテル ○ 20 ヒト腸内細菌叢、均一な混合
-
 
 
 2024
@@ -193,8 +193,6 @@ e0191521.
 Assessment of metagenomic workflows using a newly constructed human gut microbiome mock community. DNA
 Res. 30: dsad010.
 
-
-
 11:35 AM · May 31, 2023
 https://twitter.com/Tyu_Shi/status/1663736034977521664
 Hiroshi Mori on X: "擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価 https://t.co/X9zWtvGZxQ 論文はこちら https://t.co/PRyZREPTHg" / X
@@ -212,8 +210,44 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC10229288/
 2. Materials and methods
 2.1 Mock community design
 
+### d6300_zymobiomics_microbial_community_standard
 
+https://files.zymoresearch.com/protocols/_d6300_zymobiomics_microbial_community_standard.pdf
+ZymoBIOMICS® Microbial Community Standard
+D6300
 
+Table 1. Microbial Composition
+
+Table 2. Strain Information
+
+Appendix B: Additional Strain Information
+
+NCBI Reference
+Accession No.
+
+### 2021-06-24
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8238498/
+Cell. 2021 Jun 24;184(13):3376–3393.e17. doi: 10.1016/j.cell.2021.05.002
+A global metagenomic map of urban microbiomes and antimicrobial resistance
+
+Process controls
+To assess the quality of our sampling procedure, we created multiple controlled scenarios. As a positive laboratory control, a Copan swab was introduced into a sterile urine cup with 30μl of a well-defined, accurately characterized microbial reference sample (ZymoBIOMICS Microbial Community Standard, Zymo Research, Cat.: D6300). A negative control was made by adding 50μl of the final resuspension buffer from the DNA isolation step into a sterile urine cup before introducing a Copan swab. Furthermore, a laboratory workbench was swabbed using our sampling procedure both before and after it was cleaned with a 10% bleach solution. To detect background contamination due to biological material in the air in sample areas, a dampened Copan swab was held in the air for approximately 3 min. 
+
+### 2019-05-01
+https://pubmed.ncbi.nlm.nih.gov/31089679/
+Gigascience
+. 2019 May 1;8(5):giz043. doi: 10.1093/gigascience/giz043.
+Ultra-deep, long-read nanopore sequencing of mock microbial community standards
+Samuel M Nicholls 1, Joshua C Quick 1, Shuiquan Tang 2, Nicholas J Loman 1
+https://academic.oup.com/gigascience/article/8/5/giz043/5486468
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6520541/
+
+Table 1.
+Description of the 10 organisms comprising the ZymoBIOMICS Mock Community Standards
+
+Methods
+DNA extraction
+DNA was extracted from 75 μl ZymoBIOMICS Microbial Community Standard (Zymo Research Corporation, Irvine, CA, USA. Product D6300, Lot ZRC190633)
 
 ----------
 ## rarefaction
