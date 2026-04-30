@@ -82,6 +82,139 @@ A global metagenomic map of urban microbiomes and antimicrobial resistance
 Applying these thresholds, we identified 1,145 microbial species (Figure 1B), as defined by the NCBI annotation in KrakenUniq, that make up the sub-core urban microbiome with 31 species in the true core microbiome (Figure 1A).
 
 
+
+----------
+## mock community
+
+https://www.nite.go.jp/nbrc/cultures/cocktail/index.html
+NBRC微生物カクテルの提供 | バイオテクノロジー | 製品評価技術基盤機構
+
+NBRC微生物カクテル-Basic-
+NBRC微生物カクテル-Basic-のラインナップと特徴
+
+NBRCヒト常在微生物カクテル
+NBRCヒト常在微生物カクテルのラインナップと特徴
+
+NBRC皮膚常在微生物カクテル
+NBRC皮膚常在微生物カクテルのラインナップと特徴
+
+### 2025-06-30
+https://www.yodosha.co.jp/yodobook/book/9784758122832/
+実験医学別冊：達人直伝　マイクロバイオーム研究実践プロトコール〜サンプル調製やデータ解析で陥りがちなピットフォールを攻略し、ヒト微生物叢の本来の姿を捉える - 羊土社
+服部正平／編
+2025年06月30日発行 B5判 205ページ ISBN 978-4-7581-2283-2
+
+2章　腸内微生物叢のマイクロバイオームデータの生産
+
+2　腸内細菌叢DNAの抽出技術（ビーズ法プロトコール）およびライブラリ調製【関口勇地】
+
+達人への一歩
+①定期的な精度管理を，その1【関口勇地】
+②定期的な精度管理を，その2【関口勇地】
+③定期的な精度管理を，その3【関口勇地】
+
+https://www.nite.go.jp/nbrc/industry/microbiome/cocktail20220113.html
+NBRCヒト常在微生物カクテル | バイオテクノロジー | 製品評価技術基盤機構
+
+
+### 2024
+https://www.jstage.jst.go.jp/article/jslab/35/1/35_31/_article/-char/ja
+総説
+ポジティブコントロールとしてマイクロバイオーム解析に用いる高品質のmock communityの開発
+大山 良文, 三浦 隆匡  , 川﨑 浩子
+キーワード: microbiome, NGS, experimental bias, reference material, mock community
+2024 年 35 巻 1 号 p. 31-40
+https://www.jstage.jst.go.jp/article/jslab/35/1/35_31/_pdf/-char/ja
+
+NITE が提供を行っている “NBRC ヒト常在微生物カクテル” と名付けた標準試料
+
+表 1.　現在市販されている MC タイプのマイクロバイオーム標準試料
+機関・企業 製品名 構成材料 構成
+株数 特徴 Cell DNA
+NITE 改良版 NBRC 微生物菌体カクテル ○ 15 汎用、均一な混合
+NITE 改良版 NBRC 微生物 DNA カクテル ○ 15 汎用、均一な混合
+NITE NBRC ヒト常在菌菌体カクテル ○ 18 ヒト腸内細菌叢、均一な混合
+NITE NBRC ヒト常在菌 DNA カクテル ○ 20 ヒト腸内細菌叢、均一な混合
+
+
+
+2024
+https://www.jstage.jst.go.jp/article/jslab/35/2/35_121/_article/-char/ja
+解説
+次世代シーケンサーデータの解析手法第23回メタゲノム解析（その2）
+森 宙史  , 門田 幸二 
+キーワード: アンプリコン解析, PCR増幅, プライマー, 疑似微生物群集
+2024 年 35 巻 2 号 p. 121-128
+https://www.jstage.jst.go.jp/article/jslab/35/2/35_121/_pdf/-char/ja
+
+解析データ（W1）
+DADA2 の入力として用いるのは、ヒトマイクロバイオーム計画（HMP）で構築された HM-280 という疑似微生物群集である（W1.1）8)。表 1 で示すように、これは計 22種類の菌株を等量混ぜて作成した細胞混合物である。このうち、18 ～ 19 番目が同じ Staphylococcus 属、20 ～ 22 番目が同じ Streptococcus 属であり、計 19 属で構成されている。従って、DADA2 の系統割り当て結果でこれを再現できるかどうかが主な性能評価指標となる。手元の HM-280 からリードデータを得る実験部分では、①HM-280を保存するバッファとして何を使うか（storagebuffer）、② DNA 抽出をどのキットを用いて行うか（DNAextraction kit）、PCR 増幅を③どの DNA ポリメラーゼや④プライマーを用いるか、そして⑤どのシーケンサを用いるかなど、それぞれのステップでいくつかの選択肢が存在する。前回も述べたように、アンプリコン解析結果はどのステップで何を使うかによっても左右されるため、答えが分かっている疑似微生物群集を用いた性能評価がよく行われる 9, 10)。
+
+表 1.　疑似微生物群集 HM-280 を構成する生物種
+No. Organism 16S rRNA 遺伝子の
+コピー数 RefSeq ID
+1 Acinetobacter baumannii, strain 5377 5 NC_009085
+
+Hallmaier-Wacker らの論文 9) の Table S1，および BEI Resources 上の HM-280 のページから辿れる Product Information Sheet の情報をまとめたものである（W1.2）．
+
+8）Gevers D, Pop M, Schloss PD, Huttenhower C (2012) Bioinformatics for the Human Microbiome Project. PLoS Comput
+Biol 8: e1002779.
+9）Hallmaier-Wacker LK, Lueert S, Roos C, Knauf S. The
+impact of storage buffer, DNA extraction method, and polymerase on microbial analysis. Sci Rep. 8: 6292.
+10）Mori H, Kato T, Ozawa H, Sakamoto M, Murakami T, et al.
+(2023) Assessment of metagenomic workflows using a newly constructed human gut microbiome mock community.
+DNA Res 30: dsad010.
+
+
+2024
+https://www.jstage.jst.go.jp/article/jslab/35/1/35_51/_article/-char/ja/
+総説
+次世代シーケンサーデータの解析手法第22回メタゲノム解析（その1）
+森 宙史  , 門田 幸二
+キーワード: 微生物群集, DNA抽出, 16S rRNA, 再現性
+2024 年 35 巻 1 号 p. 51-57
+https://www.jstage.jst.go.jp/article/jslab/35/1/35_51/_pdf/-char/ja
+https://www.jstage.jst.go.jp/article/jslab/35/1/35_51/_pdf
+
+DNA 抽出を含む様々なレベルでの性能評価に、複数
+の異なる系統（菌種）を等量混ぜた細胞混合物を用いる取
+り組みも行われている 7–8）。この分野では、この細胞混合
+物のことを mock community とよび、「モックコミュニ
+ティ」とそのままカタカナ読みする場合が多い。但し、こ
+れはただの細胞混合物にすぎないため、実際のメタゲノム
+解析用サンプルとは異なる疑似微生物群集だという点に留
+意せねばならない。
+
+7）Tourlousse DM, Narita K, Miura T, Ohashi A, Matsuda M,
+et al. (2022) Characterization and demonstration of mock
+communities as control reagents for accurate human microbiome community measurements. Microbiol Spectr. 10:
+e0191521.
+8）Mori H, Kato T, Ozawa H, Sakamoto M, Murakami T, Taylor TD, Toyoda A, Ohkuma M, Kurokawa K, Ohno H (2023)
+Assessment of metagenomic workflows using a newly constructed human gut microbiome mock community. DNA
+Res. 30: dsad010.
+
+
+
+11:35 AM · May 31, 2023
+https://twitter.com/Tyu_Shi/status/1663736034977521664
+Hiroshi Mori on X: "擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価 https://t.co/X9zWtvGZxQ 論文はこちら https://t.co/PRyZREPTHg" / X
+2023/05/31
+https://www.nig.ac.jp/nig/ja/2023/05/research-highlights_ja/pr20230531.html
+擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価
+https://pubmed.ncbi.nlm.nih.gov/37253538/
+DNA Res
+. 2023 Jun 1;30(3):dsad010. doi: 10.1093/dnares/dsad010.
+Assessment of metagenomic workflows using a newly constructed human gut microbiome mock community
+Hiroshi Mori 1 2, Tamotsu Kato 3 4, Hiroaki Ozawa 3 4, Mitsuo Sakamoto 5, Takumi Murakami 1 2, Todd D Taylor 6, Atsushi Toyoda 1 7, Moriya Ohkuma 5, Ken Kurokawa 1 2, Hiroshi Ohno 3 4 6
+https://academic.oup.com/dnaresearch/article/30/3/dsad010/7179629
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10229288/
+
+2. Materials and methods
+2.1 Mock community design
+
+
+
+
 ----------
 ## rarefaction
 
@@ -2767,24 +2900,6 @@ We perform a cross-disease meta-analysis of these studies using standardized met
 ### Mori
 
 https://researchmap.jp/himori/
-
-
-11:35 AM · May 31, 2023
-https://twitter.com/Tyu_Shi/status/1663736034977521664
-Hiroshi Mori on X: "擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価 https://t.co/X9zWtvGZxQ 論文はこちら https://t.co/PRyZREPTHg" / X
-2023/05/31
-https://www.nig.ac.jp/nig/ja/2023/05/research-highlights_ja/pr20230531.html
-擬似的なヒト腸内細菌群集を作製し様々な解析手法を評価
-https://pubmed.ncbi.nlm.nih.gov/37253538/
-DNA Res
-. 2023 Jun 1;30(3):dsad010. doi: 10.1093/dnares/dsad010.
-Assessment of metagenomic workflows using a newly constructed human gut microbiome mock community
-Hiroshi Mori 1 2, Tamotsu Kato 3 4, Hiroaki Ozawa 3 4, Mitsuo Sakamoto 5, Takumi Murakami 1 2, Todd D Taylor 6, Atsushi Toyoda 1 7, Moriya Ohkuma 5, Ken Kurokawa 1 2, Hiroshi Ohno 3 4 6
-https://academic.oup.com/dnaresearch/article/30/3/dsad010/7179629
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10229288/
-
-
-
 
 
 2024.03.09
