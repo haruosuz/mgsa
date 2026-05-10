@@ -2516,21 +2516,7 @@ https://academic.oup.com/gbe/article/4107938/
   - 例えばカナダBCの結核のアウトブレイク。記述疫学によるSocial Networkの絵は大変複雑になりましたが、菌の全ゲノム情報を元に分類すると、きれいに2つのクラスターがみえました。
  - [不法コカイン使用と結核流行 : 内科開業医のお勉強日記](http://intmed.exblog.jp/12182822/)
 
-#### Escherichia coli
-- 大腸菌 [Comparative genomics of recent Shiga toxin-producing Escherichia coli O104:H4: short-term evolution of an emerging pathogen. MBio. 2013 Jan 22](http://www.ncbi.nlm.nih.gov/pubmed/23341549)
-- 大腸菌 [Genomic epidemiology of the Escherichia coli O104:H4 outbreaks in Europe, 2011. Proc Natl Acad Sci U S A. 2012 Feb](http://www.ncbi.nlm.nih.gov/pubmed/22315421)
-- 大腸菌 [Ogura Y et al. PNAS. 2009 Oct. "Comparative genomics reveal the mechanism of the parallel evolution of O157 and non-O157 enterohemorrhagic Escherichia coli."](http://www.ncbi.nlm.nih.gov/pubmed/19815525)
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2764950/
-The gene contents of the 4 EHECs do not follow the phylogenetic relationships of the strains, and they share virulence genes for Shiga toxins and many other factors. 
-Fig. 3.
-4 EHECs は、系統的に近縁ではないが、遺伝子の有無は類似（病原遺伝子を共有）している。
-4 EHECs (O157, O26, O111, and O103) は、系統樹でクレードを形成しない (Fig. 3A) が、遺伝子の有無 (gene contents / gene repertoire) に基づくクラスター分析で得られたデンドログラムで単一クラスターを形成する (Fig. 3B).
-
-2011
-https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_article/-char/ja/
-腸管出血性大腸菌と腸管病原性大腸菌のゲノム解読と病原性進化メカニズムの解明
-https://www.jstage.jst.go.jp/article/jsb/66/2/66_2_175/_pdf/-char/ja
+#### our_publications
 
 - [下毛類](https://ja.wikipedia.org/wiki/下毛類)Euplotesの共生細菌 [Polynucleobacter necessarius, a model for genome reduction in both free-living and symbiotic bacteria. Proc Natl Acad Sci U S A. 2013 Nov ](http://www.ncbi.nlm.nih.gov/pubmed/24167248)
 - サルモネラ [Evolutionary Genomics of Salmonella enterica Subspecies. MBio. 2013 Mar](http://www.ncbi.nlm.nih.gov/pubmed/23462113)
@@ -2547,7 +2533,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/23011009
 Antonie Van Leeuwenhoek. 2013 Feb;103(2):385-98. doi: 10.1007/s10482-012-9819-7. Epub 2012 Sep 26.
 Comparative bacterial genomics: defining the minimal core genome.
 Huang CH1, Hsiang T, Trevors JT.
-
 
 
 ### Illumina
