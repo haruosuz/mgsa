@@ -332,7 +332,7 @@ O⁢G⁡T=937×𝐹𝐼⁢𝑉⁢𝑌⁢𝑊⁢𝑅⁢𝐸⁢𝐿 −335
 
 FIVYWREL values were calculated from the amino-acid fasta files, and Eq. 1 was applied to calculate metagenomic predicted temperature (MPT) instead of calculating OGT. Hereafter, we call this temperature prediction method the Metagenomic Thermometer, for which a web application (written in Python) is freely available at http://metathermo.jp/. Users can upload a fasta or fastq file for shotgun sequencing data and receive a corresponding MPT value.
 
-https://www.nig.ac.jp/nig/ja/2023/11/research-highlights_ja/pr20231122.html
+https://www.nig.ac.jp/highlights/4583/
 環境温度は微生物群集をどのように規定するか〜環境中の微生物が持つ遺伝情報と環境温度を繋ぐ数理法則を発見〜 | 国立遺伝学研究所
 
 ### 2007-01-12
